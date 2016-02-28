@@ -1,0 +1,7 @@
+.vagrant
+.vagrant-pc
+.vagrant-notebook
+Vagrantfile
+
+*.toc
+*.pdf

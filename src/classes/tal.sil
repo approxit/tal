@@ -1,0 +1,74 @@
+<sile class="tal" papersize="a4">
+	<define command="TAL">Tales and Legends</define>
+	<define command="TaL">TaL</define>
+
+	<define command="TODO">&lt;TODO: <process />&gt;<par /></define>
+	<define command="p"><process /><par /></define>
+	<define command="key"><process /></define>
+	<define command="quote">„<process />”</define>
+	<define command="center"><process /><par /></define>
+	<define command="chapter"><process /><par /></define>
+	<define command="section"><process /><par /></define>
+	<define command="subsection"><process /><par /></define>
+	<define command="header"><process /><par /></define>
+	<define command="item:title"><process />: </define>
+	<define command="link"><process /></define>
+	<define command="footnote"><process /></define>
+	<define command="footmark"><process /></define>
+	<define command="supereject"><vfill /><penalty penalty="-20000" /></define>
+	<define command="table">
+		<define command="caption"><process /><par /></define>
+		<define command="thead">
+			<define command="tr">
+				<define command="td"><process /></define>
+				<process /><br />
+			</define>
+			<process />
+		</define>
+		<define command="tbody">
+			<define command="tr">
+				<define command="td"><process /></define>
+				<process /><br />
+			</define>
+			<process />
+		</define>
+		<define command="tfoot">
+			<define command="tr">
+				<define command="td"><process /></define>
+				<process /><br />
+			</define>
+			<process />
+		</define>
+		<process /><par />
+	</define>
+
+	<define command="tal:language">
+		<define command="name"><process /><br /></define>
+		<define command="native"><process /><br /></define>
+		<define command="group"><process /><br /></define>
+		<define command="alphabet">Alfabet: <process /><br /></define>
+		<define command="requirements">Wymagania: <process /><br /></define>
+		<define command="appearance">Występowanie: <process /><br /></define>
+		<define command="description">Opis: <process /><br /></define>
+		<process /><par />
+	</define>
+	<define command="tal:skill">
+		<define command="name"><process /><br /></define>
+		<define command="test">Test: <process /><br /></define>
+		<define command="synergy">Synergia: <process /><br /></define>
+		<define command="bonus">Zdolności premiowe: <process /><br /></define>
+		<define command="description"><process /><br /></define>
+		<process /><par />
+	</define>
+	<define command="tal:feat">
+		<define command="name"><process /><br /></define>
+		<define command="requirements">Wymagania: <process /><br /></define>
+		<define command="profit">Korzyść: <process /><br /></define>
+		<define command="special">Specjalne: <process /><br /></define>
+		<define command="normal">Normalnie: <process /><br /></define>
+		<define command="cost">Koszt dostrojenia: <process /><br /></define>
+		<define command="animal">Zwierzę: <process /><br /></define>
+		<define command="action">Czyn: <process /><br /></define>
+		<process /><par />
+	</define>
+</sile>

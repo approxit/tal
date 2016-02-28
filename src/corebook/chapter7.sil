@@ -1,0 +1,2453 @@
+<sile>
+	<chapter>Zdolności</chapter>
+	<p>W mechanice gry zdolnościami nazywamy specjalne moce lub inaczej talenty, które posiada postać. Zdolności mogą być najróżniejszych rodzajów, od tych związanych z walką, przez te wynikających z wychowania, do tych będących efektem uprawiania magii lub rozwoju swego ducha.</p>
+	<p>Niektóre zdolności są lepsze od pozostałych, co widać na pierwszy rzut oka. Zasadnym jest więc, aby Gracz wybierał dla swej postaci tylko te zdolności, które w jej perspektywie okażą się przydane. Nie istnieje obowiązek posiadania zdolności innych od tego, który stwarzają realia gry i chęć dania swojemu ulubieńcowi (Bohaterowi Gracza) możliwości przetrwania kolejnej przygody.</p>
+	<p>Zdolności w przeciwieństwie do umiejętności nie zwiększają kosztu zdobywania ich. Każda zdolność kosztuje 1000 punktów doświadczenia, ale uwaga (!) – niektóre zdolności, aby je zdobyć muszą mieć uprzednio spełnione wymagania (i to w sposób permanentny przez postać) lub wymagają zdobycia ich na etapie tworzenia gry (wrodzone i pochodzenia).</p>
+
+	<header>Premiowe zdolności</header>
+	<p>Zdolności można zdobywać również za darmo, gdyż niektóre zdolności można wybrać z uwagi na rozwijanie jakiejś umiejętności. W tym przypadku postać może wybrać 1 zdolność po zdobyciu 5 poziomu jakiejś umiejętności i kolejną zdolność co każde zdobyte 5 poziomów tejże umiejętności. Postać może jednak w ten sposób wybierać premiowe zdolności, tylko jeżeli są one w jakiś sposób związane z umiejętnością, którą rozwija, a dokładniej, gdy znajdują się one na premiowej liście zdolności danej umiejętności. Aby wybrać premiową zdolność postać musi spełniać jej wymagania w taki sam sposób jak przy innych zdolnościach – czyli w sposób permanentny.</p>
+	<p>Jeżeli postać z jakiegoś powodu w pewnym momencie straci właściwości uznawane za wymagane dla danej zdolności, to automatycznie traci możliwość osiągania z niej korzyści do czasu odzyskania swych bazowych właściwości.</p>
+
+	<section>Zdolności ogólne</section>
+	<p>Zdolności ogólne są największą grupą możliwych do opanowania przez postać zdolności. Większość zwykłych osób żyjących w Sorii ma tylko i wyłącznie te zdolności, gdyż inne najzwyczajniej nie są im potrzebne. Wiele z zaprezentowanych tu zdolności w jakiś sposób odnosi się do materiałów zamieszczonych w rozdziałach Mechanika i Świat Przygód. Istotą zdolności ogólnych jest to, że są one ogólne, a więc statystycznie najczęściej będą okazywały się przydatne.</p>
+	<p>Postać nie musi spełniać jakichś dodatkowych wymagań, prócz tych opisanych w wymaganiach każdej ze zdolności, aby ją poznać.</p>
+	<table>
+		<caption>Lista zdolności ogólnych</caption>
+		<thead>
+			<tr>
+				<td>Nazwa</td>
+				<td>Wymagania<footnote>Litera <quote>A</quote> oznacza atrybut, <quote>C</quote> cechę dodatkową, <quote>R</quote> rasę, a <quote>Z</quote> zdolność.</footnote></td>
+			</tr>
+		</thead>
+		<tbody>
+			<TODO>tabelka razem z synergiami i testem</TODO>
+		</tbody>
+	</table>
+
+	<tal:feat>
+		<name>Agresywny atak</name>
+		<requirements>Umiejętność: Krzepa poziom 10.</requirements>
+		<profit>Postać wykonując walkę agresywną zadaje obrażenia o jedną kategorię większe.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Akrobatyczny atak</name>
+		<requirements>Umiejętność: Akrobatyka poziom 10; Zdolność: Akrobatyczna obrona.</requirements>
+		<profit>Postać korzystając z akrobatycznej obrony do końca tury otrzymuje premię do testów trafień przy atakach bezpośrednich równą połowie posiadanych poziomów umiejętności akrobatyka.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Akrobatyczna obrona</name>
+		<requirements>Umiejętność: Akrobatyka poziom 1.</requirements>
+		<profit>Użycie zdolności wymaga poświęcenia akcji zwykłej. Do końca rundy postać otrzymuje modyfikator do obrony równy posiadanym poziomom umiejętności akrobatyka.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Aksjomatyzacja (umiejętność)</name>
+		<requirements>Umiejętność: Wiedza (filozofia) poziom 5.</requirements>
+		<profit>Premia +2 do dowolnej umiejętności.</profit>
+		<special>Zdolność można wziąć wielokrotnie. Za każdym razem będzie dotyczyła innej umiejętności.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Alkoholowe wgadanie</name>
+		<requirements>Umiejętność: Mocna głowa poziom 1.</requirements>
+		<profit>Punty upicia (zmęczenia) nie działają na testy związane z charyzmą jako kara, lecz jako premia, ale pod warunkiem, że nie jest ich więcej niż wynosi poziom mocnej głowy postaci, gdyż wtedy zamieniają się one na normalną karę.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Alkoholowy geniusz</name>
+		<requirements>Umiejętność: Mocna głowa poziom 1.</requirements>
+		<profit>Punty upicia (zmęczenia) nie działają na testy związane z inteligencją jako kara, lecz jako premia, ale pod warunkiem, że nie jest ich więcej niż wynosi poziom mocnej głowy postaci, gdyż wtedy zamieniają się one na normalną karę.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Atak bestii</name>
+		<requirements>Umiejętność: Jeździectwo (bestie) poziom 10.</requirements>
+		<profit>Gdy bestia atakuje mając na sobie jeźdźca, który wymiera cel ataku, otrzymuje modyfikator do trafienia równy synergii z jeździectwa.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Atak z zaskoczenia</name>
+		<profit>Premia +1k6 do obrażeń zadanych przeciwnikowi zaskoczonemu atakiem. Obrażenia powstają tylko w wypadku trafienia w ciało. W przypadku ataku dystansowego cel musi być w zasięgu 10 m.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Bajdurzenie</name>
+		<requirements>Umiejętność: Plotkowanie poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię z plotkowania do sztuki (oratorstwa) oraz blefowania (umiejętności perswazji).</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Berserk</name>
+		<profit>Postać może wpaść w berserk w ciągu akcji cało-rundowej. Trwa on ilość rund równą wytrwałości postaci lub do chwili, gdy postać się uspokoi albo zostanie oszołomiona. W czasie trwania berserku postać otrzymuje modyfikator +2 do szybkości, +4 do siły oraz -2 do obrony fizycznej. Gdy berserk dobiega końca postać otrzymuje 6 punkty zmęczenia. Postać, gdy wpadnie w berserk może wykonywać tylko 2 rodzaje akcji – te związane z ruchem (przemieszczaniem się) i atakowaniem bronią bezpośrednią lub bronią miotaną. Premia do siły zapewniana przez berserk jest również modyfikatorem wszystkich testów opanowania przy opieraniu się strachowi, gdy jest się w berserku.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Bez głodu i pragnienia</name>
+		<requirements>Atrybut: Kondycja 12.</requirements>
+		<profit>Premia +2 do wytrwałości na potrzeby opierania się efektom głodu i pragnienia.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty kumulują się ze sobą. Za każdym kolejnym razem, gdy postać sięga po tę zdolność rosną wymagania: +3 do kondycji, względem poprzedniego użycia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Bieganie</name>
+		<requirements>Umiejętność: Akrobatyka 10 oraz Inicjatywa 10.</requirements>
+		<profit>Postać może biec z szybkością x7, gdy poświęca na to akcję cało-rundową.</profit>
+		<normal>W akcji cało-rundowej postać może przebiec na odległość szybkość x6.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Biegłość (nazwa)</name>
+		<profit>Zdolność ta dotyczy wyszkolenia w obsługiwaniu konkretnej broni. Nazwy możliwych biegłości wskazano w tabeli z lewej strony, a wymagania tych konkretnych biegłości po prawej stronie. Korzyść posiadania każdej biegłości jest taki sam – Postać nie otrzymuje kary -5 do testów wykorzystania broni wskazanej w nazwie zdolności.</profit>
+	</tal:feat>
+	<table>
+		<caption>Wykaz możliwych biegłości w broni</caption>
+		<thead>
+			<tr>
+				<td>Nazwa biegłości</td>
+				<td>Wymagania</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Bolas</td>
+				<td>U: Rzucanie 5</td>
+			</tr>
+			<tr>
+				<td>Broń długa</td>
+				<td>U: Broń drzewcowa 5</td>
+			</tr>
+			<tr>
+				<td>Broń wieloostrzowa</td>
+				<td>A: Pe 12; U: Rzucanie 10</td>
+			</tr>
+			<tr>
+				<td>Chłoszcz orkowy</td>
+				<td>U: Rzucanie 5</td>
+			</tr>
+			<tr>
+				<td>Czarna szabla</td>
+				<td>U: Szabla 10</td>
+			</tr>
+			<tr>
+				<td>Drowi poganiacz</td>
+				<td>U: Rzucanie 5</td>
+			</tr>
+			<tr>
+				<td>Drowi sztylet</td>
+				<td>U: Sztylet 5</td>
+			</tr>
+			<tr>
+				<td>Elficki króciak</td>
+				<td>A: Zr 14; U: Miecz 10</td>
+			</tr>
+			<tr>
+				<td>Elficki łuk długi</td>
+				<td>A: Zr 16; U: Łuk 15</td>
+			</tr>
+			<tr>
+				<td>Elficki łuk krótki</td>
+				<td>A: Zr 16; U: Łuk 10</td>
+			</tr>
+			<tr>
+				<td>Elficki miecz długi</td>
+				<td>A: Zr 14; U: Miecz 10</td>
+			</tr>
+			<tr>
+				<td>Jorowa cicho-sza</td>
+				<td>U: Kusza 10; Z: Dmuchawka</td>
+			</tr>
+			<tr>
+				<td>Jorowy łuk</td>
+				<td>U: Łuk 5</td>
+			</tr>
+			<tr>
+				<td>Jury</td>
+				<td>A: Zr 14; U: Walka wręcz 5</td>
+			</tr>
+			<tr>
+				<td>Kiściec</td>
+				<td>U: Broń obuchowa 5</td>
+			</tr>
+			<tr>
+				<td>Kusza krasnoludzka</td>
+				<td>U: Kusza 5</td>
+			</tr>
+			<tr>
+				<td>Kusza powtarzalna</td>
+				<td>U: Kusza 5</td>
+			</tr>
+			<tr>
+				<td>Lasso</td>
+				<td>U: Rzucanie 5</td>
+			</tr>
+			<tr>
+				<td>Łuk refleksyjny</td>
+				<td>U: Łuk 10</td>
+			</tr>
+			<tr>
+				<td>Młot bojowy</td>
+				<td>U: Broń obuchowa 5</td>
+			</tr>
+			<tr>
+				<td>Miecz półtora-ręczny</td>
+				<td>A: Si 12; U: Miecz 5</td>
+			</tr>
+			<tr>
+				<td>Miecz zębowy</td>
+				<td>U: Miecz 5</td>
+			</tr>
+			<tr>
+				<td>Pawęż</td>
+				<td>U: Tarcza 5</td>
+			</tr>
+			<tr>
+				<td>Pika</td>
+				<td>U: Broń drzewcowa 5</td>
+			</tr>
+			<tr>
+				<td>Podcinacz krasnoludzki</td>
+				<td>U: Miecz 10</td>
+			</tr>
+			<tr>
+				<td>Puklerz</td>
+				<td>U: Tarcza 5</td>
+			</tr>
+			<tr>
+				<td>Proca</td>
+				<td>U: Rzucanie 5</td>
+			</tr>
+			<tr>
+				<td>Sai</td>
+				<td>U: Sztylet 5</td>
+			</tr>
+			<tr>
+				<td>Skorpion orkowy</td>
+				<td>A: Si 16; U: Kusza 5</td>
+			</tr>
+			<tr>
+				<td>Sieć</td>
+				<td>U: Rzucanie 5</td>
+			</tr>
+			<tr>
+				<td>Szpada</td>
+				<td>U: Szabla 5</td>
+			</tr>
+			<tr>
+				<td>Sztylet bojowy</td>
+				<td>U: Sztylet 5</td>
+			</tr>
+			<tr>
+				<td>Tarcza herbowa</td>
+				<td>U: Tarcza 5</td>
+			</tr>
+			<tr>
+				<td>Tarcza jazdy</td>
+				<td>U: Tarcza 5</td>
+			</tr>
+			<tr>
+				<td>Topór bojowy</td>
+				<td>U: Topór 5</td>
+			</tr>
+			<tr>
+				<td>Topór półtora-ręczny</td>
+				<td>A: Si 12; U: Topór 5</td>
+			</tr>
+			<tr>
+				<td>Wielki miecz</td>
+				<td>A: Si 14; U: Miecz 5</td>
+			</tr>
+			<tr>
+				<td>Wielki młot</td>
+				<td>A: Si 16; U: Broń obuchowa 5</td>
+			</tr>
+			<tr>
+				<td>Wielki topór</td>
+				<td>A: Si 14; U: Topór 5</td>
+			</tr>
+			<tr>
+				<td>Żelaźniak orkowy</td>
+				<td>A: Si 16; U: Miecz 5</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<tal:feat>
+		<name>Biegłość w zbroi</name>
+		<profit>Postać nosząc zbroję w której ma biegłość odczuwa realny spadek wagi zbroi o połowę, co przekłada się na kary z przeciążenia.</profit>
+		<special>Zdolność można wziąć 3 razy. Za każdym razem będzie ona usuwała ograniczenia z kolejnej, wyższej kategorii zbroi. 1 – lekka, 2 – średnia, 3 – ciężka.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Bitewna furia</name>
+		<requirements>Zdolność: Berserk.</requirements>
+		<profit>Gdy wpadasz w berserk otrzymujesz akcję dodatkową w każdej rundzie trwania szału. Nie możesz ze stanu berserku wyjść dobrowolnie, ani zakończyć go przed czasem.</profit>
+		<special>Jeżeli jesteś w berserku i w zasięgu 16 m skończą się dla Ciebie przeciwnicy, to atakujesz sojuszników (i ich zabijasz). Poza tym po zakończeniu berserku postać ma 25% szansy na otrzymanie 1 punktu szaleństwa.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Błyskawiczna finta</name>
+		<requirements>Umiejętność: Inicjatywa poziom 10, Zdolność: Doskonalsza finta.</requirements>
+		<profit>Raz w turze postać może skorzystać z finty w akcji darmowej.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują pozwalając postaci w rundzie wielokrotnie korzystać z finty <quote>za darmo</quote>, ale za każdym kolejnym razem, gdy postać sięga po tę zdolność jej wymagania umiejętności wzrastają o +10 poziomów względem poprzedniego wyboru.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Błyskawiczne padanie</name>
+		<requirements>Umiejętność: Akrobatyka poziom 10.</requirements>
+		<profit>Postać upada w akcji darmowej.</profit>
+		<normal>Postać może upaść w akcji dodatkowej.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Błyskawiczne parowanie (władanie)</name>
+		<requirements>Atrybut: Refleks 12, Umiejętność: Władanie (dowolne) 10.</requirements>
+		<profit>Raz w turze postać może parować w akcji darmowej bronią / tarczą, która ma cechę Parowanie (Szybkie).</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują pozwalając postaci w rundzie wielokrotnie parować <quote>za darmo</quote>, ale za każdym kolejnym razem, gdy postać sięga po tę zdolność jej wymagania umiejętności wzrastają o +10 poziomów względem poprzedniego wyboru. Poza tym postać może wziąć tę zdolność dla każdego władania dotyczącego broni, którą można parować w sposób szybki.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Błyskawiczny unik</name>
+		<requirements>Umiejętność: Unik poziom 5.</requirements>
+		<profit>Raz w turze postać może wykonać unik w akcji darmowej.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują pozwalając postaci na wiele <quote>darmowych</quote> uników, ale każde kolejne wzięcie tej zdolności wymaga dodatkowych 5 poziomów umiejętności względem poprzedniego wzięcia zdolności.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Broń celowania</name>
+		<requirements>Umiejętność: Władanie (kusza) poziom 10.</requirements>
+		<profit>Jeżeli postać celowała przed atakiem, to nie musi poświęcać akcji na test ataku – staje się on częścią celowania. Dotyczy to tylko broni posiadających cechę o nazwie tej zdolności.</profit>
+		<normal>Bez tej zdolności skorzystanie z broni o takiej cesze wymaga poświęcenia akcji zwykłej.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Broń kawaleryjska</name>
+		<requirements>Umiejętność: Jeździectwo (dowolne) poziom 5.</requirements>
+		<profit>Postać korzysta z broni kawaleryjskiej bez kary -10.</profit>
+		<normal>Bez tej zdolności skorzystanie z broni o takiej cesze wiąże się z karą -10 do wszystkich testów nią wykonywanych.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Broń szermiercza</name>
+		<requirements>Atrybut: Refleks 14, Umiejętność: Władanie (szabla) poziom 10.</requirements>
+		<profit>Postać na wykonanie ataku bronią z taką cechą potrzebuje tylko akcji dodatkowej.</profit>
+		<normal>Bez tej zdolności skorzystanie z broni o takiej cesze wymaga poświęcenia akcji zwykłej.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Brzuchomówca</name>
+		<requirements>Atrybut: Percepcja 14.</requirements>
+		<profit>Postać potrafi mówić bez poruszania ustami. Dźwięk wydobywa się z lekko otwartych ust, których nie trzeba poruszać, aby artykułować mowę.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Budowanie schronienia</name>
+		<requirements>Umiejętność: Sztuka przetrwania poziom 5.</requirements>
+		<profit>Postać zdając test sztuki przetrwania o ST=30 może zbudować schronie etc. w czasie o połowę krótszym.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Burda</name>
+		<requirements>Umiejętność: Walka wręcz poziom 1.</requirements>
+		<profit>Postać nie ponosi kar do testów ataku wykonanych przy pomocy broni improwizowanej.</profit>
+		<normal>Przypadkowe przedmioty użyte podczas walki w charakterze broni (krzesło, kamień, noga od stołu, etc.) powodują karę -5 do trafienia.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Byczek</name>
+		<requirements>Umiejętność: Zastraszanie poziom 5.</requirements>
+		<profit>W przypadku nieudanego testu zastraszania postać nie ośmiesza się w oczach zastraszanego.</profit>
+		<normal>Porażka w teście zastraszania oznacza, że zastraszający kompromituje się w jakimś stopniu w oczach zastraszanego i ten do kolejnych testów odporności na zastraszenie otrzymuje premię +5.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Bystry rozmówca</name>
+		<requirements>Umiejętność: Perswazja poziom 10.</requirements>
+		<profit>Postać otrzymuje premię do testu perswazji w wysokości 1/4 percepcji.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się kumulują, ale każde kolejne sięgnięcie po tę zdolność wymaga 10 poziomów perswazji więcej niż poprzednim razem.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Celowanie (władanie)</name>
+		<requirements>Umiejętność: Władanie (dowolne z wyjątkiem tarczy) poziom 1.</requirements>
+		<profit>Premia do testu trafienia, gdy postać celuje w wysokości 1/4 percepcji.</profit>
+		<special>Postać może wziąć tę zdolność dla kolejnych umiejętności władania, jak również wielokrotnie dla jednej, ale w tym drugim przypadku rosną wymagania wpierw do 5 poziomu, a następnie o 5 poziomów względem poprzedniego użycia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Cios wiązany</name>
+		<requirements>Umiejętność: Inicjatywa poziom 1.</requirements>
+		<profit>Kara do testów ataków przy ataku wielokrotnym spada o 2.</profit>
+		<special>Zdolność można wziąć maksymalnie 4 razy, a jej efekty się sumują, ale rosną wymagania umiejętności wpierw do 5 poziomu, a następnie o 5 poziomów względem poprzedniego użycia. Wzięcie tej zdolności 4 razy spowoduje zmniejszenie kary za każdy atak do -2.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Czujność</name>
+		<requirements>Atrybut: Percepcja 16, Zdolność: Specjalizacja II (spostrzegawczość).</requirements>
+		<profit>Postać jest zawsze czujna i nie dotyczą jej kary do spostrzegawczości za zaskoczenie.</profit>
+		<normal>Postać, gdy jest odprężona otrzymuje karę -10 do spostrzegawczości.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Czytanie i pisanie</name>
+		<requirements>Atrybut: Inteligencja 8.</requirements>
+		<profit>Postać potrafi: czytać i pisać w każdym znanym sobie języku, a także rachować.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Czytanie z ruchu warg</name>
+		<requirements>Atrybut: Percepcja 12.</requirements>
+		<profit>Postać jeżeli jest w stanie widzieć usta osoby, która mówi w znanym jej języku może na podstawie ich ruchu i ułożenia rozszyfrować wypowiadane słowa, gdy zda test spostrzegawczości o ST=35.</profit>
+		<special>MG może pozwolić każdej postaci na zdanie tego testu, ale ST winno wynosić 50+.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Daleki rzut</name>
+		<requirements>Umiejętność: Rzucanie poziom 5.</requirements>
+		<profit>Zasięg rzutu bronią miotaną rośnie o 1/4 siły w metrach.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się kumulują. Za każdym kolejnym razem, gdy postać sięga po tę zdolność rosną wymagania: +5 do rzucania, względem poprzedniego użycia. Zwiększony zostaje zawsze bazowy zasięg rzutu bronią.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Daleki strzał</name>
+		<requirements>Umiejętność: Łuk poziom 10.</requirements>
+		<profit>Maksymalny zasięg na jaki możesz wystrzelić pocisk z łuku zwiększa się o 20%.</profit>
+		<special>Zdolność możesz wziąć wielokrotnie, a jej efekty będą się sumowały zwiększając bazowy zasięg o sumaryczny procent. Każde kolejne wzięcie tej zdolności wymaga 5 poziomów umiejętności więcej, niż przy ostatnim wybraniu.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Deszyfrowanie</name>
+		<requirements>Umiejętność: Fałszerstwo poziom 5, Zdolność: Czytanie i pisanie.</requirements>
+		<profit>Postać otrzymuje synergię z fałszerstwa do wiedzy (tajemnej), gdy używa się jej przy odcyfrowywaniu zapisków.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Długi krok</name>
+		<requirements>Współczynnik: Szybkość 10.</requirements>
+		<profit>Postać raz w rundzie w darmowej akcji może przemieścić się nie o 1 m, lecz o 2 m.</profit>
+		<normal>Postać raz w rundzie w darmowej akcji może przemieścić się o 1 m.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Długi szał</name>
+		<requirements>Zdolność: Berserk.</requirements>
+		<profit>Berserk trwa 6 rund dłużej (1 minutę dłużej).</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Dmuchawka</name>
+		<requirements>Umiejętność: Kusza poziom 1.</requirements>
+		<profit>Postać korzysta z dmuchawki bez kary -10.</profit>
+		<normal>Bez tej zdolności skorzystanie z broni o takiej cesze wiąże się z karą -10 do wszystkich testów nią wykonywanych.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Dobór słów</name>
+		<requirements>Umiejętność: Perswazja poziom 5.</requirements>
+		<profit>Premia z synergii od perswazji dla zastraszania zwiększa się dwukrotnie.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Dobra bestia</name>
+		<requirements>Umiejętność: Tresura poziom 10, Zdolność: Specjalizacja (tresura).</requirements>
+		<profit>Postać nie ponosi kary, gdy trenuje zwierzę z cechą <quote>bestia</quote>.</profit>
+		<normal>Kara przy tresowaniu bestii wynosi -10.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Dodatkowa akcja</name>
+		<requirements>Umiejętność: Inicjatywa poziom 20, Zdolność: Specjalizacja III (inicjatywa).</requirements>
+		<profit>Postać otrzymuje dodatkową akcję w każdej rundzie, która sumuje się z ilością innych dostępnych postaci akcji.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują. Za każdym razem wymagania umiejętności zwiększają się o 10 poziomów względem ostatniego wyboru.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Doskonalsza finta</name>
+		<requirements>Umiejętność: Inicjatywa poziom 1.</requirements>
+		<profit>Koszt w akcjach przeprowadzenia finty maleje do akcji dodatkowej.</profit>
+		<normal>Finta wymaga poświęcenia akcji zwykłej prócz zwykłego testu ataku.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Dostęp do pożywienia</name>
+		<requirements>Umiejętność: Sztuka przetrwania poziom 20.</requirements>
+		<profit>Każde dodatkowe +5 w teście zdobywania pożywienia ponad ST zapewnia ilość pożywienia dla dwóch przeciętnych ludzi.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Dowódca</name>
+		<requirements>Umiejętność: Wiedza (strategia) poziom 5.</requirements>
+		<profit>Synergia z wiedzy (strategia) do dowodzenia rośnie dwukrotnie.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Dusiciel</name>
+		<requirements>Umiejętność: Zwarcie poziom 1.</requirements>
+		<profit>Kiedy dusisz kogoś w zwarciu otrzymujesz premię do testu +5.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Dyskrecja</name>
+		<requirements>Atrybut: Inteligencja 12, Umiejętność: Plotkowanie poziom 15, Zdolność: Specjalizacja II (plotkowanie).</requirements>
+		<profit>Kara za utrzymywanie dyskrecji przy lokalizowaniu ludzi i przedmiotów maleje o 10.</profit>
+		<normal>Kara za zachowanie poufności co do osoby, która wypytuje o osoby i rzeczy wynosi -20.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Dyskurs</name>
+		<requirements>Atrybut: Inteligencja 12.</requirements>
+		<profit>Premia do perswazji w wysokości 1/4 inteligencji.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Filozof</name>
+		<requirements>Umiejętność: Wiedza: Filozofia poziom 10.</requirements>
+		<profit>Premia z synergii z filozofii dla innych dziedzin wiedzy zwiększa się dwukrotnie.</profit>
+		<special>Postać może wziąć tę zdolność wielokrotnie. Za każdym razem będzie ona zwiększała mnożnik synergii o 1, tj. przy drugim wzięciu synergia x3, przy trzecim synergia x4 itd. Każde kolejne wybranie tej zdolności wymaga wyższego poziomu umiejętności o 5 względem poprzedniego wybrania.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Forsowny marsz</name>
+		<profit>Premia +2 do szybkości, gdy postać porusza się marszem (patrz ruch lokalny w rozdz. 4.3 Ruch i podróżowanie).</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Historia wojen</name>
+		<requirements>Umiejętność: Wiedza (strategia) poziom 5 oraz Wiedza (światowa) poziom 5.</requirements>
+		<profit>Wskazane w wymaganiach umiejętności działają synergicznie w przypadku testów wiedzy dotyczącej historii wojen, bitew i taktyki wojennej różnych ludów.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Inteligentne przeszukiwanie</name>
+		<requirements>Umiejętność: Przeszukiwanie poziom 1.</requirements>
+		<profit>Postać otrzymuje premię do przeszukiwania w wysokości 1/4 inteligencji.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Intuicyjna mana</name>
+		<requirements>Umiejętność: Intuicja poziom 10.</requirements>
+		<profit>Premia do many w wysokości 1/4 percepcji.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Intuicyjne dotarcie</name>
+		<requirements>Umiejętność: Intuicja poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię z intuicji do prowokowania i zastraszania.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Intuicyjny unik</name>
+		<requirements>Umiejętność: Intuicja poziom 10 oraz Unik poziom 10, Zdolność: Błyskawiczny unik oraz Szósty zmysł.</requirements>
+		<profit>Jeżeli postaci udało się wyczuć zagrożenie, to będzie mogła wykonać jeden unik przeciwko najbliższemu atakującemu, nawet jeśli źródło niebezpieczeństwa pozostanie nieznane.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Inżynieria lin</name>
+		<requirements>Umiejętność: Wiedza (inżynieria) 5.</requirements>
+		<profit>Postać otrzymuje synergię z wiedzy (inżynieria) do testów pętania, wiązania i wyzwalania się (umiejętności zręcznej dłoni).</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Jazda na oklep</name>
+		<requirements>Umiejętność: Jeździectwo (dowolne) poziom 10, Zdolność: Specjalizacja (jeździectwo, to samo).</requirements>
+		<profit>Postać nie otrzymuje kary do testów, za jazdę na nieosiodłanym wierzchowcu.</profit>
+		<normal>Kara do testu za brak siodła wynosi -5.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Język obcy</name>
+		<requirements>Atrybut: Inteligencja 12.</requirements>
+		<profit>Postać poznaje dowolny język inny niż tajemny. Postać mówi w danym języku zgodnie ze swoim intelektem (im wyższy, tym lepsza mowa).</profit>
+		<special>Zdolność można wziąć wielokrotnie.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Język tajemny</name>
+		<requirements>Atrybut: Inteligencja 12, Umiejętność: Wiedza (tajemna) 10.</requirements>
+		<profit>Postać poznaje dowolny język tajemny, którego wymagania spełnia. Postać potrafi mówić (jeżeli to możliwe), czytać i pisać w danym języku, ale nie oznacza to jeszcze, że jest zdolna do rzucania zaklęć w oparciu o dany język.</profit>
+		<special>Zdolność można wziąć wielokrotnie.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Kanciarz</name>
+		<requirements>Umiejętność Zręczna dłoń poziom 10, Zdolność: Specjalizacja (zręczna dłoń).</requirements>
+		<profit>Postać nie otrzymuje kary do testu za to, że jest obserwowana podczas dokonywania hazardowych sztuczek, gdy korzysta ze zręcznej dłoni.</profit>
+		<normal>Kara wynosi -1 za każdą postać, która obserwuje kantującego.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Kradzież na widoku</name>
+		<requirements>Umiejętność: Zręczna dłoń poziom 15, Zdolność: Specjalizacja II (zręczna dłoń).</requirements>
+		<profit>Gdy postać będąc uważnie obserwowana decyduje się na kradzież, to otrzymuje karę do testu umiejętności -10, miast -20.</profit>
+		<normal>Kradzież kieszonkowa będąc pod uważną obserwacją jest możliwa z karą -20 do testu.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Krótki rozbieg</name>
+		<requirements>Umiejętność: Akrobatyka poziom 10.</requirements>
+		<profit>Postać nie musi brać rozbiegu, aby oddać normalny skok w dal.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Krzywda</name>
+		<requirements>Umiejętność: Zastraszanie poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię z umiejętności zastraszanie do torturowania (umiejętność leczenia).</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Literatura</name>
+		<requirements>Umiejętność: Wiedza (światowa) poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię z umiejętności wiedza (światowa) do sztuki (pisanie).</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Łączone parowanie</name>
+		<requirements>Umiejętność: Władanie (tarcza) poziom 15.</requirements>
+		<profit>Możesz wykorzystać 2x więcej akcji niż wymaga jedno parowanie tarczy i miast dwóch możliwych prób sparowania ataków w turze, mieć ich trzy.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Łapanie strzał</name>
+		<requirements>Atrybut: Refleks 16.</requirements>
+		<profit>Świadoma ataku postać, która ma wolną jedną rękę może spróbować złapać strzałę/bełt, który został w nią posłany. W tym celu musi wykonać test taki jak przy parowaniu używając do tego walki wręcz, której test jest testem spornym z atakiem przeciwnika.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Markowany cios</name>
+		<requirements>Umiejętność: Perswazja poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię z perswazji do finty, gdy atakuje.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Medyk</name>
+		<requirements>Umiejętność: Leczenie poziom 20.</requirements>
+		<profit>Pacjent przestaje krwawić od momentu w którym zaczynasz go opatrywać. Poza tym po udanym opatrywaniu od razu znika pacjentowi jedna rana, pod warunkiem, że opatruje się ją nie później jak dzień po powstaniu. Można zniwelować tylko jedną ranę w ten sposób na jednym pacjencie.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Medytacja</name>
+		<requirements>Atrybut: Wola 12.</requirements>
+		<profit>Podczas medytacji odnawia się postaci o 1/4 woli więcej punktów many.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Miejskie ślady</name>
+		<requirements>Umiejętność: Przeszukiwanie poziom 20.</requirements>
+		<profit>Postać staje się wyczulona na tropienie w mieście. ST tropienia na bruku, kamieniu, etc maleje do +20.</profit>
+		<normal>ST odnalezienia śladu na bruku, kamieniu etc przy tropieniu rośnie o +40.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Mistrz broni półtora-ręcznej (władanie)</name>
+		<requirements>Atrybut: Siła 16, Umiejętność: Władanie (broń obuchowa, miecz, szabla lub topór) poziom 10, Zdolność: Specjalizacja (władanie, odpowiednio jak umiejętność).</requirements>
+		<profit>Kara do trafienia za korzystanie z broni półtora-ręcznej jedną ręką maleje do -5.</profit>
+		<normal>Kara za korzystanie z broni półtora-ręcznej jedną ręką wynosi -10.</normal>
+		<special>Zdolność można wziąć cztery razy – raz dla każdej ze wskazanych umiejętności władania.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Mistrz sideł</name>
+		<requirements>Atrybut: Zręczność 16, Umiejętność: Rozbrajanie mechanizmów poziom 15.</requirements>
+		<profit>Czas zakładania pułapek maleje o 1/4.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Młyniec</name>
+		<requirements>Umiejętność: Władanie (broń obuchowa) poziom 20, Zdolność: Cios wiązany oraz Specjalizacja II (władanie, broń obuchowa) .</requirements>
+		<profit>Korzystając z ataku wielokrotnego postać miast atakować jednego przeciwnika może zdecydować się, że zaatakuje wszystkich dookoła niej korzystając z broni obuchowej. Dla każdego przeciwnika należy wykonać normalny test trafienia z modyfikatorami za atak wielokrotny.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Mocarny uchwyt</name>
+		<requirements>Umiejętność: Krzepa poziom 20.</requirements>
+		<profit>Jeżeli postać trzyma broń oburęcznie, to kategoria obrażeń zwiększa się o dwie.</profit>
+		<normal>Uderzenie bronią trzymaną oburącz zwiększa kategorię obrażeń o jedną. Nie wszystkich broni można używać oburęcznie.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Mocna głowa</name>
+		<requirements>Umiejętność: Mocna głowa poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię z umiejętności mocna głowa do wytrwałości na potrzeby opierania się efektom ataku oszałamiającego.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Mocno na nogach</name>
+		<requirements>Umiejętność: Zwarcie poziom 5.</requirements>
+		<profit>Premia +4 do umiejętności zwarcie przeciw próbom obalenia.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują, ale każde kolejne wybranie tej zdolności wymaga wyższego poziomu umiejętności o 5 względem poprzedniego wybrania.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Mocno w dłoni</name>
+		<requirements>Umiejętność: Zwarcie poziom 5.</requirements>
+		<profit>Premia +4 do umiejętności zwarcie przeciw próbom rozbrojenia.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują, ale każde kolejne wybranie tej zdolności wymaga wyższego poziomu umiejętności o 5 względem poprzedniego wybrania.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Nabyta gibkość</name>
+		<requirements>Umiejętność: Wspinaczka poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię ze wspinaczki do akrobatyki.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Nabyta krzepkość</name>
+		<requirements>Umiejętność: Wspinaczka poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię ze wspinaczki do krzepy.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Nabyta wyporność</name>
+		<requirements>Umiejętność: Wspinaczka poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię ze wspinaczki do pływania.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Nabyta wytrzymałość</name>
+		<requirements>Umiejętność: Wspinaczka poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię ze wspinaczki do wysiłku.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Naśladowanie głosu</name>
+		<requirements>Atrybut: Percepcja 12.</requirements>
+		<profit>Postać potrafi naśladować głos podczas przemawiania w jakimś języku. Musi wpierw usłyszeć głos osoby, którą będzie naśladować (wystarczy jedno zdanie), a następnie będzie mogła próbować naśladować jej głos. Przy rozpoczęciu naśladowania głosu, a później co 5 minut konwersacji będzie wykonywany test naśladowania głosu (test prowokacji) o ST = spostrzegawczości słyszących głos i znającego jego oryginalne brzmienie. Sukces oznacza, że udało się nabrać rozmówcę. Jeżeli postać naśladuje głos osoby, na podstawie zdania usłyszanego w nieznanym języku, otrzymuje modyfikator -10 do testu naśladowania.</profit>
+		<normal>Próby naśladowania czyjegoś głosu brzmią albo słabo, albo żałośnie.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Natychmiastowe zaczerpnięcie tchu</name>
+		<profit>Za każdym razem, gdy postać jest świadoma, że za chwilę nie będzie mogła oddychać, może wstrzymać oddech w akcji darmowej.</profit>
+		<normal>Wstrzymanie oddechu wymaga poświęcenia akcji cało-rundowej.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Niepodatność na olśnienie</name>
+		<requirements>Atrybut: Percepcja 16.</requirements>
+		<profit>Postać nie może zostać olśniona.</profit>
+		<normal>Postać ponosi takie kary jakie ponosi się w półmroku z powodu lekkie oślepienia: -5 do testów bazujących na wzroku i testów trafienia.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Niestrudzony szał</name>
+		<requirements>Umiejętność: Wysiłek poziom 10, Zdolność: Berserk.</requirements>
+		<profit>Gdy berserk się kończy postać otrzymuje o 1 punkt zmęczenia mniej.</profit>
+		<special>Zdolność można wziąć maksymalnie 5 razy zmniejszając zmęczenie wywołanie szałem bojowym do 1 punktu. Kolejne wzięcie tej zdolności zwiększa wymagania poziomów umiejętności o 5 względem ostatniego wzięcia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Niezły spust</name>
+		<profit>Postać może dwa razy szybciej pić, niż normalne postacie. O ile w przypadku wyścigów na picie piwa może być to interesujące, o tyle bardziej się to przydaje podczas walki. Wypicie mikstury dla postaci to akcja darmowa, ale można z niej skorzystać tylko raz w turze.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Nokaut</name>
+		<requirements>Umiejętność: Walka wręcz poziom 10.</requirements>
+		<profit>Każdy atak wręcz otrzymuje cechę broni: oszołomienie, co oznacza, że każde trafienie krytyczne liczy się jako próba oszołomienia.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Nurkowanie</name>
+		<requirements>Umiejętność: Pływanie poziom 5; Zdolność: Wstrzymanie oddechu.</requirements>
+		<profit>Pływanie zapewnia synergię do wytrwałości na potrzeby obliczania czasu, jaki postać może przeżyć wstrzymując oddech.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Obalający cios</name>
+		<requirements>Atrybut: Siła 16; Umiejętność: Walka wręcz poziom 10.</requirements>
+		<profit>Każdy atak wręcz otrzymuje cechę broni: odrzut, co oznacza, że każde trafienie liczy się jako próba obalenia przeciwnika.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Obrona przed szarżą</name>
+		<requirements>Umiejętność: Władanie (broń drzewcowa) poziom 10.</requirements>
+		<profit>Postać wykorzystująca broń drzewcową z cechą szarża do odparcia szarży wroga zadaje mu trzykrotnie większe obrażenia.</profit>
+		<normal>Trafienie wroga, który szarżuje powoduje zadanie mu podwójnych obrażeń, jeżeli broń ma cechę szarża.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Oczy wprawione w ciemność</name>
+		<requirements>Atrybut: Percepcja 16.</requirements>
+		<profit>Postać nie ponosi kar związanych z półmrokiem (chyba, że zostanie olśniona).</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Oczy z tyłu głowy</name>
+		<requirements>Atrybut: Percepcja 16 lub Umiejętność: Spostrzegawczość poziom 20.</requirements>
+		<profit>Postać nie podlega karze do obrony, gdy jest flankowana.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Oddanie pola</name>
+		<requirements>Umiejętność: Unik poziom 1.</requirements>
+		<profit>Przy oddawaniu pola postać może przemieścić się na dowolne z sąsiadujących z nią pól.</profit>
+		<normal>Oddawanie pola może wykonać tylko przy ruchu do tyłu.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Odnowa many</name>
+		<profit>Postaci odnawia się w ciągu godziny dodatkowy punkt many.</profit>
+		<normal>W ciągu godziny postaci odnawia się tylko 1 punkt many.</normal>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się kumulują.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Odporność na ból</name>
+		<profit>Aby postać została złamana na torturach (patrz umiejętność: Leczenie) musi przegrać w teście opanowania tyle razy ile wynosi 1/4 jej woli.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Oko do fałszywek</name>
+		<requirements>Umiejętność: Fałszerstwo poziom 5.</requirements>
+		<profit>Synergia z fałszerstwa do rozpoznawania fałszerstwa (umiejętność spostrzegawczości) rośnie dwukrotnie.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Okropne wrażenie</name>
+		<requirements>Umiejętność: Zastraszanie poziom 10.</requirements>
+		<profit>Jeżeli postać osiągnie sukces w teście sterroryzowania o 20 większy niż oponent może miast spowodowania punktów zmęczenia zechcieć, aby ofiara straciła przytomność z wrażenia na 1k4 minut.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Opatrywanie ran</name>
+		<requirements>Umiejętność: Leczenie poziom 5.</requirements>
+		<profit>Czas opatrywania ran zmniejsza się o połowę.</profit>
+		<normal>Czas potrzebny do opatrzenia obrażeń to ok. 10 minut, a do opatrzenia każdej rany to 20 minut.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Oprawca</name>
+		<requirements>Umiejętność: Wiedza: alchemia poziom 5.</requirements>
+		<profit>Synergia z alchemii dla torturowania wzrasta dwukrotnie.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Ostatnia szarża</name>
+		<requirements>Umiejętność: Dowodzenie poziom 30, Zdolność: Specjalizacja VI (dowodzenie).</requirements>
+		<profit>Postać wzmacniając morale swego oddziału zdając test o ST=80 jest w stanie poprowadzić swych podkomendnych do boju przeciwko sile, która z całą pewnością wszystkich ich zabije, ale podczas walki z uwagi na wysokie morale będzie każdy z nich ignorować punkty zmęczenia i wyczerpania równe 1/4 poziomowi dowodzenia.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Ostrożne kroki</name>
+		<requirements>Atrybut: Refleks 12, Umiejętność: Przeszukiwanie poziom 1 oraz Ukrywanie się poziom 1.</requirements>
+		<profit>Postać zyskuje 15% szansy na to, że nie uruchomi pułapki, gdy na nią nastąpi, a która uruchamia się właśnie w taki sposób. Przy zdaniu tego testu postać zyskuje świadomość ryzyka uruchomienia pułapki.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Ostrożny atak</name>
+		<requirements>Umiejętność: Unik poziom 5 lub Władanie (tarcza) poziom 5.</requirements>
+		<profit>Premia do parowania i uników przy korzystaniu z ostrożnego ataku rośnie o +2.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują. Każde kolejne wzięcie tej zdolności wymaga dodatkowych 5 poziomów umiejętności względem ostatniego wzięcia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Oszałamiający atak</name>
+		<requirements>Atrybut: Inteligencja 12 lub Umiejętność: Leczenie poziom 1.</requirements>
+		<profit>Jeżeli uda się Tobie spowodować oszołomienie przeciwnika, to będzie ono trwało o 4 rundy dłużej.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Oszczędna praca</name>
+		<requirements>Umiejętność: Praca (dowolna) poziom 20.</requirements>
+		<profit>Wszelkie wytwarzanie przedmiotów w wykonaniu postaci będzie zużywało o 1/4 mniej materiałów, ale tylko względem pracy, którą wybrała.</profit>
+		<special>Zdolność można wziąć wielokrotnie. Za każdym razem będzie dotyczyła innej umiejętności pracy.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Oszołomienie</name>
+		<requirements>Umiejętność: Władanie (broń obuchowa) poziom 5.</requirements>
+		<profit>Każde trafienie krytyczne bronią obuchową należy uznawać dodatkowo jako próbę oszołomienia.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Parowanie łańcuchowe</name>
+		<requirements>Zdolności: Błyskawiczne parowanie.</requirements>
+		<profit>Postać poświęcając akcję cało-rundową, może wykonać testy parowania tarczą przeciw wszystkim atakom wymierzonym w postać przez konkretnego (jednego) przeciwnika. Wszystkie testy parowania przeprowadza się z modyfikatorem -5.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Pewnie na nogach</name>
+		<requirements>Umiejętności: Akrobatyka poziom 5 oraz Zwarcie poziom 5.</requirements>
+		<profit>Umiejętności akrobatyka i zwarcie działają na siebie synergicznie w testach zachowania równowagi, gdy postać unika obalenia.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Pierwsze uderzenie</name>
+		<requirements>Umiejętność: Inicjatywa poziom 1.</requirements>
+		<profit>W wypadku jednakowych wartości inicjatywy, to posiadacz tej zdolności rusza pierwszy. Ma przy tym pierwszeństwo przed postaciami Graczy jeżeli jest BN.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Pikowanie</name>
+		<requirements>Umiejętność: Jeździectwo (powietrzne) poziom 20.</requirements>
+		<profit>Postać pikując na swym wierzchowcu zwiększa szybkość spadania o połowę.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Pływanie we wzburzonej wodzie</name>
+		<requirements>Umiejętność: Pływanie poziom 10, Zdolność: Specjalizacja (pływanie).</requirements>
+		<profit>Kary za pływanie we wzburzonych wodach maleją dla postaci o 10.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Podcinanie</name>
+		<requirements>Umiejętność: Zwarcie poziom 1.</requirements>
+		<profit>Premia +5 do testów zwarcia, gdy przewraca się oponenta.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Podstępny atak</name>
+		<requirements>Atrybut: Refleks 15, Umiejętność: Władanie (szabla) poziom 10, Zdolności: Błyskawiczna finta.</requirements>
+		<profit>Jeżeli postaci udała się finta i atakuje szablą, to może wykonać dwa ataki miast jednego, ale tylko pod warunkiem, że dzierżona szabla ma cechę szybka.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Posłuch</name>
+		<requirements>Atrybut: Charyzma 12, Umiejętność: Dowodzenie poziom 5.</requirements>
+		<profit>Sukces w teście posłuchu (umiejętność dowodzenia) sprawia, że każdy z podkomendnych przez czas działania posłuchu nabiera sympatii do dowódcy, co w języku mechaniki oznacza, że przesuwa się jego sympatia o jedną kategorię wyżej w kierunku oddania (patrz również perswazja).</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Potężny atak</name>
+		<requirements>Umiejętność: Krzepa poziom 5.</requirements>
+		<profit>Korzystając z potężnego uderzenia postać może zdecydować się na dodatkową karę -5 do trafienia i podnieść obrażenia o jedną kategorię.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują. Za każdym kolejnym razem, gdy postać sięga po tę zdolność rosną wymagania: +5 do krzepy względem poprzedniego wybrania tej zdolności.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Powstań</name>
+		<requirements>Umiejętność: Akrobatyka poziom 5.</requirements>
+		<profit>Postać może powstać w akcji dodatkowej. Korzystając z takiego powstawania nie może jednak przemieścić się na zasięg 1/2 szybkości.</profit>
+		<normal>Powstawanie wymaga akcji zwykłej, ale postać może przemieścić się na zasięg 1/2 szybkości.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Powstrzymanie krwawienia</name>
+		<requirements>Umiejętność: Leczenie poziom 1.</requirements>
+		<profit>Nawet pozbawiona opatrunków postać może spowolnić krwawienie ze swych czterokrotnie, jeżeli będzie skupiać na nich niemal całą swą uwagę. Oznacza to, że miast np. 1 punktu obrażeń od krwawienia w ciągu 10 minut postać będzie otrzymywała 1 punkt obrażeń w ciągu 40 minut.</profit>
+		<normal>Postać może dwukrotnie spowolnić krwawienie.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Poznanie tajemne</name>
+		<requirements>Umiejętność: Wiedza (tajemna) poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię z umiejętności wiedza (tajemna) do inteligencji liczonej na potrzeby poznawania języków tajemnych.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Precyzyjny strzał</name>
+		<requirements>Zdolność: Celowania.</requirements>
+		<profit>Jeżeli postać celuje z broni strzeleckiej (kuszy lub łuku) niezależnie od długości celowania otrzymujesz premię +5 do trafienia.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Prowizorka</name>
+		<requirements>Wiedza (inżynieria) poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię z inżynierii do sztuki przetrwania, gdy korzysta z tej umiejętności przy znalezieniu schronienia. Poza tym dzięki tej zdolności należy uwzględnić, że postać będzie zdolna zastosować przy znalezieniu schronienia dość nietypowe materiały, które będą zamiennikami, gdy tylko nie uda się jej odnaleźć tych właściwych.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Przejrzenie ataku</name>
+		<requirements>Umiejętność: Spostrzegawczość poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię ze spostrzegawczości do testu spornego wykorzystywanego do obrony przed fintą.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Przyswajanie mikstur</name>
+		<requirements>Kondycja 12.</requirements>
+		<profit>Premia +4 do wytrwałości względem ochrony przed zatruciem alchemicznym.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty kumulują się ze sobą. Za każdym razem, gdy postać sięga po tę zdolność rosną wymagania: +3 do kondycji, względem poprzedniego użycia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Przyśpieszone pogaduchy</name>
+		<requirements>Umiejętność: Plotkowanie poziom 10.</requirements>
+		<profit>Minimalny czas poświęcony na zbieranie plotek maleje o godzinę.</profit>
+		<normal>Rozeznanie się w plotkach trwa ok. 3 godzin.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Rewizja</name>
+		<requirements>Umiejętność: Zręczna dłoń poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię ze zręcznej dłoni do testu przeszukiwania wykorzystywanego w celu odnalezienia ukrytych przy ciele przedmiotów.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Riposta (władanie)</name>
+		<requirements>Atrybut: Refleks 16; Umiejętność: Władanie (miecz lub szabla) poziom 20.</requirements>
+		<profit>Raz w turze, gdy uda Ci się sparować atak przeciwnika za pomocą miecza lub odpowiednio szabli możesz spróbować zaatakować go tą samą bronią, którą parowałeś pod warunkiem, że ma ona cechę szybka. Wykonujesz test ataku z modyfikatorem -10. Nie można łączyć riposty z błyskawicznym parowaniem, ani z cechą broni szybkie parowanie.</profit>
+		<special>Zdolność można wziąć dwukrotnie – dla miecza i dla szabli.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Rozkaz</name>
+		<requirements>Umiejętność: Dowodzenie poziom 15, Zdolność: Specjalizacja II (dowodzenie).</requirements>
+		<profit>Kara za większą ilość podkomendnych maleje o 10, tzn. dla 11 podkomendnych postać wydaje rozkazy bez żadnej kary.</profit>
+		<normal>Kara za każdego podkomendnego więcej niż jednego wynosi -1.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Rozbrojenie</name>
+		<requirements>Umiejętność: Władanie (szabla) poziom 5.</requirements>
+		<profit>Umiejętność władania (szabla) działa synergicznie z testem zwarcia wykorzystywanym do rozbrojenia przeciwnika, ale tylko, gdy postać rozbraja przeciwnika korzystając do tego z szabli.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Rozwinięcie atrybutu z (umiejętność)</name>
+		<requirements>Umiejętność (dowolna) poziom 20.</requirements>
+		<profit>Premia +1 do atrybutu na bazie którego wykonuje się test wybranej umiejętności.</profit>
+		<special>Można tę zdolność wybierać wielokrotnie. Za każdym razem będzie dotyczyła innej umiejętności albo tej samej, ale w tym drugim wypadku wymagania poziomu wzrastają o 10 względem ostatniego wyboru.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Jest to umiejętność tak ogólna, że jest premiową zdolnością dla każdej możliwej umiejętności, co nie zostało wcześniej wpisane przy premiowych zdolnościach dla każdej umiejętności.</name>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Silny naciąg</name>
+		<requirements>Atrybut: Siła: 12.</requirements>
+		<profit>Pociski wystrzelone z łuku przez postać zadają obrażenia większe o 1/8 siły postaci.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują. Za każdym kolejnym razem, gdy postać sięgnie po tę zdolność rosną wymagania: +3 do siły względem poprzedniego wybrania tej zdolności.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Siła berserka</name>
+		<requirements>Umiejętność: Krzepa poziom 5, Zdolność: Berserk.</requirements>
+		<profit>Modyfikator do siły zwiększa się dodatkowo o +2, gdy postać wpadnie w Berserk.</profit>
+		<special>Zdolność można wziąć wiele razy, a jej efekty się sumują. Za każdym kolejnym razem postać musi mieć o 5 poziomów umiejętności więcej niż przy poprzednim wzięciu tej zdolności.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Skok w dal</name>
+		<requirements>Umiejętność: Akrobatyka poziom 15, Zdolność: Specjalizacja II (akrobatyka).</requirements>
+		<profit>Postaci nie obowiązuje limit +5 m przy zwiększaniu odległości skoku. Każdy kolejny metr wymaga +10 w teście umiejętności akrobatyka.</profit>
+		<normal>Postać osiągając wynik 50+ zwiększa odległość skoku o +5 m.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Skok wzwyż</name>
+		<requirements>Umiejętność: Akrobatyka poziom 15, Zdolność: Specjalizacja II (akrobatyka).</requirements>
+		<profit>Postaci nie obowiązuje limit +1,5 m przy zwiększaniu wysokości skoku. Każdy kolejne 0,5 m wymaga +20 w teście umiejętności akrobatyka.</profit>
+		<normal>Postać osiągając wynik 50+ zwiększa wysokość skoku o +1,5 m.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Skrócona medytacja</name>
+		<profit>Czas potrzebny na wykonanie medytacji zmniejsza się o 10 minut.</profit>
+		<normal>Medytacja trwa 60 minut, a jej efektem jest odnowienie utraconych punktów many w wysokości 1/2 woli.</normal>
+		<special>Postać może wziąć tę zdolność 3 razy zmniejszając czas medytacji do 30 minut.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Skrócony sen</name>
+		<requirements>Atrybut: Kondycja 14, Wola 14.</requirements>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Korzyść i Normalnie: Postać musi normalnie spać 8 godzin, aby się wyspać po przeciętnym dniu, a każda godzina snu mniej pozostawia po sobie do końca dnia kary ze zmęczenia. Posiadając tę zdolność postać może spać 7 godzin, a efekt będzie taki jakby spała 8 godzin.</name>
+		<special>Można tę zdolność wziąć maksymalnie 4 razy zmniejszając wymagany sen do 4 godzin. Za każdym kolejnym razem, gdy postać sięga po tę zdolność rosną wymagania: +2 do kondycji i +2 do woli, względem poprzedniego użycia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Skrytość śledzenia</name>
+		<requirements>Umiejętność: Intuicja poziom 5 oraz Ukrywanie się poziom 1.</requirements>
+		<profit>Postać otrzymuje synergię z intuicji do testu śledzenia (umiejętność ukrywania się)</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Skupienie na istotnych rzeczach</name>
+		<requirements>Atrybut: Inteligencja 12.</requirements>
+		<profit>Premia do testów plotkowania równa 1/4 inteligencji.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Skupienie obrażeń (władanie)</name>
+		<requirements>Umiejętność: Władanie (dowolna broń do ataków bezpośrednich) poziom 10.</requirements>
+		<profit>Postać korzystając z danej broni zadaje obrażenia większe o jedną kategorię.</profit>
+		<special>Można tę zdolność wybierać wielokrotnie zarówno dla kilku, jak i jednego rodzaju broni. Przy tym ostatnim każde kolejne wzięcie tej zdolności wymaga dodatkowych 10 poziomów umiejętności względem poprzedniego wzięcia zdolności.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Specjalizacja (umiejętność)</name>
+		<requirements>Umiejętność (dowolna) poziom 5.</requirements>
+		<profit>Premia +2 do wybranej umiejętności.</profit>
+		<special>Można tę zdolność wybierać wielokrotnie. Za każdym razem będzie dotyczyła innej umiejętności albo tej samej, ale w tym drugim wypadku wymagania poziomu wzrastają o 5 względem ostatniego wyboru.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Jest to umiejętność tak ogólna, że jest premiową zdolnością dla każdej możliwej umiejętności, co nie zostało wcześniej wpisane przy premiowych zdolnościach dla każdej umiejętności.</name>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Sprawność</name>
+		<requirements>Atrybut: Kondycja 12.</requirements>
+		<profit>Postać należy traktować tak, jakby miała o 1 punkt zmęczenia mniej, gdy zmęczenie jest spowodowane wysiłkiem fizycznym.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty kumulują się ze sobą. Za każdym kolejnym razem, gdy postać sięga po tę zdolność rosną wymagania: +3 do kondycji, względem poprzedniego użycia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Sprytna finta</name>
+		<requirements>Umiejętność: Prowokowanie poziom 15.</requirements>
+		<profit>Premia +1/4 percepcji do testu finty, gdy postać atakuje przeciwnika.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Spryt dowódczy</name>
+		<requirements>Umiejętność: Dowodzenie poziom 1.</requirements>
+		<profit>Premia w wysokości 1/4 inteligencji do testów dowodzenia.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Strzał z kuszy</name>
+		<requirements>Umiejętność: Władanie (kusza) poziom 10.</requirements>
+		<profit>Obrażenia zadawane przez kuszę są większe o 10%, gdy cel znajduje się w zasięgu 10 m.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Synchroniczny atak</name>
+		<requirements>Atrybut: Refleks 14; Zdolność: Walka dwoma broniami V.</requirements>
+		<profit>Premia +5 do testu trafienia jedną z broni wykorzystywanej przy ataku dwiema broniami.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szarża konna</name>
+		<requirements>Umiejętność: Jeździectwo (konne) poziom 10.</requirements>
+		<profit>Obrażenia będące efektem uderzenia po szarży konnej są większe o jedną kategorię.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Sztyletowanie</name>
+		<requirements>Umiejętność: Władanie (sztylet) poziom 10.</requirements>
+		<profit>Jeżeli uda Ci się trafić przeciwnika przy akcji zabójstwa za pomocą sztyletu, to mnożnik obrażeń rośnie do 20x.</profit>
+		<normal>Udane trafienie przeciwnika przy zabójstwie powoduje mnożnik x10 obrażeń.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szybka praca</name>
+		<requirements>Umiejętność: Praca (dowolna) poziom 20 lub Fałszerstwo poziom 20.</requirements>
+		<profit>Wszelkie wytwarzanie przedmiotów w wykonaniu postaci jest szybsze o 1/4, ale tylko względem pracy (lub fałszerstwa), którą wybrała.</profit>
+		<special>Zdolność można wziąć wielokrotnie. Za każdym razem będzie dotyczyła innej umiejętności pracy albo fałszerstwa.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szybka tresura</name>
+		<requirements>Umiejętność: Tresura poziom 10.</requirements>
+		<profit>Czas wymagany do nauczenia zwierzęcia odpowiedniego polecenia maleje o 1/4.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szybkie ładowanie</name>
+		<requirements>Umiejętność: Władanie (kusza lub łuk) poziom 5.</requirements>
+		<profit>Czas załadowania broni amunicją zmniejsza się o akcję zwykłą.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szybkie maskowanie śladów</name>
+		<requirements>Umiejętność: Sztuka przetrwania poziom 15, Zdolność: Specjalizacja II (sztuka przetrwania).</requirements>
+		<profit>Postać nie ponosi kary -10, gdy maskuje ślady poruszając się z normalną szybkością, a nie ostrożną.</profit>
+		<normal>Maskowanie śladów połączone z przemieszczaniem się z szybkością większą niż przy ostrożnym ruchu oznacza karę -10 do testów.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szybkie pływanie</name>
+		<requirements>Umiejętność: Pływanie poziom 10, Zdolność: Specjalizacja (pływanie).</requirements>
+		<profit>Postać otrzymuje synergię z pływania do szybkości, ale tylko przy płynięciu wpław.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szybkie przejście bez śladu</name>
+		<requirements>Umiejętność: Ukrywanie się poziom 15, Zdolność: Specjalizacja II (ukrywanie się).</requirements>
+		<profit>Postać nie ponosi kary -10, gdy w sposób porusza się z normalną szybkością, ale w taki sposób, aby nie zostawiać za sobą śladów. Normalnie: Postać ponosi karę -10 do testów ukrywania się, gdy porusza się z normalną szybkością, ale w taki sposób, aby nie pozostawiać za sobą śladów.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szybkie przeszukiwanie</name>
+		<requirements>Umiejętność: Przeszukiwanie poziom 15, Zdolność: Specjalizacja II (przeszukiwanie).</requirements>
+		<profit>Postać nie ponosi kary -10, gdy w sposób błyskawiczny chce przeszukać obiekt lub miejsce. Takie przeszukiwanie i tak zajmie minutę.</profit>
+		<normal>Postać ponosi karę -10 do testów przeszukiwania, gdy nie poświęca na nie przynajmniej 10 minut.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szybkie tropienie</name>
+		<requirements>Umiejętność: Przeszukiwanie poziom 15, Zdolność: Specjalizacja II (przeszukiwanie).</requirements>
+		<profit>Postać nie ponosi kary -10, gdy tropi poruszając się z normalną szybkością.</profit>
+		<normal>Postać ponosi karę -10 do testów tropienia (przeszukiwania), gdy nie porusza się z połową swej szybkości.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szybkie wspinanie</name>
+		<requirements>Umiejętność: Wspinanie poziom 10, Zdolność: Specjalizacja (wspinanie).</requirements>
+		<profit>Postać otrzymuje synergię ze wspinania do szybkości, ale tylko przy wykorzystaniu wspinania się.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szybkie wyciągnięcie</name>
+		<requirements>Atrybut: Refleks 12.</requirements>
+		<profit>Raz w turze możesz sięgnąć po rzecz będącą w kołczanie, sakwie, bądź przy pasie (broń, komponenty, amunicja etc.) poświęcając na to akcję darmową.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się kumulują. W efekcie postać może wyciągnąć wiele przedmiotów <quote>za darmo</quote>. Za każdym razem, gdy postać sięga po tę zdolność rosną wymagania: +3 do refleksu, względem poprzedniego użycia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szybkie wyciągnięcie w zwarciu</name>
+		<requirements>Zdolność: Szybkie wyciągnięcie oraz Zapasy.</requirements>
+		<profit>Raz w turze postać może wyciągnąć jakiś przedmiot będąc w zwarciu w akcji darmowej. Tj. postać nie musi poświęcać akcji dodatkowej na przeprowadzenie testu zwarcia oraz akcji dodatkowej na to, aby czegoś dobyć.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szybkie zdobywanie pożywienia</name>
+		<requirements>Umiejętność: Sztuka przetrwania poziom 15, Zdolność: Specjalizacja (sztuka przetrwania).</requirements>
+		<profit>Postać nie ponosi kary -10 do testów zdobywania pożywania (umiejętności sztuka przetrwania), gdy podróżuje z połową swej szybkości.</profit>
+		<normal>Postać podróżując z połową szybkości otrzymuje modyfikator -10 do testów zdobywania pożywienia.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szybkie znajdowanie pułapek</name>
+		<requirements>Umiejętność: Przeszukiwanie poziom 15, Zdolność: Specjalizacja II (przeszukiwanie).</requirements>
+		<profit>Postać nie ponosi kary -10, gdy wyszukuje pułapek i sekretnych drzwi dzięki umiejętności przeszukiwanie poruszając się z normalną szybkością, a nie ostrożną.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szybki atak (władanie)</name>
+		<requirements>Atrybut: Refleks 16, Umiejętność: Władanie (miecz, rzucana, sztylet lub topór) poziom 10, Zdolność: Specjalizacja (władanie, odpowiednio jak umiejętność) albo Umiejętność: Walka wręcz, Zdolność: Specjalizacja (walka wręcz).</requirements>
+		<profit>Postać potrzebuje tylko akcji dodatkowej na wykonanie ataku za pomocą broni z cechą lekka.</profit>
+		<normal>Atak wymaga poświecenia akcji zwykłej.</normal>
+		<special>Zdolność można wziąć pięć razy – raz dla każdej ze wskazanych umiejętności władania oraz raz dla walki wręcz.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szybko i cicho</name>
+		<requirements>Umiejętność: Ukrywanie się poziom 15, Zdolność: Specjalizacja II (ukrywanie).</requirements>
+		<profit>Postać nie ponosi kary -10, gdy skrada się (umiejętność ukrywania się) z normalną szybkością, a nie ostrożną.</profit>
+		<normal>Skradanie się szybkością większą niż przy ostrożnym ruchu oznacza karę -10 do testów.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szybko i niezauważenie</name>
+		<requirements>Umiejętność: Ukrywania się poziom 15, , Zdolność: Specjalizacja II (ukrywanie).</requirements>
+		<profit>Postać nie ponosi kary -10, gdy ukrywa się i przemieszcza (umiejętność ukrywania się) z połową szybkości.</profit>
+		<normal>Jeżeli postać przemieszcza się z połową szybkości podczas ukrycia, to podlega modyfikatorowi -10 do testu. Gdy porusza się ze swą szybkością otrzymuje modyfikator -20. Bieg połączony z ukryciem automatycznie kończy porażką to drugie.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szybko i wysoko</name>
+		<requirements>Umiejętność: Wspinaczka poziom 15, Zdolność: Specjalizacja II (wspinaczka).</requirements>
+		<profit>Postać nie ponosi kary -10, gdy wspina się na wysokość równą 1/2 szybkości.</profit>
+		<normal>Postać w ciągu rundy wspina się na wysokość równą 1/4 szybkości (w metrach). Postać aby pokonać odległość równą 1/2 szybkości w ciągu rundy podlega modyfikatorowi -10 do testu.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Taniec mieczy</name>
+		<requirements>Umiejętność: Władanie (miecz) poziom 20, Zdolność: Cios wiązany oraz Specjalizacja II (władanie, miecz) .</requirements>
+		<profit>Korzystając z ataku wielokrotnego postać miast atakować jednego przeciwnika może zdecydować się, że zaatakuje wszystkich dookoła niej korzystając z miecza. Dla każdego przeciwnika należy wykonać normalny test trafienia z modyfikatorami za atak wielokrotny.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Targowanie</name>
+		<requirements>Umiejętność: Perswazja poziom 5.</requirements>
+		<profit>Wygranie w teście targowania (umiejętność perswazji) jest korzystniejsze dla postaci nie o 10%, lecz 20%.</profit>
+		<normal>Nie można obniżyć ceny towaru kupowanego o więcej jak 10% i zwiększyć ceny towaru sprzedawanego o więcej jak 10%. Gdy to się bowiem robi kontrahent od razu odmawia dalszych negocjacji.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Teoria walki</name>
+		<requirements>Atrybut: Percepcja 14, Umiejętność: Wiedza (strategia) poziom 20.</requirements>
+		<profit>Postać otrzymuje synergię z wiedzy (strategia) do wszystkich umiejętności władania, inicjatywy, uniku, walki wręcz, zwarcia i jeździectwa.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Tratowanie</name>
+		<requirements>Umiejętność: Jeździectwo (bestia lub konne) poziom 10.</requirements>
+		<profit>Postać dokonując szarży łączonej z obalaniem jadąc na bestii lub koniu otrzymuje synergię do wyniku testu równą synergii z odpowiedniego jeździectwa.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Tropienie</name>
+		<requirements>Umiejętność: Sztuka przetrwania poziom 5.</requirements>
+		<profit>Premia z synergii od sztuki przetrwania dla tropienia (umiejętność przeszukiwania) zwiększa się dwukrotnie.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Twarda skóra</name>
+		<requirements>Atrybut: Kondycja 14.</requirements>
+		<profit>Redukcja 1 na obrażenia cięte i miażdżone. Zdolność nie sprawia, że skóra postaci staje się grubsza etc, a jedynie postać pewną część obrażeń zwyczajnie ignoruje.</profit>
+		<special>Zdolność można wziąć wiele razy. Za każdym kolejnym razem, gdy postać sięga po tę zdolność rosną wymagania: +3 do kondycji, względem poprzedniego użycia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Ucieczka</name>
+		<profit>Modyfikator +2 do szybkości, który działa tylko wtedy, gdy postać ucieka przed jakimś zagrożeniem (nie działa podczas wyścigów itd.) Postać musi być wystraszona, aby zdolność zadziałała.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Unikać lub parować</name>
+		<requirements>Zdolność: Błyskawiczne parowania i Błyskawiczny unik.</requirements>
+		<profit>Postać może ten sam atak spróbować zarówno uniknąć jak i sparować. Jeżeli więc pierwszy test się nie powiódł, to może skorzystać z następnej szansy. Uprzednio rzecz jasna postać musi niezależnie wybrać odpowiednie manewry kosztem akcji, aby można było z nich skorzystać.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Unikanie ciosów</name>
+		<requirements>Atrybut: Percepcja 12, Umiejętność: Walka wręcz poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię z umiejętności walka wręcz do uniku, ale tylko wtedy, gdy jest atakowana za pomocą walki wręcz.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Unikanie trafień</name>
+		<requirements>Umiejętność: Unik poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię z umiejętności unik do obrony fizycznej.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Uwodzenie</name>
+		<requirements>Umiejętność: Prowokowanie 10.</requirements>
+		<profit>Udany podryw sprawi, że dana osoba będzie myślała o postaci przez dzień za każdy poziom umiejętności prowokowanie, a w tym czasie jej stosunek wobec postaci wzrośnie do przyjaznego lub oddanego.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Walka defensywna</name>
+		<profit>Premia +2 do obrony fizycznej, parowania i uników, przy korzystaniu z walki defensywnej.</profit>
+		<special>Zdolność można wziąć wiele razy, a jej efekty się kumulują.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Walka dwiema broniami</name>
+		<requirements>Atrybut: Siła 12 oraz Zręczność 12.</requirements>
+		<profit>Kara do testu za atak dwiema broniami maleje o 2.</profit>
+		<special>Zdolność można wziąć 5 razy w efekcie czego niwelując zupełnie karę za atak dwiema broniami.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Walka na pięści</name>
+		<requirements>Umiejętność: Zręczna dłoń poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię ze zręcznej dłoni do walki wręcz.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Walka na rauszu</name>
+		<profit>Postać będąc pod wpływem alkoholu w czasie walki, nie otrzymuje kar do testów opartych na zręczności. Co więcej, będąc pod wpływem alkoholu otrzymuje modyfikator +2 do testów zwarcia oraz walki wręcz. Efekt zdolności działa pod warunkiem, że poziomów upicia nie jest więcej niż poziomów umiejętności mocna głowa.</profit>
+		<normal>Upicie powoduje efekty podobne do zmęczenia, a przez to obniżone zostają testy atrybutów.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wciskanie fałszywki</name>
+		<requirements>Umiejętność: Fałszerstwo poziom 1 oraz Perswazja poziom 5.</requirements>
+		<profit>Postać, gdy posługuje się osobiście wykonaną fałszywką otrzymuje premię do testu fałszerstwa, ale tylko względem rozpoznania fałszywki przez inne osoby równą synergii z perswazji. Premia działa tylko, gdy postać jest w stanie porozmawiać z osobą, którą próbuje oszukać za pomocą fałszywki.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Więcej energii</name>
+		<requirements>Umiejętność: Krzepa 10.</requirements>
+		<profit>Postać otrzymuje punkt zmęczenia przy porażce w teście krzepy tylko, gdy do osiągnięcia ST zabrakło jej 5 lub więcej punktów.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Większa obrona fizyczna</name>
+		<requirements>Atrybut: Refleks 12.</requirements>
+		<profit>Premia +1 do obrony fizycznej.</profit>
+		<special>Zdolność można wziąć wiele razy. Za każdym kolejnym razem, gdy postać sięga po tę zdolność rosną wymagania: +2 do refleksu, względem poprzedniego użycia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Większa obrona magiczna</name>
+		<requirements>Atrybut: Wola 12.</requirements>
+		<profit>Premia +1 do obrony magicznej.</profit>
+		<special>Zdolność można wziąć wiele razy. Za każdym kolejnym razem, gdy postać sięga po tę zdolność rosną wymagania: +2 do woli, względem poprzedniego użycia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Większa szybkość</name>
+		<requirements>Atrybut: Zręczność 12.</requirements>
+		<profit>Premia +1 do szybkości.</profit>
+		<special>Zdolność można wziąć wiele razy. Za każdym kolejnym razem, gdy postać sięga po tę zdolność rosną wymagania: +3 do zręczności, względem poprzedniego użycia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Większa wytrwałość</name>
+		<requirements>Atrybut: Kondycja 12.</requirements>
+		<profit>Premia +1 do wytrwałości.</profit>
+		<special>Zdolność można wziąć wiele razy. Za każdym kolejnym razem, gdy postać sięga po tę zdolność rosną wymagania: +3 do kondycji, względem poprzedniego użycia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Większy udźwig</name>
+		<requirements>Atrybut: Siła 12.</requirements>
+		<profit>Premia +1 do udźwigu.</profit>
+		<special>Zdolność można wziąć wiele razy. Za każdym kolejnym razem, gdy postać sięga po tę zdolność rosną wymagania: +3 do siły, względem poprzedniego użycia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wgląd w reakcję</name>
+		<requirements>Umiejętność: Intuicja poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię z intuicji do diagnozowania i torturowania (umiejętności leczenia).</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Władczość</name>
+		<requirements>Umiejętność: Dowodzenie poziom 10.</requirements>
+		<profit>Synergia z dowodzenia do perswazji i zastraszania wzrasta dwukrotnie.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wola życia</name>
+		<requirements>Atrybut: Wola 12.</requirements>
+		<profit>Premia do życia w wysokości 1/4 woli.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują. Za każdym kolejnym razem, gdy postać sięga po tę zdolność rosną wymagania: +3 do woli, względem poprzedniego użycia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wprawione oko</name>
+		<requirements>Umiejętność: Spostrzegawczość poziom 5, Zdolność: Precyzyjny strzał.</requirements>
+		<profit>Postać otrzymuje synergię ze spostrzegawczości do władania (kusza) oraz władania (łuk).</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wstrzymanie oddechu</name>
+		<requirements>Atrybut: Kondycja 12.</requirements>
+		<profit>Jeżeli postać ma możliwość zaczerpnąć powietrza, przed wstrzymaniem oddechu, to otrzymuje premię +1 do wytrwałości, na potrzeby liczenia rund.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się kumulują. Każde kolejne sięgnięcie po zdolność zwiększa wymagania atrybutu o +2 względem poprzedniego wzięcia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wyciąganie wieści</name>
+		<requirements>Umiejętność: Perswazja poziom 10.</requirements>
+		<profit>Postać otrzymuje synergię z perswazji do plotkowania.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wyczucie nastroju grupy</name>
+		<requirements>Umiejętność: Intuicja poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię z intuicji do dowodzenia i plotkowania.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wyczucie zwierzęcia</name>
+		<requirements>Umiejętność: Intuicja poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię z intuicji do jeździectwa i tresury.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wykorzystanie wytrychów</name>
+		<requirements>Umiejętność: Rozbrajanie mechanizmów poziom 10.</requirements>
+		<profit>Wytrychy niszczą się dopiero, gdy postaci zabraknie 5 lub więcej punktów w teście otwierania zamków, gdy korzysta z umiejętności rozbrajania mechanizmów.</profit>
+		<normal>Porażka w teście niszczy wytrychy.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wyleczony</name>
+		<requirements>Zdolność: Żelazne zdrowie.</requirements>
+		<profit>Gdy minie czas choroby, która pozostawia po sobie wysączenie atrybutów postać ma tyle procent szansy jaką ma wartość kondycji, że wysączenie zostanie zamienione na obniżenie atrybutów.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wymuszenie</name>
+		<requirements>Umiejętność: Zastraszanie poziom 10.</requirements>
+		<profit>Czas działania wymuszenia na ofiarę działa dwa razy dłużej.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wyślizgnięcie ze zwarcia</name>
+		<requirements>Umiejętność: Akrobatyka poziom 5.</requirements>
+		<profit>Postać wychodząc ze zwarcia otrzymuje do testu zwarcia synergię z akrobatyki.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wytrwałe podróżowanie</name>
+		<requirements>Atrybut: Kondycja 16.</requirements>
+		<profit>Postać otrzymuje tylko 1 punkt wyczerpania spowodowany porażką w teście wysiłku liczonego jako efekt dłuższego podróżowania.</profit>
+		<normal>Postać otrzymuje 2 punkty wyczerpania.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wytwarzanie</name>
+		<requirements>Umiejętność: Wiedza (inżynieria) poziom 5.</requirements>
+		<profit>Postać zyskuje synergię z wiedzy (inżynieria) do wszystkich umiejętności prac w których się coś wytwarza oraz fałszerstwa.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Zaawansowana naprawa</name>
+		<requirements>Umiejętność: Praca (dowolna) poziom 5.</requirements>
+		<profit>Możesz naprawić przedmiot o jedną kategorię więcej razy w wariancie rzemiosła, którego wymagania są spełnione i do którego wybrano zdolność.</profit>
+		<normal>Niezależnie od stopnia jakości bazowej i aktualnego zniszczenia przedmiotu można go naprawić tylko o jeden stopnień.</normal>
+		<special>Zdolność można wziąć 5 razy, a jej efekty kumulują się ze sobą (5ty raz sprawi, że przedmiot całkowicie zniszczony zostanie przywrócony do mistrzowskiej jakości). Każde kolejne sięgnięcie po tę zdolność wymaga 5 poziomów umiejętności pracy więcej niż poprzednim razem. Zdolność można wziąć również wielokrotnie dla różnych rodzajów rzemiosła.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Zabójczy strzał</name>
+		<requirements>Umiejętność: Władanie (łuk) poziom 30, Zdolność: Precyzyjny strzał.</requirements>
+		<profit>Przy trafieniu w ciało przeciwnika przy ataku łukiem zadajesz podwójne obrażenia. Ewentualne trafienie krytyczne daje dodatkowy mnożnik. Cel ataku dystansowego musi być w zasięgu 10 metrów.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Zagadanie</name>
+		<requirements>Umiejętność: Prowokacja poziom 15.</requirements>
+		<profit>Skuteczne zagadanie sprawi, że oponent postaci otrzyma karę -20 do testów spostrzegawczości.</profit>
+		<normal>Zagadany otrzymuje karę -10 do testów spostrzegawczości.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Zapasy</name>
+		<requirements>Umiejętność: Zwarcie poziom 5.</requirements>
+		<profit>Wszystkie akcje w zwarciu, które wymagają poświęcenia akcji zwykłej wymagają teraz poświecenia akcji dodatkowej. Nie dotyczy to wykorzystania ataku podczas zwarcia.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Zasłyszane informacje</name>
+		<requirements>Umiejętność: Plotkowanie poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię z plotkowania do znajomości (każdej).</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Zdobycie opatrunków</name>
+		<requirements>Umiejętność: Leczenie poziom 1 oraz Sztuka przetrwania poziom 1.</requirements>
+		<profit>Postać zdając test zdobycia pożywienia w danej okolicy i poświęcając 15 minut znajduje rzeczy nadające się na jeden fatalny opatrunek. Osiągając w teście wynik o 10 większy niż ST postać zdobywa kiepski opatrunek, a przy wyniku o 20 większym od ST opatrunek o jakości średniej.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Zdrowa dieta</name>
+		<requirements>Umiejętność: Leczenie poziom 10 oraz Wiedza (alchemia) poziom 10.</requirements>
+		<profit>Postać za każdym razem, kiedy przez 3 dni będzie jadała dobre lub lepsze jedzenie oraz zachowywała się zgodnie z zasadami higieny zyska modyfikator +2k10 do punktów życia oraz synergię z powyższych umiejętności do wytrwałości przy opieraniu się efektom chorób, które jeszcze nie zaatakowały organizmu. Modyfikator ten zniknie, gdy postać nie będzie w stanie odpowiednio się odżywiać lub nadwątli swą higienę. Test dodatkowych punktów życia należy wykonywać codziennie od 3 dnia zdrowej diety. Wiedzą tą postać nie może dzielić się z innymi, gdyż jest rodzaj rygoru adekwatnego przy każdym działaniu.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Zeskakiwanie z wysoka</name>
+		<requirements>Umiejętność: Akrobatyka poziom 15, Zdolność: Specjalizacja II (akrobatyka).</requirements>
+		<profit>Postaci nie obowiązuje limit 5 m przy redukowaniu wysokości upadku. Każdy kolejny metr wymaga +10 w teście umiejętności akrobatyka.</profit>
+		<normal>Postać osiągając wynik 50+ niweluje tylko 5 m wysokości.</normal>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Zielarstwo</name>
+		<requirements>Umiejętność: Wiedza (alchemia) poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię z wiedzy (alchemia) do sztuki przetrwania, gdy korzysta z tej umiejętności przy znajdowaniu ziół etc. Poza tym premia ta działa również wtedy, gdy postać poszukuje pożywienia.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Zmysł włamywacza</name>
+		<requirements>Umiejętność: Wiedza: inżynieria poziom 15.</requirements>
+		<profit>Postać pozbawiona dostępu do materiałów na wytrychy może takowe stworzy w zasadzie z najdziwniejszych rzeczy np. utwardzanego na ślinę piasku. Potrzebuje na to od 1 do 10 dni.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Zmysł myśliwego</name>
+		<requirements>Umiejętność: Spostrzegawczość poziom 5 oraz Sztuka przetrwania poziom 10.</requirements>
+		<profit>Postać otrzymuje synergię ze spostrzegawczości do sztuki przetrwania.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Znajdywanie kierunku lub drogi</name>
+		<requirements>Umiejętność: Przeszukiwanie poziom 10 oraz Sztuka przetrwania poziom 10.</requirements>
+		<profit>Synergia z przeszukiwania dla odnajdywania kierunku lub drogi (umiejętność sztuki przetrwania) zwiększa się dwukrotnie.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Znajomość mechanizmów</name>
+		<requirements>Umiejętność: Wiedza (inżynieria) poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię z wiedzy (inżynierii) do rozbrajania mechanizmów.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Zorientowanie w cenach</name>
+		<requirements>Umiejętność: Plotkowanie poziom 5.</requirements>
+		<profit>Postać otrzymuje synergię z plotkowania do targowania (umiejętność perswazji).</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Zwrot lingwistyczny</name>
+		<requirements>Umiejętność: Wiedza (filozofia) poziom 10.</requirements>
+		<profit>Postać otrzymuje synergię z filozofii do inteligencji liczonej na potrzeby poznawania i posługiwania się językiem.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Zwrócenie uwagi</name>
+		<requirements>Umiejętność: Prowokacja poziom 10.</requirements>
+		<profit>Postać może w ciągu akcji cało-rundowej zwymyślać przeciwnika (pod warunkiem, że zrozumie on docinki). Należy wykonać test prowokacji przeciwstawny z opanowaniem oponenta. Sukces oznacza, że wróg porzucić atakowanego przeciwnika i skupić uwagę na <quote>zwracającym jego uwagę</quote>. Teraz zaatakuje postać korzystającą z tej zdolności, chyba że z przyczyn naturalnych nie może jej dosięgnąć (np. postać jest poza zasięgiem ruchu przeciwnika). W takiej sytuacji wróg mimo zdenerwowania atakuje swój normalny cel. Sprowokowanie trwa tyle rund na jakim poziomie postać opanowała umiejętność.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Żelazne pięści</name>
+		<requirements>Umiejętność: Walka wręcz poziom 10.</requirements>
+		<profit>Siła obrażeń uderzeń bez broni zwiększa się o jedną kategorię.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Żelazne szpony</name>
+		<requirements>Umiejętność: Walka wręcz poziom 20; Zdolność: Żelazne pięści.</requirements>
+		<profit>Każdy atak wręcz otrzymuje cechę broni: poważne rany, co sprawia, że każda rana spowodowana atakiem bez broni kwalifikuje się jako poważna rana. Poważna rana generuje punkt obrażeń z uwagi na krwawienie w ciągu minuty, gdy normalna rana generuje punkt obrażeń co 10 minut.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Żelazne zdrowie</name>
+		<requirements>Kondycja 12.</requirements>
+		<profit>Premia +2 do wytrwałości, na potrzeby opierania się chorobom.</profit>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty kumulują się ze sobą. Za każdym razem, gdy postać sięga po tę zdolność rosną wymagania: +3 do kondycji, względem poprzedniego użycia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Żywotność</name>
+		<requirements>Umiejętność: Wysiłek 5.</requirements>
+		<profit>Postać otrzymuje synergię z umiejętności wysiłek do punktów życia.</profit>
+	</tal:feat>
+
+	<section>Zdolności wrodzone</section>
+	<p>W niniejszym podrozdziale zostały wymienione dostępne dla postaci zdolności związane z jej najgłębszą strukturą wzorca, dane od bogów, przeznaczone albo inaczej te, które ma od urodzenia. Te zdolności w przeciwieństwie do kolejnych wymienionych można zdobyć tylko i wyłącznie na etapie tworzenia postaci.</p>
+	<p>Zdolności zamieszczone w tym podrozdziale są <quote>lepsze</quote> od tych prezentowanych w kolejnych podrozdziałach. Postać może zdobyć zaledwie kilka z tych zdolności, które w zasadzie zdeterminują jej cały żywot. Postać na etapie tworzenia otrzymuje doświadczenie zwane <quote>początkowym</quote>, które jest zależne od rasy postaci i ewentualnie cech dodatkowych, które posiada postać. Tylko i wyłącznie za te punkty doświadczenia postać może wykupić prezentowane w tym miejscu zdolności. Jeżeli postać nie wykorzysta całego doświadczenia <quote>początkowego</quote>, to będzie mogła dodać te doświadczenie do normalnych punktów doświadczenia i w kolejnym kroku zakupić normalne zdolności i umiejętności.</p>
+	<p>Zwykli śmiertelnicy raczej nie posiadają prezentowanych poniżej zdolności dlatego całkiem zasadnym jest przyznawanie każdemu BN-owi mającemu przynajmniej jedną z poniższych zdolności statusu <quote>bohatera</quote>.</p>
+	<p>Niektóre ze zdolności dają dostęp do szablonów (modyfikatorów rasy postaci) lub specjalnych list zdolności wzorca. Wybranie tych drugich nie da postaci niczego więcej jak tylko możliwości wykupienia dodatkowych zdolności w następnym etapie tworzenia postaci. Zdolności pierwsze w subtelny lub brutalny sposób modyfikują postać, co pewnie da się wizualnie zobaczyć.</p>
+	<p>Chociaż nie wynika to wprost z opisu, to większość z opisanych poniżej zdolności w jakiś istoty sposób wpłynęła zapewne na wcześniejsze życie postaci. Oznacza to, że zdolności z tego podrozdziału winny być również w jakiś sposób opisane fabularnie.</p>
+	<p>Niektóre z poniższych zdolności zapewniają dostęp do specjalnego <quote>wzorca</quote>. Oznacza to, że postać będzie mogła wykupić za doświadczenie zdolności zmieniające zasadnie jej wzorzec. Te zdolności są zwykle najpotężniejszymi z poniższych.</p>
+	<table>
+		<caption>Lista zdolności wrodzonych</caption>
+		<thead>
+			<tr>
+				<td>Nazwa</td>
+				<td>Wymagania<footnote>Litera <quote>A</quote> oznacza atrybut, <quote>C</quote> cechę dodatkową, <quote>R</quote> rasę, a <quote>Z</quote> zdolność.</footnote></td>
+			</tr>
+		</thead>
+		<tbody>
+			<TODO>tabelka razem z synergiami i testem</TODO>
+		</tbody>
+	</table>
+
+	<tal:feat>
+		<name>Archont Gniewu (wzorzec)</name>
+		<description>Gdy wpadasz w bitewny szał budzą się w Tobie siły zniszczenia i zagłady. Gdy rozwiniesz te moce nic nie stanie Tobie na drodze.</description>
+		<requirements>Atrybuty: Kondycja 16 i Wola 16; Cechy dodatkowe: Agresywny.</requirements>
+		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Artysta</name>
+		<description>Zawsze pełen energii, zawsze pełen świeżych i ciekawych pomysłów, potrafisz dodać wigoru i chęci do tańca nawet nieumarłym.</description>
+		<requirements>Atrybut: Charyzma 16.</requirements>
+		<profit>Postać otrzymuje premię +5 do każdej umiejętności związanej ze sztuką i grą na instrumentach. Postać otrzymuje również punkt szczęścia za każdym razem, gdy wykona wiekopomne dzieło lub niezwykły występ.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Błękitna krew (wzorzec)</name>
+		<description>Dla niektórych jest jak błogosławieństwo, a dla innych jest niczym klątwa. Twoja krew nie jest czerwona.</description>
+		<requirements>Atrybut: Inteligencja 20; Rasa: Elf; Zdolność: Magia we krwi oraz Odporność na magię.</requirements>
+		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Daimonesidhe (wyższy rodzaj)</name>
+		<description>W Twoich żyłach płynie piekielna krew.</description>
+		<requirements>Atrybut: Wola 20; Rasa: Srebrny Elf; Zdolność: Magia we krwi.</requirements>
+		<profit>Postać otrzymuje szablon Wyższego Rodzaju o nazwie Daimonesidhe.</profit>
+		<special>Postać może wziąć tę zdolność maksymalnie 4 razy. Za każdym razem jej moc związana z wyższym rodzajem będzie rosła o stopień.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Długie nogi (rasa)</name>
+		<description>Nawet jak na elfa, Twoje nogi są długie.</description>
+		<requirements>Rasa: Elf.</requirements>
+		<profit>Premia +2 do szybkości.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Dobry duch</name>
+		<description>No nie da się... Po prostu się nie da Ciebie skrzywdzić. Każdy pijus da sobie spokój. Szukający zaczepki jakimś cudem ciebie omijają. Po prostu masz szczęście do ludzi.</description>
+		<profit>Za każdym razem, gdy zostaniesz pojmany przez osoby chcące połamać Tobie nogi, ręce lub ogólnie zrobić krzywdę, możesz wykupić się z opresji o połowę mniejszym kosztem punktów szczęścia. Czasami wykupienie się pozwala tylko odroczyć nieuniknioną karę, ale to już inna sprawa.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Dostrojenie</name>
+		<description>Wydajesz się doskonale łączyć swój wzór ze wszystkimi rzeczami, tak jakbyś od razu mógł coś od nich przejąć.</description>
+		<profit>Koszt dostrojenia do magicznego przedmiotu zmniejsza się o połowę.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Drugie serce</name>
+		<description><quote>Słyszysz jak wali? Łomocze jak sam skur... no wiesz kto. – Fakt, ale zobaczysz, że za chwilę przestanie łomotać i gość będzie w pełnej formie. On już taki jest.</quote></description>
+		<requirements>Atrybut: Kondycja 16.</requirements>
+		<profit>Zmęczenie jest niwelowane przez postać 2x szybciej.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Dzika magia</name>
+		<description>Magia jest w Tobie silna, ale jest również szalona. Możesz korzystać z magii, ale wiąże się to z wielkim ryzykiem.</description>
+		<requirements>Zdolność: Magia we krwi.</requirements>
+		<profit>Postać jest w stanie rzucać zaklęcia nawet wówczas, gdy nie zna w pełni języka tajemnego na bazie którego działa dana magia. Każda próba rzucenia w ten sposób zaklęcia daje procentową szansę (równą ST rzucenia zaklęcia), że wystąpi efekt katastrofy magicznej. W przypadku porażki wystąpią dwa efekty lub ten sam dwukrotnie. Poza tym postać jest w stanie rozwijać umiejętność: rzucanie zaklęć bez spełnienia odpowiednich wymogów językowych. Niestety postać traci efekt zdolności magia we krwi.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Elokwencja</name>
+		<description>Prosty schemat postępowania wpierw myśleć, później mówić, a na koniec dopiero czynić i nigdy nie dać się oszukać. Oto cały Ty.</description>
+		<profit>Postać otrzymuje premię do perswazji w wysokości 1/4 inteligencji. Postać otrzymuje punkt szczęścia za każdym razem, gdy uda jej się w sposób publiczny i dystyngowany pokonać w dyskusji drugą osobę.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Estiat (wzorzec)</name>
+		<description>Należysz do wybrańców, którzy wykazują się odpornością na ciosy, magię, są szybsi i wytrwalsi od innych. Estiaci to ludzie predysponowani do wielkości.</description>
+		<requirements>Rasa: Człowiek; Zdolność: Odporność na magię, Potencjał Many, Potencjał życia oraz Zmysł obrony.</requirements>
+		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Farciarz</name>
+		<description>Masz fart. Masz fart jak mało kto. Jesteś przesądny i wierzysz w fatum… a co najdziwniejsze, zdajesz się mieć rację.</description>
+		<profit>Postać na początku każdej sesji otrzymuje punkt szczęścia (z wyłączeniem pierwszej sesji).</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Gog (wyższy rodzaj)</name>
+		<description>W Twoich żyłach płynie krew Magogów – rasy demonów.</description>
+		<requirements>Atrybut: Charyzma 4, Kondycja 12.</requirements>
+		<profit>Postać otrzymuje szablon Wyższego Rodzaju o nazwie Gog.</profit>
+		<special>Postać może wziąć tę zdolność maksymalnie 4 razy. Za każdym razem jej moc związana z wyższym rodzajem będzie rosła o stopień.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Jordaen (wzorzec)</name>
+		<description>Magia się Ciebie nie ima.</description>
+		<requirements>Rasa: Człowiek; Zdolność: Odporność na magię.</requirements>
+		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Kathikan (wzorzec)</name>
+		<description>Twoje wszechstronne umiejętności zapierają dech w piersiach.</description>
+		<requirements>Zdolności: Artysta, Elokwencja, Naukowiec, Urodzony rzemieślnik oraz Urodzony wojownik.</requirements>
+		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Kolejny żołądek (rasa)</name>
+		<description><quote>Dawaj żarcie, bom głodny! – Ależ panie, to już piętnasta porcja! – Co za cipa! Trzymajta mnie, bo mu pierdolnę. Nuż chuj mnie głodzi!</quote></description>
+		<requirements>Rasa: Krasnolud.</requirements>
+		<profit>Posiadasz o jeden żołądek więcej, niż inni Twoi pobratymcy. Działa on tak samo jak pozostałe.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Krasnoludzki grzbiet (rasa)</name>
+		<description>Możesz nosić ze sobą więcej, niż inni Twoi ziomkowie</description>
+		<requirements>Rasa: Krasnolud.</requirements>
+		<profit>Premia +2 do udźwigu.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Kravhost (wyższy rodzaj)</name>
+		<description>Wśród krasnoludów jesteś pewną anomalią, gdyż potencjał magiczny masz iście niekrasnoludzki.</description>
+		<requirements>Rasa: Krasnolud; Zdolność: Magia we krwi.</requirements>
+		<profit>Postać otrzymuje szablon Wyższego Rodzaju o nazwie Kravhost.</profit>
+		<special>Postać może wziąć tę zdolność maksymalnie 4 razy. Za każdym razem jej moc związana z wyższym rodzajem będzie rosła o stopień.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Kropla krwi (rasa)</name>
+		<description>Posiadasz w sobie krew przodka, który nie należał do żadnej z ludzkich ras.</description>
+		<requirements>Rasa: Człowiek.</requirements>
+		<profit>Dla jednej wybranej zdolności postać będzie spełniała dowolne wymagania związane z rasą lub rodzajem.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Krwawy elf (wyższy rodzaj)</name>
+		<description>Ciernie i krew. Nie jesteś zwykłym elfem, lecz jednym z <quote>czerwonych elfów</quote>, zwanych częściej krwawymi. Kiedyś może opanujesz dane Tobie dziedzictwo, ale brzemię jest ciężkie.</description>
+		<requirements>Atrybuty: Wola 16; Rasa: Elf; Zdolności: Magia we krwi.</requirements>
+		<profit>Postać otrzymuje szablon Wyższego Rodzaju o nazwie Krwawy elf.</profit>
+		<special>Postać może wziąć tę zdolność maksymalnie 4 razy. Za każdym razem jej moc związana z wyższym rodzajem będzie rosła o stopień.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Ludzka natura (rasa)</name>
+		<description>Więcej w Tobie człowieka.</description>
+		<requirements>Rasa: Kreol.</requirements>
+		<profit>Możesz wybrać dla swej postaci dodatkową cechę dodatkową wynikającą z konkretnej ludzkiej rasy, ale inną niż cechę główną ludzi i inną niż cechę bohaterską.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Magia we krwi</name>
+		<description>Masz w sobie dar lub jak kto woli klątwę rzucania zaklęć.</description>
+		<requirements>Atrybut: Wola 16.</requirements>
+		<profit>Premiowa kostka 1k12 do każdego testu umiejętności rzucania zaklęć.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Mistrz dostrojeń (wzorzec)</name>
+		<description>Twój wzór ma niesamowitą elastyczność dostosowywania się do rzeczy przydatnych.</description>
+		<requirements>Atrybut: Percepcja 20 oraz Wola 20; Cechy dodatkowe: brak jakichkolwiek dodatkowych cech zapewniających dodatkowe doświadczenie; Rasa: Człowiek.</requirements>
+		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Naukowiec</name>
+		<description>Smykałka do wiedzy.</description>
+		<profit>Premia +1 do wszystkich dziedzin wiedzy i znajomości. Postać otrzymuje punkt szczęścia za każdym razem, gdy zda test wiedzy lub znajomości, którego ST=50.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Odporność na choroby</name>
+		<description>Końskie zdrowie to podstawa.</description>
+		<profit>Premia +4 wytrwałości na potrzeby opierania się chorobom.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Odporność na magię</name>
+		<description>Niektórzy mają ciekawą magiczną zdolność – są odporni na magię.</description>
+		<profit>Premia +4 do obrony magicznej.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Odporność na trucizny</name>
+		<description><quote>W tym fachu trzeba mieć wątrobę ze stali, aby dotrzymać kroku najlepszym. Arszenik, cykuta, krasnoludzki bimber. Różne są trutki, ale zawsze jakoś to było.</quote></description>
+		<profit>Premia +4 wytrwałości na potrzeby opierania się truciznom.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Okrucieństwo sidhe (rasa)</name>
+		<description>Dawna natura elfów napełnia Cię radością, gdy krzywdzisz i zabijasz.</description>
+		<requirements>Rasa: Elf.</requirements>
+		<profit>Postać otrzymuje punkt szczęścia za każdym razem, gdy skrzywdzi za pomocą tortur lub zabije inteligentną istotę. Jeżeli tortury zakończą się śmiercią, to postać otrzyma tylko jeden punkt szczęścia, a nie dwa.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Poliglota</name>
+		<description>Masz niezwykłą smykałkę do języków.</description>
+		<profit>Postać otrzymuje premię +4 do inteligencji na potrzeby posługiwania się wszystkimi znanymi językami i włada dwoma wybranymi językami, których wymagania spełnia. Dodatkowo otrzymuje zdolność: język obcy jako premiową zdolność na 5 poziomie umiejętności wiedza (światowa) oraz co 5 kolejnych poziomów. Premiowe zdolnością działają dodatkowo z normalnymi premiowymi zdolnościami. Patrz Języki w rozdziale Świat Przygód.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Potencjał many</name>
+		<description>Masz w sobie więcej many, niż można by sądzić.</description>
+		<profit>Premia +10 do many.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Potencjał życia</name>
+		<description>Nie można powiedzieć, że jesteś słabeuszem. Tam, gdzie dziesięciu innych padnie na pysk od uderzeń, Ty pójdziesz dalej.</description>
+		<profit>Premia +10 do życia.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Pustka magii (rasa)</name>
+		<description>Twoja elficka krew jest pozbawiona magii.</description>
+		<requirements>Rasa: Elf; Zdolność: Magia we krwi.</requirements>
+		<profit>Postać traci efekt zdolności magia we krwi i zyskuje premię +8 do obrony magicznej.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Szósty zmysł</name>
+		<description>Masz niezwykły dar wyczuwania zagrożenia.</description>
+		<requirements>Atrybut: Percepcja 20 lub Zdolność: Wizja.</requirements>
+		<profit>Za każdym razem, gdy postać jest narażona na niebezpieczeństwo związane z atakiem z zaskoczenia MG w sekrecie wykonuje test intuicji postaci o ST=30. Sukces oznacza, że postać wyczuwa zagrożenie. Nie oznacza to jednak, że będzie ona wiedziała kto/co jest źródłem ataku.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Talent (nazwa)</name>
+		<description>Masz talent.</description>
+		<profit>Postać otrzymuje 2x więcej premiowych zdolności dla wybranej umiejętności na 10 i co każde 10 poziomów. Poza tym co 5 poziomów postać otrzymuje premię +1 do testów danej umiejętności, a zdolność specjalizacja zapewnia o połowę większą premię względem tej właśnie umiejętności.</profit>
+		<special>Można tę zdolność wybrać wielokrotnie. Za każdym razem będzie dotyczyła innej umiejętności. Zakazana zdolność: Wszechstronność.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Uroda</name>
+		<description>Niektórzy wyglądają ładniej niż inni, a Ty się do nich zaliczasz.</description>
+		<profit>Postać należy traktować jak wyjątkowo urodziwą. Pomaga to w kontaktach interpersonalnych, ale nie zapewnia jakiegoś stałego modyfikatora lub premii (niektórzy nie lubią pięknych osób).</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Urodzony przywódca</name>
+		<description>Od dziecka czułeś w sobie dryg do kierowania ludźmi. Nie boisz się podejmowania trudnych decyzji, łatwiej niż innym przychodzi ci też kierowanie ludźmi, namawianie ich i inspirowanie do działania.</description>
+		<requirements>Atrybut: Charyzma 16.</requirements>
+		<profit>Premia +5 do dowodzenia. Jeżeli postać będzie realnym przywódcą Drużyny, to każdy jej członek otrzyma dodatkowy punkt szczęścia na początku każdej sesji (włącznie z samym przywódcą, z wyłączeniem pierwszej sesji).</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Urodzony rzemieślnik</name>
+		<description>Masz doskonały zmysł wykonywania pracy. Tworzysz dzieła lepsze, bądź szybkiej od innych.</description>
+		<requirements>Atrybut: Inteligencja 16.</requirements>
+		<profit>Premia +5 do wszystkich umiejętności pracy. Poza tym postać otrzyma punkt szczęścia za wyprodukowanie rewelacyjnej rzeczy oraz rewelacyjne wykonanie pracy.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Urodzony wojownik</name>
+		<description>Wojna jest Twą matką, a bitwa siostrą. Odwiedziny tej rodziny zapewniają szczęście.</description>
+		<requirements>Atrybut: Charyzma 16 i Wola 16.</requirements>
+		<profit>Premia +1 do wszystkich umiejętności władania, walki wręcz, zwarcia, inicjatywy i uników. Postać poza tym otrzymuje punkt szczęścia za każdym razem, gdy pokona kogoś w bitwie, ale tylko wtedy, gdy przeciwnik będzie stanowił przynajmniej średniej trudności wyzwanie.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wielokulturowość (rasa)</name>
+		<description>Nie wychowano Cię w jednej, lecz kilku kulturach, które dogłębnie poznałeś.</description>
+		<requirements>Atrybut: Charyzma 14; Rasa: Człowiek.</requirements>
+		<profit>Możesz wybrać dla siebie dowolnie inną kulturę pochodzenia. Otrzymujesz korzyści z obu kultur i możesz wybierać z nich zdolności początkowe jeżeli spełniasz ich wymagania.</profit>
+		<special>Postać może wybrać tę zdolność wielokrotnie. Za każdym razem będzie ona zapewniała korzyść płynącą z danej kultury i dostęp do odpowiednich zdolności początkowych.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wizja</name>
+		<description>Doznajesz wizji w różnych miejscach i o różnym czasie. To oczywiście bardzo męczące, ale cóż poradzić? Taki los! Na szczęście wizje te są pomocne i odrobina oleju w głowie sprawia, że dzięki nim można lepiej przygotować się na nadchodzącą przyszłość.</description>
+		<profit>Na początku sesji postać może zdecydować, że chce doświadczyć wizji. MG daje postaci krótki opis sytuacji, która prawdopodobnie się zdarzy w niedalekiej przyszłości (do końca sesji), a która raczej wywrze wrażenie na postać. Oczywiście postać nie można znać kluczowych wydarzeń, ale mała podpowiedź zawsze się jej przyda.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wszechstronność</name>
+		<description>Nie lubisz ograniczeń. Nie lubisz sztucznych barier. Jesteś typem wszechstronnego gościa, który zna się na wszystkim… i często omija to, na czym nie powinien się znać.</description>
+		<profit>Postać otrzymuje premię +1 do testu każdej umiejętności, którą ma opanowaną na przynajmniej 1 poziomie.</profit>
+		<special>Zdolność zakazana: Talent. Dodatkowo zdolność: Specjalizacja (umiejętność) nie zapewnia premii do testu umiejętności.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Wyposażony</name>
+		<description>Twoje przyrodzenie jest majestatyczne. Pewnie chciałbyś je pokazywać całemu światu, a nie ukrywać w odmętach pantalonów. Nie mniej jednak może to powodować zakłopotanie na twarzach gorzej wyposażonych</description>
+		<requirements>Płeć: Mężczyzna.</requirements>
+		<profit>Penis postaci jest <quote>bardzo duży</quote>. Postać staje się świetnym kochankiem i otrzymuje punkt szczęścia za każdym razem kiedy udowodni swój talent w łóżku.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Zmysł magii</name>
+		<description>Posiadasz specjalny zmysł, dzięki któremu jesteś w stanie wykrywać magię.</description>
+		<requirements>Atrybut: Wola 12, Zdolność: Dzika magia lub Magia we krwi, lub Wizja.</requirements>
+		<profit>Postać może wykorzystywać umiejętność spostrzegawczość do wykrywania magicznych aur.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Zmysł obrony</name>
+		<description>Trafić Ciebie w walce, to nie lada sztuka.</description>
+		<profit>Premia +4 do obrony fizycznej.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Zwierzęce moce (wzorzec)</name>
+		<description>Masz predyspozycje do obudzenia w sobie zwierzęcych mocy.</description>
+		<requirements>Atrybuty: Kondycja 14, Percepcja 16, Refleks 14, Siła 14, Zręczność 14.</requirements>
+		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca.</profit>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Żywioł błyskawic (wzorzec)</name>
+		<description>Masz w swój wzór wpisany żywioł.</description>
+		<requirements>Atrybut: Refleks 16, Zręczność 16.</requirements>
+		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca.</profit>
+		<special>Można mieć dostęp tylko do jednego z następujących żywiołów: błyskawic, ognia, powietrza, wody, ziemi, zimna albo życia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Żywioł ognia (wzorzec)</name>
+		<description>Masz w swój wzór wpisany żywioł.</description>
+		<requirements>Atrybut: Percepcja 16 i Refleks 16.</requirements>
+		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca.</profit>
+		<special>Można mieć dostęp tylko do jednego z następujących żywiołów: błyskawic, ognia, powietrza, wody, ziemi, zimna albo życia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Żywioł powietrza (wzorzec)</name>
+		<description>Masz w swój wzór wpisany żywioł.</description>
+		<requirements>Atrybut: Inteligencja 16 i Zręczność 16.</requirements>
+		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca.</profit>
+		<special>Można mieć dostęp tylko do jednego z następujących żywiołów: błyskawic, ognia, powietrza, wody, ziemi, zimna albo życia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Żywioł wody (wzorzec)</name>
+		<description>Masz w swój wzór wpisany żywioł.</description>
+		<requirements>Atrybut: Percepcja 16 i Siła 16.</requirements>
+		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca.</profit>
+		<special>Można mieć dostęp tylko do jednego z następujących żywiołów: błyskawic, ognia, powietrza, wody, ziemi, zimna albo życia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Żywioł ziemi (wzorzec)</name>
+		<description>Masz w swój wzór wpisany żywioł.</description>
+		<requirements>Atrybut: Charyzma 16 i Siła 16.</requirements>
+		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca.</profit>
+		<special>Można mieć dostęp tylko do jednego z następujących żywiołów: błyskawic, ognia, wody, powietrza, ziemi, zimna albo życia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Żywioł zimna (wzorzec)</name>
+		<description>Masz w swój wzór wpisany żywioł.</description>
+		<requirements>Atrybut: Inteligencja 16 i Percepcja 16.</requirements>
+		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca.</profit>
+		<special>Można mieć dostęp tylko do jednego z następujących żywiołów: błyskawic, ognia, powietrza, wody, ziemi, zimna albo życia.</special>
+	</tal:feat>
+
+	<tal:feat>
+		<name>Żywioł życia (wzorzec)</name>
+		<description>Masz w swój wzór wpisany żywioł.</description>
+		<requirements>Atrybut: Kondycja 16 i Wola 16.</requirements>
+		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca.</profit>
+		<special>Można mieć dostęp tylko do jednego z następujących żywiołów: błyskawic, ognia, powietrza, wody, ziemi, zimna albo życia.</special>
+	</tal:feat>
+
+	<section>Zdolności wzorca</section>
+	<p>Zdolności opisane w tym podrozdziale skupiają się na wzorcu postaci. Zdolności te są dostępne tylko dla postaci, które na wcześniejszym etapie wybrały jakieś wrodzone zdolności, które pozwalają im rozwijać wzorzec. Zdolności wzorca należą do <quote>lepszych</quote> zdolności, lecz (prawie) wszystkie wymagają magicznego dostrojenia, a więc zużywają bezpowrotnie (zdolności nie można się samodzielnie pozbyć!) punkty many. Postać powinna dobrze przemyśleć wybór tych zdolności, gdyż w przypadku wzięcia ich zbyt wielu nie będzie zdolna do korzystania z many w ogóle, a nie tylko czarodzieje z niej korzystają.</p>
+
+	<header>Archont gniewu</header>
+	<itemlist>
+		<item title="Opis">Archont Gniewu zwany również Piekielnym Berserkiem lub Piewcą Zniszczenia jest niezwykłym wzorcem występującym w osobach. Bardzo wielu wojowników ma zdolność wpadania w szał czyniący spustoszenie wokół na placu boju, ale tylko prawdziwy berserk może wpaść w szał, który zamieni w pobojowisko nie tylko plac boju, lecz wręcz całą krainę. Legendy mówiące o opętanych szałem mordu berserkerach niszczących królestwa w istocie mówią o osobach dysponujących tym wzorem.</item>
+		<item title="Koszt dodatkowy">Aby wziąć dowolną z poniższych zdolności postać musi posiadać następujące zdolności (ogólne): Berserk oraz Bitewna furia. Poza tym tylko podczas bitewnej furii zdolności archonta gniewu będą działały. Zdolności archonta gniewu można wybierać tylko podczas bitwy. Postać musi wpaść w jej trakcie w berserka z bitewną furią, a następnie zabić dowolnego przeciwnika. Wtedy też dopiero postać będzie mogła poświęcić punkty doświadczenia wybierając dla siebie odpowiednie zdolności. Można w ten sposób zyskać tylko jedną zdolność podczas jednej bitwy.</item>
+		<item title="Efekt uboczny">
+			Za każdym razem, gdy postać wpadnie w berserk istnieje 15% +4%, za każdą z poniższych zdolności, szansy na to, że jako pierwszego przeciwnika wybierze najbliższą sobie osobę / potwora – nieważne przy tym, czy to będzie przeciwnik czy sojusznik. W drugiej rundzie i każdej ewentualnie kolejnej będzie trzeba powtarzać test, aż w końcu berserk będzie mógł zająć się przeciwnikami. Poza tym postać ma taką samą szansę na to, że wpadnie w berserk za każdym razem, gdy przegra test prowokacji dotyczący zdenerwowania.<br />
+			Dodatkowo, gdy archont gniewu wpada w bitewną furię zdaje automatycznie wszystkie testy opanowania dotyczące strachu.
+		</item>
+	</itemlist>
+	<tal:feat>
+		<name>Ostatnie wyzwanie</name>
+		<profit>Po pierwsze postać nie traci przytomności, gdy ma mniej niż 10 punktów życia i nie można jej oszołomić podczas walki. Po drugie gdy punkty życia spadną do wartości ujemnych archont gniewu i tak będzie walczył dalej do czasu zakończenia się berserku. Nie może tego czynić tylko wtedy, gdy nastąpi poważne zniszczenie ciała (np. dekapitacja, dezintegracja itp.) lub gdy będzie miał -50 punktów życia. Po zakończeniu berserku postać umiera.</profit>
+		<special>Jeżeli postać Gracza zabije wszystkich oponentów już po tym jak zostanie <quote>uśmiercona</quote>, to otrzymuje punkt szczęścia do natychmiastowego wykorzystania w celu uratowania życia (patrz Szczęście). Jeżeli test będzie pomyślny berserk będzie bardzo ranny i bardzo wkurwiony (ale żywy).</special>
+		<cost>20.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Prawdziwa siła</name>
+		<requirements>Zdolność: Siła berserka.</requirements>
+		<profit>Premia do siły wynikająca ze zdolności siła berserka zostaje podwojona.</profit>
+		<cost>4.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Skoncentrowanie na walce</name>
+		<profit>Akcja dodatkowa zapewniana przez zdolność bitewna furia zamienia się na akcję zwykłą.</profit>
+		<cost>6.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Szaleńcza szybkość</name>
+		<profit>Premia +4 do szybkości, gdy postać jest w berserku.</profit>
+		<cost>6.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Wytrwały szał</name>
+		<profit>Premia +4 do wytrwałość, gdy postać jest w berserku.</profit>
+		<cost>6.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Zbroja woli</name>
+		<requirements>Umiejętność: Opanowanie poziom 10.</requirements>
+		<profit>Podczas berserku postać otrzymuje naturalny pancerz w wysokości poziomu umiejętności opanowanie.</profit>
+		<cost>8.</cost>
+	</tal:feat>
+
+	<header>Błękitna krew</header>
+	<itemlist>
+		<item title="Opis">W każdym pokoleniu elfów rodzi się odsetek osób, które są wysoce uduchowione. Elfowie ci mają naturalną predyspozycję do tego, aby wyrównać swe braku fizyczne za pomocą potencjału swego duchowego szczęścia. Elfowie posiadający błękitną krew są często nazywane Dharma’sidhe albo <quote>Oświeconymi</quote>, gdyż każda ze zdolności błękitnej krwi nazywana jest <quote>oświeceniem</quote>.</item>
+		<item title="Koszt dodatkowy">Wybór każdej z poniższych zdolności wymaga od postaci wydania 20 punktów szczęścia.</item>
+		<item title="Efekt uboczny">Skóra postaci jest blada i nigdy się nie opali nawet po długotrwałym kontakcie ze słońcem. Gdy tylko postać wykorzysta przynajmniej jeden punkt many, jej krew przybierze błękitny kolor, ale będzie to widoczne dopiero w momencie, gdy krew ta opuści ciało postaci. Błękitna krew gdy opuści ciało postaci nie zmienia koloru przez ok. godzinę za każdą z posiadanych poniższych zdolności. Krew ta często jest wykorzystywana w rytuałach magicznych i jako komponent zaklęć. Opowieści i podania mówią o tym, że czarnoksiężnicy porywali elfów po to, aby traktować ich jako rezerwuar tejże krwi.</item>
+	</itemlist>
+	<tal:feat>
+		<name>Oświecona kondycja</name>
+		<profit>Premia do atrybutu kondycji równa 1/4 wartości współczynnika szczęścia.</profit>
+		<cost>12.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Oświecony refleks</name>
+		<profit>Premia do atrybutu refleksu równa 1/4 wartości współczynnika szczęścia.</profit>
+		<cost>12.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Oświecona siła</name>
+		<profit>Premia do atrybutu siły równa 1/4 wartości współczynnika szczęścia.</profit>
+		<cost>12.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Oświecona zręczność</name>
+		<profit>Premia do atrybutu zręczności równa 1/4 wartości współczynnika szczęścia.</profit>
+		<cost>20.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Oświecona odnowa many</name>
+		<profit>W ciągu godziny postaci odnawia się dodatkowo tyle many ile wynosi jej 1/2 wartości szczęścia.</profit>
+		<cost>12.</cost>
+	</tal:feat>
+
+	<header>Estiat</header>
+	<itemlist>
+		<item title="Opis">Estiaci, zwani również <quote>Świetlistymi</quote>, to ludzie obdarzeni wzorcem umożliwiającym im złączyć <quote>samych siebie</quote> ze swoją <quote>częścią</quote>. Wzorzec pewnych właściwości estiata działa, chociaż to dziwne, w sposób wzmożony, co objawia się wielokrotnym zapisaniem tych samych elementów, ale na różnych płaszczyznach duszy. Estiaci pojawili się w Imperium nie dalej jak trzy stulecia temu, chociaż fakt pojawienia się ich zdawał się być dziwny, gdyż nie było to następstwem jakichś specjalnych wydarzeń. Generacje Estiatów odeszły już do historii, a kolejni dalej się rodzą. Nie jest wiadomym co przyniesie im przyszłość.</item>
+		<item title="Kosz dodatkowy">Aby móc wziąć dowolną z poniższych zdolności Estiat musi zdobyć wiedzę o samym sobie, co objawia się koniecznością posiadania 10 poziomu umiejętności: wiedza (tajemna), oraz +2 poziomy tejże umiejętności przy wzięciu każdej kolejnej zdolności ze wskazanych niżej, nawet jeżeli są to te same zdolności. Poza tym pierwszą z wybranych zdolności musi być Blask.</item>
+	</itemlist>
+	<tal:feat>
+		<name>Blask</name>
+		<profit>Postać może na życzenie sprawić, że jej ciało będzie świeciło blaskiem na 12 metrów i zapewniało ewentualny półmrok na dwa razy dalszy zasięg. Minuta świecenia w ten sposób wymaga poświęcenia 1 punktu many</profit>
+		<cost>4.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Mana</name>
+		<requirements>Współczynnik: Mana 40 (przed uwzględnieniem ewentualnego dostrojenia).</requirements>
+		<profit>Premia do many równa sumie wartości współczynników: szybkości, udźwigu oraz wytrwałości.</profit>
+		<cost>16.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Szybkość</name>
+		<requirements>Współczynnik: Szybkość 8.</requirements>
+		<profit>Premia +2 do szybkości.</profit>
+		<cost>6.</cost>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują.</special>
+	</tal:feat>
+	<tal:feat>
+		<name>Udźwig</name>
+		<requirements>Współczynnik: Udźwig 8.</requirements>
+		<profit>Premia +2 do udźwigu.</profit>
+		<cost>6.</cost>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują.</special>
+	</tal:feat>
+	<tal:feat>
+		<name>Wytrwałość</name>
+		<requirements>Współczynnik: Wytrwałość 8.</requirements>
+		<profit>Premia +2 do wytrwałości.</profit>
+		<cost>6.</cost>
+		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują.</special>
+	</tal:feat>
+	<tal:feat>
+		<name>Życie</name>
+		<requirements>Współczynnik: Życie 40.</requirements>
+		<profit>Premia do życia równa sumie wartości współczynników: szybkości, udźwigu oraz wytrwałości.</profit>
+		<cost>16.</cost>
+	</tal:feat>
+
+	<header>Jordaen</header>
+	<itemlist>
+		<item title="Opis">Jordaen to nazwa pochodząca z języka haetalskiego i znaczy tyle co <quote>niepodatny</quote>. Jordaen to osoba, której wzorzec w mniejszym stopniu ulega zmianom zewnętrznym i w słabszy sposób reaguje ze światem. Konsekwencją tego jest zwiększona odporność magiczna jordaenów.</item>
+		<item title="Koszt dodatkowy">Aby móc wziąć dowolną ze zdolności postać musi wpierw oprzeć się jakiemuś zaklęciu rzuconemu przez maga, a następnie go uśmiercić. Postać musi więc wpierw stać się celem zaklęcia innej postaci, która ma zdolność: magia we krwi, dzika magia lub dostęp do dowolnego tajemnego języka, a następnie ją zabić (jordaen ma na to ostatnie godzinę czasu). Jeżeli zaklęcie zadaje obrażenie, to za oparcie się mu liczyć należy fakt przeżycie danego ataku, ale nie uniknięcia trafienia (np. za pomocą obrony fizycznej lub uników).</item>
+		<item title="Efekt uboczny">Jordaen traci permanentnie zdolność rzucania zaklęć. Nie będzie mógł się on dostrajać do magicznych przedmiotów, a wszelkie próby rzucenia zaklęcia kończą się przez niego niepowodzeniem, ale nie katastrofą magiczną.</item>
+	</itemlist>
+	<tal:feat>
+		<name>Aura antymagii</name>
+		<requirements>3 zdolności jordaen.</requirements>
+		<profit>Jordaen roztacza wokół siebie aurę o zasięgu tylu metrów ile wynosi wartość jego obrony magicznej. W zasięgu działania aury trudność rzucenia wszystkich czarów (lub skorzystania ze zdolności magicznych mający stopień trudności powiązany z rzucaniem lub wyzwalaniem czarów) rośnie o 2 punkty za każdą zdolności jordaena.</profit>
+		<cost>13.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Leczenie maną</name>
+		<requirements>2 zdolności jordaen.</requirements>
+		<profit>Postać może regenerować utracone punkty życia za pomocą punktów many. 5 punktów many regeneruje jeden punkt życia postaci. W ciągu dnia postać może w ten sposób zregenerować maksymalnie tyle punktów życia ile wynosi wartość jej obrony magicznej.</profit>
+		<cost>15.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Odporność na magię</name>
+		<profit>Jordaen otrzymuje premię do obrony magicznej w wysokości 1/2 swej woli.</profit>
+		<cost>8.</cost>
+		<special>Postać może wziąć tę zdolność wielokrotnie. Jej korzyści i koszty się kumulują.</special>
+	</tal:feat>
+	<tal:feat>
+		<name>Zmysł magii</name>
+		<requirements>Atrybut: Wola 12..</requirements>
+		<profit>Postać może wykorzystywać umiejętność spostrzegawczość do wykrywania magicznych aur.</profit>
+		<cost>8.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Zniszczenie many</name>
+		<profit>Każda zraniona przez jordaena postać traci tyle samo punktów many, co punktów życia.</profit>
+		<cost>20.</cost>
+	</tal:feat>
+
+	<header>Kathikan</header>
+	<itemlist>
+		<item title="Opis">Słowo <quote>kathikan</quote> z języka haetal znaczy tyle co uniwersalny, doskonały, wszech-biegły. Osobami posiadającymi ten wzorzec są w zasadzie tylko ludzie, którzy mogą łączyć w sobie najróżniejsze zdolności. Każdy Kathikan jest biegły w walce, rzemiośle, jest doskonały mówcą, zna się na sztuce i jest wykształcony. Osoby takie dążą do doskonałości, jakby to była ich naturalna wewnętrzna droga.</item>
+		<item title="Koszt dodatkowy">Kathikan będzie mógł skorzystać z poniższych zdolności tylko, gdy będzie ich miał pięć lub więcej. Oznacza to, że chociaż wyda doświadczenie na zdobycie pierwszych czterech zdolności, to nie będą one dawały mu żadnych korzyści do czasu uzyskania piątej. Nie muszą być to przy tym zdolności dotyczące wszystkich grup umiejętności związanych z wymaganiami tego wzorca. Postać może brać zdolności tylko do jednego typu umiejętności np. walki lub wiedzy.</item>
+	</itemlist>
+	<tal:feat>
+		<name>Perfekcja w (nazwa)</name>
+		<requirements>Umiejętność (dowolna) poziom 10.</requirements>
+		<profit>Postać może poświęcić 2 punkty many, aby w teście umiejętności uzyskać modyfikator +1. Może poświęcić maksymalnie tyle punktów many ile wynosi jego poziom umiejętności, a wtedy otrzyma modyfikator do testu równy połowie poziomu umiejętności.</profit>
+		<cost>6.</cost>
+		<special>Postać może wziąć tę zdolność wielokrotnie. Za każdym razem będzie ona dotyczyła innej umiejętności.</special>
+	</tal:feat>
+
+	<header>Mistrz dostrojeń</header>
+	<itemlist>
+		<item title="Opis">Jeden człowiek na setki tysięcy posiada niezwykłą zdolność do rozwijania swego wzorca, aby dostosował się on do otaczającego świata. Ludzie ci zwani Mistrzami Dostrojeń zwykle są posiadaczami magicznych przedmiotów lub jakichś innych zdolności zapewniających dostęp do wzorca.</item>
+		<item title="Koszt dodatkowy">Za każdą z poniższych zdolności postać musi być uprzednio dostrojona do jednej zdolności lub jednego przedmiotu magicznego.</item>
+	</itemlist>
+	<tal:feat>
+		<name>Doskonałe dostrojenie</name>
+		<requirements>Atrybut: Charyzma 16.</requirements>
+		<profit>Kosz wszelkich dostrojeń zostaje zmniejszony o 4. Wartość należy uwzględnić po zastosowaniu wszystkich mnożników.</profit>
+	</tal:feat>
+	<tal:feat>
+		<name>Dostrojenie przedmiotu</name>
+		<requirements>Dostrojenie do trzech lub więcej przedmiotów magicznych.</requirements>
+		<profit>Koszt dostrojenia do magicznego przedmiotu zmniejsza się o połowę.</profit>
+		<special>Postać nie straci tej zdolności, gdy utraci magiczne przedmioty lub przestanie być z nimi zestrojona.</special>
+	</tal:feat>
+	<tal:feat>
+		<name>Dostrojenie zdolności</name>
+		<requirements>Dostrojenie do trzech lub więcej zdolności.</requirements>
+		<profit>Koszt dostrojenia do zdolności zmniejsza się o połowę.</profit>
+	</tal:feat>
+	<tal:feat>
+		<name>Rozwinięta mana</name>
+		<requirements>Atrybut: Charyzma 16.</requirements>
+		<profit>Premia do many w wysokości sumy wartości percepcji oraz woli.</profit>
+	</tal:feat>
+
+	<header>Zwierzęce moce</header>
+	<itemlist>
+		<item title="Opis">
+			Wzór niektórych osób w pewnych okolicznościach może naśladować wzorce zwierząt. Ta nietypowa mimesis daje wspomnianym osobom niezwykłe moce wprowadzające je do świata dziczy.<br />
+			Osoby posiadające zwierzęce moce zwykle nazywa się <quote>Feravisami</quote>, <quote>Bestionami</quote> lub <quote>Wybrańcami Vanlara</quote>. Lud posiada jednak inne określenia na tego typu osobników, których z uwagi na niecenzuralność powtarzać nie wypada.
+		</item>
+		<item title="Koszt dodatkowy">Postać aby zdobyć zdolności z listy zwierzęcych mocy musi posiadać zwierzęcych towarzyszy, którzy będą użyczali jej swoich mocy. Oznacza to, że postać musi każdego dnia przynajmniej przez godzinę przebywać w towarzystwie odpowiedniego zwierzęcia, gdyż w przeciwnym razie dostrojona zdolność zostanie zawieszona.</item>
+		<item title="Efekt uboczny">
+			Postać posiadająca przynajmniej jedną zwierzęcą moc w postaci zdolności otrzymuje podtyp: zwierzę. Od teraz wszystkie efekty działające na zwierzęta działają również na nią.<br />
+			Wykorzystanie zwierzęcych mocy zwykle prowadzi do chwilowej deformacji różnych części ciała postaci. Deformacje te są odwracalne i nie zostawiają śladów na ciele. Na życzenie każda postać może poświęcić akcję zwykłą i przywrócić swemu ciału normalny wygląd.
+		</item>
+	</itemlist>
+	<tal:feat>
+		<name>Echolokacja</name>
+		<requirements>Umiejętność: Spostrzegawczość poziom 10.</requirements>
+		<profit>Postać zyskuje dodatkowy zmysł bazujący na ultradźwiękach. W akcji dodatkowej postać może wysłać ultradźwięk i dzięki zjawisku echa zlokalizować obiekty fizyczne w swym otoczeniu. Wynik testu spostrzegawczości podzielony przez 2 określa zasięg w metrach na jaki postać zlokalizowała obiekty.</profit>
+		<animal>Nietoperz.</animal>
+		<cost>12.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Kameleon</name>
+		<requirements>Umiejętność: Ukrywanie się poziom 10.</requirements>
+		<profit>Postać może gołą skórą dotknąć jakiegoś obiektu i w ciągu akcji cało-rundowej poświęcając 12 punktów many przybrać kolor tego obiektu. Zmianie ulega tylko skóra postaci, jej włosy i ubranie pod warunkiem, że jest zrobione ze skóry. Postać otrzymuje premię +20 do testów ukrywania się. Pierwsze gwałtowne poruszenie się postaci lub przerwanie kontaktu fizycznego z obiektem lub dotknięcie go w innym miejscu sprawi, że kamuflaż znika.</profit>
+		<animal>Kameleon.</animal>
+		<cost>8.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Kopyta</name>
+		<profit>Postać poświęcając akcję minutową i 12 punktów many zamienia swe kończyny dolne w końskie nogi, a stopy w kopyta. Dzięki tej przemianie postać podczas biegu otrzymuje premię +10 do szybkości. Po 10 minutach nogi postaci wracają do normalnej postaci, lecz można wydłużyć czas przemiany poświęcając ponownie punkty many.</profit>
+		<animal>Koń.</animal>
+		<cost>8.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Pajęcza wspinaczka</name>
+		<requirements>Umiejętność: Wspinaczka poziom 10.</requirements>
+		<profit>Poświęcając akcję cało-rundową i 8 punktów many postać może sprawić, że na jej rękach i nogach pojawiają się małe przyssawki, które zapewniają premię do testów wspinaczki +20 i możliwość poruszania się po suficie. Przyssawki będą na ciele postaci maksymalnie przez godzinę.</profit>
+		<animal>Pająk.</animal>
+		<cost>4.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Pazury</name>
+		<requirements>Umiejętność: Walka wręcz poziom 10.</requirements>
+		<profit>Poświęcając akcję cało-rundową i 6 punktów many postać może wytworzyć na swych dłoniach pazury. Pazurami tymi można walczyć za pomocą walki wręcz. Po godzinie od chwili wytworzenia pazurów palce postaci znów zamieniają się w swą naturalną postać. Na pazury działają wszelkie zdolności, które postać ma wybrane dla walki wręcz.
+		<p>- Obr. 1k8 + 1/4 Si.</p>
+		<p>Cechy broni: Lekkie.</p>
+		</profit>
+		<animal>Dowolny kot.</animal>
+		<cost>6.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Płetwa</name>
+		<requirements>Umiejętność: Pływanie 10.</requirements>
+		<profit>Postać poświęcając akcję minutową i 12 punkty many może zamienić swe odnóża (ewentualnie z ogonem) w trzon ogona i płetwę ogonową. Dzięki niej postać jest w stanie poruszać się w wodzie z szybkością równą swej zręczności.</profit>
+		<animal>Dowolna ryba lub delfin.</animal>
+		<cost>8.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Skok</name>
+		<requirements>Umiejętność: Akrobatyka poziom 10.</requirements>
+		<profit>Postać może w akcji cało-rundowej przygotować się do skoku lekko kucając i poświęcając 6 punktów many. Następnie może wykonać skok otrzymując premię +30 do testu akrobatyki. Postaci wtedy nie obowiązują limity zasięgu skoku.</profit>
+		<animal>Ropucha lub żaba.</animal>
+		<cost>8.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Skrzela</name>
+		<requirements>Umiejętność: Pływanie poziom 10.</requirements>
+		<profit>Postać dotykając wody, poświęcając akcję cało-rundową i 12 punktów many może sprawić, że wyrosną jej skrzela (od szyi). Dzięki skrzelom postać będzie mogła bez problemu oddychać pod wodą. Skrzela znikają po godzinie, chociaż pod wodą postać może wydłużyć ich działanie. Z uwagi jednak, że płuca postaci nie zanikają, to w czasie posiadania skrzeli może ona oddychać również powietrzem atmosferycznym.</profit>
+		<animal>Dowolna ryba.</animal>
+		<cost>12.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Skrzydła</name>
+		<requirements>Umiejętność: Krzepa poziom 10.</requirements>
+		<profit>Poświęcając akcję minutową i 26 punktów many postać może zamienić swe kończyny górne w skrzydła. Ręce się rozrastają i zaczynają pokrywać je pióra, a znad pleców zaś wyrastają pióra przykrywające nogi. Dzięki skrzydłom postać jest zdolna latać z szybkością równą swej zręczności +10. Po godzinie skrzydła znikają zamieniając się znów w ręce, ale postać nawet w powietrzu może je odnowić poświęcając dodatkową manę.</profit>
+		<animal>Dowolny ptak.</animal>
+		<cost>6.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Sokoli wzrok</name>
+		<requirements>Umiejętność: Spostrzegawczość poziom 10.</requirements>
+		<profit>Postać może poświęcić 6 punktów many i akcję dodatkową, a dzięki temu spojrzeć na jakiś oddalony obiekt i otrzymać premię +20 do testu spostrzegawczości.</profit>
+		<animal>Dowolny ptak z sokołowatych lub jastrzębiowatych.</animal>
+		<cost>8.</cost>
+	</tal:feat>
+
+	<header>Żywioł błyskawic</header>
+	<itemlist>
+		<item title="Opis">Esencjalność błyskawic sprawia, że wzór postaci zostaje opisany językiem piorunów i błyskawic. Najczęściej ten wzorzec pojawia się wśród krasnoludów, które posiadaczy tego wzorca nazywają <quote>Blyxtier</quote>.</item>
+		<item title="Koszt dodatkowy">Aby móc wziąć dowolną ze zdolności postać musi wykonać odpowiednie działanie.</item>
+		<item title="Efekt uboczny">
+			Postać elektryzuje, gdy się ją dotyka i gdy jest zdenerwowana włosy stają jej dęba przez naelektryzowanie.<br />
+			Postać otrzymuje premię +4 do mocy magicznej, gdy korzysta z niej do zaklęć mających określnik <quote>błyskawica</quote>.
+		</item>
+	</itemlist>
+	<tal:feat>
+		<name>Błyskawiczna reakcja</name>
+		<action>Postać musi spędzić 12 dni przy żyle strorrimu.</action>
+		<profit>Postać otrzymuje premię do umiejętności inicjatywa równy wartości swojej woli.</profit>
+		<cost>12.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Burzowa aura</name>
+		<action>Podczas burzy postać musi stoczyć bitwę i wygrać ją nim burza dobiegnie końca.</action>
+		<profit>Przy ataku wręcz postać może poświęcić 6 punktów many i zadać dodatkowe 1k20 obrażeń od elektryczności, ale tylko wtedy, gdy w zasięgu wzroku będzie trwała burza.</profit>
+		<cost>12.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Odporność na elektryczność</name>
+		<action>Postać musi znaleźć się na którymś ze szczytów Gór Środka Świata i w ciągu jednej burzy zostać dwukrotnie trafiona piorunem, a uderzenia te przeżyć.</action>
+		<profit>Postać otrzymuje odporność na elektryczność równą wartości swej woli.</profit>
+		<cost>16.</cost>
+	</tal:feat>
+
+	<header>Żywioł ognia</header>
+	<itemlist>
+		<item title="Opis">Wzór ognia występuje stosunkowo najczęściej wśród mieszkańców Sacterry. Zwykle świadomi posiadacze tego wzorca stają się wędrowcami, którzy nigdzie nie mogą zagrzać miejsca.</item>
+		<item title="Koszt dodatkowy">Aby móc wziąć dowolną ze zdolności postać musi wykonać odpowiednie działanie.</item>
+		<item title="Efekt uboczny">
+			Niezależnie od cech rasowych tęczówki (oczy) postaci przybierają czerwono-złoty kolor ognia i rozpalają się ogniem, gdy postać jest zdenerwowana.<br />
+			Postać otrzymuje premię +4 do mocy magicznej, gdy korzysta z niej do zaklęć mających określnik <quote>ogień</quote>.
+		</item>
+	</itemlist>
+	<tal:feat>
+		<name>Leczenie ogniem</name>
+		<action>Postać musi wziąć do ręki rozgrzany kamień, który został wyrzucony ze Smoczej Paszczy (wulkan na Sacterrze).</action>
+		<profit>Postać za pomocą punktów many może zmniejszyć otrzymane obrażenia od ognia, ale tylko, gdy nie są większe niż wynosi obrona magiczna postaci. Postaci leczy się tyle punktów życia, ile poświęciła punktów many.</profit>
+		<cost>25.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Płonąca groza</name>
+		<action>Postać musi spalić jakąś rozumną istotę żywcem.</action>
+		<profit>Postać otrzymuje premię do zastraszania równą swojej woli.</profit>
+		<cost>5.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Rozkosz z upału</name>
+		<action>Spędzenie przynajmniej 12 kolejno następujących po sobie dni na Ergu.</action>
+		<profit>Postać otrzymuje premię w wysokości swojej woli do wytrwałości liczonej na potrzeby opierania się wysokiej temperaturze.</profit>
+		<cost>10.</cost>
+	</tal:feat>
+
+	<header>Żywioł powietrza</header>
+	<itemlist>
+		<item title="Opis">Wzór powietrza jest dość popularny wśród mieszkańców Rimtal oraz Elidionu, a przynajmniej w tamtych stronach można dość łatwo przekonać się o tym, że jest się kimś więcej, niż tylko zwykłym śmiertelnikiem, którego włosy uległy depigmentacji.</item>
+		<item title="Koszt dodatkowy">Aby móc wziąć dowolną ze zdolności postać musi wykonać odpowiednie działanie.</item>
+		<item title="Efekt uboczny">
+			Włosy postaci stają się jasne niczym cumulusy. Zwykle są białe, ale mogą mieć ciemne pasemka.<br />
+			Postać otrzymuje premię +4 do mocy magicznej, gdy korzysta z niej do zaklęć mających określnik <quote>powietrze</quote>.
+		</item>
+	</itemlist>
+	<tal:feat>
+		<name>Lot</name>
+		<action>Postać musi wejść na szczyt góry Pawęż Tordika, w Górach Środka Świata, a następnie zeskoczyć z północnej ściany. W czasie spadania można wydać doświadczenie i ponieść koszt dostrojenia, gdyż w przeciwnym razie po 1200 metrach śmiałek spotka się ze skałami.</action>
+		<profit>Postać zyskuje zdolność latania. Porusza się w ten sposób z dwukrotnością swojej szybkości. Ale każda tura w której postać chociażby skorzysta z lotu w małym stopniu wiąże się z koniecznością poświecenia punktu many. 10 punktów many kosztuje minuta lotu, a 600 punktów many godzina lotu.</profit>
+		<cost>30.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Pieśń sztormu</name>
+		<action>Postać musi przeżyć sztorm będąc na statku płynącym po Morzu Północnym w zasięgu uniemożliwiającym ujrzenie brzegów lądu.</action>
+		<profit>Postać otrzymuje premię do sztuki (śpiew) równą swojej woli.</profit>
+		<cost>1.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Wieczny oddech</name>
+		<action>Postać przez 12 dni musi oddychać powietrzem będąc na Ergu.</action>
+		<profit>Postać nie musi w ogóle oddychać. Powietrze niejako powstaje w jej wnętrzu.</profit>
+		<cost>9.</cost>
+	</tal:feat>
+
+	<header>Żywioł wody</header>
+	<itemlist>
+		<item title="Opis">Żywioł wody wpisuje się w postacie urodzone w miesiącach wiosennych, na terenach, gdzie śnieg topi się gwałtownie zalewając łąki wodą. Najczęściej mieszkańcu Środkowych Królestw są obdarzeni tym właśnie wzorcem.</item>
+		<item title="Koszt dodatkowy">Aby móc wziąć dowolną ze zdolności postać musi wykonać odpowiednie działanie.</item>
+		<item title="Efekt uboczny">
+			Skóra postaci jest wiecznie wilgotna, tak jakby się spociła.<br />
+			Postać otrzymuje premię +4 do mocy magicznej, gdy korzysta z niej do zaklęć mających określnik <quote>woda</quote>.
+		</item>
+	</itemlist>
+	<tal:feat>
+		<name>Bez pragnienia</name>
+		<action>Postać musi kupić butelkę wody w Erx, a następnie wypić ją na obszarze Ergu.</action>
+		<profit>Postać zawsze będzie napojona wodą. Spożywanie płynów będzie dla niej wymogiem tylko, gdy będzie chciała uczynić sobie z tego przyjemność.</profit>
+		<cost>14.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Oddychanie wodą</name>
+		<action>Postać musi zanurzyć się całkowicie w Oceanie.</action>
+		<profit>Postać oddycha pod wodą tak jak powietrzem atmosferycznym.</profit>
+		<cost>6.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Orzeźwienie</name>
+		<action>Wypicie kielicha wody powstałej z roztopienia się lodowca w Elidionie.</action>
+		<profit>Wypicie litra wody (dowolnej) niweluje punkt wyczerpania albo 5 punktów zmęczenia (decyzja postaci).</profit>
+		<cost>20.</cost>
+	</tal:feat>
+
+	<header>Żywioł ziemi</header>
+	<itemlist>
+		<item title="Opis">Obdarzeni tym wzorcem są najczęściej mieszkańcy Sacterry, a przynajmniej ci często pielgrzymują po Sori w celu odwiedzenia miejsc żywiołu ziemi. Żywioł ten obdarza swego posiadacza siłą i wytrzymałością.</item>
+		<item title="Koszt dodatkowy">Aby móc wziąć dowolną ze zdolności postać musi wykonać odpowiednie działanie.</item>
+		<item title="Efekt uboczny">
+			Łuszcząca się skóra postaci zamienia się w piasek. Skóra postaci wygląda tak, jakby postać była wiecznie opalona.<br />
+			Postać otrzymuje premię +4 do mocy magicznej, gdy korzysta z niej do zaklęć mających określnik <quote>ziemia</quote>.
+		</item>
+	</itemlist>
+	<tal:feat>
+		<name>Ciężar świata</name>
+		<action>Postać musi nawiedzić Spiżowe Miasto w Górach Środka Świata, na granicy z Carphetią i tam w pałacu Azy Sanga dotknąć Ręki Pierwszego Trowa.</action>
+		<profit>Premia +4 do udźwigu oraz wytrwałości.</profit>
+		<cost>12</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Korzenie</name>
+		<action>Postać musi zakopać się w ziemi do połowy gdziekolwiek w Espagrii i pozostać zakopaną w ten sposób przez 12 dni.</action>
+		<profit>Postać otrzymuje premię do zwarcia, gdy próbuje oprzeć się efektom obalenia i przewrócenia równą swej woli.</profit>
+		<cost>8.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Skalna skóra</name>
+		<action>W Górach Środka Świata postać musi wygrzebać się spod lawiny, która ją zagrzebie w całości. Ktoś może pomóc w tym postaci.</action>
+		<profit>Postać otrzymuje odporność na obrażenia cięte, obuchowe i kłute równą wartości swej woli.</profit>
+		<cost>20.</cost>
+	</tal:feat>
+
+	<header>Żywioł zimna</header>
+	<itemlist>
+		<item title="Opis">Żywioł lodu, zwany również zimnem dotyka o dziwo najczęściej gvarinów i srebrne elfy z Wielkiej Puszczy.</item>
+		<item title="Koszt dodatkowy">Aby móc wziąć dowolną ze zdolności postać musi wykonać odpowiednie działanie.</item>
+		<item title="Efekt uboczny">
+			Ciało postaci jest zimne w dotyku nawet w najcieplejszy dzień. Oczy zaś, niezależnie od rasy, przyjmują kolor zimnego błękitu.<br />
+			Postać otrzymuje premię +4 do mocy magicznej, gdy korzysta z niej do zaklęć mających określnik <quote>zimno</quote>.
+		</item>
+	</itemlist>
+	<tal:feat>
+		<name>Chłód wewnętrzny</name>
+		<action>Postać musi wpaść w stan hipotermii, a następnie wrócić do pełnego funkcjonowania.</action>
+		<profit>Postać otrzymuje premię w wysokości swojej woli do wytrwałości liczonej na potrzeby opierania się niskiej temperaturze.</profit>
+		<cost>12.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Świadek zimy</name>
+		<action>Postać musi przekroczyć granicę Lodowej Korony i Ayonii Nychty, a następnie upuścić tam swoją krew raniąc się zimnazem (metal).</action>
+		<profit>Wzór postaci zamarza na magię. Postać otrzymuje premię do odporności magicznej równą wartości swojej percepcji.</profit>
+		<cost>20.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Zimna krew</name>
+		<action>Postać musi spędzić na szczycie górskim, który jest pokryty zmarzliną 12 dni.</action>
+		<profit>Postać otrzymuje premię do opanowania, równą wartości swojej charyzmy.</profit>
+		<cost>8.</cost>
+	</tal:feat>
+
+	<header>Żywioł życia</header>
+	<itemlist>
+		<item title="Opis">Wzór siły, która kosztem świata zewnętrznego przedłuża swoje trwanie. Żywioł ten dotyka mieszkańców Imperium znacznie częściej, niż innych mieszkańców Sorii, ale to krasnoludowie najczęściej stają się w pełni złączeni z tym wzorcem.</item>
+		<item title="Koszt dodatkowy">Aby móc wziąć dowolną ze zdolności postać musi wykonać odpowiednie działanie.</item>
+		<item title="Efekt uboczny">
+			Postać wydaje się wyglądać starzej w czasie jesieni i zimy, a w okresie wiosny i lata młodnieje.<br />
+			Postać otrzymuje premię +4 do mocy magicznej, gdy korzysta z niej do zaklęć mających określnik <quote>życie</quote>.
+		</item>
+	</itemlist>
+	<tal:feat>
+		<name>Regeneracja</name>
+		<action>Postać musi spędzić 12 dni nie opuszczając korzeni dowolnego z wiekowych dębów w Wielkiej Puszczy.</action>
+		<profit>Postać regeneruje 2x więcej utraconych punktów życia.</profit>
+		<cost>22.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Zasklepienie</name>
+		<action>Postać musi skruszyć w dłoni w ciągu kilku chwil osiem vitalisów (kryształów życia), a wszystkie muszą zadziałać.</action>
+		<profit>Postać nie krwawi ze swych ran. Wciąż będą one wymagać opatrzenia.</profit>
+		<cost>16.</cost>
+	</tal:feat>
+	<tal:feat>
+		<name>Zmysł zdrowia</name>
+		<action>Postać musi być chora jednocześnie na trzy lub więcej chorób.</action>
+		<profit>Premia do umiejętności leczenia równa wartości percepcji.</profit>
+		<cost>2.</cost>
+	</tal:feat>
+</sile>
