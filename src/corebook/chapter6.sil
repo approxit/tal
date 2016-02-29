@@ -353,7 +353,7 @@
 		<description>Umiejętność wykorzystania swej siły fizycznej do tego, aby poruszać obiektami, siłować się z kimś lub czymś. Ogólnie krzepa ma służyć sprawdzeniu jak postać poradzi sobie przy krótkim, acz intensywnym wysiłku fizycznym, a nie w przypadku długich działań wymagających pracy mięśni. Postać po jednej porażce w teście nie może go powtórzyć na tym samym obiekcie dopóki krzepa nie zwiększy się o przynajmniej 1 (przez jakiś modyfikator lub zwiększenie poziomu umiejętności). Z zasady szczęścia nie można w tym przypadku wykorzystywać do zwiększania wyniku testu lecz tylko do powtórek testu. Każda porażka w teście krzepy oznacza punkt zmęczenia.</description>
 	</tal:skill>
 	<itemlist>
-		<item title="Podniesienie ciężaru">Krzepka postać może porwać się na jakiś duży obiekt, podnieść go lub obalić. Test krzepy jest tu jak najbardziej wskazany. Ogólnie postać może podnieść tyle ile wynosi jest maksimum udźwigu oraz wynik testu krzepy razy 2 w kg. Przepchnąć postać może obiekt dwa razy cięższy niż wskazuje na to poprzedni wynik (udźwig też należy pomnożyć), a gdyby był na kółkach (płozach etc. – odpowiednio do warunków), to kolejny raz należy go pomnożyć przez 2.</item>
+		<item title="Podniesienie ciężaru">Krzepka postać może porwać się na jakiś duży obiekt, podnieść go lub obalić. Test krzepy jest tu jak najbardziej wskazany. Ogólnie postać może podnieść tyle ile wynosi jest maksimum udźwigu oraz wynik testu krzepy razy 2 wkg. Przepchnąć postać może obiekt dwa razy cięższy niż wskazuje na to poprzedni wynik (udźwig też należy pomnożyć), a gdyby był na kółkach (płozach etc. – odpowiednio do warunków), to kolejny raz należy go pomnożyć przez 2.</item>
 		<item title="Rozrywanie więzów">Postać może rozerwać kajdany i sznury (a przynajmniej próbować). ST rozerwania sznura, którym zostało się związanym zależy od jego rodzaju i jakości.
 			<table>
 				<caption>Rozrywanie więzów</caption>
@@ -1733,23 +1733,23 @@
 					</tr>
 					<tr>
 						<td>30</td>
-						<td>100 km</td>
+						<td>100km</td>
 					</tr>
 					<tr>
 						<td>35</td>
-						<td>50 km</td>
+						<td>50km</td>
 					</tr>
 					<tr>
 						<td>40</td>
-						<td>25 km</td>
+						<td>25km</td>
 					</tr>
 					<tr>
 						<td>50</td>
-						<td>10 km</td>
+						<td>10km</td>
 					</tr>
 					<tr>
 						<td>60</td>
-						<td>1 km</td>
+						<td>1km</td>
 					</tr>
 					<tr>
 						<td>80</td>

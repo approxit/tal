@@ -69,7 +69,7 @@
 
 	<tal:feat>
 		<name>Atak z zaskoczenia</name>
-		<profit>Premia +1k6 do obrażeń zadanych przeciwnikowi zaskoczonemu atakiem. Obrażenia powstają tylko w wypadku trafienia w ciało. W przypadku ataku dystansowego cel musi być w zasięgu 10 m.</profit>
+		<profit>Premia +1k6 do obrażeń zadanych przeciwnikowi zaskoczonemu atakiem. Obrażenia powstają tylko w wypadku trafienia w ciało. W przypadku ataku dystansowego cel musi być w zasięgu 10m.</profit>
 	</tal:feat>
 
 	<tal:feat>
@@ -283,7 +283,7 @@
 		<name>Bitewna furia</name>
 		<requirements>Zdolność: Berserk.</requirements>
 		<profit>Gdy wpadasz w berserk otrzymujesz akcję dodatkową w każdej rundzie trwania szału. Nie możesz ze stanu berserku wyjść dobrowolnie, ani zakończyć go przed czasem.</profit>
-		<special>Jeżeli jesteś w berserku i w zasięgu 16 m skończą się dla Ciebie przeciwnicy, to atakujesz sojuszników (i ich zabijasz). Poza tym po zakończeniu berserku postać ma 25% szansy na otrzymanie 1 punktu szaleństwa.</special>
+		<special>Jeżeli jesteś w berserku i w zasięgu 16m skończą się dla Ciebie przeciwnicy, to atakujesz sojuszników (i ich zabijasz). Poza tym po zakończeniu berserku postać ma 25% szansy na otrzymanie 1 punktu szaleństwa.</special>
 	</tal:feat>
 
 	<tal:feat>
@@ -425,8 +425,8 @@
 	<tal:feat>
 		<name>Długi krok</name>
 		<requirements>Współczynnik: Szybkość 10.</requirements>
-		<profit>Postać raz w rundzie w darmowej akcji może przemieścić się nie o 1 m, lecz o 2 m.</profit>
-		<normal>Postać raz w rundzie w darmowej akcji może przemieścić się o 1 m.</normal>
+		<profit>Postać raz w rundzie w darmowej akcji może przemieścić się nie o 1m, lecz o 2m.</profit>
+		<normal>Postać raz w rundzie w darmowej akcji może przemieścić się o 1m.</normal>
 	</tal:feat>
 
 	<tal:feat>
@@ -1023,15 +1023,15 @@
 	<tal:feat>
 		<name>Skok w dal</name>
 		<requirements>Umiejętność: Akrobatyka poziom 15, Zdolność: Specjalizacja II (akrobatyka).</requirements>
-		<profit>Postaci nie obowiązuje limit +5 m przy zwiększaniu odległości skoku. Każdy kolejny metr wymaga +10 w teście umiejętności akrobatyka.</profit>
-		<normal>Postać osiągając wynik 50+ zwiększa odległość skoku o +5 m.</normal>
+		<profit>Postaci nie obowiązuje limit +5m przy zwiększaniu odległości skoku. Każdy kolejny metr wymaga +10 w teście umiejętności akrobatyka.</profit>
+		<normal>Postać osiągając wynik 50+ zwiększa odległość skoku o +5m.</normal>
 	</tal:feat>
 
 	<tal:feat>
 		<name>Skok wzwyż</name>
 		<requirements>Umiejętność: Akrobatyka poziom 15, Zdolność: Specjalizacja II (akrobatyka).</requirements>
-		<profit>Postaci nie obowiązuje limit +1,5 m przy zwiększaniu wysokości skoku. Każdy kolejne 0,5 m wymaga +20 w teście umiejętności akrobatyka.</profit>
-		<normal>Postać osiągając wynik 50+ zwiększa wysokość skoku o +1,5 m.</normal>
+		<profit>Postaci nie obowiązuje limit +1,5m przy zwiększaniu wysokości skoku. Każdy kolejne 0,5m wymaga +20 w teście umiejętności akrobatyka.</profit>
+		<normal>Postać osiągając wynik 50+ zwiększa wysokość skoku o +1,5m.</normal>
 	</tal:feat>
 
 	<tal:feat>
@@ -1103,7 +1103,7 @@
 	<tal:feat>
 		<name>Strzał z kuszy</name>
 		<requirements>Umiejętność: Władanie (kusza) poziom 10.</requirements>
-		<profit>Obrażenia zadawane przez kuszę są większe o 10%, gdy cel znajduje się w zasięgu 10 m.</profit>
+		<profit>Obrażenia zadawane przez kuszę są większe o 10%, gdy cel znajduje się w zasięgu 10m.</profit>
 	</tal:feat>
 
 	<tal:feat>
@@ -1513,8 +1513,8 @@
 	<tal:feat>
 		<name>Zeskakiwanie z wysoka</name>
 		<requirements>Umiejętność: Akrobatyka poziom 15, Zdolność: Specjalizacja II (akrobatyka).</requirements>
-		<profit>Postaci nie obowiązuje limit 5 m przy redukowaniu wysokości upadku. Każdy kolejny metr wymaga +10 w teście umiejętności akrobatyka.</profit>
-		<normal>Postać osiągając wynik 50+ niweluje tylko 5 m wysokości.</normal>
+		<profit>Postaci nie obowiązuje limit 5m przy redukowaniu wysokości upadku. Każdy kolejny metr wymaga +10 w teście umiejętności akrobatyka.</profit>
+		<normal>Postać osiągając wynik 50+ niweluje tylko 5m wysokości.</normal>
 	</tal:feat>
 
 	<tal:feat>

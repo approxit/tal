@@ -286,10 +286,10 @@
 				</tbody>
 			</table>
 		</item>
-		<item title="Emisja ciepła">Krasnolud lodowe wykształciły w sobie niezwykłą zdolność rozgrzewania swego ciała, co pomaga im przetrwać w mroźnych miejscach. Krasnolud może zwinąć się w pozycję embrionalną i zacząć kurczyć swe mięśnie w celu wydzielenia ciepła. Krasnolud jest w stanie dzięki takiej emisji ciepła zwiększyć temperaturę obszaru o objętości 10 metrów3 o +5 stopni Ar (Celsjusza) w ciągu godziny. Rozpoczynając każdą godzinę ogrzewania krasnolud lodowy otrzymuje 2 wyczerpania, a także spala 0,5 kg swej fałdy tłuszczu. Krasnolud może podgrzać otoczenie maksymalnie do temp. 30 stopni Ar. Podgrzewając otoczenie krasnolud zyskuje premię +20 do odporności na chłód.</item>
-		<item title="Fałda tłuszczu">Krasnoludy lodowe mają wyglądające obrzydliwie dla wielu brzuchy. Krasnolud lodowy może gromadzić tłuszcz na brzuchu w postaci fałdy. Nie wygląda ona zbyt estetycznie nawet dla pobratymców lodowych krasnoludów, ale ma zastosowanie praktyczne, gdyż każdy kilogram tłuszczu daje krasnoludowi +1 do wytrwałości na potrzeby opierania się efektom chłodu. Krasnolud może mieć maksymalnie tyle kg tłuszczu w swej fałdzie, ile wynosi jego dwukrotna wartość wytrwałości. Aby powstał kilogram fałdy tłuszczu, krasnolud musi zapełnić swe 3 magazynowe żołądki, a następnie rozpocząć proces zamiany pożywienia w fałdę tłuszczu, który trwa 10 dni i nie wymaga specjalnego skupienia. Przez fałdę tłuszczu zwiększa się waga krasnoluda, ale nie wpływa ona na jego udźwig i obciążenie. Wysokoenergetyczne pożywienie może zmniejszyć ilość koniecznych do zapełnienia żołądków, a nisko-energetyczne pożywienie może nie wystarczyć do rozpoczęcia procesu.</item>
+		<item title="Emisja ciepła">Krasnolud lodowe wykształciły w sobie niezwykłą zdolność rozgrzewania swego ciała, co pomaga im przetrwać w mroźnych miejscach. Krasnolud może zwinąć się w pozycję embrionalną i zacząć kurczyć swe mięśnie w celu wydzielenia ciepła. Krasnolud jest w stanie dzięki takiej emisji ciepła zwiększyć temperaturę obszaru o objętości 10 metrów3 o +5 stopni Ar (Celsjusza) w ciągu godziny. Rozpoczynając każdą godzinę ogrzewania krasnolud lodowy otrzymuje 2 wyczerpania, a także spala 0,5kg swej fałdy tłuszczu. Krasnolud może podgrzać otoczenie maksymalnie do temp. 30 stopni Ar. Podgrzewając otoczenie krasnolud zyskuje premię +20 do odporności na chłód.</item>
+		<item title="Fałda tłuszczu">Krasnoludy lodowe mają wyglądające obrzydliwie dla wielu brzuchy. Krasnolud lodowy może gromadzić tłuszcz na brzuchu w postaci fałdy. Nie wygląda ona zbyt estetycznie nawet dla pobratymców lodowych krasnoludów, ale ma zastosowanie praktyczne, gdyż każdy kilogram tłuszczu daje krasnoludowi +1 do wytrwałości na potrzeby opierania się efektom chłodu. Krasnolud może mieć maksymalnie tylekg tłuszczu w swej fałdzie, ile wynosi jego dwukrotna wartość wytrwałości. Aby powstał kilogram fałdy tłuszczu, krasnolud musi zapełnić swe 3 magazynowe żołądki, a następnie rozpocząć proces zamiany pożywienia w fałdę tłuszczu, który trwa 10 dni i nie wymaga specjalnego skupienia. Przez fałdę tłuszczu zwiększa się waga krasnoluda, ale nie wpływa ona na jego udźwig i obciążenie. Wysokoenergetyczne pożywienie może zmniejszyć ilość koniecznych do zapełnienia żołądków, a nisko-energetyczne pożywienie może nie wystarczyć do rozpoczęcia procesu.</item>
 		<item title="Odporność na chłód">Odpowiednia budowa ciała sprawia, że krasnoludy lodowe są lepiej przystosowane do życia w wysokich partiach gór, ponieważ nie tracą tak szybko ciepła. Krasnoludy lodowe otrzymują premię +15 do wytrwałości na potrzeby opierania się efektom chłodu.</item>
-		<item title="Sen zimowy">Krasnolud lodowy może wpaść w stan hibernacji, który może mu pomóc przetrwać w nadzwyczajnych warunkach. Krasnolud lodowy, aby wejść w stan snu zimowego musi przez około godzinę uspokajać swój oddech. Gdy oddech się uspokoi krasnolud zasypia. W czasie snu zimowego krasnolud w ciągu dnia spala 0,5 kg tłuszczu ze swej fałdy tłuszczu i zużywa tylko 1/10 tlenu co normalnie. Krasnolud może pozostać w stanie snu zimowego do czasu, aż spali cały zapas tłuszczu ze swej fałdy. Po obudzeniu się krasnolud otrzymuje 25 pkt. zmęczenia: wyczerpania (krasnolud nie może umrzeć z powodu wyczerpania po zakończeniu snu zimowego). Przez czas jego trwania krasnolud ma spowolnioną akcję serca, zwężenie naczyń krwionośnych, zmniejszone zapotrzebowanie na tlen, a temp. jego ciała jest tylko o 4 stopnie wyższa od temp. otoczenia.</item>
+		<item title="Sen zimowy">Krasnolud lodowy może wpaść w stan hibernacji, który może mu pomóc przetrwać w nadzwyczajnych warunkach. Krasnolud lodowy, aby wejść w stan snu zimowego musi przez około godzinę uspokajać swój oddech. Gdy oddech się uspokoi krasnolud zasypia. W czasie snu zimowego krasnolud w ciągu dnia spala 0,5kg tłuszczu ze swej fałdy tłuszczu i zużywa tylko 1/10 tlenu co normalnie. Krasnolud może pozostać w stanie snu zimowego do czasu, aż spali cały zapas tłuszczu ze swej fałdy. Po obudzeniu się krasnolud otrzymuje 25 pkt. zmęczenia: wyczerpania (krasnolud nie może umrzeć z powodu wyczerpania po zakończeniu snu zimowego). Przez czas jego trwania krasnolud ma spowolnioną akcję serca, zwężenie naczyń krwionośnych, zmniejszone zapotrzebowanie na tlen, a temp. jego ciała jest tylko o 4 stopnie wyższa od temp. otoczenia.</item>
 	</itemlist>
 
 	<header>Krasnolud Podziemny</header>
@@ -326,7 +326,7 @@
 		<item title="Drow">Podziemne krasnoludy są drowami, istotami świata ciemności. Gdy w ciągu jednej rundy drow z ciemności nagle znajdzie się na obszarze silnego światła, zostanie oślepiony na minutę. Ciągle przebywanie na obszarze silnego światła powoduje, że jest on olśniony, a ponadto powoduje to jego męczenie się. Drow po ilości minut równej swej wytrwałości otrzymuje punkt zmęczenia (chwilowego) za każdą minutę przebywania na obszarze jasnego światła.</item>
 		<item title="Hibernacja">Krasnolud podziemny może sprawić, że zapadnie w sen dzięki któremu jego funkcje życiowe zostaną wstrzymane. Krasnolud przez 10 minut musi powoli oddychać skupiając się na spowolnieniu pracy serca. Następnie bierze głęboki oddech i zapada w sen. Podczas snu krasnolud podziemny w ogóle nie oddycha, a temperatura jego ciała spada do +4 stopni Ar (Celsjusza) ponad temperaturę otoczenia. W czasie hibernacji metabolizm krasnoluda zostaje całkowicie zatrzymany, a co za tym idzie wszelkie biologiczne czynniki jak trucizny, czy choroby zostają wstrzymane. Krasnolud może pozostać w stanie hibernacji przez tyle godzin ile wynosi jego wartość kondycji x 5. Po tym czasie lub wtedy, gdy zostanie on obudzony, krasnolud otrzymuje 10 pkt. zmęczenia: wyczerpania.</item>
 		<item title="Widzenie w mroku">Podziemne krasnoludy mają znacznie bardziej wyczulone oczy od pozostałych krasnoludów. Mogą oni widzieć w ciemnościach, gdy istnieje w nich minimalna ilość światła (odpowiadająca jednej gwieździe na bezchmurnym niebie w nocy). W takich warunkach automatycznie uruchamiają się im receptory w oczach, które pozwalają im widzieć w bieli i czerni na odległość 30 metrów.</item>
-		<item title="Zmysł złota">Podziemne krasnoludy posiadają dodatkowy zmysł, dzięki któremu wyczuwają rudę złota w okolicy. Podziemny krasnolud może przeprowadzić test percepcji, aby stwierdzić, czy w zasięgu wyniku testu w metrach od niego znajduje się jakaś ruda złota. Potrzeba przynajmniej 5 kg, aby zmysł coś wykrył</item>
+		<item title="Zmysł złota">Podziemne krasnoludy posiadają dodatkowy zmysł, dzięki któremu wyczuwają rudę złota w okolicy. Podziemny krasnolud może przeprowadzić test percepcji, aby stwierdzić, czy w zasięgu wyniku testu w metrach od niego znajduje się jakaś ruda złota. Potrzeba przynajmniej 5kg, aby zmysł coś wykrył</item>
 	</itemlist>
 
 	<section>Wyższy Rodzaj</section>
@@ -383,7 +383,7 @@
 	<itemlist>
 		<item title="Czerwone oczy">
 			Oczy goga są koloru czerwonego, a gdy wpada on w złość zaczynają lśnić złowrogim odcieniem krwistej czerwieni.<br />
-			Gog ma moc widzenia w mroku na zasięg 30 m. Wszystkie obrazy, które w ten sposób widzi gog są przedstawiane w różnych odcieniach czerwieni, ale nie powoduje to żadnych problemów z odróżnianiem kształtów i odległości.
+			Gog ma moc widzenia w mroku na zasięg 30m. Wszystkie obrazy, które w ten sposób widzi gog są przedstawiane w różnych odcieniach czerwieni, ale nie powoduje to żadnych problemów z odróżnianiem kształtów i odległości.
 		</item>
 		<item title="Kwaśna ślina">
 			Ślina goga jest koloru zielono-żółtego, a z ust jego wydobywa się intensywny kwaśny zapach.<br />
@@ -409,7 +409,7 @@
 		<item title="Pazury">
 			Paznokcie goga bardzo szybko rosną jak na przedstawiciela jego rasy, a do tego są koloru czarnego i cechują się większą twardością.<br />
 			- Przemiana ST 15; 1 akcja cało-rundowa; koszt many: 12. Przemiana kończy się po 10 minutach.<br />
-			W ciągu chwili paznokcie rąk goga zamieniają się w długie na 30 cm pazury. Gog może walczyć za pomocą swych pazurów.<br />
+			W ciągu chwili paznokcie rąk goga zamieniają się w długie na 30cm pazury. Gog może walczyć za pomocą swych pazurów.<br />
 			Atak: walka wręcz, traf. +5; Obrażenia: Małe + 1k6. Atak: jak atak wręcz postaci. 
 		</item>
 		<item title="Rogi">
@@ -489,7 +489,7 @@
 		</item>
 		<item title="Cierniowy sztylet">
 			Gdy postać ma wystawione ciernie, może skupić się na jakimś i uformować go w postać sztyletu. Działanie to wymaga poświęcenia akcji zwykłej i 6 punktów many. Po godzinie od uformowania sztyletu traci on wszystkie swoje właściwości i nie nadaje się do użycia.<br />
-			- Obr. 1k8 +1/8 Si (cięte lub kłute) // Waga; 0,5 kg Cechy broni: Lekka.
+			- Obr. 1k8 +1/8 Si (cięte lub kłute) // Waga; 0,5kg Cechy broni: Lekka.
 		</item>
 		<item title="Pyłek zapachowy">Krwawy elf może otrzeć swą skórą o dowolny obiekt pozostawiając na nim delikatny zapach, który wyzwoli w akcji darmowej kosztem 8 punktów many. Elf, który pozostawił ten zapach i tylko on będzie mógł wyczuć go za pomocą swej spostrzegawczości (wykorzystanie węchu). Zapach utrzymuje się na obiekcie przez 1 dzień. Bazowe ST wykrycia pyłku to 25 + ewentualne modyfikatory.
 			<table>
@@ -530,17 +530,17 @@
 	<itemlist>
 		<item title="Cierniowa włócznia">
 			Gdy postać ma wystawione ciernie, może skupić się na jakimś i uformować go w postać włóczni. Działanie to wymaga poświęcenia akcji cało-rundowej i 22 punktów many. Po godzinie od uformowania włócznia traci ona wszystkie swoje właściwości i nie nadaje się do użycia.<br />
-			- Obr. 1k8 +1/4 Si (kłute) // Waga: 5 kg<br />
-			Cechy broni: Specjalne – Rzut: broń zaprojektowano tak, aby można było nią rzucić na zasięg 3 + 1/2 Si metrów. Trafienie w cel to test rzucania; Szarża; Zasięg +1 m.
+			- Obr. 1k8 +1/4 Si (kłute) // Waga: 5kg<br />
+			Cechy broni: Specjalne – Rzut: broń zaprojektowano tak, aby można było nią rzucić na zasięg 3 + 1/2 Si metrów. Trafienie w cel to test rzucania; Szarża; Zasięg +1m.
 		</item>
 		<item title="Cierniowy łuk">
 			Gdy postać ma wystawione ciernie, może skupić się na dwóch będących na ręku i uformować je w postać łuku z cięciwą. Działanie to wymaga poświęcenia akcji cało-rundowej i 22 punktów many. Po godzinie od uformowania miecza on traci wszystkie swoje właściwości i nie nadaje się do użycia. Łuk przywiera do ciała postaci i nie można go odrzucić inaczej jak odrąbując ciernie.<br />
 			- Obr. 1/8 Si+ pociski // Waga: n/d<br />
-			Cechy broni: Ładowanie (Krótkie strzały, akcja zwykła); Maksymalna siła: 14; Zasięg: 100 m.
+			Cechy broni: Ładowanie (Krótkie strzały, akcja zwykła); Maksymalna siła: 14; Zasięg: 100m.
 		</item>
 		<item title="Cierniowy miecz">
 			Gdy postać ma wystawione ciernie, może skupić się na jakimś i uformować go w postać miecza. Działanie to wymaga poświęcenia akcji cało-rundowej i 22 punktów many. Po godzinie od uformowania miecza on traci wszystkie swoje właściwości i nie nadaje się do użycia.<br />
-			- Obr. 2k6 +1/2 Si (cięte lub kłute) // Waga; 1,5 kg Cechy broni: Biegłość (Elficki miecz długi); Półtora-ręczna, Trafienie +5; Zabójcza.
+			- Obr. 2k6 +1/2 Si (cięte lub kłute) // Waga; 1,5kg Cechy broni: Biegłość (Elficki miecz długi); Półtora-ręczna, Trafienie +5; Zabójcza.
 		</item>
 	</itemlist>
 
