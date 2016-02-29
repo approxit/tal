@@ -88,249 +88,294 @@
 		<item title="Występowanie">Na końcu wskazano występowanie danego języka lub jego typowych użytkowników.</item>
 		<item title="Opis">Zawiera opis język. Pojawiają się tu także informacje o tym jakie wymagania muszą spełnić użytkownicy języka, aby go poznać i informacje o tym, co zmniejsza trudność poznania tego języka, bądź jak wpływa on na inne języki.</item>
 	</itemlist>
+	<table>
+		<caption>Lista języków</caption>
+		<thead>
+			<tr>
+				<td>Nazwa</td>
+				<td>Wymagania</td>
+			</tr>
+		</thead>
+		<tbody>
+			<script>
+				local languages = SILE.documentState.documentClass.readData("languages")
+				for i, language in ipairs(languages) do
+					SILE.call("tr", {}, function()
+						SILE.call("td", {}, {language.name})
+						SILE.call("td", {}, {language.requirements})
+					end)
+				end
+			</script>
+		</tbody>
+	</table>
 
-	<header>Lista języków</header>
 	<tal:language>
 		<name>Apricyjski</name>
 		<native>Layus</native>
 		<group>ludzki</group>
-		<alphabet>haetal.</alphabet>
-		<requirements>Int: 18.</requirements>
-		<appearance>Środkowe Królestwa.</appearance>
+		<alphabet>haetal</alphabet>
+		<requirements>Atrybut: Inteligencja 18</requirements>
+		<appearance>Środkowe Królestwa</appearance>
 		<description>Jeden z trudniejszych języków ludzkich. Pozbawiony fleksji czasownikowych, ale mający za to dwanaście deklinacji język ten nie ułatwia nauczenia się go, gdyż końcówki wielu wyrazów są nieme.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Carphetski</name>
 		<native>Vorbinostr</native>
 		<group>elfi i ludzki</group>
-		<alphabet>haeta.</alphabet>
-		<requirements>Int: 16.</requirements>
-		<appearance>Carphetyjczycy oraz kupcy z Carphetii, rzadziej Erx.</appearance>
+		<alphabet>haeta</alphabet>
+		<requirements>Atrybut: Inteligencja 16</requirements>
+		<appearance>Carphetyjczycy oraz kupcy z Carphetii, rzadziej Erx</appearance>
 		<description>Korzenie tego języka sięgają wędrówki ludzi za Góry Środka Świata. Napotkawszy po drugiej stronie elfy nastąpił proces przejmowania języka elfickiego przez ludzi, lecz w formie zbliżonej do ludzkiego pojmowania. Język ten stracił przez to swą elficką melodykę, ale stał się jednocześnie łatwiejszy do przyswojenia.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Chaosu</name>
 		<native>Araja’kata</native>
-		<group>n/d</group>
-		<alphabet>patra / Język tajemn.</alphabet>
-		<requirements>Int: 32; czytanie i pisanie; znajomość dowolnego języka opartego na alfabecie patra; choroba duszy: obłęd.</requirements>
-		<appearance>Czarnoksiężnicy wschodu.</appearance>
+		<group>brak</group>
+		<alphabet>patra / język tajemny</alphabet>
+		<requirements>Atrybut: Inteligencja 32; Choroba duszy: obłęd; Język: dowolny oparty na alfabecie patra; Zdolność: Czytanie i pisanie</requirements>
+		<appearance>Czarnoksiężnicy wschodu</appearance>
 		<description>Słowa w tym języku są dzikie, ale i piękne, a wielokrotnie dla samych czytających niezrozumiałe. Nie można mówić w tym języku, gdyż słowa nie posiadają tu dźwięku, a jedynie mgliste znaczenie. Można za to próbować nadawać słowom dźwięk wypowiadając je za pomocą innych języków opartych o alfabet patra, chociaż nie są to wtedy prawdziwe słowa chaosu.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Drowi</name>
 		<native>Dorchatir’canan</native>
 		<group>elfi</group>
-		<alphabet>sidhescea.</alphabet>
-		<requirements>Int: 18.</requirements>
-		<appearance>Dorchatir, enklawy mrocznych elfów w Wielkiej Puszczy.</appearance>
+		<alphabet>sidhescea</alphabet>
+		<requirements>Atrybut: Inteligencja 18</requirements>
+		<appearance>Dorchatir, enklawy mrocznych elfów w Wielkiej Puszczy</appearance>
 		<description>Język ten jest bardzo elastyczny i podobnie jak wszystkie języki naturalne szybko się zmienia, gdyż ośrodki jego używania oddzielają się od siebie i nie nawiązują później kontaktów przez długi czas. Sama mowa ma wyraźną melodykę, ale słowa zdają się być twarde i ostre.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Elidioński</name>
 		<native>Talesprak</native>
 		<group>ludzki</group>
-		<alphabet>haeta.</alphabet>
-		<requirements>Int: 14.</requirements>
-		<appearance>Elidion, Rimtal, w mniejszym stopniu Siegvaard.</appearance>
+		<alphabet>haeta</alphabet>
+		<requirements>Atrybut: Inteligencja 14</requirements>
+		<appearance>Elidion, Rimtal, w mniejszym stopniu Siegvaard</appearance>
 		<description>Ten język jest używany przez ludzi z północy, a najczęściej mieszkańców Elidionu. Zawiera w sobie elementy języka elfów, ale gramatyka tego języka jest zbudowana na języku lantyńskim. Często ten język nazywany jest również <quote>wysoką mową</quote>, czego powodem jest upodobanie elfów do tego języka, co z kolei jest powodowane wysoką melodyjnością elidiońskiego.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Erxeński</name>
 		<native>brak</native>
 		<group>ludzki</group>
-		<alphabet>haeta.</alphabet>
-		<requirements>Int: 6.</requirements>
-		<appearance>Erx i okolice.</appearance>
+		<alphabet>haeta</alphabet>
+		<requirements>Atrybut: Inteligencja 6</requirements>
+		<appearance>Erx i okolice</appearance>
 		<description>Język ten rozpowszechnili ludzie, którzy utworzyli prężne centra kulturowe na obrzeżach Erx. Erxeński ma w sobie bardzo dużo elementów języka haetal i bardzo łatwo jest opanować go znając uprzednio język haetal. Nie da się używać tego języka do rzeczy innych, niż związane z handlem. Znajomość języka haetal oraz jednego z następujących sprawia, że postać otrzymuje język erxeński jako premiowy: carphetski, lantyński, sarmijski.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Espagryjski</name>
 		<native>Lalenquada</native>
 		<group>ludzki</group>
-		<alphabet>haeta.</alphabet>
-		<requirements>Int: 14.</requirements>
-		<appearance>Wschód Imperium.</appearance>
+		<alphabet>haeta</alphabet>
+		<requirements>Atrybut: Inteligencja 14</requirements>
+		<appearance>Wschód Imperium</appearance>
 		<description>Bardzo ekspresyjny język wydający się być pozbawiony harmonii. Słowa brzmią w nim ciepło, a w wymowie tracą pisane końcówki. Poznanie języków haetal, lantyńskiego i sarmijskiego sprawia, że język espagryjski otrzymuje się premiowo.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Gobliński</name>
 		<native>Ghrumbargh</native>
 		<group>gobliński</group>
-		<alphabet>bra.</alphabet>
-		<requirements>Int: 10 (6, gdy jest się goblinoidem).</requirements>
-		<appearance>Używany przez gobliny, orków, ogry od Morza Północnego do Morza Południowego.</appearance>
+		<alphabet>bra</alphabet>
+		<requirements>Atrybut: Inteligencja 10 (6, gdy jest się goblinoidem)</requirements>
+		<appearance>Używany przez gobliny, orków, ogry od Morza Północnego do Morza Południowego</appearance>
 		<description>Jest to język prymitywny pozbawiony pojęć abstrakcyjnych i metafor. Słowa w nim są wysoce onomatopeiczne i nieuporządkowane. Istoty należące do rodzaju goblinów są predestynowane do myślenia w sposób wyznaczony przez ten język. Występowanie: Używany przez gobliny, orków, ogry od Morza Północnego do Morza Południowego.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Haetal</name>
 		<native>Haetal</native>
 		<group>ludzki</group>
-		<alphabet>haetal / Język tajemn.</alphabet>
-		<requirements>Int: 28; czytanie i pisanie; znajomość dowolnych dwóch języków ludzkich.</requirements>
-		<appearance>Czarodzieje i mędrcy Imperium.</appearance>
+		<alphabet>haetal / język tajemn</alphabet>
+		<requirements>Atrybut: Inteligencja 28; Język: dowolne dwa ludzkie; Zdolność: Czytanie i pisanie</requirements>
+		<appearance>Czarodzieje i mędrcy Imperium</appearance>
 		<description>Jeden z najstarszych ludzkich języków, który został już niemal całkowicie zapomniany. Ciężko odtworzyć słowo mówione w tym języku, gdyż nawet stare elfy nie zadały sobie trudu, aby spamiętać wymowę słów tego języka. Istnieje on z tego powodu w zasadzie tylko na piśmie. Gramatyka tego języka powstawała naturalnie przez wiele wieków, a słowa zdają się etymologicznie sięgać do korzenia wspólnego wszystkich ludzkich języków. Na bazie gramatyki tego języka, po znaczącym uproszczeniu stworzono gramatykę języka imperialnego oraz wielu innych języków. Słowo <quote>haetal</quote> się nie odmienia.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Jaszczurzy</name>
 		<native>Rah’ssil</native>
 		<group>smoczy</group>
-		<alphabet>bra.</alphabet>
-		<requirements>Int: 16 (8, gdy jest się rahem).</requirements>
-		<appearance>Wielkie Bagno.</appearance>
+		<alphabet>bra</alphabet>
+		<requirements>Atrybut: Inteligencja 16 (8, gdy jest się rahem)</requirements>
+		<appearance>Wielkie Bagno</appearance>
 		<description>Jest to język bardzo syczący i niewielu osobom poza jaszczurami chce się go nauczyć. Słowa są w nim prymitywne i nie występują pojęcia abstrakcyjne.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Kamienny</name>
 		<native>Kharveresprak</native>
 		<group>giganci</group>
-		<alphabet>runi.</alphabet>
-		<requirements>Int: 12.</requirements>
-		<appearance>Używany przez krasnoludów w południowej Sorii (mniej więcej od Siegvaardu na południe) i na wschód do Erx i Ergu.</appearance>
+		<alphabet>runi</alphabet>
+		<requirements>Atrybut: Inteligencja 12</requirements>
+		<appearance>Używany przez krasnoludów w południowej Sorii (mniej więcej od Siegvaardu na południe) i na wschód do Erx i Ergu</appearance>
 		<description>Język ten jest budowany na kategoriach pragmatycznych i funkcjonalnych dlatego pisanie w nim poezji mija się z celem, chociaż jest możliwe po wielu trudach. Użytkowanie tego języka polega na wyrażaniu się w sposób bardzo precyzyjny i zwięzły.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Kiryjski</name>
 		<native>Hamibhasa</native>
 		<group>ludzki</group>
-		<alphabet>patr.</alphabet>
-		<requirements>Int: 14.</requirements>
-		<appearance>Na wschód od Ergu do granic państwa Shou.</appearance>
+		<alphabet>patr</alphabet>
+		<requirements>Atrybut: Inteligencja 14</requirements>
+		<appearance>Na wschód od Ergu do granic państwa Shou</appearance>
 		<description>Bardzo melodyjny i dźwięczny język całkowicie pozbawiony fleksji. Aby porozumieć się w tym języku potrzeba trochę więcej czasu niż w innych ludzkich językach. .</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Krasnoludzki Północny</name>
 		<native>Kharyeresprak</native>
 		<group>giganci</group>
-		<alphabet>runi.</alphabet>
-		<requirements>Int: 12.</requirements>
-		<appearance>Krasnoludowie w Elidionie, Lodowa Korona do granicy z Ayonią Nychtą.</appearance>
+		<alphabet>runi</alphabet>
+		<requirements>Atrybut: Inteligencja 12</requirements>
+		<appearance>Krasnoludowie w Elidionie, Lodowa Korona do granicy z Ayonią Nychtą</appearance>
 		<description>Język ten jest budowany na kategoriach pragmatycznych i funkcjonalnych dlatego pisanie w nim poezji, czy używanie metafor w zasadzie nie występuje. <quote>Kraspół</quote>, jak się o nim mówi bardzo dobrze nadaje się do opisów technicznych rzeczy.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Lantyński</name>
 		<native>Lantyński</native>
 		<group>ludzki</group>
-		<alphabet>haeta.</alphabet>
-		<requirements>Int: 16.</requirements>
-		<appearance>Imperium i tereny, gdzie rządzą ludzie.</appearance>
+		<alphabet>haeta</alphabet>
+		<requirements>Atrybut: Inteligencja 16</requirements>
+		<appearance>Imperium i tereny, gdzie rządzą ludzie</appearance>
 		<description>Posługują się nim ludzie na południu Sorii, gdyż jest urzędowym językiem Imperium. Gramatyka tego języka stała się podstawą tworzenia gramatyki wielu ludzkich języków używanych w Sorii, chociaż sama została stworzona na bazie języka haetal. Często nazywany jest ten język nie lantyńskim, lecz imperialnym.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Leśny</name>
 		<native>Sidheriael’coill’nemor</native>
 		<group>elfi</group>
-		<alphabet>sidhescea.</alphabet>
-		<requirements>Int: 18; umiejętność: suma atrybutu, poziomu i premii do umiejętności sztuka (śpiew) +18 lub więcej.</requirements>
-		<appearance>Od Oceanu przez Wielką Puszczę i liczne enklawy elfów do Erx.</appearance>
+		<alphabet>sidhescea</alphabet>
+		<requirements>Atrybut: Inteligencja 18; Modyfikator do Umiejętności: Sztuka (śpiew) +18 lub więcej</requirements>
+		<appearance>Od Oceanu przez Wielką Puszczę i liczne enklawy elfów do Erx</appearance>
 		<description>Jest to codzienny język wielu elfów z Wielkiej Puszczy. Słowa w nim są melodyjne, a sam język jest bardzo metaforyczny i niezwykle silnie zabarwiony emocjonalnie. Jedno słowo może opisywać w nim dziesiątki rzeczy, które łączy podobne nacechowanie emocji. Tego języka się nie mówi, ale się go śpiewa.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Mowa Mroku</name>
 		<native>Dorchecanan</native>
 		<group>elfi</group>
-		<alphabet>aersidhesceal / Język tajemny.</alphabet>
-		<requirements>Int: 34; znajomość języka drowiego.</requirements>
-		<appearance>Tam, gdzie szaleni czarnoksiężnicy odprawiają przeklęte rytuały oraz magowie czarnych elfów.</appearance>
+		<alphabet>aersidhesceal / język tajemny</alphabet>
+		<requirements>Atrybut: Inteligencja 34; Język: Drowi</requirements>
+		<appearance>Tam, gdzie szaleni czarnoksiężnicy odprawiają przeklęte rytuały oraz magowie czarnych elfów</appearance>
 		<description>Jest to mroczny język kultów zła. Osoby słuchające tego języka mają wrażenie jakby słowa wlewały truciznę w ich dusze, dlatego normalne osoby unikają tych, którzy go używają. Dużo złych zaklęć potrzebuje wzorca, którego odtworzenie wymaga użycia dorchecanan. Inne jego nazwy to: czarna mowa, przeklęty, bluźnierczy i mowa zła.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Pustynny</name>
 		<native>Rahh’il</native>
 		<group>smoczy</group>
-		<alphabet>bra.</alphabet>
-		<requirements>Int: 16 (8, gdy jest się rahem).</requirements>
-		<appearance>Północno zachodni Erg.</appearance>
+		<alphabet>bra</alphabet>
+		<requirements>Atrybut: Inteligencja 16 (8, gdy jest się rahem)</requirements>
+		<appearance>Północno zachodni Erg</appearance>
 		<description>Prymitywny język rahów pustyni. Kategorie wykorzystywane w tym języku są zbliżone z myśleniem rahów, stąd im jest łatwiej się go w pełni wyuczyć. W tym języku słowa <quote>głupota</quote>, <quote>iluzja</quote> i <quote>morze</quote> brzmią identycznie.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Rimtalski</name>
 		<native>Ihmeid</native>
 		<group>ludzki</group>
-		<alphabet>runi.</alphabet>
-		<requirements>Int: 14.</requirements>
-		<appearance>Rimtal, północne morze, miasta portowe Siegvaardu, Elidion.</appearance>
+		<alphabet>runi</alphabet>
+		<requirements>Atrybut: Inteligencja 14</requirements>
+		<appearance>Rimtal, północne morze, miasta portowe Siegvaardu, Elidion</appearance>
 		<description>Twardy i szorstki język ludów mroźnej północy. Posługują się tym językiem przede wszystkim ludzie, którzy należą do wojowniczych klanów. Plądrują oni północne morze i zapuszczają się nawet na Ocean. Język ich chociaż bazuje na haetal, ale nie korzysta z jego alfabetu.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Runiczny</name>
 		<native>Rimmut</native>
 		<group>giganci</group>
-		<alphabet>runic / Język tajemn.</alphabet>
-		<requirements>Int: 28; czytanie i pisanie; znajomość dowolnego języka opartego na alfabecie runic.</requirements>
-		<appearance>Mistrzowie Run.</appearance>
+		<alphabet>runic / język tajemny</alphabet>
+		<requirements>Atrybut: Inteligencja 28; Język: dowolny oparty na alfabecie runic; Zdolność: Czytanie i pisanie</requirements>
+		<appearance>Mistrzowie Run</appearance>
 		<description>Język run wyłącznie językiem pisanym. Kiedyś podobno krasnoludy mogły przemawiać w tym języku, ale z czasem wszyscy zdolni mówić runicznie zmarli. Pismo runiczne jest dość proste i podobnie jak język krasnoludów zdaje się być uporządkowane i bardzo funkcjonalne.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Sarmijski</name>
 		<native>Sarmijski</native>
 		<group>ludzki</group>
-		<alphabet>haeta.</alphabet>
-		<requirements>Int: 16.</requirements>
-		<appearance>Wschód Imperium, Erx.</appearance>
+		<alphabet>haeta</alphabet>
+		<requirements>Atrybut: Inteligencja 16</requirements>
+		<appearance>Wschód Imperium, Erx</appearance>
 		<description>Język północno-wschodnich mieszkańców Imperium. Podobny jest on do języka lantyńskiego i wiele słów z tego języka zostało tutaj inkorporowanych. Jest to jednak język bardziej onomatopeiczny i bardziej melodyjny. Poznanie języków haetal, lantyńskiego i espagryjskiego sprawia, że język samijski otrzymuje się premiowo.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Siegvaardzki</name>
 		<native>Unssprach</native>
 		<group>ludzki</group>
-		<alphabet>haeta.</alphabet>
-		<requirements>Int: 14.</requirements>
-		<appearance>Siegvaard, Środkowe Królestwa.</appearance>
+		<alphabet>haeta</alphabet>
+		<requirements>Atrybut: Inteligencja 14</requirements>
+		<appearance>Siegvaard, Środkowe Królestwa</appearance>
 		<description>Mówią w nim ludzie z Siegvaardu. Popularny jest również na północy Sorii. W brzmieniu jest dość twardy, w konstrukcji bardzo logiczny.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Smoczy</name>
 		<native>Athdracan</native>
 		<group>smoczy</group>
-		<alphabet>dragnijski / Język tajemn.</alphabet>
-		<requirements>Int: 50; posiadanie smoczej krwi lub wypicie kielicha smoczej krwi; znajomość wężowej mowy.</requirements>
-		<appearance>Smok.</appearance>
+		<alphabet>dragnijski / język tajemny</alphabet>
+		<requirements>Atrybut: Inteligencja 50; Język: Wężowa mowa; Posiadanie smoczej krwi lub wypicie kielicha smoczej krwi</requirements>
+		<appearance>Smok</appearance>
 		<description>Jest to język rozumnych smoków i pradawnych potworów. Słowa w nim brzmią majestatycznie i mogą wzbudzać grozę. Znawcami tego języka są w zasadzie tylko smoki, a śmiertelni mają małe szanse, aby się go nauczyć. Osobami, które często próbują nauczyć się tego języka są ambitni czarodzieje, gdyż znajomość tego języka pozwala na użycie potężnych zaklęć..</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Staroelficki</name>
 		<native>Sidhe’arte’riael</native>
 		<group>elfi</group>
-		<alphabet>aersidhesceal / Język tajemn.</alphabet>
-		<requirements>Int: 42; umiejętność: suma atrybutu, poziomu i premii do umiejętności sztuka (śpiew) +32 lub więcej; znajomość dowolnego języka z grupy języków elfickich.</requirements>
-		<appearance>Kapłani i czarodzieje elfów.</appearance>
+		<alphabet>aersidhesceal / język tajemn</alphabet>
+		<requirements>Atrybut: Inteligencja 42; Język: dowolny z grupy elfickich; Modyfikator do Umiejętności: Sztuka (śpiew) +32 lub więcej</requirements>
+		<appearance>Kapłani i czarodzieje elfów</appearance>
 		<description>Jest to stary język elfów, którego relikty występują w obrządkach ceremonialnych i religijnych. Same słowa w tym języku niczego nie <quote>znaczą</quote>, ale <quote>rozumie</quote> się je przez współwystępowanie z innymi słowami w zdaniu.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Szczurzy</name>
 		<native>Scav</native>
 		<group>gobliński</group>
-		<alphabet>bra.</alphabet>
-		<requirements>Int: 16 (12, gdy jest się jorem.</requirements>
-		<appearance>Wielkie Bagno i Szczurze Hordy.</appearance>
+		<alphabet>bra</alphabet>
+		<requirements>Atrybut: Inteligencja 16 (12, gdy jest się jorem</requirements>
+		<appearance>Wielkie Bagno i Szczurze Hordy</appearance>
 		<description>Piskliwy i prosty w rozumieniu język jorów. Są tutaj metafory i pojęcia abstrakcyjne, ale główny trzon języka stanowią określenia pragmatyczne.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Wężowa mowa</name>
 		<native>Serpentus</native>
 		<group>smoczy</group>
-		<alphabet>dragnijsk.</alphabet>
-		<requirements>Int: 18.</requirements>
-		<appearance>Kulty Smoków, Serpenty.</appearance>
+		<alphabet>dragnijsk</alphabet>
+		<requirements>Atrybut: Inteligencja 18</requirements>
+		<appearance>Kulty Smoków, Serpenty</appearance>
 		<description>Język podobny do smoczego i będący jego uproszczeniem. Posługują się nim smokoludzie, którzy nie doświadczyli zaszczytu poznania języka athdracan i smoczy słudzy. Rozumne smoki wolą, gdy śmiertelni zwracają się do nich w tym języku, gdyż korzystanie przez nie-smoki (czyli np. mieszańce) z athdragan jest uważane za świętokradztwo.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Wiedźmiński</name>
 		<native>Mejikbhasa</native>
 		<group>gobliński</group>
-		<alphabet>sidhesceal / Język tajemn.</alphabet>
-		<requirements>Int: 28.</requirements>
-		<appearance>Magowie jorów, orków i goblinów.</appearance>
+		<alphabet>sidhesceal / język tajemn</alphabet>
+		<requirements>Atrybut: Inteligencja 28</requirements>
+		<appearance>Magowie jorów, orków i goblinów</appearance>
 		<description>Powodujący ciarki na plecach język magii, który nazywa się również <quote>szamańskim</quote> oraz <quote>czarno-szczurzym</quote>. Słowa są skomplikowane i piskliwe. Istnieje w tym języku niezwykle wielka grupa słów, które opisują zniszczenie i ból.</description>
 	</tal:language>
+
 	<tal:language>
 		<name>Wschodni</name>
 		<native>Shoubhasa</native>
 		<group>ludzki</group>
-		<alphabet>patr.</alphabet>
-		<requirements>Int: 16.</requirements>
-		<appearance>Shoun.</appearance>
+		<alphabet>patr</alphabet>
+		<requirements>Atrybut: Inteligencja 16</requirements>
+		<appearance>Shoun</appearance>
 		<description>Słowa zdają się być przeciągłe, a melodyka spowolniona. Język ten służy wyciszaniu swych emocji, o braku których łatwiej powiedzieć, niż o tym, że jakieś występują.</description>
 	</tal:language>
 
@@ -759,17 +804,17 @@
 			<tr>
 				<td>8</td>
 				<td>Duże ognisko, płonący stos</td>
-				<td>1 m</td>
+				<td>1m</td>
 			</tr>
 			<tr>
 				<td>12</td>
 				<td>Płonący dom</td>
-				<td>4 m</td>
+				<td>4m</td>
 			</tr>
 			<tr>
 				<td>16</td>
 				<td>Płonący las</td>
-				<td>10 m</td>
+				<td>10m</td>
 			</tr>
 		</tbody>
 	</table>
@@ -883,7 +928,7 @@
 		<item title="Re i Zr">W tej kolumnie wskazano kary do wszystkich testów atrybutów refleksu i zręczności, które ponosi postać o takim przeciążeniu. Przy obciążeniu 5 x udźwig +1 kilogram postać ponosi automatyczną porażkę w teście (co ewentualnie można zamienić na karę -50 w specjalnych wypadkach). Trzeba pamiętać, że kary do testów atrybutów odbijają się również na wynikach testów umiejętności postaci. Kolejne wartości kar zastępują się, a nie sumują.</item>
 		<item title="Obrona fizyczna">Przeciążenie powoduje, że postać traci swoją obronę fizyczną i łatwiej jest ją trafić. Po zastosowaniu kar z przeciążenia postać nie może mieć wartości obrony fizycznej poniżej wartości wariantu: nieprzygotowany. Przeciążona postać w stopniu 10 x udźwig +1kg jest tak obładowana, że pod wpływem ciężaru upada i staje się bezradna do czasu wygrzebania się spod przywalającego ją ciężaru.</item>
 		<item title="Szybkość">Przeciążenie spowalnia postać przez to ta wolniej się porusza. Kara do szybkości nie może obniżyć szybkości do 0, chyba że przeciążenie wynosi 10 x udźwig +1kg, gdyż wtedy pod wpływem ciężaru postać upada i jedyne co może robić, to próbować wygrzebać się spod ciężaru. Poza tym między obciążeniem równym udźwig +1, a 4 x udźwig +1 maksymalna kara do szybkości postaci nie może sprawić, że straci ona ponad połowę swojej szybkości. Gdy zaś udźwig postaci zrówna się lub przekroczy jej 5 x udźwig +1, to szybkość postaci zostanie zredukowana do 1.</item>
-		<item title="Specjalne">Gdy udźwig postaci zrówna się lub przekroczy wartość jej 2 x udźwig + 1, to postać będzie musiała poświęcić na powstanie akcję dodatkową, prócz tych, które normalnie musi wydać, aby powstać. Przy obciążeniu równym 3 x udźwig +1 postać powstanie, gdy na wykorzysta na to poza normalnymi akcjami jeszcze akcję zwykłą. Gdy przeciążenie zrówna się lub przekroczy 4 x udźwig +1 postaci, to ta będzie mogła powstać w akcji cało-rundowej, a przy przeciążeniu równym lub większym od 5 x udźwig +1 postać nie będzie mogła powstać z ziemi z takim obciążeniem, a przyjąć je na siebie i funkcjonować przy karach będzie mogła dopiero wtedy, gdy wstanie i weźmie ciężar stojąc.</item>
+		<item title="Specjalne">Gdy udźwig postaci zrówna się lub przekroczy wartość jej 2 x udźwig + 1, to postać będzie musiała poświęcić na powstanie akcję dodatkową, prócz tych, które normalnie musi wydać, aby powstać. Przy obciążeniu równym 3 x udźwig + 1 postać powstanie, gdy na wykorzysta na to poza normalnymi akcjami jeszcze akcję zwykłą. Gdy przeciążenie zrówna się lub przekroczy 4 x udźwig + 1 postaci, to ta będzie mogła powstać w akcji cało-rundowej, a przy przeciążeniu równym lub większym od 5 x udźwig + 1 postać nie będzie mogła powstać z ziemi z takim obciążeniem, a przyjąć je na siebie i funkcjonować przy karach będzie mogła dopiero wtedy, gdy wstanie i weźmie ciężar stojąc.</item>
 	</itemlist>
 
 	<header>Sen</header>
@@ -1047,7 +1092,7 @@
 				<td>Wycieńczona z głodu i zimna postać pada nieprzytomna. Znajdzie się ktoś, kto jej pomoże.</td>
 			</tr>
 			<tr>
-				<td>10</td>td>
+				<td>10</td>
 				<td>Średni</td>
 				<td>Utrata przytomności podczas walki z bandytami. Bandyci opatrują postać i zabierają ją do swej siedziby (np. w charakterze niewolnika).</td>
 			</tr>

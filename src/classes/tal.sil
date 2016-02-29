@@ -17,7 +17,7 @@
 	<define command="footmark"><process /></define>
 	<define command="supereject"><vfill /><penalty penalty="-20000" /></define>
 	<define command="table">
-		<define command="caption"><process /><par /></define>
+		<define command="caption"><process /><br /></define>
 		<define command="thead">
 			<define command="tr">
 				<define command="td"><process /></define>
@@ -42,24 +42,21 @@
 		<process /><par />
 	</define>
 
-	<define command="tal:language">
-		<define command="name"><process /><br /></define>
-		<define command="native"><process /><br /></define>
-		<define command="group"><process /><br /></define>
-		<define command="alphabet">Alfabet: <process /><br /></define>
-		<define command="requirements">Wymagania: <process /><br /></define>
-		<define command="appearance">Występowanie: <process /><br /></define>
-		<define command="description">Opis: <process /><br /></define>
-		<process /><par />
-	</define>
-	<define command="tal:skill">
-		<define command="name"><process /><br /></define>
-		<define command="test">Test: <process /><br /></define>
-		<define command="synergy">Synergia: <process /><br /></define>
-		<define command="bonus">Zdolności premiowe: <process /><br /></define>
-		<define command="description"><process /><br /></define>
-		<process /><par />
-	</define>
+	<define command="tal:extrafeat:name"><process /><br /></define>
+	<define command="tal:extrafeat:description"><process /><br /></define>
+	<define command="tal:extrafeat:forbidden">Zakazane: <process /><br /></define>
+	<define command="tal:language:name"><process /></define>
+	<define command="tal:language:native">(<process />)</define>
+	<define command="tal:language:group">/ <process /><br /></define>
+	<define command="tal:language:description"><process /><br /></define>
+	<define command="tal:language:alphabet">Alfabet: <process /><br /></define>
+	<define command="tal:language:requirements">Wymagania: <process /><br /></define>
+	<define command="tal:language:appearance">Występowanie: <process /><br /></define>
+	<define command="tal:skill:name"><process /><br /></define>
+	<define command="tal:skill:attribute">Atrybut: <process /><br /></define>
+	<define command="tal:skill:description"><process /><br /></define>
+	<define command="tal:skill:synergy">Synergia: <process /><br /></define>
+	<define command="tal:skill:bonus">Zdolności premiowe: <process /><br /></define>
 	<define command="tal:feat">
 		<define command="name"><process /><br /></define>
 		<define command="requirements">Wymagania: <process /><br /></define>
@@ -69,6 +66,7 @@
 		<define command="cost">Koszt dostrojenia: <process /><br /></define>
 		<define command="animal">Zwierzę: <process /><br /></define>
 		<define command="action">Czyn: <process /><br /></define>
+		<define command="description"><process /><br /></define>
 		<process /><par />
 	</define>
 </sile>

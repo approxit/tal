@@ -79,19 +79,28 @@
 			<tr>
 				<td>Nazwa</td>
 				<td>Atrybut</td>
-				<td>Synergia do</td>
+				<td>Synergia</td>
 			</tr>
 		</thead>
 		<tbody>
-			<TODO>tabelka razem z synergiami i testem</TODO>
+			<script>
+				local skills = SILE.documentState.documentClass.readData("commonskills")
+				for i, skill in ipairs(skills) do
+					SILE.call("tr", {}, function()
+						SILE.call("td", {}, {skill.name})
+						SILE.call("td", {}, {skill.attribute})
+						SILE.call("td", {}, {skill.synergy or "-"})
+					end)
+				end
+			</script>
 		</tbody>
 	</table>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Akrobatyka</name>
-		<test>refleksu.</test>
-		<synergy>Uniki; Wspinaczka.</synergy>
-		<bonus>Akrobatyczny atak, Akrobatyczna obrona, Bieganie, Błyskawiczne padanie, Krótki rozbieg, Pewnie na nogach, Powstań, Skok w dal, Skok wzwyż, Ucieczka, Wyślizgnięcie ze zwarcia, Zeskakiwanie z wysoka.</bonus>
+		<attribute>Refleks</attribute>
+		<synergy>Uniki; Wspinaczka</synergy>
+		<bonus>Akrobatyczny atak, Akrobatyczna obrona, Bieganie, Błyskawiczne padanie, Krótki rozbieg, Pewnie na nogach, Powstań, Skok w dal, Skok wzwyż, Ucieczka, Wyślizgnięcie ze zwarcia, Zeskakiwanie z wysoka</bonus>
 		<description>Robienie fikołków, przewrotów i podskoków może jest efektowne, ale prócz walorów cyrkowych przydaje się w różnych sytuacjach życiowych.</description>
 	</tal:skill>
 	<itemlist>
@@ -113,28 +122,28 @@
 					</tr>
 					<tr>
 						<td>20</td>
-						<td>+ 1 m</td>
+						<td>+1m</td>
 						<td>bez zmian</td>
 					</tr>
 					<tr>
 						<td>25</td>
-						<td>+2 m</td>
-						<td>+ 0,5 m</td>
+						<td>+2m</td>
+						<td>+0,5m</td>
 					</tr>
 					<tr>
 						<td>30</td>
-						<td>+3 m</td>
-						<td>+ 1 m</td>
+						<td>+3m</td>
+						<td>+1m</td>
 					</tr>
 					<tr>
 						<td>40</td>
-						<td>+4 m</td>
-						<td>+1 m</td>
+						<td>+4m</td>
+						<td>+1m</td>
 					</tr>
 					<tr>
 						<td>50+</td>
-						<td>+5 m</td>
-						<td>+1,5 m</td>
+						<td>+5m</td>
+						<td>+1,5m</td>
 					</tr>
 				</tbody>
 			</table>
@@ -281,11 +290,11 @@
 		</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Dowodzenie</name>
-		<test>charyzmy.</test>
-		<synergy>Perswazja, Zastraszanie.</synergy>
-		<bonus>Dowódca, Ostatnia szarża, Posłuch, Rozkaz, Spryt dowódczy, Władczość.</bonus>
+		<attribute>Charyzma</attribute>
+		<synergy>Perswazja, Zastraszanie</synergy>
+		<bonus>Dowódca, Ostatnia szarża, Posłuch, Rozkaz, Spryt dowódczy, Władczość</bonus>
 		<description>Umiejętność wpływania na podwładnych tak, aby skutecznie wykonywali to, co im się poleci. Aby umiejętność ta działała należy mieć możliwość komunikacji ze swoimi podwładnymi, a co ważniejsze samych podwładnych – czyli osoby, które akceptują wyższość hierarchiczną postaci nad nimi samymi. Testy można wykonywać w każdym przypadku zaistnienia rozkazu, ale ich sensowność jest istotnie tylko w przypadku, gdy Bohater wydaje polecenia BN-om i gdy BN wydaje rozkazy innym BN-om.</description>
 	</tal:skill>
 	<itemlist>
@@ -332,11 +341,11 @@
 		<item title="Wzmocnienie morale">W sytuacji kryzysowej, gdy wola działania zdaje się uciekać nosem, uszami i odbytem z podkomendnych należy zwiększyć ich morale lub przestać na nich liczyć. Sukces w teście dowodzenia oznacza opanowanie sytuacji, a porażka niemożność wydawania rozkazów etc. ST zaczyna się od 30, przy sytuacji względnie niebezpiecznej jak starcie ze słabszą grupą, 50 starcie z grupą o nieznanej lub podobnej sile, 60 grupą silniejszą, 80 grupą z całą pewnością silniejszą, 100+ w przypadku starcia z potęgą przerastającą pojęcie.</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Intuicja</name>
-		<test>percepcji.</test>
+		<attribute>Percepcja</attribute>
 		<synergy>Perswazja</synergy>
-		<bonus>Intuicyjna mana, Intuicyjne dotarcie, Skrytość śledzenia, Wgląd w reakcję, Wyczucie nastroju grupy, Wyczucie zwierzęcia.</bonus>
+		<bonus>Intuicyjna mana, Intuicyjne dotarcie, Skrytość śledzenia, Wgląd w reakcję, Wyczucie nastroju grupy, Wyczucie zwierzęcia</bonus>
 		<description>Intuicja jest umiejętnością pozwalającą czytać emocje innych osób, wychwytywać drobne niuanse w zachowaniu i orientować się w zamiarach innych.</description>
 	</tal:skill>
 	<itemlist>
@@ -345,11 +354,11 @@
 		<item title="Wykrycie kłamstwa">Sukces w teście spornym z retoryką interlokutora pozwala przejrzeć, że technika perswazyjna z której korzysta jest zwyczajnym kłamstwem. Aby mówić o kłamstwie interlokutor musi mieć intencję wprowadzenia w błąd postaci.</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Krzepa</name>
-		<test>siły.</test>
-		<synergy>Wspinaczka; Wysiłek; Zwarcie.</synergy>
-		<bonus>Agresywny atak, Biegłość w zbroi, Mocarny uchwyt, Potężny atak, Siła berserka, Więcej energii, Większy udźwig.</bonus>
+		<attribute>Siła</attribute>
+		<synergy>Wspinaczka; Wysiłek; Zwarcie</synergy>
+		<bonus>Agresywny atak, Biegłość w zbroi, Mocarny uchwyt, Potężny atak, Siła berserka, Więcej energii, Większy udźwig</bonus>
 		<description>Umiejętność wykorzystania swej siły fizycznej do tego, aby poruszać obiektami, siłować się z kimś lub czymś. Ogólnie krzepa ma służyć sprawdzeniu jak postać poradzi sobie przy krótkim, acz intensywnym wysiłku fizycznym, a nie w przypadku długich działań wymagających pracy mięśni. Postać po jednej porażce w teście nie może go powtórzyć na tym samym obiekcie dopóki krzepa nie zwiększy się o przynajmniej 1 (przez jakiś modyfikator lub zwiększenie poziomu umiejętności). Z zasady szczęścia nie można w tym przypadku wykorzystywać do zwiększania wyniku testu lecz tylko do powtórek testu. Każda porażka w teście krzepy oznacza punkt zmęczenia.</description>
 	</tal:skill>
 	<itemlist>
@@ -454,11 +463,11 @@
 		<item title="Wyważenie drzwi">Umiejętności tej można użyć, gdy chce się wyważyć siłowo jakieś drzwi, barykadę lub innego tego typu przeszkodę fizyczną. ST testów wyważenia obiektów jeżeli jest to oczywiście w ich przypadku możliwe zostały podane przy danych obiektach. Zakłada się, że wyważanie odbywa się przez postać stojącą i siłującą się z obiektem. Sprytna postać, która rozpędzi się przy wyważaniu drzwi powinna do testu uzyskać modyfikator równy swej szybkości.</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Mocna głowa</name>
-		<test>kondycji.</test>
-		<synergy>Wspinaczka; Wysiłek; Zwarcie.</synergy>
-		<bonus>Alkoholowe wygadanie, Alkoholowy geniusz, Mocna głowa, Niezły spust, Przyswajanie mikstur, Walka na rauszu.</bonus>
+		<attribute>Kondycja</attribute>
+		<synergy>Wspinaczka; Wysiłek; Zwarcie</synergy>
+		<bonus>Alkoholowe wygadanie, Alkoholowy geniusz, Mocna głowa, Niezły spust, Przyswajanie mikstur, Walka na rauszu</bonus>
 		<description>Mocna głowa to umiejętność radzenia sobie przede wszystkim z pełnym kieliszkiem, a raczej z tym co się dzieje po przedostaniu się jego zawartości do gardła (pod warunkiem, że to alkohol). Alkohol to trucizna, ale bardzo użyteczna. Postać spożywająca alkohol upija się, co sprawia, że niektóre jej moce rosną, a inne spadają. Trzeba pamiętać, że alkohol działa kumulatywnie, więc ST wypicia drugiej takiej samej butelki rośnie – o połowę sumy ST poprzednich wypitych butelek.</description>
 	</tal:skill>
 	<itemlist>
@@ -507,11 +516,11 @@
 		<item title="Wypicie alkoholu">Każdy alkohol ma odpowiedni ST wypicia go. Niezdanie testu oznacza, że postać jest pijana, a porażka o każde 5 powoduje kolejne poziomy upicia. Każdy poziom upicia działa jak punkt zmęczenia (z tym, że nie dotyczy kondycji i siły), a postać może zniwelować te zmęczenie dopiero, gdy wytrzeźwieje.</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Opanowanie</name>
-		<test>woli.</test>
-		<synergy>Mocna głowa.</synergy>
-		<bonus>Medytacja, Odporność na ból, Skrócona medytacja, Skrócony sen, Wola życia, Większa obrona magiczna.</bonus>
+		<attribute>Wola</attribute>
+		<synergy>Mocna głowa</synergy>
+		<bonus>Medytacja, Odporność na ból, Skrócona medytacja, Skrócony sen, Wola życia, Większa obrona magiczna</bonus>
 		<description>Opanowanie to sztuka zachowania kontroli nad swoimi emocjami i samym sobą w trudnych warunkach.</description>
 	</tal:skill>
 	<itemlist>
@@ -521,11 +530,11 @@
 		<item title="Reakcja">Przy nagłym zaatakowaniu postaci lub jej grupy możliwe jest zaskoczenie zaatakowanych, którzy nie będą mogli zadziałać dopóki się jakoś nie opanują. Po rundzie zaskoczenia należy wynikać test opanowania każdego zaatakowanego o ST = 20. Porażka oznacza, że przez kolejną rundę postać będzie mogła się tylko bronić. Test należy powtarzać na początku każdej tury postaci do czasu pierwszego zdania ST.</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Perswazja</name>
-		<test>charyzmy.</test>
-		<synergy>Dowodzenie; Prowokowanie; Zastraszanie.</synergy>
-		<bonus>Brzuchomówca, Bystry rozmówca, Dobór słów, Dyskurs, Markowany cios, Targowanie, Wciskanie fałszywki, Wyciąganie wieści.</bonus>
+		<attribute>Charyzma</attribute>
+		<synergy>Dowodzenie; Prowokowanie; Zastraszanie</synergy>
+		<bonus>Brzuchomówca, Bystry rozmówca, Dobór słów, Dyskurs, Markowany cios, Targowanie, Wciskanie fałszywki, Wyciąganie wieści</bonus>
 		<description>Perswazja to zdolność przekonywania kogoś do swoich racji za pomocą argumentów i manipulacji.</description>
 	</tal:skill>
 	<itemlist>
@@ -605,7 +614,7 @@
 					</tr>
 					<tr>
 						<td>-40</td>
-						<td>-</td>td>
+						<td>-</td>
 						<td>Ogromna<footmark ref="przekonywanie-wrog" /></td>
 					</tr>
 				</tbody>
@@ -614,11 +623,11 @@
 		<item title="Targowanie">Perswazji można używać w celu poprawienia swej sytuacji handlowej. Sukces w teście spornym z perswazją kupca sprawia, że ten obniża cenę sprzedaży swego towaru o 10% lub podwyższa cenę oferowaną za przedmiot, który chce mu sprzedać postać. Wchodzenie w targi jest jednak ryzykowne, gdyż przegranie w teście oznacza, że postać musi przyjąć wytargowaną cenę kupca.</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Plotkowanie</name>
-		<test>charyzmy.</test>
-		<synergy>Prowokowanie.</synergy>
-		<bonus>Bajdurzenie, Dyskrecja, Przyśpieszone pogaduchy, Skupienie na istotnych rzeczach, Znajomość z zasłyszenia, Zorientowanie w cenach.</bonus>
+		<attribute>Charyzma</attribute>
+		<synergy>Prowokowanie</synergy>
+		<bonus>Bajdurzenie, Dyskrecja, Przyśpieszone pogaduchy, Skupienie na istotnych rzeczach, Znajomość z zasłyszenia, Zorientowanie w cenach</bonus>
 		<description>Plotkowanie to umiejętność wyławiania ważnych informacji w gąszczu mało ważnych informacji. Plotkowanie wymaga przeprowadzenia rozmowy z jedną lub wieloma osobami. Postać zbierająca informacje jeżeli jest rozpoznana przez osoby może mieć kłopot z plotkowaniem, gdy osoby z którymi będzie chciała rozmawiać żywią do niej jakiś uraz (np. rasowy) lub panuje powszechna nieufność. MG może w takim wypadku nałożyć na postać modyfikator -10 do -30 lub stwierdzić, że w okolicy nie ma postaci, które byłyby chętne na plotkowanie z postacią.</description>
 	</tal:skill>
 	<itemlist>
@@ -725,11 +734,10 @@
 		</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Pływanie</name>
-		<test>charyzmy.</test>
-		<synergy>-</synergy>
-		<bonus>Natychmiastowe zaczerpnięcie tchu, Nurkowanie, Pływanie we wzburzonej wodzie, Sprawność, Szybkie pływanie, Wstrzymanie oddechu.</bonus>
+		<attribute>Charyzma</attribute>
+		<bonus>Natychmiastowe zaczerpnięcie tchu, Nurkowanie, Pływanie we wzburzonej wodzie, Sprawność, Szybkie pływanie, Wstrzymanie oddechu</bonus>
 		<description>Sztuka unoszenia się na wodzie, przemieszczania się wpław i nurkowania. Jeżeli nie stwierdzono inaczej każda z postaci potrafi pływać, ale to ta umiejętność określa jak dobrze postać pływa.</description>
 	</tal:skill>
 	<itemlist>
@@ -825,11 +833,11 @@
 		</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Prowokowanie</name>
-		<test>charyzmy.</test>
-		<synergy>Zastraszanie; Kradzież kieszonkowa (Zręczna dłoń – tylko, gdy zagaduje się swoją ofiarę przed kradzieżą).</synergy>
-		<bonus>Brzuchomówca, Naśladowanie głosu, Sprytna finta, Uwodzenie, Zagadanie, Zwrócenie uwagi.</bonus>
+		<attribute>Charyzma</attribute>
+		<synergy>Zastraszanie; Kradzież kieszonkowa (Zręczna dłoń – tylko, gdy zagaduje się swoją ofiarę przed kradzieżą)</synergy>
+		<bonus>Brzuchomówca, Naśladowanie głosu, Sprytna finta, Uwodzenie, Zagadanie, Zwrócenie uwagi</bonus>
 		<description>Prowokowanie to umiejętność rozwścieczenia przeciwnika, zmuszenia go do działania lub wciągnięcia w słowny utarg.</description>
 	</tal:skill>
 	<itemlist>
@@ -839,11 +847,11 @@
 		<item title="Zestresowanie">Minuta utarczki słownej pozwala na przeprowadzenie testu spornego z opanowaniem oponenta. Gdy oponent przegra zacznie być zestresowany, co oznacza działanie przez minutę tak jakby miało się 5 punktów zmęczenia.</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Przeszukiwanie</name>
-		<test>percepcji.</test>
+		<attribute>Percepcja</attribute>
 		<synergy>Sztuka przetrwania</synergy>
-		<bonus>Inteligentne przeszukiwanie, Miejskie ślady, Ostrożne kroki, Szybkie przeszukiwanie, Szybkie tropienie, Szybkie wykrywanie pułapek, Tropienie. .</bonus>
+		<bonus>Inteligentne przeszukiwanie, Miejskie ślady, Ostrożne kroki, Szybkie przeszukiwanie, Szybkie tropienie, Szybkie wykrywanie pułapek, Tropienie. </bonus>
 		<description>Umiejętność znajdywania i odnajdywania różnych rzeczy. Przeszukuje zawsze się jakiś obszar albo w celu znalezienia czegoś konkretnego, albo w celu zorientowania sie cóż znajduje się w danym obszarze.</description>
 	</tal:skill>
 	<itemlist>
@@ -947,11 +955,11 @@
 		<item title="Znalezienie pułapki lub sekretnych drzwi">Aktywnie przeszukując dany obszar można znaleźć ukryte pułapki lub sekretne drzwi. Konkretne ST wykrycia tych obiektów zależy od ich rodzaju i zostało podane przy ich opisie. Postać szukająca pułapek lub sekretnych drzwi musi wykonywać ostrożny ruch lub poruszać się ze swą normalną szybkością, lecz w tym drugim przypadku podlega modyfikatorowi -10 do testów.</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Spostrzegawczość</name>
-		<test>percepcji.</test>
+		<attribute>Percepcja</attribute>
 		<synergy>Przeszukiwanie</synergy>
-		<bonus>Czujność, Czytanie z ruchu warg, Niepodatność na olśnienie, Oczy wprawione w ciemność, Oczy z tyłu głowy, Przejrzenie ataku, Wprawione oko, Zmysł myśliwego.</bonus>
+		<bonus>Czujność, Czytanie z ruchu warg, Niepodatność na olśnienie, Oczy wprawione w ciemność, Oczy z tyłu głowy, Przejrzenie ataku, Wprawione oko, Zmysł myśliwego</bonus>
 		<description>Umiejętność ta odpowiada za sprawność zmysłów postaci. Jeżeli nie napisano inaczej spostrzegawczość odpowiada za zmysł wzroku i słuchu. Często spostrzegawczość działa jako test przeciwstawny działań wykonywanych przeciw postaci.</description>
 	</tal:skill>
 	<table>
@@ -1089,15 +1097,15 @@
 				<tbody>
 					<tr>
 						<td>+1</td>
-						<td>Każde 5 metrów odległości</td>
+						<td>Każde 5m odległości</td>
 					</tr>
 					<tr>
 						<td>+10</td>
-						<td>Drzwi lub drewniana ściana gruba na 5 cm</td>
+						<td>Drzwi lub drewniana ściana gruba na 5cm</td>
 					</tr>
 					<tr>
 						<td>+15</td>
-						<td>Drewniana ściana gruba na 10 cm</td>
+						<td>Drewniana ściana gruba na 10cm</td>
 					</tr>
 					<tr>
 						<td>+20</td>
@@ -1122,7 +1130,7 @@
 				<tbody>
 					<tr>
 						<td>+1</td>
-						<td>Każde 5 metrów odległości</td>
+						<td>Każde 5m odległości</td>
 					</tr>
 					<tr>
 						<td>-10</td>
@@ -1145,11 +1153,11 @@
 		</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Sztuka przetrwania</name>
-		<test>percepcji.</test>
+		<attribute>Percepcja</attribute>
 		<synergy>Tropienie (Przeszukiwanie)</synergy>
-		<bonus>Dostęp do pożywienia, Szybkie maskowanie śladów, Szybkie zdobywanie pożywienia, Tropienie, Zdobywanie opatrunków, Zmysł myśliwego, Znajdywanie zagubionych.</bonus>
+		<bonus>Dostęp do pożywienia, Szybkie maskowanie śladów, Szybkie zdobywanie pożywienia, Tropienie, Zdobywanie opatrunków, Zmysł myśliwego, Znajdywanie zagubionych</bonus>
 		<description>Pod tą nazwą kryje się szereg drobnych umiejętności polegających np. na rozpaleniu ogniska, znalezieniu pożywienia, wody, czy zorientowania się w terenie.</description>
 	</tal:skill>
 	<itemlist>
@@ -1265,11 +1273,11 @@
 		<item title="Znalezienie schronienia">Postać może zbudować szałas, rozpalić ognisko, czy zbudować małą wędzarnię, gdy ma do tego odpowiednie zasoby w ok. dwie godziny, gdy zda test o ST = 30. Postać może przyśpieszyć te działanie do ok. godziny, ale otrzymuje wtedy karę -20 do testu. Nie zawsze udaje się znaleźć odpowiednie materiały do wskazanych rzeczy np. na pustyni lub środku morza.</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Ukrywanie się</name>
-		<test>refleksu.</test>
-		<synergy>Zdobycie pożywienia (Sztuka przetrwania).</synergy>
-		<bonus>Atak z zaskoczenia, Ostrożne kroki, Skrytość śledzenia, Szybkie przejście bez śladu, Szybko i cicho, Szybko i niezauważenie.</bonus>
+		<attribute>Refleks</attribute>
+		<synergy>Zdobycie pożywienia (Sztuka przetrwania)</synergy>
+		<bonus>Atak z zaskoczenia, Ostrożne kroki, Skrytość śledzenia, Szybkie przejście bez śladu, Szybko i cicho, Szybko i niezauważenie</bonus>
 		<description>Umiejętność cichego poruszania się i krycia przed wzrokiem.</description>
 	</tal:skill>
 	<itemlist>
@@ -1316,11 +1324,10 @@
 		<item title="Ukrycie się">Postać może dzięki tej umiejętności schować się w jakimś miejscu i pozostać w bezruchu, aby nie zostać dostrzeżonym. Zasadniczo, gdy postać będzie w stanie schować się w całości, to wszelkie próby dostrzeżenia jej skończą się niepowodzeniem. Ukrywanie należy zastosować, gdy postać nie może schować się w pełni i część jej <quote>wystaje</quote> na widok przeciwnika. Wykonuje się wtedy test sporny ze spostrzegawczością – wzrokiem przeciwnika. Porażka oznacza, że zostało się dostrzeżonym. Jeżeli postać przemieszcza się z połową szybkości podczas ukrycia, to podlega modyfikatorowi -10 do testu. Gdy porusza się ze swą szybkością otrzymuje modyfikator -20. Bieg połączony z ukryciem automatycznie kończy porażką to drugie.</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Wspinaczka</name>
-		<test>refleksu.</test>
-		<synergy>-</synergy>
-		<bonus>Nabyta gibkość, Nabyta krzepkość, Nabyta wyporność, Nabyta wytrzymałość, Szybkie wspinanie, Szybko i wysoko.</bonus>
+		<attribute>Refleks</attribute>
+		<bonus>Nabyta gibkość, Nabyta krzepkość, Nabyta wyporność, Nabyta wytrzymałość, Szybkie wspinanie, Szybko i wysoko</bonus>
 		<description>Wdrapywanie się po stromych zboczach, wchodzenie po linie itp. Z zasady każda postać, która potrafi chodzić potrafi się również wspinać. Postać w ciągu rundy wspina się na wysokość równą 1/4 szybkości (w metrach). Postać aby pokonać odległość równą 1/2 szybkości w ciągu rundy podlega modyfikatorowi -10 do testu. ST wspinaczki zależy od tego po jakiej powierzchni postać się wspina.</description>
 	</tal:skill>
 	<table>
@@ -1368,19 +1375,19 @@
 	</table>
 	<p>Po gładkich powierzchniach postać nie jest w stanie się wspinać i najlepiej wtedy zapewnić sobie alternatywny sposób poruszania się np. linowy. Inne postacie mogą pomagać we wspinaczce np. wciągając linę (krzepa) do której uwiązany jest towarzysz.</p>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Wysiłek</name>
-		<test>kondycji.</test>
-		<synergy>Krzepa.</synergy>
-		<bonus>Bez głodu i pragnienia, Biegłość w zbroi, Forsowny marsz, Niestrudzony szał, Skrócony sen, Sprawność, Twarda skóra, Ucieczka, Wyleczony, Wytrwałe podróżowanie, Większa wytrwałość, Żelazne zdrowie, Żywotny.</bonus>
+		<attribute>Kondycja</attribute>
+		<synergy>Krzepa</synergy>
+		<bonus>Bez głodu i pragnienia, Biegłość w zbroi, Forsowny marsz, Niestrudzony szał, Skrócony sen, Sprawność, Twarda skóra, Ucieczka, Wyleczony, Wytrwałe podróżowanie, Większa wytrwałość, Żelazne zdrowie, Żywotny</bonus>
 		<description>Umiejętność radzenia sobie z długotrwałym wysiłkiem została nazwana <quote>wysiłek</quote>. Umiejętność testuje się zamiennie za kondycję, gdy trzeba określić jak bardzo postać zmęczyła się jakąś aktywnością fizyczną. Każda porażka w teście wysiłku wiąże się z reguły z otrzymaniem punktu zmęczenia lub wyczerpania.</description>
 	</tal:skill>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Zastraszanie</name>
-		<test>siły.</test>
-		<synergy>Dowodzenie.</synergy>
-		<bonus>Berserk, Bitewna furia, Byczek, Długi szał, Dobór słów, Krzywda, Okropne wrażenie, Wymuszenie.</bonus>
+		<attribute>Siła</attribute>
+		<synergy>Dowodzenie</synergy>
+		<bonus>Berserk, Bitewna furia, Byczek, Długi szał, Dobór słów, Krzywda, Okropne wrażenie, Wymuszenie</bonus>
 		<description>Postać dzięki tej umiejętności jest w stanie wymusić na innych jakieś konkretne działania, z uwagi na strach jaki w nich wzbudza. W tym celu postać musi wpierw umieć się skomunikować ze swoją ofiarą, a następnie wykorzystać przeciwko niej swoją siłę fizyczną, bądź stworzyć realną obawę, że zostanie użyta. Porażka w teście oznacza, że zastraszający kompromituje się w jakimś stopniu w oczach zastraszanego i ten do kolejnych testów odporności na zastraszenie otrzymuje premię +5.</description>
 	</tal:skill>
 	<itemlist>
@@ -1388,10 +1395,10 @@
 		<item title="Wymuszenie">Postać może sprawić, że ofiara będzie zmuszona do wykonania jakiegoś działania wbrew swej woli, a pod wpływem strachu. W tym celu wykonuje się sporny test z jej opanowaniem. Sukces oznacza, że ofiara będzie przez kolejny kwadrans plus minutę za każdy punkt ponad jej wynik opanowania w mocy postaci i będzie posłusznie wykonywała jej polecenia (dopóki nie będą się wiązały z większym ryzykiem, niż to wynikające z siły postaci).</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="common">
 		<name>Zręczna dłoń</name>
-		<test>zręczności.</test>
-		<bonus>Kanciarz, Kradzież na widoku, Rewizja, Synchroniczny atak, Szybkie wyciągnięcie, Walka dwiema broniami, Walka na pięści.</bonus>
+		<attribute>Zręczność</attribute>
+		<bonus>Kanciarz, Kradzież na widoku, Rewizja, Synchroniczny atak, Szybkie wyciągnięcie, Walka dwiema broniami, Walka na pięści</bonus>
 		<description>Umiejętność wykonywania sztuczek z monetami, operowania małymi obiektami, niepostrzeżonego sięgania do cudzych sakiewek etc.</description>
 	</tal:skill>
 	<itemlist>
@@ -1458,23 +1465,30 @@
 			</tr>
 		</thead>
 		<tbody>
-			<TODO>tabelka razem z synergiami i testem</TODO>
+			<script>
+				local skills = SILE.documentState.documentClass.readData("combatskills")
+				for i, skill in ipairs(skills) do
+					SILE.call("tr", {}, function()
+						SILE.call("td", {}, {skill.name})
+						SILE.call("td", {}, {skill.attribute})
+						SILE.call("td", {}, {skill.synergy or "-"})
+					end)
+				end
+			</script>
 		</tbody>
 	</table>
 
-	<tal:skill>
+	<tal:skill type="combat">
 		<name>Inicjatywa</name>
-		<test>refleksu.</test>
-		<synergy>Uniki.</synergy>
-		<bonus>Atak z zaskoczenia, Bieganie, Błyskawiczna finta, Cios wiązany, Dodatkowa akcja, Doskonalsza finta, Pierwsze uderzenie, Szybkie wyciągnięcie, Ucieczka, Większa szybkość.</bonus>
+		<attribute>Refleks</attribute>
+		<synergy>Uniki</synergy>
+		<bonus>Atak z zaskoczenia, Bieganie, Błyskawiczna finta, Cios wiązany, Dodatkowa akcja, Doskonalsza finta, Pierwsze uderzenie, Szybkie wyciągnięcie, Ucieczka, Większa szybkość</bonus>
 		<description>Z tej umiejętności korzysta się przy rozpoczęciu starcia. Wynik ustala kolejność działań – im wyższy, tym szybciej rozpocznie się swoje działania w rundzie.</description>
 	</tal:skill>
 
-	<tal:skill>
+	<tal:skill type="combat">
 		<name>Jeździectwo</name>
-		<test>zręczności.</test>
-		<synergy>-</synergy>
-		<bonus>-</bonus>
+		<attribute>Zręczność</attribute>
 		<description>Umiejętność jazdy lub lotu na wierzchowcu. Jeździectwo to w istocie zbiór niezależnych od siebie umiejętności związanych z przemieszczaniem się i walką za pomocą zwierzęcia lub jakiejś innej istoty, która może posłużyć za wierzchowca. Aby móc rozwijać jeździectwo postacie muszą mieć dostęp do odpowiednich wierzchowców</description>
 	</tal:skill>
 	<table>
@@ -1515,27 +1529,25 @@
 		</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="combat">
 		<name>Unik</name>
-		<test>refleksu.</test>
-		<synergy>Akrobatyka.</synergy>
-		<bonus>Długi krok, Oddanie pola, Ostrożny atak, Unikać lub parować, Unikanie trafień, Unik, Walka defensywna, Większa obrona fizyczna.</bonus>
+		<attribute>Refleks</attribute>
+		<synergy>Akrobatyka</synergy>
+		<bonus>Długi krok, Oddanie pola, Ostrożny atak, Unikać lub parować, Unikanie trafień, Unik, Walka defensywna, Większa obrona fizyczna</bonus>
 		<description>Umiejętność unikania ciosów podczas walki. Unik stanowi najczęściej test sporny z testem trafienia, z którego korzysta oponent. Sukces oznacza, że udało się postaci uniknąć wymierzonego w nią ciosu.</description>
 	</tal:skill>
 
-	<tal:skill>
+	<tal:skill type="combat">
 		<name>Walka wręcz</name>
-		<test>zręczności.</test>
+		<attribute>Zręczność</attribute>
 		<synergy>Zwarcie</synergy>
-		<bonus>Burda, Łapanie strzał, Nokaut, Obalający cios, Szybki atak, Unikanie ciosów, Żelazne pięści, Żelazne szpony.</bonus>
+		<bonus>Burda, Łapanie strzał, Nokaut, Obalający cios, Szybki atak, Unikanie ciosów, Żelazne pięści, Żelazne szpony</bonus>
 		<description>Walka wręcz jest w zasadzie podobna do władania, gdyż wygrane testy tej umiejętności sprawiają, że udało się postaci trafić przeciwnika, a ST najczęściej przyjmuje wartość obrony fizycznej adwersarza. Chociaż zwykle walka wręcz polega na zadawaniu ciosów własnym ciałem (pięściami, czołem, kolanami etc.), to istnieje pewna ilość broni, których użycie nie wymaga władania, lecz właśnie walki wręcz.</description>
 	</tal:skill>
 
-	<tal:skill>
+	<tal:skill type="combat">
 		<name>Władanie</name>
-		<test>zręczności.</test>
-		<synergy>-</synergy>
-		<bonus>-</bonus>
+		<attribute>Zręczność</attribute>
 		<description>Umiejętność posługiwania się bronią i trafiania nią w przeciwnika. Władanie to w zasadzie kilka niezależnych umiejętności, które należy oddzielnie rozwijać.</description>
 	</tal:skill>
 	<itemlist>
@@ -1581,11 +1593,11 @@
 		</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="combat">
 		<name>Zwarcie</name>
-		<test>siły</test>
-		<synergy>Krzepa.</synergy>
-		<bonus>Dusiciel, Mocno na nogach, Mocno w dłoni, Pewnie na nogach, Podcięcie, Szybkie wyciągnięcie w zwarciu, Wyślizgnięcie ze zwarcia, Zapasy.</bonus>
+		<attribute>Siła</attribute>
+		<synergy>Krzepa</synergy>
+		<bonus>Dusiciel, Mocno na nogach, Mocno w dłoni, Pewnie na nogach, Podcięcie, Szybkie wyciągnięcie w zwarciu, Wyślizgnięcie ze zwarcia, Zapasy</bonus>
 		<description>Jest to umiejętność zdobywania przewagi nad przeciwnikiem za pomocą swojej siły fizycznej. Najczęściej wykorzystuje się tę umiejętność w próbach zwarcia, chociaż można z niej korzystać także w innych sytuacjach.</description>
 	</tal:skill>
 	<itemlist>
@@ -1604,23 +1616,30 @@
 			</tr>
 		</thead>
 		<tbody>
-			<TODO>tabelka razem z synergiami i testem</TODO>
+			<script>
+				local skills = SILE.documentState.documentClass.readData("specialskills")
+				for i, skill in ipairs(skills) do
+					SILE.call("tr", {}, function()
+						SILE.call("td", {}, {skill.name})
+						SILE.call("td", {}, {skill.attribute})
+						SILE.call("td", {}, {skill.synergy or "-"})
+					end)
+				end
+			</script>
 		</tbody>
 	</table>
 
-	<tal:skill>
+	<tal:skill type="special">
 		<name>Fałszerstwo</name>
-		<test>inteligencji.</test>
-		<synergy>Rozpoznanie fałszerstwa (spostrzegawczość).</synergy>
-		<bonus>Deszyfrowanie, Oko do fałszywek, Szybka praca, Wciskanie fałszywki.</bonus>
+		<attribute>Inteligencja</attribute>
+		<synergy>Rozpoznanie fałszerstwa (spostrzegawczość)</synergy>
+		<bonus>Deszyfrowanie, Oko do fałszywek, Szybka praca, Wciskanie fałszywki</bonus>
 		<description>Fałszerstwo to umiejętność upodabniania kopii do oryginałów. Fałszować można różne rzeczy, począwszy od monet, przez dokumenty, kończąc na dziełach sztuki. Umiejętności tej można użyć tylko i wyłącznie względem obiektów, które potrafi się wykonać za pomocą innych umiejętności lub zdolności. Znaczy to, że nie można podrobić dokumentu bez znajomości czytania i pisania, a pieczęci bez umiejętności spreparowania pieczęci. Do wykonania fałszerstwa potrzebne są odpowiednie narzędzia i materiały. Wynik testu stanowi część ST rozpoznania fałszerstwa za pomocą spostrzegawczości. Czas fałszowania jest różny w przypadku różnych obiektów. Postać może jednak poświęcić dwa razy więcej czasu na wykonanie starannego fałszerstwa, a wtedy otrzyma modyfikator +10 do testu tej umiejętności.</description>
 	</tal:skill>
 
-	<tal:skill>
+	<tal:skill type="special">
 		<name>Gra na instrumentach</name>
-		<test>charyzmy.</test>
-		<synergy>-</synergy>
-		<bonus>-</bonus>
+		<attribute>Charyzma</attribute>
 		<description>Umiejętność gry na instrumentach dzieli się na trzy dyscypliny, które należy rozwijać oddzielnie. Ogólnie dzięki tej umiejętności postać potrafi w sposób ekspresywny wykorzystywać instrumenty muzyczne, a więc dokonywać improwizacji muzycznych lub wykonywać znane sobie utwory. Zdolności premiowe dla wszystkich tych umiejętności są wspólne – niektóre należy precyzować do danej dziedziny gry, a inne działają ogólnie (patrz opisy zdolności). Gry na instrumentach można używać w celach zarobkowych. Zysk jest tym wyższy im wyższy jest wynik w teście umiejętności i dotyczy godzinnej gry.</description>
 	</tal:skill>
 	<table>
@@ -1685,10 +1704,10 @@
 		</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="special">
 		<name>Leczenie</name>
-		<test>inteligencji.</test>
-		<bonus>Medyk, Opatrywanie ran, Oprawca, Oszałamiający atak, Powstrzymywanie krwawienia, Zdobycie opatrunków, Zdrowa dieta.</bonus>
+		<attribute>Inteligencja</attribute>
+		<bonus>Medyk, Opatrywanie ran, Oprawca, Oszałamiający atak, Powstrzymywanie krwawienia, Zdobycie opatrunków, Zdrowa dieta</bonus>
 		<description>Umiejętność opatrywania, diagnozowania i leczenia osób jak i zwierząt. Postać musi mieć przynajmniej 1 poziom w tej umiejętności, aby z niej skorzystać. Jeżeli nie napisano inaczej, to postać w ciągu dnia może opiekować się jednocześnie 3 pacjentami w sposób stały +1 za każdy poziom umiejętności leczenie.</description>
 	</tal:skill>
 	<itemlist>
@@ -1703,17 +1722,17 @@
 		<item title="Zaleczenie ran">Gdy już wszystkie punkty życia postaci, które straciła w wyniku obrażeń zostały zregenerowane, zaczynają się regenerować rany. Postać regeneruje 1 ranę jeżeli cały dzień odpoczywa, a dodatkowo jeszcze jedna jeżeli uda się przeprowadzić na niej test leczenia o ST = 30.</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="special">
 		<name>Moc magiczna</name>
-		<test>woli.</test>
-		<bonus>Intuicyjna mana, Odnowa many, Skrócona medytacja.</bonus>
+		<attribute>Wola</attribute>
+		<bonus>Intuicyjna mana, Odnowa many, Skrócona medytacja</bonus>
 		<description>Jest to umiejętność wyzwalania z siebie many w celu wykorzystania jakiegoś wzorca lub połączenia z jakimś wzorcem. Postać może rozwijać tę umiejętność tylko, gdy posiada zdolność Magia we krwi. Samo skorzystanie z tej umiejętności może w niektórych przypadkach nie wymagać posiadania wspomnianej zdolności, ale przypadki te są wyraźnie wskazane w swoich opisach.</description>
 	</tal:skill>
 
-	<tal:skill>
+	<tal:skill type="special">
 		<name>Nawigowanie</name>
-		<test>inteligencji.</test>
-		<synergy>Odnalezienie kierunku lub drogi (Sztuka przetrwania); Strategia (bitwy morskie itp.).</synergy>
+		<attribute>Inteligencja</attribute>
+		<synergy>Odnalezienie kierunku lub drogi (Sztuka przetrwania); Strategia (bitwy morskie itp.)</synergy>
 		<description>Umiejętność wyznaczania najlepszego kierunku lub aktualnego położenia. Umiejętności tej można używać zarówno na lądzie, jak i na morzu, bądź jeżeli to konieczne nawet w powietrzu. Aby móc skorzystać z nawigacji postać musi wpierw posiąść wpierw wiedzę tajemną i wiedzę światową na przynajmniej 5 poziomie każda.</description>
 	</tal:skill>
 	<itemlist>
@@ -1798,12 +1817,13 @@
 		</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="special">
 		<name>Praca</name>
-		<test>różnie (patrz opis)</test>
-		<bonus>Oszczędna praca, Szybka praca, Zaawansowana naprawa.</bonus>
-		<description>Praca to nazwa zbiorcza na umiejętności związane z usługami i rzemiosłem. Każdą z poniższych dyscyplin postać winna rozwijać niezależnie. W istocie dziedziny pracy służą przede wszystkim zwykłym osobom do tego, aby zarabiać na swoje utrzymanie w zamian za rożne świadczenia. Bohaterzy będą prawdopodobnie potrzebowali innych umiejętności, niż te tu opisane, ale jeżeli w wolnym od przygód czasie będą chcieli zająć się czymś pożytecznym, to wymienione tu rodzaje prac na pewno im w tym pomogą Nie zostały wskazane tu rodzaje synergii. MG winien pozwalać dokonywać synergii w sytuacjach, gdy jakieś umiejętności ze sobą współdziałają np. rymarstwo pomaga płatnerzowi zrobić zbroję dla konia, zaś garbarstwo pomoże introligatorowi wykonać księgę ze skóry. W nawiasach wpisano domyślne atrybuty dla danych rodzajów prac.
-			<p>Introligatorstwo (In), Garbarstwo (Zr), Gotowanie (Pe), Górnictwo (Si), Jubilerstwo (Pe), Hodowla zwierząt (Pe), Kamieniarstwo (Zr), Kartografia (Pe), Kowalstwo (Zr), Piwowarstwo (Pe), Płatnerstwo (Zr), Rymarstwo (In), Stolarstwo (Zr), Szkutnictwo (In), Tkactwo (Zr), Uprawa roli (Pe), Warzenie mikstur (In), Zbrojmistrzostwo (Zr), Żeglarstwo (Pe).</p>
+		<attribute>różnie (patrz opis)</attribute>
+		<bonus>Oszczędna praca, Szybka praca, Zaawansowana naprawa</bonus>
+		<description>
+			Praca to nazwa zbiorcza na umiejętności związane z usługami i rzemiosłem. Każdą z poniższych dyscyplin postać winna rozwijać niezależnie. W istocie dziedziny pracy służą przede wszystkim zwykłym osobom do tego, aby zarabiać na swoje utrzymanie w zamian za rożne świadczenia. Bohaterzy będą prawdopodobnie potrzebowali innych umiejętności, niż te tu opisane, ale jeżeli w wolnym od przygód czasie będą chcieli zająć się czymś pożytecznym, to wymienione tu rodzaje prac na pewno im w tym pomogą Nie zostały wskazane tu rodzaje synergii. MG winien pozwalać dokonywać synergii w sytuacjach, gdy jakieś umiejętności ze sobą współdziałają np. rymarstwo pomaga płatnerzowi zrobić zbroję dla konia, zaś garbarstwo pomoże introligatorowi wykonać księgę ze skóry. W nawiasach wpisano domyślne atrybuty dla danych rodzajów prac.<br />
+			Introligatorstwo (In), Garbarstwo (Zr), Gotowanie (Pe), Górnictwo (Si), Jubilerstwo (Pe), Hodowla zwierząt (Pe), Kamieniarstwo (Zr), Kartografia (Pe), Kowalstwo (Zr), Piwowarstwo (Pe), Płatnerstwo (Zr), Rymarstwo (In), Stolarstwo (Zr), Szkutnictwo (In), Tkactwo (Zr), Uprawa roli (Pe), Warzenie mikstur (In), Zbrojmistrzostwo (Zr), Żeglarstwo (Pe).
 		</description>
 	</tal:skill>
 	<itemlist>
@@ -1843,10 +1863,10 @@
 		</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="special">
 		<name>Rozbrajanie mechanizmów</name>
-		<test>zręczności.</test>
-		<bonus>Mistrz sideł, Wykorzystanie wytrychów, Zmysł włamywacza.</bonus>
+		<attribute>Zręczność</attribute>
+		<bonus>Mistrz sideł, Wykorzystanie wytrychów, Zmysł włamywacza</bonus>
 		<description>Umiejętność rozbrajania pułapek, otwierania zamkniętych drzwi i innych zamków. Aby korzystać z tej umiejętności potrzebne są odpowiednie narzędzia. Brak specjalnych narzędzi oznacza konieczność korzystania z prowizorycznych zamienników, a te oznaczają modyfikator -10 lub większy do testów. Poza tym postać musi mieć przynajmniej 1 poziom w tej umiejętności, aby z niej skorzystać.</description>
 	</tal:skill>
 	<itemlist>
@@ -1893,19 +1913,15 @@
 		<item title="Unieszkodliwianie pułapek">Korzystając z odpowiednich narzędzi postać może unieszkodliwić pułapkę mechaniczną. Aby próba rozbrojenia pułapki się udała należy wpierw rozpoznać mechanizm (np. przeszukiwaniem), gdyż w przeciwnym razie pułapka miast zostać rozbrojona zostanie uruchomiona. Czas rozbrojenia pułapki to 10 minut. ST testu rozbrojenia konkretnych pułapek został podany w ich opisie.</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="special">
 		<name>Rzucanie czarów</name>
-		<test>inteligencji.</test>
-		<synergy>-</synergy>
-		<bonus>-</bonus>
+		<attribute>Inteligencja</attribute>
 		<description>Rzucanie czarów to umiejętność splatania ze sobą wzoru do postaci zaklęcia. Postać może skorzystać i rozwijać tę umiejętności tylko wtedy, zna przynajmniej jeden język magii w stopniu całkowitym tj. spełnia wymogi inteligencji danego języka.</description>
 	</tal:skill>
 
-	<tal:skill>
+	<tal:skill type="special">
 		<name>Sztuka</name>
-		<test>charyzmy.</test>
-		<synergy>-</synergy>
-		<bonus>-</bonus>
+		<attribute>Charyzma</attribute>
 		<description>Umiejętności związane z ekspresją artystyczną. Postać każdą z poniższych dyscyplin rozwija niezależnie.</description>
 	</tal:skill>
 	<itemlist>
@@ -1921,11 +1937,11 @@
 		</item>
 		<item title="Pisarstwo">
 			Aby rozwijać tę umiejętność należy wpierw umieć czytać i pisać. Jest to umiejętność pisania poezji, powieści, sztuk teatralnych etc..<br />
-			Zdolności premiowe:
+			Zdolności premiowe: -
 		</item>
 		<item title="Śpiew">
 			Umiejętność wykonywania pieśni etc.<br />
-			Zdolności premiowe:
+			Zdolności premiowe: -
 		</item>
 		<item title="Taniec">
 			Umiejętność tańczenia i znajomość tańców.<br />
@@ -1934,11 +1950,11 @@
 		</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="special">
 		<name>Tresura</name>
-		<test>charyzmy.</test>
-		<synergy>Dowodzenie, Jeździectwo (każde).</synergy>
-		<bonus>Dobra bestia, Szybka tresura,.</bonus>
+		<attribute>Charyzma</attribute>
+		<synergy>Dowodzenie, Jeździectwo (każde)</synergy>
+		<bonus>Dobra bestia, Szybka tresura,</bonus>
 		<description>Umiejętność nauczania zwierząt i niekiedy bestii wykonywania poleceń oraz sztuczek. Postać może korzystać z tej umiejętności tylko wtedy, gdy posiada w niej przynajmniej 1 poziom.</description>
 	</tal:skill>
 	<itemlist>
@@ -2000,11 +2016,9 @@
 		</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="special">
 		<name>Wiedza</name>
-		<test>inteligencji.</test>
-		<synergy>-</synergy>
-		<bonus>-</bonus>
+		<attribute>Inteligencja</attribute>
 		<description>Umiejętności będące wynikiem nauki. Wiedza ma charakter uniwersalny, tj. nie zmienia się wraz ze zmianą regionów i nie trzeba jej precyzować pod tym kątem. Aby postać mogła rozwijać wiedzę musi posiąść wpierw zdolność czytania i pisania. Co więcej postać nie ma prawa wykonywać testów wiedzy, jeżeli nie posiada przynajmniej 1 poziomu w danej dyscyplinie. Każdą poniższą dziedzinę należy rozwijać osobno.</description>
 	</tal:skill>
 	<itemlist>
@@ -2041,11 +2055,9 @@
 		</item>
 	</itemlist>
 
-	<tal:skill>
+	<tal:skill type="special">
 		<name>Znajomość</name>
-		<test>inteligencji.</test>
-		<synergy>-</synergy>
-		<bonus>-</bonus>
+		<attribute>Inteligencja</attribute>
 		<description>Umiejętności wykorzystywania informacji pochodzących z danych regionów. W przeciwieństwie do wiedzy znajomość nie wymaga od postaci opanowania sztuki czytania i pisania. Postać ma prawo wykonywać testy tej umiejętności nawet jeżeli nie posiada 1 poziomu w danej dyscyplinie, ale tylko pod warunkiem, że dotyczą regionu z którego pochodzi.</description>
 	</tal:skill>
 	<itemlist>

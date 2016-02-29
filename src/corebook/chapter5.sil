@@ -169,7 +169,7 @@
 		<item title="Pudło">Oznacza, że oponent stracił szansę na zadanie postaci obrażeń w danym ataku, gdyż chybił celu.</item>
 		<item title="Trafienie w pancerz">Postać została trafione w miejsce chronione pancerzem. Oponent ma prawo wykonać test obrażeń, ale od ich wyniku należy odjąć wartość pancerza postaci, aby w ten sposób określić ile otrzyma ona obrażeń.</item>
 		<item title="Trafienie w ciało">Postać została trafiona przez oponenta w miejsce, które nie jest chronione za pomocą pancerza i otrzymuje ona pełne obrażenia.</item>
-		<item title="Trafienie krytyczne">Jeżeli postać w teście ataku otrzyma wynik przekraczający wartość obrony fizycznej przeciwnika może nastąpić trafienie krytyczne. Wartość dziesiątek i wyższe wartości liczbowe oznaczają mnożnik o jaki mnoży się obrażenia zadane w ataku. Minimalny mnożnik występuje, gdy w teście uzyska się wynik trafienia w ciało + 20, a mnożnik ten to x2. Jeżeli więc postać osiągnie w teście wynik trafienia w ciało +30, to otrzyma mnożnik x3, a jak uzyska +60, to mnożnik będzie x6. Mnożnik z trafienia krytycznego należy zastosować po tym jak od wyniku obrażeń odejmie się ewentualną wartość pancerza ofiary ataku.</item>
+		<item title="Trafienie krytyczne">Jeżeli postać w teście ataku otrzyma wynik przekraczający wartość obrony fizycznej przeciwnika może nastąpić trafienie krytyczne. Wartość dziesiątek i wyższe wartości liczbowe oznaczają mnożnik o jaki mnoży się obrażenia zadane w ataku. Minimalny mnożnik występuje, gdy w teście uzyska się wynik trafienia w ciało +20, a mnożnik ten to x2. Jeżeli więc postać osiągnie w teście wynik trafienia w ciało +30, to otrzyma mnożnik x3, a jak uzyska +60, to mnożnik będzie x6. Mnożnik z trafienia krytycznego należy zastosować po tym jak od wyniku obrażeń odejmie się ewentualną wartość pancerza ofiary ataku.</item>
 	</itemlist>
 	<table>
 		<caption>Wyniki testu trafienia w nieopancerzoną postać</caption>
@@ -286,7 +286,7 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td>1 m</td>
+				<td>1m</td>
 				<td>Darmowa</td>
 				<td>Postać przysługuje tylko jedna taka akcja w turze i może skorzystać z niej tylko, gdy w swej turze nie wykonuje innego rodzaju ruchu (wskazanego w tej tabeli)</td>
 			</tr>
@@ -364,7 +364,7 @@
 	<p>Manewr – akcja dodatkowa – wyczerpanie jednorazowe. Postać w momencie zaatakowania może odsunąć się od atakującego na odległość 1m (patrz Ruch podczas walki). W efekcie atakowany otrzymuje modyfikator +5 do obrony fizycznej, parowania oraz uniku. Postać oddająca pole przesuwa się na pole, które się znajduje za nią. Jeżeli nie może na nie przejść, wtedy nie może także oddać pola.</p>
 
 	<header>Odepchnięcie</header>
-	<p>Specjalny atak – akcje jak atak wręcz. Postać może odepchnąć wroga od siebie, miast zadawać mu obrażeń. Aby odepchnięcie się udało postać musi wpierw trafić oponenta, a następnie przeprowadzić sporny test zwarcia. Jeżeli postać w nim wygra to przeciwnik przesunie się na pole, które było za nim (dystans 1 m).</p>
+	<p>Specjalny atak – akcje jak atak wręcz. Postać może odepchnąć wroga od siebie, miast zadawać mu obrażeń. Aby odepchnięcie się udało postać musi wpierw trafić oponenta, a następnie przeprowadzić sporny test zwarcia. Jeżeli postać w nim wygra to przeciwnik przesunie się na pole, które było za nim (dystans 1m).</p>
 	<p>Odepchnięcie można łączyć z szarżą. Jeżeli postać dodatkowo szarżuje, to może zająć pole na którym był oponent, przed odepchnięciem, pod warunkiem, że pozostał postaci jakiś dystans (ruch), który jeszcze mogła pokonać dzięki szarżowaniu.</p>
 
 	<header>Oszołomienie</header>
@@ -397,7 +397,7 @@
 	<p>Szarżę można łączyć z próbą obalenia przeciwnika i odepchnięcia go. Jeżeli postać spróbuje przewrócić przeciwnika lub go odepchnąć po szarży, to otrzyma modyfikator do tego testu +5. Jeżeli postać jednocześnie próbuje przepchnąć i przewrócić oponentów do otrzymuje modyfikator do testu z szarży tylko do jednego z tych działań (wybranego).</p>
 
 	<header>Unik</header>
-	<p>Manewr – akcja dodatkowa – wyczerpanie jednorazowe. Postać w momencie zaatakowania może wykonać unik, a tym samym zwiększyć szansę na uniknięcie trafienia. W chwili jeżeli postać zostanie trafiona (przeciwnik zda test trafienia) może przeprowadzić sporny test uniku (patrz umiejętność o tej nazwie) z wynikiem trafienia. Sukces pozwoli uniknąć trafienia. Można unikać tylko ataków bezpośrednich. Jeżeli atak następuje nie na postać, lecz na jej pole (atak obszarowy), to postać może uciec z pola przeskakując na sąsiednie (w zasięgu 1 m). Test przeprowadza się w ten sam sposób, ale warunkiem jego powodzenia jest znalezienie jakiegoś wolnego pola w zasięgu.</p>
+	<p>Manewr – akcja dodatkowa – wyczerpanie jednorazowe. Postać w momencie zaatakowania może wykonać unik, a tym samym zwiększyć szansę na uniknięcie trafienia. W chwili jeżeli postać zostanie trafiona (przeciwnik zda test trafienia) może przeprowadzić sporny test uniku (patrz umiejętność o tej nazwie) z wynikiem trafienia. Sukces pozwoli uniknąć trafienia. Można unikać tylko ataków bezpośrednich. Jeżeli atak następuje nie na postać, lecz na jej pole (atak obszarowy), to postać może uciec z pola przeskakując na sąsiednie (w zasięgu 1m). Test przeprowadza się w ten sam sposób, ale warunkiem jego powodzenia jest znalezienie jakiegoś wolnego pola w zasięgu.</p>
 	<p>Gdyby przed testowaniem uniku postać została trafiona w sposób krytyczny, to ewentualne trafienie krytyczne należy liczyć od wyniku testu uniku, a nie obrony fizycznej atakowanego, chyba że współczynnik ma wyższą wartość, niż wynik testu.</p>
 	<p>Nie można jednocześnie unikać i parować tego samego ciosu. Postać może jednak w ciągu tury wykorzystać oba te manewry.</p>
 
