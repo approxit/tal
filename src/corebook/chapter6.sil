@@ -1490,6 +1490,23 @@
 		<name>Jeździectwo</name>
 		<attribute>Zręczność</attribute>
 		<description>Umiejętność jazdy lub lotu na wierzchowcu. Jeździectwo to w istocie zbiór niezależnych od siebie umiejętności związanych z przemieszczaniem się i walką za pomocą zwierzęcia lub jakiejś innej istoty, która może posłużyć za wierzchowca. Aby móc rozwijać jeździectwo postacie muszą mieć dostęp do odpowiednich wierzchowców</description>
+		<variants>
+			<variant>
+				<name>Bestie</name>
+				<description>Do tej kategorii wierzchowców zaliczają się wszystkie istoty naziemne, które nie są końmi lub istotami do koni podobnymi.</description>
+				<bonus>Atak bestii, Broń kawaleryjska, Jazda na oklep, Tratowanie</bonus>
+			</variant>
+			<variant>
+				<name>Konne</name>
+				<description>Najbardziej podstawowa kategoria – można rzecz, że typowa. Zaliczają się do niej konie i wszystkie podobne do koni istoty.</description>
+				<bonus>Broń kawaleryjska, Jazda na oklep, Szarża konna, Tratowanie</bonus>
+			</variant>
+			<variant>
+				<name>Powietrzne</name>
+				<description>Do tej kategorii zaliczają się wszystkie skrzydlate istoty na których można latać.</description>
+				<bonus>Broń kawaleryjska, Jazda na oklep, Pikowanie</bonus>
+			</variant>
+		</variants>
 	</tal:skill>
 	<table>
 		<caption>Modyfikatory i trudności testów jeździectwa</caption>
@@ -1514,20 +1531,6 @@
 			</tr>
 		</tbody>
 	</table>
-	<itemlist>
-		<item title="Bestie">
-			Do tej kategorii wierzchowców zaliczają się wszystkie istoty naziemne, które nie są końmi lub istotami do koni podobnymi.<br />
-			Zdolności premiowe: Atak bestii, Broń kawaleryjska, Jazda na oklep, Tratowanie
-		</item>
-		<item title="Konne">
-			Najbardziej podstawowa kategoria – można rzecz, że typowa. Zaliczają się do niej konie i wszystkie podobne do koni istoty.<br />
-			Zdolności premiowe: Broń kawaleryjska, Jazda na oklep, Szarża konna, Tratowanie
-		</item>
-		<item title="Powietrzne">
-			Do tej kategorii zaliczają się wszystkie skrzydlate istoty na których można latać.<br />
-			Zdolności premiowe: Broń kawaleryjska, Jazda na oklep, Pikowanie
-		</item>
-	</itemlist>
 
 	<tal:skill type="combat">
 		<name>Unik</name>
@@ -1549,49 +1552,59 @@
 		<name>Władanie</name>
 		<attribute>Zręczność</attribute>
 		<description>Umiejętność posługiwania się bronią i trafiania nią w przeciwnika. Władanie to w zasadzie kilka niezależnych umiejętności, które należy oddzielnie rozwijać.</description>
+		<variants>
+			<variant>
+				<name>Broń drzewcowa</name>
+				<description>Jest to bardzo rozwlekła kategoria do której należą wszystkie halabardy, kije, kopie, piki, włócznie, etc.. Ogólnie do tej kategorii zalicza się wszelkie bronie mające długi trzonek i kończące się ostrzem, bądź obuchem.</description>
+				<bonus>Biegłość (gizarma), Biegłość (halabarda), Biegłość (pika), Błyskawiczne parowanie, Broń kawaleryjska, Celowanie, Obrona przed szarżą, Skupienie obrażeń</bonus>
+			</variant>
+			<variant>
+				<name>Broń obuchowa</name>
+				<description>Do tej kategorii należą młoty bojowe, a także buzdygany, kafary, kropacze, maczugi i podobne do bronie zadające obrażenia dzięki umieszczonej na końcu trzonka głowicy lub mające rozszerzenie na końcu trzonka.</description>
+				<bonus>Biegłość (kiściec), Biegłość (krasnoludzki kafar), Biegłość (krasnoludzki młot), Celowanie, Mistrz broni półtora-ręcznej, Młyniec, Oszołomienie, Skupienie obrażeń</bonus>
+			</variant>
+			<variant>
+				<name>Kusza</name>
+				<description>To kategoria broni strzeleckich. Wszystkie bronie strzeleckie będące kuszami lub będące do nich podobne mieszczą się w tej kategorii.</description>
+				<bonus>Biegłość (jorowa cicho-sza); Biegłość (kusza krasnoludzka), Biegłość (kusza powtarzalna), Biegłość (skorpion orkowy), Broń celowania, Celowanie, Dmuchawka, Precyzyjny strzał, Strzał z kuszy, Szybkie ładowanie, Wprawione oko</bonus>
+			</variant>
+			<variant>
+				<name>Łuk</name>
+				<description>Kategoria obejmuje wszystkie łuki niezależnie od ich wielkości.</description>
+				<bonus>Biegłość (elficki łuk długi), Biegłość (elficki łuk krótki), Biegłość (jorowy łuk), Biegłość (łuk refleksyjny), Celowanie, Daleki strzał, Precyzyjny strzał, Silny naciąg, Szybkie ładowanie, Wprawione oko, Zabójczy strzał</bonus>
+			</variant>
+			<variant>
+				<name>Miecz</name>
+				<description>Do tej kategorii należą wszystkie bronie obosieczne o prostej głowni, których długość jest większa jak 50 cm.</description>
+				<bonus>Biegłość (bękart imperialny), Biegłość (elficki króciak), Biegłość (elficki miecz długi), Biegłość (espadon), Błyskawiczne parowanie, Broń kawaleryjska, Biegłość (olbrzym imperialny), Biegłość (żelaźniak orkowy), Celowanie, Mistrz broni półtora-ręcznej, Riposta, Skupienie obrażeń, Szybki atak, Taniec mieczy</bonus>
+			</variant>
+			<variant>
+				<name>Rzucanie</name>
+				<description>Do tej kategorii należą topory, noże, sieci i oszczepy (bądź krótkie włócznie), które zaprojektowano tak, aby miotać nimi w oddalony cel. Poza tym dzięki tej umiejętności można skutecznie korzystać z procy.</description>
+				<bonus>Biegłość (bolas), Biegłość (broń wieloostrzowa), Biegłość (chłoszcz orkowy), Biegłość (drowi poganiacz), Biegłość (lasso), Biegłość (proca), Biegłość (sieć), Celowanie, Daleki rzut, Szybki atak</bonus>
+			</variant>
+			<variant>
+				<name>Szabla</name>
+				<description>Kategoria broni białej o jednosiecznej klindze, której długość jest większa jak 50 cm. Do tej kategorii zaliczamy również broń szermierczą.</description>
+				<bonus>Biegłość (czarna szabla), Biegłość (szpada), Błyskawiczne parowanie, Broń kawaleryjska, Broń szermiercza, Celowanie, Podstępny atak, Mistrz broni półtora-ręcznej, Riposta, Rozbrojenie, Skupienie obrażeń</bonus>
+			</variant>
+			<variant>
+				<name>Sztylet</name>
+				<description>Noże, sztylety, małe maczety i broń podobna. Sztylet nie powinien mieć więcej jak 50 cm, gdyż wtedy staje się mieczem.</description>
+				<bonus>Biegłość (drowi sztylet), Biegłość (nacinacz walloski), Biegłość (sai), Celowanie, Skupienie obrażeń, Sztyletowanie, Szybki atak</bonus>
+			</variant>
+			<variant>
+				<name>Tarcza</name>
+				<description>Do tej kategorii należą wszystkie tarcze niezależnie od swej wagi.</description>
+				<bonus>Biegłość (pawęż), Biegłość (puklerz), Biegłość (tarcza herbowa), Biegłość (tarcza jazdy), Błyskawiczne parowanie, Łączone parowanie, Parowanie łańcuchowe, Skupienie obrażeń, Unikać lub parować, Walka defensywna</bonus>
+			</variant>
+			<variant>
+				<name>Topór</name>
+				<description>Kategoria broni posiadających trzonek i głowicę, dzięki której można zadawać obrażenia sieczne.</description>
+				<bonus>Biegłość (krasnoludzki półtorak), Biegłość (krasnoludzki topór bojowy), Biegłość (krasnoludzki topór dwuręczny), Biegłość (ścinacz rimtalski), Celowanie, Mistrz broni półtora-ręcznej, Skupienie obrażeń, Szybki atak</bonus>
+			</variant>
+		</variants>
 	</tal:skill>
-	<itemlist>
-		<item title="Broń drzewcowa">
-			Jest to bardzo rozwlekła kategoria do której należą wszystkie halabardy, kije, kopie, piki, włócznie, etc.. Ogólnie do tej kategorii zalicza się wszelkie bronie mające długi trzonek i kończące się ostrzem, bądź obuchem.<br />
-			Zdolności premiowe: Biegłość (gizarma), Biegłość (halabarda), Biegłość (pika), Błyskawiczne parowanie, Broń kawaleryjska, Celowanie, Obrona przed szarżą, Skupienie obrażeń.
-		</item>
-		<item title="Broń obuchowa">
-			Do tej kategorii należą młoty bojowe, a także buzdygany, kafary, kropacze, maczugi i podobne do bronie zadające obrażenia dzięki umieszczonej na końcu trzonka głowicy lub mające rozszerzenie na końcu trzonka.<br />
-			Zdolności premiowe: Biegłość (kiściec), Biegłość (krasnoludzki kafar), Biegłość (krasnoludzki młot), Celowanie, Mistrz broni półtora-ręcznej, Młyniec, Oszołomienie, Skupienie obrażeń.
-		</item>
-		<item title="Kusza">
-			To kategoria broni strzeleckich. Wszystkie bronie strzeleckie będące kuszami lub będące do nich podobne mieszczą się w tej kategorii.<br />
-			Zdolności premiowe: Biegłość (jorowa cicho-sza); Biegłość (kusza krasnoludzka), Biegłość (kusza powtarzalna), Biegłość (skorpion orkowy), Broń celowania, Celowanie, Dmuchawka, Precyzyjny strzał, Strzał z kuszy, Szybkie ładowanie, Wprawione oko.
-		</item>
-		<item title="Łuk">
-			Kategoria obejmuje wszystkie łuki niezależnie od ich wielkości.<br />
-			Zdolności premiowe: Biegłość (elficki łuk długi), Biegłość (elficki łuk krótki), Biegłość (jorowy łuk), Biegłość (łuk refleksyjny), Celowanie, Daleki strzał, Precyzyjny strzał, Silny naciąg, Szybkie ładowanie, Wprawione oko, Zabójczy strzał.
-		</item>
-		<item title="Miecz">
-			Do tej kategorii należą wszystkie bronie obosieczne o prostej głowni, których długość jest większa jak 50 cm.<br />
-			Zdolności premiowe: Biegłość (bękart imperialny), Biegłość (elficki króciak), Biegłość (elficki miecz długi), Biegłość (espadon), Błyskawiczne parowanie, Broń kawaleryjska, Biegłość (olbrzym imperialny), Biegłość (żelaźniak orkowy), Celowanie, Mistrz broni półtora-ręcznej, Riposta, Skupienie obrażeń, Szybki atak, Taniec mieczy.
-		</item>
-		<item title="Rzucanie">
-			Do tej kategorii należą topory, noże, sieci i oszczepy (bądź krótkie włócznie), które zaprojektowano tak, aby miotać nimi w oddalony cel. Poza tym dzięki tej umiejętności można skutecznie korzystać z procy.<br />
-			Zdolności premiowe: Biegłość (bolas), Biegłość (broń wieloostrzowa), Biegłość (chłoszcz orkowy), Biegłość (drowi poganiacz), Biegłość (lasso), Biegłość (proca), Biegłość (sieć), Celowanie, Daleki rzut, Szybki atak.
-		</item>
-		<item title="Szabla">
-			Kategoria broni białej o jednosiecznej klindze, której długość jest większa jak 50 cm. Do tej kategorii zaliczamy również broń szermierczą.<br />
-			Zdolności premiowe: Biegłość (czarna szabla), Biegłość (szpada), Błyskawiczne parowanie, Broń kawaleryjska, Broń szermiercza, Celowanie, Podstępny atak, Mistrz broni półtora-ręcznej, Riposta, Rozbrojenie, Skupienie obrażeń.
-		</item>
-		<item title="Sztylet">
-			Noże, sztylety, małe maczety i broń podobna. Sztylet nie powinien mieć więcej jak 50 cm, gdyż wtedy staje się mieczem.<br />
-			Zdolności premiowe: Biegłość (drowi sztylet), Biegłość (nacinacz walloski), Biegłość (sai), Celowanie, Skupienie obrażeń, Sztyletowanie, Szybki atak.
-		</item>
-		<item title="Tarcza">
-			Do tej kategorii należą wszystkie tarcze niezależnie od swej wagi.<br />
-			Zdolności premiowe: Biegłość (pawęż), Biegłość (puklerz), Biegłość (tarcza herbowa), Biegłość (tarcza jazdy), Błyskawiczne parowanie, Łączone parowanie, Parowanie łańcuchowe, Skupienie obrażeń, Unikać lub parować, Walka defensywna.
-		</item>
-		<item title="Topór">
-			Kategoria broni posiadających trzonek i głowicę, dzięki której można zadawać obrażenia sieczne.<br />
-			Zdolności premiowe: Biegłość (krasnoludzki półtorak), Biegłość (krasnoludzki topór bojowy), Biegłość (krasnoludzki topór dwuręczny), Biegłość (ścinacz rimtalski), Celowanie, Mistrz broni półtora-ręcznej, Skupienie obrażeń, Szybki atak.
-		</item>
-	</itemlist>
 
 	<tal:skill type="combat">
 		<name>Zwarcie</name>
@@ -1641,6 +1654,23 @@
 		<name>Gra na instrumentach</name>
 		<attribute>Charyzma</attribute>
 		<description>Umiejętność gry na instrumentach dzieli się na trzy dyscypliny, które należy rozwijać oddzielnie. Ogólnie dzięki tej umiejętności postać potrafi w sposób ekspresywny wykorzystywać instrumenty muzyczne, a więc dokonywać improwizacji muzycznych lub wykonywać znane sobie utwory. Zdolności premiowe dla wszystkich tych umiejętności są wspólne – niektóre należy precyzować do danej dziedziny gry, a inne działają ogólnie (patrz opisy zdolności). Gry na instrumentach można używać w celach zarobkowych. Zysk jest tym wyższy im wyższy jest wynik w teście umiejętności i dotyczy godzinnej gry.</description>
+		<variants>
+			<variant>
+				<name>Bębny</name>
+				<description>Do tej grupy zalicza się wszystkie instrumenty w których dźwięk pochodzi z drgania wywołanego uderzeniem pałki, dłonią etc.</description>
+				<synergy>Każda inna gra na instrumentach</synergy>
+			</variant>
+			<variant>
+				<name>Chordofony</name>
+				<description>Do tej grupy zalicza się wszystkie instrumenty strunowe.</description>
+				<synergy>Każda inna gra na instrumentach</synergy>
+			</variant>
+			<variant>
+				<name>Dęte</name>
+				<description>Do tej grupy zaliczamy wszystkie instrumenty w których źródłem dźwięku jest drgający wewnątrz instrumentu słup powietrza.</description>
+				<synergy>Każda inna gra na instrumentach</synergy>
+			</variant>
+		</variants>
 	</tal:skill>
 	<table>
 		<caption>Zysk z gry na instrumentach</caption>
@@ -1689,20 +1719,6 @@
 			</tr>
 		</tfoot>
 	</table>
-	<itemlist>
-		<item title="Bębny">
-			Do tej grupy zalicza się wszystkie instrumenty w których dźwięk pochodzi z drgania wywołanego uderzeniem pałki, dłonią etc.<br />
-			Synergia: Każda inna gra na instrumentach.
-		</item>
-		<item title="Chordofony">
-			Do tej grupy zalicza się wszystkie instrumenty strunowe.<br />
-			Synergia: Każda inna gra na instrumentach.
-		</item>
-		<item title="Dęte">
-			Do tej grupy zaliczamy wszystkie instrumenty w których źródłem dźwięku jest drgający wewnątrz instrumentu słup powietrza.<br />
-			Synergia: Każda inna gra na instrumentach.
-		</item>
-	</itemlist>
 
 	<tal:skill type="special">
 		<name>Leczenie</name>
@@ -1923,38 +1939,38 @@
 		<name>Sztuka</name>
 		<attribute>Charyzma</attribute>
 		<description>Umiejętności związane z ekspresją artystyczną. Postać każdą z poniższych dyscyplin rozwija niezależnie.</description>
+		<variants>
+			<variant>
+				<name>Aktorstwo</name>
+				<description>Umiejętność błaznowania, dowcipkowania, pantomimy, czy dramatu.</description>
+				<synergy>Blefowanie (perswazja), Prowokowanie</synergy>
+			</variant>
+			<variant>
+				<name>Oratorstwo</name>
+				<description>Umiejętność snucia opowieści, wygłaszania laudacji i bluzgów, zabawiania w uroczysty sposób swoją mową etc..</description>
+				<synergy>Dowodzenie, Przekonywanie (perswazja)</synergy>
+			</variant>
+			<variant>
+				<name>Pisarstwo</name>
+				<description>Aby rozwijać tę umiejętność należy wpierw umieć czytać i pisać. Jest to umiejętność pisania poezji, powieści, sztuk teatralnych etc..</description>
+			</variant>
+			<variant>
+				<name>Śpiew</name>
+				<description>Umiejętność wykonywania pieśni etc.</description>
+			</variant>
+			<variant>
+				<name>Taniec</name>
+				<description>Umiejętność tańczenia i znajomość tańców.</description>
+				<synergy>Akrobatyka</synergy>
+			</variant>
+		</variants>
 	</tal:skill>
-	<itemlist>
-		<item title="Aktorstwo">
-			Umiejętność błaznowania, dowcipkowania, pantomimy, czy dramatu.<br />
-			Synergia: Blefowanie (perswazja), Prowokowanie.<br />
-			Zdolności premiowe: -
-		</item>
-		<item title="Oratorstwo">
-			Umiejętność snucia opowieści, wygłaszania laudacji i bluzgów, zabawiania w uroczysty sposób swoją mową etc..<br />
-			Synergia: Dowodzenie, Przekonywanie (perswazja).<br />
-			Zdolności premiowe: -
-		</item>
-		<item title="Pisarstwo">
-			Aby rozwijać tę umiejętność należy wpierw umieć czytać i pisać. Jest to umiejętność pisania poezji, powieści, sztuk teatralnych etc..<br />
-			Zdolności premiowe: -
-		</item>
-		<item title="Śpiew">
-			Umiejętność wykonywania pieśni etc.<br />
-			Zdolności premiowe: -
-		</item>
-		<item title="Taniec">
-			Umiejętność tańczenia i znajomość tańców.<br />
-			Synergia: Akrobatyka.<br />
-			Zdolności premiowe: -
-		</item>
-	</itemlist>
 
 	<tal:skill type="special">
 		<name>Tresura</name>
 		<attribute>Charyzma</attribute>
 		<synergy>Dowodzenie, Jeździectwo (każde)</synergy>
-		<bonus>Dobra bestia, Szybka tresura,</bonus>
+		<bonus>Dobra bestia, Szybka tresura</bonus>
 		<description>Umiejętność nauczania zwierząt i niekiedy bestii wykonywania poleceń oraz sztuczek. Postać może korzystać z tej umiejętności tylko wtedy, gdy posiada w niej przynajmniej 1 poziom.</description>
 	</tal:skill>
 	<itemlist>
@@ -1979,12 +1995,12 @@
 					<tr>
 						<td>45</td>
 						<td>kwartał</td>
-						<td>Dosiadanie w walce<footnote id="tresura-wytresowanie-douczenie">Można nauczyć tylko, gdy uprzednio zwierze nauczone zostało: tropienia w przypadku polowania albo jazdy w przypadku jazdy w walce.</footnote>– zwierzę nie ulega panice podczas walki, gdy nosi jeźdźca.</td>
+						<td>Dosiadanie w walce<footnote id="tresura-wytresowanie-douczenie">Można nauczyć tylko, gdy uprzednio zwierze nauczone zostało: tropienia w przypadku polowania albo jazdy w przypadku jazdy w walce.</footnote> – zwierzę nie ulega panice podczas walki, gdy nosi jeźdźca.</td>
 					</tr>
 					<tr>
 						<td>40</td>
 						<td>miesiąc</td>
-						<td>Polowanie<footmark ref="tresura-wytresowanie-douczenie" />– zwierze goni inną zwierzynę, przynosi zdobycz lub ją płoszy.</td>
+						<td>Polowanie<footmark ref="tresura-wytresowanie-douczenie" /> – zwierze goni inną zwierzynę, przynosi zdobycz lub ją płoszy.</td>
 					</tr>
 					<tr>
 						<td>30</td>
@@ -2004,7 +2020,7 @@
 					<tr>
 						<td>40</td>
 						<td>miesiąc</td>
-						<td>Walka<footnote>Zwierze jest w stanie atakować tylko tych wrogów, którzy nie wywołują w nim lęku.</footnote>– zwierze atakuje wybranego przeciwnika w celu zabicia go lub zranienia.</td>
+						<td>Walka<footnote>Zwierze jest w stanie atakować tylko tych wrogów, którzy nie wywołują w nim lęku.</footnote> – zwierze atakuje wybranego przeciwnika w celu zabicia go lub zranienia.</td>
 					</tr>
 					<tr>
 						<td>25</td>
@@ -2020,66 +2036,78 @@
 		<name>Wiedza</name>
 		<attribute>Inteligencja</attribute>
 		<description>Umiejętności będące wynikiem nauki. Wiedza ma charakter uniwersalny, tj. nie zmienia się wraz ze zmianą regionów i nie trzeba jej precyzować pod tym kątem. Aby postać mogła rozwijać wiedzę musi posiąść wpierw zdolność czytania i pisania. Co więcej postać nie ma prawa wykonywać testów wiedzy, jeżeli nie posiada przynajmniej 1 poziomu w danej dyscyplinie. Każdą poniższą dziedzinę należy rozwijać osobno.</description>
+		<variants>
+			<variant>
+				<name>Alchemia</name>
+				<description>
+					medycyna, metale, minerały, procesy chemiczne, procesy biologiczne<br />
+					Alchemii można używać również do wytwarzania przedmiotów alchemicznych, gdy posiada się odpowiednie komponenty.
+				</description>
+				<synergy>Leczenie, Warzenie mikstur (Praca)</synergy>
+				<bonus>Oprawca, Zdrowa dieta, Zielarstwo</bonus>
+			</variant>
+			<variant>
+				<name>Filozofia</name>
+				<description>aksjologia, angelologia, bóstwa, demonologia, epistemologia, kościoły, kulty, lingwistyka i logika, moce transcendentne, ontologia</description>
+				<synergy>Wszystkie inne dziedziny wiedzy i znajomości</synergy>
+				<bonus>Aksjomatyzacja, Filozof, Zwrot lingwistyczny.</bonus>
+			</variant>
+			<variant>
+				<name>Inżynieria</name>
+				<description>architektura, budowanie maszyn, matematyka, technika</description>
+				<synergy>Strategia (oblężenia i organizowanie obrony twierdz)</synergy>
+				<bonus>Inżynieria lin, Prowizorka, Wytwarzanie, Zmysł włamywacza, Znajomość mechanizmów.</bonus>
+			</variant>
+			<variant>
+				<name>Strategia</name>
+				<description>historia wojen, organizacja wojsk, taktyka, wielkie bitwy</description>
+				<synergy>Dowodzenie</synergy>
+				<bonus>Dowódca, Historia wojen, Teoria walki</bonus>
+			</variant>
+			<variant>
+				<name>Światowa</name>
+				<description>ekonomia, geografia, geopolityka, gospodarka, krainy i ich ludy, władcy państw i organizacji światowych</description>
+				<synergy>Nawigacja; Każda znajomość</synergy>
+				<bonus>Historia wojen, Język obcy, Literatura</bonus>
+			</variant>
+			<variant>
+				<name>Tajemna</name>
+				<description>astronomia, kosmos, magia, sfery, szyfry, wzorzec, żywioły</description>
+				<synergy>Nawigacja; Rzucanie czarów</synergy>
+				<bonus>Język tajemny, Poznanie tajemne</bonus>
+			</variant>
+		</variants>
 	</tal:skill>
-	<itemlist>
-		<item title="Alchemia">
-			medycyna, metale, minerały, procesy chemiczne, procesy biologiczne.<br />
-			Synergia: Leczenie, Warzenie mikstur (Praca).<br />
-			Zdolności premiowe: Oprawca, Zdrowa dieta, Zielarstwo.<br />
-			Alchemii można używać również do wytwarzania przedmiotów alchemicznych, gdy posiada się odpowiednie komponenty.
-		</item>
-		<item title="Filozofia">
-			aksjologia, angelologia, bóstwa, demonologia, epistemologia, kościoły, kulty, lingwistyka i logika, moce transcendentne, ontologia.<br />
-			Synergia: Wszystkie inne dziedziny wiedzy i znajomości.<br />
-			Zdolności premiowe: Aksjomatyzacja, Filozof, Zwrot lingwistyczny.
-		</item>
-		<item title="Inżynieria">
-			architektura, budowanie maszyn, matematyka, technika.<br />
-			Synergia: Strategia (oblężenia i organizowanie obrony twierdz);<br />
-			Zdolności premiowe: Inżynieria lin, Prowizorka, Wytwarzanie, Zmysł włamywacza, Znajomość mechanizmów.
-		</item>
-		<item title="Strategia">
-			historia wojen, organizacja wojsk, taktyka, wielkie bitwy.<br />
-			Synergia: Dowodzenie.<br />
-			Zdolności premiowe: Dowódca, Historia wojen, Teoria walki
-		</item>
-		<item title="Światowa">
-			ekonomia, geografia, geopolityka, gospodarka, krainy i ich ludy, władcy państw i organizacji światowych.<br />
-			Synergia: Nawigacja; Każda znajomość.<br />
-			Zdolności premiowe: Historia wojen, Język obcy, Literatura
-		</item>
-		<item title="Tajemna">
-			astronomia, kosmos, magia, sfery, szyfry, wzorzec, żywioły.<br />
-			Synergia: Nawigacja; Rzucanie czarów.<br />
-			Zdolności premiowe: Język tajemny, Poznanie tajemne.
-		</item>
-	</itemlist>
 
 	<tal:skill type="special">
 		<name>Znajomość</name>
 		<attribute>Inteligencja</attribute>
 		<description>Umiejętności wykorzystywania informacji pochodzących z danych regionów. W przeciwieństwie do wiedzy znajomość nie wymaga od postaci opanowania sztuki czytania i pisania. Postać ma prawo wykonywać testy tej umiejętności nawet jeżeli nie posiada 1 poziomu w danej dyscyplinie, ale tylko pod warunkiem, że dotyczą regionu z którego pochodzi.</description>
+		<variants>
+			<variant>
+				<name>Folklor</name>
+				<description>ballady i pieśni, dzieła artystyczne, poezja, przysłowia i powiedzenia, tańce, wierzenia ludowe, zabobony.</description>
+				<synergy>Plotkowanie (tylko względem mieszkańców regionu)</synergy>
+				<bonus>Czytanie i pisanie</bonus>
+			</variant>
+			<variant>
+				<name>Historia</name>
+				<description>bohaterowie, legendy, postacie z przeszłości.</description>
+				<synergy>Folklor i polityka (dla regionu)</synergy>
+				<bonus>Czytanie i pisanie</bonus>
+			</variant>
+			<variant>
+				<name>Polityka</name>
+				<description>administracja, etykieta, heraldyka, postacie współczesne, prawo, zwyczaje.</description>
+				<synergy>Perswazja (tylko względem mieszkańców regionu)</synergy>
+				<bonus>Czytanie i pisanie</bonus>
+			</variant>
+			<variant>
+				<name>Przyroda</name>
+				<description>botanika, geografia, pogoda i klimat, zwierzęta.</description>
+				<synergy>Sztuka przetrwania (tylko w regionie)</synergy>
+				<bonus>Czytanie i pisanie</bonus>
+			</variant>
+		</variants>
 	</tal:skill>
-	<itemlist>
-		<item title="Folklor">
-			ballady i pieśni, dzieła artystyczne, poezja, przysłowia i powiedzenia, tańce, wierzenia ludowe, zabobony.<br />
-			Synergia: Plotkowanie (tylko względem mieszkańców regionu).<br />
-			Zdolności premiowe: Czytanie i pisanie.
-		</item>
-		<item title="Historia">
-			bohaterowie, legendy, postacie z przeszłości.<br />
-			Synergia: Folklor i polityka (dla regionu)<br />
-			Zdolności premiowe: Czytanie i pisanie.
-		</item>
-		<item title="Polityka">
-			administracja, etykieta, heraldyka, postacie współczesne, prawo, zwyczaje.<br />
-			Synergia: Perswazja (tylko względem mieszkańców regionu).<br />
-			Zdolności premiowe: Czytanie i pisanie.
-		</item>
-		<item title="Przyroda">
-			botanika, geografia, pogoda i klimat, zwierzęta.<br />
-			Synergia: Sztuka przetrwania (tylko w regionie).<br />
-			Zdolności premiowe: Czytanie i pisanie.
-		</item>
-	</itemlist>
 </sile>

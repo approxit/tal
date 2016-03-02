@@ -51,17 +51,17 @@ tal.registerCommands = function(self)
 		local description = SILE.findInTree(content, "description")
 		local forbidden = SILE.findInTree(content, "forbidden")
 
-		table.insert(SILE.scratch.tal.extrafeats, {
-			name = name[1],
-			forbidden = forbidden and forbidden[1] or nil,
-		})
-
 		SILE.call("tal:extrafeat:name", {}, {name[1]})
 		SILE.call("tal:extrafeat:description", {}, {description[1]})
 		if forbidden then
 			SILE.call("tal:extrafeat:forbidden", {}, {forbidden[1]})
 		end
 		SILE.call("par")
+
+		table.insert(SILE.scratch.tal.extrafeats, {
+			name = name[1],
+			forbidden = forbidden and forbidden[1] or nil,
+		})
 	end)
 
 	SILE.registerCommand("tal:language", function(options, content)
@@ -73,11 +73,6 @@ tal.registerCommands = function(self)
 		local requirements = SILE.findInTree(content, "requirements")
 		local appearance = SILE.findInTree(content, "appearance")
 
-		table.insert(SILE.scratch.tal.languages, {
-			name = name[1],
-			requirements = requirements[1],
-		})
-
 		SILE.call("tal:language:name", {}, {name[1]})
 		SILE.typesetter:typeset(" ")
 		SILE.call("tal:language:native", {}, {native[1]})
@@ -88,6 +83,11 @@ tal.registerCommands = function(self)
 		SILE.call("tal:language:requirements", {}, {requirements[1]})
 		SILE.call("tal:language:appearance", {}, {appearance[1]})
 		SILE.call("par")
+
+		table.insert(SILE.scratch.tal.languages, {
+			name = name[1],
+			requirements = requirements[1],
+		})
 	end)
 
 	SILE.registerCommand("tal:skill", function(options, content)
@@ -98,17 +98,10 @@ tal.registerCommands = function(self)
 		local description = SILE.findInTree(content, "description")
 		local synergy = SILE.findInTree(content, "synergy")
 		local bonus = SILE.findInTree(content, "bonus")
+		local variants = SILE.findInTree(content, "variants")
 
-		if options.type ~= "false" then
-			if not SILE.scratch.tal[options.type .. "skills"] then
-				SU.error("Unknown skill type " .. options.type)
-			end
-
-			table.insert(SILE.scratch.tal[options.type .. "skills"], {
-				name = name[1],
-				attribute = attribute[1],
-				synergy = synergy and synergy[1] or nil,
-			})
+		if not SILE.scratch.tal[options.type .. "skills"] then
+			SU.error("Unknown skill type " .. options.type)
 		end
 
 		SILE.call("tal:skill:name", {}, {name[1]})
@@ -121,6 +114,37 @@ tal.registerCommands = function(self)
 			SILE.call("tal:skill:bonus", {}, {bonus[1]})
 		end
 		SILE.call("par")
+
+		if variants then
+			for i, variant in ipairs(variants) do
+				local variantName = SILE.findInTree(variant, "name")
+				description = SILE.findInTree(variant, "description")
+				synergy = SILE.findInTree(variant, "synergy")
+				bonus = SILE.findInTree(variant, "bonus")
+
+				SILE.call("tal:skill:name", {}, {variantName[1]})
+				SILE.call("tal:skill:description", {}, {description[1]})
+				if synergy then
+					SILE.call("tal:skill:synergy", {}, {synergy[1]})
+				end
+				if bonus then
+					SILE.call("tal:skill:bonus", {}, {bonus[1]})
+				end
+				SILE.call("par")
+
+				table.insert(SILE.scratch.tal[options.type .. "skills"], {
+					name = name[1] .. " (" .. variantName[1] .. ")",
+					attribute = attribute[1],
+					synergy = synergy and synergy[1] or nil,
+				})
+			end
+		else
+			table.insert(SILE.scratch.tal[options.type .. "skills"], {
+				name = name[1],
+				attribute = attribute[1],
+				synergy = synergy and synergy[1] or nil,
+			})
+		end
 	end)
 
 	return v

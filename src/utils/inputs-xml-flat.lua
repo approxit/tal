@@ -17,6 +17,7 @@ end
 
 local function text(p, txt)
 	txt = txt:gsub("^\t*(.-)\t*$", "%1")
+	txt = txt:gsub("\n+", "")
 	txt = txt:gsub("\t+", " ")
 
 	if txt ~= "" then
