@@ -9,6 +9,8 @@ SILE.scratch.tal = {
 	commonskills = {},
 	combatskills = {},
 	specialskills = {},
+	generalfeats = {},
+	innatefeats = {},
 }
 
 tal.init = function(self)
@@ -91,8 +93,6 @@ tal.registerCommands = function(self)
 	end)
 
 	SILE.registerCommand("tal:skill", function(options, content)
-		SU.required(options, "type", "tal:skill")
-
 		local name = SILE.findInTree(content, "name")
 		local attribute = SILE.findInTree(content, "attribute")
 		local description = SILE.findInTree(content, "description")
@@ -100,7 +100,7 @@ tal.registerCommands = function(self)
 		local bonus = SILE.findInTree(content, "bonus")
 		local variants = SILE.findInTree(content, "variants")
 
-		if not SILE.scratch.tal[options.type .. "skills"] then
+		if options.type and not SILE.scratch.tal[options.type .. "skills"] then
 			SU.error("Unknown skill type " .. options.type)
 		end
 
@@ -132,17 +132,71 @@ tal.registerCommands = function(self)
 				end
 				SILE.call("par")
 
+				if options.type then
+					table.insert(SILE.scratch.tal[options.type .. "skills"], {
+						name = name[1] .. " (" .. variantName[1] .. ")",
+						attribute = attribute[1],
+						synergy = synergy and synergy[1] or nil,
+					})
+				end
+			end
+		else
+			if options.type then
 				table.insert(SILE.scratch.tal[options.type .. "skills"], {
-					name = name[1] .. " (" .. variantName[1] .. ")",
+					name = name[1],
 					attribute = attribute[1],
 					synergy = synergy and synergy[1] or nil,
 				})
 			end
-		else
-			table.insert(SILE.scratch.tal[options.type .. "skills"], {
+		end
+	end)
+
+	SILE.registerCommand("tal:feat", function(options, content)
+		local name = SILE.findInTree(content, "name")
+		local requirements = SILE.findInTree(content, "requirements")
+		local description = SILE.findInTree(content, "description")
+		local animal = SILE.findInTree(content, "animal")
+		local action = SILE.findInTree(content, "action")
+		local cost = SILE.findInTree(content, "cost")
+		local profit = SILE.findInTree(content, "profit")
+		local normal = SILE.findInTree(content, "normal")
+		local special = SILE.findInTree(content, "special")
+
+		if options.type and not SILE.scratch.tal[options.type .. "feats"] then
+			SU.error("Unknown feats type " .. options.type)
+		end
+
+		SILE.call("tal:feat:name", {}, {name[1]})
+		if requirements then
+			SILE.call("tal:feat:requirements", {}, {requirements[1]})
+		end
+		if description then
+			SILE.call("tal:feat:description", {}, {description[1]})
+		end
+		if profit then
+			SILE.call("tal:feat:profit", {}, {profit[1]})
+		end
+		if special then
+			SILE.call("tal:feat:special", {}, {special[1]})
+		end
+		if normal then
+			SILE.call("tal:feat:normal", {}, {normal[1]})
+		end
+		if cost then
+			SILE.call("tal:feat:cost", {}, {cost[1]})
+		end
+		if animal then
+			SILE.call("tal:feat:animal", {}, {animal[1]})
+		end
+		if action then
+			SILE.call("tal:feat:action", {}, {action[1]})
+		end
+		SILE.call("par")
+
+		if options.type then
+			table.insert(SILE.scratch.tal[options.type .. "feats"], {
 				name = name[1],
-				attribute = attribute[1],
-				synergy = synergy and synergy[1] or nil,
+				requirements = requirements and requirements[1] or nil,
 			})
 		end
 	end)
@@ -158,6 +212,8 @@ tal.finish = function(self)
 	tal.writeData("commonskills")
 	tal.writeData("combatskills")
 	tal.writeData("specialskills")
+	tal.writeData("generalfeats")
+	tal.writeData("innatefeats")
 
 	return v
 end

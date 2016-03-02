@@ -45,6 +45,7 @@
 	<define command="tal:extrafeat:name"><process /><br /></define>
 	<define command="tal:extrafeat:description"><process /><br /></define>
 	<define command="tal:extrafeat:forbidden">Zakazane: <process /><br /></define>
+
 	<define command="tal:language:name"><process /></define>
 	<define command="tal:language:native">(<process />)</define>
 	<define command="tal:language:group">/ <process /><br /></define>
@@ -52,21 +53,20 @@
 	<define command="tal:language:alphabet">Alfabet: <process /><br /></define>
 	<define command="tal:language:requirements">Wymagania: <process /><br /></define>
 	<define command="tal:language:appearance">Występowanie: <process /><br /></define>
+
 	<define command="tal:skill:name"><process /><br /></define>
 	<define command="tal:skill:attribute">Atrybut: <process /><br /></define>
 	<define command="tal:skill:description"><process /><br /></define>
 	<define command="tal:skill:synergy">Synergia: <process /><br /></define>
 	<define command="tal:skill:bonus">Zdolności premiowe: <process /><br /></define>
-	<define command="tal:feat">
-		<define command="name"><process /><br /></define>
-		<define command="requirements">Wymagania: <process /><br /></define>
-		<define command="profit">Korzyść: <process /><br /></define>
-		<define command="special">Specjalne: <process /><br /></define>
-		<define command="normal">Normalnie: <process /><br /></define>
-		<define command="cost">Koszt dostrojenia: <process /><br /></define>
-		<define command="animal">Zwierzę: <process /><br /></define>
-		<define command="action">Czyn: <process /><br /></define>
-		<define command="description"><process /><br /></define>
-		<process /><par />
-	</define>
+	
+	<define command="tal:feat:name"><process /><br /></define>
+	<define command="tal:feat:requirements">Wymagania: <process /><br /></define>
+	<define command="tal:feat:profit">Korzyść: <process /><br /></define>
+	<define command="tal:feat:special">Specjalne: <process /><br /></define>
+	<define command="tal:feat:normal">Normalnie: <process /><br /></define>
+	<define command="tal:feat:cost">Koszt dostrojenia: <process /><br /></define>
+	<define command="tal:feat:animal">Zwierzę: <process /><br /></define>
+	<define command="tal:feat:action">Czyn: <process /><br /></define>
+	<define command="tal:feat:description"><process /><br /></define>
 </sile>
