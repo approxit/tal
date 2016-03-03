@@ -93,7 +93,7 @@
 		<thead>
 			<tr>
 				<td>Nazwa</td>
-				<td>Wymagania<footnote>Litera <quote>A</quote> oznacza atrybut, <quote>J</quote> język, <quote>MU</quote> modyfikator umiejętnośi, a <quote>Z</quote> zdolność.</footnote></td>
+				<td>Wymagania<footnote>Litera <quote>A</quote> oznacza atrybut, <quote>J</quote> język, a <quote>Z</quote> zdolność.</footnote></td>
 			</tr>
 		</thead>
 		<tbody>
@@ -134,7 +134,7 @@
 		<native>Araja’kata</native>
 		<group>brak</group>
 		<alphabet>patra / język tajemny</alphabet>
-		<requirements>Atrybut: Inteligencja 32; Choroba duszy: obłęd; Język: dowolny oparty na alfabecie patra; Zdolność: Czytanie i pisanie</requirements>
+		<requirements>Atrybut: Inteligencja 32; Język: dowolny oparty na alfabecie patra; Zdolność: Czytanie i pisanie; Choroba duszy: obłęd</requirements>
 		<appearance>Czarnoksiężnicy wschodu</appearance>
 		<description>Słowa w tym języku są dzikie, ale i piękne, a wielokrotnie dla samych czytających niezrozumiałe. Nie można mówić w tym języku, gdyż słowa nie posiadają tu dźwięku, a jedynie mgliste znaczenie. Można za to próbować nadawać słowom dźwięk wypowiadając je za pomocą innych języków opartych o alfabet patra, chociaż nie są to wtedy prawdziwe słowa chaosu.</description>
 	</tal:language>
@@ -344,7 +344,7 @@
 		<native>Scav</native>
 		<group>gobliński</group>
 		<alphabet>bra</alphabet>
-		<requirements>Atrybut: Inteligencja 16 (12, gdy jest się jorem</requirements>
+		<requirements>Atrybut: Inteligencja 16 (12, gdy jest się jorem)</requirements>
 		<appearance>Wielkie Bagno i Szczurze Hordy</appearance>
 		<description>Piskliwy i prosty w rozumieniu język jorów. Są tutaj metafory i pojęcia abstrakcyjne, ale główny trzon języka stanowią określenia pragmatyczne.</description>
 	</tal:language>

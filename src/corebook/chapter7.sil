@@ -511,7 +511,7 @@
 
 	<tal:feat type="general">
 		<name>Filozof</name>
-		<requirements>Umiejętność: Wiedza: Filozofia 10</requirements>
+		<requirements>Umiejętność: Wiedza: (filozofia) 10</requirements>
 		<profit>Premia z synergii z filozofii dla innych dziedzin wiedzy zwiększa się dwukrotnie</profit>
 		<special>Postać może wziąć tę zdolność wielokrotnie. Za każdym razem będzie ona zwiększała mnożnik synergii o 1, tj. przy drugim wzięciu synergia x3, przy trzecim synergia x4 itd. Każde kolejne wybranie tej zdolności wymaga wyższego poziomu umiejętności o 5 względem poprzedniego wybrania.</special>
 	</tal:feat>
@@ -559,7 +559,7 @@
 
 	<tal:feat type="general">
 		<name>Jazda na oklep</name>
-		<requirements>Umiejętność: Jeździectwo (dowolne) 10, Zdolność: Specjalizacja (jeździectwo, to samo)</requirements>
+		<requirements>Umiejętność: Jeździectwo (dowolne) 10, Zdolność: Specjalizacja (jeździectwo, odpowiednio jak umiejętność)</requirements>
 		<profit>Postać nie otrzymuje kary do testów, za jazdę na nieosiodłanym wierzchowcu</profit>
 		<normal>Kara do testu za brak siodła wynosi -5.</normal>
 	</tal:feat>
@@ -580,7 +580,7 @@
 
 	<tal:feat type="general">
 		<name>Kanciarz</name>
-		<requirements>Umiejętność Zręczna dłoń 10, Zdolność: Specjalizacja (zręczna dłoń)</requirements>
+		<requirements>Umiejętność: Zręczna dłoń 10, Zdolność: Specjalizacja (zręczna dłoń)</requirements>
 		<profit>Postać nie otrzymuje kary do testu za to, że jest obserwowana podczas dokonywania hazardowych sztuczek, gdy korzysta ze zręcznej dłoni</profit>
 		<normal>Kara wynosi -1 za każdą postać, która obserwuje kantującego.</normal>
 	</tal:feat>
@@ -664,7 +664,7 @@
 
 	<tal:feat type="general">
 		<name>Młyniec</name>
-		<requirements>Umiejętność: Władanie (broń obuchowa) 20, Zdolność: Cios wiązany, Specjalizacja II (władanie, broń obuchowa) </requirements>
+		<requirements>Umiejętność: Władanie (broń obuchowa) 20, Zdolność: Cios wiązany, Specjalizacja II (władanie (broń obuchowa))</requirements>
 		<profit>Korzystając z ataku wielokrotnego postać miast atakować jednego przeciwnika może zdecydować się, że zaatakuje wszystkich dookoła niej korzystając z broni obuchowej. Dla każdego przeciwnika należy wykonać normalny test trafienia z modyfikatorami za atak wielokrotny</profit>
 	</tal:feat>
 
@@ -828,7 +828,7 @@
 
 	<tal:feat type="general">
 		<name>Oprawca</name>
-		<requirements>Umiejętność: Wiedza: alchemia 5</requirements>
+		<requirements>Umiejętność: Wiedza: (alchemia) 5</requirements>
 		<profit>Synergia z alchemii dla torturowania wzrasta dwukrotnie</profit>
 	</tal:feat>
 
@@ -872,13 +872,13 @@
 
 	<tal:feat type="general">
 		<name>Parowanie łańcuchowe</name>
-		<requirements>Zdolności: Błyskawiczne parowanie</requirements>
+		<requirements>Zdolność: Błyskawiczne parowanie</requirements>
 		<profit>Postać poświęcając akcję cało-rundową, może wykonać testy parowania tarczą przeciw wszystkim atakom wymierzonym w postać przez konkretnego (jednego) przeciwnika. Wszystkie testy parowania przeprowadza się z modyfikatorem -5</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Pewnie na nogach</name>
-		<requirements>Umiejętności: Akrobatyka 5, Zwarcie 5</requirements>
+		<requirements>Umiejętność: Akrobatyka 5, Zwarcie 5</requirements>
 		<profit>Umiejętności akrobatyka i zwarcie działają na siebie synergicznie w testach zachowania równowagi, gdy postać unika obalenia</profit>
 	</tal:feat>
 
@@ -908,7 +908,7 @@
 
 	<tal:feat type="general">
 		<name>Podstępny atak</name>
-		<requirements>Atrybut: Refleks 15, Umiejętność: Władanie (szabla) 10, Zdolności: Błyskawiczna finta</requirements>
+		<requirements>Atrybut: Refleks 15, Umiejętność: Władanie (szabla) 10, Zdolność: Błyskawiczna finta</requirements>
 		<profit>Jeżeli postaci udała się finta i atakuje szablą, to może wykonać dwa ataki miast jednego, ale tylko pod warunkiem, że dzierżona szabla ma cechę szybka</profit>
 	</tal:feat>
 
@@ -953,7 +953,7 @@
 
 	<tal:feat type="general">
 		<name>Prowizorka</name>
-		<requirements>Wiedza (inżynieria) 5</requirements>
+		<requirements>Umiejętność: Wiedza (inżynieria) 5</requirements>
 		<profit>Postać otrzymuje synergię z inżynierii do sztuki przetrwania, gdy korzysta z tej umiejętności przy znalezieniu schronienia. Poza tym dzięki tej zdolności należy uwzględnić, że postać będzie zdolna zastosować przy znalezieniu schronienia dość nietypowe materiały, które będą zamiennikami, gdy tylko nie uda się jej odnaleźć tych właściwych</profit>
 	</tal:feat>
 
@@ -965,7 +965,7 @@
 
 	<tal:feat type="general">
 		<name>Przyswajanie mikstur</name>
-		<requirements>Kondycja 12</requirements>
+		<requirements>Atrybut: Kondycja 12</requirements>
 		<profit>Premia +4 do wytrwałości względem ochrony przed zatruciem alchemicznym</profit>
 		<special>Zdolność można wziąć wielokrotnie, a jej efekty kumulują się ze sobą. Za każdym razem, gdy postać sięga po tę zdolność rosną wymagania: +3 do kondycji, względem poprzedniego użycia.</special>
 	</tal:feat>
@@ -1005,7 +1005,7 @@
 
 	<tal:feat type="general">
 		<name>Rozwinięcie atrybutu z (umiejętność)</name>
-		<requirements>Umiejętność (dowolna) 20</requirements>
+		<requirements>Umiejętność: dowolna 20</requirements>
 		<profit>Premia +1 do atrybutu na bazie którego wykonuje się test wybranej umiejętności</profit>
 		<special>Można tę zdolność wybierać wielokrotnie. Za każdym razem będzie dotyczyła innej umiejętności albo tej samej, ale w tym drugim wypadku wymagania poziomu wzrastają o 10 względem ostatniego wyboru.</special>
 	</tal:feat>
@@ -1080,7 +1080,7 @@
 
 	<tal:feat type="general">
 		<name>Specjalizacja (umiejętność)</name>
-		<requirements>Umiejętność (dowolna) 5</requirements>
+		<requirements>Umiejętność: dowolna 5</requirements>
 		<profit>Premia +2 do wybranej umiejętności</profit>
 		<special>Można tę zdolność wybierać wielokrotnie. Za każdym razem będzie dotyczyła innej umiejętności albo tej samej, ale w tym drugim wypadku wymagania poziomu wzrastają o 5 względem ostatniego wyboru.</special>
 	</tal:feat>
@@ -1234,7 +1234,7 @@
 
 	<tal:feat type="general">
 		<name>Szybko i niezauważenie</name>
-		<requirements>Umiejętność: Ukrywania się 15, , Zdolność: Specjalizacja II (ukrywanie)</requirements>
+		<requirements>Umiejętność: Ukrywania się 15, Zdolność: Specjalizacja II (ukrywanie)</requirements>
 		<profit>Postać nie ponosi kary -10, gdy ukrywa się i przemieszcza (umiejętność ukrywania się) z połową szybkości</profit>
 		<normal>Jeżeli postać przemieszcza się z połową szybkości podczas ukrycia, to podlega modyfikatorowi -10 do testu. Gdy porusza się ze swą szybkością otrzymuje modyfikator -20. Bieg połączony z ukryciem automatycznie kończy porażką to drugie.</normal>
 	</tal:feat>
@@ -1248,7 +1248,7 @@
 
 	<tal:feat type="general">
 		<name>Taniec mieczy</name>
-		<requirements>Umiejętność: Władanie (miecz) 20, Zdolność: Cios wiązany, Specjalizacja II (władanie, miecz) </requirements>
+		<requirements>Umiejętność: Władanie (miecz) 20, Zdolność: Cios wiązany, Specjalizacja II (władanie (miecz))</requirements>
 		<profit>Korzystając z ataku wielokrotnego postać miast atakować jednego przeciwnika może zdecydować się, że zaatakuje wszystkich dookoła niej korzystając z miecza. Dla każdego przeciwnika należy wykonać normalny test trafienia z modyfikatorami za atak wielokrotny</profit>
 	</tal:feat>
 
@@ -1291,7 +1291,7 @@
 
 	<tal:feat type="general">
 		<name>Unikać lub parować</name>
-		<requirements>Zdolność: Błyskawiczne parowania i Błyskawiczny unik</requirements>
+		<requirements>Zdolność: Błyskawiczne parowania, Błyskawiczny unik</requirements>
 		<profit>Postać może ten sam atak spróbować zarówno uniknąć jak i sparować. Jeżeli więc pierwszy test się nie powiódł, to może skorzystać z następnej szansy. Uprzednio rzecz jasna postać musi niezależnie wybrać odpowiednie manewry kosztem akcji, aby można było z nich skorzystać</profit>
 	</tal:feat>
 
@@ -1533,7 +1533,7 @@
 
 	<tal:feat type="general">
 		<name>Zmysł włamywacza</name>
-		<requirements>Umiejętność: Wiedza: inżynieria 15</requirements>
+		<requirements>Umiejętność: Wiedza: (inżynieria) 15</requirements>
 		<profit>Postać pozbawiona dostępu do materiałów na wytrychy może takowe stworzy w zasadzie z najdziwniejszych rzeczy np. utwardzanego na ślinę piasku. Potrzebuje na to od 1 do 10 dni</profit>
 	</tal:feat>
 
@@ -1587,7 +1587,7 @@
 
 	<tal:feat type="general">
 		<name>Żelazne zdrowie</name>
-		<requirements>Kondycja 12</requirements>
+		<requirements>Atrybut: Kondycja 12</requirements>
 		<profit>Premia +2 do wytrwałości, na potrzeby opierania się chorobom</profit>
 		<special>Zdolność można wziąć wielokrotnie, a jej efekty kumulują się ze sobą. Za każdym razem, gdy postać sięga po tę zdolność rosną wymagania: +3 do kondycji, względem poprzedniego użycia.</special>
 	</tal:feat>
@@ -1629,7 +1629,7 @@
 	<tal:feat type="innate">
 		<name>Archont Gniewu (wzorzec)</name>
 		<description>Gdy wpadasz w bitewny szał budzą się w Tobie siły zniszczenia i zagłady. Gdy rozwiniesz te moce nic nie stanie Tobie na drodze.</description>
-		<requirements>Atrybuty: Kondycja 16 i Wola 16; Cechy dodatkowe: Agresywny</requirements>
+		<requirements>Atrybut: Kondycja 16, Wola 16; Cechy dodatkowe: Agresywny</requirements>
 		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca</profit>
 	</tal:feat>
 
@@ -1725,7 +1725,7 @@
 	<tal:feat type="innate">
 		<name>Kathikan (wzorzec)</name>
 		<description>Twoje wszechstronne umiejętności zapierają dech w piersiach.</description>
-		<requirements>Zdolności: Artysta, Elokwencja, Naukowiec, Urodzony rzemieślnik, Urodzony wojownik</requirements>
+		<requirements>Zdolność: Artysta, Elokwencja, Naukowiec, Urodzony rzemieślnik, Urodzony wojownik</requirements>
 		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca</profit>
 	</tal:feat>
 
@@ -1761,7 +1761,7 @@
 	<tal:feat type="innate">
 		<name>Krwawy elf (wyższy rodzaj)</name>
 		<description>Ciernie i krew. Nie jesteś zwykłym elfem, lecz jednym z <quote>czerwonych elfów</quote>, zwanych częściej krwawymi. Kiedyś może opanujesz dane Tobie dziedzictwo, ale brzemię jest ciężkie.</description>
-		<requirements>Atrybuty: Wola 16; Rasa: Elf; Zdolności: Magia we krwi</requirements>
+		<requirements>Atrybut: Wola 16; Rasa: Elf; Zdolność: Magia we krwi</requirements>
 		<profit>Postać otrzymuje szablon Wyższego Rodzaju o nazwie Krwawy elf</profit>
 		<special>Postać może wziąć tę zdolność maksymalnie 4 razy. Za każdym razem jej moc związana z wyższym rodzajem będzie rosła o stopień.</special>
 	</tal:feat>
@@ -1880,7 +1880,7 @@
 	<tal:feat type="innate">
 		<name>Urodzony wojownik</name>
 		<description>Wojna jest Twą matką, a bitwa siostrą. Odwiedziny tej rodziny zapewniają szczęście.</description>
-		<requirements>Atrybut: Charyzma 16 i Wola 16</requirements>
+		<requirements>Atrybut: Charyzma 16, Wola 16</requirements>
 		<profit>Premia +1 do wszystkich umiejętności władania, walki wręcz, zwarcia, inicjatywy i uników. Postać poza tym otrzymuje punkt szczęścia za każdym razem, gdy pokona kogoś w bitwie, ale tylko wtedy, gdy przeciwnik będzie stanowił przynajmniej średniej trudności wyzwanie</profit>
 	</tal:feat>
 
@@ -1915,7 +1915,7 @@
 	<tal:feat type="innate">
 		<name>Zmysł magii</name>
 		<description>Posiadasz specjalny zmysł, dzięki któremu jesteś w stanie wykrywać magię.</description>
-		<requirements>Atrybut: Wola 12, Zdolność: Dzika magia lub Magia we krwi, lub Wizja</requirements>
+		<requirements>Atrybut: Wola 12, Zdolność: Dzika magia lub Magia we krwi lub Wizja</requirements>
 		<profit>Postać może wykorzystywać umiejętność spostrzegawczość do wykrywania magicznych aur</profit>
 	</tal:feat>
 
@@ -1928,7 +1928,7 @@
 	<tal:feat type="innate">
 		<name>Zwierzęce moce (wzorzec)</name>
 		<description>Masz predyspozycje do obudzenia w sobie zwierzęcych mocy.</description>
-		<requirements>Atrybuty: Kondycja 14, Percepcja 16, Refleks 14, Siła 14, Zręczność 14</requirements>
+		<requirements>Atrybut: Kondycja 14, Percepcja 16, Refleks 14, Siła 14, Zręczność 14</requirements>
 		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca</profit>
 	</tal:feat>
 
@@ -1943,7 +1943,7 @@
 	<tal:feat type="innate">
 		<name>Żywioł ognia (wzorzec)</name>
 		<description>Masz w swój wzór wpisany żywioł.</description>
-		<requirements>Atrybut: Percepcja 16 i Refleks 16</requirements>
+		<requirements>Atrybut: Percepcja 16, Refleks 16</requirements>
 		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca</profit>
 		<special>Można mieć dostęp tylko do jednego z następujących żywiołów: błyskawic, ognia, powietrza, wody, ziemi, zimna albo życia.</special>
 	</tal:feat>
@@ -1951,7 +1951,7 @@
 	<tal:feat type="innate">
 		<name>Żywioł powietrza (wzorzec)</name>
 		<description>Masz w swój wzór wpisany żywioł.</description>
-		<requirements>Atrybut: Inteligencja 16 i Zręczność 16</requirements>
+		<requirements>Atrybut: Inteligencja 16, Zręczność 16</requirements>
 		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca</profit>
 		<special>Można mieć dostęp tylko do jednego z następujących żywiołów: błyskawic, ognia, powietrza, wody, ziemi, zimna albo życia.</special>
 	</tal:feat>
@@ -1959,7 +1959,7 @@
 	<tal:feat type="innate">
 		<name>Żywioł wody (wzorzec)</name>
 		<description>Masz w swój wzór wpisany żywioł.</description>
-		<requirements>Atrybut: Percepcja 16 i Siła 16</requirements>
+		<requirements>Atrybut: Percepcja 16, Siła 16</requirements>
 		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca</profit>
 		<special>Można mieć dostęp tylko do jednego z następujących żywiołów: błyskawic, ognia, powietrza, wody, ziemi, zimna albo życia.</special>
 	</tal:feat>
@@ -1967,7 +1967,7 @@
 	<tal:feat type="innate">
 		<name>Żywioł ziemi (wzorzec)</name>
 		<description>Masz w swój wzór wpisany żywioł.</description>
-		<requirements>Atrybut: Charyzma 16 i Siła 16</requirements>
+		<requirements>Atrybut: Charyzma 16, Siła 16</requirements>
 		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca</profit>
 		<special>Można mieć dostęp tylko do jednego z następujących żywiołów: błyskawic, ognia, wody, powietrza, ziemi, zimna albo życia.</special>
 	</tal:feat>
@@ -1975,7 +1975,7 @@
 	<tal:feat type="innate">
 		<name>Żywioł zimna (wzorzec)</name>
 		<description>Masz w swój wzór wpisany żywioł.</description>
-		<requirements>Atrybut: Inteligencja 16 i Percepcja 16</requirements>
+		<requirements>Atrybut: Inteligencja 16, Percepcja 16</requirements>
 		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca</profit>
 		<special>Można mieć dostęp tylko do jednego z następujących żywiołów: błyskawic, ognia, powietrza, wody, ziemi, zimna albo życia.</special>
 	</tal:feat>
@@ -1983,7 +1983,7 @@
 	<tal:feat type="innate">
 		<name>Żywioł życia (wzorzec)</name>
 		<description>Masz w swój wzór wpisany żywioł.</description>
-		<requirements>Atrybut: Kondycja 16 i Wola 16</requirements>
+		<requirements>Atrybut: Kondycja 16, Wola 16</requirements>
 		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca</profit>
 		<special>Można mieć dostęp tylko do jednego z następujących żywiołów: błyskawic, ognia, powietrza, wody, ziemi, zimna albo życia.</special>
 	</tal:feat>
@@ -2176,7 +2176,7 @@
 
 	<tal:feat>
 		<name>Perfekcja w (nazwa)</name>
-		<requirements>Umiejętność (dowolna) 10</requirements>
+		<requirements>Umiejętność: dowolna 10</requirements>
 		<profit>Postać może poświęcić 2 punkty many, aby w teście umiejętności uzyskać modyfikator +1. Może poświęcić maksymalnie tyle punktów many ile wynosi jego poziom umiejętności, a wtedy otrzyma modyfikator do testu równy połowie poziomu umiejętności</profit>
 		<cost>6</cost>
 		<special>Postać może wziąć tę zdolność wielokrotnie. Za każdym razem będzie ona dotyczyła innej umiejętności.</special>

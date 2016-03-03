@@ -88,7 +88,7 @@ tal.registerCommands = function(self)
 
 		table.insert(SILE.scratch.tal.languages, {
 			name = name[1],
-			requirements = requirements[1],
+			requirements = tal.shortRequirements(requirements[1]),
 		})
 	end)
 
@@ -196,7 +196,7 @@ tal.registerCommands = function(self)
 		if options.type then
 			table.insert(SILE.scratch.tal[options.type .. "feats"], {
 				name = name[1],
-				requirements = requirements and requirements[1] or nil,
+				requirements = requirements and tal.shortRequirements(requirements[1]) or nil,
 			})
 		end
 	end)
@@ -216,6 +216,28 @@ tal.finish = function(self)
 	tal.writeData("innatefeats")
 
 	return v
+end
+
+tal.shortRequirements = function(str)
+	str = str:gsub("Atrybut: ", "A: ")
+	str = str:gsub("Język: ", "J: ")
+	str = str:gsub("Umiejętność: ", "U: ")
+	str = str:gsub("Rasa: ", "R: ")
+	str = str:gsub("Współczynnik: ", "W: ")
+	str = str:gsub("Zdolność: ", "Z: ")
+
+	str = str:gsub("Charyzma", "Ch")
+	str = str:gsub("Inteligencja", "In")
+	str = str:gsub("Kondycja", "Ko")
+	str = str:gsub("Percepcja", "Pe")
+	str = str:gsub("Refleks", "Re")
+	str = str:gsub("Siła", "Si")
+	str = str:gsub("Wola", "Wo")
+	str = str:gsub("Zręczność", "Zr")
+
+	print("Jest: " .. str)
+
+	return str
 end
 
 tal.writeData = function(dataType)
