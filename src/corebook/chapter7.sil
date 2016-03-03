@@ -34,44 +34,44 @@
 
 	<tal:feat type="general">
 		<name>Agresywny atak</name>
-		<requirements>Umiejętność: Krzepa poziom 10</requirements>
+		<requirements>Umiejętność: Krzepa 10</requirements>
 		<profit>Postać wykonując walkę agresywną zadaje obrażenia o jedną kategorię większe</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Akrobatyczny atak</name>
-		<requirements>Umiejętność: Akrobatyka poziom 10; Zdolność: Akrobatyczna obrona</requirements>
+		<requirements>Umiejętność: Akrobatyka 10; Zdolność: Akrobatyczna obrona</requirements>
 		<profit>Postać korzystając z akrobatycznej obrony do końca tury otrzymuje premię do testów trafień przy atakach bezpośrednich równą połowie posiadanych poziomów umiejętności akrobatyka</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Akrobatyczna obrona</name>
-		<requirements>Umiejętność: Akrobatyka poziom 1</requirements>
+		<requirements>Umiejętność: Akrobatyka 1</requirements>
 		<profit>Użycie zdolności wymaga poświęcenia akcji zwykłej. Do końca rundy postać otrzymuje modyfikator do obrony równy posiadanym poziomom umiejętności akrobatyka</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Aksjomatyzacja (umiejętność)</name>
-		<requirements>Umiejętność: Wiedza (filozofia) poziom 5</requirements>
+		<requirements>Umiejętność: Wiedza (filozofia) 5</requirements>
 		<profit>Premia +2 do dowolnej umiejętności</profit>
 		<special>Zdolność można wziąć wielokrotnie. Za każdym razem będzie dotyczyła innej umiejętności.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Alkoholowe wgadanie</name>
-		<requirements>Umiejętność: Mocna głowa poziom 1</requirements>
+		<requirements>Umiejętność: Mocna głowa 1</requirements>
 		<profit>Punty upicia (zmęczenia) nie działają na testy związane z charyzmą jako kara, lecz jako premia, ale pod warunkiem, że nie jest ich więcej niż wynosi poziom mocnej głowy postaci, gdyż wtedy zamieniają się one na normalną karę</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Alkoholowy geniusz</name>
-		<requirements>Umiejętność: Mocna głowa poziom 1</requirements>
+		<requirements>Umiejętność: Mocna głowa 1</requirements>
 		<profit>Punty upicia (zmęczenia) nie działają na testy związane z inteligencją jako kara, lecz jako premia, ale pod warunkiem, że nie jest ich więcej niż wynosi poziom mocnej głowy postaci, gdyż wtedy zamieniają się one na normalną karę</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Atak bestii</name>
-		<requirements>Umiejętność: Jeździectwo (bestie) poziom 10</requirements>
+		<requirements>Umiejętność: Jeździectwo (bestie) 10</requirements>
 		<profit>Gdy bestia atakuje mając na sobie jeźdźca, który wymiera cel ataku, otrzymuje modyfikator do trafienia równy synergii z jeździectwa</profit>
 	</tal:feat>
 
@@ -82,7 +82,7 @@
 
 	<tal:feat type="general">
 		<name>Bajdurzenie</name>
-		<requirements>Umiejętność: Plotkowanie poziom 5</requirements>
+		<requirements>Umiejętność: Plotkowanie 5</requirements>
 		<profit>Postać otrzymuje synergię z plotkowania do sztuki (oratorstwa) oraz blefowania (umiejętności perswazji)</profit>
 	</tal:feat>
 
@@ -100,7 +100,7 @@
 
 	<tal:feat type="general">
 		<name>Bieganie</name>
-		<requirements>Umiejętność: Akrobatyka 10 oraz Inicjatywa 10</requirements>
+		<requirements>Umiejętność: Akrobatyka 10, Inicjatywa 10</requirements>
 		<profit>Postać może biec z szybkością x7, gdy poświęca na to akcję cało-rundową</profit>
 		<normal>W akcji cało-rundowej postać może przebiec na odległość szybkość x6.</normal>
 	</tal:feat>
@@ -296,14 +296,14 @@
 
 	<tal:feat type="general">
 		<name>Błyskawiczna finta</name>
-		<requirements>Umiejętność: Inicjatywa poziom 10, Zdolność: Doskonalsza finta</requirements>
+		<requirements>Umiejętność: Inicjatywa 10, Zdolność: Doskonalsza finta</requirements>
 		<profit>Raz w turze postać może skorzystać z finty w akcji darmowej</profit>
 		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują pozwalając postaci w rundzie wielokrotnie korzystać z finty <quote>za darmo</quote>, ale za każdym kolejnym razem, gdy postać sięga po tę zdolność jej wymagania umiejętności wzrastają o +10 poziomów względem poprzedniego wyboru.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Błyskawiczne padanie</name>
-		<requirements>Umiejętność: Akrobatyka poziom 10</requirements>
+		<requirements>Umiejętność: Akrobatyka 10</requirements>
 		<profit>Postać upada w akcji darmowej</profit>
 		<normal>Postać może upaść w akcji dodatkowej.</normal>
 	</tal:feat>
@@ -317,28 +317,28 @@
 
 	<tal:feat type="general">
 		<name>Błyskawiczny unik</name>
-		<requirements>Umiejętność: Unik poziom 5</requirements>
+		<requirements>Umiejętność: Unik 5</requirements>
 		<profit>Raz w turze postać może wykonać unik w akcji darmowej</profit>
 		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują pozwalając postaci na wiele <quote>darmowych</quote> uników, ale każde kolejne wzięcie tej zdolności wymaga dodatkowych 5 poziomów umiejętności względem poprzedniego wzięcia zdolności.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Broń celowania</name>
-		<requirements>Umiejętność: Władanie (kusza) poziom 10</requirements>
+		<requirements>Umiejętność: Władanie (kusza) 10</requirements>
 		<profit>Jeżeli postać celowała przed atakiem, to nie musi poświęcać akcji na test ataku – staje się on częścią celowania. Dotyczy to tylko broni posiadających cechę o nazwie tej zdolności</profit>
 		<normal>Bez tej zdolności skorzystanie z broni o takiej cesze wymaga poświęcenia akcji zwykłej.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Broń kawaleryjska</name>
-		<requirements>Umiejętność: Jeździectwo (dowolne) poziom 5</requirements>
+		<requirements>Umiejętność: Jeździectwo (dowolne) 5</requirements>
 		<profit>Postać korzysta z broni kawaleryjskiej bez kary -10</profit>
 		<normal>Bez tej zdolności skorzystanie z broni o takiej cesze wiąże się z karą -10 do wszystkich testów nią wykonywanych.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Broń szermiercza</name>
-		<requirements>Atrybut: Refleks 14, Umiejętność: Władanie (szabla) poziom 10</requirements>
+		<requirements>Atrybut: Refleks 14, Umiejętność: Władanie (szabla) 10</requirements>
 		<profit>Postać na wykonanie ataku bronią z taką cechą potrzebuje tylko akcji dodatkowej</profit>
 		<normal>Bez tej zdolności skorzystanie z broni o takiej cesze wymaga poświęcenia akcji zwykłej.</normal>
 	</tal:feat>
@@ -351,41 +351,41 @@
 
 	<tal:feat type="general">
 		<name>Budowanie schronienia</name>
-		<requirements>Umiejętność: Sztuka przetrwania poziom 5</requirements>
+		<requirements>Umiejętność: Sztuka przetrwania 5</requirements>
 		<profit>Postać zdając test sztuki przetrwania o ST=30 może zbudować schronie etc. w czasie o połowę krótszym</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Burda</name>
-		<requirements>Umiejętność: Walka wręcz poziom 1</requirements>
+		<requirements>Umiejętność: Walka wręcz 1</requirements>
 		<profit>Postać nie ponosi kar do testów ataku wykonanych przy pomocy broni improwizowanej</profit>
 		<normal>Przypadkowe przedmioty użyte podczas walki w charakterze broni (krzesło, kamień, noga od stołu, etc.) powodują karę -5 do trafienia.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Byczek</name>
-		<requirements>Umiejętność: Zastraszanie poziom 5</requirements>
+		<requirements>Umiejętność: Zastraszanie 5</requirements>
 		<profit>W przypadku nieudanego testu zastraszania postać nie ośmiesza się w oczach zastraszanego</profit>
 		<normal>Porażka w teście zastraszania oznacza, że zastraszający kompromituje się w jakimś stopniu w oczach zastraszanego i ten do kolejnych testów odporności na zastraszenie otrzymuje premię +5.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Bystry rozmówca</name>
-		<requirements>Umiejętność: Perswazja poziom 10</requirements>
+		<requirements>Umiejętność: Perswazja 10</requirements>
 		<profit>Postać otrzymuje premię do testu perswazji w wysokości 1/4 percepcji</profit>
 		<special>Zdolność można wziąć wielokrotnie, a jej efekty się kumulują, ale każde kolejne sięgnięcie po tę zdolność wymaga 10 poziomów perswazji więcej niż poprzednim razem.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Celowanie (władanie)</name>
-		<requirements>Umiejętność: Władanie (dowolne z wyjątkiem tarczy) poziom 1</requirements>
+		<requirements>Umiejętność: Władanie (dowolne z wyjątkiem tarczy) 1</requirements>
 		<profit>Premia do testu trafienia, gdy postać celuje w wysokości 1/4 percepcji</profit>
 		<special>Postać może wziąć tę zdolność dla kolejnych umiejętności władania, jak również wielokrotnie dla jednej, ale w tym drugim przypadku rosną wymagania wpierw do 5 poziomu, a następnie o 5 poziomów względem poprzedniego użycia.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Cios wiązany</name>
-		<requirements>Umiejętność: Inicjatywa poziom 1</requirements>
+		<requirements>Umiejętność: Inicjatywa 1</requirements>
 		<profit>Kara do testów ataków przy ataku wielokrotnym spada o 2</profit>
 		<special>Zdolność można wziąć maksymalnie 4 razy, a jej efekty się sumują, ale rosną wymagania umiejętności wpierw do 5 poziomu, a następnie o 5 poziomów względem poprzedniego użycia. Wzięcie tej zdolności 4 razy spowoduje zmniejszenie kary za każdy atak do -2.</special>
 	</tal:feat>
@@ -412,21 +412,21 @@
 
 	<tal:feat type="general">
 		<name>Daleki rzut</name>
-		<requirements>Umiejętność: Rzucanie poziom 5</requirements>
+		<requirements>Umiejętność: Rzucanie 5</requirements>
 		<profit>Zasięg rzutu bronią miotaną rośnie o 1/4 siły w metrach</profit>
 		<special>Zdolność można wziąć wielokrotnie, a jej efekty się kumulują. Za każdym kolejnym razem, gdy postać sięga po tę zdolność rosną wymagania: +5 do rzucania, względem poprzedniego użycia. Zwiększony zostaje zawsze bazowy zasięg rzutu bronią.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Daleki strzał</name>
-		<requirements>Umiejętność: Łuk poziom 10</requirements>
+		<requirements>Umiejętność: Łuk 10</requirements>
 		<profit>Maksymalny zasięg na jaki możesz wystrzelić pocisk z łuku zwiększa się o 20%</profit>
 		<special>Zdolność możesz wziąć wielokrotnie, a jej efekty będą się sumowały zwiększając bazowy zasięg o sumaryczny procent. Każde kolejne wzięcie tej zdolności wymaga 5 poziomów umiejętności więcej, niż przy ostatnim wybraniu.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Deszyfrowanie</name>
-		<requirements>Umiejętność: Fałszerstwo poziom 5, Zdolność: Czytanie i pisanie</requirements>
+		<requirements>Umiejętność: Fałszerstwo 5, Zdolność: Czytanie i pisanie</requirements>
 		<profit>Postać otrzymuje synergię z fałszerstwa do wiedzy (tajemnej), gdy używa się jej przy odcyfrowywaniu zapisków</profit>
 	</tal:feat>
 
@@ -446,59 +446,59 @@
 
 	<tal:feat type="general">
 		<name>Dmuchawka</name>
-		<requirements>Umiejętność: Kusza poziom 1</requirements>
+		<requirements>Umiejętność: Kusza 1</requirements>
 		<profit>Postać korzysta z dmuchawki bez kary -10</profit>
 		<normal>Bez tej zdolności skorzystanie z broni o takiej cesze wiąże się z karą -10 do wszystkich testów nią wykonywanych.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Dobór słów</name>
-		<requirements>Umiejętność: Perswazja poziom 5</requirements>
+		<requirements>Umiejętność: Perswazja 5</requirements>
 		<profit>Premia z synergii od perswazji dla zastraszania zwiększa się dwukrotnie</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Dobra bestia</name>
-		<requirements>Umiejętność: Tresura poziom 10, Zdolność: Specjalizacja (tresura)</requirements>
+		<requirements>Umiejętność: Tresura 10, Zdolność: Specjalizacja (tresura)</requirements>
 		<profit>Postać nie ponosi kary, gdy trenuje zwierzę z cechą <quote>bestia</quote></profit>
 		<normal>Kara przy tresowaniu bestii wynosi -10.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Dodatkowa akcja</name>
-		<requirements>Umiejętność: Inicjatywa poziom 20, Zdolność: Specjalizacja III (inicjatywa)</requirements>
+		<requirements>Umiejętność: Inicjatywa 20, Zdolność: Specjalizacja III (inicjatywa)</requirements>
 		<profit>Postać otrzymuje dodatkową akcję w każdej rundzie, która sumuje się z ilością innych dostępnych postaci akcji</profit>
 		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują. Za każdym razem wymagania umiejętności zwiększają się o 10 poziomów względem ostatniego wyboru.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Doskonalsza finta</name>
-		<requirements>Umiejętność: Inicjatywa poziom 1</requirements>
+		<requirements>Umiejętność: Inicjatywa 1</requirements>
 		<profit>Koszt w akcjach przeprowadzenia finty maleje do akcji dodatkowej</profit>
 		<normal>Finta wymaga poświęcenia akcji zwykłej prócz zwykłego testu ataku.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Dostęp do pożywienia</name>
-		<requirements>Umiejętność: Sztuka przetrwania poziom 20</requirements>
+		<requirements>Umiejętność: Sztuka przetrwania 20</requirements>
 		<profit>Każde dodatkowe +5 w teście zdobywania pożywienia ponad ST zapewnia ilość pożywienia dla dwóch przeciętnych ludzi</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Dowódca</name>
-		<requirements>Umiejętność: Wiedza (strategia) poziom 5</requirements>
+		<requirements>Umiejętność: Wiedza (strategia) 5</requirements>
 		<profit>Synergia z wiedzy (strategia) do dowodzenia rośnie dwukrotnie</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Dusiciel</name>
-		<requirements>Umiejętność: Zwarcie poziom 1</requirements>
+		<requirements>Umiejętność: Zwarcie 1</requirements>
 		<profit>Kiedy dusisz kogoś w zwarciu otrzymujesz premię do testu +5</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Dyskrecja</name>
-		<requirements>Atrybut: Inteligencja 12, Umiejętność: Plotkowanie poziom 15, Zdolność: Specjalizacja II (plotkowanie)</requirements>
+		<requirements>Atrybut: Inteligencja 12, Umiejętność: Plotkowanie 15, Zdolność: Specjalizacja II (plotkowanie)</requirements>
 		<profit>Kara za utrzymywanie dyskrecji przy lokalizowaniu ludzi i przedmiotów maleje o 10</profit>
 		<normal>Kara za zachowanie poufności co do osoby, która wypytuje o osoby i rzeczy wynosi -20.</normal>
 	</tal:feat>
@@ -511,7 +511,7 @@
 
 	<tal:feat type="general">
 		<name>Filozof</name>
-		<requirements>Umiejętność: Wiedza: Filozofia poziom 10</requirements>
+		<requirements>Umiejętność: Wiedza: Filozofia 10</requirements>
 		<profit>Premia z synergii z filozofii dla innych dziedzin wiedzy zwiększa się dwukrotnie</profit>
 		<special>Postać może wziąć tę zdolność wielokrotnie. Za każdym razem będzie ona zwiększała mnożnik synergii o 1, tj. przy drugim wzięciu synergia x3, przy trzecim synergia x4 itd. Każde kolejne wybranie tej zdolności wymaga wyższego poziomu umiejętności o 5 względem poprzedniego wybrania.</special>
 	</tal:feat>
@@ -523,31 +523,31 @@
 
 	<tal:feat type="general">
 		<name>Historia wojen</name>
-		<requirements>Umiejętność: Wiedza (strategia) poziom 5 oraz Wiedza (światowa) poziom 5</requirements>
+		<requirements>Umiejętność: Wiedza (strategia) 5, Wiedza (światowa) 5</requirements>
 		<profit>Wskazane w wymaganiach umiejętności działają synergicznie w przypadku testów wiedzy dotyczącej historii wojen, bitew i taktyki wojennej różnych ludów</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Inteligentne przeszukiwanie</name>
-		<requirements>Umiejętność: Przeszukiwanie poziom 1</requirements>
+		<requirements>Umiejętność: Przeszukiwanie 1</requirements>
 		<profit>Postać otrzymuje premię do przeszukiwania w wysokości 1/4 inteligencji</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Intuicyjna mana</name>
-		<requirements>Umiejętność: Intuicja poziom 10</requirements>
+		<requirements>Umiejętność: Intuicja 10</requirements>
 		<profit>Premia do many w wysokości 1/4 percepcji</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Intuicyjne dotarcie</name>
-		<requirements>Umiejętność: Intuicja poziom 5</requirements>
+		<requirements>Umiejętność: Intuicja 5</requirements>
 		<profit>Postać otrzymuje synergię z intuicji do prowokowania i zastraszania</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Intuicyjny unik</name>
-		<requirements>Umiejętność: Intuicja poziom 10 oraz Unik poziom 10, Zdolność: Błyskawiczny unik oraz Szósty zmysł</requirements>
+		<requirements>Umiejętność: Intuicja 10, Unik 10, Zdolność: Błyskawiczny unik, Szósty zmysł</requirements>
 		<profit>Jeżeli postaci udało się wyczuć zagrożenie, to będzie mogła wykonać jeden unik przeciwko najbliższemu atakującemu, nawet jeśli źródło niebezpieczeństwa pozostanie nieznane</profit>
 	</tal:feat>
 
@@ -559,7 +559,7 @@
 
 	<tal:feat type="general">
 		<name>Jazda na oklep</name>
-		<requirements>Umiejętność: Jeździectwo (dowolne) poziom 10, Zdolność: Specjalizacja (jeździectwo, to samo)</requirements>
+		<requirements>Umiejętność: Jeździectwo (dowolne) 10, Zdolność: Specjalizacja (jeździectwo, to samo)</requirements>
 		<profit>Postać nie otrzymuje kary do testów, za jazdę na nieosiodłanym wierzchowcu</profit>
 		<normal>Kara do testu za brak siodła wynosi -5.</normal>
 	</tal:feat>
@@ -580,39 +580,39 @@
 
 	<tal:feat type="general">
 		<name>Kanciarz</name>
-		<requirements>Umiejętność Zręczna dłoń poziom 10, Zdolność: Specjalizacja (zręczna dłoń)</requirements>
+		<requirements>Umiejętność Zręczna dłoń 10, Zdolność: Specjalizacja (zręczna dłoń)</requirements>
 		<profit>Postać nie otrzymuje kary do testu za to, że jest obserwowana podczas dokonywania hazardowych sztuczek, gdy korzysta ze zręcznej dłoni</profit>
 		<normal>Kara wynosi -1 za każdą postać, która obserwuje kantującego.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Kradzież na widoku</name>
-		<requirements>Umiejętność: Zręczna dłoń poziom 15, Zdolność: Specjalizacja II (zręczna dłoń)</requirements>
+		<requirements>Umiejętność: Zręczna dłoń 15, Zdolność: Specjalizacja II (zręczna dłoń)</requirements>
 		<profit>Gdy postać będąc uważnie obserwowana decyduje się na kradzież, to otrzymuje karę do testu umiejętności -10, miast -20</profit>
 		<normal>Kradzież kieszonkowa będąc pod uważną obserwacją jest możliwa z karą -20 do testu.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Krótki rozbieg</name>
-		<requirements>Umiejętność: Akrobatyka poziom 10</requirements>
+		<requirements>Umiejętność: Akrobatyka 10</requirements>
 		<profit>Postać nie musi brać rozbiegu, aby oddać normalny skok w dal</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Krzywda</name>
-		<requirements>Umiejętność: Zastraszanie poziom 5</requirements>
+		<requirements>Umiejętność: Zastraszanie 5</requirements>
 		<profit>Postać otrzymuje synergię z umiejętności zastraszanie do torturowania (umiejętność leczenia)</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Literatura</name>
-		<requirements>Umiejętność: Wiedza (światowa) poziom 5</requirements>
+		<requirements>Umiejętność: Wiedza (światowa) 5</requirements>
 		<profit>Postać otrzymuje synergię z umiejętności wiedza (światowa) do sztuki (pisanie)</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Łączone parowanie</name>
-		<requirements>Umiejętność: Władanie (tarcza) poziom 15</requirements>
+		<requirements>Umiejętność: Władanie (tarcza) 15</requirements>
 		<profit>Możesz wykorzystać 2x więcej akcji niż wymaga jedno parowanie tarczy i miast dwóch możliwych prób sparowania ataków w turze, mieć ich trzy</profit>
 	</tal:feat>
 
@@ -624,13 +624,13 @@
 
 	<tal:feat type="general">
 		<name>Markowany cios</name>
-		<requirements>Umiejętność: Perswazja poziom 5</requirements>
+		<requirements>Umiejętność: Perswazja 5</requirements>
 		<profit>Postać otrzymuje synergię z perswazji do finty, gdy atakuje</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Medyk</name>
-		<requirements>Umiejętność: Leczenie poziom 20</requirements>
+		<requirements>Umiejętność: Leczenie 20</requirements>
 		<profit>Pacjent przestaje krwawić od momentu w którym zaczynasz go opatrywać. Poza tym po udanym opatrywaniu od razu znika pacjentowi jedna rana, pod warunkiem, że opatruje się ją nie później jak dzień po powstaniu. Można zniwelować tylko jedną ranę w ten sposób na jednym pacjencie</profit>
 	</tal:feat>
 
@@ -643,14 +643,14 @@
 
 	<tal:feat type="general">
 		<name>Miejskie ślady</name>
-		<requirements>Umiejętność: Przeszukiwanie poziom 20</requirements>
+		<requirements>Umiejętność: Przeszukiwanie 20</requirements>
 		<profit>Postać staje się wyczulona na tropienie w mieście. ST tropienia na bruku, kamieniu, etc maleje do +20</profit>
 		<normal>ST odnalezienia śladu na bruku, kamieniu etc przy tropieniu rośnie o +40.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Mistrz broni półtora-ręcznej (władanie)</name>
-		<requirements>Atrybut: Siła 16, Umiejętność: Władanie (broń obuchowa, miecz, szabla lub topór) poziom 10, Zdolność: Specjalizacja (władanie, odpowiednio jak umiejętność)</requirements>
+		<requirements>Atrybut: Siła 16, Umiejętność: Władanie (broń obuchowa, miecz, szabla lub topór) 10, Zdolność: Specjalizacja (władanie, odpowiednio jak umiejętność)</requirements>
 		<profit>Kara do trafienia za korzystanie z broni półtora-ręcznej jedną ręką maleje do -5</profit>
 		<normal>Kara za korzystanie z broni półtora-ręcznej jedną ręką wynosi -10.</normal>
 		<special>Zdolność można wziąć cztery razy – raz dla każdej ze wskazanych umiejętności władania.</special>
@@ -658,64 +658,64 @@
 
 	<tal:feat type="general">
 		<name>Mistrz sideł</name>
-		<requirements>Atrybut: Zręczność 16, Umiejętność: Rozbrajanie mechanizmów poziom 15</requirements>
+		<requirements>Atrybut: Zręczność 16, Umiejętność: Rozbrajanie mechanizmów 15</requirements>
 		<profit>Czas zakładania pułapek maleje o 1/4</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Młyniec</name>
-		<requirements>Umiejętność: Władanie (broń obuchowa) poziom 20, Zdolność: Cios wiązany oraz Specjalizacja II (władanie, broń obuchowa) </requirements>
+		<requirements>Umiejętność: Władanie (broń obuchowa) 20, Zdolność: Cios wiązany, Specjalizacja II (władanie, broń obuchowa) </requirements>
 		<profit>Korzystając z ataku wielokrotnego postać miast atakować jednego przeciwnika może zdecydować się, że zaatakuje wszystkich dookoła niej korzystając z broni obuchowej. Dla każdego przeciwnika należy wykonać normalny test trafienia z modyfikatorami za atak wielokrotny</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Mocarny uchwyt</name>
-		<requirements>Umiejętność: Krzepa poziom 20</requirements>
+		<requirements>Umiejętność: Krzepa 20</requirements>
 		<profit>Jeżeli postać trzyma broń oburęcznie, to kategoria obrażeń zwiększa się o dwie</profit>
 		<normal>Uderzenie bronią trzymaną oburącz zwiększa kategorię obrażeń o jedną. Nie wszystkich broni można używać oburęcznie.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Mocna głowa</name>
-		<requirements>Umiejętność: Mocna głowa poziom 5</requirements>
+		<requirements>Umiejętność: Mocna głowa 5</requirements>
 		<profit>Postać otrzymuje synergię z umiejętności mocna głowa do wytrwałości na potrzeby opierania się efektom ataku oszałamiającego</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Mocno na nogach</name>
-		<requirements>Umiejętność: Zwarcie poziom 5</requirements>
+		<requirements>Umiejętność: Zwarcie 5</requirements>
 		<profit>Premia +4 do umiejętności zwarcie przeciw próbom obalenia</profit>
 		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują, ale każde kolejne wybranie tej zdolności wymaga wyższego poziomu umiejętności o 5 względem poprzedniego wybrania.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Mocno w dłoni</name>
-		<requirements>Umiejętność: Zwarcie poziom 5</requirements>
+		<requirements>Umiejętność: Zwarcie 5</requirements>
 		<profit>Premia +4 do umiejętności zwarcie przeciw próbom rozbrojenia</profit>
 		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują, ale każde kolejne wybranie tej zdolności wymaga wyższego poziomu umiejętności o 5 względem poprzedniego wybrania.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Nabyta gibkość</name>
-		<requirements>Umiejętność: Wspinaczka poziom 5</requirements>
+		<requirements>Umiejętność: Wspinaczka 5</requirements>
 		<profit>Postać otrzymuje synergię ze wspinaczki do akrobatyki</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Nabyta krzepkość</name>
-		<requirements>Umiejętność: Wspinaczka poziom 5</requirements>
+		<requirements>Umiejętność: Wspinaczka 5</requirements>
 		<profit>Postać otrzymuje synergię ze wspinaczki do krzepy</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Nabyta wyporność</name>
-		<requirements>Umiejętność: Wspinaczka poziom 5</requirements>
+		<requirements>Umiejętność: Wspinaczka 5</requirements>
 		<profit>Postać otrzymuje synergię ze wspinaczki do pływania</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Nabyta wytrzymałość</name>
-		<requirements>Umiejętność: Wspinaczka poziom 5</requirements>
+		<requirements>Umiejętność: Wspinaczka 5</requirements>
 		<profit>Postać otrzymuje synergię ze wspinaczki do wysiłku</profit>
 	</tal:feat>
 
@@ -741,7 +741,7 @@
 
 	<tal:feat type="general">
 		<name>Niestrudzony szał</name>
-		<requirements>Umiejętność: Wysiłek poziom 10, Zdolność: Berserk</requirements>
+		<requirements>Umiejętność: Wysiłek 10, Zdolność: Berserk</requirements>
 		<profit>Gdy berserk się kończy postać otrzymuje o 1 punkt zmęczenia mniej</profit>
 		<special>Zdolność można wziąć maksymalnie 5 razy zmniejszając zmęczenie wywołanie szałem bojowym do 1 punktu. Kolejne wzięcie tej zdolności zwiększa wymagania poziomów umiejętności o 5 względem ostatniego wzięcia.</special>
 	</tal:feat>
@@ -753,25 +753,25 @@
 
 	<tal:feat type="general">
 		<name>Nokaut</name>
-		<requirements>Umiejętność: Walka wręcz poziom 10</requirements>
+		<requirements>Umiejętność: Walka wręcz 10</requirements>
 		<profit>Każdy atak wręcz otrzymuje cechę broni: oszołomienie, co oznacza, że każde trafienie krytyczne liczy się jako próba oszołomienia</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Nurkowanie</name>
-		<requirements>Umiejętność: Pływanie poziom 5; Zdolność: Wstrzymanie oddechu</requirements>
+		<requirements>Umiejętność: Pływanie 5; Zdolność: Wstrzymanie oddechu</requirements>
 		<profit>Pływanie zapewnia synergię do wytrwałości na potrzeby obliczania czasu, jaki postać może przeżyć wstrzymując oddech</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Obalający cios</name>
-		<requirements>Atrybut: Siła 16; Umiejętność: Walka wręcz poziom 10</requirements>
+		<requirements>Atrybut: Siła 16; Umiejętność: Walka wręcz 10</requirements>
 		<profit>Każdy atak wręcz otrzymuje cechę broni: odrzut, co oznacza, że każde trafienie liczy się jako próba obalenia przeciwnika</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Obrona przed szarżą</name>
-		<requirements>Umiejętność: Władanie (broń drzewcowa) poziom 10</requirements>
+		<requirements>Umiejętność: Władanie (broń drzewcowa) 10</requirements>
 		<profit>Postać wykorzystująca broń drzewcową z cechą szarża do odparcia szarży wroga zadaje mu trzykrotnie większe obrażenia</profit>
 		<normal>Trafienie wroga, który szarżuje powoduje zadanie mu podwójnych obrażeń, jeżeli broń ma cechę szarża.</normal>
 	</tal:feat>
@@ -784,13 +784,13 @@
 
 	<tal:feat type="general">
 		<name>Oczy z tyłu głowy</name>
-		<requirements>Atrybut: Percepcja 16 lub Umiejętność: Spostrzegawczość poziom 20</requirements>
+		<requirements>Atrybut: Percepcja 16 lub Umiejętność: Spostrzegawczość 20</requirements>
 		<profit>Postać nie podlega karze do obrony, gdy jest flankowana</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Oddanie pola</name>
-		<requirements>Umiejętność: Unik poziom 1</requirements>
+		<requirements>Umiejętność: Unik 1</requirements>
 		<profit>Przy oddawaniu pola postać może przemieścić się na dowolne z sąsiadujących z nią pól</profit>
 		<normal>Oddawanie pola może wykonać tylko przy ruchu do tyłu.</normal>
 	</tal:feat>
@@ -809,64 +809,64 @@
 
 	<tal:feat type="general">
 		<name>Oko do fałszywek</name>
-		<requirements>Umiejętność: Fałszerstwo poziom 5</requirements>
+		<requirements>Umiejętność: Fałszerstwo 5</requirements>
 		<profit>Synergia z fałszerstwa do rozpoznawania fałszerstwa (umiejętność spostrzegawczości) rośnie dwukrotnie</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Okropne wrażenie</name>
-		<requirements>Umiejętność: Zastraszanie poziom 10</requirements>
+		<requirements>Umiejętność: Zastraszanie 10</requirements>
 		<profit>Jeżeli postać osiągnie sukces w teście sterroryzowania o 20 większy niż oponent może miast spowodowania punktów zmęczenia zechcieć, aby ofiara straciła przytomność z wrażenia na 1k4 minut</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Opatrywanie ran</name>
-		<requirements>Umiejętność: Leczenie poziom 5</requirements>
+		<requirements>Umiejętność: Leczenie 5</requirements>
 		<profit>Czas opatrywania ran zmniejsza się o połowę</profit>
 		<normal>Czas potrzebny do opatrzenia obrażeń to ok. 10 minut, a do opatrzenia każdej rany to 20 minut.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Oprawca</name>
-		<requirements>Umiejętność: Wiedza: alchemia poziom 5</requirements>
+		<requirements>Umiejętność: Wiedza: alchemia 5</requirements>
 		<profit>Synergia z alchemii dla torturowania wzrasta dwukrotnie</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Ostatnia szarża</name>
-		<requirements>Umiejętność: Dowodzenie poziom 30, Zdolność: Specjalizacja VI (dowodzenie)</requirements>
+		<requirements>Umiejętność: Dowodzenie 30, Zdolność: Specjalizacja VI (dowodzenie)</requirements>
 		<profit>Postać wzmacniając morale swego oddziału zdając test o ST=80 jest w stanie poprowadzić swych podkomendnych do boju przeciwko sile, która z całą pewnością wszystkich ich zabije, ale podczas walki z uwagi na wysokie morale będzie każdy z nich ignorować punkty zmęczenia i wyczerpania równe 1/4 poziomowi dowodzenia</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Ostrożne kroki</name>
-		<requirements>Atrybut: Refleks 12, Umiejętność: Przeszukiwanie poziom 1 oraz Ukrywanie się poziom 1</requirements>
+		<requirements>Atrybut: Refleks 12, Umiejętność: Przeszukiwanie 1, Ukrywanie się 1</requirements>
 		<profit>Postać zyskuje 15% szansy na to, że nie uruchomi pułapki, gdy na nią nastąpi, a która uruchamia się właśnie w taki sposób. Przy zdaniu tego testu postać zyskuje świadomość ryzyka uruchomienia pułapki</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Ostrożny atak</name>
-		<requirements>Umiejętność: Unik poziom 5 lub Władanie (tarcza) poziom 5</requirements>
+		<requirements>Umiejętność: Unik 5 lub Władanie (tarcza) 5</requirements>
 		<profit>Premia do parowania i uników przy korzystaniu z ostrożnego ataku rośnie o +2</profit>
 		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują. Każde kolejne wzięcie tej zdolności wymaga dodatkowych 5 poziomów umiejętności względem ostatniego wzięcia.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Oszałamiający atak</name>
-		<requirements>Atrybut: Inteligencja 12 lub Umiejętność: Leczenie poziom 1</requirements>
+		<requirements>Atrybut: Inteligencja 12 lub Umiejętność: Leczenie 1</requirements>
 		<profit>Jeżeli uda się Tobie spowodować oszołomienie przeciwnika, to będzie ono trwało o 4 rundy dłużej</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Oszczędna praca</name>
-		<requirements>Umiejętność: Praca (dowolna) poziom 20</requirements>
+		<requirements>Umiejętność: Praca (dowolna) 20</requirements>
 		<profit>Wszelkie wytwarzanie przedmiotów w wykonaniu postaci będzie zużywało o 1/4 mniej materiałów, ale tylko względem pracy, którą wybrała</profit>
 		<special>Zdolność można wziąć wielokrotnie. Za każdym razem będzie dotyczyła innej umiejętności pracy.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Oszołomienie</name>
-		<requirements>Umiejętność: Władanie (broń obuchowa) poziom 5</requirements>
+		<requirements>Umiejętność: Władanie (broń obuchowa) 5</requirements>
 		<profit>Każde trafienie krytyczne bronią obuchową należy uznawać dodatkowo jako próbę oszołomienia</profit>
 	</tal:feat>
 
@@ -878,70 +878,70 @@
 
 	<tal:feat type="general">
 		<name>Pewnie na nogach</name>
-		<requirements>Umiejętności: Akrobatyka poziom 5 oraz Zwarcie poziom 5</requirements>
+		<requirements>Umiejętności: Akrobatyka 5, Zwarcie 5</requirements>
 		<profit>Umiejętności akrobatyka i zwarcie działają na siebie synergicznie w testach zachowania równowagi, gdy postać unika obalenia</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Pierwsze uderzenie</name>
-		<requirements>Umiejętność: Inicjatywa poziom 1</requirements>
+		<requirements>Umiejętność: Inicjatywa 1</requirements>
 		<profit>W wypadku jednakowych wartości inicjatywy, to posiadacz tej zdolności rusza pierwszy. Ma przy tym pierwszeństwo przed postaciami Graczy jeżeli jest BN</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Pikowanie</name>
-		<requirements>Umiejętność: Jeździectwo (powietrzne) poziom 20</requirements>
+		<requirements>Umiejętność: Jeździectwo (powietrzne) 20</requirements>
 		<profit>Postać pikując na swym wierzchowcu zwiększa szybkość spadania o połowę</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Pływanie we wzburzonej wodzie</name>
-		<requirements>Umiejętność: Pływanie poziom 10, Zdolność: Specjalizacja (pływanie)</requirements>
+		<requirements>Umiejętność: Pływanie 10, Zdolność: Specjalizacja (pływanie)</requirements>
 		<profit>Kary za pływanie we wzburzonych wodach maleją dla postaci o 10</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Podcinanie</name>
-		<requirements>Umiejętność: Zwarcie poziom 1</requirements>
+		<requirements>Umiejętność: Zwarcie 1</requirements>
 		<profit>Premia +5 do testów zwarcia, gdy przewraca się oponenta</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Podstępny atak</name>
-		<requirements>Atrybut: Refleks 15, Umiejętność: Władanie (szabla) poziom 10, Zdolności: Błyskawiczna finta</requirements>
+		<requirements>Atrybut: Refleks 15, Umiejętność: Władanie (szabla) 10, Zdolności: Błyskawiczna finta</requirements>
 		<profit>Jeżeli postaci udała się finta i atakuje szablą, to może wykonać dwa ataki miast jednego, ale tylko pod warunkiem, że dzierżona szabla ma cechę szybka</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Posłuch</name>
-		<requirements>Atrybut: Charyzma 12, Umiejętność: Dowodzenie poziom 5</requirements>
+		<requirements>Atrybut: Charyzma 12, Umiejętność: Dowodzenie 5</requirements>
 		<profit>Sukces w teście posłuchu (umiejętność dowodzenia) sprawia, że każdy z podkomendnych przez czas działania posłuchu nabiera sympatii do dowódcy, co w języku mechaniki oznacza, że przesuwa się jego sympatia o jedną kategorię wyżej w kierunku oddania (patrz również perswazja)</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Potężny atak</name>
-		<requirements>Umiejętność: Krzepa poziom 5</requirements>
+		<requirements>Umiejętność: Krzepa 5</requirements>
 		<profit>Korzystając z potężnego uderzenia postać może zdecydować się na dodatkową karę -5 do trafienia i podnieść obrażenia o jedną kategorię</profit>
 		<special>Zdolność można wziąć wielokrotnie, a jej efekty się sumują. Za każdym kolejnym razem, gdy postać sięga po tę zdolność rosną wymagania: +5 do krzepy względem poprzedniego wybrania tej zdolności.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Powstań</name>
-		<requirements>Umiejętność: Akrobatyka poziom 5</requirements>
+		<requirements>Umiejętność: Akrobatyka 5</requirements>
 		<profit>Postać może powstać w akcji dodatkowej. Korzystając z takiego powstawania nie może jednak przemieścić się na zasięg 1/2 szybkości</profit>
 		<normal>Powstawanie wymaga akcji zwykłej, ale postać może przemieścić się na zasięg 1/2 szybkości.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Powstrzymanie krwawienia</name>
-		<requirements>Umiejętność: Leczenie poziom 1</requirements>
+		<requirements>Umiejętność: Leczenie 1</requirements>
 		<profit>Nawet pozbawiona opatrunków postać może spowolnić krwawienie ze swych czterokrotnie, jeżeli będzie skupiać na nich niemal całą swą uwagę. Oznacza to, że miast np. 1 punktu obrażeń od krwawienia w ciągu 10 minut postać będzie otrzymywała 1 punkt obrażeń w ciągu 40 minut</profit>
 		<normal>Postać może dwukrotnie spowolnić krwawienie.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Poznanie tajemne</name>
-		<requirements>Umiejętność: Wiedza (tajemna) poziom 5</requirements>
+		<requirements>Umiejętność: Wiedza (tajemna) 5</requirements>
 		<profit>Postać otrzymuje synergię z umiejętności wiedza (tajemna) do inteligencji liczonej na potrzeby poznawania języków tajemnych</profit>
 	</tal:feat>
 
@@ -953,13 +953,13 @@
 
 	<tal:feat type="general">
 		<name>Prowizorka</name>
-		<requirements>Wiedza (inżynieria) poziom 5</requirements>
+		<requirements>Wiedza (inżynieria) 5</requirements>
 		<profit>Postać otrzymuje synergię z inżynierii do sztuki przetrwania, gdy korzysta z tej umiejętności przy znalezieniu schronienia. Poza tym dzięki tej zdolności należy uwzględnić, że postać będzie zdolna zastosować przy znalezieniu schronienia dość nietypowe materiały, które będą zamiennikami, gdy tylko nie uda się jej odnaleźć tych właściwych</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Przejrzenie ataku</name>
-		<requirements>Umiejętność: Spostrzegawczość poziom 5</requirements>
+		<requirements>Umiejętność: Spostrzegawczość 5</requirements>
 		<profit>Postać otrzymuje synergię ze spostrzegawczości do testu spornego wykorzystywanego do obrony przed fintą</profit>
 	</tal:feat>
 
@@ -972,40 +972,40 @@
 
 	<tal:feat type="general">
 		<name>Przyśpieszone pogaduchy</name>
-		<requirements>Umiejętność: Plotkowanie poziom 10</requirements>
+		<requirements>Umiejętność: Plotkowanie 10</requirements>
 		<profit>Minimalny czas poświęcony na zbieranie plotek maleje o godzinę</profit>
 		<normal>Rozeznanie się w plotkach trwa ok. 3 godzin.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Rewizja</name>
-		<requirements>Umiejętność: Zręczna dłoń poziom 5</requirements>
+		<requirements>Umiejętność: Zręczna dłoń 5</requirements>
 		<profit>Postać otrzymuje synergię ze zręcznej dłoni do testu przeszukiwania wykorzystywanego w celu odnalezienia ukrytych przy ciele przedmiotów</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Riposta (władanie)</name>
-		<requirements>Atrybut: Refleks 16; Umiejętność: Władanie (miecz lub szabla) poziom 20</requirements>
+		<requirements>Atrybut: Refleks 16; Umiejętność: Władanie (miecz lub szabla) 20</requirements>
 		<profit>Raz w turze, gdy uda Ci się sparować atak przeciwnika za pomocą miecza lub odpowiednio szabli możesz spróbować zaatakować go tą samą bronią, którą parowałeś pod warunkiem, że ma ona cechę szybka. Wykonujesz test ataku z modyfikatorem -10. Nie można łączyć riposty z błyskawicznym parowaniem, ani z cechą broni szybkie parowanie</profit>
 		<special>Zdolność można wziąć dwukrotnie – dla miecza i dla szabli.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Rozkaz</name>
-		<requirements>Umiejętność: Dowodzenie poziom 15, Zdolność: Specjalizacja II (dowodzenie)</requirements>
+		<requirements>Umiejętność: Dowodzenie 15, Zdolność: Specjalizacja II (dowodzenie)</requirements>
 		<profit>Kara za większą ilość podkomendnych maleje o 10, tzn. dla 11 podkomendnych postać wydaje rozkazy bez żadnej kary</profit>
 		<normal>Kara za każdego podkomendnego więcej niż jednego wynosi -1.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Rozbrojenie</name>
-		<requirements>Umiejętność: Władanie (szabla) poziom 5</requirements>
+		<requirements>Umiejętność: Władanie (szabla) 5</requirements>
 		<profit>Umiejętność władania (szabla) działa synergicznie z testem zwarcia wykorzystywanym do rozbrojenia przeciwnika, ale tylko, gdy postać rozbraja przeciwnika korzystając do tego z szabli</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Rozwinięcie atrybutu z (umiejętność)</name>
-		<requirements>Umiejętność (dowolna) poziom 20</requirements>
+		<requirements>Umiejętność (dowolna) 20</requirements>
 		<profit>Premia +1 do atrybutu na bazie którego wykonuje się test wybranej umiejętności</profit>
 		<special>Można tę zdolność wybierać wielokrotnie. Za każdym razem będzie dotyczyła innej umiejętności albo tej samej, ale w tym drugim wypadku wymagania poziomu wzrastają o 10 względem ostatniego wyboru.</special>
 	</tal:feat>
@@ -1023,21 +1023,21 @@
 
 	<tal:feat type="general">
 		<name>Siła berserka</name>
-		<requirements>Umiejętność: Krzepa poziom 5, Zdolność: Berserk</requirements>
+		<requirements>Umiejętność: Krzepa 5, Zdolność: Berserk</requirements>
 		<profit>Modyfikator do siły zwiększa się dodatkowo o +2, gdy postać wpadnie w Berserk</profit>
 		<special>Zdolność można wziąć wiele razy, a jej efekty się sumują. Za każdym kolejnym razem postać musi mieć o 5 poziomów umiejętności więcej niż przy poprzednim wzięciu tej zdolności.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Skok w dal</name>
-		<requirements>Umiejętność: Akrobatyka poziom 15, Zdolność: Specjalizacja II (akrobatyka)</requirements>
+		<requirements>Umiejętność: Akrobatyka 15, Zdolność: Specjalizacja II (akrobatyka)</requirements>
 		<profit>Postaci nie obowiązuje limit +5m przy zwiększaniu odległości skoku. Każdy kolejny metr wymaga +10 w teście umiejętności akrobatyka</profit>
 		<normal>Postać osiągając wynik 50+ zwiększa odległość skoku o +5m.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Skok wzwyż</name>
-		<requirements>Umiejętność: Akrobatyka poziom 15, Zdolność: Specjalizacja II (akrobatyka)</requirements>
+		<requirements>Umiejętność: Akrobatyka 15, Zdolność: Specjalizacja II (akrobatyka)</requirements>
 		<profit>Postaci nie obowiązuje limit +1,5m przy zwiększaniu wysokości skoku. Każdy kolejne 0,5m wymaga +20 w teście umiejętności akrobatyka</profit>
 		<normal>Postać osiągając wynik 50+ zwiększa wysokość skoku o +1,5m.</normal>
 	</tal:feat>
@@ -1061,7 +1061,7 @@
 
 	<tal:feat type="general">
 		<name>Skrytość śledzenia</name>
-		<requirements>Umiejętność: Intuicja poziom 5 oraz Ukrywanie się poziom 1</requirements>
+		<requirements>Umiejętność: Intuicja 5, Ukrywanie się 1</requirements>
 		<profit>Postać otrzymuje synergię z intuicji do testu śledzenia (umiejętność ukrywania się)</profit>
 	</tal:feat>
 
@@ -1073,14 +1073,14 @@
 
 	<tal:feat type="general">
 		<name>Skupienie obrażeń (władanie)</name>
-		<requirements>Umiejętność: Władanie (dowolna broń do ataków bezpośrednich) poziom 10</requirements>
+		<requirements>Umiejętność: Władanie (dowolna broń do ataków bezpośrednich) 10</requirements>
 		<profit>Postać korzystając z danej broni zadaje obrażenia większe o jedną kategorię</profit>
 		<special>Można tę zdolność wybierać wielokrotnie zarówno dla kilku, jak i jednego rodzaju broni. Przy tym ostatnim każde kolejne wzięcie tej zdolności wymaga dodatkowych 10 poziomów umiejętności względem poprzedniego wzięcia zdolności.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Specjalizacja (umiejętność)</name>
-		<requirements>Umiejętność (dowolna) poziom 5</requirements>
+		<requirements>Umiejętność (dowolna) 5</requirements>
 		<profit>Premia +2 do wybranej umiejętności</profit>
 		<special>Można tę zdolność wybierać wielokrotnie. Za każdym razem będzie dotyczyła innej umiejętności albo tej samej, ale w tym drugim wypadku wymagania poziomu wzrastają o 5 względem ostatniego wyboru.</special>
 	</tal:feat>
@@ -1098,96 +1098,96 @@
 
 	<tal:feat type="general">
 		<name>Sprytna finta</name>
-		<requirements>Umiejętność: Prowokowanie poziom 15</requirements>
+		<requirements>Umiejętność: Prowokowanie 15</requirements>
 		<profit>Premia +1/4 percepcji do testu finty, gdy postać atakuje przeciwnika</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Spryt dowódczy</name>
-		<requirements>Umiejętność: Dowodzenie poziom 1</requirements>
+		<requirements>Umiejętność: Dowodzenie 1</requirements>
 		<profit>Premia w wysokości 1/4 inteligencji do testów dowodzenia</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Strzał z kuszy</name>
-		<requirements>Umiejętność: Władanie (kusza) poziom 10</requirements>
+		<requirements>Umiejętność: Władanie (kusza) 10</requirements>
 		<profit>Obrażenia zadawane przez kuszę są większe o 10%, gdy cel znajduje się w zasięgu 10m</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Synchroniczny atak</name>
-		<requirements>Atrybut: Refleks 14; Zdolność: Walka dwoma broniami V</requirements>
+		<requirements>Atrybut: Refleks 14; Zdolność: Walka dwiema broniami V</requirements>
 		<profit>Premia +5 do testu trafienia jedną z broni wykorzystywanej przy ataku dwiema broniami</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Szarża konna</name>
-		<requirements>Umiejętność: Jeździectwo (konne) poziom 10</requirements>
+		<requirements>Umiejętność: Jeździectwo (konne) 10</requirements>
 		<profit>Obrażenia będące efektem uderzenia po szarży konnej są większe o jedną kategorię</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Sztyletowanie</name>
-		<requirements>Umiejętność: Władanie (sztylet) poziom 10</requirements>
+		<requirements>Umiejętność: Władanie (sztylet) 10</requirements>
 		<profit>Jeżeli uda Ci się trafić przeciwnika przy akcji zabójstwa za pomocą sztyletu, to mnożnik obrażeń rośnie do 20x</profit>
 		<normal>Udane trafienie przeciwnika przy zabójstwie powoduje mnożnik x10 obrażeń.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Szybka praca</name>
-		<requirements>Umiejętność: Praca (dowolna) poziom 20 lub Fałszerstwo poziom 20</requirements>
+		<requirements>Umiejętność: Praca (dowolna) 20 lub Fałszerstwo 20</requirements>
 		<profit>Wszelkie wytwarzanie przedmiotów w wykonaniu postaci jest szybsze o 1/4, ale tylko względem pracy (lub fałszerstwa), którą wybrała</profit>
 		<special>Zdolność można wziąć wielokrotnie. Za każdym razem będzie dotyczyła innej umiejętności pracy albo fałszerstwa.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Szybka tresura</name>
-		<requirements>Umiejętność: Tresura poziom 10</requirements>
+		<requirements>Umiejętność: Tresura 10</requirements>
 		<profit>Czas wymagany do nauczenia zwierzęcia odpowiedniego polecenia maleje o 1/4</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Szybkie ładowanie</name>
-		<requirements>Umiejętność: Władanie (kusza lub łuk) poziom 5</requirements>
+		<requirements>Umiejętność: Władanie (kusza lub łuk) 5</requirements>
 		<profit>Czas załadowania broni amunicją zmniejsza się o akcję zwykłą</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Szybkie maskowanie śladów</name>
-		<requirements>Umiejętność: Sztuka przetrwania poziom 15, Zdolność: Specjalizacja II (sztuka przetrwania)</requirements>
+		<requirements>Umiejętność: Sztuka przetrwania 15, Zdolność: Specjalizacja II (sztuka przetrwania)</requirements>
 		<profit>Postać nie ponosi kary -10, gdy maskuje ślady poruszając się z normalną szybkością, a nie ostrożną</profit>
 		<normal>Maskowanie śladów połączone z przemieszczaniem się z szybkością większą niż przy ostrożnym ruchu oznacza karę -10 do testów.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Szybkie pływanie</name>
-		<requirements>Umiejętność: Pływanie poziom 10, Zdolność: Specjalizacja (pływanie)</requirements>
+		<requirements>Umiejętność: Pływanie 10, Zdolność: Specjalizacja (pływanie)</requirements>
 		<profit>Postać otrzymuje synergię z pływania do szybkości, ale tylko przy płynięciu wpław</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Szybkie przejście bez śladu</name>
-		<requirements>Umiejętność: Ukrywanie się poziom 15, Zdolność: Specjalizacja II (ukrywanie się)</requirements>
+		<requirements>Umiejętność: Ukrywanie się 15, Zdolność: Specjalizacja II (ukrywanie się)</requirements>
 		<profit>Postać nie ponosi kary -10, gdy w sposób porusza się z normalną szybkością, ale w taki sposób, aby nie zostawiać za sobą śladów. Normalnie: Postać ponosi karę -10 do testów ukrywania się, gdy porusza się z normalną szybkością, ale w taki sposób, aby nie pozostawiać za sobą śladów</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Szybkie przeszukiwanie</name>
-		<requirements>Umiejętność: Przeszukiwanie poziom 15, Zdolność: Specjalizacja II (przeszukiwanie)</requirements>
+		<requirements>Umiejętność: Przeszukiwanie 15, Zdolność: Specjalizacja II (przeszukiwanie)</requirements>
 		<profit>Postać nie ponosi kary -10, gdy w sposób błyskawiczny chce przeszukać obiekt lub miejsce. Takie przeszukiwanie i tak zajmie minutę</profit>
 		<normal>Postać ponosi karę -10 do testów przeszukiwania, gdy nie poświęca na nie przynajmniej 10 minut.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Szybkie tropienie</name>
-		<requirements>Umiejętność: Przeszukiwanie poziom 15, Zdolność: Specjalizacja II (przeszukiwanie)</requirements>
+		<requirements>Umiejętność: Przeszukiwanie 15, Zdolność: Specjalizacja II (przeszukiwanie)</requirements>
 		<profit>Postać nie ponosi kary -10, gdy tropi poruszając się z normalną szybkością</profit>
 		<normal>Postać ponosi karę -10 do testów tropienia (przeszukiwania), gdy nie porusza się z połową swej szybkości.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Szybkie wspinanie</name>
-		<requirements>Umiejętność: Wspinanie poziom 10, Zdolność: Specjalizacja (wspinanie)</requirements>
+		<requirements>Umiejętność: Wspinanie 10, Zdolność: Specjalizacja (wspinanie)</requirements>
 		<profit>Postać otrzymuje synergię ze wspinania do szybkości, ale tylko przy wykorzystaniu wspinania się</profit>
 	</tal:feat>
 
@@ -1200,26 +1200,26 @@
 
 	<tal:feat type="general">
 		<name>Szybkie wyciągnięcie w zwarciu</name>
-		<requirements>Zdolność: Szybkie wyciągnięcie oraz Zapasy</requirements>
+		<requirements>Zdolność: Szybkie wyciągnięcie, Zapasy</requirements>
 		<profit>Raz w turze postać może wyciągnąć jakiś przedmiot będąc w zwarciu w akcji darmowej. Tj. postać nie musi poświęcać akcji dodatkowej na przeprowadzenie testu zwarcia oraz akcji dodatkowej na to, aby czegoś dobyć</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Szybkie zdobywanie pożywienia</name>
-		<requirements>Umiejętność: Sztuka przetrwania poziom 15, Zdolność: Specjalizacja (sztuka przetrwania)</requirements>
+		<requirements>Umiejętność: Sztuka przetrwania 15, Zdolność: Specjalizacja (sztuka przetrwania)</requirements>
 		<profit>Postać nie ponosi kary -10 do testów zdobywania pożywania (umiejętności sztuka przetrwania), gdy podróżuje z połową swej szybkości</profit>
 		<normal>Postać podróżując z połową szybkości otrzymuje modyfikator -10 do testów zdobywania pożywienia.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Szybkie znajdowanie pułapek</name>
-		<requirements>Umiejętność: Przeszukiwanie poziom 15, Zdolność: Specjalizacja II (przeszukiwanie)</requirements>
+		<requirements>Umiejętność: Przeszukiwanie 15, Zdolność: Specjalizacja II (przeszukiwanie)</requirements>
 		<profit>Postać nie ponosi kary -10, gdy wyszukuje pułapek i sekretnych drzwi dzięki umiejętności przeszukiwanie poruszając się z normalną szybkością, a nie ostrożną</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Szybki atak (władanie)</name>
-		<requirements>Atrybut: Refleks 16, Umiejętność: Władanie (miecz, rzucana, sztylet lub topór) poziom 10, Zdolność: Specjalizacja (władanie, odpowiednio jak umiejętność) albo Umiejętność: Walka wręcz, Zdolność: Specjalizacja (walka wręcz)</requirements>
+		<requirements>Atrybut: Refleks 16, Umiejętność: Władanie (miecz, rzucana, sztylet lub topór) 10, Zdolność: Specjalizacja (władanie, odpowiednio jak umiejętność) albo Umiejętność: Walka wręcz, Zdolność: Specjalizacja (walka wręcz)</requirements>
 		<profit>Postać potrzebuje tylko akcji dodatkowej na wykonanie ataku za pomocą broni z cechą lekka</profit>
 		<normal>Atak wymaga poświecenia akcji zwykłej.</normal>
 		<special>Zdolność można wziąć pięć razy – raz dla każdej ze wskazanych umiejętności władania oraz raz dla walki wręcz.</special>
@@ -1227,53 +1227,53 @@
 
 	<tal:feat type="general">
 		<name>Szybko i cicho</name>
-		<requirements>Umiejętność: Ukrywanie się poziom 15, Zdolność: Specjalizacja II (ukrywanie)</requirements>
+		<requirements>Umiejętność: Ukrywanie się 15, Zdolność: Specjalizacja II (ukrywanie)</requirements>
 		<profit>Postać nie ponosi kary -10, gdy skrada się (umiejętność ukrywania się) z normalną szybkością, a nie ostrożną</profit>
 		<normal>Skradanie się szybkością większą niż przy ostrożnym ruchu oznacza karę -10 do testów.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Szybko i niezauważenie</name>
-		<requirements>Umiejętność: Ukrywania się poziom 15, , Zdolność: Specjalizacja II (ukrywanie)</requirements>
+		<requirements>Umiejętność: Ukrywania się 15, , Zdolność: Specjalizacja II (ukrywanie)</requirements>
 		<profit>Postać nie ponosi kary -10, gdy ukrywa się i przemieszcza (umiejętność ukrywania się) z połową szybkości</profit>
 		<normal>Jeżeli postać przemieszcza się z połową szybkości podczas ukrycia, to podlega modyfikatorowi -10 do testu. Gdy porusza się ze swą szybkością otrzymuje modyfikator -20. Bieg połączony z ukryciem automatycznie kończy porażką to drugie.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Szybko i wysoko</name>
-		<requirements>Umiejętność: Wspinaczka poziom 15, Zdolność: Specjalizacja II (wspinaczka)</requirements>
+		<requirements>Umiejętność: Wspinaczka 15, Zdolność: Specjalizacja II (wspinaczka)</requirements>
 		<profit>Postać nie ponosi kary -10, gdy wspina się na wysokość równą 1/2 szybkości</profit>
 		<normal>Postać w ciągu rundy wspina się na wysokość równą 1/4 szybkości (w metrach). Postać aby pokonać odległość równą 1/2 szybkości w ciągu rundy podlega modyfikatorowi -10 do testu.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Taniec mieczy</name>
-		<requirements>Umiejętność: Władanie (miecz) poziom 20, Zdolność: Cios wiązany oraz Specjalizacja II (władanie, miecz) </requirements>
+		<requirements>Umiejętność: Władanie (miecz) 20, Zdolność: Cios wiązany, Specjalizacja II (władanie, miecz) </requirements>
 		<profit>Korzystając z ataku wielokrotnego postać miast atakować jednego przeciwnika może zdecydować się, że zaatakuje wszystkich dookoła niej korzystając z miecza. Dla każdego przeciwnika należy wykonać normalny test trafienia z modyfikatorami za atak wielokrotny</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Targowanie</name>
-		<requirements>Umiejętność: Perswazja poziom 5</requirements>
+		<requirements>Umiejętność: Perswazja 5</requirements>
 		<profit>Wygranie w teście targowania (umiejętność perswazji) jest korzystniejsze dla postaci nie o 10%, lecz 20%</profit>
 		<normal>Nie można obniżyć ceny towaru kupowanego o więcej jak 10% i zwiększyć ceny towaru sprzedawanego o więcej jak 10%. Gdy to się bowiem robi kontrahent od razu odmawia dalszych negocjacji.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Teoria walki</name>
-		<requirements>Atrybut: Percepcja 14, Umiejętność: Wiedza (strategia) poziom 20</requirements>
+		<requirements>Atrybut: Percepcja 14, Umiejętność: Wiedza (strategia) 20</requirements>
 		<profit>Postać otrzymuje synergię z wiedzy (strategia) do wszystkich umiejętności władania, inicjatywy, uniku, walki wręcz, zwarcia i jeździectwa</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Tratowanie</name>
-		<requirements>Umiejętność: Jeździectwo (bestia lub konne) poziom 10</requirements>
+		<requirements>Umiejętność: Jeździectwo (bestia lub konne) 10</requirements>
 		<profit>Postać dokonując szarży łączonej z obalaniem jadąc na bestii lub koniu otrzymuje synergię do wyniku testu równą synergii z odpowiedniego jeździectwa</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Tropienie</name>
-		<requirements>Umiejętność: Sztuka przetrwania poziom 5</requirements>
+		<requirements>Umiejętność: Sztuka przetrwania 5</requirements>
 		<profit>Premia z synergii od sztuki przetrwania dla tropienia (umiejętność przeszukiwania) zwiększa się dwukrotnie</profit>
 	</tal:feat>
 
@@ -1297,13 +1297,13 @@
 
 	<tal:feat type="general">
 		<name>Unikanie ciosów</name>
-		<requirements>Atrybut: Percepcja 12, Umiejętność: Walka wręcz poziom 5</requirements>
+		<requirements>Atrybut: Percepcja 12, Umiejętność: Walka wręcz 5</requirements>
 		<profit>Postać otrzymuje synergię z umiejętności walka wręcz do uniku, ale tylko wtedy, gdy jest atakowana za pomocą walki wręcz</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Unikanie trafień</name>
-		<requirements>Umiejętność: Unik poziom 5</requirements>
+		<requirements>Umiejętność: Unik 5</requirements>
 		<profit>Postać otrzymuje synergię z umiejętności unik do obrony fizycznej</profit>
 	</tal:feat>
 
@@ -1321,14 +1321,14 @@
 
 	<tal:feat type="general">
 		<name>Walka dwiema broniami</name>
-		<requirements>Atrybut: Siła 12 oraz Zręczność 12</requirements>
+		<requirements>Atrybut: Siła 12, Zręczność 12</requirements>
 		<profit>Kara do testu za atak dwiema broniami maleje o 2</profit>
 		<special>Zdolność można wziąć 5 razy w efekcie czego niwelując zupełnie karę za atak dwiema broniami.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Walka na pięści</name>
-		<requirements>Umiejętność: Zręczna dłoń poziom 5</requirements>
+		<requirements>Umiejętność: Zręczna dłoń 5</requirements>
 		<profit>Postać otrzymuje synergię ze zręcznej dłoni do walki wręcz</profit>
 	</tal:feat>
 
@@ -1340,7 +1340,7 @@
 
 	<tal:feat type="general">
 		<name>Wciskanie fałszywki</name>
-		<requirements>Umiejętność: Fałszerstwo poziom 1 oraz Perswazja poziom 5</requirements>
+		<requirements>Umiejętność: Fałszerstwo 1, Perswazja 5</requirements>
 		<profit>Postać, gdy posługuje się osobiście wykonaną fałszywką otrzymuje premię do testu fałszerstwa, ale tylko względem rozpoznania fałszywki przez inne osoby równą synergii z perswazji. Premia działa tylko, gdy postać jest w stanie porozmawiać z osobą, którą próbuje oszukać za pomocą fałszywki</profit>
 	</tal:feat>
 
@@ -1387,13 +1387,13 @@
 
 	<tal:feat type="general">
 		<name>Wgląd w reakcję</name>
-		<requirements>Umiejętność: Intuicja poziom 5</requirements>
+		<requirements>Umiejętność: Intuicja 5</requirements>
 		<profit>Postać otrzymuje synergię z intuicji do diagnozowania i torturowania (umiejętności leczenia)</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Władczość</name>
-		<requirements>Umiejętność: Dowodzenie poziom 10</requirements>
+		<requirements>Umiejętność: Dowodzenie 10</requirements>
 		<profit>Synergia z dowodzenia do perswazji i zastraszania wzrasta dwukrotnie</profit>
 	</tal:feat>
 
@@ -1406,7 +1406,7 @@
 
 	<tal:feat type="general">
 		<name>Wprawione oko</name>
-		<requirements>Umiejętność: Spostrzegawczość poziom 5, Zdolność: Precyzyjny strzał</requirements>
+		<requirements>Umiejętność: Spostrzegawczość 5, Zdolność: Precyzyjny strzał</requirements>
 		<profit>Postać otrzymuje synergię ze spostrzegawczości do władania (kusza) oraz władania (łuk)</profit>
 	</tal:feat>
 
@@ -1419,25 +1419,25 @@
 
 	<tal:feat type="general">
 		<name>Wyciąganie wieści</name>
-		<requirements>Umiejętność: Perswazja poziom 10</requirements>
+		<requirements>Umiejętność: Perswazja 10</requirements>
 		<profit>Postać otrzymuje synergię z perswazji do plotkowania</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Wyczucie nastroju grupy</name>
-		<requirements>Umiejętność: Intuicja poziom 5</requirements>
+		<requirements>Umiejętność: Intuicja 5</requirements>
 		<profit>Postać otrzymuje synergię z intuicji do dowodzenia i plotkowania</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Wyczucie zwierzęcia</name>
-		<requirements>Umiejętność: Intuicja poziom 5</requirements>
+		<requirements>Umiejętność: Intuicja 5</requirements>
 		<profit>Postać otrzymuje synergię z intuicji do jeździectwa i tresury</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Wykorzystanie wytrychów</name>
-		<requirements>Umiejętność: Rozbrajanie mechanizmów poziom 10</requirements>
+		<requirements>Umiejętność: Rozbrajanie mechanizmów 10</requirements>
 		<profit>Wytrychy niszczą się dopiero, gdy postaci zabraknie 5 lub więcej punktów w teście otwierania zamków, gdy korzysta z umiejętności rozbrajania mechanizmów</profit>
 		<normal>Porażka w teście niszczy wytrychy.</normal>
 	</tal:feat>
@@ -1450,13 +1450,13 @@
 
 	<tal:feat type="general">
 		<name>Wymuszenie</name>
-		<requirements>Umiejętność: Zastraszanie poziom 10</requirements>
+		<requirements>Umiejętność: Zastraszanie 10</requirements>
 		<profit>Czas działania wymuszenia na ofiarę działa dwa razy dłużej</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Wyślizgnięcie ze zwarcia</name>
-		<requirements>Umiejętność: Akrobatyka poziom 5</requirements>
+		<requirements>Umiejętność: Akrobatyka 5</requirements>
 		<profit>Postać wychodząc ze zwarcia otrzymuje do testu zwarcia synergię z akrobatyki</profit>
 	</tal:feat>
 
@@ -1469,13 +1469,13 @@
 
 	<tal:feat type="general">
 		<name>Wytwarzanie</name>
-		<requirements>Umiejętność: Wiedza (inżynieria) poziom 5</requirements>
+		<requirements>Umiejętność: Wiedza (inżynieria) 5</requirements>
 		<profit>Postać zyskuje synergię z wiedzy (inżynieria) do wszystkich umiejętności prac w których się coś wytwarza oraz fałszerstwa</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Zaawansowana naprawa</name>
-		<requirements>Umiejętność: Praca (dowolna) poziom 5</requirements>
+		<requirements>Umiejętność: Praca (dowolna) 5</requirements>
 		<profit>Możesz naprawić przedmiot o jedną kategorię więcej razy w wariancie rzemiosła, którego wymagania są spełnione i do którego wybrano zdolność</profit>
 		<normal>Niezależnie od stopnia jakości bazowej i aktualnego zniszczenia przedmiotu można go naprawić tylko o jeden stopnień.</normal>
 		<special>Zdolność można wziąć 5 razy, a jej efekty kumulują się ze sobą (5ty raz sprawi, że przedmiot całkowicie zniszczony zostanie przywrócony do mistrzowskiej jakości). Każde kolejne sięgnięcie po tę zdolność wymaga 5 poziomów umiejętności pracy więcej niż poprzednim razem. Zdolność można wziąć również wielokrotnie dla różnych rodzajów rzemiosła.</special>
@@ -1483,105 +1483,105 @@
 
 	<tal:feat type="general">
 		<name>Zabójczy strzał</name>
-		<requirements>Umiejętność: Władanie (łuk) poziom 30, Zdolność: Precyzyjny strzał</requirements>
+		<requirements>Umiejętność: Władanie (łuk) 30, Zdolność: Precyzyjny strzał</requirements>
 		<profit>Przy trafieniu w ciało przeciwnika przy ataku łukiem zadajesz podwójne obrażenia. Ewentualne trafienie krytyczne daje dodatkowy mnożnik. Cel ataku dystansowego musi być w zasięgu 10 metrów</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Zagadanie</name>
-		<requirements>Umiejętność: Prowokacja poziom 15</requirements>
+		<requirements>Umiejętność: Prowokacja 15</requirements>
 		<profit>Skuteczne zagadanie sprawi, że oponent postaci otrzyma karę -20 do testów spostrzegawczości</profit>
 		<normal>Zagadany otrzymuje karę -10 do testów spostrzegawczości.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Zapasy</name>
-		<requirements>Umiejętność: Zwarcie poziom 5</requirements>
+		<requirements>Umiejętność: Zwarcie 5</requirements>
 		<profit>Wszystkie akcje w zwarciu, które wymagają poświęcenia akcji zwykłej wymagają teraz poświecenia akcji dodatkowej. Nie dotyczy to wykorzystania ataku podczas zwarcia</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Zasłyszane informacje</name>
-		<requirements>Umiejętność: Plotkowanie poziom 5</requirements>
+		<requirements>Umiejętność: Plotkowanie 5</requirements>
 		<profit>Postać otrzymuje synergię z plotkowania do znajomości (każdej)</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Zdobycie opatrunków</name>
-		<requirements>Umiejętność: Leczenie poziom 1 oraz Sztuka przetrwania poziom 1</requirements>
+		<requirements>Umiejętność: Leczenie 1, Sztuka przetrwania 1</requirements>
 		<profit>Postać zdając test zdobycia pożywienia w danej okolicy i poświęcając 15 minut znajduje rzeczy nadające się na jeden fatalny opatrunek. Osiągając w teście wynik o 10 większy niż ST postać zdobywa kiepski opatrunek, a przy wyniku o 20 większym od ST opatrunek o jakości średniej</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Zdrowa dieta</name>
-		<requirements>Umiejętność: Leczenie poziom 10 oraz Wiedza (alchemia) poziom 10</requirements>
+		<requirements>Umiejętność: Leczenie 10, Wiedza (alchemia) 10</requirements>
 		<profit>Postać za każdym razem, kiedy przez 3 dni będzie jadała dobre lub lepsze jedzenie oraz zachowywała się zgodnie z zasadami higieny zyska modyfikator +2k10 do punktów życia oraz synergię z powyższych umiejętności do wytrwałości przy opieraniu się efektom chorób, które jeszcze nie zaatakowały organizmu. Modyfikator ten zniknie, gdy postać nie będzie w stanie odpowiednio się odżywiać lub nadwątli swą higienę. Test dodatkowych punktów życia należy wykonywać codziennie od 3 dnia zdrowej diety. Wiedzą tą postać nie może dzielić się z innymi, gdyż jest rodzaj rygoru adekwatnego przy każdym działaniu</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Zeskakiwanie z wysoka</name>
-		<requirements>Umiejętność: Akrobatyka poziom 15, Zdolność: Specjalizacja II (akrobatyka)</requirements>
+		<requirements>Umiejętność: Akrobatyka 15, Zdolność: Specjalizacja II (akrobatyka)</requirements>
 		<profit>Postaci nie obowiązuje limit 5m przy redukowaniu wysokości upadku. Każdy kolejny metr wymaga +10 w teście umiejętności akrobatyka</profit>
 		<normal>Postać osiągając wynik 50+ niweluje tylko 5m wysokości.</normal>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Zielarstwo</name>
-		<requirements>Umiejętność: Wiedza (alchemia) poziom 5</requirements>
+		<requirements>Umiejętność: Wiedza (alchemia) 5</requirements>
 		<profit>Postać otrzymuje synergię z wiedzy (alchemia) do sztuki przetrwania, gdy korzysta z tej umiejętności przy znajdowaniu ziół etc. Poza tym premia ta działa również wtedy, gdy postać poszukuje pożywienia</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Zmysł włamywacza</name>
-		<requirements>Umiejętność: Wiedza: inżynieria poziom 15</requirements>
+		<requirements>Umiejętność: Wiedza: inżynieria 15</requirements>
 		<profit>Postać pozbawiona dostępu do materiałów na wytrychy może takowe stworzy w zasadzie z najdziwniejszych rzeczy np. utwardzanego na ślinę piasku. Potrzebuje na to od 1 do 10 dni</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Zmysł myśliwego</name>
-		<requirements>Umiejętność: Spostrzegawczość poziom 5 oraz Sztuka przetrwania poziom 10</requirements>
+		<requirements>Umiejętność: Spostrzegawczość 5, Sztuka przetrwania 10</requirements>
 		<profit>Postać otrzymuje synergię ze spostrzegawczości do sztuki przetrwania</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Znajdywanie kierunku lub drogi</name>
-		<requirements>Umiejętność: Przeszukiwanie poziom 10 oraz Sztuka przetrwania poziom 10</requirements>
+		<requirements>Umiejętność: Przeszukiwanie 10, Sztuka przetrwania 10</requirements>
 		<profit>Synergia z przeszukiwania dla odnajdywania kierunku lub drogi (umiejętność sztuki przetrwania) zwiększa się dwukrotnie</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Znajomość mechanizmów</name>
-		<requirements>Umiejętność: Wiedza (inżynieria) poziom 5</requirements>
+		<requirements>Umiejętność: Wiedza (inżynieria) 5</requirements>
 		<profit>Postać otrzymuje synergię z wiedzy (inżynierii) do rozbrajania mechanizmów</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Zorientowanie w cenach</name>
-		<requirements>Umiejętność: Plotkowanie poziom 5</requirements>
+		<requirements>Umiejętność: Plotkowanie 5</requirements>
 		<profit>Postać otrzymuje synergię z plotkowania do targowania (umiejętność perswazji)</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Zwrot lingwistyczny</name>
-		<requirements>Umiejętność: Wiedza (filozofia) poziom 10</requirements>
+		<requirements>Umiejętność: Wiedza (filozofia) 10</requirements>
 		<profit>Postać otrzymuje synergię z filozofii do inteligencji liczonej na potrzeby poznawania i posługiwania się językiem</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Zwrócenie uwagi</name>
-		<requirements>Umiejętność: Prowokacja poziom 10</requirements>
+		<requirements>Umiejętność: Prowokacja 10</requirements>
 		<profit>Postać może w ciągu akcji cało-rundowej zwymyślać przeciwnika (pod warunkiem, że zrozumie on docinki). Należy wykonać test prowokacji przeciwstawny z opanowaniem oponenta. Sukces oznacza, że wróg porzucić atakowanego przeciwnika i skupić uwagę na <quote>zwracającym jego uwagę</quote>. Teraz zaatakuje postać korzystającą z tej zdolności, chyba że z przyczyn naturalnych nie może jej dosięgnąć (np. postać jest poza zasięgiem ruchu przeciwnika). W takiej sytuacji wróg mimo zdenerwowania atakuje swój normalny cel. Sprowokowanie trwa tyle rund na jakim poziomie postać opanowała umiejętność</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Żelazne pięści</name>
-		<requirements>Umiejętność: Walka wręcz poziom 10</requirements>
+		<requirements>Umiejętność: Walka wręcz 10</requirements>
 		<profit>Siła obrażeń uderzeń bez broni zwiększa się o jedną kategorię</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
 		<name>Żelazne szpony</name>
-		<requirements>Umiejętność: Walka wręcz poziom 20; Zdolność: Żelazne pięści</requirements>
+		<requirements>Umiejętność: Walka wręcz 20; Zdolność: Żelazne pięści</requirements>
 		<profit>Każdy atak wręcz otrzymuje cechę broni: poważne rany, co sprawia, że każda rana spowodowana atakiem bez broni kwalifikuje się jako poważna rana. Poważna rana generuje punkt obrażeń z uwagi na krwawienie w ciągu minuty, gdy normalna rana generuje punkt obrażeń co 10 minut</profit>
 	</tal:feat>
 
@@ -1643,7 +1643,7 @@
 	<tal:feat type="innate">
 		<name>Błękitna krew (wzorzec)</name>
 		<description>Dla niektórych jest jak błogosławieństwo, a dla innych jest niczym klątwa. Twoja krew nie jest czerwona.</description>
-		<requirements>Atrybut: Inteligencja 20; Rasa: Elf; Zdolność: Magia we krwi oraz Odporność na magię</requirements>
+		<requirements>Atrybut: Inteligencja 20; Rasa: Elf; Zdolność: Magia we krwi, Odporność na magię</requirements>
 		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca</profit>
 	</tal:feat>
 
@@ -1697,7 +1697,7 @@
 	<tal:feat type="innate">
 		<name>Estiat (wzorzec)</name>
 		<description>Należysz do wybrańców, którzy wykazują się odpornością na ciosy, magię, są szybsi i wytrwalsi od innych. Estiaci to ludzie predysponowani do wielkości.</description>
-		<requirements>Rasa: Człowiek; Zdolność: Odporność na magię, Potencjał Many, Potencjał życia oraz Zmysł obrony</requirements>
+		<requirements>Rasa: Człowiek; Zdolność: Odporność na magię, Potencjał Many, Potencjał życia, Zmysł obrony</requirements>
 		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca</profit>
 	</tal:feat>
 
@@ -1725,7 +1725,7 @@
 	<tal:feat type="innate">
 		<name>Kathikan (wzorzec)</name>
 		<description>Twoje wszechstronne umiejętności zapierają dech w piersiach.</description>
-		<requirements>Zdolności: Artysta, Elokwencja, Naukowiec, Urodzony rzemieślnik oraz Urodzony wojownik</requirements>
+		<requirements>Zdolności: Artysta, Elokwencja, Naukowiec, Urodzony rzemieślnik, Urodzony wojownik</requirements>
 		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca</profit>
 	</tal:feat>
 
@@ -1783,7 +1783,7 @@
 	<tal:feat type="innate">
 		<name>Mistrz dostrojeń (wzorzec)</name>
 		<description>Twój wzór ma niesamowitą elastyczność dostosowywania się do rzeczy przydatnych.</description>
-		<requirements>Atrybut: Percepcja 20 oraz Wola 20; Cechy dodatkowe: brak jakichkolwiek dodatkowych cech zapewniających dodatkowe doświadczenie; Rasa: Człowiek</requirements>
+		<requirements>Atrybut: Percepcja 20, Wola 20; Cechy dodatkowe: brak jakichkolwiek dodatkowych cech zapewniających dodatkowe doświadczenie; Rasa: Człowiek</requirements>
 		<profit>Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca</profit>
 	</tal:feat>
 
@@ -2035,7 +2035,7 @@
 
 	<tal:feat>
 		<name>Zbroja woli</name>
-		<requirements>Umiejętność: Opanowanie poziom 10</requirements>
+		<requirements>Umiejętność: Opanowanie 10</requirements>
 		<profit>Podczas berserku postać otrzymuje naturalny pancerz w wysokości poziomu umiejętności opanowanie</profit>
 		<cost>8</cost>
 	</tal:feat>
@@ -2176,7 +2176,7 @@
 
 	<tal:feat>
 		<name>Perfekcja w (nazwa)</name>
-		<requirements>Umiejętność (dowolna) poziom 10</requirements>
+		<requirements>Umiejętność (dowolna) 10</requirements>
 		<profit>Postać może poświęcić 2 punkty many, aby w teście umiejętności uzyskać modyfikator +1. Może poświęcić maksymalnie tyle punktów many ile wynosi jego poziom umiejętności, a wtedy otrzyma modyfikator do testu równy połowie poziomu umiejętności</profit>
 		<cost>6</cost>
 		<special>Postać może wziąć tę zdolność wielokrotnie. Za każdym razem będzie ona dotyczyła innej umiejętności.</special>
@@ -2228,7 +2228,7 @@
 
 	<tal:feat>
 		<name>Echolokacja</name>
-		<requirements>Umiejętność: Spostrzegawczość poziom 10</requirements>
+		<requirements>Umiejętność: Spostrzegawczość 10</requirements>
 		<profit>Postać zyskuje dodatkowy zmysł bazujący na ultradźwiękach. W akcji dodatkowej postać może wysłać ultradźwięk i dzięki zjawisku echa zlokalizować obiekty fizyczne w swym otoczeniu. Wynik testu spostrzegawczości podzielony przez 2 określa zasięg w metrach na jaki postać zlokalizowała obiekty</profit>
 		<animal>Nietoperz</animal>
 		<cost>12</cost>
@@ -2236,7 +2236,7 @@
 
 	<tal:feat>
 		<name>Kameleon</name>
-		<requirements>Umiejętność: Ukrywanie się poziom 10</requirements>
+		<requirements>Umiejętność: Ukrywanie się 10</requirements>
 		<profit>Postać może gołą skórą dotknąć jakiegoś obiektu i w ciągu akcji cało-rundowej poświęcając 12 punktów many przybrać kolor tego obiektu. Zmianie ulega tylko skóra postaci, jej włosy i ubranie pod warunkiem, że jest zrobione ze skóry. Postać otrzymuje premię +20 do testów ukrywania się. Pierwsze gwałtowne poruszenie się postaci lub przerwanie kontaktu fizycznego z obiektem lub dotknięcie go w innym miejscu sprawi, że kamuflaż znika</profit>
 		<animal>Kameleon</animal>
 		<cost>8</cost>
@@ -2251,7 +2251,7 @@
 
 	<tal:feat>
 		<name>Pajęcza wspinaczka</name>
-		<requirements>Umiejętność: Wspinaczka poziom 10</requirements>
+		<requirements>Umiejętność: Wspinaczka 10</requirements>
 		<profit>Poświęcając akcję cało-rundową i 8 punktów many postać może sprawić, że na jej rękach i nogach pojawiają się małe przyssawki, które zapewniają premię do testów wspinaczki +20 i możliwość poruszania się po suficie. Przyssawki będą na ciele postaci maksymalnie przez godzinę</profit>
 		<animal>Pająk</animal>
 		<cost>4</cost>
@@ -2259,7 +2259,7 @@
 
 	<tal:feat>
 		<name>Pazury</name>
-		<requirements>Umiejętność: Walka wręcz poziom 10</requirements>
+		<requirements>Umiejętność: Walka wręcz 10</requirements>
 		<profit>Poświęcając akcję cało-rundową i 6 punktów many postać może wytworzyć na swych dłoniach pazury. Pazurami tymi można walczyć za pomocą walki wręcz. Po godzinie od chwili wytworzenia pazurów palce postaci znów zamieniają się w swą naturalną postać. Na pazury działają wszelkie zdolności, które postać ma wybrane dla walki wręcz.
 		<p>- Obr. 1k8 + 1/4 Si.</p>
 		<p>Cechy broni: Lekkie.</p>
@@ -2278,7 +2278,7 @@
 
 	<tal:feat>
 		<name>Skok</name>
-		<requirements>Umiejętność: Akrobatyka poziom 10</requirements>
+		<requirements>Umiejętność: Akrobatyka 10</requirements>
 		<profit>Postać może w akcji cało-rundowej przygotować się do skoku lekko kucając i poświęcając 6 punktów many. Następnie może wykonać skok otrzymując premię +30 do testu akrobatyki. Postaci wtedy nie obowiązują limity zasięgu skoku</profit>
 		<animal>Ropucha lub żaba</animal>
 		<cost>8</cost>
@@ -2286,7 +2286,7 @@
 
 	<tal:feat>
 		<name>Skrzela</name>
-		<requirements>Umiejętność: Pływanie poziom 10</requirements>
+		<requirements>Umiejętność: Pływanie 10</requirements>
 		<profit>Postać dotykając wody, poświęcając akcję cało-rundową i 12 punktów many może sprawić, że wyrosną jej skrzela (od szyi). Dzięki skrzelom postać będzie mogła bez problemu oddychać pod wodą. Skrzela znikają po godzinie, chociaż pod wodą postać może wydłużyć ich działanie. Z uwagi jednak, że płuca postaci nie zanikają, to w czasie posiadania skrzeli może ona oddychać również powietrzem atmosferycznym</profit>
 		<animal>Dowolna ryba</animal>
 		<cost>12</cost>
@@ -2294,7 +2294,7 @@
 
 	<tal:feat>
 		<name>Skrzydła</name>
-		<requirements>Umiejętność: Krzepa poziom 10</requirements>
+		<requirements>Umiejętność: Krzepa 10</requirements>
 		<profit>Poświęcając akcję minutową i 26 punktów many postać może zamienić swe kończyny górne w skrzydła. Ręce się rozrastają i zaczynają pokrywać je pióra, a znad pleców zaś wyrastają pióra przykrywające nogi. Dzięki skrzydłom postać jest zdolna latać z szybkością równą swej zręczności +10. Po godzinie skrzydła znikają zamieniając się znów w ręce, ale postać nawet w powietrzu może je odnowić poświęcając dodatkową manę</profit>
 		<animal>Dowolny ptak</animal>
 		<cost>6</cost>
@@ -2302,7 +2302,7 @@
 
 	<tal:feat>
 		<name>Sokoli wzrok</name>
-		<requirements>Umiejętność: Spostrzegawczość poziom 10</requirements>
+		<requirements>Umiejętność: Spostrzegawczość 10</requirements>
 		<profit>Postać może poświęcić 6 punktów many i akcję dodatkową, a dzięki temu spojrzeć na jakiś oddalony obiekt i otrzymać premię +20 do testu spostrzegawczości</profit>
 		<animal>Dowolny ptak z sokołowatych lub jastrzębiowatych</animal>
 		<cost>8</cost>

@@ -93,7 +93,7 @@
 		<thead>
 			<tr>
 				<td>Nazwa</td>
-				<td>Wymagania</td>
+				<td>Wymagania<footnote>Litera <quote>A</quote> oznacza atrybut, <quote>J</quote> język, <quote>MU</quote> modyfikator umiejętnośi, a <quote>Z</quote> zdolność.</footnote></td>
 			</tr>
 		</thead>
 		<tbody>
@@ -254,7 +254,7 @@
 		<native>Sidheriael’coill’nemor</native>
 		<group>elfi</group>
 		<alphabet>sidhescea</alphabet>
-		<requirements>Atrybut: Inteligencja 18; Modyfikator do Umiejętności: Sztuka (śpiew) +18 lub więcej</requirements>
+		<requirements>Atrybut: Inteligencja 18; Modyfikator Umiejętności: Sztuka (śpiew) +18</requirements>
 		<appearance>Od Oceanu przez Wielką Puszczę i liczne enklawy elfów do Erx</appearance>
 		<description>Jest to codzienny język wielu elfów z Wielkiej Puszczy. Słowa w nim są melodyjne, a sam język jest bardzo metaforyczny i niezwykle silnie zabarwiony emocjonalnie. Jedno słowo może opisywać w nim dziesiątki rzeczy, które łączy podobne nacechowanie emocji. Tego języka się nie mówi, ale się go śpiewa.</description>
 	</tal:language>
@@ -334,7 +334,7 @@
 		<native>Sidhe’arte’riael</native>
 		<group>elfi</group>
 		<alphabet>aersidhesceal / język tajemn</alphabet>
-		<requirements>Atrybut: Inteligencja 42; Język: dowolny z grupy elfickich; Modyfikator do Umiejętności: Sztuka (śpiew) +32 lub więcej</requirements>
+		<requirements>Atrybut: Inteligencja 42; Język: dowolny z grupy elfickich; Modyfikator Umiejętności: Sztuka (śpiew) +32</requirements>
 		<appearance>Kapłani i czarodzieje elfów</appearance>
 		<description>Jest to stary język elfów, którego relikty występują w obrządkach ceremonialnych i religijnych. Same słowa w tym języku niczego nie <quote>znaczą</quote>, ale <quote>rozumie</quote> się je przez współwystępowanie z innymi słowami w zdaniu.</description>
 	</tal:language>
