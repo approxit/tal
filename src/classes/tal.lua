@@ -221,8 +221,8 @@ end
 tal.shortRequirements = function(str)
 	str = str:gsub("Atrybut: ", "A: ")
 	str = str:gsub("Język: ", "J: ")
-	str = str:gsub("Umiejętność: ", "U: ")
 	str = str:gsub("Rasa: ", "R: ")
+	str = str:gsub("Umiejętność: ", "U: ")
 	str = str:gsub("Współczynnik: ", "W: ")
 	str = str:gsub("Zdolność: ", "Z: ")
 
@@ -234,8 +234,6 @@ tal.shortRequirements = function(str)
 	str = str:gsub("Siła", "Si")
 	str = str:gsub("Wola", "Wo")
 	str = str:gsub("Zręczność", "Zr")
-
-	print("Jest: " .. str)
 
 	return str
 end

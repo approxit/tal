@@ -104,11 +104,11 @@
 						SILE.call("td", {}, {tostring(i)})
 						SILE.call("td", {}, {tostring(0)})
 						SILE.call("td", {}, {tostring(math.round(i / 10))})
-						SILE.call("td", {}, {tostring(math.round(i / 8))})
-						SILE.call("td", {}, {tostring(math.round(i / 4))})
-						SILE.call("td", {}, {tostring(math.round(i / 2))})
+						SILE.call("td", {}, {tostring(math.ceil(i / 8))})
+						SILE.call("td", {}, {tostring(math.ceil(i / 4))})
+						SILE.call("td", {}, {tostring(math.ceil(i / 2))})
 						SILE.call("td", {}, {tostring(i)})
-						SILE.call("td", {}, {tostring(i * 1.5)})
+						SILE.call("td", {}, {tostring(math.ceil(i * 1.5))})
 						SILE.call("td", {}, {tostring(i * 2)})
 						SILE.call("td", {}, {tostring(i * 3)})
 					end)
@@ -126,8 +126,9 @@
 
 	<header>Walka wręcz</header>
 	<p>Walka wręcz to w mechanice gry synonim walki bez oręża. Bronią staje się samo ciała postaci. Sukces trafienia przeciwnika zależy od testu umiejętności o takiej samej nazwie. ST testu jest obrona fizyczna atakowanego.</p>
-
-	Uderzenie bez broni: Obrażenia: 1k4 + 1/10 siły. Postać może parować ataki wręcz swych przeciwników. Uderzenie bez broni posiada następujące cechy jako broń: Lekka. 
+	<itemlist>
+		<item title="Uderzenie bez broni">Obrażenia: 1k4 + 1/10 siły. Postać może parować ataki wręcz swych przeciwników. Uderzenie bez broni posiada następujące cechy jako broń: Lekka.</item>
+	</itemlist>
 
 	<header>Zbroja</header>
 	<p>Przedmiot chroniący ciało przed obrażeniami fizycznymi.</p>

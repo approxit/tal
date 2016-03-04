@@ -16,7 +16,7 @@
 		<thead>
 			<tr>
 				<td>Nazwa</td>
-				<td>Wymagania<footnote>Litera <quote>A</quote> oznacza atrybut, <quote>C</quote> cechę dodatkową, <quote>R</quote> rasę, a <quote>Z</quote> zdolność.</footnote></td>
+				<td>Wymagania<footnote><tal:shortRequirementsHint /></footnote></td>
 			</tr>
 		</thead>
 		<tbody>
@@ -1610,7 +1610,7 @@
 		<thead>
 			<tr>
 				<td>Nazwa</td>
-				<td>Wymagania<footnote>Litera <quote>A</quote> oznacza atrybut, <quote>C</quote> cechę dodatkową, <quote>R</quote> rasę, a <quote>Z</quote> zdolność.</footnote></td>
+				<td>Wymagania<footnote><tal:shortRequirementsHint /></footnote></td>
 			</tr>
 		</thead>
 		<tbody>

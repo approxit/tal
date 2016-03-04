@@ -129,7 +129,7 @@
 					SILE.call("tr", {}, function()
 						SILE.call("td", {}, {tostring(i)})
 						SILE.call("td", {}, {tostring(math.max(20, 10 + (i * 2)))})
-						SILE.call("td", {}, {tostring(math.max(5, math.floor(i / 2)))})
+						SILE.call("td", {}, {tostring(math.max(5, math.ceil(i / 2)))})
 						SILE.call("td", {}, {tostring(math.max(20, i + 10))})
 					end)
 				end

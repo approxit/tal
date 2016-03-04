@@ -20,27 +20,29 @@
 		<define command="caption"><process /><br /></define>
 		<define command="thead">
 			<define command="tr">
-				<define command="td"><process /></define>
+				<define command="td">| <process /> |</define>
 				<process /><br />
 			</define>
 			<process />
 		</define>
 		<define command="tbody">
 			<define command="tr">
-				<define command="td"><process /></define>
+				<define command="td">| <process /> |</define>
 				<process /><br />
 			</define>
 			<process />
 		</define>
 		<define command="tfoot">
 			<define command="tr">
-				<define command="td"><process /></define>
+				<define command="td">| <process /> |</define>
 				<process /><br />
 			</define>
 			<process />
 		</define>
 		<process /><par />
 	</define>
+
+	<define command="tal:shortRequirementsHint">Litera <quote>A</quote> oznacza atrybut, <quote>J</quote> język, <quote>R</quote> rasę, <quote>U</quote> umiejętność, <quote>W</quote> współczynnik, <quote>Z</quote> zdolność.</define>
 
 	<define command="tal:extrafeat:name"><process /><br /></define>
 	<define command="tal:extrafeat:description"><process /><br /></define>

@@ -93,7 +93,7 @@
 		<thead>
 			<tr>
 				<td>Nazwa</td>
-				<td>Wymagania<footnote>Litera <quote>A</quote> oznacza atrybut, <quote>J</quote> język, a <quote>Z</quote> zdolność.</footnote></td>
+				<td>Wymagania<footnote><tal:shortRequirementsHint /></footnote></td>
 			</tr>
 		</thead>
 		<tbody>
@@ -400,7 +400,6 @@
 				for i = 1, 15 do
 					SILE.call("tr", {}, function()
 						SILE.call("td", {}, {tostring(i * 2 - 1 .. " - " .. i * 2)})
-						SILE.call("td", {}, {tostring(i * 2)})
 						SILE.call("td", {}, {tostring(i * 8 .. "km")})
 						SILE.call("td", {}, {tostring("+" .. i .. "km")})
 					end)
@@ -541,7 +540,7 @@
 
 						SILE.call("td", {}, {tostring(i * 1.5)})
 						SILE.call("td", {}, {tostring(i * 15)})
-						SILE.call("td", {}, {tostring(i * 300)})
+						SILE.call("td", {}, {tostring(i * 900)})
 
 						SILE.call("td", {}, {tostring(i * 3)})
 						SILE.call("td", {}, {tostring(i * 30)})
@@ -621,7 +620,7 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td>1 m	Darmowa</td>
+				<td>1m	Darmowa</td>
 				<td>Postać przysługuje tylko jedna taka akcja w turze i może skorzystać z niej tylko, gdy w swej turze nie wykonuje innego rodzaju ruchu (wskazanego w tej tabeli)</td>
 			</tr>
 			<tr>
@@ -840,7 +839,7 @@
 		</thead>
 		<tbody>
 			<script>
-				for i = 1, 20 do
+				for i = 1, 10 do
 					SILE.call("tr", {}, function()
 						SILE.call("td", {}, {tostring(i * 2 - 1 .. " - " .. i * 2)})
 						SILE.call("td", {}, {tostring(i ^ 2)})
@@ -848,7 +847,6 @@
 				end
 			</script>
 			<tr>
-				<td>etc.</td>
 				<td>etc.</td>
 				<td>etc.</td>
 			</tr>
