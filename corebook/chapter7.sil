@@ -1668,7 +1668,7 @@
 
 	<tal:feat type="innate">
 		<name>Dobry duch</name>
-		<description>No nie da się... Po prostu się nie da Ciebie skrzywdzić. Każdy pijus da sobie spokój. Szukający zaczepki jakimś cudem ciebie omijają. Po prostu masz szczęście do ludzi.</description>
+		<description>No nie da się<dots /> Po prostu się nie da Ciebie skrzywdzić. Każdy pijus da sobie spokój. Szukający zaczepki jakimś cudem ciebie omijają. Po prostu masz szczęście do ludzi.</description>
 		<profit>Za każdym razem, gdy zostaniesz pojmany przez osoby chcące połamać Tobie nogi, ręce lub ogólnie zrobić krzywdę, możesz wykupić się z opresji o połowę mniejszym kosztem punktów szczęścia. Czasami wykupienie się pozwala tylko odroczyć nieuniknioną karę, ale to już inna sprawa</profit>
 	</tal:feat>
 
@@ -1680,7 +1680,7 @@
 
 	<tal:feat type="innate">
 		<name>Drugie serce</name>
-		<description><quote>Słyszysz jak wali? Łomocze jak sam skur... no wiesz kto.<mdash />Fakt, ale zobaczysz, że za chwilę przestanie łomotać i gość będzie w pełnej formie. On już taki jest.</quote></description>
+		<description><quote>Słyszysz jak wali? Łomocze jak sam skur<dots /> no wiesz kto.<mdash />Fakt, ale zobaczysz, że za chwilę przestanie łomotać i gość będzie w pełnej formie. On już taki jest.</quote></description>
 		<requirements>Atrybut: Kondycja 16</requirements>
 		<profit>Zmęczenie jest niwelowane przez postać 2x szybciej</profit>
 	</tal:feat>

@@ -245,12 +245,12 @@
 	</tal:extrafeat>
 	<tal:extrafeat>
 		<name>Duża postura</name>
-		<description>Jesteś duży... eh... Nie ma co ukrywać. Jesteś gruby. A nawet jeśli chciałbyś to ukryć, potrzebowałbyś wozu z dwoma wołami. Ponosisz karę -2 do szybkości, oraz otrzymujesz dwa razy szybciej stopnie zmęczenia, powodowanego przez wysiłek fizyczny. Otrzymujesz doświadczenie: 1000 (bo ciężko znosiłeś/aś przez całe życie docinki o spaślakach) i premię +4 do testów krzepy (Ty gruby chuju).</description>
+		<description>Jesteś duży<dots /> eh<dots /> Nie ma co ukrywać. Jesteś gruby. A nawet jeśli chciałbyś to ukryć, potrzebowałbyś wozu z dwoma wołami. Ponosisz karę -2 do szybkości, oraz otrzymujesz dwa razy szybciej stopnie zmęczenia, powodowanego przez wysiłek fizyczny. Otrzymujesz doświadczenie: 1000 (bo ciężko znosiłeś/aś przez całe życie docinki o spaślakach) i premię +4 do testów krzepy (Ty gruby chuju).</description>
 		<forbidden>Mała postura</forbidden>
 	</tal:extrafeat>
 	<tal:extrafeat>
 		<name>Esteta/tka</name>
-		<description>Piękno jest takie... piękne. Warto zatrzymać się na chwilę, aby pokontemplować urodę świata lub, aby urodę tę pomnożyć. Zyskujesz punkt szczęścia, gdy możesz nasycić się pięknem obecnym w jakimś miejscu (spędzić tam ok. pięć lub dziesięć godzin, bez konieczności wykonywania męczących działań). Tracisz natomiast punkt szczęścia za każdym razem, gdy ktoś przeszkodzi Tobie w tej kontemplacji.</description>
+		<description>Piękno jest takie<dots /> piękne. Warto zatrzymać się na chwilę, aby pokontemplować urodę świata lub, aby urodę tę pomnożyć. Zyskujesz punkt szczęścia, gdy możesz nasycić się pięknem obecnym w jakimś miejscu (spędzić tam ok. pięć lub dziesięć godzin, bez konieczności wykonywania męczących działań). Tracisz natomiast punkt szczęścia za każdym razem, gdy ktoś przeszkodzi Tobie w tej kontemplacji.</description>
 		<forbidden>Pragmatyczny/a i Smród</forbidden>
 	</tal:extrafeat>
 	<tal:extrafeat>
@@ -381,7 +381,7 @@
 	</tal:extrafeat>
 	<tal:extrafeat>
 		<name>Słaby łeb</name>
-		<description>Twoja głowa nie jest przystosowana do tego, aby uderzać w nią obuchem... w zasadzie żadna nie jest, ale Twoja to tak szczególnie. Oszołomienie trwa w Twoim przypadku o 10 rund dłużej. Poza tym kiepsko pijesz (modyfikator -10 do mocnej głowy), zawsze masz kaca po alkoholu i nie możesz rozwijać umiejętności mocna głowa. Za to masz doświadczenie: 1000.</description>
+		<description>Twoja głowa nie jest przystosowana do tego, aby uderzać w nią obuchem<dots /> w zasadzie żadna nie jest, ale Twoja to tak szczególnie. Oszołomienie trwa w Twoim przypadku o 10 rund dłużej. Poza tym kiepsko pijesz (modyfikator -10 do mocnej głowy), zawsze masz kaca po alkoholu i nie możesz rozwijać umiejętności mocna głowa. Za to masz doświadczenie: 1000.</description>
 		<forbidden>Alkoholik</forbidden>
 	</tal:extrafeat>
 	<tal:extrafeat>

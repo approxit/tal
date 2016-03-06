@@ -70,7 +70,7 @@
 	</table>
 
 	<header>Miotanie</header>
-	<p>Postać może wykorzystać broń i rzucić nią w przeciwnika/obiekt aby spowodować nią obrażenia. Należy przeprowadzić normalny test rzucania (władanie), aby sprawdzić, czy postać trafiła w przeciwnika/obiekt. Jeżeli postać korzysta z broni, która nie jest zaprojektowana do miotania, otrzymuje modyfikator -5, tak jak przy broni improwizowanej. Jeżeli nie podano inaczej przedmiotem można miotać w zasięgu ½ Si liczonej w metrach.</p>
+	<p>Postać może wykorzystać broń i rzucić nią w przeciwnika/obiekt aby spowodować nią obrażenia. Należy przeprowadzić normalny test rzucania (władanie), aby sprawdzić, czy postać trafiła w przeciwnika/obiekt. Jeżeli postać korzysta z broni, która nie jest zaprojektowana do miotania, otrzymuje modyfikator -5, tak jak przy broni improwizowanej. Jeżeli nie podano inaczej przedmiotem można miotać w zasięgu 1/2 Si liczonej w metrach.</p>
 
 	<header>Niewidoczny przeciwnik</header>
 	<p>Reguła dotyczy sytuacji, gdy ofiara ataku nie widzi atakującego. Obrona fizyczna atakowanego, który nie widzi atakującego przyjmuje wariant nieprzygotowany.</p>
@@ -80,7 +80,7 @@
 
 	<header>Siła obrażeń</header>
 	<p>Wiele broni może zadawać dodatkowa obrażenia, które zależą od siły atakującego, a dokładniej wartości tej siły. Siłę obrażeń dzieli się na kilka kategorii zależnych od tego jaką część wartości atrybutu dodaje się do wartości zadanych obrażeń.</p>
-	<p>Ciąg kolejnych kategorii: 0; 1/10; 1/8; ¼; ½; 1; 1,5; 2; 3; +1 etc.</p>
+	<p>Ciąg kolejnych kategorii: 0; 1/10; 1/8; 1/4; 1/2; 1; 1,5; 2; 3; +1 etc.</p>
 	<table>
 		<caption>Przełożenie wartości siły na zadawane dodatkowe obrażenia</caption>
 		<thead>
@@ -89,8 +89,8 @@
 				<td>0</td>
 				<td>1/10</td>
 				<td>1/8</td>
-				<td>¼</td>
-				<td>½</td>
+				<td>1/4</td>
+				<td>1/2</td>
 				<td>1</td>
 				<td>1,5</td>
 				<td>2</td>
@@ -230,7 +230,7 @@
 	<p>Normalny atak wymaga poświęcenia akcji zwykłej. Postać wykonuje test trafienia, który jest testem władania danej broni lub walki wręcz. Sukces w teście oznacza trafienie oponenta, co upoważnia do wykonania testu obrażeń.</p>
 
 	<header>Czołganie się</header>
-	<p>Postać może czołgać się z ½ szybkości poświęcając 2 akcje zwykłe. Może również powstać poświęcając akcję zwykłą, a wtedy może również przemieścić się na ½ szybkości.</p>
+	<p>Postać może czołgać się z 1/2 szybkości poświęcając 2 akcje zwykłe. Może również powstać poświęcając akcję zwykłą, a wtedy może również przemieścić się na 1/2 szybkości.</p>
 
 	<header>Działania na ekwipunku</header>
 	<p>Reguły dotyczą zarówno przedmiotów jak i broni.</p>
@@ -245,7 +245,7 @@
 
 	<header>Padnięcie i powstawanie</header>
 	<p>Postać może upaść na polu na którym się znajduje, jeżeli poświęci na to akcję dodatkową.</p>
-	<p>Powstanie wymaga poświęcenia akcji zwykłej. W tej samej turze postać może również przemieścić się w akcji darmowej, na odległość równą ½ swej szybkości.</p>
+	<p>Powstanie wymaga poświęcenia akcji zwykłej. W tej samej turze postać może również przemieścić się w akcji darmowej, na odległość równą 1/2 swej szybkości.</p>
 
 	<header>Pływanie</header>
 	<p>Postać może płynąć na wodzie lub pod wodą, a w zależności od tego ile akcji na to poświęci pokonuje odpowiedni dystans.</p>
@@ -259,11 +259,11 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td>¼ szybkości</td>
+				<td>1/4 szybkości</td>
 				<td>zwykła</td>
 			</tr>
 			<tr>
-				<td>½ szybkości</td>
+				<td>1/2 szybkości</td>
 				<td>dwie zwykłe</td>
 			</tr>
 			<tr>
@@ -294,7 +294,7 @@
 			<tr>
 				<td>1/2 szybkości</td>
 				<td>Dodatkowa</td>
-				<td>Postać porusza się na zasięg ½ szybkości</td>
+				<td>Postać porusza się na zasięg 1/2 szybkości</td>
 			</tr>
 			<tr>
 				<td>Szybkość</td>
@@ -316,7 +316,7 @@
 	<p>Postać poruszająca się z szybkością x3 lub x6 może staranować jakiegoś przeciwnika korzystając z specjalnej akcji walki obalenia albo odepchnięcia. W takim wypadku trzeba wykonać normalny test trafienia (walka wręcz), a następnie test siły (zwarcia) dla sprawdzenia efektu. Wspomniane specjalne akcje walki w tym przypadku wymagają poświęcenia akcji darmowej, ale postać nie może wspomagać swoich działań za pomocą broni etc.</p>
 
 	<header>Skakanie</header>
-	<p>Jeżeli postać się odpowiednio rozpędzi, to może skoczyć w dal na tyle metrów ile wynosi jej ½ szybkość. W wzwyż postać może skoczyć na tyle ile wynosi 1/5 jej szybkości. Dzięki akrobatyce można zwiększyć te długości i wysokości. Skakanie należy liczyć jako część ruchu w walce tj. poświęcić na niego tyle akcji ile poświęca się na ruch, którego skakanie jest częścią. Patrz również akrobatyka.</p>
+	<p>Jeżeli postać się odpowiednio rozpędzi, to może skoczyć w dal na tyle metrów ile wynosi jej 1/2 szybkość. W wzwyż postać może skoczyć na tyle ile wynosi 1/5 jej szybkości. Dzięki akrobatyce można zwiększyć te długości i wysokości. Skakanie należy liczyć jako część ruchu w walce tj. poświęcić na niego tyle akcji ile poświęca się na ruch, którego skakanie jest częścią. Patrz również akrobatyka.</p>
 
 	<header>Rzucenie zaklęcia</header>
 	<p>Postacie zdolne do rzucania czarów mogą to czynić również podczas walki. Niektórych zaklęć nie uda się postaci rzucić podczas walki, gdyż są to ceremonie wymagające wielu czynników i osoba zaangażowana w konfrontację zbrojną nie jest zdolna do ich wykonania. Większość jednak zaklęć została pomyślana tak, aby to podczas walki z nich korzystać. Rzucenie każdego zaklęcia ma w opisie rubrykę <quote>Czas rzucenia</quote>, która informuje ile akcji należy poświęcić, aby rzucić zaklęcie.</p>
@@ -326,7 +326,7 @@
 	<p>Postać znajdująca się na grzbiecie wierzchowca otrzymuje liczne modyfikatory do walki. To jak dobrze postać jeździ/lata na swym wierzchowcu zależy od opanowanego przez postać jeździectwa. Sukcesy w testach pozwalają postaci dokonywać wyczynów podczas jazdy, jak sztuczki akrobatyczne, podnoszenie broni z ziemi podczas jazdy, czy sprawdzać utrzymanie się w siodle, jeżeli coś lub ktoś próbuje postać z niego wybić.</p>
 	<p>Jeżeli nie napisano inaczej, to wszystkie akcje związane z jeździectwem postać wykonuje normalnie.</p>
 	<itemlist>
-		<item title="Broń strzelecka">Jeździec otrzymuje karę do testów ataków dystansowych równą ½ szybkości z jaką porusza się w danej turze wierzchowiec.</item>
+		<item title="Broń strzelecka">Jeździec otrzymuje karę do testów ataków dystansowych równą 1/2 szybkości z jaką porusza się w danej turze wierzchowiec.</item>
 		<item title="Jazda">Jeździec nie może wykonać na wierzchowcu kroku (rodzaj ruchu podczas walki). Wierzchowiec przemieszcza się na odległość zgodną ze swoją szybkością, lecz to jeździec poświęca na to odpowiednie akcje. Jeździec po zdanym teście jeździectwa o ST=30 może zmusić wierzchowca do jazdy w opcji ruch poświęcając na to akcję dodatkową, a nie akcję zwykłą.</item>
 		<item title="Obrona jeźdźca">Jeździec usadowiony w siodle wierzchowca traci premię do obrony zapewnianą przez swoją wartość refleksu i otrzymuje w zamian premię do obrony fizycznej wynikającą z refleksu wierzchowca, ale tylko do wartości nieprzekraczającej poziomu jego umiejętności jeździectwo. Jeździec nie może korzystać z manewru uniku będąc w siodle.</item>
 		<item title="Szarżowanie">Jeździec wykonujący specjalną akcję walki o nazwie szarża zdaje dodatkowe obrażenia w przypadku trafienia w oponenta. Ofiara trafienia przez szarżującego otrzymuje tyle obrażeń ile wynosi wartość siły wierzchowca.</item>
@@ -335,7 +335,7 @@
 	</itemlist>
 
 	<header>Wspinaczka</header>
-	<p>Wdrapywanie się po stromych zboczach, wchodzenie po linie itp. Z zasady każda postać, która potrafi chodzić potrafi się również wspinać. Postać w ciągu 6 sekund wspina się na wysokość równą ¼ szybkości (w metrach). W przypadku walki wspinanie się wymaga poświęcenia akcji cało-rundowych. Postać może jednak dzięki umiejętności wspinaczka przyśpieszyć ten sposób poruszania się.</p>
+	<p>Wdrapywanie się po stromych zboczach, wchodzenie po linie itp. Z zasady każda postać, która potrafi chodzić potrafi się również wspinać. Postać w ciągu 6 sekund wspina się na wysokość równą 1/4 szybkości (w metrach). W przypadku walki wspinanie się wymaga poświęcenia akcji cało-rundowych. Postać może jednak dzięki umiejętności wspinaczka przyśpieszyć ten sposób poruszania się.</p>
 
 	<header>Wypicie mikstury</header>
 	<p>Wypicie mikstury zajmuje postaci 1 akcję cało-rundową (przygotowanie do wypicia mikstury np. odkorkowanie, wstrząśnięcie, pozbycie się pustego pojemnika etc. zawiera się w tej akcji). Dobycie jej jednak z pasa bądź plecaka, wymaga poświęcenia na to odpowiedniej ilości akcji, tak jak opisane to zostało w działaniach na ekwipunku.</p>
@@ -352,7 +352,7 @@
 	<p>Specjalny atak<mdash />2x tyle akcji ile wymaga normalny atak. Postać wykonuje 3 ataki, miast dwóch. Wszystkie ataki obarczone są modyfikatorem -10 do trafienia i muszą być skierowane w jednego przeciwnika. Jeżeli postać ma do dyspozycji dwie akcje zwykłe i jedną akcję dodatkową, a ponadto korzysta z broni mającej cechę powolna, to wykonanie wielokrotnego ataku wymaga poświecenia akcji cało-rundowej.</p>
 
 	<header>Celowanie</header>
-	<p>Specjalny atak<mdash />akcja dodatkowa. Postać celuje w przeciwnika i otrzymuje modyfikator w wysokości ¼ percepcji do testu trafienia. Tę specjalną akcję walki można łączyć ze wszystkimi innymi specjalnymi akcjami w turze. Postać musi jednak wykonać atak w następnej akcji po celowaniu, gdyż inaczej cały proces celowania przepadnie.</p>
+	<p>Specjalny atak<mdash />akcja dodatkowa. Postać celuje w przeciwnika i otrzymuje modyfikator w wysokości 1/4 percepcji do testu trafienia. Tę specjalną akcję walki można łączyć ze wszystkimi innymi specjalnymi akcjami w turze. Postać musi jednak wykonać atak w następnej akcji po celowaniu, gdyż inaczej cały proces celowania przepadnie.</p>
 
 	<header>Finta</header>
 	<p>Specjalny atak<mdash />akcja zwykła. Postać może markować cios, a jeżeli przeciwnik nabierze się na sztuczkę, wtedy nie będzie w stanie bronić się przed ciosem. Należy wykonać test sporny prowokacji atakującego z intuicją atakowanego. Jeżeli atakujący wygra, wtedy przeciwnik na potrzeby kolejnego ataku bezpośredniego będzie miał obronę fizyczną w wariancie nieprzygotowany. Z finty można skorzystać tylko wtedy, gdy atakuje się bronią z cechą lekka lub bronią szermierczą oraz gdy atakowany przeciwnik jest istotą humanoidalną.</p>
@@ -416,10 +416,10 @@
 	<p>Postacie w zwarciu, aby mogły wykonywać swe akcje, muszą wpierw wygrać z wrogiem test sporny zwarcia. Sporny test stosuje się za każdym razem, gdy któraś z postaci walczących w zwarciu zechce przeprowadzić jedną z poniższych działań. Obrona fizyczna walczących w zwarciu przyjmuje wariant nieprzygotowany względem postaci, które nie uczestniczą w zwarciu. Niektóre działania w zwarciu wymagają poświecenia większej ilości akcji.</p>
 	<itemlist>
 		<item title="Atak">akcja zwykła<mdash />Postać może zaatakować wręcz lub bronią posiadającą cechę: zwarcie. Wykonuje się dodatkowy test trafienia z modyfikator -5 do testu ataku.</item>
-		<item title="Przejście">akcja cało-rundowa<mdash />Postać może poruszyć się z przeciwnikiem na odległość ½ szybkości.</item>
+		<item title="Przejście">akcja cało-rundowa<mdash />Postać może poruszyć się z przeciwnikiem na odległość 1/2 szybkości.</item>
 		<item title="Przewrócenie">akcja zwykła<mdash />Postać może przewrócić przeciwnika i upaść na niego. Od tego momentu postać dociskająca oponenta do podłoża lub leżąca nim otrzymuje modyfikator +5 do testów zwarcia. Obrona fizyczna przyszpilonego przyjmuje wariant nieprzygotowany.
 			<itemlist>
-				<item title="Powstanie / zrzucenie przeciwnika">akcja zwykła<mdash />Postać może powstać, jeżeli została przewrócona lub zrzucić na bok przeciwnika, jeżeli ten dociska ją do ziemi. Postać po powstaniu nie może wykorzystać darmowego przesunięcia się na odległość ½ szybkości, jak jest to możliwe przy normalnym powstawaniu. Kara -5 do testu zwarcia.</item>
+				<item title="Powstanie / zrzucenie przeciwnika">akcja zwykła<mdash />Postać może powstać, jeżeli została przewrócona lub zrzucić na bok przeciwnika, jeżeli ten dociska ją do ziemi. Postać po powstaniu nie może wykorzystać darmowego przesunięcia się na odległość 1/2 szybkości, jak jest to możliwe przy normalnym powstawaniu. Kara -5 do testu zwarcia.</item>
 			</itemlist>
 		</item>
 		<item title="Przyszpilenie">

@@ -665,11 +665,11 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td>¼ szybkości</td>
+						<td>1/4 szybkości</td>
 						<td>zwykła</td>
 					</tr>
 					<tr>
-						<td>½ szybkości</td>
+						<td>1/2 szybkości</td>
 						<td>dwie zwykłe</td>
 					</tr>
 					<tr>
@@ -679,8 +679,8 @@
 				</tbody>
 			</table>
 		</item>
-		<item title="Skakanie">Jeżeli postać się odpowiednio rozpędzi, to może skoczyć w dal na tyle metrów ile wynosi jej ½ szybkość. W wzwyż postać może skoczyć na tyle ile wynosi 1/5 jej szybkości. Dzięki akrobatyce można zwiększyć te długości i wysokości. Skakanie należy liczyć jako część ruchu w walce tj. poświęcić na niego tyle akcji ile poświęca się na ruch, którego skakanie jest częścią. Patrz również akrobatyka.</item>
-		<item title="Wspinaczka">Wdrapywanie się po stromych zboczach, wchodzenie po linie itp. Z zasady każda postać, która potrafi chodzić potrafi się również wspinać. Postać w ciągu 6 sekund wspina się na wysokość równą ¼ szybkości (w metrach). W przypadku walki wspinanie się wymaga poświęcenia akcji cało-rundowych. Postać może jednak dzięki umiejętności wspinaczka przyśpieszyć ten sposób poruszania się.</item>
+		<item title="Skakanie">Jeżeli postać się odpowiednio rozpędzi, to może skoczyć w dal na tyle metrów ile wynosi jej 1/2 szybkość. W wzwyż postać może skoczyć na tyle ile wynosi 1/5 jej szybkości. Dzięki akrobatyce można zwiększyć te długości i wysokości. Skakanie należy liczyć jako część ruchu w walce tj. poświęcić na niego tyle akcji ile poświęca się na ruch, którego skakanie jest częścią. Patrz również akrobatyka.</item>
+		<item title="Wspinaczka">Wdrapywanie się po stromych zboczach, wchodzenie po linie itp. Z zasady każda postać, która potrafi chodzić potrafi się również wspinać. Postać w ciągu 6 sekund wspina się na wysokość równą 1/4 szybkości (w metrach). W przypadku walki wspinanie się wymaga poświęcenia akcji cało-rundowych. Postać może jednak dzięki umiejętności wspinaczka przyśpieszyć ten sposób poruszania się.</item>
 	</itemlist>
 
 	<section>Trudności życia w Świecie Przygód</section>
@@ -756,7 +756,7 @@
 	<header>Głód i pragnienie</header>
 	<p>Postać, aby normalnie funkcjonować musi mieć odpowiedni zapas kalorii, które spali podczas wysiłku. Jeżeli postać nie jest odpowiednio odżywiona lub napojona, wtedy działają nań kary związane z wyczerpaniem i otrzymuje obrażenia.</p>
 	<p>Postać musi codziennie zjeść 0,5kg przyzwoitego jedzenia i wypić ok. 2 litrów wody, aby zachować pełnię sił. W przypadku zwiększonego wysiłku fizycznego zapotrzebowanie na pożywienie i wodę wzrasta (nawet wielokrotnie).</p>
-	<p>Bez wody postać może obyć się przez ilość dni równą ½ wytrwałości, po których będzie codziennie otrzymywała 2 punkty wyczerpania i 6 punktów obrażeń spowodowanych pragnieniem. Bez jedzenia postać może obyć się ilość dni równą wytrwałości, a po tym czasie będzie otrzymywała codziennie 2 punkty wyczerpania i 4 obrażeń. Obrażeń tych nie trzeba opatrywać, ale postać zacznie je regenerować dopiero, gdy się odpowiednio odżywi i napoi. Postać jednym posiłek / porcją wody nie może zaspokoić kilkudniowego głodu, czy pragnienia dlatego aby po głodówce otworzyć swe siły przez 2<ndash />3 dni winna odpowiednio syto się odżywiać lub nawadniać.</p>
+	<p>Bez wody postać może obyć się przez ilość dni równą 1/2 wytrwałości, po których będzie codziennie otrzymywała 2 punkty wyczerpania i 6 punktów obrażeń spowodowanych pragnieniem. Bez jedzenia postać może obyć się ilość dni równą wytrwałości, a po tym czasie będzie otrzymywała codziennie 2 punkty wyczerpania i 4 obrażeń. Obrażeń tych nie trzeba opatrywać, ale postać zacznie je regenerować dopiero, gdy się odpowiednio odżywi i napoi. Postać jednym posiłek / porcją wody nie może zaspokoić kilkudniowego głodu, czy pragnienia dlatego aby po głodówce otworzyć swe siły przez 2<ndash />3 dni winna odpowiednio syto się odżywiać lub nawadniać.</p>
 	<p>W powyższym opisie pod słowem woda rozumie się wszystkie rodzaje płynów, które można pić bez poważnej szkody dla zdrowia. Szczęście sprawi, że postać znajdzie jakieś źródło pożywienia lub wody (chociażby było to mocno naciągane).</p>
 
 	<header>Obniżenie i wysączenie atrybutu</header>
@@ -1147,7 +1147,7 @@
 		<item title="Efekty obrażeń">Postać po otrzymaniu pewnej ilości obrażeń zaczyna tracić swe siły. Poniżej opisano co się dzieje z postacią, gdy pozostało jej tyle, a tyle punktów życia. Kolejne stany się kumulują.</item>
 		<item title="Efekt ran">Każda rana powoduje 2 punkty wyczerpania i krwawienie. Krwawienie ustaje, gdy rany zostaną opatrzone, a wyczerpanie mija, gdy rana zostanie wyleczona. Poza tym każda rana powoduje odpowiedni efekt w zależności od tego gdzie powstanie.</item>
 		<item title="Krwawienie">Każda rana generuje 1 punkt obrażeń na 10 minut z powodu utraty przez postać krwi lub innych powikłań. W wyniku krwawienia, tj. obrażeń przez nie generowanych, nie mogą powstać nowe rany. Postać może próbować opóźnić efekty krwawienia, lecz najskuteczniejszy ze sposobów sprawi co najwyżej, że postać będzie krwawić dwa razy wolniej. Krwawienie ustępuje po udanym opatrzeniu rany.</item>
-		<item title="Regenerowanie punktów życia">Regenerować się mogą tylko opatrzone rany niezależnie od tego, czy są one draśnięciami, czy ranami poważnymi. Codziennie postaci regeneruje się wartość ¼ wytrwałości straconych punktów życia lub ½ jeżeli postać cały dzień poświęca na odpoczynek i nie wykonuje żadnych męczących czynności, a poza tym jest dobrze odżywiona. Gdy już wszystkie punkty życia postaci, które straciła w wyniku obrażeń zostały zregenerowane, zaczynają się regenerować rany. Jeżeli postać cały dzień odpoczywa, to regeneruje 1 ranę tzn. mija wyczerpanie z nią związane. Patrz również umiejętność: Leczenie.</item>
+		<item title="Regenerowanie punktów życia">Regenerować się mogą tylko opatrzone rany niezależnie od tego, czy są one draśnięciami, czy ranami poważnymi. Codziennie postaci regeneruje się wartość 1/4 wytrwałości straconych punktów życia lub 1/2 jeżeli postać cały dzień poświęca na odpoczynek i nie wykonuje żadnych męczących czynności, a poza tym jest dobrze odżywiona. Gdy już wszystkie punkty życia postaci, które straciła w wyniku obrażeń zostały zregenerowane, zaczynają się regenerować rany. Jeżeli postać cały dzień odpoczywa, to regeneruje 1 ranę tzn. mija wyczerpanie z nią związane. Patrz również umiejętność: Leczenie.</item>
 	</itemlist>
 	<table>
 		<caption>Efekty utraty punktów życia</caption>
