@@ -346,94 +346,94 @@
 	<p>Niektóre manewry są jednorazowe. Aby można było z nich skorzystać więcej razy w ciągu rundy, to należy <quote>wykupić</quote> je za dostępne akcje większą ilość razy.</p>
 
 	<header>Atak dwiema broniami</header>
-	<p>Specjalny atak – akcja taka jak przy wolniejszej broni. Jednoczesny atak wykonany przy pomocy dwóch broni trzymanych w dwóch dłoniach. Postać atakująca w ten sposób podlega modyfikatorowi -10 do testów ataków pierwszej broni i -15 do testów ataków drugiej broni.</p>
+	<p>Specjalny atak<mdash />akcja taka jak przy wolniejszej broni. Jednoczesny atak wykonany przy pomocy dwóch broni trzymanych w dwóch dłoniach. Postać atakująca w ten sposób podlega modyfikatorowi -10 do testów ataków pierwszej broni i -15 do testów ataków drugiej broni.</p>
 
 	<header>Atak wielokrotny</header>
-	<p>Specjalny atak – 2x tyle akcji ile wymaga normalny atak. Postać wykonuje 3 ataki, miast dwóch. Wszystkie ataki obarczone są modyfikatorem -10 do trafienia i muszą być skierowane w jednego przeciwnika. Jeżeli postać ma do dyspozycji dwie akcje zwykłe i jedną akcję dodatkową, a ponadto korzysta z broni mającej cechę powolna, to wykonanie wielokrotnego ataku wymaga poświecenia akcji cało-rundowej.</p>
+	<p>Specjalny atak<mdash />2x tyle akcji ile wymaga normalny atak. Postać wykonuje 3 ataki, miast dwóch. Wszystkie ataki obarczone są modyfikatorem -10 do trafienia i muszą być skierowane w jednego przeciwnika. Jeżeli postać ma do dyspozycji dwie akcje zwykłe i jedną akcję dodatkową, a ponadto korzysta z broni mającej cechę powolna, to wykonanie wielokrotnego ataku wymaga poświecenia akcji cało-rundowej.</p>
 
 	<header>Celowanie</header>
-	<p>Specjalny atak – akcja dodatkowa. Postać celuje w przeciwnika i otrzymuje modyfikator w wysokości ¼ percepcji do testu trafienia. Tę specjalną akcję walki można łączyć ze wszystkimi innymi specjalnymi akcjami w turze. Postać musi jednak wykonać atak w następnej akcji po celowaniu, gdyż inaczej cały proces celowania przepadnie.</p>
+	<p>Specjalny atak<mdash />akcja dodatkowa. Postać celuje w przeciwnika i otrzymuje modyfikator w wysokości ¼ percepcji do testu trafienia. Tę specjalną akcję walki można łączyć ze wszystkimi innymi specjalnymi akcjami w turze. Postać musi jednak wykonać atak w następnej akcji po celowaniu, gdyż inaczej cały proces celowania przepadnie.</p>
 
 	<header>Finta</header>
-	<p>Specjalny atak – akcja zwykła. Postać może markować cios, a jeżeli przeciwnik nabierze się na sztuczkę, wtedy nie będzie w stanie bronić się przed ciosem. Należy wykonać test sporny prowokacji atakującego z intuicją atakowanego. Jeżeli atakujący wygra, wtedy przeciwnik na potrzeby kolejnego ataku bezpośredniego będzie miał obronę fizyczną w wariancie nieprzygotowany. Z finty można skorzystać tylko wtedy, gdy atakuje się bronią z cechą lekka lub bronią szermierczą oraz gdy atakowany przeciwnik jest istotą humanoidalną.</p>
+	<p>Specjalny atak<mdash />akcja zwykła. Postać może markować cios, a jeżeli przeciwnik nabierze się na sztuczkę, wtedy nie będzie w stanie bronić się przed ciosem. Należy wykonać test sporny prowokacji atakującego z intuicją atakowanego. Jeżeli atakujący wygra, wtedy przeciwnik na potrzeby kolejnego ataku bezpośredniego będzie miał obronę fizyczną w wariancie nieprzygotowany. Z finty można skorzystać tylko wtedy, gdy atakuje się bronią z cechą lekka lub bronią szermierczą oraz gdy atakowany przeciwnik jest istotą humanoidalną.</p>
 
 	<header>Obalenie</header>
-	<p>Specjalny atak – akcje jak atak wręcz. Postać nie atakuje przeciwnika w celu zadania mu obrażeń, ale w celu przewrócenia go. Jeżeli postać trafiła w przeciwnika, to następuje sporny test zwarcia, a sukces postaci oznacza, że przeciwnik został obalony i leży. Niektóre bronie posiadają cechę odrzut, która sprawia, że każde trafienie we wroga może być (za wolą atakującego) traktowane jako próba obalenia go.</p>
+	<p>Specjalny atak<mdash />akcje jak atak wręcz. Postać nie atakuje przeciwnika w celu zadania mu obrażeń, ale w celu przewrócenia go. Jeżeli postać trafiła w przeciwnika, to następuje sporny test zwarcia, a sukces postaci oznacza, że przeciwnik został obalony i leży. Niektóre bronie posiadają cechę odrzut, która sprawia, że każde trafienie we wroga może być (za wolą atakującego) traktowane jako próba obalenia go.</p>
 	<p>Jeżeli postać próbuje obalić oponenta, na którego przed chwilą zaszarżowała, to otrzymuje modyfikator +5 do testu.</p>
 
 	<header>Oddawanie pola</header>
-	<p>Manewr – akcja dodatkowa – wyczerpanie jednorazowe. Postać w momencie zaatakowania może odsunąć się od atakującego na odległość 1m (patrz Ruch podczas walki). W efekcie atakowany otrzymuje modyfikator +5 do obrony fizycznej, parowania oraz uniku. Postać oddająca pole przesuwa się na pole, które się znajduje za nią. Jeżeli nie może na nie przejść, wtedy nie może także oddać pola.</p>
+	<p>Manewr<mdash />akcja dodatkowa<mdash />wyczerpanie jednorazowe. Postać w momencie zaatakowania może odsunąć się od atakującego na odległość 1m (patrz Ruch podczas walki). W efekcie atakowany otrzymuje modyfikator +5 do obrony fizycznej, parowania oraz uniku. Postać oddająca pole przesuwa się na pole, które się znajduje za nią. Jeżeli nie może na nie przejść, wtedy nie może także oddać pola.</p>
 
 	<header>Odepchnięcie</header>
-	<p>Specjalny atak – akcje jak atak wręcz. Postać może odepchnąć wroga od siebie, miast zadawać mu obrażeń. Aby odepchnięcie się udało postać musi wpierw trafić oponenta, a następnie przeprowadzić sporny test zwarcia. Jeżeli postać w nim wygra to przeciwnik przesunie się na pole, które było za nim (dystans 1m).</p>
+	<p>Specjalny atak<mdash />akcje jak atak wręcz. Postać może odepchnąć wroga od siebie, miast zadawać mu obrażeń. Aby odepchnięcie się udało postać musi wpierw trafić oponenta, a następnie przeprowadzić sporny test zwarcia. Jeżeli postać w nim wygra to przeciwnik przesunie się na pole, które było za nim (dystans 1m).</p>
 	<p>Odepchnięcie można łączyć z szarżą. Jeżeli postać dodatkowo szarżuje, to może zająć pole na którym był oponent, przed odepchnięciem, pod warunkiem, że pozostał postaci jakiś dystans (ruch), który jeszcze mogła pokonać dzięki szarżowaniu.</p>
 
 	<header>Oszołomienie</header>
-	<p>Specjalny atak – akcje jak atak. Postać może oszołomić przeciwnika miast go zabijać. Przeprowadza się test trafienia z karą – 10, a w przypadku trafienia w ciało należy wykonać normalny test obrażeń. Jeżeli w wyniku obrażeń postać otrzyma ranę (zostanie przekroczona wytrwałość), to zostanie ona również oszołomiona na jedną rundę + kolejną rundę za każdy punkt obrażeń ponad wytrwałość.</p>
+	<p>Specjalny atak<mdash />akcje jak atak. Postać może oszołomić przeciwnika miast go zabijać. Przeprowadza się test trafienia z karą -10, a w przypadku trafienia w ciało należy wykonać normalny test obrażeń. Jeżeli w wyniku obrażeń postać otrzyma ranę (zostanie przekroczona wytrwałość), to zostanie ona również oszołomiona na jedną rundę + kolejną rundę za każdy punkt obrażeń ponad wytrwałość.</p>
 	<p>Jeżeli postać zaatakuje oszałamiająco już oszołomionego przeciwnika, to w efekcie będzie on ogłuszony przez odpowiednią ilość rund (wynik kolejnego testu, chociaż w przypadku zakończenia się stanu oszołomienia, to zakończony jest również stan ogłuszenia).</p>
 
 	<header>Ostrożny atak</header>
 	<p>Manewr. Postać może skupić się nie na ataku, lecz na parowaniu i unikaniu ciosów wroga. Postać otrzymuje modyfikator -5 do testów ataku i modyfikator +5 do testów parowania i uników.</p>
 
 	<header>Parowanie</header>
-	<p>Manewr – akcje jak atak – wyczerpanie jednorazowe. Postać nie wykonuje ataku bronią, lecz się za jej pomocą broni. Jeżeli postać zostanie trafiona przez przeciwnika za pomocą ataku bezpośredniego, to może wykonać test sporny z jego wynikiem trafienia, a sukces w nim oznacza, że sparowała atak.</p>
+	<p>Manewr<mdash />akcje jak atak<mdash />wyczerpanie jednorazowe. Postać nie wykonuje ataku bronią, lecz się za jej pomocą broni. Jeżeli postać zostanie trafiona przez przeciwnika za pomocą ataku bezpośredniego, to może wykonać test sporny z jego wynikiem trafienia, a sukces w nim oznacza, że sparowała atak.</p>
 	<p>Wyjątkowo potężny atak może spowodować, że broń/tarcza użyta do parowania ulegnie zniszczeniu, a postać mimo zdania testu parowania otrzyma normalne obrażenia.</p>
 	<p>Nie można jednocześnie unikać i parować tego samego ciosu. Postać może jednak w ciągu tury wykorzystać oba te manewry.</p>
 
 	<header>Potężne uderzenie</header>
-	<p>Specjalny atak – akcje jak atak. Postać może wziąć potężny zamach przy ataku bezpośrednim, a w przypadku trafienia spowodować większe obrażenia. Postać otrzymuje modyfikator -10 do trafienia, ale spowodowane obrażenia zwiększone są o jedną kategorię (patrz Siła obrażeń w tym rozdziale).</p>
+	<p>Specjalny atak<mdash />akcje jak atak. Postać może wziąć potężny zamach przy ataku bezpośrednim, a w przypadku trafienia spowodować większe obrażenia. Postać otrzymuje modyfikator -10 do trafienia, ale spowodowane obrażenia zwiększone są o jedną kategorię (patrz Siła obrażeń w tym rozdziale).</p>
 
 	<header>Przewrócenie</header>
-	<p>Specjalny atak – akcje jak atak wręcz (lub broni, którą można przewracać). Postać nie atakuje przeciwnika w celu zadania mu obrażeń, ale w celu przewrócenia go. Przewrócenie tym różni się od obalenia, że postać nie korzysta z siły przewracając oponenta, lecz z odpowiedniej techniki (podcina go). Jeżeli postać trafiła w przeciwnika, to następuje sporny test walki wręcz albo władania (wykorzystywanej broni), z zachowaniem równowagi oponenta (test akrobatyki albo zwarcia), a sukces postaci oznacza, że przeciwnik został przewrócony i leży.</p>
+	<p>Specjalny atak<mdash />akcje jak atak wręcz (lub broni, którą można przewracać). Postać nie atakuje przeciwnika w celu zadania mu obrażeń, ale w celu przewrócenia go. Przewrócenie tym różni się od obalenia, że postać nie korzysta z siły przewracając oponenta, lecz z odpowiedniej techniki (podcina go). Jeżeli postać trafiła w przeciwnika, to następuje sporny test walki wręcz albo władania (wykorzystywanej broni), z zachowaniem równowagi oponenta (test akrobatyki albo zwarcia), a sukces postaci oznacza, że przeciwnik został przewrócony i leży.</p>
 
 	<header>Przygotowany atak</header>
-	<p>Manewr – akcja jak atak – wyczerpanie jednorazowe. Postać wyczekuje z atakiem do momentu, gdy wróg znajdzie się w zasięgu jej broni. Gdy oponent zbliży się na odległość wystarczającą do zaatakowania go, to postać wykona zaplanowany atak.</p>
+	<p>Manewr<mdash />akcja jak atak<mdash />wyczerpanie jednorazowe. Postać wyczekuje z atakiem do momentu, gdy wróg znajdzie się w zasięgu jej broni. Gdy oponent zbliży się na odległość wystarczającą do zaatakowania go, to postać wykona zaplanowany atak.</p>
 
 	<header>Rozbrojenie</header>
-	<p>Specjalny atak – akcje jak atak. Postać nie atakuje przeciwnika w celu zadania mu obrażeń, lecz wytrącenia jego oręża z dłoni. Jeżeli postać trafiła w przeciwnika, to następuje sporny test zwarcia, a sukces postaci oznacza, że broń została wytrącona z ręki oponenta i spada pod nogi walczących. Jeżeli oponent trzyma broń oburącz, to otrzymuje modyfikator +10 przeciw próbom rozbrojenia.</p>
+	<p>Specjalny atak<mdash />akcje jak atak. Postać nie atakuje przeciwnika w celu zadania mu obrażeń, lecz wytrącenia jego oręża z dłoni. Jeżeli postać trafiła w przeciwnika, to następuje sporny test zwarcia, a sukces postaci oznacza, że broń została wytrącona z ręki oponenta i spada pod nogi walczących. Jeżeli oponent trzyma broń oburącz, to otrzymuje modyfikator +10 przeciw próbom rozbrojenia.</p>
 
 	<header>Szarża</header>
-	<p>Specjalny atak – akcja dodatkowa oraz akcja jak przy ataku. Szarża łączy ruch i atak na przeciwnika. Szarżujący przemieszcza się maksymalnie na zasięg szybkości i wykonuje atak w oponenta z modyfikatorem +5. Do następnej tury postać nie może wykonywać uników i parować.</p>
+	<p>Specjalny atak<mdash />akcja dodatkowa oraz akcja jak przy ataku. Szarża łączy ruch i atak na przeciwnika. Szarżujący przemieszcza się maksymalnie na zasięg szybkości i wykonuje atak w oponenta z modyfikatorem +5. Do następnej tury postać nie może wykonywać uników i parować.</p>
 	<p>Szarżująca postać może również rzucić się na przeciwnika miast atakować go bronią. W efekcie tego postać może od razu przejść do zwarcia po sukcesie w teście walki wręcz (pochwyceniu oponenta). Szarżujący, który wygrał w teście zwarcia może sobie zażyczyć, że złapany atakowany przewraca się wraz z nim na ziemię.</p>
 	<p>Szarżę można łączyć z próbą obalenia przeciwnika i odepchnięcia go. Jeżeli postać spróbuje przewrócić przeciwnika lub go odepchnąć po szarży, to otrzyma modyfikator do tego testu +5. Jeżeli postać jednocześnie próbuje przepchnąć i przewrócić oponentów do otrzymuje modyfikator do testu z szarży tylko do jednego z tych działań (wybranego).</p>
 
 	<header>Unik</header>
-	<p>Manewr – akcja dodatkowa – wyczerpanie jednorazowe. Postać w momencie zaatakowania może wykonać unik, a tym samym zwiększyć szansę na uniknięcie trafienia. W chwili jeżeli postać zostanie trafiona (przeciwnik zda test trafienia) może przeprowadzić sporny test uniku (patrz umiejętność o tej nazwie) z wynikiem trafienia. Sukces pozwoli uniknąć trafienia. Można unikać tylko ataków bezpośrednich. Jeżeli atak następuje nie na postać, lecz na jej pole (atak obszarowy), to postać może uciec z pola przeskakując na sąsiednie (w zasięgu 1m). Test przeprowadza się w ten sam sposób, ale warunkiem jego powodzenia jest znalezienie jakiegoś wolnego pola w zasięgu.</p>
+	<p>Manewr<mdash />akcja dodatkowa<mdash />wyczerpanie jednorazowe. Postać w momencie zaatakowania może wykonać unik, a tym samym zwiększyć szansę na uniknięcie trafienia. W chwili jeżeli postać zostanie trafiona (przeciwnik zda test trafienia) może przeprowadzić sporny test uniku (patrz umiejętność o tej nazwie) z wynikiem trafienia. Sukces pozwoli uniknąć trafienia. Można unikać tylko ataków bezpośrednich. Jeżeli atak następuje nie na postać, lecz na jej pole (atak obszarowy), to postać może uciec z pola przeskakując na sąsiednie (w zasięgu 1m). Test przeprowadza się w ten sam sposób, ale warunkiem jego powodzenia jest znalezienie jakiegoś wolnego pola w zasięgu.</p>
 	<p>Gdyby przed testowaniem uniku postać została trafiona w sposób krytyczny, to ewentualne trafienie krytyczne należy liczyć od wyniku testu uniku, a nie obrony fizycznej atakowanego, chyba że współczynnik ma wyższą wartość, niż wynik testu.</p>
 	<p>Nie można jednocześnie unikać i parować tego samego ciosu. Postać może jednak w ciągu tury wykorzystać oba te manewry.</p>
 
 	<header>Walka agresywna</header>
-	<p>Manewr – akcje jak atak. Postać może skupić się tylko na ataku i zrezygnować z obrony. Aby można było skorzystać z tego manewru postać musi atakować wroga bezpośrednim atakiem. Do końca swej tury postać będzie miała modyfikator +10 do trafienia, ale nie będzie mogła korzystać z parowania, uniku i jej obrona fizyczna przyjmie wariant nieprzygotowany.</p>
+	<p>Manewr<mdash />akcje jak atak. Postać może skupić się tylko na ataku i zrezygnować z obrony. Aby można było skorzystać z tego manewru postać musi atakować wroga bezpośrednim atakiem. Do końca swej tury postać będzie miała modyfikator +10 do trafienia, ale nie będzie mogła korzystać z parowania, uniku i jej obrona fizyczna przyjmie wariant nieprzygotowany.</p>
 
 	<header>Walka defensywna</header>
-	<p>Manewr – akcja zwykła. Postać wybitnie skupia się na obronie. Na czas manewru postać otrzymuje modyfikator +5 współczynnika obrony fizycznej, testów parowania i uników.</p>
+	<p>Manewr<mdash />akcja zwykła. Postać wybitnie skupia się na obronie. Na czas manewru postać otrzymuje modyfikator +5 współczynnika obrony fizycznej, testów parowania i uników.</p>
 
 	<header>Zabójstwo</header>
-	<p>Specjalne. Atak wykonywany przeciw postaci będącej w stanie bezradności. Postać deklaruje, że stosuje zabójstwo względem przeciwnika, a następnie przeprowadza akcję ataku wydłużoną o akcję zwykłą. Jeżeli nastąpi trafienie w ciało, to ofiara otrzymuje zwielokrotnione obrażenia – mnożnik x10, który sumuje się z ewentualnymi trafieniami krytycznymi.</p>
+	<p>Specjalne. Atak wykonywany przeciw postaci będącej w stanie bezradności. Postać deklaruje, że stosuje zabójstwo względem przeciwnika, a następnie przeprowadza akcję ataku wydłużoną o akcję zwykłą. Jeżeli nastąpi trafienie w ciało, to ofiara otrzymuje zwielokrotnione obrażenia<mdash />mnożnik x10, który sumuje się z ewentualnymi trafieniami krytycznymi.</p>
 
 	<header>Zwarcie</header>
 	<p>Specjalne. Zwarcie polega na wejściu w bezpośredni kontakt dwóch walczących i zajęciu przez nich dwóch sąsiadujących ze sobą pól. Postać deklaruje wejście w zwarcie z wrogiem, następuje standardowy test walki wręcz o ST = obrona fizyczna. Sukces oznacza rozpoczęcie zwarcia.</p>
 	<p>Postacie w zwarciu, aby mogły wykonywać swe akcje, muszą wpierw wygrać z wrogiem test sporny zwarcia. Sporny test stosuje się za każdym razem, gdy któraś z postaci walczących w zwarciu zechce przeprowadzić jedną z poniższych działań. Obrona fizyczna walczących w zwarciu przyjmuje wariant nieprzygotowany względem postaci, które nie uczestniczą w zwarciu. Niektóre działania w zwarciu wymagają poświecenia większej ilości akcji.</p>
 	<itemlist>
-		<item title="Atak">akcja zwykła - Postać może zaatakować wręcz lub bronią posiadającą cechę: zwarcie. Wykonuje się dodatkowy test trafienia z modyfikator -5 do testu ataku.</item>
-		<item title="Przejście">akcja cało-rundowa - Postać może poruszyć się z przeciwnikiem na odległość ½ szybkości.</item>
-		<item title="Przewrócenie">akcja zwykła - Postać może przewrócić przeciwnika i upaść na niego. Od tego momentu postać dociskająca oponenta do podłoża lub leżąca nim otrzymuje modyfikator +5 do testów zwarcia. Obrona fizyczna przyszpilonego przyjmuje wariant nieprzygotowany.
+		<item title="Atak">akcja zwykła<mdash />Postać może zaatakować wręcz lub bronią posiadającą cechę: zwarcie. Wykonuje się dodatkowy test trafienia z modyfikator -5 do testu ataku.</item>
+		<item title="Przejście">akcja cało-rundowa<mdash />Postać może poruszyć się z przeciwnikiem na odległość ½ szybkości.</item>
+		<item title="Przewrócenie">akcja zwykła<mdash />Postać może przewrócić przeciwnika i upaść na niego. Od tego momentu postać dociskająca oponenta do podłoża lub leżąca nim otrzymuje modyfikator +5 do testów zwarcia. Obrona fizyczna przyszpilonego przyjmuje wariant nieprzygotowany.
 			<itemlist>
-				<item title="Powstanie / zrzucenie przeciwnika">akcja zwykła - Postać może powstać, jeżeli została przewrócona lub zrzucić na bok przeciwnika, jeżeli ten dociska ją do ziemi. Postać po powstaniu nie może wykorzystać darmowego przesunięcia się na odległość ½ szybkości, jak jest to możliwe przy normalnym powstawaniu. Kara -5 do testu zwarcia.</item>
+				<item title="Powstanie / zrzucenie przeciwnika">akcja zwykła<mdash />Postać może powstać, jeżeli została przewrócona lub zrzucić na bok przeciwnika, jeżeli ten dociska ją do ziemi. Postać po powstaniu nie może wykorzystać darmowego przesunięcia się na odległość ½ szybkości, jak jest to możliwe przy normalnym powstawaniu. Kara -5 do testu zwarcia.</item>
 			</itemlist>
 		</item>
 		<item title="Przyszpilenie">
-			akcja cało-rundowa – Postać może przyszpilić drugą. Przyszpilona ofiara w zwarciu jest unieruchomiona i jedyne co może czynić w zwarciu to wydostać się z przyszpilenia.<br />
+			akcja cało-rundowa<mdash />Postać może przyszpilić drugą. Przyszpilona ofiara w zwarciu jest unieruchomiona i jedyne co może czynić w zwarciu to wydostać się z przyszpilenia.<br />
 			Postać może wykonać wiele dodatkowych działań przeciw przyszpilonemu:
 			<itemlist>
-				<item title="Duszenie">akcja cało-rundowa - Sukces w teście zwarcia oznacza, że postać zaczyna dusi przeciwnika (patrz Duszenie się w rozdziale Świat przygód). Jeżeli duszący otrzyma w spornym teście zwarcia wynik o 5 większy od przeciwnika, wtedy duszony traci dodatkowo 1 rundę wstrzymania oddechu. Duszony może przerwać duszenie jeżeli wyrwie się z przyszpilenia.</item>
-				<item title="Spowodowanie bezradności">akcja cało-rundowa - Sukces w teście zwarcia oznacza, że do końca rundy jeżeli ofiara nie zakończy przyszpilenia, to będzie względem osób nie uczestniczących w zwarciu uważana za bezradną (patrz Stan bezradności).</item>
+				<item title="Duszenie">akcja cało-rundowa<mdash />Sukces w teście zwarcia oznacza, że postać zaczyna dusi przeciwnika (patrz Duszenie się w rozdziale Świat przygód). Jeżeli duszący otrzyma w spornym teście zwarcia wynik o 5 większy od przeciwnika, wtedy duszony traci dodatkowo 1 rundę wstrzymania oddechu. Duszony może przerwać duszenie jeżeli wyrwie się z przyszpilenia.</item>
+				<item title="Spowodowanie bezradności">akcja cało-rundowa<mdash />Sukces w teście zwarcia oznacza, że do końca rundy jeżeli ofiara nie zakończy przyszpilenia, to będzie względem osób nie uczestniczących w zwarciu uważana za bezradną (patrz Stan bezradności).</item>
 			</itemlist>
 		</item>
-		<item title="Rzucanie zaklęć">różnie - Postać może rozpocząć rzucanie czaru pod warunkiem, że nie ma on komponentu: G lub R, a postać posiada inne czynniki pozwalające rzucić zaklęcie.</item>
-		<item title="Uciszenie">akcja zwykła - Przeciwnik postaci nie będzie mógł korzystać z mowy (mówić, krzyczeć) do chwili wygrania następnego testu zwarcia.</item>
-		<item title="Wyciągnięcie broni lekkiej lub przedmiotu">akcja zwykła - Postać może wyciągnąć przedmiot trzymany w sakiewce lub przy pasie, ale musi na to poświęcić odpowiednio dodatkową ilość akcji.</item>
-		<item title="Wyjście ze zwarcia">akcja zwykła - Postać może wyjść ze zwarcia.</item>
+		<item title="Rzucanie zaklęć">różnie<mdash />Postać może rozpocząć rzucanie czaru pod warunkiem, że nie ma on komponentu: G lub R, a postać posiada inne czynniki pozwalające rzucić zaklęcie.</item>
+		<item title="Uciszenie">akcja zwykła<mdash />Przeciwnik postaci nie będzie mógł korzystać z mowy (mówić, krzyczeć) do chwili wygrania następnego testu zwarcia.</item>
+		<item title="Wyciągnięcie broni lekkiej lub przedmiotu">akcja zwykła<mdash />Postać może wyciągnąć przedmiot trzymany w sakiewce lub przy pasie, ale musi na to poświęcić odpowiednio dodatkową ilość akcji.</item>
+		<item title="Wyjście ze zwarcia">akcja zwykła<mdash />Postać może wyjść ze zwarcia.</item>
 	</itemlist>
 	<p>Jeżeli w zwarciu po jednej stronie uczestniczy więcej niż jedna osoba, wtedy otrzymują oni kolektywny modyfikator do zwarcia równy sumie ich wartości siły, a poza tym każdy może niezależnie przeprowadzać akcje.</p>
 
@@ -482,7 +482,7 @@
 	<p>Tarczę należy odpowiednio zamontować na ręce, aby można było z niej korzystać. Zwykle jest to kwestia przełożenia ręki za skórzane paski i zaciśnięciu dłoni na uchwycie. Przy opisie każdej z tarcz określono ile trzeba poświęcić czasu na zamontowanie jej na ręce. Połowę czasu potrzebnego na mocowanie jest potrzebne do zdemontowania tarczy. Ewentualna akcja zwykła skraca się do akcji dodatkowej, a akcja cało-rundowa skraca się do akcji zwykłej.</p>
 
 	<header>Naciągnięcie cięciwy</header>
-	<p>Aby można było użyć broni w walce musi być ona przygotowana – jej cięciwa musi zostać uprzednio naciągnięta. Przy opisie konkretnej broni opisano jak długo należy naciągać cięciwę.</p>
+	<p>Aby można było użyć broni w walce musi być ona przygotowana<mdash />jej cięciwa musi zostać uprzednio naciągnięta. Przy opisie konkretnej broni opisano jak długo należy naciągać cięciwę.</p>
 
 	<header>Odrzut</header>
 	<p>Każde trafienie bronią w przeciwnika liczy się jako próba obalenia go, niezależnie od tego, czy atak został sparowany, czy trafił w cel. Atakujący może otrzymać modyfikator do spornego testu zwarcia, który został wymieniony w opisie konkretnej broni jak również wykorzystać go przy próbach odepchnięcia przeciwnika. Atakujący nie musi korzystać z tej cechy broni, jeżeli nie chce obalić przeciwnika.</p>
@@ -506,7 +506,7 @@
 	<p>Używając broni można łatwiej rozbroić przeciwnika. Postać otrzymuje modyfikator podany przy opisie konkretnej broni do wszystkich prób rozbrojenia przeciwnika nią wykonywanych.</p>
 
 	<header>Rzut</header>
-	<p>Broń nadaje się do miotania. Postać może zaatakować cele w zasięgu podanym przy opisie konkretnej broni przeprowadzając test władania – rzucanie, aby sprawdzić czy cel został trafiony.</p>
+	<p>Broń nadaje się do miotania. Postać może zaatakować cele w zasięgu podanym przy opisie konkretnej broni przeprowadzając test władania<mdash />rzucanie, aby sprawdzić czy cel został trafiony.</p>
 
 	<header>Specjalne</header>
 	<p>Broń posiada jakąś specjalną cechę, której wyjaśnienie pojawia się w opisie konkretnej broni/tarczy.</p>
@@ -526,33 +526,33 @@
 	<header>Zasięg</header>
 	<p>W przypadki broni strzeleckiej jest to maksymalny zasięg na oddanie strzału. Przy broni do walki bezpośredniej jest to dodatkowy zasięg na jaki można nią atakować z uwagi na odpowiednie gabaryty broni lub na jaki można ją rzucić. Symbol <quote>+</quote> oznacza, że atak bezpośredni można oddać na cel oddalony o 1+ tyle właśnie metrów.</p>
 
-	<section>Walka – krok po kroku</section>
+	<section>Walka<mdash />krok po kroku</section>
 	<p>W niniejszym podrozdziale została opisana sekwencja walki krok po kroku, czyli tak jak ona wygląda od rozpoczęcia do zakończenia. Walką nazywane jest starcie zbrojne przynajmniej dwóch postaci, które rozpoczyna się w momencie, gdy strona zostanie zaatakowana.</p>
 
-	<header>Krok 1 – Runda zaskoczenia</header>
+	<header>Krok 1<mdash />Runda zaskoczenia</header>
 	<p>Czasami podczas walki jedna strona wykazuje się niezwykłą przebiegłością i atakuje nieprzygotowanego na atak przeciwnika. Taki atak nazywany jest rundą zaskoczenia, gdyż atakujący ma czas jednej całej rudny, na to, aby przeprowadzić działania bez możliwości spotkania się odpowiedzi ze strony atakowanego.</p>
 	<p>Podczas rundy zaskoczenia tury mają tylko i wyłącznie postacie atakujące, a to oznacza, że przez całą rundę atakowany nie może deklarować (i tym bardziej podejmować) żadnych działań.</p>
 	<p>Atakujący może wykorzystać normalną liczbę dostępnych mu akcji (dwie akcje zwykłe, jedną akcję dodatkową i wszystkie możliwe akcje darmowe), a wszyscy zaatakowani mają obronę fizyczną w wariancie nieprzygotowany, gdyż podczas rudny zaskoczenia są zbyt zaskoczeni, aby móc nawet przygotować się do obrony.</p>
 	<p>Gdy już wszyscy atakujący zakończą swoje akcje atakowani muszą zdać test opanowania o ST=20, gdyż w przeciwnym razie będą zaskoczeni także w kolejnej rundzie (i tak do uzyskania pierwszego odpowiedniego wyniku).</p>
 
-	<header>Krok 2 – Inicjatywa</header>
+	<header>Krok 2<mdash />Inicjatywa</header>
 	<p>Pierwszą rzeczą podczas walki jest dokonanie testu inicjatywy. Postaci, które uzyskały najwyższe wyniki w tym teście będą podczas walki jako pierwsze deklarowały swe akcje i sprawdzały ich rezultaty.</p>
 	<p>Remisy należy rozstrzygać na korzyść Bohaterów, a w przypadku ich remisów na korzyść tego, który ma wyższy refleks.</p>
 	<p>MG kontroluje podczas walki poczynania przeciwników Bohaterów. Zwykle zdarza się, że wielu przeciwników ma podobny test inicjatywy. Praktyczniejsze jest wykonanie jednego testu za wszystkich przeciwników Drużyny, którzy mają taki sam modyfikator testu, niż dokonywanie testu dla każdego z nich oddzielnie. Dzięki temu MG może w jednej chwili zająć się wszystkimi (lub niemal wszystkimi) walczącymi po jednej stronie, bez ryzyka, że kogoś pominie.</p>
 	<p>Punkty zmęczenia i wyczerpania nie obniżają wyniku inicjatywy uzyskanego przed ich uzyskaniem.</p>
 
-	<header>Krok 3 – Tura</header>
-	<p>Moment, w którym postać rozpoczyna deklarowanie swych akcji i sprawdzanie ich rezultatów nazywany jest turą. Każdy z walczących ma jedną turę podczas rudny, niezależnie od przysługujących mu akcji. Kolejność rozpoczynania się tur określa wynik inicjatywy – od postaci mających najwyższe wyniki, do tej, która miała najmniejszy.</p>
+	<header>Krok 3<mdash />Tura</header>
+	<p>Moment, w którym postać rozpoczyna deklarowanie swych akcji i sprawdzanie ich rezultatów nazywany jest turą. Każdy z walczących ma jedną turę podczas rudny, niezależnie od przysługujących mu akcji. Kolejność rozpoczynania się tur określa wynik inicjatywy<mdash />od postaci mających najwyższe wyniki, do tej, która miała najmniejszy.</p>
 	<p>Podczas tury postać może wykonać działania trwające dwie akcje zwykłe oraz jedną akcję dodatkową i może również wykonać wiele akcji darmowych.</p>
 	<p>Mimo tego, że mechanicznie tury są wykonywane kolejno, zgodnie z porządkiem inicjatywy, to w czasie rzeczywistym wszystkie one odbywają się w ciągu jednej chwili.</p>
 
-	<header>Krok 4 – Akcje, ataki, obrażenia</header>
+	<header>Krok 4<mdash />Akcje, ataki, obrażenia</header>
 	<p>To co postacie mogą wykonywać podczas swych tur, czyli jakie akcje mogą podejmować zostało opisane w rozdziale 5.3 Akcje podczas walki. Po zadeklarowaniu każdej akcji należy sprawdzić jej rezultat, co najczęściej oznacza przeprowadzenie testu związanego z akcją.</p>
 	<p>Niektóre akcje, jak np. ataki powodują obrażenia. Jeżeli po ataku został trafiony przeciwnik, to należy wykonać test obrażeń i sprawdzić jakie otrzymał obrażenia. Jeżeli ten przeciwnik miał na sobie pancerz (zbroję lub posiadał naturalny pancerz), wtedy od obrażeń należy odjąć wartość redukcji pancerza, ale tylko wtedy, gdy trafienie nastąpiło w miejsce chronione pancerzem. W niektórych przypadkach ataki mogą chybić celu, atakowany może wykonać unik lub sparować uderzenie. Jeżeli jednak został trafiony w pancerz, a wartość redukcji jest większa od wartości obrażeń, to wtedy i tak nie otrzyma on obrażeń. We wszystkich innych wypadkach, gdy jednak nastąpiło trafienie, a obrażenia nie zostały zredukowane, należy sprawdzić czy wartość wytrwałości została przekroczona, a jeżeli została to ile razy.</p>
 	<p>Jeżeli wytrwałość została przekroczona jednokrotnie, tzn. postać otrzymała obrażenia większe od wartości wytrwałości, ale mniejsze niż 2x wytrwałość, to postać otrzymała ranę. Jeżeli wartość obrażeń jest większa od 2x wytrwałość, to postać otrzymała dwie rany etc.</p>
 	<p>Każda rana będzie generowała 1 pkt. obrażeń w ciągu 10 minut, chyba że zostanie opatrzona, a także będzie powodowała 1 punkt wyczerpania.</p>
 	<p>Jeżeli natomiast w wyniku obrażeń postać utraciła tyle samo lub więcej punktów życia, niż posiada, to w tym momencie ponosi śmierć.</p>
 
-	<header>Krok 5 – Kolejna runda</header>
+	<header>Krok 5<mdash />Kolejna runda</header>
 	<p>Po wykorzystaniu wszystkich swych akcji dostępnych w turze, postać kończy swą turę i rozpoczyna ją kolejna postać, która miała kolejny najwyższy wynik inicjatywy. Jeżeli natomiast wszystkie postacie zakończyły swe tury w rundzie, to rozpoczyna się nowa runda i trzeba powrócić do kroku trzeciego z zachowaniem kolejności ustalonej w kroku 2.</p>
 </sile>

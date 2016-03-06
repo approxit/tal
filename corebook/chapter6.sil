@@ -43,19 +43,19 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td>1 – 5</td>
+				<td>1<ndash />5</td>
 				<td>Nowicjusz</td>
 			</tr>
 			<tr>
-				<td>6 – 15</td>
+				<td>6<ndash />15</td>
 				<td>Zaawansowany</td>
 			</tr>
 			<tr>
-				<td>16 – 25</td>
+				<td>16<ndash />25</td>
 				<td>Ekspert</td>
 			</tr>
 			<tr>
-				<td>26 - 40</td>
+				<td>26<ndash />40</td>
 				<td>Mistrz</td>
 			</tr>
 			<tr>
@@ -89,7 +89,9 @@
 					SILE.call("tr", {}, function()
 						SILE.call("td", {}, {skill.name})
 						SILE.call("td", {}, {skill.attribute})
-						SILE.call("td", {}, {skill.synergy or "-"})
+						SILE.call("td", {}, {skill.synergy} or function()
+							SILE.call("mdash")
+						end)
 					end)
 				end
 			</script>
@@ -165,22 +167,22 @@
 						<td>n/d</td>
 					</tr>
 					<tr>
-						<td>16-20</td>
+						<td>16<ndash />20</td>
 						<td>Tandeta</td>
 						<td>1</td>
 					</tr>
 					<tr>
-						<td>21-30</td>
+						<td>21<ndash />30</td>
 						<td>Przeciętny</td>
 						<td>20</td>
 					</tr>
 					<tr>
-						<td>31-40</td>
+						<td>31<ndash />40</td>
 						<td>Dobry</td>
 						<td>50</td>
 					</tr>
 					<tr>
-						<td>41-50</td>
+						<td>41<ndash />50</td>
 						<td>Bardzo dobry</td>
 						<td>200</td>
 					</tr>
@@ -216,27 +218,27 @@
 					</tr>
 					<tr>
 						<td rowspan="6">Szerokość powierzchni</td>
-						<td>1 m</td>
+						<td>1m</td>
 						<td>0 lub 30<footmark ref="zachowanie-rownowagi-bieg" /></td>
 					</tr>
 					<tr>
-						<td>0,5-1 m</td>
+						<td>0,5<ndash />1m</td>
 						<td>10 lub 40<footmark ref="zachowanie-rownowagi-bieg" /></td>
 					</tr>
 					<tr>
-						<td>30-50 cm</td>
+						<td>30<ndash />50cm</td>
 						<td>25</td>
 					</tr>
 					<tr>
-						<td>10-29 cm</td>
+						<td>10<ndash />29cm</td>
 						<td>30</td>
 					</tr>
 					<tr>
-						<td>2-9 cm</td>
+						<td>2<ndash />9cm</td>
 						<td>40</td>
 					</tr>
 					<tr>
-						<td>1 cm</td>
+						<td>1cm</td>
 						<td>50</td>
 					</tr>
 					<tr>
@@ -295,10 +297,10 @@
 		<attribute>Charyzma</attribute>
 		<synergy>Perswazja, Zastraszanie</synergy>
 		<bonus>Dowódca, Ostatnia szarża, Posłuch, Rozkaz, Spryt dowódczy, Władczość</bonus>
-		<description>Umiejętność wpływania na podwładnych tak, aby skutecznie wykonywali to, co im się poleci. Aby umiejętność ta działała należy mieć możliwość komunikacji ze swoimi podwładnymi, a co ważniejsze samych podwładnych – czyli osoby, które akceptują wyższość hierarchiczną postaci nad nimi samymi. Testy można wykonywać w każdym przypadku zaistnienia rozkazu, ale ich sensowność jest istotnie tylko w przypadku, gdy Bohater wydaje polecenia BN-om i gdy BN wydaje rozkazy innym BN-om.</description>
+		<description>Umiejętność wpływania na podwładnych tak, aby skutecznie wykonywali to, co im się poleci. Aby umiejętność ta działała należy mieć możliwość komunikacji ze swoimi podwładnymi, a co ważniejsze samych podwładnych<mdash />czyli osoby, które akceptują wyższość hierarchiczną postaci nad nimi samymi. Testy można wykonywać w każdym przypadku zaistnienia rozkazu, ale ich sensowność jest istotnie tylko w przypadku, gdy Bohater wydaje polecenia BN-om i gdy BN wydaje rozkazy innym BN-om.</description>
 	</tal:skill>
 	<itemlist>
-		<item title="Rozkaz">Postać może wydać rozkaz swym podwładnym, a w zależności od wyniku rozkaz ten może być wykonany w sposób niewłaściwy, <quote>mniej więcej</quote> lub właściwy. Postać otrzymuje karę -1 za każdego dodatkowego podwładnego, do którego jest kierowany rozkaz (np. -7 za sześciu podwładnych, -10 za dziewięciu podwładnych, -100 za 99 podwładnych). Wynik testu w przedziale 0 – 14 sprawi, że podwładni nie wykażą woli wykonania polecenia lub wykonają je omylnie. Wynik 15-29 sprawi, że polecenie zostanie wykonane mniej więcej, a wynik 30+, że polecenie zostanie wykonane w sposób właściwy. Prócz modyfikatorów za ilość podkomendnych należy uwzględnić modyfikator do testu za rodzaj rozkazu.
+		<item title="Rozkaz">Postać może wydać rozkaz swym podwładnym, a w zależności od wyniku rozkaz ten może być wykonany w sposób niewłaściwy, <quote>mniej więcej</quote> lub właściwy. Postać otrzymuje karę -1 za każdego dodatkowego podwładnego, do którego jest kierowany rozkaz (np. -7 za sześciu podwładnych, -10 za dziewięciu podwładnych, -100 za 99 podwładnych). Wynik testu w przedziale 0<ndash />14 sprawi, że podwładni nie wykażą woli wykonania polecenia lub wykonają je omylnie. Wynik 15<ndash />29 sprawi, że polecenie zostanie wykonane mniej więcej, a wynik 30+, że polecenie zostanie wykonane w sposób właściwy. Prócz modyfikatorów za ilość podkomendnych należy uwzględnić modyfikator do testu za rodzaj rozkazu.
 			<table>
 				<caption>Modyfikatory do testu rozkazu</caption>
 				<thead>
@@ -362,7 +364,7 @@
 		<description>Umiejętność wykorzystania swej siły fizycznej do tego, aby poruszać obiektami, siłować się z kimś lub czymś. Ogólnie krzepa ma służyć sprawdzeniu jak postać poradzi sobie przy krótkim, acz intensywnym wysiłku fizycznym, a nie w przypadku długich działań wymagających pracy mięśni. Postać po jednej porażce w teście nie może go powtórzyć na tym samym obiekcie dopóki krzepa nie zwiększy się o przynajmniej 1 (przez jakiś modyfikator lub zwiększenie poziomu umiejętności). Z zasady szczęścia nie można w tym przypadku wykorzystywać do zwiększania wyniku testu lecz tylko do powtórek testu. Każda porażka w teście krzepy oznacza punkt zmęczenia.</description>
 	</tal:skill>
 	<itemlist>
-		<item title="Podniesienie ciężaru">Krzepka postać może porwać się na jakiś duży obiekt, podnieść go lub obalić. Test krzepy jest tu jak najbardziej wskazany. Ogólnie postać może podnieść tyle ile wynosi jest maksimum udźwigu oraz wynik testu krzepy razy 2 wkg. Przepchnąć postać może obiekt dwa razy cięższy niż wskazuje na to poprzedni wynik (udźwig też należy pomnożyć), a gdyby był na kółkach (płozach etc. – odpowiednio do warunków), to kolejny raz należy go pomnożyć przez 2.</item>
+		<item title="Podniesienie ciężaru">Krzepka postać może porwać się na jakiś duży obiekt, podnieść go lub obalić. Test krzepy jest tu jak najbardziej wskazany. Ogólnie postać może podnieść tyle ile wynosi jest maksimum udźwigu oraz wynik testu krzepy razy 2 wkg. Przepchnąć postać może obiekt dwa razy cięższy niż wskazuje na to poprzedni wynik (udźwig też należy pomnożyć), a gdyby był na kółkach (płozach etc.<mdash />odpowiednio do warunków), to kolejny raz należy go pomnożyć przez 2.</item>
 		<item title="Rozrywanie więzów">Postać może rozerwać kajdany i sznury (a przynajmniej próbować). ST rozerwania sznura, którym zostało się związanym zależy od jego rodzaju i jakości.
 			<table>
 				<caption>Rozrywanie więzów</caption>
@@ -468,7 +470,7 @@
 		<attribute>Kondycja</attribute>
 		<synergy>Wspinaczka; Wysiłek; Zwarcie</synergy>
 		<bonus>Alkoholowe wygadanie, Alkoholowy geniusz, Mocna głowa, Niezły spust, Przyswajanie mikstur, Walka na rauszu</bonus>
-		<description>Mocna głowa to umiejętność radzenia sobie przede wszystkim z pełnym kieliszkiem, a raczej z tym co się dzieje po przedostaniu się jego zawartości do gardła (pod warunkiem, że to alkohol). Alkohol to trucizna, ale bardzo użyteczna. Postać spożywająca alkohol upija się, co sprawia, że niektóre jej moce rosną, a inne spadają. Trzeba pamiętać, że alkohol działa kumulatywnie, więc ST wypicia drugiej takiej samej butelki rośnie – o połowę sumy ST poprzednich wypitych butelek.</description>
+		<description>Mocna głowa to umiejętność radzenia sobie przede wszystkim z pełnym kieliszkiem, a raczej z tym co się dzieje po przedostaniu się jego zawartości do gardła (pod warunkiem, że to alkohol). Alkohol to trucizna, ale bardzo użyteczna. Postać spożywająca alkohol upija się, co sprawia, że niektóre jej moce rosną, a inne spadają. Trzeba pamiętać, że alkohol działa kumulatywnie, więc ST wypicia drugiej takiej samej butelki rośnie<mdash />o połowę sumy ST poprzednich wypitych butelek.</description>
 	</tal:skill>
 	<itemlist>
 		<item title="Trzymanie fasonu">Po alkoholu można stracić równowagę, kontakt z rzeczywistością lub zawartość swego żołądka (serio). Testy mocnej głowy pozwolą postaci trzymać fason nawet, gdy jest pijana.
@@ -585,12 +587,12 @@
 					<tr>
 						<td>+20</td>
 						<td>Oddanie</td>
-						<td>-</td>
+						<td><mdash /></td>
 					</tr>
 					<tr>
 						<td>+10</td>
 						<td>Przyjaźń</td>
-						<td>-</td>
+						<td><mdash /></td>
 					</tr>
 					<tr>
 						<td>+5</td>
@@ -609,12 +611,12 @@
 					</tr>
 					<tr>
 						<td>-20</td>
-						<td>-</td>
+						<td><mdash /></td>
 						<td>Duża</td>
 					</tr>
 					<tr>
 						<td>-40</td>
-						<td>-</td>
+						<td><mdash /></td>
 						<td>Ogromna<footmark ref="przekonywanie-wrog" /></td>
 					</tr>
 				</tbody>
@@ -836,7 +838,7 @@
 	<tal:skill type="common">
 		<name>Prowokowanie</name>
 		<attribute>Charyzma</attribute>
-		<synergy>Zastraszanie; Kradzież kieszonkowa (Zręczna dłoń – tylko, gdy zagaduje się swoją ofiarę przed kradzieżą)</synergy>
+		<synergy>Zastraszanie; Kradzież kieszonkowa (Zręczna dłoń<mdash />tylko, gdy zagaduje się swoją ofiarę przed kradzieżą)</synergy>
 		<bonus>Brzuchomówca, Naśladowanie głosu, Sprytna finta, Uwodzenie, Zagadanie, Zwrócenie uwagi</bonus>
 		<description>Prowokowanie to umiejętność rozwścieczenia przeciwnika, zmuszenia go do działania lub wciągnięcia w słowny utarg.</description>
 	</tal:skill>
@@ -981,7 +983,7 @@
 			</tr>
 			<tr>
 				<td>-10</td>
-				<td>Zaskoczenie – postać nie wytęża swoich zmysłów</td>
+				<td>Zaskoczenie<mdash />postać nie wytęża swoich zmysłów</td>
 			</tr>
 		</tbody>
 	</table>
@@ -1118,7 +1120,7 @@
 				</tbody>
 			</table>
 		</item>
-		<item title="Wzrok">Dzięki spostrzegawczości postać może dostrzec rzeczy, które są ukryte, zauważać zbliżających się wrogów lub spostrzec nóż ukryty przy pasie rozmówcy. ST testu zależy od rzucania się w oczy obiektu i wynosi zwykle 15 – 30. ST należy zmodyfikować.
+		<item title="Wzrok">Dzięki spostrzegawczości postać może dostrzec rzeczy, które są ukryte, zauważać zbliżających się wrogów lub spostrzec nóż ukryty przy pasie rozmówcy. ST testu zależy od rzucania się w oczy obiektu i wynosi zwykle 15<ndash />30. ST należy zmodyfikować.
 			<table>
 				<caption>Modyfikatory wypatrywania</caption>
 				<thead>
@@ -1182,7 +1184,7 @@
 						<td>0</td>
 					</tr>
 					<tr>
-						<td>Kilometr – dwa</td>
+						<td>Kilometr<ndash />dwa</td>
 						<td>+10</td>
 					</tr>
 					<tr>
@@ -1195,10 +1197,10 @@
 					</tr>
 					<tr>
 						<td>Szukany obiekt się przemieszcza</td>
-						<td><footnote>Jeżeli szukany obiekt się przemieszcza trzeba natrafić na jego ślad, a następnie skorzystać z Przeszukiwania - tropienia.</footnote></td>
+						<td><footnote>Jeżeli szukany obiekt się przemieszcza trzeba natrafić na jego ślad, a następnie skorzystać z Przeszukiwania<mdash />tropienia.</footnote></td>
 					</tr>
 					<tr>
-						<td>Wido-czność<footmark ref="sztuka-przetrwania-odleglosc" /></td>
+						<td>Widoczność<footmark ref="sztuka-przetrwania-odleglosc" /></td>
 						<td>Mżawka lub mgła</td>
 						<td>+10</td>
 					</tr>
@@ -1282,7 +1284,7 @@
 	</tal:skill>
 	<itemlist>
 		<item title="Przejście bez śladu">Postać dzięki tej umiejętności może starać się poruszać tak, aby nie zostawiać za sobą śladów. Wynik testu zastępuje ST tropienia. Warunkiem testu jest poruszanie się z połową szybkości. Postać poruszająca się z normalną szybkością otrzymuje karę -10 do testu.</item>
-		<item title="Skradanie">Postać może przemknąć nieposłyszenie. W tym celu należy dokonać testu spornego ze spostrzegawczością - słuchem ofiary. Jeżeli postać nie porusza się z połową swojej szybkości tj. wykonuje ostrożny ruch, to otrzymuje modyfikator -10 do testu. Skradanie się połączone z biegiem automatycznie kończy się porażką tego pierwszego.
+		<item title="Skradanie">Postać może przemknąć nieposłyszenie. W tym celu należy dokonać testu spornego ze spostrzegawczością<mdash />słuchem ofiary. Jeżeli postać nie porusza się z połową swojej szybkości tj. wykonuje ostrożny ruch, to otrzymuje modyfikator -10 do testu. Skradanie się połączone z biegiem automatycznie kończy się porażką tego pierwszego.
 			<table>
 				<caption>Modyfikatory testu skradania</caption>
 				<thead>
@@ -1320,8 +1322,8 @@
 				</tbody>
 			</table>
 		</item>
-		<item title="Śledzenie">Postać może dzięki tej umiejętności w sposób nie wzbudzający podejrzeń podążać za ofiarą. Śledzenie wymaga nawiązywania ze strony postaci kontaktu wzrokowego ze swą ofiarą, gdyż w przeciwnym razie mamy do czynienia z tropieniem (Patrz – przeszukiwanie). Wykonuje się sporny test ze spostrzegawczością ofiary (wzrokiem) raz na 10 minut śledzenia. Sukces oznacza, że ofiara nie zdaje sobie sprawy z tego, że jest śledzona. Poza tym, jeżeli ofiara nie spodziewa się możliwości bycia śledzoną to otrzymuje modyfikator -10 do testu.</item>
-		<item title="Ukrycie się">Postać może dzięki tej umiejętności schować się w jakimś miejscu i pozostać w bezruchu, aby nie zostać dostrzeżonym. Zasadniczo, gdy postać będzie w stanie schować się w całości, to wszelkie próby dostrzeżenia jej skończą się niepowodzeniem. Ukrywanie należy zastosować, gdy postać nie może schować się w pełni i część jej <quote>wystaje</quote> na widok przeciwnika. Wykonuje się wtedy test sporny ze spostrzegawczością – wzrokiem przeciwnika. Porażka oznacza, że zostało się dostrzeżonym. Jeżeli postać przemieszcza się z połową szybkości podczas ukrycia, to podlega modyfikatorowi -10 do testu. Gdy porusza się ze swą szybkością otrzymuje modyfikator -20. Bieg połączony z ukryciem automatycznie kończy porażką to drugie.</item>
+		<item title="Śledzenie">Postać może dzięki tej umiejętności w sposób nie wzbudzający podejrzeń podążać za ofiarą. Śledzenie wymaga nawiązywania ze strony postaci kontaktu wzrokowego ze swą ofiarą, gdyż w przeciwnym razie mamy do czynienia z tropieniem (Patrz<mdash />przeszukiwanie). Wykonuje się sporny test ze spostrzegawczością ofiary (wzrokiem) raz na 10 minut śledzenia. Sukces oznacza, że ofiara nie zdaje sobie sprawy z tego, że jest śledzona. Poza tym, jeżeli ofiara nie spodziewa się możliwości bycia śledzoną to otrzymuje modyfikator -10 do testu.</item>
+		<item title="Ukrycie się">Postać może dzięki tej umiejętności schować się w jakimś miejscu i pozostać w bezruchu, aby nie zostać dostrzeżonym. Zasadniczo, gdy postać będzie w stanie schować się w całości, to wszelkie próby dostrzeżenia jej skończą się niepowodzeniem. Ukrywanie należy zastosować, gdy postać nie może schować się w pełni i część jej <quote>wystaje</quote> na widok przeciwnika. Wykonuje się wtedy test sporny ze spostrzegawczością<mdash />wzrokiem przeciwnika. Porażka oznacza, że zostało się dostrzeżonym. Jeżeli postać przemieszcza się z połową szybkości podczas ukrycia, to podlega modyfikatorowi -10 do testu. Gdy porusza się ze swą szybkością otrzymuje modyfikator -20. Bieg połączony z ukryciem automatycznie kończy porażką to drugie.</item>
 	</itemlist>
 
 	<tal:skill type="common">
@@ -1471,7 +1473,9 @@
 					SILE.call("tr", {}, function()
 						SILE.call("td", {}, {skill.name})
 						SILE.call("td", {}, {skill.attribute})
-						SILE.call("td", {}, {skill.synergy or "-"})
+						SILE.call("td", {}, {skill.synergy} or function()
+							SILE.call("mdash")
+						end)
 					end)
 				end
 			</script>
@@ -1483,7 +1487,7 @@
 		<attribute>Refleks</attribute>
 		<synergy>Uniki</synergy>
 		<bonus>Atak z zaskoczenia, Bieganie, Błyskawiczna finta, Cios wiązany, Dodatkowa akcja, Doskonalsza finta, Pierwsze uderzenie, Szybkie wyciągnięcie, Ucieczka, Większa szybkość</bonus>
-		<description>Z tej umiejętności korzysta się przy rozpoczęciu starcia. Wynik ustala kolejność działań – im wyższy, tym szybciej rozpocznie się swoje działania w rundzie.</description>
+		<description>Z tej umiejętności korzysta się przy rozpoczęciu starcia. Wynik ustala kolejność działań<mdash />im wyższy, tym szybciej rozpocznie się swoje działania w rundzie.</description>
 	</tal:skill>
 
 	<tal:skill type="combat">
@@ -1498,7 +1502,7 @@
 			</variant>
 			<variant>
 				<name>Konne</name>
-				<description>Najbardziej podstawowa kategoria – można rzecz, że typowa. Zaliczają się do niej konie i wszystkie podobne do koni istoty.</description>
+				<description>Najbardziej podstawowa kategoria<mdash />można rzecz, że typowa. Zaliczają się do niej konie i wszystkie podobne do koni istoty.</description>
 				<bonus>Broń kawaleryjska, Jazda na oklep, Szarża konna, Tratowanie</bonus>
 			</variant>
 			<variant>
@@ -1635,7 +1639,9 @@
 					SILE.call("tr", {}, function()
 						SILE.call("td", {}, {skill.name})
 						SILE.call("td", {}, {skill.attribute})
-						SILE.call("td", {}, {skill.synergy or "-"})
+						SILE.call("td", {}, {skill.synergy} or function()
+							SILE.call("mdash")
+						end)
 					end)
 				end
 			</script>
@@ -1653,7 +1659,7 @@
 	<tal:skill type="special">
 		<name>Gra na instrumentach</name>
 		<attribute>Charyzma</attribute>
-		<description>Umiejętność gry na instrumentach dzieli się na trzy dyscypliny, które należy rozwijać oddzielnie. Ogólnie dzięki tej umiejętności postać potrafi w sposób ekspresywny wykorzystywać instrumenty muzyczne, a więc dokonywać improwizacji muzycznych lub wykonywać znane sobie utwory. Zdolności premiowe dla wszystkich tych umiejętności są wspólne – niektóre należy precyzować do danej dziedziny gry, a inne działają ogólnie (patrz opisy zdolności). Gry na instrumentach można używać w celach zarobkowych. Zysk jest tym wyższy im wyższy jest wynik w teście umiejętności i dotyczy godzinnej gry.</description>
+		<description>Umiejętność gry na instrumentach dzieli się na trzy dyscypliny, które należy rozwijać oddzielnie. Ogólnie dzięki tej umiejętności postać potrafi w sposób ekspresywny wykorzystywać instrumenty muzyczne, a więc dokonywać improwizacji muzycznych lub wykonywać znane sobie utwory. Zdolności premiowe dla wszystkich tych umiejętności są wspólne<mdash />niektóre należy precyzować do danej dziedziny gry, a inne działają ogólnie (patrz opisy zdolności). Gry na instrumentach można używać w celach zarobkowych. Zysk jest tym wyższy im wyższy jest wynik w teście umiejętności i dotyczy godzinnej gry.</description>
 		<variants>
 			<variant>
 				<name>Bębny</name>
@@ -1688,22 +1694,22 @@
 				<td>n/d</td>
 			</tr>
 			<tr>
-				<td>16-20</td>
+				<td>16<ndash />20</td>
 				<td>Tandeta</td>
 				<td>1</td>
 			</tr>
 			<tr>
-				<td>21-30</td>
+				<td>21<ndash />30</td>
 				<td>Przeciętny</td>
 				<td>20</td>
 			</tr>
 			<tr>
-				<td>31-40</td>
+				<td>31<ndash />40</td>
 				<td>Dobry</td>
 				<td>50</td>
 			</tr>
 			<tr>
-				<td>41-50</td>
+				<td>41<ndash />50</td>
 				<td>Bardzo dobry</td>
 				<td>200</td>
 			</tr>
@@ -1990,42 +1996,42 @@
 					<tr>
 						<td>30</td>
 						<td>miesiąc</td>
-						<td>Dosiadanie – zwierze, które może być wierzchowcem zostało wyszkolone tak, aby transportować jeźdźca.</td>
+						<td>Dosiadanie<mdash />zwierze, które może być wierzchowcem zostało wyszkolone tak, aby transportować jeźdźca.</td>
 					</tr>
 					<tr>
 						<td>45</td>
 						<td>kwartał</td>
-						<td>Dosiadanie w walce<footnote id="tresura-wytresowanie-douczenie">Można nauczyć tylko, gdy uprzednio zwierze nauczone zostało: tropienia w przypadku polowania albo jazdy w przypadku jazdy w walce.</footnote> – zwierzę nie ulega panice podczas walki, gdy nosi jeźdźca.</td>
+						<td>Dosiadanie w walce<footnote id="tresura-wytresowanie-douczenie">Można nauczyć tylko, gdy uprzednio zwierze nauczone zostało: tropienia w przypadku polowania albo jazdy w przypadku jazdy w walce.</footnote><mdash />zwierzę nie ulega panice podczas walki, gdy nosi jeźdźca.</td>
 					</tr>
 					<tr>
 						<td>40</td>
 						<td>miesiąc</td>
-						<td>Polowanie<footmark ref="tresura-wytresowanie-douczenie" /> – zwierze goni inną zwierzynę, przynosi zdobycz lub ją płoszy.</td>
+						<td>Polowanie<footmark ref="tresura-wytresowanie-douczenie" /><mdash />zwierze goni inną zwierzynę, przynosi zdobycz lub ją płoszy.</td>
 					</tr>
 					<tr>
 						<td>30</td>
 						<td>10 dni</td>
-						<td>Praca – zwierze umie wykonywać męczące, długotrwałe zadania związane z pracą (np. ciągnięcie pługu lub wozu).</td>
+						<td>Praca<mdash />zwierze umie wykonywać męczące, długotrwałe zadania związane z pracą (np. ciągnięcie pługu lub wozu).</td>
 					</tr>
 					<tr>
 						<td>35</td>
 						<td>10 dni</td>
-						<td>Strzeżenie – zwierze strzeże danego miejsca przed intruzami i wszczyna alarm, gdy kogoś zauważy.</td>
+						<td>Strzeżenie<mdash />zwierze strzeże danego miejsca przed intruzami i wszczyna alarm, gdy kogoś zauważy.</td>
 					</tr>
 					<tr>
 						<td>30</td>
 						<td>miesiąc</td>
-						<td>Tropienie – zwierzę korzysta ze swoich zmysłów ścigając ofiarę, której ślad został mu wskazany.</td>
+						<td>Tropienie<mdash />zwierzę korzysta ze swoich zmysłów ścigając ofiarę, której ślad został mu wskazany.</td>
 					</tr>
 					<tr>
 						<td>40</td>
 						<td>miesiąc</td>
-						<td>Walka<footnote>Zwierze jest w stanie atakować tylko tych wrogów, którzy nie wywołują w nim lęku.</footnote> – zwierze atakuje wybranego przeciwnika w celu zabicia go lub zranienia.</td>
+						<td>Walka<footnote>Zwierze jest w stanie atakować tylko tych wrogów, którzy nie wywołują w nim lęku.</footnote><mdash />zwierze atakuje wybranego przeciwnika w celu zabicia go lub zranienia.</td>
 					</tr>
 					<tr>
 						<td>25</td>
 						<td>dzień/sztuczka</td>
-						<td>Występy – zwierze reaguje na polecenia tresera lub innych osób wykonując jakieś sztuczki.</td>
+						<td>Występy<mdash />zwierze reaguje na polecenia tresera lub innych osób wykonując jakieś sztuczki.</td>
 					</tr>
 				</tbody>
 			</table>

@@ -65,11 +65,11 @@
 		<item title="Cechy wallosów">Dobra karma, Duch i ciało, Krew przemian, Różnorodność, Widzenie w ciemności i Wrodzone rzemiosło.</item>
 		<item title="Krew przemian">Wallosi w pniu swego drzewa genealogicznego mają nie tylko ludzi, lecz również inne rasy. Koszt zdolności początkowych typu <quote>Rasa</quote> kosztuje połowę mniej punktów doświadczenia (tj. 500 miast 1000). [Tylko dla Bohaterów]</item>
 		<item title="Widzenie w ciemności">Wallosi mają bardzo czuły wzrok, który pozwala im widzieć dwa razy dalej w ciemnościach niż normalnemu człowiekowi. Jeżeli normalny człowiek przy świetle ze świecy widzi co się dzieje wokół niego w odległości 4 metrów, to wallos przy tej samej świecy i świetle będzie mógł widzieć co się wokół niego dzieje na odległość 8 metrów.</item>
-		<item title="Wrodzone rzemiosło">Wallosi otrzymali niegdyś dar umiejętności dzięki któremu niemal każdy z nich zna się na produkcji i obróbce. Każda umiejętność będąca rodzajem rzemiosła kosztuje przy rozwijaniu przez pierwsze 10 poziomów tylko połowę punktów doświadczenia (1 poziom - 50, 2 - 100, 3 - 150, 4 - 200, 5 - 250, 6 - 300, 7 - 350, 8 - 400, 9 - 450, 10 – 500 punktów doświadczenia). Pozostałe poziomy mają normalny koszt doświadczenia.</item>
+		<item title="Wrodzone rzemiosło">Wallosi otrzymali niegdyś dar umiejętności dzięki któremu niemal każdy z nich zna się na produkcji i obróbce. Każda umiejętność będąca rodzajem rzemiosła kosztuje przy rozwijaniu przez pierwsze 10 poziomów tylko połowę punktów doświadczenia (1 poziom<mdash />50, 2<mdash />100, 3<mdash />150, 4<mdash />200, 5<mdash />250, 6<mdash />300, 7<mdash />350, 8<mdash />400, 9<mdash />450, 10<mdash />500 punktów doświadczenia). Pozostałe poziomy mają normalny koszt doświadczenia.</item>
 	</itemlist>
 
 	<section>Kreole</section>
-	<p>Ludzie rozmnażają się biologicznie i mogą się między sobą krzyżować. Gdy członkowie dwóch ras się ze sobą skrzyżuje, to tak powstałe potomstwo dziedziczy wszystkie cechy podstawowe ludzi, a także jedną cechę z rasy swego ojca i jedną cechę z rasy swej matki – w obu przypadkach są to dowolne cechy, ale nie mogą być to dwie cechy zastrzeżone dla Bohaterów, jak również wymienne z dwiema zdolnościami pochodzenia. Wadą kreolów jest posiadanie bazowo pięciu cech miast sześciu, a zaletą swobodny wybór dwóch cech z dość bogatej listy. Poza tym kreole mają dostęp do wszystkich zdolności, które wymagają rasy ich rodziców.</p>
+	<p>Ludzie rozmnażają się biologicznie i mogą się między sobą krzyżować. Gdy członkowie dwóch ras się ze sobą skrzyżuje, to tak powstałe potomstwo dziedziczy wszystkie cechy podstawowe ludzi, a także jedną cechę z rasy swego ojca i jedną cechę z rasy swej matki<mdash />w obu przypadkach są to dowolne cechy, ale nie mogą być to dwie cechy zastrzeżone dla Bohaterów, jak również wymienne z dwiema zdolnościami pochodzenia. Wadą kreolów jest posiadanie bazowo pięciu cech miast sześciu, a zaletą swobodny wybór dwóch cech z dość bogatej listy. Poza tym kreole mają dostęp do wszystkich zdolności, które wymagają rasy ich rodziców.</p>
 	<p>Dzieci kreolów również mają podstawowe cechy ludzi i dwie dodatkowe cechy wynikające z ras swych rodziców tak jak ma to miejsce przy mieszaniu się ras.</p>
 
 	<section>Elf (Elfowie, Elfy)</section>
@@ -374,7 +374,7 @@
 		</item>
 		<item title="Wygląd i moce">
 			Gogi posiadają kilka cech fizycznych, które mogą w magiczny sposób kontrolować. Prócz wybranych cech każdy gog wygląda jak zwykły przedstawiciel swej rasy.<br />
-			Niektóre z wybranych cech dają gogowi możliwość drobnej przemiany swej fizyczności. Każda taka przemiana wymaga zdania odpowiedniego testu mocy magicznej lub opanowania – z umiejętności można korzystać przy tym wymiennie i są nazywane dalej <quote>przemianą</quote>. Niektóre moce dla użycia wymagają poświęcenia punktów many. Postać traci punkty many przed dokonaniem testu przemiany, niezależnie od tego, czy dojdzie ona do skutku, czy nie. Zakończenie działania przemiany i powrót do normalnego stanu trwa tyle samo czasu, co sama przemiana. Jeżeli jednak gog nie dokonuje tej przemiany świadomie, to nie potrzebuje on także poświęcania odpowiednich akcji na powrót do normalnej formy.
+			Niektóre z wybranych cech dają gogowi możliwość drobnej przemiany swej fizyczności. Każda taka przemiana wymaga zdania odpowiedniego testu mocy magicznej lub opanowania<mdash />z umiejętności można korzystać przy tym wymiennie i są nazywane dalej <quote>przemianą</quote>. Niektóre moce dla użycia wymagają poświęcenia punktów many. Postać traci punkty many przed dokonaniem testu przemiany, niezależnie od tego, czy dojdzie ona do skutku, czy nie. Zakończenie działania przemiany i powrót do normalnego stanu trwa tyle samo czasu, co sama przemiana. Jeżeli jednak gog nie dokonuje tej przemiany świadomie, to nie potrzebuje on także poświęcania odpowiednich akcji na powrót do normalnej formy.
 		</item>
 		<item title="Prawdziwa forma">Niektóre gogi mają w sobie wystarczająco dużo krwi swych piekielnych przodków, aby dokonać specjalnej przemiany. Przemiana ST=50 i trwa 1 akcję cało-rundową. W efekcie natychmiast dokonują się u goga jego wszystkie przemiany związane z mocami, a dodatkowo w chwili przemiany leczy on obrażenia w wysokości 1/2 woli. Na taką przemianę poświęcić trzeba 30 punktów many i trwa tyle minut ile wynosi wola postaci. W tym czasie działają wszystkie moce (chyba, że zostaną wcześniej zużyte).</item>
 	</itemlist>
@@ -392,35 +392,35 @@
 		</item>
 		<item title="Łuski">
 			W kilku miejscach gog ma na ciele łuski koloru czerwonego lub miedzianego. Zwykle są ona skupione na jego plecach, ramionach lub biodrach, a w sumie zajmują powierzchnię ok. 30 cm2.<br />
-			- Przemiana ST=35; 1 akcja minutowa; koszt many: 18. Przemiana kończy się po 6 minutach.<br />
+			<mdash />Przemiana ST=35; 1 akcja minutowa; koszt many: 18. Przemiana kończy się po 6 minutach.<br />
 			W czasie przemiany całe ciało goga zaczynają pokrywać łuski. Gdy już całe ciało zostaje nimi pokryte natychmiast twardnieją zapewniając postaci naturalny pancerz. Pancerz wynosi 1/2 kondycji +5 i chroni również przed ogniem.
 		</item>
 		<item title="Ogniste spojrzenie">
 			(Tylko, gdy postać ma czerwone oczy jako cechę goga).<br />
-			- Przemiana - ST 15; 1 akcja cało-rundowa; koszt many: 10. Przemiana kończy się po wyładowaniu lub minucie.<br />
+			<mdash /> Przemiana<mdash />ST 15; 1 akcja cało-rundowa; koszt many: 10. Przemiana kończy się po wyładowaniu lub minucie.<br />
 			Gog może sprawić, że oczy jego zaczną emitować ognistą poświatę. Od tej chwili przez minutę może on skupić swe spojrzenie na jakimś celu i zaatakować go ognistymi promieniami z oczu. Atak nie powoduje u goga żadnych kłopotów ze wzrokiem.<br />
 			Atak: władanie: pocisk, traf. +0; Zasięg: 30m; Obrażenia (ogień): 1k12 + 1/4 woli. Atak: akcja darmowa.
 		</item>
 		<item title="Ogon">
 			Gog ma wyrostek będący przedłużeniem kości ogonowej. Jest on długi na ok. 5 centymetrów.<br />
-			- Przemiana ST 15; 1 akcja cało-rundowa; koszt many: 12. Przemiana kończy się po 10 minutach.<br />
-			Ogon wydłuża się na półtora metra i zwieńczają go długie włosy w takim samym kolorze jakie ma postać. Jeżeli postać może rozwinąć ogon i nim swobodnie manewrować, to zwiększa możliwość zachowania równowagi – modyfikator +10 do testów.
+			<mdash /> Przemiana ST 15; 1 akcja cało-rundowa; koszt many: 12. Przemiana kończy się po 10 minutach.<br />
+			Ogon wydłuża się na półtora metra i zwieńczają go długie włosy w takim samym kolorze jakie ma postać. Jeżeli postać może rozwinąć ogon i nim swobodnie manewrować, to zwiększa możliwość zachowania równowagi<mdash />modyfikator +10 do testów.
 		</item>
 		<item title="Pazury">
 			Paznokcie goga bardzo szybko rosną jak na przedstawiciela jego rasy, a do tego są koloru czarnego i cechują się większą twardością.<br />
-			- Przemiana ST 15; 1 akcja cało-rundowa; koszt many: 12. Przemiana kończy się po 10 minutach.<br />
+			<mdash /> Przemiana ST 15; 1 akcja cało-rundowa; koszt many: 12. Przemiana kończy się po 10 minutach.<br />
 			W ciągu chwili paznokcie rąk goga zamieniają się w długie na 30cm pazury. Gog może walczyć za pomocą swych pazurów.<br />
 			Atak: walka wręcz, traf. +5; Obrażenia: Małe + 1k6. Atak: jak atak wręcz postaci. 
 		</item>
 		<item title="Rogi">
 			Nad czołem goga jest narośl, przypominająca dwa wystające guzy.<br />
-			- Przemiana ST 15; 1 akcja cało-rundowa; koszt many: 12. Przemiana kończy się po 10 minutach.<br />
+			<mdash /> Przemiana ST 15; 1 akcja cało-rundowa; koszt many: 12. Przemiana kończy się po 10 minutach.<br />
 			W czasie przemiany guzy przemieniają się w ostre, czarne rogi. Gog ma zawsze tak samo wyglądające rogi, ale poszczególne osobniki mogą mieć zakręcone, proste lub zawinięte w ślimaki rogi. Niezależnie od wyglądu wszystkimi nimi można walczyć.<br />
 			Atak: walka wręcz, traf. +0; Obrażenia: Średnie + 1k6. Atak: jak atak wręcz postaci. Podczas zwarcia postać nie ponosi kary do testu ataku rogami.
 		</item>
 		<item title="Skrzydła">
 			Na plecach goga jest narośl przypominająca dwie równoległe do siebie kości, między kręgosłupem, a łopatkami.<br />
-			- Przemiana ST=35; 1 akcja minutowa; koszt many: 18. Przemiana kończy się po 6 minutach.<br />
+			<mdash /> Przemiana ST=35; 1 akcja minutowa; koszt many: 18. Przemiana kończy się po 6 minutach.<br />
 			Narośl rozrasta się w czasie przemiany, a gdy ta dobiega końca na plecach goga pojawiają się błoniaste skrzydła o rozpiętości ok. 5 metrów. Gog może latać dzięki tym skrzydłom z prędkością równą swej zręczności.
 		</item>
 		<item title="Żądło">
@@ -455,12 +455,12 @@
 					<tr>
 						<td>2</td>
 						<td>Cierniowa strzała, Cierniowy sztylet, Pyłek zapachowy</td>
-						<td>-</td>
+						<td><mdash /></td>
 					</tr>
 					<tr>
 						<td>3</td>
 						<td>Cierniowa włócznia, Cierniowy łuk, Cierniowy miecz</td>
-						<td>-</td>
+						<td><mdash /></td>
 					</tr>
 					<tr>
 						<td>4</td>
@@ -477,7 +477,7 @@
 	<itemlist>
 		<item title="Ciernie">
 			Postać potrafią sprawić, że na życzenie z jej ciała wyrosną kolce nie dłuższe jak 10 cm, wyglądające jak ciernie róży. Ciernie są twarde jak stal i bardzo ostre, chociaż nigdy nie kaleczą one ciała elfa, nawet gdy z siłą zostaną w niego pchnięte. Czerwony elf może w akcji dodatkowej schować lub wypuścić z ciała kolce. Każde <quote>wypuszczenie ich</quote> wymaga poświęcenia 4 punktów many oraz dodatkowych 4 punktów za każdą godzinę ich obecności na ciele.<br />
-			- Uderzenie kolcami powoduje 1k6 obrażeń, a wszelkie premie i testy liczą się przy nich tak jak przy walce wręcz. Na życzenie cierniowy elf podczas zwarcia, gdy wygra z oponentem dowolny test może zadać mu w akcji darmowej obrażenia za pomocą swoich cierni.
+			<mdash /> Uderzenie kolcami powoduje 1k6 obrażeń, a wszelkie premie i testy liczą się przy nich tak jak przy walce wręcz. Na życzenie cierniowy elf podczas zwarcia, gdy wygra z oponentem dowolny test może zadać mu w akcji darmowej obrażenia za pomocą swoich cierni.
 		</item>
 		<item title="Feromony">Czerwony elf może sprawić, że ciernie zaczną produkować więcej krwi, a zapach róż z jego ciała przesiąknie feromonami płciowymi. Każda humanoid płci przeciwnej czujący ten zapach będzie w sposób bardziej przychylny patrzył na czerwonego elfa. Oznacza to, że osoba ta otrzyma modyfikator -5 do wszystkich testów charyzmy spornych z testami charyzmy elfa. Feromony pozostają odczuwalne przez minutę x wartość kondycji elfa. Ich uwolnienie to akcja darmowa, która zadaje elfowi 1k4 punktów obrażeń (nie powodują one rany i nie działa na nie pancerz lub redukcja).</item>
 	</itemlist>
@@ -486,11 +486,11 @@
 	<itemlist>
 		<item title="Cierniowa strzała">
 			Gdy postać ma wystawione ciernie, może skupić się na jakimś i uformować go w postać strzały długiej, krótkiej lub bełtu. Działanie to wymaga poświęcenia akcji dodatkowej i 4 punktów many. Po godzinie od uformowania pocisku traci ona wszystkie swoje właściwości i nie nadaje się do użycia.<br />
-			- Obr: 1k12 (kłute) // Waga: n/d
+			<mdash /> Obr: 1k12 (kłute) // Waga: n/d
 		</item>
 		<item title="Cierniowy sztylet">
 			Gdy postać ma wystawione ciernie, może skupić się na jakimś i uformować go w postać sztyletu. Działanie to wymaga poświęcenia akcji zwykłej i 6 punktów many. Po godzinie od uformowania sztyletu traci on wszystkie swoje właściwości i nie nadaje się do użycia.<br />
-			- Obr. 1k8 +1/8 Si (cięte lub kłute) // Waga; 0,5kg Cechy broni: Lekka.
+			<mdash /> Obr. 1k8 +1/8 Si (cięte lub kłute) // Waga; 0,5kg Cechy broni: Lekka.
 		</item>
 		<item title="Pyłek zapachowy">Krwawy elf może otrzeć swą skórą o dowolny obiekt pozostawiając na nim delikatny zapach, który wyzwoli w akcji darmowej kosztem 8 punktów many. Elf, który pozostawił ten zapach i tylko on będzie mógł wyczuć go za pomocą swej spostrzegawczości (wykorzystanie węchu). Zapach utrzymuje się na obiekcie przez 1 dzień. Bazowe ST wykrycia pyłku to 25 + ewentualne modyfikatory.
 			<table>
@@ -531,17 +531,17 @@
 	<itemlist>
 		<item title="Cierniowa włócznia">
 			Gdy postać ma wystawione ciernie, może skupić się na jakimś i uformować go w postać włóczni. Działanie to wymaga poświęcenia akcji cało-rundowej i 22 punktów many. Po godzinie od uformowania włócznia traci ona wszystkie swoje właściwości i nie nadaje się do użycia.<br />
-			- Obr. 1k8 +1/4 Si (kłute) // Waga: 5kg<br />
-			Cechy broni: Specjalne – Rzut: broń zaprojektowano tak, aby można było nią rzucić na zasięg 3 + 1/2 Si metrów. Trafienie w cel to test rzucania; Szarża; Zasięg +1m.
+			<mdash /> Obr. 1k8 +1/4 Si (kłute) // Waga: 5kg<br />
+			Cechy broni: Specjalne<mdash />Rzut: broń zaprojektowano tak, aby można było nią rzucić na zasięg 3 + 1/2 Si metrów. Trafienie w cel to test rzucania; Szarża; Zasięg +1m.
 		</item>
 		<item title="Cierniowy łuk">
 			Gdy postać ma wystawione ciernie, może skupić się na dwóch będących na ręku i uformować je w postać łuku z cięciwą. Działanie to wymaga poświęcenia akcji cało-rundowej i 22 punktów many. Po godzinie od uformowania miecza on traci wszystkie swoje właściwości i nie nadaje się do użycia. Łuk przywiera do ciała postaci i nie można go odrzucić inaczej jak odrąbując ciernie.<br />
-			- Obr. 1/8 Si+ pociski // Waga: n/d<br />
+			<mdash /> Obr. 1/8 Si+ pociski // Waga: n/d<br />
 			Cechy broni: Ładowanie (Krótkie strzały, akcja zwykła); Maksymalna siła: 14; Zasięg: 100m.
 		</item>
 		<item title="Cierniowy miecz">
 			Gdy postać ma wystawione ciernie, może skupić się na jakimś i uformować go w postać miecza. Działanie to wymaga poświęcenia akcji cało-rundowej i 22 punktów many. Po godzinie od uformowania miecza on traci wszystkie swoje właściwości i nie nadaje się do użycia.<br />
-			- Obr. 2k6 +1/2 Si (cięte lub kłute) // Waga; 1,5kg Cechy broni: Biegłość (Elficki miecz długi); Półtora-ręczna, Trafienie +5; Zabójcza.
+			<mdash /> Obr. 2k6 +1/2 Si (cięte lub kłute) // Waga; 1,5kg Cechy broni: Biegłość (Elficki miecz długi); Półtora-ręczna, Trafienie +5; Zabójcza.
 		</item>
 	</itemlist>
 

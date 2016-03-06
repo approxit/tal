@@ -2,10 +2,10 @@
 	<chapter>Zdolności</chapter>
 	<p>W mechanice gry zdolnościami nazywamy specjalne moce lub inaczej talenty, które posiada postać. Zdolności mogą być najróżniejszych rodzajów, od tych związanych z walką, przez te wynikających z wychowania, do tych będących efektem uprawiania magii lub rozwoju swego ducha.</p>
 	<p>Niektóre zdolności są lepsze od pozostałych, co widać na pierwszy rzut oka. Zasadnym jest więc, aby Gracz wybierał dla swej postaci tylko te zdolności, które w jej perspektywie okażą się przydane. Nie istnieje obowiązek posiadania zdolności innych od tego, który stwarzają realia gry i chęć dania swojemu ulubieńcowi (Bohaterowi Gracza) możliwości przetrwania kolejnej przygody.</p>
-	<p>Zdolności w przeciwieństwie do umiejętności nie zwiększają kosztu zdobywania ich. Każda zdolność kosztuje 1000 punktów doświadczenia, ale uwaga (!) – niektóre zdolności, aby je zdobyć muszą mieć uprzednio spełnione wymagania (i to w sposób permanentny przez postać) lub wymagają zdobycia ich na etapie tworzenia gry (wrodzone i pochodzenia).</p>
+	<p>Zdolności w przeciwieństwie do umiejętności nie zwiększają kosztu zdobywania ich. Każda zdolność kosztuje 1000 punktów doświadczenia, ale uwaga<mdash />niektóre zdolności, aby je zdobyć muszą mieć uprzednio spełnione wymagania (i to w sposób permanentny przez postać) lub wymagają zdobycia ich na etapie tworzenia gry (wrodzone i pochodzenia).</p>
 
 	<header>Premiowe zdolności</header>
-	<p>Zdolności można zdobywać również za darmo, gdyż niektóre zdolności można wybrać z uwagi na rozwijanie jakiejś umiejętności. W tym przypadku postać może wybrać 1 zdolność po zdobyciu 5 poziomu jakiejś umiejętności i kolejną zdolność co każde zdobyte 5 poziomów tejże umiejętności. Postać może jednak w ten sposób wybierać premiowe zdolności, tylko jeżeli są one w jakiś sposób związane z umiejętnością, którą rozwija, a dokładniej, gdy znajdują się one na premiowej liście zdolności danej umiejętności. Aby wybrać premiową zdolność postać musi spełniać jej wymagania w taki sam sposób jak przy innych zdolnościach – czyli w sposób permanentny.</p>
+	<p>Zdolności można zdobywać również za darmo, gdyż niektóre zdolności można wybrać z uwagi na rozwijanie jakiejś umiejętności. W tym przypadku postać może wybrać 1 zdolność po zdobyciu 5 poziomu jakiejś umiejętności i kolejną zdolność co każde zdobyte 5 poziomów tejże umiejętności. Postać może jednak w ten sposób wybierać premiowe zdolności, tylko jeżeli są one w jakiś sposób związane z umiejętnością, którą rozwija, a dokładniej, gdy znajdują się one na premiowej liście zdolności danej umiejętności. Aby wybrać premiową zdolność postać musi spełniać jej wymagania w taki sam sposób jak przy innych zdolnościach<mdash />czyli w sposób permanentny.</p>
 	<p>Jeżeli postać z jakiegoś powodu w pewnym momencie straci właściwości uznawane za wymagane dla danej zdolności, to automatycznie traci możliwość osiągania z niej korzyści do czasu odzyskania swych bazowych właściwości.</p>
 
 	<section>Zdolności ogólne</section>
@@ -25,7 +25,9 @@
 				for i, feat in ipairs(feats) do
 					SILE.call("tr", {}, function()
 						SILE.call("td", {}, {feat.name})
-						SILE.call("td", {}, {feat.requirements or "-"})
+						SILE.call("td", {}, {feat.requirements} or function()
+							SILE.call("mdash")
+						end)
 					end)
 				end
 			</script>
@@ -88,7 +90,7 @@
 
 	<tal:feat type="general">
 		<name>Berserk</name>
-		<profit>Postać może wpaść w berserk w ciągu akcji cało-rundowej. Trwa on ilość rund równą wytrwałości postaci lub do chwili, gdy postać się uspokoi albo zostanie oszołomiona. W czasie trwania berserku postać otrzymuje modyfikator +2 do szybkości, +4 do siły oraz -2 do obrony fizycznej. Gdy berserk dobiega końca postać otrzymuje 6 punkty zmęczenia. Postać, gdy wpadnie w berserk może wykonywać tylko 2 rodzaje akcji – te związane z ruchem (przemieszczaniem się) i atakowaniem bronią bezpośrednią lub bronią miotaną. Premia do siły zapewniana przez berserk jest również modyfikatorem wszystkich testów opanowania przy opieraniu się strachowi, gdy jest się w berserku</profit>
+		<profit>Postać może wpaść w berserk w ciągu akcji cało-rundowej. Trwa on ilość rund równą wytrwałości postaci lub do chwili, gdy postać się uspokoi albo zostanie oszołomiona. W czasie trwania berserku postać otrzymuje modyfikator +2 do szybkości, +4 do siły oraz -2 do obrony fizycznej. Gdy berserk dobiega końca postać otrzymuje 6 punkty zmęczenia. Postać, gdy wpadnie w berserk może wykonywać tylko 2 rodzaje akcji<mdash />te związane z ruchem (przemieszczaniem się) i atakowaniem bronią bezpośrednią lub bronią miotaną. Premia do siły zapewniana przez berserk jest również modyfikatorem wszystkich testów opanowania przy opieraniu się strachowi, gdy jest się w berserku</profit>
 	</tal:feat>
 
 	<tal:feat type="general">
@@ -107,7 +109,7 @@
 
 	<tal:feat type="general">
 		<name>Biegłość (nazwa)</name>
-		<profit>Zdolność ta dotyczy wyszkolenia w obsługiwaniu konkretnej broni. Nazwy możliwych biegłości wskazano w tabeli z lewej strony, a wymagania tych konkretnych biegłości po prawej stronie. Korzyść posiadania każdej biegłości jest taki sam – Postać nie otrzymuje kary -5 do testów wykorzystania broni wskazanej w nazwie zdolności</profit>
+		<profit>Zdolność ta dotyczy wyszkolenia w obsługiwaniu konkretnej broni. Nazwy możliwych biegłości wskazano w tabeli z lewej strony, a wymagania tych konkretnych biegłości po prawej stronie. Korzyść posiadania każdej biegłości jest taki sam<mdash />Postać nie otrzymuje kary -5 do testów wykorzystania broni wskazanej w nazwie zdolności</profit>
 	</tal:feat>
 	<table>
 		<caption>Wykaz możliwych biegłości w broni</caption>
@@ -124,7 +126,7 @@
 			</tr>
 			<tr>
 				<td>Broń długa</td>
-				<td>U: Broń drzewcowa 5</td>
+				<td>U: Władanie (broń drzewcowa) 5</td>
 			</tr>
 			<tr>
 				<td>Broń wieloostrzowa</td>
@@ -136,7 +138,7 @@
 			</tr>
 			<tr>
 				<td>Czarna szabla</td>
-				<td>U: Szabla 10</td>
+				<td>U: Władanie (szabla) 10</td>
 			</tr>
 			<tr>
 				<td>Drowi poganiacz</td>
@@ -144,23 +146,23 @@
 			</tr>
 			<tr>
 				<td>Drowi sztylet</td>
-				<td>U: Sztylet 5</td>
+				<td>U: Władanie (sztylet) 5</td>
 			</tr>
 			<tr>
 				<td>Elficki króciak</td>
-				<td>A: Zr 14; U: Miecz 10</td>
+				<td>A: Zr 14; U: Władanie (miecz) 10</td>
 			</tr>
 			<tr>
 				<td>Elficki łuk długi</td>
-				<td>A: Zr 16; U: Łuk 15</td>
+				<td>A: Zr 16; U: Władanie (łuk) 15</td>
 			</tr>
 			<tr>
 				<td>Elficki łuk krótki</td>
-				<td>A: Zr 16; U: Łuk 10</td>
+				<td>A: Zr 16; U: Władanie (łuk) 10</td>
 			</tr>
 			<tr>
 				<td>Elficki miecz długi</td>
-				<td>A: Zr 14; U: Miecz 10</td>
+				<td>A: Zr 14; U: Władanie (miecz) 10</td>
 			</tr>
 			<tr>
 				<td>Jorowa cicho-sza</td>
@@ -168,7 +170,7 @@
 			</tr>
 			<tr>
 				<td>Jorowy łuk</td>
-				<td>U: Łuk 5</td>
+				<td>U: Władanie (łuk) 5</td>
 			</tr>
 			<tr>
 				<td>Jury</td>
@@ -176,15 +178,15 @@
 			</tr>
 			<tr>
 				<td>Kiściec</td>
-				<td>U: Broń obuchowa 5</td>
+				<td>U: Władanie (broń obuchowa) 5</td>
 			</tr>
 			<tr>
 				<td>Kusza krasnoludzka</td>
-				<td>U: Kusza 5</td>
+				<td>U: Władanie (kusza) 5</td>
 			</tr>
 			<tr>
 				<td>Kusza powtarzalna</td>
-				<td>U: Kusza 5</td>
+				<td>U: Władanie (kusza) 5</td>
 			</tr>
 			<tr>
 				<td>Lasso</td>
@@ -192,35 +194,35 @@
 			</tr>
 			<tr>
 				<td>Łuk refleksyjny</td>
-				<td>U: Łuk 10</td>
+				<td>U: Władanie (łuk) 10</td>
 			</tr>
 			<tr>
 				<td>Młot bojowy</td>
-				<td>U: Broń obuchowa 5</td>
+				<td>U: Władanie (broń obuchowa) 5</td>
 			</tr>
 			<tr>
 				<td>Miecz półtora-ręczny</td>
-				<td>A: Si 12; U: Miecz 5</td>
+				<td>A: Si 12; U: Władanie (miecz) 5</td>
 			</tr>
 			<tr>
 				<td>Miecz zębowy</td>
-				<td>U: Miecz 5</td>
+				<td>U: Władanie (miecz) 5</td>
 			</tr>
 			<tr>
 				<td>Pawęż</td>
-				<td>U: Tarcza 5</td>
+				<td>U: Władanie (tarcza) 5</td>
 			</tr>
 			<tr>
 				<td>Pika</td>
-				<td>U: Broń drzewcowa 5</td>
+				<td>U: Władanie (broń drzewcowa) 5</td>
 			</tr>
 			<tr>
 				<td>Podcinacz krasnoludzki</td>
-				<td>U: Miecz 10</td>
+				<td>U: Władanie (miecz) 10</td>
 			</tr>
 			<tr>
 				<td>Puklerz</td>
-				<td>U: Tarcza 5</td>
+				<td>U: Władanie (tarcza) 5</td>
 			</tr>
 			<tr>
 				<td>Proca</td>
@@ -228,11 +230,11 @@
 			</tr>
 			<tr>
 				<td>Sai</td>
-				<td>U: Sztylet 5</td>
+				<td>U: Włądanie (sztylet) 5</td>
 			</tr>
 			<tr>
 				<td>Skorpion orkowy</td>
-				<td>A: Si 16; U: Kusza 5</td>
+				<td>A: Si 16; U: Władanie (kusza) 5</td>
 			</tr>
 			<tr>
 				<td>Sieć</td>
@@ -240,43 +242,43 @@
 			</tr>
 			<tr>
 				<td>Szpada</td>
-				<td>U: Szabla 5</td>
+				<td>U: Władanie (szabla) 5</td>
 			</tr>
 			<tr>
 				<td>Sztylet bojowy</td>
-				<td>U: Sztylet 5</td>
+				<td>U: Władanie (sztylet) 5</td>
 			</tr>
 			<tr>
 				<td>Tarcza herbowa</td>
-				<td>U: Tarcza 5</td>
+				<td>U: Władanie (tarcza) 5</td>
 			</tr>
 			<tr>
 				<td>Tarcza jazdy</td>
-				<td>U: Tarcza 5</td>
+				<td>U: Władanie (tarcza) 5</td>
 			</tr>
 			<tr>
 				<td>Topór bojowy</td>
-				<td>U: Topór 5</td>
+				<td>U: Włądanie (topór) 5</td>
 			</tr>
 			<tr>
 				<td>Topór półtora-ręczny</td>
-				<td>A: Si 12; U: Topór 5</td>
+				<td>A: Si 12; U: Władanie (topór) 5</td>
 			</tr>
 			<tr>
 				<td>Wielki miecz</td>
-				<td>A: Si 14; U: Miecz 5</td>
+				<td>A: Si 14; U: Władanie (miecz) 5</td>
 			</tr>
 			<tr>
 				<td>Wielki młot</td>
-				<td>A: Si 16; U: Broń obuchowa 5</td>
+				<td>A: Si 16; U: Władanie (broń obuchowa) 5</td>
 			</tr>
 			<tr>
 				<td>Wielki topór</td>
-				<td>A: Si 14; U: Topór 5</td>
+				<td>A: Si 14; U: Władanie (topór) 5</td>
 			</tr>
 			<tr>
 				<td>Żelaźniak orkowy</td>
-				<td>A: Si 16; U: Miecz 5</td>
+				<td>A: Si 16; U: Władanie (miecz) 5</td>
 			</tr>
 		</tbody>
 	</table>
@@ -284,7 +286,7 @@
 	<tal:feat type="general">
 		<name>Biegłość w zbroi</name>
 		<profit>Postać nosząc zbroję w której ma biegłość odczuwa realny spadek wagi zbroi o połowę, co przekłada się na kary z przeciążenia</profit>
-		<special>Zdolność można wziąć 3 razy. Za każdym razem będzie ona usuwała ograniczenia z kolejnej, wyższej kategorii zbroi. 1 – lekka, 2 – średnia, 3 – ciężka.</special>
+		<special>Zdolność można wziąć 3 razy. Za każdym razem będzie ona usuwała ograniczenia z kolejnej, wyższej kategorii zbroi. 1<mdash />lekka, 2<mdash />średnia, 3<mdash />ciężka.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
@@ -325,7 +327,7 @@
 	<tal:feat type="general">
 		<name>Broń celowania</name>
 		<requirements>Umiejętność: Władanie (kusza) 10</requirements>
-		<profit>Jeżeli postać celowała przed atakiem, to nie musi poświęcać akcji na test ataku – staje się on częścią celowania. Dotyczy to tylko broni posiadających cechę o nazwie tej zdolności</profit>
+		<profit>Jeżeli postać celowała przed atakiem, to nie musi poświęcać akcji na test ataku<mdash />staje się on częścią celowania. Dotyczy to tylko broni posiadających cechę o nazwie tej zdolności</profit>
 		<normal>Bez tej zdolności skorzystanie z broni o takiej cesze wymaga poświęcenia akcji zwykłej.</normal>
 	</tal:feat>
 
@@ -446,7 +448,7 @@
 
 	<tal:feat type="general">
 		<name>Dmuchawka</name>
-		<requirements>Umiejętność: Kusza 1</requirements>
+		<requirements>Umiejętność: Włądanie (kusza) 1</requirements>
 		<profit>Postać korzysta z dmuchawki bez kary -10</profit>
 		<normal>Bez tej zdolności skorzystanie z broni o takiej cesze wiąże się z karą -10 do wszystkich testów nią wykonywanych.</normal>
 	</tal:feat>
@@ -650,10 +652,10 @@
 
 	<tal:feat type="general">
 		<name>Mistrz broni półtora-ręcznej (władanie)</name>
-		<requirements>Atrybut: Siła 16, Umiejętność: Władanie (broń obuchowa, miecz, szabla lub topór) 10, Zdolność: Specjalizacja (władanie, odpowiednio jak umiejętność)</requirements>
+		<requirements>Atrybut: Siła 16, Umiejętność: Władanie (broń obuchowa lub miecz lub szabla lub topór) 10, Zdolność: Specjalizacja (władanie, odpowiednio jak umiejętność)</requirements>
 		<profit>Kara do trafienia za korzystanie z broni półtora-ręcznej jedną ręką maleje do -5</profit>
 		<normal>Kara za korzystanie z broni półtora-ręcznej jedną ręką wynosi -10.</normal>
-		<special>Zdolność można wziąć cztery razy – raz dla każdej ze wskazanych umiejętności władania.</special>
+		<special>Zdolność można wziąć cztery razy<mdash />raz dla każdej ze wskazanych umiejętności władania.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
@@ -987,7 +989,7 @@
 		<name>Riposta (władanie)</name>
 		<requirements>Atrybut: Refleks 16; Umiejętność: Władanie (miecz lub szabla) 20</requirements>
 		<profit>Raz w turze, gdy uda Ci się sparować atak przeciwnika za pomocą miecza lub odpowiednio szabli możesz spróbować zaatakować go tą samą bronią, którą parowałeś pod warunkiem, że ma ona cechę szybka. Wykonujesz test ataku z modyfikatorem -10. Nie można łączyć riposty z błyskawicznym parowaniem, ani z cechą broni szybkie parowanie</profit>
-		<special>Zdolność można wziąć dwukrotnie – dla miecza i dla szabli.</special>
+		<special>Zdolność można wziąć dwukrotnie<mdash />dla miecza i dla szabli.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
@@ -1219,10 +1221,10 @@
 
 	<tal:feat type="general">
 		<name>Szybki atak (władanie)</name>
-		<requirements>Atrybut: Refleks 16, Umiejętność: Władanie (miecz, rzucana, sztylet lub topór) 10, Zdolność: Specjalizacja (władanie, odpowiednio jak umiejętność) albo Umiejętność: Walka wręcz, Zdolność: Specjalizacja (walka wręcz)</requirements>
+		<requirements>Atrybut: Refleks 16, Umiejętność: Władanie (miecz lub rzucana lub sztylet lub topór) 10, Zdolność: Specjalizacja (władanie, odpowiednio jak umiejętność) albo Umiejętność: Walka wręcz, Zdolność: Specjalizacja (walka wręcz)</requirements>
 		<profit>Postać potrzebuje tylko akcji dodatkowej na wykonanie ataku za pomocą broni z cechą lekka</profit>
 		<normal>Atak wymaga poświecenia akcji zwykłej.</normal>
-		<special>Zdolność można wziąć pięć razy – raz dla każdej ze wskazanych umiejętności władania oraz raz dla walki wręcz.</special>
+		<special>Zdolność można wziąć pięć razy<mdash />raz dla każdej ze wskazanych umiejętności władania oraz raz dla walki wręcz.</special>
 	</tal:feat>
 
 	<tal:feat type="general">
@@ -1619,7 +1621,9 @@
 				for i, feat in ipairs(feats) do
 					SILE.call("tr", {}, function()
 						SILE.call("td", {}, {feat.name})
-						SILE.call("td", {}, {feat.requirements or "-"})
+						SILE.call("td", {}, {feat.requirements} or function()
+							SILE.call("mdash")
+						end)
 					end)
 				end
 			</script>
@@ -1676,7 +1680,7 @@
 
 	<tal:feat type="innate">
 		<name>Drugie serce</name>
-		<description><quote>Słyszysz jak wali? Łomocze jak sam skur... no wiesz kto. – Fakt, ale zobaczysz, że za chwilę przestanie łomotać i gość będzie w pełnej formie. On już taki jest.</quote></description>
+		<description><quote>Słyszysz jak wali? Łomocze jak sam skur... no wiesz kto.<mdash />Fakt, ale zobaczysz, że za chwilę przestanie łomotać i gość będzie w pełnej formie. On już taki jest.</quote></description>
 		<requirements>Atrybut: Kondycja 16</requirements>
 		<profit>Zmęczenie jest niwelowane przez postać 2x szybciej</profit>
 	</tal:feat>
@@ -1709,7 +1713,7 @@
 
 	<tal:feat type="innate">
 		<name>Gog (wyższy rodzaj)</name>
-		<description>W Twoich żyłach płynie krew Magogów – rasy demonów.</description>
+		<description>W Twoich żyłach płynie krew Magogów<mdash />rasy demonów.</description>
 		<requirements>Atrybut: Charyzma 4, Kondycja 12</requirements>
 		<profit>Postać otrzymuje szablon Wyższego Rodzaju o nazwie Gog</profit>
 		<special>Postać może wziąć tę zdolność maksymalnie 4 razy. Za każdym razem jej moc związana z wyższym rodzajem będzie rosła o stopień.</special>
@@ -1731,7 +1735,7 @@
 
 	<tal:feat type="innate">
 		<name>Kolejny żołądek (rasa)</name>
-		<description><quote>Dawaj żarcie, bom głodny! – Ależ panie, to już piętnasta porcja! – Co za cipa! Trzymajta mnie, bo mu pierdolnę. Nuż chuj mnie głodzi!</quote></description>
+		<description><quote>Dawaj żarcie, bom głodny!<mdash />Ależ panie, to już piętnasta porcja!<mdash />Co za cipa! Trzymajta mnie, bo mu pierdolnę. Nuż chuj mnie głodzi!</quote></description>
 		<requirements>Rasa: Krasnolud</requirements>
 		<profit>Posiadasz o jeden żołądek więcej, niż inni Twoi pobratymcy. Działa on tak samo jak pozostałe</profit>
 	</tal:feat>
@@ -1801,7 +1805,7 @@
 
 	<tal:feat type="innate">
 		<name>Odporność na magię</name>
-		<description>Niektórzy mają ciekawą magiczną zdolność – są odporni na magię.</description>
+		<description>Niektórzy mają ciekawą magiczną zdolność<mdash />są odporni na magię.</description>
 		<profit>Premia +4 do obrony magicznej</profit>
 	</tal:feat>
 
@@ -1996,7 +2000,7 @@
 		<item title="Opis">Archont Gniewu zwany również Piekielnym Berserkiem lub Piewcą Zniszczenia jest niezwykłym wzorcem występującym w osobach. Bardzo wielu wojowników ma zdolność wpadania w szał czyniący spustoszenie wokół na placu boju, ale tylko prawdziwy berserk może wpaść w szał, który zamieni w pobojowisko nie tylko plac boju, lecz wręcz całą krainę. Legendy mówiące o opętanych szałem mordu berserkerach niszczących królestwa w istocie mówią o osobach dysponujących tym wzorem.</item>
 		<item title="Koszt dodatkowy">Aby wziąć dowolną z poniższych zdolności postać musi posiadać następujące zdolności (ogólne): Berserk oraz Bitewna furia. Poza tym tylko podczas bitewnej furii zdolności archonta gniewu będą działały. Zdolności archonta gniewu można wybierać tylko podczas bitwy. Postać musi wpaść w jej trakcie w berserka z bitewną furią, a następnie zabić dowolnego przeciwnika. Wtedy też dopiero postać będzie mogła poświęcić punkty doświadczenia wybierając dla siebie odpowiednie zdolności. Można w ten sposób zyskać tylko jedną zdolność podczas jednej bitwy.</item>
 		<item title="Efekt uboczny">
-			Za każdym razem, gdy postać wpadnie w berserk istnieje 15% +4%, za każdą z poniższych zdolności, szansy na to, że jako pierwszego przeciwnika wybierze najbliższą sobie osobę / potwora – nieważne przy tym, czy to będzie przeciwnik czy sojusznik. W drugiej rundzie i każdej ewentualnie kolejnej będzie trzeba powtarzać test, aż w końcu berserk będzie mógł zająć się przeciwnikami. Poza tym postać ma taką samą szansę na to, że wpadnie w berserk za każdym razem, gdy przegra test prowokacji dotyczący zdenerwowania.<br />
+			Za każdym razem, gdy postać wpadnie w berserk istnieje 15% +4%, za każdą z poniższych zdolności, szansy na to, że jako pierwszego przeciwnika wybierze najbliższą sobie osobę / potwora<mdash />nieważne przy tym, czy to będzie przeciwnik czy sojusznik. W drugiej rundzie i każdej ewentualnie kolejnej będzie trzeba powtarzać test, aż w końcu berserk będzie mógł zająć się przeciwnikami. Poza tym postać ma taką samą szansę na to, że wpadnie w berserk za każdym razem, gdy przegra test prowokacji dotyczący zdenerwowania.<br />
 			Dodatkowo, gdy archont gniewu wpada w bitewną furię zdaje automatycznie wszystkie testy opanowania dotyczące strachu.
 		</item>
 	</itemlist>
@@ -2261,7 +2265,7 @@
 		<name>Pazury</name>
 		<requirements>Umiejętność: Walka wręcz 10</requirements>
 		<profit>Poświęcając akcję cało-rundową i 6 punktów many postać może wytworzyć na swych dłoniach pazury. Pazurami tymi można walczyć za pomocą walki wręcz. Po godzinie od chwili wytworzenia pazurów palce postaci znów zamieniają się w swą naturalną postać. Na pazury działają wszelkie zdolności, które postać ma wybrane dla walki wręcz.
-		<p>- Obr. 1k8 + 1/4 Si.</p>
+		<p><mdash /> Obr. 1k8 + 1/4 Si.</p>
 		<p>Cechy broni: Lekkie.</p>
 		</profit>
 		<animal>Dowolny kot</animal>

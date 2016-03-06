@@ -59,7 +59,11 @@ end
 
 SILE.inputs.XML.process = function(fn)
 	local fh = io.open(fn)
-	local t = parse(fh:read("*all"))
+	local t, err = parse(fh:read("*all"))
+	if err then
+		SU.error(err)
+	end
+
 	local root = (SILE.documentState.documentClass == nil)
 
 	if root then

@@ -3,6 +3,9 @@
 	<define command="TaL">TaL</define>
 
 	<define command="TODO">&lt;TODO: <process />&gt;<par /></define>
+	<define command="dots">…</define>
+	<define command="ndash">–</define>
+	<define command="mdash">—</define>
 	<define command="p"><process /><par /></define>
 	<define command="key"><process /></define>
 	<define command="quote">„<process />”</define>

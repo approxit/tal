@@ -82,7 +82,7 @@
 			</table>
 		</item>
 		<item title="Wymagania">
-			Wskazanie wymagań, które trzeba spełnić, aby móc korzystać z danego języka. Wymagania te należy spełniać w sposób permanentny. W tym fragmencie opisu języka zawarta jest również informacja o inteligencji - <quote>In</quote>. Inteligencja w tym miejscu nie oznacza wstępnych warunków poznania języka, a warunek poznania go w sposób zupełny. Osoba mająca taką inteligencję będzie zdolna do pełnego wykorzystania języka i jeżeli język zapewnia jakąś premię, to również postać ją dzięki temu otrzyma.<br />
+			Wskazanie wymagań, które trzeba spełnić, aby móc korzystać z danego języka. Wymagania te należy spełniać w sposób permanentny. W tym fragmencie opisu języka zawarta jest również informacja o inteligencji<mdash /><quote>In</quote>. Inteligencja w tym miejscu nie oznacza wstępnych warunków poznania języka, a warunek poznania go w sposób zupełny. Osoba mająca taką inteligencję będzie zdolna do pełnego wykorzystania języka i jeżeli język zapewnia jakąś premię, to również postać ją dzięki temu otrzyma.<br />
 			Jeżeli dany język należy do grupy języków tajemnych, to przy alfabecie, po ukośniku zostało to wskazane. Różnica między językami tajemnymi, a zwykłymi jest taka, że te pierwsze mają wyższe wymagania poznania ich. Poza tym wykorzystanie magii w oparciu o dany język wymaga, aby postać miała przynajmniej taką wartość inteligencji jak ta wskazana tu w wymaganiach. Brak odpowiedniej inteligencji uniemożliwia wykorzystanie magii.
 		</item>
 		<item title="Występowanie">Na końcu wskazano występowanie danego języka lub jego typowych użytkowników.</item>
@@ -306,7 +306,7 @@
 		<alphabet>haeta</alphabet>
 		<requirements>Atrybut: Inteligencja 16</requirements>
 		<appearance>Wschód Imperium, Erx</appearance>
-		<description>Język północno-wschodnich mieszkańców Imperium. Podobny jest on do języka lantyńskiego i wiele słów z tego języka zostało tutaj inkorporowanych. Jest to jednak język bardziej onomatopeiczny i bardziej melodyjny. Poznanie języków haetal, lantyńskiego i espagryjskiego sprawia, że język samijski otrzymuje się premiowo.</description>
+		<description>Język północno<ndash />wschodnich mieszkańców Imperium. Podobny jest on do języka lantyńskiego i wiele słów z tego języka zostało tutaj inkorporowanych. Jest to jednak język bardziej onomatopeiczny i bardziej melodyjny. Poznanie języków haetal, lantyńskiego i espagryjskiego sprawia, że język samijski otrzymuje się premiowo.</description>
 	</tal:language>
 
 	<tal:language>
@@ -399,7 +399,11 @@
 			<script>
 				for i = 1, 15 do
 					SILE.call("tr", {}, function()
-						SILE.call("td", {}, {tostring(i * 2 - 1 .. " - " .. i * 2)})
+						SILE.call("td", {}, function()
+							SILE.typesetter:typeset(tostring(i * 2 - 1))
+							SILE.call("mdash")
+							SILE.typesetter:typeset(tostring(i * 2))
+						end)
 						SILE.call("td", {}, {tostring(i * 8 .. "km")})
 						SILE.call("td", {}, {tostring("+" .. i .. "km")})
 					end)
@@ -502,7 +506,7 @@
 	</table>
 
 	<header>Poruszanie się po okolicy</header>
-	<p>Za taki ruch uważa się w zasadzie każdy ruch, który nie odbywa się podczas walki. Postać poświęca raczej czas, a nie uwagę bitewną na to, aby się przemieścić. Podane poniżej trzy wartości do każdego rodzaju ruchu oznaczają kolejno – zasięg w ciągu 6 sekund, minuty i godziny poruszania się w ten sposób.</p>
+	<p>Za taki ruch uważa się w zasadzie każdy ruch, który nie odbywa się podczas walki. Postać poświęca raczej czas, a nie uwagę bitewną na to, aby się przemieścić. Podane poniżej trzy wartości do każdego rodzaju ruchu oznaczają kolejno<mdash />zasięg w ciągu 6 sekund, minuty i godziny poruszania się w ten sposób.</p>
 	<table>
 		<caption>Zasięg postaci niezwiązanej walką dla ostrożnego ruchu i marszu w metrach</caption>
 		<thead>
@@ -680,10 +684,10 @@
 	</itemlist>
 
 	<section>Trudności życia w Świecie Przygód</section>
-	<p>W niniejszych podrozdziale przedstawiono podstawowe informacje, które pomogą określić rozwiązania sytuacji, które spotkać mogą postacie w Świecie Przygód – czyli świecie gry.</p>
+	<p>W niniejszych podrozdziale przedstawiono podstawowe informacje, które pomogą określić rozwiązania sytuacji, które spotkać mogą postacie w Świecie Przygód<mdash />czyli świecie gry.</p>
 
 	<header>Chłód i upał</header>
-	<p>Postać funkcjonuje normalnie w temperaturze między 11, a 30 stopni Celsjusza (lub Arlesara – w terminach Imperium). Gdy temperatury spadają trzeba się ogrzewać, a gdy wzrastają należy się schładzać, aby zachować swą funkcjonalność. Niższe lub wyższe temperatury wpływają na postać negatywnie.</p>
+	<p>Postać funkcjonuje normalnie w temperaturze między 11, a 30 stopni Celsjusza (lub Arlesara<mdash />w terminach Imperium). Gdy temperatury spadają trzeba się ogrzewać, a gdy wzrastają należy się schładzać, aby zachować swą funkcjonalność. Niższe lub wyższe temperatury wpływają na postać negatywnie.</p>
 	<p>W zależności od temperatury postać otrzymuje punkty wychłodzenia lub przegrzania w odpowiednich jednostkach czasowych. Punkty te działają tak samo, lecz się ze sobą nie kumulują, lecz wzajemnie redukują. Przy niektórych temperaturach postać może dostać tylko ograniczoną ilość punktów wychłodzenia albo przegrzania, a z uwagi, że działają one tylko po zrównaniu się z wytrwałością postaci, może się okazać, że pewne postacie są odporne na działanie ekstremalnych temperatur.</p>
 	<table>
 		<caption>Wychłodzenie i przegrzanie</caption>
@@ -752,7 +756,7 @@
 	<header>Głód i pragnienie</header>
 	<p>Postać, aby normalnie funkcjonować musi mieć odpowiedni zapas kalorii, które spali podczas wysiłku. Jeżeli postać nie jest odpowiednio odżywiona lub napojona, wtedy działają nań kary związane z wyczerpaniem i otrzymuje obrażenia.</p>
 	<p>Postać musi codziennie zjeść 0,5kg przyzwoitego jedzenia i wypić ok. 2 litrów wody, aby zachować pełnię sił. W przypadku zwiększonego wysiłku fizycznego zapotrzebowanie na pożywienie i wodę wzrasta (nawet wielokrotnie).</p>
-	<p>Bez wody postać może obyć się przez ilość dni równą ½ wytrwałości, po których będzie codziennie otrzymywała 2 punkty wyczerpania i 6 punktów obrażeń spowodowanych pragnieniem. Bez jedzenia postać może obyć się ilość dni równą wytrwałości, a po tym czasie będzie otrzymywała codziennie 2 punkty wyczerpania i 4 obrażeń. Obrażeń tych nie trzeba opatrywać, ale postać zacznie je regenerować dopiero, gdy się odpowiednio odżywi i napoi. Postać jednym posiłek / porcją wody nie może zaspokoić kilkudniowego głodu, czy pragnienia dlatego aby po głodówce otworzyć swe siły przez dwa-trzy dni winna odpowiednio syto się odżywiać lub nawadniać.</p>
+	<p>Bez wody postać może obyć się przez ilość dni równą ½ wytrwałości, po których będzie codziennie otrzymywała 2 punkty wyczerpania i 6 punktów obrażeń spowodowanych pragnieniem. Bez jedzenia postać może obyć się ilość dni równą wytrwałości, a po tym czasie będzie otrzymywała codziennie 2 punkty wyczerpania i 4 obrażeń. Obrażeń tych nie trzeba opatrywać, ale postać zacznie je regenerować dopiero, gdy się odpowiednio odżywi i napoi. Postać jednym posiłek / porcją wody nie może zaspokoić kilkudniowego głodu, czy pragnienia dlatego aby po głodówce otworzyć swe siły przez 2<ndash />3 dni winna odpowiednio syto się odżywiać lub nawadniać.</p>
 	<p>W powyższym opisie pod słowem woda rozumie się wszystkie rodzaje płynów, które można pić bez poważnej szkody dla zdrowia. Szczęście sprawi, że postać znajdzie jakieś źródło pożywienia lub wody (chociażby było to mocno naciągane).</p>
 
 	<header>Obniżenie i wysączenie atrybutu</header>
@@ -841,7 +845,11 @@
 			<script>
 				for i = 1, 10 do
 					SILE.call("tr", {}, function()
-						SILE.call("td", {}, {tostring(i * 2 - 1 .. " - " .. i * 2)})
+						SILE.call("td", {}, function()
+							SILE.typesetter:typeset(tostring(i * 2 - 1))
+							SILE.call("ndash")
+							SILE.typesetter:typeset(tostring(i * 2))
+						end)
 						SILE.call("td", {}, {tostring(i ^ 2)})
 					end)
 				end
@@ -930,7 +938,7 @@
 	</itemlist>
 
 	<header>Sen</header>
-	<p>Wszystkie postacie muszą spać, aby odzyskiwać swe utracone w ciągu doby siły. Postać codziennie musi spać 8 godzin, aby odzyskać pełnię swych sił. Nie musi być to sen trwający nieprzerwanie 8 godzin – można go rozłożyć na <quote>raty</quote>, tj. spać dwa razy po 4 godziny lub cztery razy po 2 godziny. Efekt będzie ten sam.</p>
+	<p>Wszystkie postacie muszą spać, aby odzyskiwać swe utracone w ciągu doby siły. Postać codziennie musi spać 8 godzin, aby odzyskać pełnię swych sił. Nie musi być to sen trwający nieprzerwanie 8 godzin<mdash />można go rozłożyć na <quote>raty</quote>, tj. spać dwa razy po 4 godziny lub cztery razy po 2 godziny. Efekt będzie ten sam.</p>
 	<p>Jeżeli postać w ciągu doby nie wyśpi się dostatecznie, to otrzymuje w związku z tym punkty wyczerpania. Brak każdej godziny snu oznacza otrzymanie punktu wyczerpania.</p>
 	<p>Jeżeli postać w ciągu kolejnych 10 godzin odbędzie trwający łącznie 8 godzin sen, to w czasie tego snu prócz zregenerowania 8 punktów wyczerpania, zregeneruje jeszcze 2 dodatkowe punkty. Oznacza to, że trwający pełnowymiarowy sen sprawia, że postaci regeneruje się 10 punktów wyczerpania.</p>
 
@@ -960,7 +968,7 @@
 		<tbody>
 			<tr>
 				<td>Hubka i krzesiwo</td>
-				<td>-</td>
+				<td><mdash /></td>
 				<td>1m</td>
 			</tr>
 			<tr>
@@ -1082,7 +1090,7 @@
 			<tr>
 				<td>6</td>
 				<td>Drobny</td>
-				<td>Rozmowa z dostojnikiem potoczyła sie fatalnie. Cofnięcie czasu – powtórzenie całego dialogu.</td>
+				<td>Rozmowa z dostojnikiem potoczyła sie fatalnie. Cofnięcie czasu<mdash />powtórzenie całego dialogu.</td>
 			</tr>
 			<tr>
 				<td>8</td>
@@ -1125,7 +1133,7 @@
 	<itemlist>
 		<item title="Doświadczenie">Gracz może wymienić doświadczenie swej postaci na punkty szczęścia. Za każdy punkt szczęścia trzeba zapłacić 100 punktów doświadczenia. Gracz może skorzystać z tej opcji w dowolnym momencie gry (począwszy od tworzenia postaci, a skończywszy na pojedynkowaniu się na śmierć i życie z demonem).</item>
 		<item title="Heroiczność">Po każdej przygodzie w której brało udział przynajmniej 3 graczy, MG prosi graczy o wybranie jawne lub poufne gracza, który otrzyma punkt szczęścia. Kryterium oceny należy pozostawić graczom, a w przypadku remisu zdobywcę punktu szczęścia wybiera MG.</item>
-		<item title="Nowa kampania">Rozpoczęcie przez postać Gracza drugiej i każdej kolejnej kampanii zapewnia 10 punktów szczęścia – te punkty szczęścia nie podwajają się w przypadku ludzkich Bohaterów.</item>
+		<item title="Nowa kampania">Rozpoczęcie przez postać Gracza drugiej i każdej kolejnej kampanii zapewnia 10 punktów szczęścia<mdash />te punkty szczęścia nie podwajają się w przypadku ludzkich Bohaterów.</item>
 		<item title="Przygoda">Każda postać Gracza, który zaczyna sesję otrzymuje punkt szczęścia.</item>
 		<item title="Samorealizacja">Postać zdobywa szczęście, gdy realizuje się przez swe zalety lub zdolności.</item>
 	</itemlist>
@@ -1155,11 +1163,11 @@
 				<td>Postać działa bez dodatkowych kar i efektów.</td>
 			</tr>
 			<tr>
-				<td>10-19</td>
+				<td>10<ndash />19</td>
 				<td>Postać traci akcję zwykłą i należy ją traktować jakby miała 5 dodatkowych punktów wyczerpania.</td>
 			</tr>
 			<tr>
-				<td>1-9</td>
+				<td>1<ndash />9</td>
 				<td>Postać traci przytomność. Odzyskanie przytomności w tym stanie nie jest możliwe.</td>
 			</tr>
 			<tr>
