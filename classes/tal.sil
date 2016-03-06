@@ -74,4 +74,26 @@
 	<define command="tal:feat:animal">Zwierzę: <process /><br /></define>
 	<define command="tal:feat:action">Czyn: <process /><br /></define>
 	<define command="tal:feat:description"><process /><br /></define>
+
+	<define command="tal:weapon:name"><process /><br /></define>
+	<define command="tal:weapon:damage">Obr.: <process /> // </define>
+	<define command="tal:weapon:weight">Waga: <process /> // </define>
+	<define command="tal:weapon:price">Cena: <process /><br /></define>
+	<define command="tal:weapon:traits">Cechy: <process /><br /></define>
+
+	<define command="tal:armor:name"><process /><br /></define>
+	<define command="tal:armor:armor">Pan.: <process /> // </define>
+	<define command="tal:armor:coverage">Pok.: <process /> // </define>
+	<define command="tal:armor:weight">Waga: <process /> // </define>
+	<define command="tal:armor:price">Cena: <process /><br /></define>
+	<define command="tal:armor:traits">Cechy: <process /><br /></define>
+	<define command="tal:armor:description">Opis: <process /><br /></define>
+
+	<define command="tal:material:name"><process /><br /></define>
+	<define command="tal:material:description">Opis: <process /><br /></define>
+	<define command="tal:material:special">Specjalne: <process /> <br /></define>
+	<define command="tal:material:armor">Pan.: <process /> // </define>
+	<define command="tal:material:weight">Waga: <process /> // </define>
+	<define command="tal:material:price">Cena: <process /><br /></define>
+	<define command="tal:material:dc">ST: <process /><br /></define>
 </sile>

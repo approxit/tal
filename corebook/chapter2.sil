@@ -391,7 +391,7 @@
 			Atak: władanie: pocisk, traf. +5; Zasięg: 3m; Obrażenia: 1k6 + 1/4 kondycji. Atak wymaga akcji zwykłej.
 		</item>
 		<item title="Łuski">
-			W kilku miejscach gog ma na ciele łuski koloru czerwonego lub miedzianego. Zwykle są ona skupione na jego plecach, ramionach lub biodrach, a w sumie zajmują powierzchnię ok. 30 cm2.<br />
+			W kilku miejscach gog ma na ciele łuski koloru czerwonego lub miedzianego. Zwykle są ona skupione na jego plecach, ramionach lub biodrach, a w sumie zajmują powierzchnię ok. 30cm2.<br />
 			<mdash />Przemiana ST=35; 1 akcja minutowa; koszt many: 18. Przemiana kończy się po 6 minutach.<br />
 			W czasie przemiany całe ciało goga zaczynają pokrywać łuski. Gdy już całe ciało zostaje nimi pokryte natychmiast twardnieją zapewniając postaci naturalny pancerz. Pancerz wynosi 1/2 kondycji +5 i chroni również przed ogniem.
 		</item>
@@ -476,7 +476,7 @@
 	<header>Stopień I</header>
 	<itemlist>
 		<item title="Ciernie">
-			Postać potrafią sprawić, że na życzenie z jej ciała wyrosną kolce nie dłuższe jak 10 cm, wyglądające jak ciernie róży. Ciernie są twarde jak stal i bardzo ostre, chociaż nigdy nie kaleczą one ciała elfa, nawet gdy z siłą zostaną w niego pchnięte. Czerwony elf może w akcji dodatkowej schować lub wypuścić z ciała kolce. Każde <quote>wypuszczenie ich</quote> wymaga poświęcenia 4 punktów many oraz dodatkowych 4 punktów za każdą godzinę ich obecności na ciele.<br />
+			Postać potrafią sprawić, że na życzenie z jej ciała wyrosną kolce nie dłuższe jak 10cm, wyglądające jak ciernie róży. Ciernie są twarde jak stal i bardzo ostre, chociaż nigdy nie kaleczą one ciała elfa, nawet gdy z siłą zostaną w niego pchnięte. Czerwony elf może w akcji dodatkowej schować lub wypuścić z ciała kolce. Każde <quote>wypuszczenie ich</quote> wymaga poświęcenia 4 punktów many oraz dodatkowych 4 punktów za każdą godzinę ich obecności na ciele.<br />
 			<mdash /> Uderzenie kolcami powoduje 1k6 obrażeń, a wszelkie premie i testy liczą się przy nich tak jak przy walce wręcz. Na życzenie cierniowy elf podczas zwarcia, gdy wygra z oponentem dowolny test może zadać mu w akcji darmowej obrażenia za pomocą swoich cierni.
 		</item>
 		<item title="Feromony">Czerwony elf może sprawić, że ciernie zaczną produkować więcej krwi, a zapach róż z jego ciała przesiąknie feromonami płciowymi. Każda humanoid płci przeciwnej czujący ten zapach będzie w sposób bardziej przychylny patrzył na czerwonego elfa. Oznacza to, że osoba ta otrzyma modyfikator -5 do wszystkich testów charyzmy spornych z testami charyzmy elfa. Feromony pozostają odczuwalne przez minutę x wartość kondycji elfa. Ich uwolnienie to akcja darmowa, która zadaje elfowi 1k4 punktów obrażeń (nie powodują one rany i nie działa na nie pancerz lub redukcja).</item>

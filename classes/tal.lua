@@ -53,10 +53,10 @@ tal.registerCommands = function(self)
 		local description = SILE.findInTree(content, "description")
 		local forbidden = SILE.findInTree(content, "forbidden")
 
-		SILE.call("tal:extrafeat:name", {}, {name[1]})
-		SILE.call("tal:extrafeat:description", {}, {description[1]})
+		SILE.call("tal:extrafeat:name", {}, name)
+		SILE.call("tal:extrafeat:description", {}, description)
 		if forbidden then
-			SILE.call("tal:extrafeat:forbidden", {}, {forbidden[1]})
+			SILE.call("tal:extrafeat:forbidden", {}, forbidden)
 		end
 		SILE.call("par")
 
@@ -75,15 +75,15 @@ tal.registerCommands = function(self)
 		local requirements = SILE.findInTree(content, "requirements")
 		local appearance = SILE.findInTree(content, "appearance")
 
-		SILE.call("tal:language:name", {}, {name[1]})
+		SILE.call("tal:language:name", {}, name)
 		SILE.typesetter:typeset(" ")
-		SILE.call("tal:language:native", {}, {native[1]})
+		SILE.call("tal:language:native", {}, native)
 		SILE.typesetter:typeset(" ")
-		SILE.call("tal:language:group", {}, {group[1]})
-		SILE.call("tal:language:description", {}, {description[1]})
-		SILE.call("tal:language:alphabet", {}, {alphabet[1]})
-		SILE.call("tal:language:requirements", {}, {requirements[1]})
-		SILE.call("tal:language:appearance", {}, {appearance[1]})
+		SILE.call("tal:language:group", {}, group)
+		SILE.call("tal:language:description", {}, description)
+		SILE.call("tal:language:alphabet", {}, alphabet)
+		SILE.call("tal:language:requirements", {}, requirements)
+		SILE.call("tal:language:appearance", {}, appearance)
 		SILE.call("par")
 
 		table.insert(SILE.scratch.tal.languages, {
@@ -104,14 +104,14 @@ tal.registerCommands = function(self)
 			SU.error("Unknown skill type " .. options.type)
 		end
 
-		SILE.call("tal:skill:name", {}, {name[1]})
-		SILE.call("tal:skill:attribute", {}, {attribute[1]})
-		SILE.call("tal:skill:description", {}, {description[1]})
+		SILE.call("tal:skill:name", {}, name)
+		SILE.call("tal:skill:attribute", {}, attribute)
+		SILE.call("tal:skill:description", {}, description)
 		if synergy then
-			SILE.call("tal:skill:synergy", {}, {synergy[1]})
+			SILE.call("tal:skill:synergy", {}, synergy)
 		end
 		if bonus then
-			SILE.call("tal:skill:bonus", {}, {bonus[1]})
+			SILE.call("tal:skill:bonus", {}, bonus)
 		end
 		SILE.call("par")
 
@@ -122,13 +122,13 @@ tal.registerCommands = function(self)
 				synergy = SILE.findInTree(variant, "synergy")
 				bonus = SILE.findInTree(variant, "bonus")
 
-				SILE.call("tal:skill:name", {}, {variantName[1]})
-				SILE.call("tal:skill:description", {}, {description[1]})
+				SILE.call("tal:skill:name", {}, variantName)
+				SILE.call("tal:skill:description", {}, description)
 				if synergy then
-					SILE.call("tal:skill:synergy", {}, {synergy[1]})
+					SILE.call("tal:skill:synergy", {}, synergy)
 				end
 				if bonus then
-					SILE.call("tal:skill:bonus", {}, {bonus[1]})
+					SILE.call("tal:skill:bonus", {}, bonus)
 				end
 				SILE.call("par")
 
@@ -166,30 +166,30 @@ tal.registerCommands = function(self)
 			SU.error("Unknown feats type " .. options.type)
 		end
 
-		SILE.call("tal:feat:name", {}, {name[1]})
+		SILE.call("tal:feat:name", {}, name)
 		if requirements then
-			SILE.call("tal:feat:requirements", {}, {requirements[1]})
+			SILE.call("tal:feat:requirements", {}, requirements)
 		end
 		if description then
-			SILE.call("tal:feat:description", {}, {description[1]})
+			SILE.call("tal:feat:description", {}, description)
 		end
 		if profit then
-			SILE.call("tal:feat:profit", {}, {profit[1]})
+			SILE.call("tal:feat:profit", {}, profit)
 		end
 		if special then
-			SILE.call("tal:feat:special", {}, {special[1]})
+			SILE.call("tal:feat:special", {}, special)
 		end
 		if normal then
-			SILE.call("tal:feat:normal", {}, {normal[1]})
+			SILE.call("tal:feat:normal", {}, normal)
 		end
 		if cost then
-			SILE.call("tal:feat:cost", {}, {cost[1]})
+			SILE.call("tal:feat:cost", {}, cost)
 		end
 		if animal then
-			SILE.call("tal:feat:animal", {}, {animal[1]})
+			SILE.call("tal:feat:animal", {}, animal)
 		end
 		if action then
-			SILE.call("tal:feat:action", {}, {action[1]})
+			SILE.call("tal:feat:action", {}, action)
 		end
 		SILE.call("par")
 
@@ -199,6 +199,73 @@ tal.registerCommands = function(self)
 				requirements = requirements and tal.shortRequirements(requirements[1]) or nil,
 			})
 		end
+	end)
+
+	SILE.registerCommand("tal:weapon", function(options, content)
+		local name = SILE.findInTree(content, "name")
+		local damage = SILE.findInTree(content, "damage")
+		local weight = SILE.findInTree(content, "weight")
+		local price = SILE.findInTree(content, "price")
+		local traits = SILE.findInTree(content, "traits")
+
+		SILE.call("tal:weapon:name", {}, name)
+		if damage then
+			SILE.call("tal:weapon:damage", {}, damage)
+		end
+		SILE.call("tal:weapon:weight", {}, weight)
+		SILE.call("tal:weapon:price", {}, price)
+		if traits then
+			SILE.call("tal:weapon:traits", {}, traits)
+		end
+		SILE.call("par")
+	end)
+
+	SILE.registerCommand("tal:armor", function(options, content)
+		local name = SILE.findInTree(content, "name")
+		local armor = SILE.findInTree(content, "armor")
+		local coverage = SILE.findInTree(content, "coverage")
+		local weight = SILE.findInTree(content, "weight")
+		local price = SILE.findInTree(content, "price")
+		local traits = SILE.findInTree(content, "traits")
+		local description = SILE.findInTree(content, "description")
+
+		SILE.call("tal:armor:name", {}, name)
+		if armor then
+			SILE.call("tal:armor:armor", {}, armor)
+		end
+		if coverage then
+			SILE.call("tal:armor:coverage", {}, coverage)
+		end
+		if weight then
+			SILE.call("tal:armor:weight", {}, weight)
+		end
+		SILE.call("tal:armor:price", {}, price)
+		if traits then
+			SILE.call("tal:armor:traits", {}, traits)
+		end
+		SILE.call("tal:armor:description", {}, description)
+		SILE.call("par")
+	end)
+
+	SILE.registerCommand("tal:material", function(options, content)
+		local name = SILE.findInTree(content, "name")
+		local description = SILE.findInTree(content, "description")
+		local special = SILE.findInTree(content, "special")
+		local armor = SILE.findInTree(content, "armor")
+		local weight = SILE.findInTree(content, "weight")
+		local price = SILE.findInTree(content, "price")
+		local dc = SILE.findInTree(content, "dc")
+
+		SILE.call("tal:material:name", {}, name)
+		SILE.call("tal:material:description", {}, description)
+		if special then
+			SILE.call("tal:material:special", {}, special)
+		end
+		SILE.call("tal:material:armor", {}, armor)
+		SILE.call("tal:material:weight", {}, weight)
+		SILE.call("tal:material:price", {}, price)
+		SILE.call("tal:material:dc", {}, dc)
+		SILE.call("par")
 	end)
 
 	return v
@@ -239,12 +306,14 @@ tal.shortRequirements = function(str)
 end
 
 tal.writeData = function(dataType)
-	local file, fileError = io.open(SILE.masterFilename .. "." .. dataType .. ".dat", "w")
+	if next(SILE.scratch.tal[dataType]) ~= nil then
+		local file, fileError = io.open(SILE.masterFilename .. "." .. dataType .. ".dat", "w")
 
-	if file then
-		file:write("return " .. std.string.pickle(SILE.scratch.tal[dataType]))
-	else
-		return SU.error(fileError)
+		if file then
+			file:write("return " .. std.string.pickle(SILE.scratch.tal[dataType]))
+		else
+			return SU.error(fileError)
+		end
 	end
 end
 

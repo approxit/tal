@@ -1,0 +1,1798 @@
+<sile>
+	<chapter>Oręż i przedmioty do walki</chapter>
+	<p>W świecie pełnym przygód dość często dochodzi do konfliktów zbrojnych, a nie każdy potrafi ze swych pięści uczynić śmiercionośną broń. Właśnie z powodu niedostatecznego wyekwipowania osób przez naturę korzysta się z przedmiotów służących zadawaniu obrażeń lub chroniącymi przed obrażeniami. Pierwsza grupa z wymienionych nazywa się bronią, a na drugą składają się tarcze i zbroje. W kolejnych trzech podrozdziałach zostały opisane kolejno: broni, tarcze i zbroje.</p>
+
+	<section>Broń</section>
+	<p>W tym podrozdziale zostały zaprezentowane bronie dostępne w świecie gry. Podobnie jak to będzie w przypadku wszystkich innych tu rozdziału nie sposób opisać wszystkich możliwych broni. Jest ich w zasadzie nieskończenie wiele i to, aby coś uczynić bronią w zasadzie zależy od wyobraźni i inteligencji Graczy lub ich postaci.</p>
+	<p>Kategorii broni jest bardzo wiele, gdyż bronie cechuje wysoka różnorodność. Jeżeli postać chce lepiej władać danym rodzajem oręża musi rozwijać władanie nim niezależnie od umiejętności władania innymi broniami. W ten sposób postać musi (jeżeli w ogóle chce) rozwijać oddzielnie władanie mieczem krótkim, długim i dwuręcznym, miast po prostu władania mieczami. Przy poszczególnych rodzajach broni opisano jak nazywa się kategoria władania do której ją zaliczono.</p>
+	<p>Broń może być wykonana z różną dokładnością, co utrudnia lub ułatwia władanie nią. Stopień wykonania broni zależy od jakości, czyli czasu jaki włożono w dopracowanie danego oręża i materiałów, z jakich go wykonano. Lepsze egzemplarze broni są bardziej wytrzymałe od tych gorszych (np. miecze nie łamią się po uderzeniu w tarczę, a strzały nawet po wyjęciu z ciała wroga nadają się do ponownego użytku).</p>
+	<table>
+		<caption>Jakość broni</caption>
+		<thead>
+			<tr>
+				<td>Jakość</td>
+				<td>Władanie</td>
+				<td>Cena</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Mistrzowska</td>
+				<td>+5</td>
+				<td>x5</td>
+			</tr>
+			<tr>
+				<td>Dobra</td>
+				<td>+2</td>
+				<td>x2</td>
+			</tr>
+			<tr>
+				<td>Zwykła</td>
+				<td><mdash /></td>
+				<td><mdash /></td>
+			</tr>
+			<tr>
+				<td>Kiepska</td>
+				<td>-2</td>
+				<td>1/2</td>
+			</tr>
+			<tr>
+				<td>Fatalna</td>
+				<td>-5</td>
+				<td>1/5</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>Istnieje również specjalna kategoria broni<mdash />broń improwizowana. Wyjątkowo nie jest to kategoria, którą można oddzielnie rozwijać, gdyż bronie zaliczane do tej kategorii są od siebie niekiedy diametralnie różne. Bronią improwizowaną nazywamy każdy przedmiot, który jest używany w danej chwili jako broń, a nie został zaprojektowany do tego, aby nim walczyć. Gdy postać używa broni improwizowanej do ataku podlega karze -5, a poza tym nawet jeżeli przedmiot jest wykonany w lepszej lub gorszej jakości, to nie powoduje plusów lub minusów do testów ataków (trafień).</p>
+	<p>Obrażenia powodowane przez broń improwizowaną są różne. Najlepiej jest stwierdzić do jakiej prawdziwej broni podobna jest dana broń improwizowana i uznać, że korzysta ona z takich samych zasad zadawania obrażeń.</p>
+	<p>Takim sposobem kamień może zadawać obrażenia podobne do kastetu, a stół karczemny obrażenia podobne do maczugi lub młota bojowego. Naostrzony kołek może zadawać obrażenia podobne do sztyletu podobnie jak potłuczona butelka. Natomiast kij zerwany w lesie zadaje obrażenia podobne do drągu, czy pałki w zależności od wielkości. Te ostatnie bronie po kilku poprawkach jak np. ociosanie końcówek, czy owiniecie skórą uchwytu stają się w pełni wartościowe i nie powodują już dodatkowych minusów.</p>
+	<p>Do bron strzeleckiej należy stosować amunicję, aby broń ta zadawała przeciwnikom obrażenia. Podstawową amunicją są bełty do kusz, kule do proc i strzały do łuków, z czego te ostatnie mogą być do łuków krótkich, bądź długich. Amunicja również może być wykonana lepiej lub gorzej, co przedstawia jej jakość. Jakość amunicji przekłada się na szansę uszkodzenia jej w stopniu niepozwalającym na dalsze używanie. Normalnie każda z użytych strzał, bełtów, czy kul pozwala na ponowne użycie. Tylko w przypadku uszkodzenia lub zniszczenia amunicji nie będzie możliwe skorzystanie z niej ponownie. Szansa na uszkodzenie/zniszczenie danego pocisku wyrażona jest procentowo i zależy od jakości. Im wyższa jakość, tym mniejsza szansa na zniszczenie.</p>
+	<table>
+		<thead>
+			<tr>
+				<td>Jakość</td>
+				<td>Szansa zniszczenia</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Mistrzowska</td>
+				<td>10%</td>
+			</tr>
+			<tr>
+				<td>Dobra</td>
+				<td>30%</td>
+			</tr>
+			<tr>
+				<td>Zwykła</td>
+				<td>50%</td>
+			</tr>
+			<tr>
+				<td>Kiepska</td>
+				<td>70%</td>
+			</tr>
+			<tr>
+				<td>Fatalna</td>
+				<td>90%</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>Najlepiej byłoby wykonywać rzut dla każdego zużytego pocisku, ale taka metoda jest długotrwała i niewygodna, więc dla oszczędności czasu odradza się ją MG, którzy preferują dynamikę akcji. Szybsza metoda, to po prostu stwierdzenie, że taki, a taki procent pocisków uległ zniszczeniu, a reszta nadaje się do użytkowania.</p>
+	<itemlist>
+		<item title="Podział broni z uwagi na trudność użycia">Bronie proste<mdash />wszystkie bronie proste nie wymagają zdobycia biegłości, aby z nich skorzystać. Bronie zaawansowane<mdash />jeżeli postać nie posiada biegłości danej broni, to otrzymuje modyfikator -5 do wszystkich testów, w których jej używa.</item>
+		<item title="Opis broni">Każda z broni została opisana kilkoma parametrami. Po pierwsze pogrubioną czcionką została wskazana nazwa danego rodzaju broni, która jest oficjalną nazwą w języku lantyńskim. Kolejną informacją jest <quote>Obr.</quote>, która informuje o tym jaką ilość obrażeń zadaje broń i jakiego rodzaju są to obrażenia tj. czy są cięte (sieczne), kłute, czy obuchowe. Większość broni w tym punkcie zawiera informacje o kostkach, których używa się do testowania obrażeń zadawanych przez broń oraz <quote>+</quote> po którym następuje odesłanie do siły postaci. Bronie są zaprojektowane tak, aby przekazywały część siły użytkownika w postaci dodatkowych obrażeń. Kolejną informacją jest waga broni, która została podana w kilogramach i należy uwzględnić ją przy udźwigu postaci, tj. przy ustaleniu, czy postać jest przeciążona. Kolejną informacją oznaczoną jako <quote>M</quote> jest wskazanie jaki materiał w sposób kluczowy wpływa na broń. Niektóre bronie zostały stworzone z konkretnych materiałów, a niektóre mają opis metal / drewno / skóra. Co oznacza, że można je wytworzyć z dowolnego metalu, dowolnego drewna albo dowolnej skóry. Statystyki broni w tym miejscu dotyczą odpowiednio wykonania danego egzemplarza z żelaza, gdy chodzi o <quote>metal</quote>, dębu, jesionu lub cisu jako <quote>drewna</quote> oraz skóry zwierzęcej jako <quote>skóry</quote>. Następną informacją jest cena broni, czyli abstrakcyjna wartość jaką na rynku uzyskuje dany rodzaj uzbrojenia. Ostatnie z wymienionych informacji dotyczą cech broni, tj. jej wyróżników na tle pozostałych przedmiotów ochronno-zaczepnych.</item>
+	</itemlist>
+
+	<header>Broń drzewcowa</header>
+	<p>Jest to bardzo rozwlekła kategoria do której należą wszystkie halabardy, kije, kopie, piki, włócznie, etc.. Ogólnie do tej kategorii zalicza się wszelkie bronie mające długi trzonek i kończące się ostrzem, bądź obuchem. Na wagę tych broni ma wpływ przede wszystkim drewniany trzonek, chociaż większość broni zadaje obrażenia swym metalowym zwieńczeniem.</p>
+
+	<tal:weapon>
+		<name>Cep bojowy</name>
+		<damage>2k8 + Si (obuchowe)</damage>
+		<weight>4kg</weight>
+		<price>1 000</price>
+		<traits>Dwuręczna; Zasięg +1m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Gizarma</name>
+		<damage>2k8 + Si (cięte)</damage>
+		<weight>7kg</weight>
+		<price>1 500</price>
+		<traits>Biegłość (Broń długa); Dwuręczna; Przewracanie +5; Zasięg +2m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Halabarda</name>
+		<damage>2k8 + Si (cięte lub kłute)</damage>
+		<weight>7kg</weight>
+		<price>1 600</price>
+		<traits>Biegłość (Broń długa); Dwuręczna; Przewracanie +5; Szarża</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Kij</name>
+		<damage>1k6 + 1/8 Si (obuchowe)</damage>
+		<weight>2kg</weight>
+		<price>200</price>
+		<traits>Parowanie +5 (Szybkie)</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Kopia</name>
+		<damage>1k6 + 1/2 Si (kłute)</damage>
+		<weight>5kg</weight>
+		<price>1 600</price>
+		<traits>Broń kawaleryjska; Specjalne<mdash />Z broni można korzystać tylko szarżując z wierzchowca. Obrażenia należy liczyć od siły wierzchowca, a nie postaci; Szarża; Zasięg +2m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Kopia długa</name>
+		<damage>1k6 + 1/2 Si (kłute)</damage>
+		<weight>7,5kg</weight>
+		<price>3 300</price>
+		<traits>Broń kawaleryjska; Specjalne<mdash />Z broni można korzystać tylko szarżując z wierzchowca. Obrażenia należy liczyć od siły wierzchowca, a nie postaci; Szarża; Zasięg +5m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Kopia turniejowa</name>
+		<damage>1k6 + 1/4 Si (obuchowe)</damage>
+		<weight>5kg</weight>
+		<price>2 400</price>
+		<traits>Broń kawaleryjska; Odrzut; Specjalne<mdash />Z broni można korzystać tylko szarżując z wierzchowca. Obrażenia należy liczyć od siły wierzchowca, a nie postaci; Szarża; Zasięg +2m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Pika</name>
+		<damage>2k8 + 1/2 Si (kłute)</damage>
+		<weight>6kg</weight>
+		<price>1 400</price>
+		<traits>Biegłość (Pika); Dwuręczna; Szarża; Zasięg +3m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Pika długa</name>
+		<damage>2k8 + 1/2 Si (kłute)</damage>
+		<weight>8kg</weight>
+		<price>2 000</price>
+		<traits>Biegłość (Pika); Dwuręczna; Szarża; Zasięg +5m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Włócznia</name>
+		<damage>1k8 + 1/4 Si (kłute)</damage>
+		<weight>5kg</weight>
+		<price>600</price>
+		<traits>Specjalne<mdash />Rzut: broń zaprojektowano tak, aby można było nią rzucić na zasięg 3 + 1/2 Si metrów. Trafienie w cel to test rzucania; Szarża; Zasięg +1m</traits>
+	</tal:weapon>
+
+	<header>Broń obuchowa</header>
+	<p>Do tej kategorii należą młoty bojowe, a także buzdygany, kafary, kropacze, maczugi i podobne do bronie zadające obrażenia dzięki umieszczonej na końcu trzonka głowicy lub mające rozszerzenie na końcu trzonka.</p>
+
+	<tal:weapon>
+		<name>Buława</name>
+		<damage>1k8 + 1/2 Si (obuchowe)</damage>
+		<weight>2kg</weight>
+		<price>800</price>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Buzdygan</name>
+		<damage>1k10 + 1/2 Si (obuchowe)</damage>
+		<weight>3kg</weight>
+		<price>2 600</price>
+		<traits>Odrzut +5; Półtora-ręczna</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Kafar</name>
+		<damage>2k12 + 1,5 Si (obuchowe)</damage>
+		<weight>6,5kg</weight>
+		<price>2 000</price>
+		<traits>Biegłość (Wielki młot); Dwuręczna; Trafienie -15; Odrzut +10</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Kiściec</name>
+		<damage>1k10 + 1/2 Si (obuchowe)</damage>
+		<weight>2,5kg</weight>
+		<price>1 300</price>
+		<traits>Biegłość (Kiściec); Odrzut +5 (biegłość); Półtora-ręczna</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Krasnoludzki kafar</name>
+		<damage>2k12 + 1,5 Si (obuchowe)</damage>
+		<weight>7kg</weight>
+		<price>6 200</price>
+		<traits>Biegłość (Wielki młot); Dwuręczna; Odrzut +10; Trafienie -10</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Krasnoludzki młot bojowy</name>
+		<damage>1k12 + 1/2 Si (obuchowe)</damage>
+		<weight>2kg</weight>
+		<price>3 200</price>
+		<traits>Biegłość (Młot bojowy); Odrzut +5; Parowanie +5; Półtora-ręczna; Trafienie -5</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Kropacz (Morgenstern)</name>
+		<damage>2k10 + 1,5 Si (kłute i obuchowe)</damage>
+		<weight>4kg</weight>
+		<price>2 800</price>
+		<traits>Dwuręczna; Odrzut +5; Trafienie -5</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Maczuga</name>
+		<damage>1k10 + 1/2 Si (obuchowe)</damage>
+		<weight>2kg</weight>
+		<price>600</price>
+		<traits>Półtora-ręczna; Trafienie -5</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Młot bojowy</name>
+		<damage>1k10 + 1/2 Si (obuchowe)</damage>
+		<weight>2kg</weight>
+		<price>1 200</price>
+		<traits>Biegłość (Młot bojowy); Odrzut +5; Trafienie -5</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Pałka</name>
+		<damage>1k6 + 1/8 (obuchowe)</damage>
+		<weight>1kg</weight>
+		<price>100</price>
+		<traits>Specjalne<mdash />bronią można walczyć podczas prowadzenia zwarcia</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Wielki młot</name>
+		<damage>2k10 + 1,5 Si (obuchowe)</damage>
+		<weight>5kg</weight>
+		<price>1 700</price>
+		<traits>Dwuręczna; Odrzut +10; Trafienie -10</traits>
+	</tal:weapon>
+
+	<header>Kusza</header>
+	<p>To kategoria broni strzeleckich. Wszystkie bronie strzeleckie będące kuszami lub będące do nich podobne mieszczą się w tej kategorii.</p>
+
+	<tal:weapon>
+		<name>Arbalet</name>
+		<damage>+10</damage>
+		<weight>4kg</weight>
+		<price>4 200</price>
+		<traits>Ładowanie (Kule do procy, 4 akcje zwykłe); Trafienie -10; Zasięg: 150m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Dmuchawka</name>
+		<damage>0 (patrz pociski)</damage>
+		<weight>0,5kg</weight>
+		<price>200</price>
+		<traits>Dmuchawka; Ładowanie (Strzałki, akcja zwykła); Zasięg: 20m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Dmuchawka zasięgowa</name>
+		<damage>0 (patrz pociski)</damage>
+		<weight>1kg</weight>
+		<price>650</price>
+		<traits>Dmuchawka; Ładowanie (Strzałki, akcja zwykła); Specjalne<mdash />Atak bezpośredni: Mimo tego, że jest to broń strzelecka, to z uwagi na swe gabaryty i konstrukcję można jej użyć do walki wręcz jak pałki (Obrażenia 1k6 +1/8 Si; Parowanie +5); Zasięg: 50m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Jorowa cicho-sza</name>
+		<damage>0 (patrz pociski)</damage>
+		<weight>0,5kg</weight>
+		<price>1 200</price>
+		<traits>Biegłość (Jorowa cicho-sza); Dmuchawka; Broń celowania, Ładowanie (Strzałki, akcja dodatkowa); Trafienie +5; Zasięg: 30m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Kusza, ciężka</name>
+		<damage>+22</damage>
+		<weight>4,5kg</weight>
+		<price>6 000</price>
+		<traits>Broń celowania; Ładowanie (Bełty, 6 akcji zwykłych); Przebicie: 20; Zasięg: 240m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Kusza krasnoludzka</name>
+		<damage>+35</damage>
+		<weight>5kg</weight>
+		<price>7 320</price>
+		<traits>Broń celowania; Biegłość (Kusza krasnoludzka); Ładowanie (Bełty, 4 akcje zwykłe); Przebicie: 20; Zasięg: 250m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Kusza, lekka</name>
+		<damage>+14</damage>
+		<weight>2,5kg</weight>
+		<price>2 000</price>
+		<traits>Broń celowania; Ładowanie (Bełty, 4 akcje zwykłe); Przebicie: 10; Szybka; Zasięg: 150m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Kusza powtarzalna</name>
+		<damage>+14</damage>
+		<weight>4kg (nie uwzględniono magazynku)</weight>
+		<price>8 000 (nie uwzględniono magazynku)</price>
+		<traits>Biegłość (Kusza powtarzalna); Ładowanie: (Magazynki, 6 akcji zwykłych); Specjalne<mdash />Wielo-strzał: Z kuszy powtarzalnej strzela się kręcąc korbą, która po pewnej ilości obrotów przemieszcza bełt z komory magazynka do wyrzutni, naciągając w tym czasie cięciwę i przy ostatnim obrocie zwalniając spust. Istnieje szansa 5% (+/- premia za jakość jak przy trafieniu), że kusza się zatnie i po danym wystrzale i będzie potrzeba poświęcić akcję całkowitą na przywrócenie jej do sprawności; Zasięg: 150m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Naręczna kusza</name>
+		<damage>+6</damage>
+		<weight>1kg</weight>
+		<price>5 000</price>
+		<traits>Ładowanie (Bełty, 2 akcje zwykłe); Zasięg: 45m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Skorpion orkowy</name>
+		<damage>+50</damage>
+		<weight>10kg</weight>
+		<price>9 800</price>
+		<traits>Biegłość (Skorpion orkowy); Ładowanie (Bełty, 10 akcji zwykłych); Przebicie: 30; Specjalne<mdash />Stabilizowanie: Aby wykonać strzał z tej broni należy wpierw ją ustabilizować wbijając w ziemię lub zapierając o coś jej podpórkę w postaci długiej nogi. Jeżeli postać tego nie wykona otrzymuje modyfikator -5 do testów trafienia, kumulujący się z faktem niecelności broni. Postać mająca siłę 18 nie ponosi tej kary. Ustabilizowanie broni to zwykle 1 akcja cało-rundowa; Trafienie -10; Zasięg: 200m</traits>
+	</tal:weapon>
+
+	<header>Łuk</header>
+	<p>Kategoria obejmuje wszystkie łuki niezależnie od ich wielkości.</p>
+
+	<tal:weapon>
+		<name>Angularny łuk długi</name>
+		<damage>1/4 Si + pociski</damage>
+		<weight>2,5kg</weight>
+		<price>6 200</price>
+		<traits>Ładowanie (Długie strzały, akcja zwykła); Maksymalna siła: 14; Naciągnięcie cięciwy 6 akcji cało-rundowych; Zasięg: 240m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Angularny łuk krótki</name>
+		<damage>1/8 Si + pociski</damage>
+		<weight>1,5kg</weight>
+		<price>3 270</price>
+		<traits>Ładowanie (Krótkie strzały, akcja zwykła); Maksymalna siła: 14; Naciągnięcie cięciwy 6 akcji cało-rundowych; Zasięg: 100m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Elficki łuk długi</name>
+		<damage>1/2 Si + pociski</damage>
+		<weight>3kg</weight>
+		<price>20 000</price>
+		<traits>Biegłość (Elficki łuk długi); Ładowanie (Długie strzały, akcja dodatkowa); Maksymalna siła: 20; Naciągnięcie cięciwy 6 akcji cało-rundowych; Trafienie +5; Zabójcza (Biegłość); Zasięg: 300m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Elficki łuk krótki</name>
+		<damage>1/4 Si + pociski</damage>
+		<weight>1,5kg</weight>
+		<price>12 000</price>
+		<traits>Biegłość (Elficki łuk krótki); Ładowanie (Krótki strzały, akcja dodatkowa); Maksymalna siła: 20; Naciągnięcie cięciwy 6 akcji cało-rundowych;; Trafienie +5; Zabójcza (Biegłość); Zasięg: 200m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Elidioński łuk kompozytowy</name>
+		<damage>1/2 Si + pociski</damage>
+		<weight>3kg</weight>
+		<price>10 300</price>
+		<traits>Ładowanie (Długie strzały, akcja zwykła); Maksymalna siła: 16; Naciągnięcie cięciwy 12 akcji cało-rundowych; Zasięg: 300m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Elidioński łuk</name>
+		<damage>1/4 Si + pociski</damage>
+		<weight>3kg</weight>
+		<price>6 300</price>
+		<traits>Ładowanie (Długie strzały, akcja zwykła); Maksymalna siła: 16; Naciągnięcie cięciwy 6 akcji cało-rundowych; Zasięg: 260m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Jorowy łuk</name>
+		<damage>1/4 Si + pociski</damage>
+		<weight>1kg</weight>
+		<price>2 600</price>
+		<traits>Biegłość (Jorowy łuk); Dodatkowe obrażenia: 1k12; Ładowanie (Krótkie strzały, akcja zwykła); Maksymalna siła: 12; Naciągnięcie cięciwy 2 akcje cało-rundowe; Zasięg: 260m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Łuk długi</name>
+		<damage>1/4 Si + pociski</damage>
+		<weight>2kg</weight>
+		<price>4 000</price>
+		<traits>Ładowanie (Długie strzały, akcja zwykła); Maksymalna siła: 14; Naciągnięcie cięciwy 6 akcji cało-rundowych; Zasięg: 260m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Łuk prosty</name>
+		<damage>1/8 Si + pociski</damage>
+		<weight>1kg</weight>
+		<price>2 000</price>
+		<traits>Ładowanie (Krótkie strzały, akcja zwykła); Maksymalna siła: 14; Naciągnięcie cięciwy 6 akcji cało-rundowych; Zasięg: 120m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Refleksyjny długi</name>
+		<damage>1/4 Si + pociski</damage>
+		<weight>2,5kg</weight>
+		<price>7 200</price>
+		<traits>Biegłość (Łuk refleksyjny); Ładowanie (Długie strzały, akcja zwykła); Maksymalna siła: 18; Naciągnięcie cięciwy 8 akcji cało-rundowych; Przebicie: 10; Zasięg: 200m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Refleksyjny krótki</name>
+		<damage>1/8 Si + pociski</damage>
+		<weight>1kg</weight>
+		<price>5 200</price>
+		<traits>Biegłość (Łuk refleksyjny); Ładowanie (Krótkie strzały, akcja zwykła); Maksymalna siła: 18; Naciągnięcie cięciwy 6 akcji cało-rundowych; Przebicie: 10; Zasięg: 100m</traits>
+	</tal:weapon>
+
+	<header>Miecz</header>
+	<p>Do tej kategorii należą wszystkie bronie obosieczne o prostej głowni, których długość jest większa jak 50cm.</p>
+
+	<tal:weapon>
+		<name>Bękart imperialny</name>
+		<damage>1k10 + 1/2 Si (cięte lub kłute)</damage>
+		<weight>2kg</weight>
+		<price>8 200</price>
+		<traits>Biegłość (Miecz półtora-ręczny); Parowanie +5 (Szybkie); Półtora-ręczna; Zabójcza</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Bojowy miecz</name>
+		<damage>1k10 + 1/2 Si (cięte lub kłute)</damage>
+		<weight>1,5kg</weight>
+		<price>2 300</price>
+		<traits>Parowanie +5, Zabójczy</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Elficki króciak</name>
+		<damage>2k6 + 1/4 Si (cięte lub kłute)</damage>
+		<weight>1kg</weight>
+		<price>6 000</price>
+		<traits>Biegłość (Elficki króciak); Lekka; Trafienie +5</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Elficki miecz długi</name>
+		<damage>2k6 + 1/2 Si (cięte lub kłute)</damage>
+		<weight>1,5kg</weight>
+		<price>8 000</price>
+		<traits>Biegłość (Elficki miecz długi); Półtora-ręczna, Trafienie +5; Zabójcza</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Espadon</name>
+		<damage>4k6 + 1,5 Si (cięte lub kłute)</damage>
+		<weight>3,5kg</weight>
+		<price>7 250</price>
+		<traits>Biegłość (Wielki miecz); Dwuręczna; Przebicie: 15 (przy pchnięciu<mdash />biegłość); Zasięg +1m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Gladius imperialny</name>
+		<damage>1k10 + 1/4 Si (cięte lub kłute)</damage>
+		<weight>1kg</weight>
+		<price>2 200</price>
+		<traits>Lekki, Parowanie +5 (Szybkie)</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Koncerz</name>
+		<damage>2k6 + 1/2 Si (kłute)</damage>
+		<weight>1,5kg</weight>
+		<price>3 000</price>
+		<traits>Broń kawaleryjska; Szarża; Zasięg +2m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Miecz długi</name>
+		<damage>1k10 + 1/2 Si (cięte lub kłute)</damage>
+		<weight>2kg</weight>
+		<price>3 300</price>
+		<traits>Półtora-ręczna</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Miecz zębowy</name>
+		<damage>1k10 + 1/2 Si (cięte lub kłute)</damage>
+		<weight>1,5kg</weight>
+		<price>5 000</price>
+		<traits>Biegłość (Miecz zębowy); Dodatkowe obrażenia: 1k10; Półtora-ręczna; Rozbrojenie +5</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Olbrzym imperialny</name>
+		<damage>4k6 + 1,5 Si (cięte lub kłute)</damage>
+		<weight>5kg</weight>
+		<price>11 000</price>
+		<traits>Biegłość (Wielki miecz); Dwuręczna; Przebicie: 20 (przy pchnięciu, biegłość); Zabójcza, Zasięg +1m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Podcinacz krasnoludzki</name>
+		<damage>1k12 + 1/4 Si (sieczne)</damage>
+		<weight>1kg</weight>
+		<price>2 800</price>
+		<traits>Biegłość (Podcinacz krasnoludzki); Lekka, Zabójcza</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Siegvaardzki miecz krótki</name>
+		<damage>1k10 + 1/4 Si (sieczne lub kłute)</damage>
+		<weight>1kg</weight>
+		<price>1 800</price>
+		<traits>Lekka</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Żelaźniak orkowy</name>
+		<damage>4k6 + 1,5 Si (cięte lub kłute)</damage>
+		<weight>5kg</weight>
+		<price>10 000</price>
+		<traits>Biegłość (Żelaźniak orkowy); Dwuręczna; Przebicie: 30 (przy pchnięciu, biegłość); Specjalne<mdash />Siła: Postać nie mająca siły 18 otrzymuje karę -10 do wszystkich testów trafień tej broni, a obrażenia maleją o jedną kategorię; Trafienie -10; Zasięg +1m</traits>
+	</tal:weapon>
+
+	<header>Rzucanie</header>
+	<p>Do tej kategorii należą topory, noże, sieci i oszczepy (bądź krótkie włócznie), które zaprojektowano tak, aby miotać nimi w oddalony cel. Poza tym dzięki tej umiejętności można skutecznie korzystać z procy.</p>
+
+	<tal:weapon>
+		<name>Bicz</name>
+		<damage>1k6 + 1/8 Si (cięte, lekkie)</damage>
+		<weight>0,5kg</weight>
+		<price>200</price>
+		<traits>Rozbrajanie +5; Specjalne<mdash />tylko jednoręczna oraz unieruchomienie: Broń można po ataku zapleść na kończynie, bądź szyi ofiary, co spowoduje, że jej obrona przyjmie wariant nieprzygotowany do czasu uwolnienia się. Uwolnienie wymaga zdania testu zręczności o ST 16 lub krzepy o ST 26 lub przecięcia liny; Zasięg +2m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Bolas</name>
+		<damage><mdash /></damage>
+		<weight>0,5kg</weight>
+		<price>900</price>
+		<traits>Biegłość (Bolas); Specjalne<mdash />Unieruchomienie: Aby unieruchomić przeciwnika należy trafić go w nogi i spleść je. Postać atakująca bolasem otrzymuje modyfikator -10 do trafienia, gdyż o tyle trudniejsze jest to specyficzne trafienie. Trafiony bolasem przeciwnik zostaje skrępowany, co spowoduje, że jego obrona przyjmie wariant nieprzygotowany do czasu uwolnienia się, a poza tym automatycznie upada na ziemię, jeżeli został zaatakowany w ruchu. Uwolnienie wymaga zdania testu zręczności o ST 20 lub krzepy o ST 30 (akcja zwykła) lub przecięcia liny</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Chłoszcz orkowy</name>
+		<damage>1k6 + 1/8 Si (kłute, lekkie)</damage>
+		<weight>2kg</weight>
+		<price>2 000</price>
+		<traits>Biegłość (Chłoszcz orkowy); Lekka; Rozbrajanie +5</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Czakram</name>
+		<damage>1k4 + 1/8 (cięte)</damage>
+		<weight>0,5kg</weight>
+		<price>1 300</price>
+		<traits>Biegłość (Broń wieloostrzowa); Specjalne<mdash />Rykoszet (Biegłość): Broń może odbić się od twardej powierzchni i trafić w cel rykoszetem. Możliwe jest dzięki temu zaatakowanie postaci ukrytej za rogiem budynku itp. Aby trafić przeciwnika w ten sposób trzeba wykonać trudniejszy test ataku<mdash />z modyfikatorem -10. Trafienie powoduje natomiast obrażenia mniejsze o jedną kategorię; Zasięg 28m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Drowi poganiacz</name>
+		<damage>1k8 + 1/4 Si (cięte, lekkie)</damage>
+		<weight>0,5kg</weight>
+		<price>2 200</price>
+		<traits>Biegłość (Drowi poganiacz); Specjalne<mdash />tylko jednoręczna oraz unieruchomienie: Broń można po ataku zapleść na kończynie, bądź szyi ofiary, co spowoduje, że jej obrona przyjmie wariant nieprzygotowany do czasu uwolnienia się. Uwolnienie wymaga zdania testu zręczności o ST 19 lub krzepy o ST 36 lub przecięcia liny; Zasięg +2m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Jastrzębiec</name>
+		<damage>1k6 + 1/8 Si (cięte)</damage>
+		<weight>0,5kg</weight>
+		<price>1 200</price>
+		<traits>Biegłość (Broń wieloostrzowa); Specjalne<mdash />Rykoszet (Biegłość): Broń może odbić się od twardej powierzchni i trafić w cel rykoszetem. Możliwe jest dzięki temu zaatakowanie postaci ukrytej za rogiem budynku itp. Aby trafić przeciwnika w ten sposób trzeba wykonać trudniejszy test ataku<mdash />z modyfikatorem -10. Trafienie powoduje natomiast obrażenia mniejsze o jedną kategorię; Zasięg 20m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Lasso</name>
+		<damage><mdash /></damage>
+		<weight>1kg</weight>
+		<price>500</price>
+		<traits>Biegłość (Lasso); Specjalne<mdash />Unieruchomienie: Aby unieruchomić przeciwnika należy zarzucić na niego lasso. Trafiony przeciwnik zostaje skrępowany, co spowoduje, że jej obrona przyjmie wariant nieprzygotowany do czasu uwolnienia się. Uwolnienie wymaga zdania testu zręczności o ST 26 lub krzepy o ST 36 (akcja zwykła) lub przecięcia liny. Postać, która trafiła przeciwnika lassem może go przyciągać korzystając z zasad przejścia opisanych przy zwarciu. Różnica polega, że odległość nie jest liczona od szybkości, a wynosi 1/2 siły postaci, która oplotła przeciwnika. Zasięg +6m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Oszczep</name>
+		<damage>1k6 + 1/8 Si (kłute)</damage>
+		<weight>1kg</weight>
+		<price>300</price>
+		<traits>Zasięg 12m + Si</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Proca</name>
+		<damage>1/4 Si + pociski</damage>
+		<weight>0,5kg</weight>
+		<price>100</price>
+		<traits>Biegłość (Proca); Ładowanie (Kule do procy; akcja zwykła); Zasięg: 50m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Proca zasięgowa</name>
+		<damage>1/4 Si + pociski</damage>
+		<weight>1kg</weight>
+		<price>1 500</price>
+		<traits>Biegłość (Proca); Ładowanie (Kule do procy; akcja zwykła); Zasięg: 80m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Sieć</name>
+		<damage><mdash /></damage>
+		<weight>1kg</weight>
+		<price>1 000</price>
+		<traits>Biegłość (Sieć); Specjalne<mdash />Unieruchomienie: Trafiony siecią przeciwnik zostaje skrępowany, co spowoduje, że jej obrona przyjmie wariant nieprzygotowany do czasu uwolnienia się. Uwolnienie wymaga zdania testu zręczności o ST 22 lub krzepy o ST 32 lub przecięcia sieci; Zasięg 6m + 1/2 Si</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Shuriken</name>
+		<damage>1k6 + 1/8 Si (kłute)</damage>
+		<weight>0,3kg</weight>
+		<price>300</price>
+		<traits>Biegłość (Broń wieloostrzowa); Zasięg 18m + Si</traits>
+	</tal:weapon>
+
+	<header>Szabla</header>
+	<p>Kategoria broni białej o jednosiecznej klindze, której długość jest większa jak 50cm. Do tej kategorii zaliczamy również broń szermierczą.</p>
+
+	<tal:weapon>
+		<name>Bułat</name>
+		<damage>1k12 + 1/2 Si (cięte lub kłute)</damage>
+		<weight>2kg</weight>
+		<price>5 000</price>
+		<traits>Półtora-ręczna</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Czarna szabla</name>
+		<damage>1k12 + 1/2 Si (cięte lub kłute)</damage>
+		<weight>1kg</weight>
+		<price>15 000</price>
+		<traits>Biegłość (Czarna szabla); Broń szermiercza (biegłość), Parowanie +5 (Szybkie); Specjalne<mdash />Mocny uchwyt: Czarna szabla ma rękojeść osłoniętą koszem, który utrudnia przeciwnikowi wytrącenie broni i zaatakowanie dłoni. Postać trzymająca czarną szablę otrzymuje modyfikator +10 przeciw próbom rozbrojenia go z tej broni. Trafienie +5; Zabójcza (Biegłość)</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Pałasz elidioński</name>
+		<damage>1k8 + 1/2 Si (kłute)</damage>
+		<weight>1kg</weight>
+		<price>1 600</price>
+		<traits>Broń kawaleryjska; Szarża</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Rapier</name>
+		<damage>1k8 + 1/4 Si (cięte lub kłute)</damage>
+		<weight>1kg</weight>
+		<price>2 300</price>
+		<traits>Broń szermiercza; Parowanie +5 (Szybkie)</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Szabla espagryjska</name>
+		<damage>1k12 + 1/2 Si (cięte)</damage>
+		<weight>1kg</weight>
+		<price>2 000</price>
+		<traits>Broń szermiercza</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Szpada</name>
+		<damage>1k8 + 1/4 Si (kłute)</damage>
+		<weight>1kg</weight>
+		<price>6 300</price>
+		<traits>Biegłość (Szpada); Broń szermiercza; Specjalne<mdash />Jednoręczna: Bronią można walczyć tylko trzymając ją jedną ręką; Trafienie +5; Zabójcza (Biegłość)</traits>
+	</tal:weapon>
+
+	<header>Sztylet</header>
+	<p>Noże, sztylety, małe maczety i broń podobna. Sztylet nie powinien mieć więcej jak 50cm, gdyż wtedy staje się mieczem.</p>
+
+	<tal:weapon>
+		<name>Drowi sztylet</name>
+		<damage>1k8 + 1/8 Si (cięte lub kłute)</damage>
+		<weight>0,5kg</weight>
+		<price>9 000</price>
+		<traits>Biegłość (Drowi sztylet); Lekka; Zabójcza (Biegłość)</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Maczeta</name>
+		<damage>1k8 + 1/8 Si</damage>
+		<weight>0,5kg</weight>
+		<price>500</price>
+		<traits>Lekka</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Nacinacz walloski</name>
+		<damage>1k8 + 1/8 Si (cięte lub kłute)</damage>
+		<weight>0,5kg</weight>
+		<price>360</price>
+		<traits>Biegłość (Sztylet bojowy), Dodatkowe obrażenia +1k8; Lekka</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Nóż do rzucania</name>
+		<damage>1k6 + 1/8 (kłute)</damage>
+		<weight>0,5kg</weight>
+		<price>300</price>
+		<traits>Lekka, Zasięg 12m</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Sai</name>
+		<damage>1k6 + 1/8 Si (kłute)</damage>
+		<weight>0,5kg</weight>
+		<price>230</price>
+		<traits>Biegłość (Sai); Lekka; Rozbrajanie +5 (biegłość)</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Tulich</name>
+		<damage>1k6 + 1/8 Si (cięte lub kłute)</damage>
+		<weight>0,5kg</weight>
+		<price>230</price>
+		<traits>Lekka</traits>
+	</tal:weapon>
+
+	<header>Tarcze</header>
+	<p>Tarcze są rodzajem przedmiotów ochronnych. W przeciwieństwie do zbrój nie chronią one działa w sposób bierny, lecz wymagają czynnego użycia. Osoba korzystająca z tarczy może zarówno parować nią ciosy, jak też uderzać za jej pomocą. Większość tarcz została zaprojektowana raczej do czynności pierwszych z wymienionych i dlatego cechy przypisane tarczom zapewniają dodatkowe modyfikatory związane z parowaniem.</p>
+	<p>Parowanie ataków tarczą zawsze odbija się na jej solidności. Nie trzeba liczyć wszystkich pochłoniętych przez tarczę punktów obrażeń (uszkodzeń), ale trzeba pamiętać, że wyjątkowo potężne ataki, gdy zostaną sparowane tarczą mogą w przypadku gorszych konstrukcji spowodować jej zniszczenie lub obniżenie jakości.</p>
+
+	<tal:weapon>
+		<name>Drewniana tarcza, mała</name>
+		<damage>1k4 + 1/8 Si (obuchowe)</damage>
+		<weight>3,5kg</weight>
+		<price>1 000</price>
+		<traits>Mocowanie: akcja cało-rundowa; Odrzut; Parowanie +10 (Szybkie)</traits>
+		<description>Mająca około 80cm wysokości, wykonana ze zbitych ze sobą drewnianych desek, obleczona po zewnętrznej stronie warstwą utwardzanej skóry zwierzęcej. Czasami, lepsze modele posiadają metalowe aplikacje i okucia usprawniające konstrukcję. Lekka i gwarantująca minimalną osłonę przed ciosami jest najczęściej spotykanym rodzajem tarczy w całym znanym świecie. Niezwykle prosta w wykonaniu i naprawie, oraz tania, używana jest głównie przez biedotę, oraz piesze oddziały biedniejszych państw. Spotykana zarówno w wersji okrągłej, jak i zbudowanej na planie prostokąta.</description>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Drewniana tarcza, wielka</name>
+		<damage>1k4 + 1/8 Si</damage>
+		<weight>7kg</weight>
+		<price>3 000</price>
+		<traits>Blokowanie; Mocowanie: akcja cało-rundowa; Odrzut +10; Osłona +10; Parowanie +15 (Szybkie)</traits>
+		<description>Ten rodzaj tarczy jest w istocie niczym innym, niż większym, doskonalszym odpowiednikiem małej tarczy drewnianej. Noszona przez doborowe oddziały piechoty, oraz jazdę, potrafi osiągać nawet 150cm wysokości, co w wielu przypadkach pozwala zakryć osłaniającego się niemal po linię barków. Nie istnieje ustalony katalog kształtów, jakie tarcze tego typu przyjmują. Jazda preferuje tarcze tzw. migdałowe, zwężające się ku dołowi i znacznie wyższe, podczas gdy piechota preferuje tarcze okrągłe. Wzmacniane metalowymi okuciami, oraz potężnym umbo tarcze te stanowią poważny atut w każdym zbliżającym się boju.</description>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Okrąglak piechura</name>
+		<damage>1k4 + 1/8 Si</damage>
+		<weight>6kg</weight>
+		<price>1 600</price>
+		<traits>Mocowanie: akcja zwykła; Odrzut +5; Osłona +5; Parowanie +10 (Szybkie)</traits>
+		<description>Jest to trochę większa wersja małej drewnianej tarczy. Nazwa tarczy pochodzi od najczęstszych jej użytkowników, czyli piechotę. Zwykle tarcza ta jest malowana, aby ukryć cięcie desek z których się składa, a w sercu ma kolec, którym piechur może atakować przeciwnika.</description>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Pawęż</name>
+		<damage>1k4 + 1/4 Si</damage>
+		<weight>9kg</weight>
+		<price>5 000</price>
+		<traits>Biegłość (Pawęż); Blokowanie; Mocowanie: akcja cało-rundowa; Odrzut +10; Osłona +10; Parowanie +15 (Szybkie); Specjalne<mdash />Ochrona: Pawęż może zostać wbita w ziemię lub oparta o belkę, a postać może prowadzić atak zza takiej osłony. Rozstawienie pawęży wymaga 2 akcji cało-rundowych. Postać ukrywająca się za pawężą otrzymuje modyfikator z osłony (cecha broni) powiększony o +20. Poza tym obie ręce postać będzie miała wolne. Czas rozstawienia nie uwzględnia uprzedniego posiadania pawęży założonej na rękę</traits>
+		<description>Pawęż jako element uzbrojenia ochronnego zaczynał swoją karierę jako ciężka, wielka tarcza dla ciężkiej jazdy. Wysoka, wykonywana na zamówienie płyta czworokątnego metalu, z pionową wypukłością pośrodku i potężnych uchwytem, umożliwiającym dzierżenie jej oburącz, potrafiła osiągać nawet dwa metry wysokości. Piesze wersje tej metalowej ściany odpowiednio zmalały tak, by po oparciu pawęży o ziemię, zakryć posiadacza mniej więcej do linii barków. Wersje używane przez kuszników potrafiły być nawet większe, posiadając jedynie wąski wizjer, służący od obserwowania pola bitwy i bezpiecznego oddawania przezeń strzałów. Pawęż w pełni zasługuje na miano tarczy <quote>ciężkiej</quote>. Potrafiący ważyć nawet 10kg element pancerza z pewnością nie jest ani lekki, ani łatwy w obsłudze. Wszelako, gdy idzie o wytrzymałość i odporność na ciosy, niewiele jest w Sorii tarcz, które mogą się z nim mierzyć.</description>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Puklerz</name>
+		<damage>1k4 + 1/8 Si (obuchowe)</damage>
+		<weight>2kg</weight>
+		<price>1 500</price>
+		<traits>Biegłość (Puklerz); Mocowanie: Minuta; Parowanie +10 (Szybkie); Specjalne<mdash />Poręczna: Puklerz jest przyczepiony do ręki w taki sposób, że postać ma dłoń wolną i może z niej normalnie korzystać</traits>
+		<description>Pod nazwą tą kryje się malutka, mająca zaledwie ok. 40cm średnicy okrągła, metalowa tarcza o sferycznym, wybrzuszonym środku (tzw. umbo). Znacznie wytrzymalsza od tarcz drewnianych, znajduje się w równie powszechnym użyciu. Szczególnie ceniona za swoją niewielką wagę i mobilność, połączoną z godną uwagi wytrzymałością konstrukcji. Znajduje się na standardowym wyposażeniu królewskich łuczników Imperialnych.</description>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Tarcza herbowa</name>
+		<damage>1k4 + 1/8 Si</damage>
+		<weight>6kg</weight>
+		<price>9 000</price>
+		<traits>Biegłość (Tarcza herbowa); Blokowanie; Mocowanie: akcja cało-rundowa; Odrzut +5; Osłona +5; Parowanie +10 (Szybkie)</traits>
+		<description>Nazywana również <quote>Ceremonialną</quote> zastrzeżona jest w zasadzie jedynie dla osób szlacheckiego pochodzenia. Każdy model tarczy herbowej wykonywany jest na indywidualne zamówienie i posiada odpowiednie znaki rodowe. Noszenie jej bez odpowiedniego ku temu uprawnienia może zakończyć się dla nieszczęśliwego posiadacza śmiercią w szybkim i nie do końca sprawiedliwym procesie polowym. Najczęściej kształtu trójkątnego, sercowego, lub kartuszowego, tarcze tego typu co do zasady są bogato zdobione, oksydowane, złocone czy też srebrzone i pokrywane wspaniałymi motywami mitologicznymi czy roślinnymi. Wersje bez znaków rodowych noszone są przez elitarne straże królewskie, czy gwardie pałacowe w wielu ludzkich państwach.</description>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Tarcza jazdy</name>
+		<damage>1k4 + 1/8 Si</damage>
+		<weight>6kg</weight>
+		<price>2 500</price>
+		<traits>Biegłość (Tarcza jazdy); Broń kawaleryjska, Mocowanie: akcja cało-rundowa; Odrzut +5; Osłona +5; Parowanie +10 (Szybkie); Specjalne<mdash />Osłona jeźdźca: Jeżeli postać korzysta z tej tarczy dosiadając konia lub innego wierzchowca otrzymuje modyfikator do parowania +5</traits>
+		<description>Tarcza jazdy jest podobna do zwykłej trójkątnej tarczy. Została jednak zaprojektowana tak, aby chronić jeźdźca na całej wysokości jego ciała (prócz głowy), gdy znajduje się on w pozycji siedzącej (w siodle). Dzięki takiej konstrukcji tarcza ta jest znacznie skuteczniejsza, gdy postać korzysta z niej w czasie potyczki konnej lub na innym wierzchowcu.</description>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Trójkątna tarcza</name>
+		<damage>1k4 + 1/8 Si</damage>
+		<weight>5kg</weight>
+		<price>1 800</price>
+		<traits>Mocowanie: akcja zwykła; Odepchnięcie; Odrzut +5; Osłona +5; Parowanie +10 (Szybkie)</traits>
+		<description>W zależności od wykonania, ten rodzaj tarcz albo składa się z jednej, kutej płyty metalu, bądź ze szlachetnego drewna, wzmacnianego metalowymi okuciami na brzegach i w rejonie środka (tzw. umbo). Tarcze tego rodzaju mają najczęściej około metra wysokości i 80cm szerokości w najszerszym miejscu, systematycznie zwężając się ku dołowi. Pomimo nazwy <quote>tarcza trójkątna</quote> pod tę kategorię tarcz podchodzą również modele sercowate, zaokrąglane u doły, czy nieregularnie czworoboczne z wyniesioną lewą stroną.</description>
+	</tal:weapon>
+
+	<header>Topór</header>
+	<p>Kategoria broni posiadających trzonek i głowicę, dzięki której można zadawać obrażenia sieczne.</p>
+
+	<tal:weapon>
+		<name>Krasnoludzki półtorak</name>
+		<damage>1k10 + 1/2 Si (cięte)</damage>
+		<weight>2kg</weight>
+		<price>4 200</price>
+		<traits>Biegłość (Topór półtora-ręczny); Dodatkowe obrażenia +1k10; Parowanie +5 (Biegłość); Półtora-ręczna; Zabójcza</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Krasnoludzki topór bojowy</name>
+		<damage>1k10 + 1/2 Si (cięte)</damage>
+		<weight>2kg</weight>
+		<price>3 180</price>
+		<traits>Biegłość (Topór bojowy); Parowanie +5 (Biegłość); Rozbrajanie +5; Zabójcza</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Krasnoludzki topór dwuręczny</name>
+		<damage>2k10 + 1,5 Si (cięte)</damage>
+		<weight>6kg</weight>
+		<price>6 000</price>
+		<traits>Biegłość (Wielki topór); Dodatkowe obrażenia +1k10; Dwuręczna; Parowanie +5 (Biegłość); Specjalne<mdash />Szpikulec: Dolny koniec trzonka wieńczy szpikulec, którym można walczyć jak włócznią (Obrażenia 1k8 + 1/4 Si kłute; Szarża), z tym, że nie można rzucać przedmiotem</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Ścinacz rimtalski</name>
+		<damage>4k6 + 1,5 Si (cięte)</damage>
+		<weight>8kg</weight>
+		<price>6 000</price>
+		<traits>Biegłość (Wielki topór); Dwuręczna; Zabójcza</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Toporek</name>
+		<damage>1k6 + 1/4 Si (cięte)</damage>
+		<weight>1kg</weight>
+		<price>940</price>
+		<traits>Lekka; Zasięg 12m + 1/2 Si</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Topór bojowy</name>
+		<damage>1k10 + 1/2 Si (cięte)</damage>
+		<weight>2kg</weight>
+		<price>2 180</price>
+		<traits>Półtora-ręczna</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Topór jednoręczny</name>
+		<damage>1k8 + 1/4 Si (cięte)</damage>
+		<weight>2kg</weight>
+		<price>1 180</price>
+		<traits>Zasięg 10m + 1/4 Si</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Topór dwuręczny</name>
+		<damage>2k10 + 1,5 Si (cięte)</damage>
+		<weight>8kg</weight>
+		<price>5 180</price>
+		<traits>Dwuręczna</traits>
+	</tal:weapon>
+
+	<header>Inne, varia i dodatki</header>
+
+	<tal:weapon>
+		<name>Garota</name>
+		<damage><mdash /></damage>
+		<weight>0,5kg</weight>
+		<price>300</price>
+		<traits>Specjalne<mdash />Duszenie: Z broni można korzystać podczas walki w zwarciu, gdy dusi się przeciwnika. Należy w tym celu trzymać garotę oburącz. Postać otrzymuje +10 do testu zwarcia, gdy dusi ofiarę; Walka wręcz</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Jury</name>
+		<damage>1k8 + 1/8 Si (cięte)</damage>
+		<weight>1kg (komplet)</weight>
+		<price>1 400 (komplet)</price>
+		<traits>Biegłość (Jury); Lekka; Specjalne<mdash />Walka dwiema broniami: Postać wykorzystując komplet jurów do walki nie ponosi kary za walkę dwiema broniami, gdy korzysta z tej specjalnej akcji. Walka wręcz</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Kastet</name>
+		<damage>1k6 + 1/8 Si (obuchowe)</damage>
+		<weight>0,3kg</weight>
+		<price>300</price>
+		<traits>Lekka; Walka wręcz</traits>
+		<description>Kastet, począwszy od pierwszych, miedzianych napięściaków stanowi broń tak starą, jak stara jest walka na pięści w kulturze wszystkich cywilizacji Soryjskich. Kastety znaleźć można wszędzie, w każdym zakątku kontynentu i w każdej znanej kulturze, począwszy od prostych bryłek miedzi, skończywszy na naprawdę morderczych stalowych rękawic z głęboko nasadzonymi nań kolcami, zdolnymi z twarzy przeciwnika uczynić krwawią miazgę w przeciągu kilku zaledwie ciosów. W wielu miastach ludzkich posiadanie kastetów tego ostatniego typu jest prawnie zakazane.</description>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Kastet nabijany</name>
+		<damage>1k8 + 1/8 Si (kłute i obuchowe)</damage>
+		<weight>0,3kg</weight>
+		<price>360</price>
+		<traits>Lekka; Walka wręcz</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Kolce</name>
+		<weight>0,5kg</weight>
+		<price>1 000</price>
+		<description>Dodatek do tarczy. Kolcami na tarczy można atakować i zadawać większe obrażenia, niż te wynikające z obuchu. Zwykle na lekkiej tarczy umieszcza się jeden kolec, a średniej trzy, a na ciężkiej pięć. Podana waga dotyczy jednego kolca. Atak kolcami wymaga normalnego ataku tarczą i również normalnego testu trafienia. Trafienie powoduje obrażenia kłute: 1k8 + 1/8 Si adekwatne dla danej tarczy, miast tych wynikających z obuchu tarczy, a prób przewrócenia i tak się liczy.</description>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Krasnoludzki celownik do kuszy</name>
+		<weight>1kg</weight>
+		<price>15 000</price>
+		<traits>Specjalne<mdash />Celowanie: Postać korzystająca z akcji celowania otrzymuje dodatkowy modyfikator do kolejnego testu trafienia zależny od jakości celownika: Mistrzowski +15, Dobry +12, Zwykły +10, Kiepski +8, Fatalny +5. Celownik można zamontować na każdej kuszy, chociaż najczęściej robi się je do kusz krasnoludzkich</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Magazynek do kuszy powtarzalnej, mały</name>
+		<weight>1kg</weight>
+		<price>1 000</price>
+		<traits>Specjalne<mdash />Pojemność: W magazynku można umieścić 5 dowolnych bełtów</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Magazynek do kuszy powtarzalnej, średni</name>
+		<weight>1,5kg</weight>
+		<price>1 800</price>
+		<traits>Specjalne<mdash />Pojemność: W magazynku można umieścić 7 dowolnych bełtów</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Magazynek do kuszy powtarzalnej, wielki</name>
+		<weight>2kg</weight>
+		<price>4 000</price>
+		<traits>Specjalne<mdash />Pojemność: W magazynku można umieścić 10 dowolnych bełtów</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Zdobienia i malunki</name>
+		<weight>Różnie</weight>
+		<price>Różnie</price>
+		<description>Dodatek do tarcz. Większość tarcz jest ozdabiana za pomocą malunków, co ma ukryć ślady cięć drewna lub miejsca łączenia nitów. Prócz tych praktycznych zastosowań malunki mogą budzić trwogę w przeciwnikach. Najlepiej ozdobione tarcze mogą mieć wartość zbliżoną do tarcz herbowych lub nawet je przekroczyć. Trzeba pamiętać, że w wielu kulturach nie wolno na tarczach umieszczać różnych symboli (np. zarezerwowanych dla kultu religijnego). Niegdyś doszło do sytuacji, że pewien szlachcic wojował z krasnoludami z Gór Środka Świata. Nakazał on na tarczach wymalować symbole religijne krasnoludów, a w efekcie tego podczas bitwy krasnoludowie nie odważyli się atakować ludzi dzierżących tarcze i przegrali bój.</description>
+	</tal:weapon>
+
+	<header>Amunicja</header>
+
+	<tal:weapon>
+		<name>Bełt gwiżdżący (5 sztuk)</name>
+		<damage>1k8 (kłute)</damage>
+		<weight>1kg</weight>
+		<price>210</price>
+		<traits>Specjalne<mdash />Głośne: Przy wystrzeleniu powodują słyszalny w zasięgu 200m świst</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Bełt krasnoludzki (5 sztuk)</name>
+		<damage>2k6 (kłute)</damage>
+		<weight>1kg</weight>
+		<price>800</price>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Bełt przebijający (5 sztuk)</name>
+		<damage>1k12 (kłute)</damage>
+		<weight>1kg</weight>
+		<price>375</price>
+		<traits>Przebicie 10</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Bełt taranujący (5 sztuk)</name>
+		<damage>1k12 (obuchowe)</damage>
+		<weight>1kg</weight>
+		<price>325</price>
+		<traits>Specjalne<mdash />Odrzut: Wystrzelenie bełtu potrzebuje kuszy, która zadaje przynajmniej 30 obrażeń. Przy trafieniu obrażenia od kuszy zostają zmniejszone o połowę, ale trafienie liczy się jako próba przewrócenia. Nie wykonuje się testu spornego, lecz ofiara musi zdać test zachowania równowagi o ST=13 + 1k12 (kostka obrażeń bełtu)</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Bełt z zadziorami (5 sztuk)</name>
+		<damage>1k10 (kłute)</damage>
+		<weight>1kg</weight>
+		<price>300</price>
+		<traits>Specjalne<mdash />Zadziory: Przy wyciąganiu z rany powodują dodatkowe 2k6 obrażeń</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Bełt zwykły (5 sztuk)</name>
+		<damage>1k8 (kłute)</damage>
+		<weight>1kg</weight>
+		<price>150</price>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Kule do procy, metalowe (10 sztuk)</name>
+		<damage>1k6 (obuchowe)</damage>
+		<weight>0,5kg</weight>
+		<price>200</price>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Kule do procy, zwykłe (10 sztuk)</name>
+		<damage>1k4 (obuchowe)</damage>
+		<weight>0,5kg</weight>
+		<price>80</price>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Strzałka (10 sztuk)</name>
+		<damage>1k2 (kłute)</damage>
+		<weight>0,1kg</weight>
+		<price>60</price>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Strzałka jorowa</name>
+		<damage>1k4 (kłute)</damage>
+		<weight>0,1kg</weight>
+		<price>90</price>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Strzały długie, czarno-elfickie (5 sztuk)</name>
+		<damage>2k6 (kłute)</damage>
+		<weight>2kg</weight>
+		<price>1 000</price>
+		<traits>Zabójcza</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Strzały długie, gwiżdżące (10 sztuk)</name>
+		<damage>1k8 (kłute)</damage>
+		<weight>2kg</weight>
+		<price>210</price>
+		<traits>Specjalne<mdash />Głośne: Przy wystrzeleniu powodują słyszalny w zasięgu 200m świst</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Strzały długie, przebijające (10 sztuk)</name>
+		<damage>1k10 (kłute)</damage>
+		<weight>2kg</weight>
+		<price>375</price>
+		<traits>Przebicie 10</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Strzały długie, z kruchymi grotami</name>
+		<damage>1k8 (kłute)</damage>
+		<weight>2kg</weight>
+		<price>375</price>
+		<traits>Specjalne<mdash />Paskudne rany: Opatrzenie rany wymaga zdania testu leczenia o ST=45</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Strzały długie, z zadziorami (10 sztuk)</name>
+		<damage>1k12 (kłute)</damage>
+		<weight>2kg</weight>
+		<price>300</price>
+		<traits>Specjalne<mdash />Zadziory: Przy wyciąganiu z rany powodują dodatkowe 2k6 obrażeń</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Strzały długie, zielono-elfickie (10 sztuk)</name>
+		<damage>1k12 (kłute)</damage>
+		<weight>2kg</weight>
+		<price>900</price>
+		<traits>Dodatkowe obrażenia 1k12</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Strzały długie, zwykłe (10 sztuk)</name>
+		<damage>1k8 (kłute)</damage>
+		<weight>2kg</weight>
+		<price>150</price>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Strzały krótkie, gwiżdżące (10 sztuk)</name>
+		<damage>1k6 (kłute)</damage>
+		<weight>1kg</weight>
+		<price>140</price>
+		<traits>Specjalne<mdash />Głośne: Przy wystrzeleniu powodują słyszalny w zasięgu 200m świst</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Strzały krótkie, przebijające (10 sztuk)</name>
+		<damage>1k8 (kłute)</damage>
+		<weight>1kg</weight>
+		<price>250</price>
+		<traits>Przebicie 10</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Strzały krótkie, z czarno-elfickimi zadziorami (5 sztuk)</name>
+		<damage>1k12 (kłute)</damage>
+		<weight>1kg</weight>
+		<price>1 000</price>
+		<traits>Poważne rany; Specjalne<mdash />Zadziory: Przy wyciąganiu z rany powodują dodatkowe 6k6 obrażeń</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Strzały krótkie, z zadziorami (10 sztuk)</name>
+		<damage>1k8 (kłute)</damage>
+		<weight>1kg</weight>
+		<price>200</price>
+		<traits>Specjalne<mdash />Zadziory: Przy wyciąganiu z rany powodują dodatkowe 3k6 obrażeń</traits>
+	</tal:weapon>
+
+	<tal:weapon>
+		<name>Strzały krótkie, zwykłe (10 sztuk)</name>
+		<damage>1k6 (kłute)</damage>
+		<weight>1kg</weight>
+		<price>100</price>
+	</tal:weapon>
+
+	<section>Zbroje</section>
+	<p>Pancerze dzielą się na 3 kategorie: lekkie (do 10kg), średnie (11<ndash />20kg) i ciężkie (powyżej 21kg). Każdy z pancerzy ma wagę, która krępuje ruchy, co przekłada się na kary z przeciążenia. Postacie mające biegłość w danym rodzaju zbroi nie ponoszą kar z przeciążenia do testów ataków. Kary do testów z przeciążenia należy również uwzględniać przy atakach strzeleckich.</p>
+	<p>Przy opisie każdej zbroi pojawiają się informacje <quote>Pan</quote><mdash />czyli wartość pancerza, oraz <quote>Pok</quote><mdash />czyli wartość pokrycia. Poszczególne egzemplarze zbroi mogą się między sobą różnić co do wagi, co jest spowodowane parametrami ciała na jakie zostały one stworzone (im większe ciało, tym większa, a więc i cięższa musi być zbroja). Każda skompletowana zbroja średnia i ciężka ma rękawice, którymi można walczyć jak kastetami.</p>
+	<itemlist>
+		<item title="Lepsze i gorsze pancerze">
+			Zaprezentowane ceny i statystyki dotyczą zbroi zwykłej. O ile realna waga pancerzy się nie zmienia, o tyle założone na ciało pancerze lepsze rozkładają ciężar, co powoduje, że odczucie ich wagi się zmniejsza. Gorsze natomiast krępują ruchy, co sprawia, że odczucie ich wagi się zwiększa Egzemplarze lepsze i gorsze odpowiednio modyfikują parametry:
+			<table>
+				<thead>
+					<td>Jakość</td>
+					<td>Pancerz</td>
+					<td>Pokrycie</td>
+					<td>Waga</td>
+					<td>Cena</td>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Mistrzowska</td>
+						<td>+1</td>
+						<td>+4</td>
+						<td>-20%</td>
+						<td>x5</td>
+					</tr>
+					<tr>
+						<td>Dobra</td>
+						<td><mdash /></td>
+						<td>+2</td>
+						<td>-10%</td>
+						<td>x2</td>
+					</tr>
+					<tr>
+						<td>Zwykła</td>
+						<td><mdash /></td>
+						<td><mdash /></td>
+						<td><mdash /></td>
+						<td><mdash /></td>
+					</tr>
+					<tr>
+						<td>Kiepska</td>
+						<td><mdash /></td>
+						<td>-2</td>
+						<td>+10%</td>
+						<td>1/2</td>
+					</tr>
+					<tr>
+						<td>Fatalna</td>
+						<td>-1</td>
+						<td>-4</td>
+						<td>+20%</td>
+						<td>1/5</td>
+					</tr>
+				</tbody>
+			</table>
+		</item>
+	</itemlist>
+	<table>
+		<caption>Zbroje wymienione zgodnie z porządkiem cenowym</caption>
+		<thead>
+			<tr>
+				<td>Nazwa</td>
+				<td>Kategoria</td>
+				<td>Wartość</td>
+			</tr>
+		</thead>
+		<tbody>
+			<TODO>LISTA ZBROI</TODO>
+		</tbody>
+	</table>
+	<table>
+		<caption>Dodatki do pancerzy</caption>
+		<thead>
+			<tr>
+				<td>Nazwa</td>
+				<td>Waga</td>
+				<td>Wartość</td>
+			</tr>
+		</thead>
+		<tbody>
+			<TODO>LISTA DODATKÓW</TODO>
+		</tbody>
+	</table>
+
+	<header>Zbroje lekkie</header>
+
+	<tal:armor>
+		<name>Brygantyna</name>
+		<armor>18</armor>
+		<coverage>16</coverage>
+		<weight>10kg</weight>
+		<price>5 500</price>
+		<traits>Zakładanie: 6 akcji cało-rundowych.</traits>
+		<description>Brygantyna (zwana niekiedy, również poprawnie, Brygandyną), stanowi niejako rozwinięcie idei skórzni pikowanej. Brygantyna stanowi bowiem rodzaj kirysu, złożonego z metalowych płytek nakładających się na siebie od dołu do góry, przynitowanych do podkładu z płótna, lub grubej skóry od wewnątrz, przykrytych tkaniną od strony zewnętrznej. Płytki te pokrywa się najczęściej cyną, celem zabezpieczenia przed korozją. Dostępne rodzaje brygantyn różnią się przede wszystkim rozmiarami i ilością metalowych płytek, które osiągają wymiary od 10x25cm do zupełnie malutkich, 2,5x5cm. Ze względu na wykonanie i użyte materiały, brygantyna zapewnia najlepszą ochronę dla posiadacza spośród istniejących zbroi lekkich.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Drowi pancerz skórzany</name>
+		<armor>19</armor>
+		<coverage>18</coverage>
+		<weight>4kg</weight>
+		<price>6 300</price>
+		<traits>Zakładanie: 4 akcje cało-rundowe.</traits>
+		<description>Wymieniając rasy zajmujące się wytwarzaniem najlepszych pancerzy na świecie właściwie każdy zapytany wymieni na pierwszym miejscu krasnoludów. Ich ciężkie, stalowe puszki cieszą się powszechnym uznaniem na niemal całym świecie. Wielu tymczasem nie zauważa, iż elfy w niewielkim jedynie stopniu na tym polu im ustępują. Elfi płatnerze posiadają nierzadko całe wieki na samodoskonalenie własnych technik. Co więcej, zbroja dla typowego elfa obok wymogów związanych z wytrzymałością najczęściej musi być lekka, elastyczna i estetycznie przyjemna dla oka. Dlatego też klasyczna elfia płatnerska robota cieszy się zasłużonym uznaniem nie tylko wśród kolekcjonerów, ale przede wszystkim wśród tych, którzy wyżej od noszenia na sobie wielu kilogramów żelaza cenią sobie mobilność i zwinność na polu bitwy. Drowie skórzane pancerze wykonane specjalnie z myślą o wszelkiej maści cicho poruszających się łotrzykach i skrytobójcach nie mają na tym polu ze sobą równych.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Elficka lekka pnączozbroja</name>
+		<armor>10</armor>
+		<coverage>15</coverage>
+		<weight>4kg</weight>
+		<price>6 100</price>
+		<traits>Zakładanie: godzina (samodzielnie).</traits>
+		<description>Pnączozbroja to niezwykła robota elfów. Zbroja jest żywa i trzeba codziennie podlewać ją 3 litrami wody, inaczej zwiędnie i będzie nadawała się tylko do wyrzucenia. Pnączozbroja jest zrobiona z pnączy avireńskiego bluszczu, który zrasta się na ciele osoby noszącej zbroję po założeniu jej. Aby zdjąć tą zbroję należy wyciąć kilka delikatniejszych pędów lub je wyłamać. Założenie tej zbroi trwa całą godzinę, bo tyle czasu potrzebują pędy, aby się zrosnąć w mocną strukturę. Potrzeba natomiast 5 minut, aby delikatnie powycinać pędy i uwolnić ciało z pnączy. Szybsze zrywanie pędów prowadzi do tego, że konstrukcja zostaje naruszona i zbroja nadaje się tylko do posadzenia w ogródku.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Łuskowy kaftan</name>
+		<armor>20</armor>
+		<coverage>10</coverage>
+		<weight>10kg</weight>
+		<price>4 100</price>
+		<traits>Zakładanie: 12 akcji cało-rundowych.</traits>
+		<description>Łuskowy kaftan jest uboższą wersją zbroi łuskowej. Nie różni się on w żadnym stopniu od budowy łuskowej zbroi, z tą jedną różnicą, że jest to mniejsza tego wersja. Łuskowa zbroja chroni nie tylko korpus, ale również nogi i ręce, a łuskowy kaftan stanowi tylko i wyłącznie osłonę korpusu. Ten rodzaj pancerza jest popularny, głównie za sprawą stosunku swej wartości do poziomu ochrony. Zauważyć jednak należy, że o ile klatka piersiowa jego posiadacza będzie dobrze chroniona, o tyle przypadkowe trafienie w głowę lub ramiona może wykluczyć takiego delikwenta z dalszego boju.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Przeszywanica</name>
+		<armor>6</armor>
+		<coverage>10</coverage>
+		<weight>5kg</weight>
+		<price>600</price>
+		<traits>Zakładanie: 6 akcji cało-rundowych.</traits>
+		<description>W zasadzie nie jest to typowa zbroja. Ten rodzaj pancerza składa się najczęściej z 5 warstw ciasno zszytego materiału. Wypchanego po stronie wewnętrznej wełną. Osoba nosząca ten rodzaj zbroi bardzo szybko się rozgrzewa i już po kilku minutach walki może się nieźle spocić. Z uwagi na to, że przeszywnica wchłania dużo wilgoci, to zbroja taka może w czasie deszczu ważyć nawet dwa razy więcej. Gorsze egzemplarze tej zbroi straszliwie cuchną.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Skórznia</name>
+		<armor>10</armor>
+		<coverage>13</coverage>
+		<weight>6kg</weight>
+		<price>1 200</price>
+		<traits>Zakładanie: 6 akcji cało-rundowych.</traits>
+		<description>Najpospolitszy, najtańszy i zdecydowanie najczęściej spotykany rodzaj pancerza w całym znanym świecie. Wykonywana poprzez gotowanie grubych, zwierzęcych (wołowych, końskich, czy owczych) skór w oleju, charakteryzuje się niezwykłą grubością oraz sztywnością jak na taki, pozornie delikatny materiał. Pancerz tego rodzaju chroni jedynie tors posiadacza. Zbroja skórzana posiada wszelako szereg zalet, które czynią ją konkurencyjną nawet względem pancerzy metalowych. Jest niezwykle cicha, nie krępuje ruchów posiadacza, jest bardzo tania zarówno w produkcji jak i naprawie, oraz wykazuje niezwykła odporność na dowolne warunki pogodowe. Jej dłuższe noszenie nie męczy, zaś jest na tyle dyskretna, iż można schować ją pod ubraniem.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Skórznia pikowana (również ćwiekowana)</name>
+		<armor>15</armor>
+		<coverage>14</coverage>
+		<weight>9kg</weight>
+		<price>3 000</price>
+		<traits>Zakładanie: 8 akcji cało-rundowych.</traits>
+		<description>Mimo podobnych, bardzo mylących nazw, pancerz ten niewiele ma wspólnego z typową skórzniom. Wykonana z miękkiej skóry skórznia pikowana nabita jest setkami metalowych ćwieków, znajdujących się niezwykle blisko siebie, tworzących elastyczną powierzchnię twardego metalu. Dzięki temu, zbroja ta zachowuje wszelkie zalety pancerza skórzanego, łącząc go z wytrzymałością i siłą pancerza metalowego. Największym problemem związanym z korzystaniem z tego rodzaju zbroi jest jej mała odporność na efekty pogodowe. Otwory w których znajdują się ćwieki bardzo szybko "wyrabiają się", tracąc swoje właściwości, przez co niewłaściwie zakonserwowana np. podczas deszczu skórznia pikowana bardzo szybko gubi wiele ze swych ćwieków. Ze względu na swój wygląd oraz cenę, bywa nazywana "kolczugą dla ubogich".</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Skórznia ze skóry smoka espagryjskiego</name>
+		<armor>30</armor>
+		<coverage>15</coverage>
+		<weight>7kg</weight>
+		<price>67 600</price>
+		<traits>Zakładanie: 4 akcje cało-rundowe.</traits>
+		<description>Ta zbroja została wykonana ze skóry i łusek smoka espagryjskiego. Proces wyrobu tej zbroi jest dość skomplikowany i tylko najlepsi płatnerze znają sztukę prawidłowego oprawienia skóry tego rodzaju smoka, aby nadawała się ona na zbroję. Sama zbroja wygląda bardzo efektownie. Łuski są koloru błękitnego i zielonego, a każdy ruch postaci w tej zbroi sprawia, że odbijają się od nich promienie światła załamując w niezwykłej gamie kolorów. Chociaż zbroja nie może pokrywać dużej części ciała, gdyż twardych elementów pokrytych łuskami nie można łączyć w wielu kombinacjach, to i tak ciało chronione tym pancerzem zdaje się być odporne na wszelkie razy.</description>
+	</tal:armor>
+
+	<header>Zbroje średnie</header>
+
+	<tal:armor>
+		<name>Ciężka skórzana</name>
+		<armor>16</armor>
+		<coverage>18</coverage>
+		<weight>11kg</weight>
+		<price>5 000</price>
+		<traits>Dodatkowa ochrona 5 (cięte); Zakładanie: 8 akcji cało-rundowych.</traits>
+		<description>Ciężka skórzana zbroja została wykonana podobnie jak pikowana skórznia, z tą tylko różnicą, że skóra użyta do jej produkcji została dodatkowo wzmocniona olejami, a pod nią doszyto materiał ochraniający ciało przed uderzeniami. Zbroja tego rodzaju mimo niewielkiej wartości jest dość solidna. Zwykle używają jej żołnierze i wojownicy podczas treningów szermierczych, gdyż jest w stanie oprzeć się uderzeniom treningowego oręża (niestety nie zawsze opiera się uderzeniom oręża prawdziwego).</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Elficka ciężka pnączozbroja</name>
+		<armor>20</armor>
+		<coverage>20</coverage>
+		<weight>11kg</weight>
+		<price>10 800</price>
+		<traits>Zakładanie: godzina (samodzielnie).</traits>
+		<description>Ta zbroja w zasadzie niczym nie różni się od normalnej pnączozbroi, prócz tego, że została wykonana z grubszych pnączy bluszczu averińskiego. Tą zbroję należy dziennie podlewać 5 litrami wody. Zakłada się ją godzinę, lecz zdejmuje aż 10 minut, gdyż pnącza, które trzeba rozciąć są grubsze i z uwagi na ciągłe przemieszczanie się, trudniej je zlokalizować.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Kolczuga</name>
+		<armor>25</armor>
+		<coverage>24</coverage>
+		<weight>15kg</weight>
+		<price>15 000</price>
+		<traits>Dodatkowa ochrona 5 (cięte); Zakładanie: 12 akcji cało-rundowych.</traits>
+		<description>Kolczuga, stanowiąca most łączący pancerze lekkie, skórzane z prawdziwie ciężkim pancerzami stalowymi, znana była już od czasów starożytnych. Gęsta plecionka wykonana z metalowych kółek średnicy ok. 1 mm najprawdopodobniej narodziła się na dawnych terenach dzisiejszego Elidionu. Na przestrzeni wieków i miejsc powstało wiele jej odmian - dłuższych, krótszych, dostosowanych do jazdy konnej etc. Nie zmieniło się jej tylko ogólne założenie - maksymalne połączenie właściwości ochronnych z wygodą posiadacza. Kolczuga nie jest lekka, ani nie gwarantuje pełnej swobody ruchów. Wszelako, sięgająca kolan, z długimi rękawami, oraz nierzadko kapturem plecionka z czystego metalu potrafi i do dziś stanowić o być lub nie być podczas boju niejednego woja.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Koszulka kolcza</name>
+		<armor>22</armor>
+		<coverage>18</coverage>
+		<weight>12kg</weight>
+		<price>9 000</price>
+		<traits>Dodatkowa ochrona 5 (cięte); Zakładanie: 8 akcji cało-rundowych.</traits>
+		<description>Pod nazwą tą kryje się nic innego, jak krótsza, uboższa wersja "dorosłej" kolczugi. Chroni jedynie tułów posiadacza, nie będąc wyposażoną ani w ochronny kaptur, kołnierz, czy dłuższe rękawy. Wykonana tak, by, w zależności od rasy właściciela nie sięgać dalej niż odrobinę poniżej linii pasa.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Łuskowa zbroja</name>
+		<armor>20</armor>
+		<coverage>18</coverage>
+		<weight>14kg</weight>
+		<price>6 000</price>
+		<traits>Dodatkowa ochrona 8 (cięte); Zakładanie: 24 akcje cało-rundowe.</traits>
+		<description>Stosowany już w czasach starożytnych rodzaj pancerza średniego, zbudowanego z nakładających się na siebie płytek, czy też "łusek" wykonanych z metalu, rogu, bądź kości. Płytki pancerza nitowane są do tekstylnego, lub skórzanego podkładu. Pancerz tego rodzaju zapewniał znacznie lepszą osłonę przed ciosami, niż jego lekkie odpowiedniki. Wszelako, specyfika wykonania wiązała się z jego jedną, niezaprzeczalną wadą - słabością wykonania. Mała wytrzymałość zbroi łuskowej powodowała, iż czasami nawet jedna łuska, która "obluzowała się" i odpadła ze swojego miejsca mogła pociągnąć za sobą cały szereg kolejnych, powodując tzw. efekt odpadających płatów, będący podobny efektowi domina.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Napierśnik</name>
+		<armor>25</armor>
+		<coverage>25</coverage>
+		<weight>12,5kg</weight>
+		<price>19 500</price>
+		<traits>Dodatkowa ochrona 5 (cięte i obuchowe); Zakładanie: 24 akcje cało-rundowe.</traits>
+		<description>Napierśnik składa się z dwóch jednolitych metalowych płyt, z których pierwsza chroni tors, a druga chroni plecy noszącej go postaci. Dodatkowe elementy tej zbroi są wykonane najczęściej z pierścieni lub skóry i chronią one ręce oraz nogi postaci. Hełmy natomiast w kompletach do zbroi tego typu mają najróżniejsze kształty i zdobienia, chociaż wszystkie są w zasadzie jednolitymi kawałkami metalu z otworami na oczy i dziurki do oddychania.</description>
+	</tal:armor>
+
+	<header>Zbroje ciężkie</header>
+
+	<tal:armor>
+		<name>Kryta</name>
+		<armor>32</armor>
+		<coverage>27</coverage>
+		<weight>22,5kg</weight>
+		<price>24 800</price>
+		<traits>8 (cięte i obuchowe); Zakładanie: 30 akcji cało-rundowych (pomoc).</traits>
+		<description>Zbroja kryta jest rozszerzoną formą kolczugi, która stanowi szkielet tej zbroi. Do pierścieni kolczugi zostały przynitowane metalowe fragmenty w newralgicznych miejscach, takich jak korpus. Ruchy osoby noszącej tą zbroję nie zostały wielce pogorszone w stosunku do kolczugi, ale ochrona wzrosła dość mocno. Zbroja kryta jest jedną z ulubionych ochron jakiej używają kawalerzyści w Imperium.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Paskowa</name>
+		<armor>32</armor>
+		<coverage>25</coverage>
+		<weight>20kg</weight>
+		<price>22 000</price>
+		<traits>8 (cięte i obuchowe); Zakładanie: 30 akcji cało-rundowych (pomoc).</traits>
+		<description>Zbroja paskowa jest odmianą zbroi folgowej , w której metalowe pasy są przynitowane pionowo a nie poziomo, do spodniej warstwy, miękkiej, szytej z materiału i skóry. Ponieważ zbroja ta nie jest zbyt elastyczna, w znacznym stopniu ogranicza w walce noszącego ją wojownika. Niemniej jednak, solidnie wykonana zbroja paskowa jest w stanie zagwarantować rozsądną obronę przed większością znanych nam broni lekkich czy średnich.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Płytowa</name>
+		<armor>44</armor>
+		<coverage>35</coverage>
+		<weight>25kg</weight>
+		<price>100 000</price>
+		<traits>11 (cięte i obuchowe); Zakładanie: 30 akcji cało-rundowych (pomoc).</traits>
+		<description>Jest to najdoskonalszy rodzaj uzbrojenia ochronnego dla ciała, zabezpieczającego przed większością ciosów różnych rodzajów broni. Wykonana z kutych, sztywnych blach różnej grubości, używana jest przede wszystkim przez najzamożniejszą warstwę społeczeństwa do celów paradnych, ceremonialnych i turniejowych. Rzadziej, w celach bojowych. Kompletna zbroja płytowa zakrywająca całe ciało składa się z hełmu z zasłoną, kirysu, naramienników, Taszki naramiennej, Opach, nałokcic, zarękawi, rękawic, fartucha, taszek, nabiodrków, nakolanków, nagolenic, trzewików. Całość, łączona szeregiem metalowych zatrzasków, zawiasów, pasków i skomplikowanych mechanizmów sprężynowych była niezwykle trudna zarówno w obsłudze jak i prostym zakładaniu czy zdejmowaniu, czyniąc to w zasadzie niemożliwym dla jednej osoby. Trudno się dziwić, że koniec końców zbroja płytowa, mimo gigantycznych zalet bojowych, wytwarzana jest dość niechętnie przez kowali, którzy w czasie zrobienia jednej płyty są w stanie wykonać nawet dziesięć kolczug... Poza tym mimo wysokich kosztów ci, których na nią stać wybierają najlepsze możliwe warianty tego pancerza, co podnosi wartość tej zbroi do wartości całego sioła lub wsi.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Półpłytowa</name>
+		<armor>36</armor>
+		<coverage>30</coverage>
+		<weight>22,5kg</weight>
+		<price>50 000</price>
+		<traits>8 (cięte i obuchowe); Zakładanie: 30 akcji cało-rundowych (pomoc).</traits>
+		<description>Ten typ zbroi jest połączeniem kolczugi i metalowych płytek, które zakrywają wrażliwe części ciała. Paski i rzemienie utrzymują zestaw w całości i równomiernie rozkładają jego ciężar. Niemniej jednak nadal jest to ważąca blisko 20 kilogramów metalowa skorupa, niezbyt często spotykana na polu bitwy. Bogaci szlachcice w bój idą w pełnych płytach, zaś zwykli wojownicy, lub straż miejsca preferuje lżejsze kolczugi. Zbroje półpłytowe najczęściej w pospolitym użyciu można zaobserwować w kulturze krasnoludzkiej.</description>
+	</tal:armor>
+
+	<header>Dodatki</header>
+	<p>Do większości pancerzy można dorobić wiele dodatków, które pomagają w czasie walki.</p>
+
+	<tal:armor>
+		<name>Hełm garnczkowy</name>
+		<weight>3kg</weight>
+		<price>5 000</price>
+		<description>Posiadacza hełmu, podczas otrzymania ciosu deklarowanego jako oszałamiający otrzymuje modyfikator +11 do wytrwałości. Hełm ten utrudnia w pewnym stopniu proces postrzegania świata postaci przy pomocy wzroku. Testy rzucania czarów, oraz testy umiejętności, wymagające niezwykłej precyzji ruchów (jak otwieranie zamków, rozbrajanie pułapek) wykonywane podczas noszenia tego hełmu otrzymują karę -10. Jeżeli hełm nie był elementem zbroi, to dodany zwiększa pokrycie o +4.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Herb</name>
+		<weight><mdash /></weight>
+		<price>Różnie</price>
+		<description>Osoby szlachetnie urodzone często ozdabiają swoje zbroje tylko w jeden sposób<mdash />znacząc je swoim herbem. W zasadzie nie powoduje to żadnych korzyści prócz świadomego dla wszystkich znawców heraldyki statusu posiadacza zbroi. Poza tym zbroje zdobione trwałymi herbami (mistrzowsko) trudniej sprzedać, gdyż herbu w zasadzie nie uda się usunąć bez niszczenia zbroi. Gorsze herby (malowane) nie są tak trwałe. Cena waha się od 500 do 5 000 za namalowanie lub wygrawerowanie herbu.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Kolce</name>
+		<weight>2,5kg</weight>
+		<price>4 000</price>
+		<description>Zbroję można ozdobić w bardzo wojenny sposób<mdash />za pomocą kolców. Najpopularniejszymi miejscami, gdzie umieszcza się kolce są kolana, łokcie i ramiona. Kolcami można walczyć tak jak sztyletami, a efekty jakości stosuje się przy nich, tak jak przy broni.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Obciążniki</name>
+		<weight>5kg</weight>
+		<price>1 600</price>
+		<description>Stosowane zwykle przy zbrojach ciężkich pomagają zachować równowagę noszącej taką zbroję postaci. Obciążniki zwiększają wagę zbroi o 5kg, ale dzięki nim postać nosząca zbroję nie ponosi kary z uwagi na ciężar zbroi przy testach zachowania równowagi. Lepsze wykonanie obciążników zapewnia nawet dodatni modyfikator do testów, a gorszy nie niweluje całego modyfikatora.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Przyciemnienie / Farbowanie</name>
+		<weight><mdash /></weight>
+		<price>1 600</price>
+		<description>Aby nie rzucać się w oczy, każdą zbroję można przyciemnić węglem i smarami. Osoba w przyciemnionej zbroi nie będzie odbijała światła i rzucała się w oczy na polu bitwy (chyba, że kogoś szczególnie zainteresuje czarno-zbrojny przeciwnik). To samo tyczy się farbowania zbroi. Cena farby zależy od koloru barwnika i może podnieść cenę usługi nawet 10 krotnie, gdy użyje się purpury lub karmazyny. Jakość zależy od trwałości efektu. Fatalne tracą efekt przy porannej rosie, a mistrzowskie dopiero po ulewie.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Przyłbica</name>
+		<name>2,5kg</name>
+		<price>4 200</price>
+		<description>Posiadacza hełmu, podczas otrzymania ciosu deklarowanego jako oszałamiający otrzymuje modyfikator +9 do wytrwałości. Hełm ten utrudnia w pewnym stopniu proces postrzegania świata postaci przy pomocy wzroku. Testy rzucania czarów, oraz testy umiejętności, wymagające niezwykłej precyzji ruchów (jak otwieranie zamków, rozbrajanie pułapek) wykonywane podczas noszenia tego hełmu otrzymują karę -8. Jeżeli hełm nie był elementem zbroi, to dodany zwiększa pokrycie o +4.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Rękawice</name>
+		<name>1kg</name>
+		<price>2 000</price>
+		<description>Do pancerza, który oryginalnie nie ma wkomponowanych rękawic można takie dołączyć. Rękawice zapewniają dwie zalety: po pierwsze zwiększają pokrycie o +2, a po drugie można nimi atakować jak kastetami.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Straszny wygląd</name>
+		<name>Różnie</name>
+		<price>Różnie</price>
+		<description>Wielu rycerzy na polu bitwy korzysta z przewagi psychologicznej nad przeciwnikiem. Najczęściej rycerze ozdabiają swoje zbroje tak, aby budziły lęk w przeciwnikach. Najczęstszymi elementami są czaszki, kolce i symbole kojarzone ze śmiercią lub nieśmiertelnością. Waga takich ozdób może wynosić od 1 do 10kg, a cena zależy oczywiście od tego na jakie <quote>upiększenie</quote> zdecyduje się posiadacz zbroi. Mistrzowsko ucharakteryzowana zbroja sprawia, że na polu postać wywołuje efekt grozy o ST = 20 (i odpowiednio mniejszym przy gorszych wykonaniach).</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Wygłuszenie</name>
+		<weight><mdash /></weight>
+		<price>8 500</price>
+		<description>Rzadko spotykany sposób modyfikowania zbroi, gdyż zbroje wykonywane są do ochrony przed razami, a nie do codziennego poruszania się w nich. Nie mniej jednak wielu możnych wzbogaca swoje ciężkie zbroje o jedwabne chusty i sparuje je oliwą, co zmniejsza tarcie metalowych części. Ten sposób modyfikacji zbroi sprawia, że kara do refleksu wynikająca z ciężaru zbroi zostaje zredukowana o połowę, gdy ma ona dotyczyć testów skradania się i pozostawania w ciszy. Lepsze wykonanie zapewnia trwałość efektu, a gorsze powoduje, że oliwa już wyschła i kara nie jest redukowana w tak wysokim wymiarze.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Wypolerowana</name>
+		<weight><mdash /></weight>
+		<price>2 800</price>
+		<description>Wszystkie metalowe zbroje można wypolerować (wszystkie mistrzowskie już są wypolerowane), przez co będą odbijały promienie światła. Zbrojni odziani w takie zbroje rzucają się w oczy zarówno w mieście jak i na polu bitwy. Zdarzały się w historii przypadki, gdy wojownik w wypolerowanej zbroi, gdy był w ciemnym lesie otrzymywał wspaniały kamuflaż, gdyż zbroja odbijała na jego ciele otaczającą go roślinność. Prawdziwy Bohater nie powinien się jednak ukrywać w krzakach.</description>
+	</tal:armor>
+
+	<tal:armor>
+		<name>Zatrzaski do rękawic</name>
+		<name>0,5kg</name>
+		<price>1 000</price>
+		<description>Popularna modyfikacja zbroi, pod warunkiem, że są w komplecie do niej dołączone rękawice. Rękawice przy zbroi zawierają dodatkowy element<mdash />zatrzask. Po zaciśnięciu ręki na rękojeści broni jednoręcznej w akcji cało-rundowej postać może zamknąć zatrzask, co sprawi, że przeciwko wszelkim próbom rozbrojenia tej ręki postać będzie otrzymywała modyfikator +20.</description>
+	</tal:armor>
+
+	<section>Materiały</section>
+	<p>W niniejszym podrozdziale zostały opisane właściwości niecodziennych materiałów. Materiałów tych używa się przeważnie do tego, aby wykonywać bronie i zbroje, a dzielą się one na trzy grupy: drewna, metali oraz skóry. Nazwy te nie oznaczają, że wszystkie opisane w ich ramach materiały są np. skórami, ale oznaczają, że materiałów tych używa się zamiennie z rzeczami opisanymi jako skórzane.</p>
+	<p>Przy każdym materiale dokonano wskazania związanych z nich statystyk. <quote>Pan</quote> to pancerz, a więc wartość, która informuje o tym jak odporny na uszkodzenia fizyczne jest dany materiał. Wartość ta przekazywana jest elementom pancerzy z których stworzona została zbroja, a wraz z uwzględnieniem pancerza wynikającego z konstrukcji danej zbroi, wartość ta staje się odpowiedzialna za redukcję obrażeń, którą zapewnia zbroja. <quote>W</quote><mdash />ta statystyka to mnożnik wagi danego materiału względem podstawowego materiału kategorii do której należy (odpowiednio: dąb, żelazo i skóra zwierzęca). <quote>Cena</quote> to informacja o tym ile wart jest na rynku kilogram danego surowca. <quote>T</quote><mdash />oznacza trudność obróbki danego materiału. Wskazany tu modyfikator należy dodać do ST wykonania danego przedmiotu, aby sprawdzić jak trudno danemu rzemieślnikowi będzie wykonać obiekt z danego materiału. <quote>Obr</quote><mdash /><mdash />niektóre surowce sprawiają, że zadawane nimi obrażenia się zmniejszają lub zwiększają względem podstawowego materiału kategorii. Gdy dotyczy to kostek obrażeń należy uwzględnić następującą tabelkę:</p>
+	<table>
+		<caption>Stopnie obrażeń a zamiany kostek obrażeń</caption>
+		<tbody>
+			<tr>
+				<td>1k2</td>
+				<td>1k4</td>
+				<td>1k6</td>
+				<td>1k8</td>
+				<td>1k10</td>
+				<td>1k12</td>
+				<td>2k6</td>
+			</tr>
+			<tr>
+				<td>2k8</td>
+				<td>2k10</td>
+				<td>2k12</td>
+				<td>3k8</td>
+				<td>3k10</td>
+				<td>3k12</td>
+				<td>4k10</td>
+			</tr>
+			<tr>
+				<td>5k8</td>
+				<td>5k10</td>
+				<td>5k12</td>
+				<td>6k10</td>
+				<td>8k8</td>
+				<td>8k10</td>
+				<td>8k12</td>
+			</tr>
+			<tr>
+				<td>10k10</td>
+				<td>11k10</td>
+				<td>12k10</td>
+				<td>13k10</td>
+				<td>14k10</td>
+				<td>15k10</td>
+				<td>etc</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>W wersie pierwszym rozpisano kostki od najniższej, to tych najwyższych, a w wersie drugim wskazano kostki wyższe od <quote>2k6</quote> w ciągu rosnącym. Jeżeli jakaś broń ma obniżone kostki względem <quote>1k2</quote>, to zadaje <quote>1</quote> punkt obrażeń. Przy broni dwuręcznej należy pamiętać, że podane tam kostki obrażeń zostały podwojone względem używania jej jednoręcznie. W tym wypadku należy odjąć połowę kostek, sprawdzić jaki jest kolejny względem nich stopień obrażeń kostek, a na końcu go podwoić. W ten sposób uzyska się właściwy stopień kostek.</p>
+	<p>Niektóre materiały zapewniają specjalne właściwości pancerzom i broniom, które zostały odpowiednio opisane pod nazwą <quote>specjalne</quote>.</p>
+	<itemlist>
+		<item title="Modyfikatory ceny">Niektóre materiały nie dość, że są droższe, to jeszcze wymagają wyższych umiejętności, aby się nimi posługiwać<mdash />tj. wytwarzać za ich pomocą różne przedmioty. Aby sprawdzić jaką cenę będzie miał dany pancerz lub broń po uwzględnieniu nowego materiału należy wpierw sprawdzić ile razy nowy materiał jest droższy od materiału podstawowego (tj. dębu, żelaza albo skóry zwierzęcej), a następnie do tak otrzymanej wartości <quote>ceny</quote> wykorzystać modyfikator za <quote>trudność</quote> obróbki.</item>
+	</itemlist>
+
+	<header>Trudność obróbki a wzrost ceny</header>
+	<table>
+		<thead>
+			<tr>
+				<td>Trudność</td>
+				<td>Cena</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><mdash /></td>
+				<td>x1</td>
+			</tr>
+			<tr>
+				<td>+5</td>
+				<td>+20%</td>
+			</tr>
+			<tr>
+				<td>+10</td>
+				<td>+50%</td>
+			</tr>
+			<tr>
+				<td>+15</td>
+				<td>x2</td>
+			</tr>
+			<tr>
+				<td>+20</td>
+				<td>x2,5</td>
+			</tr>
+			<tr>
+				<td>+25</td>
+				<td>x3</td>
+			</tr>
+			<tr>
+				<td>+30</td>
+				<td>x4</td>
+			</tr>
+			<tr>
+				<td>+35</td>
+				<td>x5</td>
+			</tr>
+			<tr>
+				<td>+40</td>
+				<td>x6</td>
+			</tr>
+			<tr>
+				<td>+45</td>
+				<td>x8</td>
+			</tr>
+			<tr>
+				<td>+50</td>
+				<td>x10</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<header>Drewno</header>
+	<p>W tej kategorii materiałów znajdują się przede wszystkim surowce drzewne, ale i np. różne minerały o strukturze krystalicznej. Podstawowymi surowcami w tej kategorii są: dąb, jesion oraz cis, więc jeżeli przy jakimś przedmiocie nie sprecyzowano, że jest zrobiony z jakiegoś konkretnego drewna, to jest on zrobiony z tego właśnie drewna.</p>
+
+	<tal:material>
+		<name>Ciernie krwawego elfa</name>
+		<description>Magiczne sztuki pozwalają na wydobycie z ciała niektórych elfów pewien rodzaj materiału, który nazywa się <quote>krwawymi cierniami</quote>. Zwykle ciernie krwawych elfów znikają po pewnym czasie, ale właśnie sztuka polega na tym, aby one nie zniknęły. Do tej pory prawdopodobnie 95% krwawych elfów zostało wykrwawionych na śmierć przy wydobywaniu z nich tego rodzaju <quote>drewna</quote>.</description>
+		<armor>26</armor>
+		<weight>-20%</weight>
+		<price>10 000</price>
+		<dc>+15</dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Cis elidioński</name>
+		<description>Zwany również cisem rimtalskim oraz północnym. Jest to drewno bardzo cenione przy produkcji łuków, gdyż kompozyt z tego drewna zapewnia znacznie większe przeniesienie energii kinetycznej.</description>
+		<special>Łuk wykonany z tego drewna ma zwiększoną o połowę maksymalną siłę (cecha broni).</special>
+		<armor>14</armor>
+		<weight>x1</weight>
+		<price>110</price>
+		<dc>+5</dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Dąb, jesion, cis</name>
+		<description>Te trzy rodzaje drewna zaliczają się do tzw. drewna średnio twardego lub twardego. Jeżeli nie sprecyzowano, że jakiś drewniany przedmiot jest zrobiony z konkretnego <quote>drewna</quote> to jest zrobiony najpewniej z jednego z tych trzech albo z: orzecha, czarnej sosny, teczyny wyniosłej czy wiązu.</description>
+		<armor>12</armor>
+		<weight>x1</weight>
+		<price>6</price>
+		<dc><mdash /></dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Hurma kiryjska</name>
+		<description>Czarne drewno, które pochodzi z drzew rosnących na południu Kiru. Wykorzystywane jest głównie do tworzenia instrumentów i w szkutnictwie, ale najlepiej spełnia się przy tworzeniu elementów ochronnych.</description>
+		<armor>22</armor>
+		<weight>x1</weight>
+		<price>88</price>
+		<dc><mdash /></dc>
+	</tal:material>
+
+	<header>Metal</header>
+	<p>Metale to rozległa kategoria materiałów, które otrzymywane są najczęściej w procesie przetapiania rudy. Część metali powstaje dzięki specjalnym technikom łączenia różnych surowców. Podstawowym surowcem w tej kategorii jest żelazo i jeżeli nie napisano inaczej przy przedmiocie, to informują, że jest z metalu ma się na myśli, że jest właśnie z żelaza.</p>
+
+	<tal:material>
+		<name>Adamantyt</name>
+		<description>Z języka haetel metal ten zwie się <quote>adamantium</quote>, co znaczy tyle co <quote>niezniszczalny</quote>. Jest to niezwykle potężny metal pochodzenia gwiezdnego. Adamantium pozyskuje się z meteorytów, które spadają z nieba. Nie wszystkie one zawierają adamantyt, ale te, które je zawierają dość łatwo poznać, gdyż są cięższe i zawierają wyraźne czarne grudki.</description>
+		<special>Adamantyt jest doskonałym materiałem na broń, gdyż każde uderzenie bronią wykonaną z tego metalu, nawet te z najmniejszą siłą sprawia, że cel traci połowę (50%) pancerza, jeżeli ten wykonany jest z jakiegokolwiek metalu, a poza tym kostki obrażeń wzrastają o 4 stopnie. Pancerz natomiast redukuje 50% obrażeń od ataków metalowymi broniami i <quote>oddaje</quote> tę połowę obrażeń broni, co może powodować jej zniszczenie.</special>
+		<armor>50</armor>
+		<weight>x2</weight>
+		<price>1 000 000</price>
+		<dc>+50</dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Elektrum</name>
+		<description>Naturalny stop ok. 80% złota z 20% srebra. Właściwości tego metalu są pośrednie między właściwościami srebra i złota, lecz tak jak w przypadku pierwszego i drugiego, tak i ten metal nie nadaje się na coś innego niż wybijanie monet i wykonywanie ozdób jubilerskich.</description>
+		<armor><mdash /></armor>
+		<weight>x2,5</weight>
+		<price>160 000</price>
+		<dc><mdash /></dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Krucho</name>
+		<description>Nazwa tego stopu w języku lantyńskim, to zniekształcenie leśnego <quote>Crouch-óir</quote>, co z kolei znaczy <quote>Złoto-stal</quote>. Metal ten jest dowodem na to, że łącząc ze sobą metal z cięższym metalem otrzymujemy w efekcie metal lżejszy od tego pierwszego. Krucho to stop złota i żelaza. Wygląda pięknie i świetnie nadaje się na pancerze, ale niestety do jego powstania potrzeba magii, więc znalezienie tego stopu jest bardzo trudne.</description>
+		<armor>22</armor>
+		<weight>-20%</weight>
+		<price>100 000</price>
+		<dc>+10</dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Mithril</name>
+		<description>Srebrzysty, bardzo lekki metal wydobywany w głębokich jaskiniach Gór Środka Świata. Jest go bardzo niewiele, dlatego jego cena bywa tak zawrotna.</description>
+		<special>Z uwagi na swą lekkość wszystkie zbroje wykonane z mithrilu należy traktować tak, jakby były o jedną kategorię lżejsze, tj. jeżeli zbroja normalnie miałaby być kategorii ciężkiej, to po wykonaniu z mithrilu staje się zbroją średnią, średnia staje się lekka, a lekka staje się <quote>ubraniem</quote>. Poza tym każda broń, która nie ma cech: półtora-ręczna, dwuręczna oraz jest bronią do ataków bezpośrednich zyskuje cechę: lekka.</special>
+		<armor>30</armor>
+		<weight>1/5</weight>
+		<price>1 000 000</price>
+		<dc>+50</dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Negretyt</name>
+		<description>Czarnostal to stop uzyskiwany z nasycania zimnaza czarnymi diamentami. Wystarczy dość niewielka ilość diamentu 1 kt, aby utwardzić 1kg zimnaza.</description>
+		<special>Negrety prócz właściwości zimnaza (dodatkowa kostka obrażeń: 1k20 po trafieniu w ciało) ma właściwości cenione przez magów. Zapewnia modyfikator +12 do mocy magicznej, gdy korzysta się z niej przy zaklęciach z określnikiem ciemność. Wystarczy do tego biżuteria lub talizman o wadze 100g.</special>
+		<armor>28</armor>
+		<weight>x1,5</weight>
+		<price>120 000</price>
+		<dc>+30</dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Platyna</name>>
+		<description>Metal wykorzystywany przede wszystkim w jubilerstwie. Metal ten mimo swej wagi jest bardzo miękki i nie nadaje się na placu boju.</description>
+		<armor><mdash /></armor>
+		<weight>x3</weight>
+		<price>500 000</price>
+		<dc><mdash /></dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Srebrnik</name>
+		<description>Inaczej zwany <quote>argerium</quote>. To stop żelaza, srebra i wielu odczynników. Metal ten jest ceniony przez łowców wampirów, wilkołaków i innych złych bestii, gdyż broń wykonana z tego materiału ma przeciw tym istotom specjalne właściwości. W kolorze przypomina srebro.</description>
+		<special>Broń wykonana z tego metalu zadaje nieumarłym i wielu innym istotom podwójne obrażenia, tak jakby były atakowane srebrnym orężem. Poza tym, gdy taka istota uderzy częścią ciała w zbroję z tego stopu, to otrzyma 1/4 obrażeń, które sama by tym atakiem zadała. Broń wykonana z tego metalu ma kostki obrażeń mniejsze o jeden stopień.</special>
+		<armor>16</armor>
+		<weight>x1,5</weight>
+		<price>14 000</price>
+		<dc>+5</dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Srebro</name>
+		<description>Metal wykorzystywany w jubilerstwie i w mennicach do wybijania monet. Przez to ostatnie jest popularny w niemal całej Sorii, co przez ilość kopalń srebra sprawia, że jest znajomość jest powszechna. Nie jest to metal nadający się na broń i pancerze.</description>
+		<armor><mdash /></armor>
+		<weight>x1,5</weight>
+		<price>13 000</price>
+		<dc><mdash /></dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Stal</name>
+		<description>Stop żelaza z węglem, który dzięki odpowiedniemu nasyceniu tego pierwszego, tym drugim sprawia, że materiał jest wytrzymalszy, a przy tym nie traci swojej sprężystości i nie przybiera na wadze.</description>
+		<armor>26</armor>
+		<weight>x1</weight>
+		<price>100</price>
+		<dc><mdash /></dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Stal dornieńska</name>
+		<description>Technika wzbogacania żelaza węglem była znana już przed powstaniem Imperium, ale dopiero w stolicy Imperium<mdash />Dorien poznano technikę czynienia stali niemal doskonałą. Dornieńska stal słynie w całej Sorii, gdyż jest jej stosunkowo sporo w porównaniu z innymi rzadkimi metalami, a przy tym bije swą wytrzymałością zwykłą stal.</description>
+		<armor>30</armor>
+		<weight>x1</weight>
+		<price>10 000</price>
+		<dc>+10</dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Szkłostal</name>
+		<description>Zwane przez elfów Crau’gloin. Jest to rodzaj metalu, który uzyskuje się z kwarców spalanych w ogniu smoków. Szkłostal można stworzyć na dwa sposoby. Pierwszy sprawi, że materiał ten będzie miał czarno-przezroczystą barwę, a drugi sposób sprawi, że kolor stanie się śnieżno-przezroczysty. Niezależnie od koloru właściwości tego metalu pozostają takie samo.</description>
+		<special>Broń wykonana z tego metalu zadaje nieumarłym i wielu innym istotom podwójne obrażenia, tak jakby były atakowane srebrnym orężem. Poza tym, gdy taka istota uderzy częścią ciała w zbroję z tego stopu, to otrzyma 1/4 obrażeń, które sama by tym atakiem zadała.</special>
+		<armor>26</armor>
+		<weight>-20%</weight>
+		<price>250 000</price>
+		<dc>+35</dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Zimnazo</name>
+		<description>Zwane również kriostalą, to metal wydobywany głęboko w jaskiniach Lodowej Korony. Metal ten gęstnieje w temperaturze pokojowej, a zaczyna topnieć w temperaturach ujemnych (przy -71 stopniach Ar zamienia się w płynną ciecz). Kolorem metal ten przypomina rtęć.</description>
+		<special>Broń wykonana z tego metalu zdaje się wyciągać ciepło z ciała, które trafi. Broń taka ma dodatkową kostkę obrażeń: 1k20, gdy nastąpi trafienie w ciało.</special>
+		<armor>28</armor>
+		<weight>x1,5</weight>
+		<price>10 000</price>
+		<dc>+15</dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Złoto</name>
+		<description>Bardzo pożądany metal, którego właściwości ograniczają się do wskazywania bogactwa danej osoby, która go posiada. Złoto jest miękkie i często wykonuje się z niego biżuterię, a niemal tak samo często jak nie częściej bije monety. Jest ono zbyt miękkie, aby wykorzystywać je w produkcji broni i pancerzy.</description>
+		<armor><mdash /></armor>
+		<weight>x2,5</weight>
+		<price>200 000</price>
+		<dc><mdash /></dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Żelazo</name>
+		<description>Powszechny metal, którego rudę wydobywa się w kopalniach rozsianych po całym świecie.</description>
+		<armor>20</armor>
+		<weight>x1</weight>
+		<price>35</price>
+		<dc><mdash /></dc>
+	</tal:material>
+
+	<header>Skóra</header>
+	<p>Kategoria włókiem i powłok pochodzących z lub od istot żywych. Podstawowym surowcem w tej kategorii jest skóra zwierzęca i jeżeli nie napisano inaczej przy opisie przedmiotu zawierającemu informacje o tym, że jest zrobiony ze skóry, to jest zrobiony właśnie ze skóry zwierzęcej.</p>
+
+	<tal:material>
+		<name>Aviriński bluszcz</name>
+		<description>Elfowie w Księżycowym Lesie uprawiają specjalny, bardzo twardy i szybko rosnący bluszcz, którego pierwsze pędy pamiętają czasy Avirińskiego Królestwa. Bluszcz jest koloru ciemno-zielonego. Specjalne: Aviriński bluszcz trzeba codziennie podlewać, gdyż inaczej usycha. Dopóki żyje, to samodzielnie się naprawia. Poza tym przedmioty z tego materiału należy co jakiś czas przycinać, aby nie zmieniły swojej formy.</description>
+		<armor>10</armor>
+		<weight>x1</weight>
+		<price>30</price>
+		<dc><mdash /></dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Tkanina</name>
+		<description>Gruba tkanina, która jest na tyle wytrzymała, że odbija redukuje siłę uderzenia. Najczęściej pod nazwą tkanina znajduje się samodział (patrz tkaniny).</description>
+		<special>Materiał ten zwiększa swą wagę czterokrotnie, gdy jest namoczony. Oznacza to, że deszcz czy nagłe wpadnięcie do wody może sprawić, że postać będzie przeciążona.</special>
+		<armor>4</armor>
+		<weight>x1</weight>
+		<price>8</price>
+		<dc><mdash /></dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Skóra smoka espagryjskiego</name>
+		<description>Oprawiona skóra jednej z najpiękniejszych bestii żyjących w dużej ilości na obrzeżach Espagry. Skóra ta pokryta jest łuskami, które zapewniają piękny wygląd zbroi mieniąc się w świetle kolorami: błękitnym, granatowym, seledynowym i zielonym.</description>
+		<armor>30</armor>
+		<weight>x1</weight>
+		<price>20 000</price>
+		<dc>+15</dc>
+	</tal:material>
+
+	<tal:material>
+		<name>Skóra zwierzęca</name>
+		<description>Ściągnięta z ciała dowolnego zwierzęcia, aby zostać poddaną gotowaniu w oleju. Jeżeli nie została zabarwiona, to zwykle przyjmuje kolor brązowy.</description>
+		<armor>10</armor>
+		<weight>x1</weight>
+		<price>15</price>
+		<dc><mdash /></dc>
+	</tal:material>
+</sile>

@@ -853,7 +853,7 @@
 		<name>Przeszukiwanie</name>
 		<attribute>Percepcja</attribute>
 		<synergy>Sztuka przetrwania</synergy>
-		<bonus>Inteligentne przeszukiwanie, Miejskie ślady, Ostrożne kroki, Szybkie przeszukiwanie, Szybkie tropienie, Szybkie wykrywanie pułapek, Tropienie. </bonus>
+		<bonus>Inteligentne przeszukiwanie, Miejskie ślady, Ostrożne kroki, Szybkie przeszukiwanie, Szybkie tropienie, Szybkie wykrywanie pułapek, Tropienie.</bonus>
 		<description>Umiejętność znajdywania i odnajdywania różnych rzeczy. Przeszukuje zawsze się jakiś obszar albo w celu znalezienia czegoś konkretnego, albo w celu zorientowania sie cóż znajduje się w danym obszarze.</description>
 	</tal:skill>
 	<itemlist>
@@ -1579,7 +1579,7 @@
 			</variant>
 			<variant>
 				<name>Miecz</name>
-				<description>Do tej kategorii należą wszystkie bronie obosieczne o prostej głowni, których długość jest większa jak 50 cm.</description>
+				<description>Do tej kategorii należą wszystkie bronie obosieczne o prostej głowni, których długość jest większa jak 50cm.</description>
 				<bonus>Biegłość (bękart imperialny), Biegłość (elficki króciak), Biegłość (elficki miecz długi), Biegłość (espadon), Błyskawiczne parowanie, Broń kawaleryjska, Biegłość (olbrzym imperialny), Biegłość (żelaźniak orkowy), Celowanie, Mistrz broni półtora-ręcznej, Riposta, Skupienie obrażeń, Szybki atak, Taniec mieczy</bonus>
 			</variant>
 			<variant>
@@ -1589,12 +1589,12 @@
 			</variant>
 			<variant>
 				<name>Szabla</name>
-				<description>Kategoria broni białej o jednosiecznej klindze, której długość jest większa jak 50 cm. Do tej kategorii zaliczamy również broń szermierczą.</description>
+				<description>Kategoria broni białej o jednosiecznej klindze, której długość jest większa jak 50cm. Do tej kategorii zaliczamy również broń szermierczą.</description>
 				<bonus>Biegłość (czarna szabla), Biegłość (szpada), Błyskawiczne parowanie, Broń kawaleryjska, Broń szermiercza, Celowanie, Podstępny atak, Mistrz broni półtora-ręcznej, Riposta, Rozbrojenie, Skupienie obrażeń</bonus>
 			</variant>
 			<variant>
 				<name>Sztylet</name>
-				<description>Noże, sztylety, małe maczety i broń podobna. Sztylet nie powinien mieć więcej jak 50 cm, gdyż wtedy staje się mieczem.</description>
+				<description>Noże, sztylety, małe maczety i broń podobna. Sztylet nie powinien mieć więcej jak 50cm, gdyż wtedy staje się mieczem.</description>
 				<bonus>Biegłość (drowi sztylet), Biegłość (nacinacz walloski), Biegłość (sai), Celowanie, Skupienie obrażeń, Sztyletowanie, Szybki atak</bonus>
 			</variant>
 			<variant>
