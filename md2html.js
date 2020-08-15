@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs-extra');
 const MarkdownIt = require('markdown-it');
 const slugify = require('slugify');
 
@@ -57,7 +57,11 @@ fs.readFile(inputFile, 'utf8', (err, data) => {
     const result = md.render(data);
 
     if (outputFile) {
-        fs.writeFile(outputFile, result, {encoding: 'utf8'}, err => {
+        fs.outputFile(outputFile, result, {encoding: 'utf8'}, err => {
+            if (err) {
+                throw err;
+            }
+
             console.log(`Wrote to ${outputFile}`);
         });
     } else {

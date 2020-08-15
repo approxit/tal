@@ -1,10 +1,11 @@
 {
 	"scripts": {
 		"precorebook": "node md2html.js corebook/index.md build/corebook.html",
-		"corebook": "pagedjs-cli build/corebook.html -o bin/corebook.pdf",
+		"corebook": "pagedjs-cli build/corebook.html -o build/corebook.pdf",
 		"corebook:debug": "pagedjs-cli build/corebook.html -o bin/corebook.pdf --debug"
 	},
 	"dependencies": {
+		"fs-extra": "^9.0.1",
 		"markdown-it": "^10.0.0",
 		"markdown-it-abbr": "^1.0.4",
 		"markdown-it-anchor": "^5.2.7",
