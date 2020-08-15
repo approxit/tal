@@ -1,0 +1,7 @@
+### Krok 8: Szczęście
+
+W tym kroku należy ustalić posiadane przez postać punkty szczęścia. Bazowo postać ma maksymalnie dużo punktów szczęścia, czyli tyle ile wynosi wartość jej współczynnika o nazwie "szczęście". 
+
+Postać może jednak wydać już teraz część, a nawet wszystkie punkty szczęścia. Nie jest to najlepszy pomysł, ale może komuś będzie na tym zależało, aby zbudować postać bez zasobów szczęścia. Warto zauważyć tutaj, że szczęście przysługuje tylko Bohaterom i ich Arcywrogom.
+
+Każdy punkt szczęścia można wymienić na punkty wartości przedmiotów początkowych w przeliczeniu 1 punkt szczęścia na 250 wartości. Poza tym punkty szczęścia można wydawać na sojuszników i przyjaciół, którymi będą bohaterowie niezależni. W tym wypadku 20 punktów szczęścia zapewni postaci jednego przyjaciela/sojusznika, który jest tworzony w ten sam sposób, jak powyżej, ale nie będzie miał on dostępu do punktów szczęścia (bo one są tylko dla Bohaterów), a na atrybuty będzie można mu przeznaczyć nie więcej jak 70 punktów. Poza tym postacie mogą wydawać punkty szczęścia na jeszcze inne rzeczy, które zostały opisane w tym podręczniku. Poza tym postać może uzupełniać wydane punkty szczęścia po normalnych kosztach doświadczenia (100 punktów za 1 punkt szczęścia).

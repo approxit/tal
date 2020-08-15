@@ -1,0 +1,13 @@
+### Krok 5: Ustalenie posiadanego przez postać doświadczenia
+
+Na etapie "Tworzenia Bohatera" postać może mieć dwa rodzaje doświadczenia: doświadczenie początkowe i doświadczenie normalne. Wpierw należy ustalić ile postać będzie miała doświadczenia początkowego, a następnie ile będzie miała doświadczenia normalnego.
+
+Doświadczenie początkowe to doświadczenie wynikające z głębokiej natury postaci. Każda postać otrzymuje punkty doświadczenia zależne od swojego rodzaju lub rasy, a także te, które wynikają z posiadanych przez nią dodatkowych cech (jeżeli dają jakieś doświadczenie). Trzecim sposobem na otrzymanie kolejnych punktów doświadczenia początkowego jest niewykorzystanie wszystkich dostępnych punktów na atrybuty. Każdy niewykorzystany punkt z atrybutów daje postaci 100 punktów doświadczenia początkowego. Doświadczenie z tych trzech źródeł należy zsumować, a otrzymany wynik będzie ilością punktów doświadczenia początkowego postaci. 
+
+Za doświadczenie początkowe postać może nabyć specjalne zdolności: kulturowe i wrodzone. Są to zdolności stosunkowo "lepsze" od pozostałych. Zdolności grupy wrodzony i pochodzenia postać może nabyć tylko i wyłącznie na etapie Tworzenia Bohatera, a później stają się one dla niej już na zawsze niedostępne (chyba, że stanie się jakiś niezwykły cud, ale takie nawet w światach fantasy nie powinny się zdarzać). Trzeba zwrócić tu uwagę, że niektóre z tych zdolności są "iście bohaterskie" tj. nie powinny być dostępne powszechnie i MG nie powinien tworzyć wielu BN-ów posiadających takie zdolności. Z zasady każda postać, która posiada zdolności bohaterskie jest kimś więcej niż tylko zwykłą postacią, chociaż nie każdy bohater musi mieć jakieś bohaterskie zdolności.
+
+Jeżeli postać nie wykorzysta wszystkich dostępnych jej punktów doświadczenia początkowego, to wszystkie niezużyte punkty stają się doświadczeniem normalnym.
+
+Doświadczenie normalne to doświadczenie wynikające z życia jakie ma za sobą postać. Każda dorosła postać zdobywa 20 000 punktów doświadczenia za swe dotychczasowe życie, niezależnie od tego ile realnie lat przeżyła (elfy, czy krasnoludy uczą się wolniej od ludzi, gdyż nie muszą się tak śpieszyć z nauką). Postać otrzymuje również wszystkie punkty doświadczenia, które nie zostały wykorzystane z doświadczenia początkowego.
+
+Po zsumowaniu doświadczenia (20 000 otrzymanych w sposób zwykły plus zachowanych z poprzedniego kroku) powstanie pewna ilość punktów doświadczenia. Postać za to doświadczenie może kupować zdolności, rozwijać umiejętności i zwiększać wartości atrybutów, co została opisane w kolejnym kroku. 

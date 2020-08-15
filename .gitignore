@@ -1,8 +1,4 @@
-.vagrant
-.vagrant-pc
-.vagrant-notebook
-Vagrantfile
-
-*.toc
-*.dat
-*.pdf
+.idea/
+node_modules/
+build/
+bin/
