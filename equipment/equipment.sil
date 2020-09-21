@@ -1,6 +1,0 @@
-<sile>
-	<include src="prolog" />
-	<include src="chapter1" />
-	<include src="index" />
-	<include src="epilog" />
-</sile>

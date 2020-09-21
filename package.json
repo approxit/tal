@@ -1,8 +1,8 @@
 {
 	"scripts": {
-		"precorebook": "node md2html.js corebook/index.md build/corebook.html",
+		"precorebook": "node books/md2html.js books/corebook/index.md build/corebook.html",
 		"corebook": "pagedjs-cli build/corebook.html -o build/corebook.pdf",
-		"corebook:debug": "pagedjs-cli build/corebook.html -o bin/corebook.pdf --debug"
+		"corebook:debug": "pagedjs-cli build/corebook.html -o build/corebook.pdf --debug"
 	},
 	"dependencies": {
 		"fs-extra": "^9.0.1",
