@@ -39,7 +39,6 @@ module.exports = function (md) {
         }, languageFields);
 
         feedTableBodyFromData(state.tokens, state.Token, 'tabela-jezyki-tajemne', languages, function (key) {
-            // console.log(languages[key]['Typ']);
             return languages[key]['Typ'] === 'tajemny';
         }, languageFields);
 

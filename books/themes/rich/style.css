@@ -186,13 +186,17 @@
 .book-cover-front .book-author {
   font-size: 2rem;
 }
+.book-cover-front .book-version {
+  font-size: 1rem;
+}
 .book-cover-front .book-title,
 .book-cover-front .book-subtitle {
   text-shadow: rgba(0, 0, 0, 0.5) 2pt 2pt;
 }
 .book-cover-front .book-title,
 .book-cover-front .book-subtitle,
-.book-cover-front .book-author {
+.book-cover-front .book-author,
+.book-cover-front .book-version {
   font-family: 'Cinzel', serif;
   color: #be9650;
   text-align: center;

@@ -88,7 +88,7 @@ Wskazane wyżej zestawy dotyczą postaci, która jest w trakcie podróży i nie 
 - Waga: 0,5 kg; Wartość: 88.  
 - Piwo jasne, Racja podróżna (zwykła).
 
-### Przedmioty zwykłe
+#### Przedmioty zwykłe
 
 Poniżej rozpisano tabele z przedmiotami opisanymi w tym rozdziale. Wszystkie te przedmioty są raczej przedmiotami zwykłymi, a więc takimi co do których zdobycia raczej postacie nie powinny mieć kłopotów, a których posiadanie nie wiąże się przeważnie z łamaniem prawa.
 
@@ -106,7 +106,6 @@ Poniżej rozpisano tabele z przedmiotami opisanymi w tym rozdziale. Wszystkie te
 | Pałatka                    |  2 kg   |  200    |
 | Zwijane posłanie           |  3 kg   |  220    |
 {.long-table}
-
 
 [Narzędzia, instrumenty i wyposażenie pomocnicze]
 | Nazwa                    | Waga    | Wartość |

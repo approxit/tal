@@ -7,3 +7,5 @@ W tym rozdziale zostaną zaprezentowane przedmioty, które często można spotka
 !!!include(10_2_przedmioty_ogolne.md)!!!
 
 !!!include(10_3_ubrania_i_stroje.md)!!!
+
+!!!include(10_4_zywnosc_i_napitki.md)!!!

@@ -9,12 +9,9 @@ First of all, you need install [NPM](https://www.npmjs.com/) to prepare code to 
 
     $ npm install
     $ npm run corebook
-    
+
 Final PDF files can be found in `build` directory.
 
 ## License
 
 The content of this project itself is under the Copyright license, and the underlying source code used to format and display that content is licensed under the [MIT license](http://opensource.org/licenses/mit-license.php).
-
-* Tabela zdolności wzorca
-* Tabela Zdolność: Biegłość (władanie)

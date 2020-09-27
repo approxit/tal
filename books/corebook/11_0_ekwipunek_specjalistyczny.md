@@ -118,4 +118,6 @@ Trucizny
 
 !!!include(11_4_medykamenty.md)!!!
 
-!!!include(11_5_trucizny.md)!!!
+!!!include(11_5_mikstury.md)!!!
+
+!!!include(11_6_trucizny.md)!!!

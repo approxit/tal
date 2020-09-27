@@ -26,6 +26,7 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
       - run: npm ci
+      - run: echo "${{ github.ref }}" > books/corebook/0_wersja.md
       - run: npm run corebook
       - uses: actions/upload-artifact@v2
         with:

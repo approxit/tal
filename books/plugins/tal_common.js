@@ -161,7 +161,6 @@ function createTableRowTokens(Token, level, styles, fields) {
         token.level = level++;
         token.block = true;
         if (styles[i]) {
-            console.log(styles[i]);
             token.attrPush(['style', styles[i]]);
         }
         rowTokens.push(token);
