@@ -332,10 +332,18 @@ Korzyść
 Specjalne
 : Postać może wziąć tę zdolność dla kolejnych umiejętności władania, jak również wielokrotnie dla jednej, ale w tym drugim przypadku rosną wymagania wpierw do 5 poziomu, a następnie o 5 poziomów względem poprzedniego użycia.
 
+#### Ciężkie bronie
+
+Wymagania
+: Umiejętność: Krzepa 5.
+
+Korzyść
+: Synergia z krzepy do udźwigu liczonego na potrzeby ustalania możliwego obciążenia ciężkiej broni bez kar.  
+
 #### Cios wiązany
 
 Wymagania
-: Umiejętność: Inicjatywa poziom 1.
+: Umiejętność: Inicjatywa 1.
 
 Korzyść
 : Kara do testów ataków przy ataku wielokrotnym spada o 2. 
@@ -837,10 +845,10 @@ Wymagania
 : Umiejętność: Krzepa 5.
 
 Korzyść
-: Premia +0,5 kg do wartości broni ciężkiej jednoręcznie oraz premia +1 kg do wartości broni ciężkiej dwuręcznie.  
+: Postać może zniwelować karę do -10 wynikającą z ataku ciężką bronią otrzymując po przeprowadzeniu ataku punkt zmęczenia. Poza tym postać może otrzymać dodatkowy punkt zmęczenia i zniwelować karę do -20 z ciężkiej broni. 
 
-Specjalne
-: Zdolność można wziąć wielokrotnie, a jej efekty się sumują, ale każde kolejne wybranie tej zdolności wymaga wyższego poziomu umiejętności o 5 względem poprzedniego wybrania.
+Normalnie
+: Postać otrzymuje punkt zmęczenia, gdy redukuje karę do -5 wynikajacą z korzystania ciężkiej broni. Punkty zmęczenia otrzymuje się po wykonaniu testów władania. 
 
 #### Mistrz sideł 
 
@@ -1475,6 +1483,17 @@ Korzyść
 
 Normalnie
 : Rozeznanie się w plotkach trwa ok. 3 godzin.
+
+#### Przyzwyczajenie do oręża
+
+Wymagania
+: Umiejętność: Władanie (dowolne) 5.
+
+Korzyść
+: Synergia z wybranego władania do udźwigu liczonego na potrzeby ustalania możliwego obciążenia ciężkiej broni bez kar tejże broni.
+
+Specjalne
+: Zdolność można wziąć wielokrotnie - za każdym razem będzie dotyczyła innego władania.
 
 #### Rewizja
 

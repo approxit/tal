@@ -43,20 +43,6 @@ module.exports = function (md) {
         feedTableBodyFromRaw(state.tokens, state.Token, 'tabela-zakup-poziomow-umiejetnosci-1', skillsCostsTableBody);
         feedTableBodyFromRaw(state.tokens, state.Token, 'tabela-zakup-poziomow-umiejetnosci-2', skillsCostsTableBody);
 
-        feedTableBodyFromRaw(state.tokens, state.Token, 'tabela-udzwig-postaci-a-bron-ciezka', function() {
-            var rows = [];
-
-            for (var i = 1; i <= 20; ++i) {
-                rows.push([
-                    i,
-                    ((Math.ceil(i / 4) * 0.5) + ' kg').replace('.', ','),
-                    Math.ceil(i / 4) + ' kg',
-                ]);
-            }
-
-            return rows;
-        });
-
         feedTableBodyFromRaw(state.tokens, state.Token, 'tabela-wartosc-sily-a-dodatkowe-obrazenia', function() {
             var rows = [];
 

@@ -83,6 +83,7 @@ Zmęczenie
 | Atak wielokrotny (specjalny atak) | 1 |
 | Berserk                           | 6 gdy tylko się skończy |
 | Bieg                              | 1 za każde 5 minut, gdy postać nie zda testu wysiłku |
+| Ciężka broń                       | 1 za obniżenie kary z ciężkiej broni o 5 lub mniej dla jednego ataku |
 | Drow                              | 1 za minutę bycia na świetle po ilości minut równą wytrwałości |
 | Krasnoludzki sprint               | 2 za zwiększenie szybkości o +5 na turę |
 | Krzepa                            | 1 za każdą porażkę w teście tej umiejętności |

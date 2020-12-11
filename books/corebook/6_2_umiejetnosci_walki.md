@@ -63,49 +63,49 @@ Umiejętność posługiwania się bronią i trafiania nią w przeciwnika. Włada
 Jest to bardzo rozwlekła kategoria do której należą wszystkie halabardy, kije, kopie, piki, włócznie, etc.. Ogólnie do tej kategorii zalicza się wszelkie bronie mające długi trzonek i kończące się ostrzem, bądź obuchem.
 
 Zdolności premiowe
-: Biegłość  (Broń długa), Biegłość  (Kopia), Biegłość  (Pika), Celowanie, Mistrz broni ciężkiej, Obrona przed szarżą, Skupienie obrażeń.
+: Biegłość  (Broń długa), Biegłość  (Kopia), Biegłość  (Pika), Celowanie, Mistrz broni ciężkiej, Obrona przed szarżą, Przyzwyczajenie do oręża, Skupienie obrażeń.
 
 ##### Broń obuchowa {#header-umiejetnosci-bron-obuchowa}
 
 Do tej kategorii należą młoty bojowe, a także buzdygany, kafary, kropacze, maczugi i podobne do bronie zadające obrażenia dzięki umieszczonej na końcu trzonka głowicy lub mające rozszerzenie na końcu trzonka. 
 
 Zdolności premiowe
-: Biegłość (Kiściec), Biegłość (Krasnoludzki młot), (Młot wielki) Celowanie, Mistrz broni ciężkiej, Młyniec, Oszołomienie, Skupienie obrażeń.
+: Biegłość (Kiściec), Biegłość (Krasnoludzki młot), (Młot wielki) Celowanie, Mistrz broni ciężkiej, Młyniec, Oszołomienie, Przyzwyczajenie do oręża, Skupienie obrażeń.
 
 ##### Kusza {#header-umiejetnosci-kusza}
 
 To kategoria broni strzeleckich. Wszystkie bronie strzeleckie będące kuszami lub będące do nich podobne mieszczą się w tej kategorii.
 
 Zdolności premiowe
-: Biegłość (Dmuchawka), Celowanie, Precyzyjny strzał, Strzał z kuszy, Szybkie ładowanie, Szybkie wypuszczenie bełtu, Wprawione oko.
+: Biegłość (Dmuchawka), Celowanie, Precyzyjny strzał, Przyzwyczajenie do oręża, Strzał z kuszy, Szybkie ładowanie, Szybkie wypuszczenie bełtu, Wprawione oko.
 
 ##### Łuk {#header-umiejetnosci-luk}
 
 Kategoria obejmuje wszystkie łuki niezależnie od ich wielkości.
 
 Zdolności premiowe
-: Biegłość (Elficki łuk), Biegłość (Łuk długi), Biegłość (Łuk krótki), Biegłość (Łuk refleksyjny), Celowanie, Daleki strzał, Precyzyjny strzał, Silny naciąg, Szybkie ładowanie, Wprawione oko, Zabójczy strzał.
+: Biegłość (Elficki łuk), Biegłość (Łuk długi), Biegłość (Łuk krótki), Biegłość (Łuk refleksyjny), Celowanie, Daleki strzał, Precyzyjny strzał, Przyzwyczajenie do oręża, Silny naciąg, Szybkie ładowanie, Wprawione oko, Zabójczy strzał.
 
 ##### Miecz {#header-umiejetnosci-miecz}
 
 Do tej kategorii należą wszystkie bronie obosieczne o prostej głowni, których długość jest większa jak 50 cm.
 
 Zdolności premiowe
-: Biegłość (Elficki miecz), Biegłość (Miecz długi), Biegłość (Miecz krótki), Biegłość (Miecz wielki), Błyskawiczne parowanie, Broń kawaleryjska, Biegłość (olbrzym imperialny), Biegłość (żelaźniak orkowy), Celowanie, Mistrz broni ciężkiej, Riposta, Skupienie obrażeń, Szybki atak, Taniec mieczy.
+: Biegłość (Elficki miecz), Biegłość (Miecz długi), Biegłość (Miecz krótki), Biegłość (Miecz wielki), Błyskawiczne parowanie, Broń kawaleryjska, Biegłość (olbrzym imperialny), Biegłość (żelaźniak orkowy), Celowanie, Mistrz broni ciężkiej, Przyzwyczajenie do oręża, Riposta, Skupienie obrażeń, Szybki atak, Taniec mieczy.
 
 ##### Rzucanie
 
 Do tej kategorii należą topory, noże, sieci i oszczepy (bądź krótkie włócznie), które zaprojektowano tak, aby miotać nimi w oddalony cel. Poza tym dzięki tej umiejętności można skutecznie korzystać z procy, bicza, lassa i innych broni.
 
 Zdolności premiowe
-: Biegłość (Bicz), Biegłość (Bolas), Biegłość (Broń wieloostrzowa), Biegłość (Chłoszcz orkowy), Biegłość (Lasso), Biegłość (Proca), Biegłość (Sieć), Celowanie, Daleki rzut, Szybki atak. 
+: Biegłość (Bicz), Biegłość (Bolas), Biegłość (Broń wieloostrzowa), Biegłość (Chłoszcz orkowy), Biegłość (Lasso), Biegłość (Proca), Biegłość (Sieć), Celowanie, Daleki rzut, Przyzwyczajenie do oręża, Szybki atak. 
 
 ##### Szabla {#header-umiejetnosci-szabla}
 
 Kategoria broni białej o jednosiecznej klindze, której długość jest większa jak 50 cm. Do tej kategorii zaliczamy również broń szermierczą. 
 
 Zdolności premiowe
-: Biegłość (Broń szermiercza ), Biegłość (Szabla), Błyskawiczne parowanie, Celowanie, Podstępny atak, Mistrz broni ciężkiej, Riposta, Rozbrojenie, Skupienie obrażeń.
+: Biegłość (Broń szermiercza), Biegłość (Szabla), Błyskawiczne parowanie, Celowanie, Mistrz broni ciężkiej, Podstępny atak, Przyzwyczajenie do oręża, Riposta, Rozbrojenie, Skupienie obrażeń.
 
 ##### Sztylet {#header-umiejetnosci-sztylet}
 
@@ -119,14 +119,14 @@ Zdolności premiowe
 Do tej kategorii należą wszystkie tarcze niezależnie od swej wagi.
 
 Zdolności premiowe
-: Biegłość (Puklerz), Błyskawiczne parowanie, Łączone parowanie, Parowanie łańcuchowe, Skupienie obrażeń, Unikać lub parować, 
+: Biegłość (Puklerz), Błyskawiczne parowanie, Łączone parowanie, Parowanie łańcuchowe, Przyzwyczajenie do oręża, Skupienie obrażeń, Unikać lub parować, 
 
 ##### Topór {#header-umiejetnosci-topor}
 
 Kategoria broni posiadających trzonek i głowicę, dzięki której można zadawać obrażenia sieczne.
 
 Zdolności premiowe
-: Biegłość (Krasnoludzki topór), Biegłość (Topór bojowy), Biegłość (Topór wielki), Celowanie, Mistrz broni ciężkiej, Osłanianie się tarczą, Skupienie obrażeń, Szybki atak.
+: Biegłość (Krasnoludzki topór), Biegłość (Topór bojowy), Biegłość (Topór wielki), Celowanie, Mistrz broni ciężkiej, Osłanianie się tarczą, Przyzwyczajenie do oręża, Skupienie obrażeń, Szybki atak.
 
 #### Zwarcie
 

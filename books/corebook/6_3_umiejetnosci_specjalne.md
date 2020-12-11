@@ -450,7 +450,9 @@ Synergia od
 Zdolności premiowe
 : Czytanie i pisanie, Gust, Przyroda regionu, Rozmowa ze swoim, Technologia, Wspólne tematy, Wyższa znajomość, Zaczepka, Zaznajomienie z tematem.
 
-Umiejętności wykorzystywania informacji pochodzących z danych regionów. W przeciwieństwie do wiedzy znajomość nie wymaga od postaci opanowania sztuki czytania i pisania. Postać ma prawo wykonywać bez kary testy tej umiejętności nawet jeżeli nie posiada 1 poziomu w danej dyscyplinie, ale tylko pod warunkiem, że dotyczą regionu z którego pochodzi i nie dotyczą wyższej znajomości. Wszystkie testy wyższej znajomości postać, która nie ma w nich biegłości wykonuje z karą -10 do testów. Poza tym ta kara kumuluje się z karą za brak 1 poziomu umiejętności, jeżeli chce mieć do nich dostęp postać spoza regionu (wynosi więc ona -30 do testu).  
+Umiejętności wykorzystywania informacji pochodzących z danych regionów. W przeciwieństwie do wiedzy znajomość nie wymaga od postaci opanowania sztuki czytania i pisania. Postać ma prawo wykonywać bez kary testy tej umiejętności nawet jeżeli nie posiada 1 poziomu w danej dyscyplinie, ale tylko pod warunkiem, że dotyczą regionu z którego pochodzi i nie dotyczą wyższej znajomości. Wszystkie testy wyższej znajomości postać, która nie ma w nich biegłości wykonuje z karą -10 do testów. Poza tym ta kara kumuluje się z karą za brak 1 poziomu umiejętności, jeżeli chce mieć do nich dostęp postać spoza regionu (wynosi więc ona -30 do testu).
+
+Postać może rozwijać tylko znajomość dotyczącą regionu z którego pochodzi (patrz Umiejscowienie w świecie rozdz tworzenia postaci). Aby móc rozwijać inne znajomości regionów, postać musi uzyskać zdolność Poznanie regionu.
 
 W przypadku zdolności premiowych, które należy sprecyzować dla regionu należy wykorzystać opcję regionu dla którego rozwijana jest znajomość.
 
