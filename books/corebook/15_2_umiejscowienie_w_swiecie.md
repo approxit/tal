@@ -60,10 +60,10 @@ Rasy
 : Krasnolud Górski.
 
 Język
-: Kamienny.
+: Kamienny; Premiowo (Int 12): jeden język ludzi zamieszkujących okoliczne: Espagryjski, Lantyński, Rimtalski, Sarmijski lub Siegvaardzki.  
 
 Znajomości
-: Wolne Klany; dla postaci z Inteligencją 12 ludzki region, gdzie istnieje wolny klan oraz Góry Środka Świata.
+: Wolne Klany.
 
 Pozycja społeczna
-: Dowolna poza rodem wodza.
+: Dverg.
