@@ -25,16 +25,11 @@ To, że wszystko może być bronią nie znaczy, że wszystko się nadaje na dobr
 
 #### Broń ciężka
 
-Każda postać może używać wielu broni, lecz niektóre z uwagi na jej udźwig będą posiadały cechę "ciężka". Broń ciężka to taka, która trzymana dwuręcznie ma wagę przynajmniej równą 1/4 udźwigu postaci, a trzymana jednoręcznie ma połowę tej wagi (nie zaokrąglamy wyniku dzielenia).
+Każda postać może używać wielu broni, lecz niektóre z uwagi na jej udźwig będą posiadały cechę "ciężka". Postać może bez żadnych kar korzystać jedną ręką z broni, której waga w kg wynosi nie więcej niż 1 + 1/10 udźwigu postaci, a w przypadku przedmiotów trzymanych oburącz, waga nie może być dwa razy większa. Korzystając z cięższych broni, postać otrzymuje karę -1 do testów władania, za każde 0,1 kg ponad dopuszczalny limit. 
 
-Broń ciężka, gdy jest używana przez postać powoduje karę -10 do testów władania nią, co przekłada na szansę trafienia przeciwnika, a poza tym ataki nią wykonywane wymagają poświęcenia prócz akcji zwykłej jeszcze akcję dodatkową. 
+Postać mająca karę -1 z tytułu ciężkiej broni, nie może wykonywać daną bronią ataków kosztem akcji dodatkowej lub szybciej. Postać mająca karę -10 z tytułu ciężkiej broni musi poświęcić ponad normalny koszt w akcjach jedną akcję dodatkową, aby wykonać jeden atak. Jeżeli waga broni trzymanej jednoręcznie wynosi więcej, niż 1/2 udźwigu postaci, a trzymanej dwuręcznie wynosi więcej, niż udźwig postaci, to postać nie może korzystać z umiejętności władanie, w celu wykonania testu trafienia i należy ją traktować tak, jakby nie miała w ogóle biegłości w danej broni. 
 
-Postać może używać jednoręcznie broni, która waży maksymalnie tyle ile wynosi jej udźwig, a dwuręcznie broni, która waży dwukrotność jej udźwigu. Jednakże za każde 0,5 kg więcej niż wynosi waga "broni ciężkiej" postać otrzymuje dodatkowe -10 do testu trafienia. 
-
-[Udźwig postaci a broń ciężka]
-| Wartość udźwigu | Trzymanie jednoręcznie | Trzymana dwuręcznie |
-| --------------- | ---------------------- | ------------------- |
-{#tabela-udzwig-postaci-a-bron-ciezka .long-table} 
+Postać może również wykorzystać więcej energii do ataku i zniwelować przy tym karę do testu władania, otrzymując w zamian punkty zmęczenia. Postać może w ten sposób obniżyć karę z ciężkiej broni o 5 na potrzeby przeprowadzenia jednego testu władania i otrzymując po nim punkt zmęczenia. 
 
 #### Cios w plecy
 

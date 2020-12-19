@@ -57,13 +57,13 @@ Pozycja społeczna
 Poza Górami Środka Świata istnieje wiele krasnoludzkich społeczności górali. Krasnoludowie ci trwają od lat poza zasięgiem ludzkiej władzy, dzieląc z ludźmi jedynie wymianę handlową i sprzedają swe usługi świetnych najemników, rzemieślników i górników. Wolne Klany spotkać można w Espagrze, Scytrii, Sarmii, Siegvaardzie i Środkowych Królestwach.
 
 Rasy
-: Krasnolud Górski.
+: Krasnolud górski.
 
 Język
-: Kamienny.
+: Kamienny; Premiowo (Int 12): jeden język ludzi zamieszkujących okoliczne: Espagryjski, Lantyński, Rimtalski, Sarmijski lub Siegvaardzki.  
 
 Znajomości
-: Wolne Klany; dla postaci z Inteligencją 12 ludzki region, gdzie istnieje wolny klan oraz Góry Środka Świata.
+: Wolne Klany.
 
 Pozycja społeczna
-: Dowolna poza rodem wodza.
+: Dverg.

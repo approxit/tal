@@ -1,4 +1,6 @@
 {
+	"repository": "https://github.com/approxit/tal",
+	"license": "SEE LICENSE IN README.MD",
 	"scripts": {
 		"precorebook": "node books/md2html.js books/corebook/index.md build/corebook.html",
 		"corebook": "pagedjs-cli build/corebook.html -o build/corebook.pdf",
@@ -17,7 +19,7 @@
 		"markdown-it-multimd-table": "^4.0.1",
 		"markdown-it-sup": "^1.0.0",
 		"markdown-it-toc-done-right": "^4.1.0",
-		"pagedjs": "^0.1.42",
+		"pagedjs": "^0.1.43",
 		"pagedjs-cli": "^0.0.10",
 		"slugify": "^1.4.0"
 	}

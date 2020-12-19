@@ -154,7 +154,7 @@ Synergia od
 : Wysiłek, Zwarcie. 
 
 Zdolności premiowe
-: Agresywny atak, Biegłość w zbroi (każda), Mistrz broni ciężkiej, Mocarny uchwyt, Potężny atak, Siła berserka, Więcej energii, Większy udźwig. 
+: Agresywny atak, Biegłość w zbroi (każda), Ciężka broń, Mistrz broni ciężkiej, Mocarny uchwyt, Potężny atak, Siła berserka, Więcej energii, Większy udźwig. 
 
 Umiejętność wykorzystania swej siły fizycznej do tego, aby poruszać obiektami, siłować się z kimś lub czymś. Ogólnie krzepa ma służyć sprawdzeniu jak postać poradzi sobie przy krótkim, acz intensywnym wysiłku fizycznym, a nie w przypadku długich działań wymagających pracy mięśni. Postać po jednej porażce w teście nie może go powtórzyć na tym samym obiekcie dopóki krzepa nie zwiększy się o przynajmniej 1 (przez jakiś modyfikator lub zwiększenie poziomu umiejętności). Każda porażka w teście krzepy oznacza punkt zmęczenia.
 

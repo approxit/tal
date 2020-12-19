@@ -466,7 +466,7 @@ Wymagania
 : Atrybut: Inteligencja 14.
 
 Korzyść
-: Premia +5 do wszystkich umiejętności pracy. Na etapie tworzenia postaci postać zyskuje dodatkowe przedmioty związane z pracą nie od poziomu umiejętności, a od wartości umiejętności (suma atrybutu, poziomu, premii i synergii).
+: Premia +5 do wszystkich umiejętności pracy, które postać ma rozwinięte na przynajmniej 1 poziomie. Na etapie tworzenia postaci postać zyskuje dodatkowe bogactwo związane z pracą nie od poziomu umiejętności, a od wartości umiejętności (suma atrybutu, poziomu, premii i synergii).
 
 #### Urodzony wojownik
 
