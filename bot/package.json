@@ -1,0 +1,20 @@
+{
+	"repository": "https://github.com/approxit/tal",
+	"license": "SEE LICENSE IN README.MD",
+	"scripts": {
+		"compile": "pegjs -o dice.js dice.pegjs",
+		"prestart": "npm run compile",
+		"start": "nodemon index.js",
+		"pretest": "npm run compile",
+		"test": "mocha --recursive || echo."
+	},
+	"main": "index.js",
+	"dependencies": {
+		"discord.js": "^12.5.1",
+		"nodemon": "^2.0.7"
+	},
+	"devDependencies": {
+		"mocha": "^8.2.1",
+		"pegjs": "^0.11.0-master.b7b87ea"
+	}
+}
