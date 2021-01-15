@@ -209,7 +209,7 @@ Specjalne
 #### Błyskawiczna finta
 
 Wymagania
-: Umiejętność: Inicjatywa 10; Zdolność: Doskonalsza finta.
+: Atrybut: Refleks 12; Umiejętność: Inicjatywa 10; Zdolność: Doskonalsza finta.
 
 Korzyść
 : Raz w turze postać może skorzystać z finty w akcji darmowej.
@@ -220,7 +220,7 @@ Specjalne
 #### Błyskawiczne padanie
 
 Wymagania
-: Umiejętność: Akrobatyka 10.
+: Atrybut: Refleks 12; Umiejętność: Akrobatyka 10.
 
 Korzyść
 : Postać upada w akcji darmowej.
@@ -242,7 +242,7 @@ Specjalne
 #### Błyskawiczny unik
 
 Wymagania
-: Umiejętność: Unik 5.
+: Atrybut: Refleks 12; Umiejętność: Unik 5.
 
 Korzyść
 : Raz w turze postać może wykonać unik w akcji darmowej. 

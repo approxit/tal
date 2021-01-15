@@ -40,7 +40,7 @@ Wydajne płuca
 #### Krasnolud Górski
 
 Cechy krasnoludów górskich
-: Cztery żołądki, Krasnoludzki sprint, Naturalnie wytrzymały, Odporność na magię, Odporność na trucizny, Podziemny zmysł, Sen wojownika, Stabilność, Szybkość, Urodzony w zbroi, Widzenie w ciemności, Wydajne płuca i Żywotny.
+: Cztery żołądki, Krasnoludzki sprint, Naturalnie wytrzymały, Odporność na magię, Odporność na trucizny, Podziemny zmysł, Sen wojownika, Stabilność, Szybkość, Urodzony w zbroi, Widzenie w ciemności, Wydajne płuca i Żywotność.
 
 Atrybuty
 : Krasnoludy górskie są silne i krzepkie, ale także niezgrabne, niemiłe i niezbyt urodziwe. 

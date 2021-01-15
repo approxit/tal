@@ -8,6 +8,9 @@ on:
 jobs:
   corebook:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./books
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -26,7 +29,7 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
       - run: npm ci
-      - run: echo "${{ github.ref }}" > books/corebook/0_wersja.md
+      - run: echo "${{ github.ref }}" | cut -c 11- | tr -d '\n' > books/corebook/0_wersja.md
       - run: npm run corebook
       - uses: actions/upload-artifact@v2
         with:

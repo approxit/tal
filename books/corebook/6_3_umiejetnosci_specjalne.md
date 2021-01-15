@@ -287,6 +287,7 @@ Zdolności premiowe
 : Pewność roli, Udawany atak, Wejście w rolę
 
 ##### Oratorstwo
+
 Umiejętność snucia opowieści, wygłaszania laudacji i bluzgów, zabawiania w uroczysty sposób swoją mową etc..
 
 Synergia
@@ -303,6 +304,7 @@ Zdolności premiowe
 : Przyswajanie ciekawostek, Rozwinięta wyobraźnia, Spisanie argumentu. 
 
 ##### Śpiew
+
 Umiejętność wykonywania pieśni etc.
 
 Zdolności premiowe
@@ -318,11 +320,12 @@ Synergia
 Zdolności premiowe
 : Powab ruchów, Rytmiczna walka, Taneczne role, Taneczny unik,
 
-##### Tresura
+#### Tresura
 
-Test charyzmy.
+Atrybut
+: Charyzma.
 
-Synergia
+Synergia do
 : Dowodzenie, Jeździectwo.
 
 Zdolności premiowe

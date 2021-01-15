@@ -602,7 +602,7 @@ Synergia od
 : Krzepa.
 
 Zdolności premiowe
-: Bez głodu i pragnienia, Forsowny marsz, Mocna głowa, Niestrudzony szał, Niezły spust, Przyswajanie mikstur, Przyśpieszone gojenie się ran, Skrócony sen, Sprawność, Twarda skóra, Ucieczka, Walka na rauszu, Wyleczony, Wytrwałe podróżowanie, Większa wytrwałość, Żelazne zdrowie, Żywotny.
+: Bez głodu i pragnienia, Forsowny marsz, Mocna głowa, Niestrudzony szał, Niezły spust, Przyswajanie mikstur, Przyśpieszone gojenie się ran, Skrócony sen, Sprawność, Twarda skóra, Ucieczka, Walka na rauszu, Wyleczony, Wytrwałe podróżowanie, Większa wytrwałość, Żelazne zdrowie, Żywotność.
 
 Umiejętność radzenia sobie z długotrwałym wysiłkiem została nazwana "wysiłek". Umiejętność testuje się zamiennie za kondycję, gdy trzeba określić jak bardzo postać zmęczyła się jakąś aktywnością fizyczną. Każda porażka w teście wysiłku wiąże się z reguły z otrzymaniem punktu zmęczenia lub wyczerpania. Nie dotyczy to jednak testów picia alkoholu.
 

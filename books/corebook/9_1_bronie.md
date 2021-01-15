@@ -23,7 +23,7 @@ Takim sposobem kamień może zadawać obrażenia podobne do kastetu, a stół ka
 
 Do bron strzeleckiej należy stosować amunicję, aby broń ta zadawała obrażenia. Podstawową amunicją są bełty do kusz, kule do proc i strzały do łuków, z czego te ostatnie mogą być do łuków krótkich, bądź długich. Amunicja również może być wykonana lepiej lub gorzej, co przedstawia jej jakość. Jakość amunicji przekłada się na szansę uszkodzenia jej w stopniu niepozwalającym na dalsze używanie. Normalnie każda z użytych strzał, bełtów, czy kul pozwala na ponowne użycie. Tylko w przypadku uszkodzenia lub zniszczenia amunicji nie będzie możliwe skorzystanie z niej ponownie. Szansa na uszkodzenie/zniszczenie danego pocisku wyrażona jest procentowo i zależy od jakości. Im wyższa jakość, tym mniejsza szansa na zniszczenie. 
 
-[Jakośćbroni a szansa zniszczenia]
+[Jakość broni a szansa zniszczenia]
 | Jakość      | Szansa zniszczenia |
 | ----------- | ------------------ |
 | Mistrzowska | 10%                |
@@ -292,7 +292,7 @@ Parowanie ataków tarczą zawsze odbija się na jej solidności. Nie trzeba licz
 | ------------------------- | --- | --- | ---- | ------ | ---- | :---- |
 | Pawęż                     | 1k4 | 1/4 | 20   | 8 kg   |  700 | Osłona 40; Specjalne - Ochrona |
 | Puklerz stalowy           | 1k4 | 1/8 | 40   | 2 kg   | 3150 | Biegłość: Puklerz; Osłona 10; Parowanie +10; Specjalne - Poręczna |
-| Puklerz żelazny           | 1k4 | 1/8 | 30   | 2 kg   | 2100 | Biegłość: Puklerz; Osłona 10 Parowanie +10; Specjalne - Poręczna |
+| Puklerz żelazny           | 1k4 | 1/8 | 30   | 2 kg   | 2100 | Biegłość: Puklerz; Osłona 10; Parowanie +10; Specjalne - Poręczna |
 | Tarcza drewniana, średnia | 1k4 | 1/4 | 20   | 3 kg   |  330 | Osłona 20; Parowanie +15 |
 | Tarcza drewniana, wielka  | 1k4 | 1/2 | 20   | 4 kg   |  400 | Osłona 30; Parowanie +20 |
 | Tarcza okuta, średnia     | 1k4 | 1/4 | 30   | 4,5 kg | 1730 | Osłona 20; Parowanie +15 |
