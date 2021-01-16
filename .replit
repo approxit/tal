@@ -1,0 +1,1 @@
+run = "cd bot; npm start"

@@ -13,7 +13,13 @@ describe('Dice', () => {
         'k20',
         '1k20',
         '20k20',
-        '1 + 2 * (6 - 1)',
+		'1 + 1 - 1',
+		'1 * 1 / 1',
+		'(1) + (1) - (1)',
+		'(1) * (1) / (1)',
+        '1 + 2 * (k2 - 1) / 2',
+		' 1',
+		'1 ',
     ].map((args) => {
         it(`should parse "${args}" without errors`, () => {
             dice.parse(args);
@@ -98,6 +104,31 @@ describe('Dice', () => {
     ].map((test) => {
         it(`should calculate parenthesis in calculation "${test.syntax}" as "${test.result}"`, () => {
             assert.equal(dice.parse(test.syntax).sum, test.result);
+        })
+    });
+
+    [
+        {syntax: 'k2', mockedRolls: [5], rollSets: [[5]], result: 5},
+		{syntax: 'k20', mockedRolls: [20, 2], rollSets: [[20, 2]], result: 22},
+		{syntax: 'k20', mockedRolls: [20, 20, 20, 4], rollSets: [[20, 20, 20, 4]], result: 64},
+		{syntax: 'k20', mockedRolls: [20, 1], rollSets: [[20, 1]], result: 21},
+		{syntax: 'k20', mockedRolls: [1, 1], rollSets: [[1, 1]], result: -1},
+		{syntax: 'k20', mockedRolls: [1, 10], rollSets: [[1, 10]], result: -10},
+		{syntax: 'k20', mockedRolls: [1, 20, 10], rollSets: [[1, 20, 10]], result: -30},
+		{syntax: '2k20', mockedRolls: [3, 1, 20, 10], rollSets: [[3, 1, 20, 10]], result: -27},
+		{syntax: '1k20+k2', mockedRolls: [1, 5, 2], rollSets: [[1, 5], [2]], result: -3},
+    ].map((test) => {
+        it(`should calculate "${test.syntax}" with mocked dices "${test.mockedRolls}" as "${test.result}"`, () => {
+            var result = dice.parse(test.syntax, {
+				mockedRolls: test.mockedRolls,
+			});
+
+			assert.equal(result.sum, test.result);
+			assert.deepStrictEqual(result.rollSets.map(s => {
+				return s.rolls.map(r => {
+					return r.value;
+				});
+			}), test.rollSets);
         })
     });
 });

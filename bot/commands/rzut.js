@@ -1,6 +1,7 @@
 const Discord = require('discord.js')
-
 const dice = require('../dice');
+
+const critical_mark = ':grey_exclamation:';
 
 module.exports = {
     name: 'rzut',
@@ -33,6 +34,10 @@ module.exports = {
         embed.setThumbnail(diceAvatar);
         embed.setTitle(diceFormulaResult);
 
+		if (diceResult.critical) {
+			embed.setColor('RED');
+		}
+
         if (options['komentarz']) {
             embed.addField('Komentarz', options['komentarz'], false);
         }
@@ -58,7 +63,10 @@ function getDiceFormulaWithRawDiceRolls(diceFormula, diceResult) {
 
     for (var i = diceResult.rollSets.length - 1; 0 <= i; --i) {
         const rollSet = diceResult.rollSets[i];
-        const diceRollsStr = '[' + rollSet.rolls.join(', ') + ']'
+		const rolls = rollSet.rolls.map(r => {
+			return r.value + (r.critical ? critical_mark : '');
+		});
+        const diceRollsStr = '[' + rolls.join(', ') + ']'
         result = result.substr(0, rollSet.range[0]) + diceRollsStr + result.substr(rollSet.range[1], result.length)
     }
 
@@ -70,9 +78,7 @@ function getDiceFormulaWithSumDiceRolls(diceFormula, diceResult) {
 
     for (var i = diceResult.rollSets.length - 1; 0 <= i; --i) {
         const rollSet = diceResult.rollSets[i];
-        const diceRollsStr = rollSet.rolls.reduce((result, element) => {
-            return result + element;
-        })
+		const diceRollsStr = rollSet.sum + (rollSet.critical ? critical_mark : '');
         result = result.substr(0, rollSet.range[0]) + diceRollsStr + result.substr(rollSet.range[1], result.length)
     }
 
@@ -80,10 +86,12 @@ function getDiceFormulaWithSumDiceRolls(diceFormula, diceResult) {
 }
 
 function getDiceFormulaResult(diceResult, diceFormulaSums) {
-    if ((`${diceResult.sum}` === diceFormulaSums) || !diceResult.rollCount) {
-        return `**${diceResult.sum}**`
+	const sum = diceResult.sum + (diceResult.critical ? critical_mark : '');
+
+    if ((sum === diceFormulaSums) || !diceResult.rollCount) {
+        return `**${sum}**`
     }
     else {
-        return `${diceFormulaSums} = **${diceResult.sum}**`
+        return `${diceFormulaSums} = **${sum}**`
     }
 }

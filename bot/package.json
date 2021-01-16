@@ -4,7 +4,7 @@
 	"scripts": {
 		"compile": "pegjs -o dice.js dice.pegjs",
 		"prestart": "npm run compile",
-		"start": "nodemon index.js",
+		"start": "node index.js",
 		"pretest": "npm run compile",
 		"test": "mocha --recursive || echo."
 	},
