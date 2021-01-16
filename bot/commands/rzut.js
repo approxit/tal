@@ -1,7 +1,11 @@
-const Discord = require('discord.js')
+const Discord = require('discord.js');
 const dice = require('../dice');
+const discord = require('../discord').discord;
+const database = require('../database').database;
+const getMemberNickKey = require('../database').getMemberNickKey;
+const getMemberImageKey = require('../database').getMemberImageKey;
 
-const critical_mark = ':grey_exclamation:';
+const critical_mark = ':warning:';
 
 module.exports = {
     name: 'rzut',
@@ -19,10 +23,11 @@ module.exports = {
             description: 'Dodatkowy komentarz do rzutu.',
         }
     ],
-    execute(member, options) {
+    async execute(member, options) {
         const diceFormula = options['formuła'];
+		const diceAuthor = await getDiceAuthor(member);
         const diceResult = dice.parse(diceFormula);
-        const diceAvatar = getDiceAvatar(member, options['_client'])
+        const diceAvatar = await getDiceAvatar(member);
         const diceFormulaRaw = getDiceFormulaWithRawDiceRolls(diceFormula, diceResult);
         const diceFormulaSums = getDiceFormulaWithSumDiceRolls(diceFormula, diceResult);
         const diceFormulaResult = getDiceFormulaResult(diceResult, diceFormulaSums);
@@ -30,7 +35,7 @@ module.exports = {
         console.log(`Roll for "${member.nick}" with "${diceFormula} = ${diceResult.sum}"`)
 
         var embed = new Discord.MessageEmbed();
-        embed.setAuthor(`${member.nick} rzuca kością!`);
+        embed.setAuthor(diceAuthor);
         embed.setThumbnail(diceAvatar);
         embed.setTitle(diceFormulaResult);
 
@@ -49,13 +54,27 @@ module.exports = {
         embed.addField('Formuła', diceFormula, true);
 
         return {
-            embeds: [embed.toJSON()],
+			type: 2,
+			data: {
+            	embeds: [embed.toJSON()],
+			}
         };
     },
 };
 
-function getDiceAvatar(member, client) {
-    return new Discord.User(client, member.user).displayAvatarURL();
+async function getDiceAuthor(member) {
+	const nick = await database.get(getMemberNickKey(member)) || member.nick;	
+	return `${nick} rzuca kością!`
+}
+
+async function getDiceAvatar(member) {
+	const image = await database.get(getMemberImageKey(member))
+	if (image) {
+		return image;
+	}
+	else {
+    	return new Discord.User(discord, member.user).displayAvatarURL();
+	}
 }
 
 function getDiceFormulaWithRawDiceRolls(diceFormula, diceResult) {
