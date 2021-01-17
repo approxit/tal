@@ -3,9 +3,9 @@ const Database = require('@replit/database');
 module.exports = {
 	database: new Database(),
 	getMemberImageKey(member) {
-		return `${member.id}-image`;
+		return `${member.user.id}-image`;
 	},
 	getMemberNickKey(member) {
-		return `${member.id}-nick`;
+		return `${member.user.id}-nick`;
 	},
 }

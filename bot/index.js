@@ -1,6 +1,17 @@
 require('./polyfill');
 require('./replit');
+const fs = require('fs');
+const Discord = require('discord.js');
 const discord = require('./discord');
+
+discord.commands = new Discord.Collection();
+
+const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
+
+for (const file of commandFiles) {
+	const command = require(`./commands/${file}`);
+	discord.commands.set(command.name, command);
+}
 
 discord.once('ready', async () => {
     console.info(`Logged in as ${discord.user.tag}!`);

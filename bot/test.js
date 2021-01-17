@@ -131,4 +131,34 @@ describe('Dice', () => {
 			}), test.rollSets);
         })
     });
+
+	[
+        {syntax: 'k2', mockedRolls: [1], rollSets: [[1]], result: 1},
+        {syntax: 'k2', mockedRolls: [2], rollSets: [[2]], result: 2},
+        {syntax: 'k4', mockedRolls: [1], rollSets: [[1]], result: 1},
+        {syntax: 'k4', mockedRolls: [4], rollSets: [[4]], result: 4},
+        {syntax: 'k6', mockedRolls: [1], rollSets: [[1]], result: 1},
+        {syntax: 'k6', mockedRolls: [6], rollSets: [[6]], result: 6},
+        {syntax: 'k8', mockedRolls: [1], rollSets: [[1]], result: 1},
+        {syntax: 'k8', mockedRolls: [8], rollSets: [[8]], result: 8},
+        {syntax: 'k10', mockedRolls: [1], rollSets: [[1]], result: 1},
+        {syntax: 'k10', mockedRolls: [10], rollSets: [[10]], result: 10},
+        {syntax: 'k12', mockedRolls: [1], rollSets: [[1]], result: 1},
+        {syntax: 'k12', mockedRolls: [12], rollSets: [[12]], result: 12},
+        {syntax: 'k100', mockedRolls: [1], rollSets: [[1]], result: 1},
+        {syntax: 'k100', mockedRolls: [100], rollSets: [[100]], result: 100},
+    ].map((test) => {
+        it(`should not reroll criticals and calculate for "${test.syntax}" with mocked dices "${test.mockedRolls}" as "${test.result}"`, () => {
+            var result = dice.parse(test.syntax, {
+				mockedRolls: test.mockedRolls,
+			});
+
+			assert.equal(result.sum, test.result);
+			assert.deepStrictEqual(result.rollSets.map(s => {
+				return s.rolls.map(r => {
+					return r.value;
+				});
+			}), test.rollSets);
+        })
+    });
 });

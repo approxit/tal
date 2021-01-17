@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const dice = require('../dice');
-const discord = require('../discord').discord;
+const discord = require('../discord');
 const database = require('../database').database;
 const getMemberNickKey = require('../database').getMemberNickKey;
 const getMemberImageKey = require('../database').getMemberImageKey;
@@ -69,6 +69,7 @@ async function getDiceAuthor(member) {
 
 async function getDiceAvatar(member) {
 	const image = await database.get(getMemberImageKey(member))
+
 	if (image) {
 		return image;
 	}
