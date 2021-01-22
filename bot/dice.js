@@ -215,8 +215,8 @@ function peg$parse(input, options) {
   			}
   			while (roll == 20);
 
-  			for (var i = 0; i < throwRolls.length - 1; ++i) {
-  				throwRolls[i].critical = true;
+  			for (var j = 0; j < throwRolls.length - 1; ++j) {
+  				throwRolls[j].critical = true;
   			}
 
   			if (firstRoll == 1) {

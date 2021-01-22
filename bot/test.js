@@ -116,6 +116,7 @@ describe('Dice', () => {
 		{syntax: 'k20', mockedRolls: [1, 10], rollSets: [[1, 10]], result: -10},
 		{syntax: 'k20', mockedRolls: [1, 20, 10], rollSets: [[1, 20, 10]], result: -30},
 		{syntax: '2k20', mockedRolls: [3, 1, 20, 10], rollSets: [[3, 1, 20, 10]], result: -27},
+		{syntax: '2k20', mockedRolls: [20, 2, 4], rollSets: [[20, 2, 4]], result: 26},
 		{syntax: '1k20+k2', mockedRolls: [1, 5, 2], rollSets: [[1, 5], [2]], result: -3},
     ].map((test) => {
         it(`should calculate "${test.syntax}" with mocked dices "${test.mockedRolls}" as "${test.result}"`, () => {
