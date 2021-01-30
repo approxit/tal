@@ -133,6 +133,46 @@ describe('Dice', () => {
         })
     });
 
+    [
+        {syntax: 'k20', mockedRolls: [1, 5], rollSets: [
+			[
+				{value: 1, critical: false},
+				{value: 5, critical: null},
+			]
+		], result: -5},
+        {syntax: 'k20', mockedRolls: [20, 5], rollSets: [
+			[
+				{value: 20, critical: true},
+				{value: 5, critical: null},
+			]
+		], result: 25},
+        {syntax: 'k20', mockedRolls: [1, 20, 5], rollSets: [
+			[
+				{value: 1, critical: false},
+				{value: 20, critical: false},
+				{value: 5, critical: null},
+			]
+		], result: -25},
+        {syntax: 'k20', mockedRolls: [20, 20, 5], rollSets: [
+			[
+				{value: 20, critical: true},
+				{value: 20, critical: true},
+				{value: 5, critical: null},
+			]
+		], result: 45},
+    ].map((test) => {
+        it(`should calculate "${test.syntax}" with mocked critical states of dices "${test.mockedRolls}" as "${test.result}"`, () => {
+            var result = dice.parse(test.syntax, {
+				mockedRolls: test.mockedRolls,
+			});
+
+			assert.equal(result.sum, test.result);
+			assert.deepStrictEqual(result.rollSets.map(s => {
+				return s.rolls;
+			}), test.rollSets);
+        })
+    });
+
 	[
         {syntax: 'k2', mockedRolls: [1], rollSets: [[1]], result: 1},
         {syntax: 'k2', mockedRolls: [2], rollSets: [[2]], result: 2},

@@ -5,7 +5,10 @@ const database = require('../database').database;
 const getMemberNickKey = require('../database').getMemberNickKey;
 const getMemberImageKey = require('../database').getMemberImageKey;
 
-const critical_mark = ':warning:';
+const critical_up_mark = ':star:';
+const critical_up_color = 'ORANGE';
+const critical_down_mark = ':boom:';
+const critical_down_color = 'RED';
 
 module.exports = {
     name: 'rzut',
@@ -39,8 +42,8 @@ module.exports = {
         embed.setThumbnail(diceAvatar);
         embed.setTitle(diceFormulaResult);
 
-		if (diceResult.critical) {
-			embed.setColor('RED');
+		if (diceResult.critical !== null) {
+			embed.setColor(diceResult.critical ? critical_up_color : critical_down_color);
 		}
 
         if (options['komentarz']) {
@@ -84,7 +87,7 @@ function getDiceFormulaWithRawDiceRolls(diceFormula, diceResult) {
     for (var i = diceResult.rollSets.length - 1; 0 <= i; --i) {
         const rollSet = diceResult.rollSets[i];
 		const rolls = rollSet.rolls.map(r => {
-			return r.value + (r.critical ? critical_mark : '');
+			return getValueWithCriticalMark(r.value, r.critical);
 		});
         const diceRollsStr = '[' + rolls.join(', ') + ']'
         result = result.substr(0, rollSet.range[0]) + diceRollsStr + result.substr(rollSet.range[1], result.length)
@@ -98,7 +101,7 @@ function getDiceFormulaWithSumDiceRolls(diceFormula, diceResult) {
 
     for (var i = diceResult.rollSets.length - 1; 0 <= i; --i) {
         const rollSet = diceResult.rollSets[i];
-		const diceRollsStr = rollSet.sum + (rollSet.critical ? critical_mark : '');
+		const diceRollsStr = getValueWithCriticalMark(rollSet.sum, rollSet.critical);
         result = result.substr(0, rollSet.range[0]) + diceRollsStr + result.substr(rollSet.range[1], result.length)
     }
 
@@ -106,7 +109,7 @@ function getDiceFormulaWithSumDiceRolls(diceFormula, diceResult) {
 }
 
 function getDiceFormulaResult(diceResult, diceFormulaSums) {
-	const sum = diceResult.sum + (diceResult.critical ? critical_mark : '');
+	const sum = getValueWithCriticalMark(diceResult.sum, diceResult.critical);
 
     if ((sum === diceFormulaSums) || !diceResult.rollCount) {
         return `**${sum}**`
@@ -114,4 +117,13 @@ function getDiceFormulaResult(diceResult, diceFormulaSums) {
     else {
         return `${diceFormulaSums} = **${sum}**`
     }
+}
+
+function getValueWithCriticalMark(value, critical) {
+	if (critical !== null) {
+		return value + (critical ? critical_up_mark : critical_down_mark);
+	}
+	else {
+		return value + '';
+	}
 }

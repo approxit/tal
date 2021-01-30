@@ -1,6 +1,6 @@
 {
 	var rollSets = [];
-	var critical = false;
+	var critical = null;
 	var rollCount = 0;
 
 	function makeDiceRoll(diceType) {
@@ -16,7 +16,7 @@ Root = _ value:Expression _ {
 		sum: Math.round(value),
 		rollSets: rollSets,
 		rollCount: rollCount,
-		critical: critical,
+		critical: critical
 	}
 }
 
@@ -43,25 +43,25 @@ Dice "dice" = throws:Integer? DiceChar diceType:diceTypes {
 	var sum = 0;
 	var rollResult, firstRoll, roll;
 	var rolls = [];
-	var rollsCritical = false;
+	var rollsCritical = null;
 
 	for (var i = 0; i < throws; ++i) {
 		var throwRolls = [];
 		rollResult = firstRoll = makeDiceRoll(diceType);
 		throwRolls.push({
 			value: firstRoll,
-			critical: false,
+			critical: null
 		});
 		++rollCount;
 
 		if (diceType == 20 && ((firstRoll == 20) || firstRoll == 1)) {
-			critical = rollsCritical = true;
+			critical = rollsCritical = firstRoll == 20;
 
 			do {
 				roll = makeDiceRoll(diceType);
 				throwRolls.push({
 					value: roll,
-					critical: false,
+					critical: null
 				});
 				++rollCount;
 				rollResult += roll;
@@ -69,7 +69,7 @@ Dice "dice" = throws:Integer? DiceChar diceType:diceTypes {
 			while (roll == 20);
 
 			for (var j = 0; j < throwRolls.length - 1; ++j) {
-				throwRolls[j].critical = true;
+				throwRolls[j].critical = firstRoll == 20;
 			}
 
 			if (firstRoll == 1) {

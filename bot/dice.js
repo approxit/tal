@@ -170,7 +170,7 @@ function peg$parse(input, options) {
   		sum: Math.round(value),
   		rollSets: rollSets,
   		rollCount: rollCount,
-  		critical: critical,
+  		critical: critical
   	}
   };
   var peg$f1 = function(head, tail) {
@@ -190,25 +190,25 @@ function peg$parse(input, options) {
   	var sum = 0;
   	var rollResult, firstRoll, roll;
   	var rolls = [];
-  	var rollsCritical = false;
+  	var rollsCritical = null;
 
   	for (var i = 0; i < throws; ++i) {
   		var throwRolls = [];
   		rollResult = firstRoll = makeDiceRoll(diceType);
   		throwRolls.push({
   			value: firstRoll,
-  			critical: false,
+  			critical: null
   		});
   		++rollCount;
 
   		if (diceType == 20 && ((firstRoll == 20) || firstRoll == 1)) {
-  			critical = rollsCritical = true;
+  			critical = rollsCritical = firstRoll == 20;
 
   			do {
   				roll = makeDiceRoll(diceType);
   				throwRolls.push({
   					value: roll,
-  					critical: false,
+  					critical: null
   				});
   				++rollCount;
   				rollResult += roll;
@@ -216,7 +216,7 @@ function peg$parse(input, options) {
   			while (roll == 20);
 
   			for (var j = 0; j < throwRolls.length - 1; ++j) {
-  				throwRolls[j].critical = true;
+  				throwRolls[j].critical = firstRoll == 20;
   			}
 
   			if (firstRoll == 1) {
@@ -895,7 +895,7 @@ function peg$parse(input, options) {
 
 
   	var rollSets = [];
-  	var critical = false;
+  	var critical = null;
   	var rollCount = 0;
 
   	function makeDiceRoll(diceType) {
