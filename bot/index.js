@@ -72,9 +72,9 @@ discord.ws.on('INTERACTION_CREATE', async interaction => {
     }
 
 	try {
-		await discord.api.interactions(interaction.id, interaction.token).callback.post({
+		r = await discord.api.interactions(interaction.id, interaction.token).callback.post({
 			data: response || {
-				type: 5,
+				type: 4,
 			}
 		})
 	}

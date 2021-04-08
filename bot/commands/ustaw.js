@@ -47,7 +47,7 @@ module.exports = {
 			console.log(`${member.nick} have nick="${nick}" image="${image}"`);
 
 			return {
-				type: 5,
+				type: 4,
 				data: {
 					content: `Nick: ${nick}\nObrazek: ${image}`,
 				}

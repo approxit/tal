@@ -57,7 +57,7 @@ module.exports = {
         embed.addField('Formuła', diceFormula, true);
 
         return {
-			type: 2,
+			type: 4,
 			data: {
             	embeds: [embed.toJSON()],
 			}
