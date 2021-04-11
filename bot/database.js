@@ -2,10 +2,13 @@ const Database = require('@replit/database');
 
 module.exports = {
 	database: new Database(),
-	getMemberImageKey(member) {
-		return `${member.user.id}-image`;
+	getMemberImageKey(guildId, member) {
+		return `${guildId}-${member.id}-image`;
 	},
-	getMemberNickKey(member) {
-		return `${member.user.id}-nick`;
+	getMemberNickKey(guildId, member) {
+		return `${guildId}-${member.id}-nick`;
+	},
+	getMemberLastDiceOptionsKey(guildId, member) {
+		return `${guildId}-${member.id}-last-dice-options`;
 	},
 }

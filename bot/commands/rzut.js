@@ -4,6 +4,7 @@ const discord = require('../discord');
 const database = require('../database').database;
 const getMemberNickKey = require('../database').getMemberNickKey;
 const getMemberImageKey = require('../database').getMemberImageKey;
+const getMemberLastDiceOptionsKey = require('../database').getMemberLastDiceOptionsKey;
 
 const critical_up_mark = ':star:';
 const critical_up_color = 'ORANGE';
@@ -26,16 +27,33 @@ module.exports = {
             description: 'Dodatkowy komentarz do rzutu.',
         }
     ],
-    async execute(member, options) {
+    async execute(guildId, member, options) {
         const diceFormula = options['formuła'];
-		const diceAuthor = await getDiceAuthor(member);
-        const diceResult = dice.parse(diceFormula);
-        const diceAvatar = await getDiceAvatar(member);
+
+		try {
+        	var diceResult = dice.parse(diceFormula);
+		}
+		catch (err) {
+			console.log(`Roll for "${member.displayName}" with "${diceFormula}" failed with error "${err}"!`);
+
+			return {
+				type: 4,
+				data: {
+					content: `Formuła \`${diceFormula}\` napotkała błąd!\n\`\`\`${err}\`\`\``,
+					flags: 64,
+				},
+			};
+		}
+
+		await saveDiceOptionsForLater(guildId, member, options);
+
+		const diceAuthor = await getDiceAuthor(guildId, member);
+        const diceAvatar = await getDiceAvatar(guildId, member);
         const diceFormulaRaw = getDiceFormulaWithRawDiceRolls(diceFormula, diceResult);
         const diceFormulaSums = getDiceFormulaWithSumDiceRolls(diceFormula, diceResult);
         const diceFormulaResult = getDiceFormulaResult(diceResult, diceFormulaSums);
 
-        console.log(`Roll for "${member.nick}" with "${diceFormula} = ${diceResult.sum}"`)
+        console.log(`Roll for "${member.displayName}" with "${diceFormula} = ${diceResult.sum}"`)
 
         var embed = new Discord.MessageEmbed();
         embed.setAuthor(diceAuthor);
@@ -65,19 +83,19 @@ module.exports = {
     },
 };
 
-async function getDiceAuthor(member) {
-	const nick = await database.get(getMemberNickKey(member)) || member.nick;	
+async function getDiceAuthor(guildId, member) {
+	const nick = await database.get(getMemberNickKey(guildId, member)) || member.displayName;
 	return `${nick} rzuca kością!`
 }
 
-async function getDiceAvatar(member) {
-	const image = await database.get(getMemberImageKey(member))
+async function getDiceAvatar(guildId, member) {
+	const image = await database.get(getMemberImageKey(guildId, member))
 
 	if (image) {
 		return image;
 	}
 	else {
-    	return new Discord.User(discord, member.user).displayAvatarURL();
+    	return member.user.displayAvatarURL();
 	}
 }
 
@@ -126,4 +144,8 @@ function getValueWithCriticalMark(value, critical) {
 	else {
 		return value + '';
 	}
+}
+
+async function saveDiceOptionsForLater(guildId, member, options) {
+	await database.set(getMemberLastDiceOptionsKey(guildId, member), options);
 }
