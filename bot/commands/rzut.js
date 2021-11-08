@@ -5,6 +5,8 @@ const database = require('../database').database;
 const getMemberNickKey = require('../database').getMemberNickKey;
 const getMemberImageKey = require('../database').getMemberImageKey;
 const getMemberLastDiceOptionsKey = require('../database').getMemberLastDiceOptionsKey;
+const getGuildDiceExplosionKey = require('../database').getGuildDiceExplosionKey;
+const getGuildDiceExplosionDefault = require('../database').getGuildDiceExplosionDefault;
 
 const critical_up_mark = ':star:';
 const critical_up_color = 'ORANGE';
@@ -29,9 +31,12 @@ module.exports = {
     ],
     async execute(guildId, member, options) {
         const diceFormula = options['formuła'];
+		const diceExplosion = await database.get(getGuildDiceExplosionKey(guildId));
 
 		try {
-        	var diceResult = dice.parse(diceFormula);
+        	var diceResult = dice.parse(diceFormula, {
+				diceExplosion: diceExplosion !== null ? diceExplosion : getGuildDiceExplosionDefault(),
+			});
 		}
 		catch (err) {
 			console.log(`Roll for "${member.displayName}" with "${diceFormula}" failed with error "${err}"!`);

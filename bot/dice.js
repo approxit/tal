@@ -201,26 +201,28 @@ function peg$parse(input, options) {
   		});
   		++rollCount;
 
-  		if (diceType == 20 && ((firstRoll == 20) || firstRoll == 1)) {
-  			critical = rollsCritical = firstRoll == 20;
+  		if ((diceType == 20) && ((firstRoll == 20) || (firstRoll == 1))) {
+  			throwRolls[0].critical = critical = rollsCritical = firstRoll == 20;
 
-  			do {
-  				roll = makeDiceRoll(diceType);
-  				throwRolls.push({
-  					value: roll,
-  					critical: null
-  				});
-  				++rollCount;
-  				rollResult += roll;
+  			if (options.diceExplosion) {
+  				do {
+  					roll = makeDiceRoll(diceType);
+  					throwRolls.push({
+  						value: roll,
+  						critical: null
+  					});
+  					++rollCount;
+  					rollResult += roll;
+  				}
+  				while (roll == 20);
+
+  				if (firstRoll == 1) {
+  					rollResult = firstRoll - rollResult;
+  				}
   			}
-  			while (roll == 20);
 
   			for (var j = 0; j < throwRolls.length - 1; ++j) {
   				throwRolls[j].critical = firstRoll == 20;
-  			}
-
-  			if (firstRoll == 1) {
-  				rollResult = firstRoll - rollResult;
   			}
   		}
 

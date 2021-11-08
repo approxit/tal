@@ -11,4 +11,10 @@ module.exports = {
 	getMemberLastDiceOptionsKey(guildId, member) {
 		return `${guildId}-${member.id}-last-dice-options`;
 	},
+	getGuildDiceExplosionKey(guildId) {
+		return `${guildId}-dice-explosion`;
+	},
+	getGuildDiceExplosionDefault() {
+		return true;
+	}
 }

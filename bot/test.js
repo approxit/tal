@@ -119,9 +119,10 @@ describe('Dice', () => {
 		{syntax: '2k20', mockedRolls: [20, 2, 4], rollSets: [[20, 2, 4]], result: 26},
 		{syntax: '1k20+k2', mockedRolls: [1, 5, 2], rollSets: [[1, 5], [2]], result: -3},
     ].map((test) => {
-        it(`should calculate "${test.syntax}" with mocked dices "${test.mockedRolls}" as "${test.result}"`, () => {
+        it(`should calculate "${test.syntax}" with mocked explosive dices "${test.mockedRolls}" as "${test.result}"`, () => {
             var result = dice.parse(test.syntax, {
 				mockedRolls: test.mockedRolls,
+				diceExplosion: true,
 			});
 
 			assert.equal(result.sum, test.result);
@@ -161,9 +162,10 @@ describe('Dice', () => {
 			]
 		], result: 45},
     ].map((test) => {
-        it(`should calculate "${test.syntax}" with mocked critical states of dices "${test.mockedRolls}" as "${test.result}"`, () => {
+        it(`should calculate "${test.syntax}" with mocked critical states of explosive dices "${test.mockedRolls}" as "${test.result}"`, () => {
             var result = dice.parse(test.syntax, {
 				mockedRolls: test.mockedRolls,
+				diceExplosion: true,
 			});
 
 			assert.equal(result.sum, test.result);
@@ -189,9 +191,10 @@ describe('Dice', () => {
         {syntax: 'k100', mockedRolls: [1], rollSets: [[1]], result: 1},
         {syntax: 'k100', mockedRolls: [100], rollSets: [[100]], result: 100},
     ].map((test) => {
-        it(`should not reroll criticals and calculate for "${test.syntax}" with mocked dices "${test.mockedRolls}" as "${test.result}"`, () => {
+        it(`should not reroll criticals and calculate for "${test.syntax}" with mocked explosive dices "${test.mockedRolls}" as "${test.result}"`, () => {
             var result = dice.parse(test.syntax, {
 				mockedRolls: test.mockedRolls,
+				diceExplosion: true
 			});
 
 			assert.equal(result.sum, test.result);
@@ -199,6 +202,31 @@ describe('Dice', () => {
 				return s.rolls.map(r => {
 					return r.value;
 				});
+			}), test.rollSets);
+        })
+    });
+
+	[
+        {syntax: 'k20', mockedRolls: [1], rollSets: [
+			[
+				{value: 1, critical: false},
+			]
+		], result: 1},
+		{syntax: 'k20', mockedRolls: [20], rollSets: [
+			[
+				{value: 20, critical: true},
+			]
+		], result: 20},
+    ].map((test) => {
+        it(`should not reroll criticals and calculate for "${test.syntax}" with mocked non explosive dices "${test.mockedRolls}" as "${test.result}"`, () => {
+            var result = dice.parse(test.syntax, {
+				mockedRolls: test.mockedRolls,
+				diceExplosion: false,
+			});
+
+			assert.equal(result.sum, test.result);
+			assert.deepStrictEqual(result.rollSets.map(s => {
+				return s.rolls;
 			}), test.rollSets);
         })
     });
