@@ -112,7 +112,7 @@ AlienDice "AlienDice" = throws:Integer? dieChar:AlienDieChar {
 		rollResult = makeDieRoll(6);
 		var c = null;
 		if (dieChar == 'n' && rollResult == 6) {
-			c = rollsCritical = false;
+			c = rollsCritical = true;
 		}
 		if (dieChar == 's' && rollResult == 1) {
 			c = rollsCritical = false;

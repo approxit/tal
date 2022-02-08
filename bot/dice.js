@@ -250,20 +250,31 @@ function peg$parse(input, options) {
   	var sum = 0;
   	var rollResult, roll;
   	var rolls = [];
+  	var rollsCritical = null;
 
   	for (var i = 0; i < throws; ++i) {
   		rollResult = makeDieRoll(6);
+  		var c = null;
+  		if (dieChar == 'n' && rollResult == 6) {
+  			c = rollsCritical = true;
+  		}
+  		if (dieChar == 's' && rollResult == 1) {
+  			c = rollsCritical = false;
+  		}
+
   		rolls.push({
   			value: rollResult,
+  			critical: c,
   		});
   		++rollCount;
 
-  		sum += 6 <= rollResult;
+  		sum += rollResult == 6;
   	}
 
   	rollSets.push({
   		range: range(),
   		rolls: rolls,
+  		critical: rollsCritical,
   		sum: sum,
   	});
 
