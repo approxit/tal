@@ -9,7 +9,6 @@ const boolean_true_mark = ':white_check_mark:';
 const boolean_false_mark = ':negative_squared_cross_mark:';
 
 module.exports = {
-    name: 'ustaw',
     description: 'Zmienia ustawienia Turlacza dla użytkownika. Użyj bez argumentów, by wyświetlić obecny stan.',
     options: [
 		{
@@ -22,13 +21,8 @@ module.exports = {
 			name: 'obrazek',
 			description: 'Obrazek wyświetlany podczas rzutów. Podaj "-" aby usunąć.',
 		},
-		{
-			type: 5,
-			name: 'przerzuty-kosci',
-			description: 'Czy przerzucać kości k20 przy wynikach 1 oraz 20? Domyślnie kości są przerzucane.',
-		},
     ],
-    async execute(guildId, member, options) {
+    async execute(guildId, channelId, member, options) {
 		var responses = [];
 
 		const nick = options['nick'];
@@ -36,7 +30,7 @@ module.exports = {
 		const diceExplosion = options['przerzuty-kosci'];
 
 		if (typeof nick !== 'undefined') {
-			const memberNickKey = getMemberNickKey(guildId, member);
+			const memberNickKey = getMemberNickKey(guildId, channelId, member);
 
 			if (nick != '-') {
 				await database.set(memberNickKey, nick);
@@ -53,7 +47,7 @@ module.exports = {
 		}
 
 		if (typeof image !== 'undefined') {
-			const memberImageKey = getMemberImageKey(guildId, member);
+			const memberImageKey = getMemberImageKey(guildId, channelId, member);
 
 			if (image != '-') {
 				await database.set(memberImageKey, image);
@@ -69,28 +63,6 @@ module.exports = {
 			}
 		}
 
-		if (typeof diceExplosion !== 'undefined') {
-			const diceExplosionKey = getGuildDiceExplosionKey(guildId);
-
-			if (diceExplosion != getGuildDiceExplosionDefault()) {
-				await database.set(diceExplosionKey, diceExplosion);
-			}
-			else {
-				await database.delete(diceExplosionKey);
-			}
-
-			if (diceExplosion) {
-				console.log(`${member.displayName} enabled dice explosion`);
-
-				responses.push(`Kości k20 będą przerzucane.`)
-			}
-			else {
-				console.log(`${member.displayName} disabled dice explosion`);
-
-				responses.push('Kości k20 nie będą przerzucane.')
-			}
-		}
-
 		if (responses.length) {
 			return {
 				type: 4,
@@ -101,18 +73,15 @@ module.exports = {
 			};
 		}
 		else {
-			const savedNick = await database.get(getMemberNickKey(guildId, member)) || '-';
-			const savedImage = await database.get(getMemberImageKey(guildId, member)) || '-';
-			var savedDiceExplosion = await database.get(getGuildDiceExplosionKey(guildId));
-			savedDiceExplosion = (savedDiceExplosion !== null) ? savedDiceExplosion : getGuildDiceExplosionDefault();
-			const diceExplosionText = savedDiceExplosion ? boolean_true_mark : boolean_false_mark;
+			const savedNick = await database.get(getMemberNickKey(guildId, channelId, member)) || '-';
+			const savedImage = await database.get(getMemberImageKey(guildId, channelId, member)) || '-';
 
-			console.log(`${member.displayName} have nick="${savedNick}" image="${savedImage}" dice explosion="${savedDiceExplosion}"`);
+			console.log(`${member.displayName} have nick="${savedNick}" image="${savedImage}"`);
 
 			return {
 				type: 4,
 				data: {
-					content: `Nick: \`${savedNick}\`\nObrazek: \`${savedImage}\`\nPrzerzuty kości k20: ${diceExplosionText}`,
+					content: `Nick: \`${savedNick}\`\nObrazek: \`${savedImage}\``,
 					flags: 64,
 				}
 			};

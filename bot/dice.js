@@ -151,6 +151,8 @@ function peg$parse(input, options) {
   var peg$c13 = "6";
   var peg$c14 = "4";
   var peg$c15 = "2";
+  var peg$c16 = "n";
+  var peg$c17 = "s";
 
   var peg$r0 = /^[0-9]/;
   var peg$r1 = /^[ \t\n\r]/;
@@ -161,9 +163,10 @@ function peg$parse(input, options) {
   var peg$e3 = peg$literalExpectation("/", false);
   var peg$e4 = peg$literalExpectation("(", false);
   var peg$e5 = peg$literalExpectation(")", false);
-  var peg$e6 = peg$otherExpectation("dice");
-  var peg$e7 = peg$otherExpectation("integer");
-  var peg$e8 = peg$otherExpectation("whitespace");
+  var peg$e6 = peg$otherExpectation("GenericDice");
+  var peg$e7 = peg$otherExpectation("AlienDice");
+  var peg$e8 = peg$otherExpectation("integer");
+  var peg$e9 = peg$otherExpectation("whitespace");
 
   var peg$f0 = function(value) {
   	return {
@@ -185,7 +188,7 @@ function peg$parse(input, options) {
   		if (element[0] === "/") return result / element[1];
   	}, head);
   };
-  var peg$f3 = function(throws, diceType) {
+  var peg$f3 = function(throws, dieValueRange) {
   	var throws = throws || 1;
   	var sum = 0;
   	var rollResult, firstRoll, roll;
@@ -194,19 +197,19 @@ function peg$parse(input, options) {
 
   	for (var i = 0; i < throws; ++i) {
   		var throwRolls = [];
-  		rollResult = firstRoll = makeDiceRoll(diceType);
+  		rollResult = firstRoll = makeDieRoll(dieValueRange);
   		throwRolls.push({
   			value: firstRoll,
   			critical: null
   		});
   		++rollCount;
 
-  		if ((diceType == 20) && ((firstRoll == 20) || (firstRoll == 1))) {
+  		if ((dieValueRange == 20) && ((firstRoll == 20) || (firstRoll == 1))) {
   			throwRolls[0].critical = critical = rollsCritical = firstRoll == 20;
 
   			if (options.diceExplosion) {
   				do {
-  					roll = makeDiceRoll(diceType);
+  					roll = makeDieRoll(dieValueRange);
   					throwRolls.push({
   						value: roll,
   						critical: null
@@ -241,6 +244,30 @@ function peg$parse(input, options) {
   };
   var peg$f4 = function() {
   	return parseInt(text());
+  };
+  var peg$f5 = function(throws, dieChar) {
+  	var throws = throws || 1;
+  	var sum = 0;
+  	var rollResult, roll;
+  	var rolls = [];
+
+  	for (var i = 0; i < throws; ++i) {
+  		rollResult = makeDieRoll(6);
+  		rolls.push({
+  			value: rollResult,
+  		});
+  		++rollCount;
+
+  		sum += 6 <= rollResult;
+  	}
+
+  	rollSets.push({
+  		range: range(),
+  		rolls: rolls,
+  		sum: sum,
+  	});
+
+  	return sum;
   };
 
   var peg$currPos = 0;
@@ -678,6 +705,21 @@ function peg$parse(input, options) {
   }
 
   function peg$parseDice() {
+    var s0;
+
+    var rule$expects = function (expected) {
+      if (peg$silentFails === 0) peg$expect(expected);
+    }
+
+    s0 = peg$parseGenericDice();
+    if (s0 === peg$FAILED) {
+      s0 = peg$parseAlienDice();
+    }
+
+    return s0;
+  }
+
+  function peg$parseGenericDice() {
     var s0, s1, s2, s3;
 
     var rule$expects = function (expected) {
@@ -691,9 +733,9 @@ function peg$parse(input, options) {
     if (s1 === peg$FAILED) {
       s1 = null;
     }
-    s2 = peg$parseDiceChar();
+    s2 = peg$parseGenericDieChar();
     if (s2 !== peg$FAILED) {
-      s3 = peg$parsediceTypes();
+      s3 = peg$parseGenericDieValueRange();
       if (s3 !== peg$FAILED) {
         peg$savedPos = s0;
         s0 = peg$f3(s1, s3);
@@ -710,7 +752,7 @@ function peg$parse(input, options) {
     return s0;
   }
 
-  function peg$parseDiceChar() {
+  function peg$parseGenericDieChar() {
     var s0;
 
     var rule$expects = function (expected) {
@@ -735,7 +777,7 @@ function peg$parse(input, options) {
     return s0;
   }
 
-  function peg$parsediceTypes() {
+  function peg$parseGenericDieValueRange() {
     var s0, s1;
 
     var rule$expects = function (expected) {
@@ -814,6 +856,58 @@ function peg$parse(input, options) {
     return s0;
   }
 
+  function peg$parseAlienDice() {
+    var s0, s1, s2;
+
+    var rule$expects = function (expected) {
+      if (peg$silentFails === 0) peg$expect(expected);
+    }
+
+    rule$expects(peg$e7);
+    peg$silentFails++;
+    s0 = peg$currPos;
+    s1 = peg$parseInteger();
+    if (s1 === peg$FAILED) {
+      s1 = null;
+    }
+    s2 = peg$parseAlienDieChar();
+    if (s2 !== peg$FAILED) {
+      peg$savedPos = s0;
+      s0 = peg$f5(s1, s2);
+    } else {
+      peg$currPos = s0;
+      s0 = peg$FAILED;
+    }
+    peg$silentFails--;
+
+    return s0;
+  }
+
+  function peg$parseAlienDieChar() {
+    var s0;
+
+    var rule$expects = function (expected) {
+      if (peg$silentFails === 0) peg$expect(expected);
+    }
+
+    if (input.charCodeAt(peg$currPos) === 110) {
+      s0 = peg$c16;
+      peg$currPos++;
+    } else {
+      s0 = peg$FAILED;
+    }
+    if (s0 === peg$FAILED) {
+      if (input.charCodeAt(peg$currPos) === 115) {
+        s0 = peg$c17;
+        peg$currPos++;
+      } else {
+        s0 = peg$FAILED;
+      }
+    }
+
+    return s0;
+  }
+
   function peg$parseInteger() {
     var s0, s1, s2, s3;
 
@@ -821,7 +915,7 @@ function peg$parse(input, options) {
       if (peg$silentFails === 0) peg$expect(expected);
     }
 
-    rule$expects(peg$e7);
+    rule$expects(peg$e8);
     peg$silentFails++;
     s0 = peg$currPos;
     if (input.charCodeAt(peg$currPos) === 45) {
@@ -872,7 +966,7 @@ function peg$parse(input, options) {
       if (peg$silentFails === 0) peg$expect(expected);
     }
 
-    rule$expects(peg$e8);
+    rule$expects(peg$e9);
     peg$silentFails++;
     s0 = [];
     if (peg$r1.test(input.charAt(peg$currPos))) {
@@ -900,11 +994,11 @@ function peg$parse(input, options) {
   	var critical = null;
   	var rollCount = 0;
 
-  	function makeDiceRoll(diceType) {
+  	function makeDieRoll(dieValueRange) {
   		if (options['mockedRolls']) {
   			return options['mockedRolls'].shift();
   		}
-  		return Math.floor((diceType * Math.random()) + 1);
+  		return Math.floor((dieValueRange * Math.random()) + 1);
   	}
 
 

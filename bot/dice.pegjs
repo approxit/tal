@@ -3,11 +3,11 @@
 	var critical = null;
 	var rollCount = 0;
 
-	function makeDiceRoll(diceType) {
+	function makeDieRoll(dieValueRange) {
 		if (options['mockedRolls']) {
 			return options['mockedRolls'].shift();
 		}
-		return Math.floor((diceType * Math.random()) + 1);
+		return Math.floor((dieValueRange * Math.random()) + 1);
 	}
 }
 
@@ -38,7 +38,9 @@ MulDiv = head:Atom tail:(_ @("*" / "/") _ @Atom)* {
 
 Atom = Dice / Integer / "(" _ @Expression _ ")"
 
-Dice "dice" = throws:Integer? DiceChar diceType:diceTypes {
+Dice = GenericDice / AlienDice
+
+GenericDice "GenericDice" = throws:Integer? GenericDieChar dieValueRange:GenericDieValueRange {
 	var throws = throws || 1;
 	var sum = 0;
 	var rollResult, firstRoll, roll;
@@ -47,19 +49,19 @@ Dice "dice" = throws:Integer? DiceChar diceType:diceTypes {
 
 	for (var i = 0; i < throws; ++i) {
 		var throwRolls = [];
-		rollResult = firstRoll = makeDiceRoll(diceType);
+		rollResult = firstRoll = makeDieRoll(dieValueRange);
 		throwRolls.push({
 			value: firstRoll,
 			critical: null
 		});
 		++rollCount;
 
-		if ((diceType == 20) && ((firstRoll == 20) || (firstRoll == 1))) {
+		if ((dieValueRange == 20) && ((firstRoll == 20) || (firstRoll == 1))) {
 			throwRolls[0].critical = critical = rollsCritical = firstRoll == 20;
 
 			if (options.diceExplosion) {
 				do {
-					roll = makeDiceRoll(diceType);
+					roll = makeDieRoll(dieValueRange);
 					throwRolls.push({
 						value: roll,
 						critical: null
@@ -93,11 +95,49 @@ Dice "dice" = throws:Integer? DiceChar diceType:diceTypes {
 	return sum;
 }
 
-DiceChar = "k" / "d"
+GenericDieChar = "k" / "d"
 
-diceTypes = "100" / "20" / "12" / "10" / "8" / "6" / "4" / "2" {
+GenericDieValueRange = "100" / "20" / "12" / "10" / "8" / "6" / "4" / "2" {
 	return parseInt(text());
 }
+
+AlienDice "AlienDice" = throws:Integer? dieChar:AlienDieChar {
+	var throws = throws || 1;
+	var sum = 0;
+	var rollResult, roll;
+	var rolls = [];
+	var rollsCritical = null;
+
+	for (var i = 0; i < throws; ++i) {
+		rollResult = makeDieRoll(6);
+		var c = null;
+		if (dieChar == 'n' && rollResult == 6) {
+			c = rollsCritical = false;
+		}
+		if (dieChar == 's' && rollResult == 1) {
+			c = rollsCritical = false;
+		}
+
+		rolls.push({
+			value: rollResult,
+			critical: c,
+		});
+		++rollCount;
+
+		sum += rollResult == 6;
+	}
+
+	rollSets.push({
+		range: range(),
+		rolls: rolls,
+		critical: rollsCritical,
+		sum: sum,
+	});
+
+	return sum;
+}
+
+AlienDieChar = "n" / "s"
 
 Integer "integer" = "-"? [0-9]+ {
 	return parseInt(text());

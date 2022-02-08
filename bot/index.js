@@ -1,17 +1,10 @@
 require('./polyfill');
 require('./replit');
-const fs = require('fs');
 const Discord = require('discord.js');
 const discord = require('./discord');
+const CommandError = require('./common').CommandError;
 
-discord.commands = new Discord.Collection();
-
-const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
-
-for (const file of commandFiles) {
-	const command = require(`./commands/${file}`);
-	discord.commands.set(command.name, command);
-}
+discord.commands = require('./commands');
 
 discord.once('ready', async () => {
     console.info(`Logged in as ${discord.user.tag}`);
@@ -28,13 +21,11 @@ discord.once('ready', async () => {
 
 	try {
 		await applicationCommands.put({
-			data: discord.commands.map(command => {
-				return {
-					name: command.name,
-					description: command.description,
-					options: command.options || [],
-				};
-			})
+			data: Array.from(discord.commands, ([commandCode, command]) => ({
+				name: commandCode,
+				description: command.description,
+				options: command.options || [],
+			})),
 		});
 
 		console.log(`Commands updated`)
@@ -57,14 +48,25 @@ discord.ws.on('INTERACTION_CREATE', async interaction => {
     }
 
 	const guildId = interaction.guild_id;
+	const channelId = interaction.channel_id;
 	const member = new Discord.GuildMember(discord, interaction.member, guildId);
 
     try {
-        var response = await discord.commands.get(command).execute(guildId, member, options);
+        var response = await discord.commands.get(command).execute(guildId, channelId, member, options);
     }
     catch (err) {
-        console.error('Error with executing command!', err);
-        return;
+		if (err instanceof CommandError) {
+			var response = {
+				type: 4,
+				data: {
+					content: err.message,
+					flags: 64,
+				},
+			};
+		}
+		else {
+        	console.error('Unhandled error while executing command!', err);
+		}
     }
 
 	try {

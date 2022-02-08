@@ -1,10 +1,11 @@
-const Discord = require('discord.js');
 const discord = require('../discord');
 const database = require('../database').database;
+const CommandError = require('../common').CommandError;
+const getChannelSystemOrThrow = require('../common').getChannelSystemOrThrow;
+const getChannelSystemKey = require('../database').getChannelSystemKey;
 const getMemberLastDiceOptionsKey = require('../database').getMemberLastDiceOptionsKey;
 
 module.exports = {
-    name: 'powtorz',
     description: 'Ponownie wykonuje Twój ostatni rzut.',
 	options: [
         {
@@ -13,26 +14,21 @@ module.exports = {
             description: 'Dodatkowy komentarz do rzutu, jeśli ma być inny niż z ostatniego rzutu.',
         }
     ],
-    async execute(guildId, member, options) {
-		const diceOptions = await database.get(getMemberLastDiceOptionsKey(guildId, member));
+    async execute(guildId, channelId, member, options) {
+		await getChannelSystemOrThrow(guildId, channelId);
+		
+		const diceOptions = await database.get(getMemberLastDiceOptionsKey(guildId, channelId, member));
 
-		if (diceOptions) {
-			if (options['komentarz']) {
-				diceOptions['komentarz'] = options['komentarz']
-			}
-
-			return await discord.commands.get('rzut').execute(guildId, member, diceOptions);
-		}
-		else {
+		if (diceOptions === null) {
 			console.log(`No previous rolls from "${member.displayName}"!`);
 
-			return {
-				type: 4,
-				data: {
-					content: 'Nie masz jeszcze wykonanych rzutów, wykonaj jakiś!',
-					flags: 64,
-				},
-			};
+			throw new CommandError('Nie masz jeszcze wykonanych rzutów, wykonaj jakiś!');
+		}	
+
+		if (options['komentarz']) {
+			diceOptions['komentarz'] = options['komentarz']
 		}
+
+		return await discord.commands.get('rzut').execute(guildId, channelId, member, diceOptions);
     },
 };

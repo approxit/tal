@@ -2,19 +2,16 @@ const Database = require('@replit/database');
 
 module.exports = {
 	database: new Database(),
-	getMemberImageKey(guildId, member) {
-		return `${guildId}-${member.id}-image`;
+	getChannelSystemKey(guildId, channelId) {
+		return `${guildId}-${channelId}-system`;
 	},
-	getMemberNickKey(guildId, member) {
-		return `${guildId}-${member.id}-nick`;
+	getMemberImageKey(guildId, channelId, member) {
+		return `${guildId}-${channelId}-${member.id}-image`;
 	},
-	getMemberLastDiceOptionsKey(guildId, member) {
-		return `${guildId}-${member.id}-last-dice-options`;
+	getMemberNickKey(guildId, channelId, member) {
+		return `${guildId}-${channelId}-${member.id}-nick`;
 	},
-	getGuildDiceExplosionKey(guildId) {
-		return `${guildId}-dice-explosion`;
+	getMemberLastDiceOptionsKey(guildId, channelId, member) {
+		return `${guildId}-${channelId}-${member.id}-last-dice-options`;
 	},
-	getGuildDiceExplosionDefault() {
-		return true;
-	}
 }

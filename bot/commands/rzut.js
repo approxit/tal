@@ -2,11 +2,13 @@ const Discord = require('discord.js');
 const dice = require('../dice');
 const discord = require('../discord');
 const database = require('../database').database;
+const systems = require('../systems');
+const getChannelSystemOrThrow = require('../common').getChannelSystemOrThrow;
+const CommandError = require('../common').CommandError;
+const getChannelSystemKey = require('../database').getChannelSystemKey;
 const getMemberNickKey = require('../database').getMemberNickKey;
 const getMemberImageKey = require('../database').getMemberImageKey;
 const getMemberLastDiceOptionsKey = require('../database').getMemberLastDiceOptionsKey;
-const getGuildDiceExplosionKey = require('../database').getGuildDiceExplosionKey;
-const getGuildDiceExplosionDefault = require('../database').getGuildDiceExplosionDefault;
 
 const critical_up_mark = ':star:';
 const critical_up_color = 'ORANGE';
@@ -14,7 +16,6 @@ const critical_down_mark = ':boom:';
 const critical_down_color = 'RED';
 
 module.exports = {
-    name: 'rzut',
     description: 'Rzuca kośćmi zgodnie z podaną formułą.',
     options: [
         {
@@ -29,31 +30,27 @@ module.exports = {
             description: 'Dodatkowy komentarz do rzutu.',
         }
     ],
-    async execute(guildId, member, options) {
+    async execute(guildId, channelId, member, options) {
+		const system = await getChannelSystemOrThrow(guildId, channelId);
+		
         const diceFormula = options['formuła'];
-		const diceExplosion = await database.get(getGuildDiceExplosionKey(guildId));
+		const diceRollOptions = {
+			diceExplosion: systems.get(system).diceExplosion,
+		}
 
 		try {
-        	var diceResult = dice.parse(diceFormula, {
-				diceExplosion: diceExplosion !== null ? diceExplosion : getGuildDiceExplosionDefault(),
-			});
+        	var diceResult = dice.parse(diceFormula, diceRollOptions);
 		}
 		catch (err) {
 			console.log(`Roll for "${member.displayName}" with "${diceFormula}" failed with error "${err}"!`);
 
-			return {
-				type: 4,
-				data: {
-					content: `Formuła \`${diceFormula}\` napotkała błąd!\n\`\`\`${err}\`\`\``,
-					flags: 64,
-				},
-			};
+			throw new CommandError(`Formuła \`${diceFormula}\` napotkała błąd!\n\`\`\`${err}\`\`\``);
 		}
 
-		await saveDiceOptionsForLater(guildId, member, options);
+		await saveDiceOptionsForLater(guildId, channelId, member, options);
 
-		const diceAuthor = await getDiceAuthor(guildId, member);
-        const diceAvatar = await getDiceAvatar(guildId, member);
+		const diceAuthor = await getDiceAuthor(guildId, channelId, member);
+        const diceAvatar = await getDiceAvatar(guildId, channelId, member);
         const diceFormulaRaw = getDiceFormulaWithRawDiceRolls(diceFormula, diceResult);
         const diceFormulaSums = getDiceFormulaWithSumDiceRolls(diceFormula, diceResult);
         const diceFormulaResult = getDiceFormulaResult(diceResult, diceFormulaSums);
@@ -88,13 +85,13 @@ module.exports = {
     },
 };
 
-async function getDiceAuthor(guildId, member) {
-	const nick = await database.get(getMemberNickKey(guildId, member)) || member.displayName;
+async function getDiceAuthor(guildId, channelId, member) {
+	const nick = await database.get(getMemberNickKey(guildId, channelId, member)) || member.displayName;
 	return `${nick} rzuca kością!`
 }
 
-async function getDiceAvatar(guildId, member) {
-	const image = await database.get(getMemberImageKey(guildId, member))
+async function getDiceAvatar(guildId, channelId, member) {
+	const image = await database.get(getMemberImageKey(guildId, channelId, member))
 
 	if (image) {
 		return image;
@@ -151,6 +148,6 @@ function getValueWithCriticalMark(value, critical) {
 	}
 }
 
-async function saveDiceOptionsForLater(guildId, member, options) {
-	await database.set(getMemberLastDiceOptionsKey(guildId, member), options);
+async function saveDiceOptionsForLater(guildId, channelId, member, options) {
+	await database.set(getMemberLastDiceOptionsKey(guildId, channelId, member), options);
 }
