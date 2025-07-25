@@ -80,19 +80,14 @@ Zmęczenie
 | Źrodło                            | Punkty zmęczenia |
 | --------------------------------- | :--------------- |
 | Alkohol                           | 1 za każdy punkt upicia (tak jakby, gdyż nie dotyczą siły i kondycji) |
-| Atak wielokrotny (specjalny atak) | 1 |
 | Berserk                           | 6 gdy tylko się skończy |
 | Bieg                              | 1 za każde 5 minut, gdy postać nie zda testu wysiłku |
-| Ciężka broń                       | 1 za obniżenie kary z ciężkiej broni o 5 lub mniej dla jednego ataku |
 | Drow                              | 1 za minutę bycia na świetle po ilości minut równą wytrwałości |
 | Krasnoludzki sprint               | 2 za zwiększenie szybkości o +5 na turę |
 | Krzepa                            | 1 za każdą porażkę w teście tej umiejętności |
 | Mikstury                          | Różnie |
-| Ominięcie tarczy (specjalny atak) | 1 |
-| Ostrożny atak (manewr)            | 1 |
 | Oszołomienie                      | 5 (tak jakby, gdyż od razu znikają, gdy oszołomienie mija) |
 | Pełne skupienie                   | 1 na minutę za pełne skupienie przy spostrzegawczości |
-| Potężny atak (specjalny atak)     | 1 |
 | Rana korpusu                      | 2 za otrzymanie rany x1 w jednym uderzeniu albo 4 za otrzymanie rany x2 lub większej w jednym uderzeniu |
 | Sprint                            | 1 za każdą minutę, gdy postać nie zda testu wysiłku |
 | Sterroryzowanie                   | 5 |
