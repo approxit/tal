@@ -25,7 +25,7 @@ Jeżeli nie napisano inaczej postać może w ciągu tury wykonać jedną akcję 
 Są to wartości odpowiadające za możliwości postaci. W systemie istnieje 8 atrybutów:
 
 Charyzma (Ch)
-: Odpowiada za elokwencję postaci, jej urodę, przebojowość i siłę osobowości. Działania oparte o charyzmę dotyczą prowadzenia konwersacji i wywierania wpływu na emocje oraz uczucia innych osób, a także możliwości artystyczność postaci.
+: Odpowiada za elokwencję postaci, jej urodę, przebojowość i siłę osobowości. Działania oparte o charyzmę dotyczą prowadzenia konwersacji i wywierania wpływu na emocje oraz uczucia innych osób, a także możliwości artystyczności postaci.
 
 Inteligencja (In)
 : Odpowiada za potencjał intelektualny, zdolność uczenia się i pojmowania pojęć. Działania oparte o inteligencję związane są z wiedzą, nauką, logicznym myśleniem, efektywnym wykonywaniem czynności oraz przetwarzaniem informacji.
@@ -152,11 +152,7 @@ Rasami możliwymi do odgrywania przez Graczy są: elfowie, jorowie, krasnoludowi
 
 #### Runda i tura
 
-Runda
-: To upływ 6 sekund czasu w świecie gry.
-
-Tura
-: To moment w rundzie, od kiedy postać zaczyna swe akcje do momentu kiedy je zakończy.
+Runda jest to upływ 6 sekund czasu w świecie gry. Moment w rundzie, od kiedy postać zaczyna swe akcje do momentu kiedy je zakończy nazywa się turą.
 
 #### Stopień trudności
 
