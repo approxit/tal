@@ -8,8 +8,7 @@ Mechanika gry służy temu, aby w szybki i obiektywny sposób rozstrzygać spory
 
 Przy interpretacji zasad mechaniki trzeba mieć na względzie sposób użycia spójników: "i" to koniunkcja, "oraz" to koniunkcja o formule "p, a następnie q", "lub" to alternatywa łączna, a "bądź" i "albo" to alternatywa rozłączna.
 
-Zmiana zasad mechaniki
-: Podstawową zasadą Tales and Legends jest czerpanie radości z gry, więc w przypadku niezgadzania się z jakąś zasadą mechaniki może być ona wyłączona lub zmieniona. Każda zmiana winna być dokonana jawnie, w czasie poprzedzającym rozpoczęcie rozgrywki lub za obopólną zgodną w czasie gry. W celu zażegnania ewentualnych konfliktów wszystkie zmiany winny być spisane, a nowi Gracze powinni być o nich uprzedzeni i mieć do nich wgląd.
+Zmiana zasad mechaniki: Podstawową zasadą Tales and Legends jest czerpanie radości z gry, więc w przypadku niezgadzania się z jakąś zasadą mechaniki może być ona wyłączona lub zmieniona. Każda zmiana winna być dokonana jawnie, w czasie poprzedzającym rozpoczęcie rozgrywki lub za obopólną zgodną w czasie gry. W celu zażegnania ewentualnych konfliktów wszystkie zmiany winny być spisane, a nowi Gracze powinni być o nich uprzedzeni i mieć do nich wgląd.
 
 !!!include(1_1_terminologia_podstawowa.md)!!!
 
