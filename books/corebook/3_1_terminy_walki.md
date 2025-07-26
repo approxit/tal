@@ -1,4 +1,4 @@
-### Terminlogia walki
+### Terminy walki
 
 W niniejszym podrozdziale opisane zostały wszystkie pojęcia, które trzeba znać, aby móc zapoznać się z zasadami walki. 
 
