@@ -1,4 +1,4 @@
-### Zdolności ogólne {data-children-id-prefix=zdolnosc-ogolna}
+### 7.1 Zdolności ogólne {data-children-id-prefix=zdolnosc-ogolna}
 
 Zdolności ogólne są największą grupą możliwych do opanowania przez postać zdolności. Większość zwykłych osób żyjących w Sorii ma tylko i wyłącznie te zdolności, gdyż inne najzwyczajniej nie są im potrzebne. Wiele z zaprezentowanych tu zdolności w jakiś sposób odnosi się do materiałów zamieszczonych w rozdziałach Mechanika i Świat Przygód. Istotą zdolności ogólnych jest to, że są one ogólne, a więc statystycznie najczęściej będą okazywały się przydatne. 
 

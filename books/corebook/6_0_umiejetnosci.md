@@ -1,4 +1,6 @@
-## Umiejętności
+## Rozdział 6 - Umiejętności
+
+TODO: zmienić umiejętności.
 
 Nie istnieje skończona ilość umiejętności. Postać może mieć najróżniejsze umiejętności, nawet te, których nie wymieniono w opisie systemu. Twórcy gry nie są w stanie przewidzieć wszystkich możliwych wyborów, co do tworzenia i rozwijania postaci, jakie wymyślą Gracze, dlatego otrzymują oni wolną rękę w wymyślaniu umiejętności. Zasadą jest jedynie określenie umiejętności jako niezbyt ogólnych (do wszystkiego) i niezbyt szczegółowych (do pojedynczych czynności). Umiejętności powinny być czymś pośrednim, aby możliwa była ich różnorodność i aby nie dokonać przesadnego podziału (np. "uprawa roli", to dobra umiejętność i nie trzeba jej dzielić na "oranie", "sianie", "żniwa", "młócenie zboża" etc.). 
 
@@ -36,7 +38,7 @@ Rozwijanie umiejętności
 {#tabela-zakup-poziomow-umiejetnosci-2 .long-table}
 
 Zdolności premiowe
-: Na poziomie 5. i co 5 kolejnych poziomów umiejętności postać otrzymuje związane z nią zdolności premiowe. Oznacza to, że postać otrzymuje wybraną zdolności z listy nie poświęcając na nią wymaganych 1000 punktów doświadczenia. Premiowe zdolności dla każdej umiejętności zostały wskazane w opisie umiejętności. Nie pojawiają się tam tylko umiejętności: Dostrojenie, Rozwinięcie atrybutu z..., Specjalizacja, Synergiczna specjalizacja i Synergiczność, które są ogólnymi zdolnościami dla każdej umiejętności i są premiowe zawsze, niezależnie od zapisu. Wybierając zdolność premiową postać jest ograniczona tylko do zdolności, których wymagania spełnia. 
+: Na poziomie 5. i co 5 kolejnych poziomów umiejętności (tj. na 10, 15, 20 itd.) postać otrzymuje związane z nią zdolności premiowe. Oznacza to, że postać otrzymuje wybraną zdolności z listy nie poświęcając na nią wymaganych 1000 punktów doświadczenia. Premiowe zdolności dla każdej umiejętności zostały wskazane w opisie umiejętności. Nie pojawiają się tam tylko umiejętności: Dostrojenie, Rozwinięcie atrybutu z..., Specjalizacja, Synergiczna specjalizacja i Synergiczność, które są ogólnymi zdolnościami dla każdej umiejętności i są premiowe zawsze, niezależnie od zapisu. Wybierając zdolność premiową postać jest ograniczona tylko do zdolności, których wymagania spełnia. 
 
 !!!include(6_1_umiejetnosci_zwykle.md)!!!
 

@@ -1,4 +1,6 @@
-## Ekwipunek bojowy
+## Rozdział 9 - Oręż i przedmioty do walki
+
+TODO: co z sekcją 9_1_bronie_opisy?
 
 W świecie pełnym przygód dość często dochodzi do konfliktów zbrojnych, a nie każdy potrafi ze swych pięści uczynić śmiercionośną broń. Właśnie z powodu niedostatecznego wyekwipowania osób przez naturę korzysta się z przedmiotów służących zadawaniu obrażeń lub chroniącymi przed nimi. Pierwsza grupa z wymienionych nazywa się bronią, a na drugą składają się tarcze i zbroje. W kolejnych trzech podrozdziałach zostały opisane kolejno: broni i tarcze, zbroje oraz materiały, które zawierają opisy materiałów z których robi się dane przedmioty. 
 

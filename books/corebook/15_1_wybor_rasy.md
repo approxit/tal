@@ -1,4 +1,4 @@
-### Krok 1: Wybór rasy
+### 15.1 Krok 1: Wybór rasy
 
 W Tales and Legends występuje wiele ras, które mogą wydać na świat Bohatera. Gracz może wybrać dla siebie dowolną rasę, jak również dowolną odmianę danej rasy. Nad tym wyborem należy się zastanowić nieco dłużej, gdyż pochodzenia rasowego raczej nie będzie można zmienić podczas gry. Nie wszystkie rasy również lubią się między sobą, co może powodować niesnaski w drużynie. Kolejny problem wynika z pewnym ograniczeń terytorialnych - w zależności, gdzie będzie działa się akcja kampanii MG może wprowadzić pewne ograniczenia co do dostępnych ras. 
 

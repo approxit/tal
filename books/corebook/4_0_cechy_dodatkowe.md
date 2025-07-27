@@ -1,11 +1,11 @@
-## Cechy dodatkowe
+## Rozdział 4 - Cechy dodatkowe
 
-TODO: opis rozdziału
+TODO: opis rozdziału + + uspójnić wszystkie cechy z księgą podstaw + ustalić, czy zmienić lokalizację. W Księdzie Podstaw cechy dodatkowe są w sekcji "Krok 4 Wybór dodatkowych cech"
 
 ### Lista cech dodatkowych {data-children-id-prefix=cecha-dodatkowa}
 
 [Wykaz dostępnych cech i ich niepołączalność]
-| Nazwa | Zakazane połączenie z ... |
+| Nazwa | Zakazane połączenie z... |
 | ----- | ------------------------- |
 {#tabela-cechy-dodatkowe .long-table}
 

@@ -1,4 +1,6 @@
-## Z wizytą w karczmie
+## Rozdział 14 -  Z wizytą w karczmie
+
+TODO: sekcja nie została sprawdzona
 
 Karczma to miejsce w którym często rozpoczynają się przygody i często także się kończą. Postacie będące ciągle w podróży i nie mogące zawitać do swego rodzinnego domu (jeżeli taki posiadają) zwykle najbardziej podstawowe potrzeby (jak jedzenie i spanie) załatwiają właśnie w karczmach. 
 

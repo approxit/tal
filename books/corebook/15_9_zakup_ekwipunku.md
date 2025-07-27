@@ -1,4 +1,4 @@
-### Krok 9: Zakup ekwipunku
+### 15.9 Krok 9: Zakup ekwipunku
 
 Ekwipunek lub inaczej osprzęt, to zbiór przedmiotów, które są pomocne Bohaterowi w przygodach. Oczywiście na etapie Tworzenia Bohatera postać nie będzie w stanie zakupić wszystkich interesujących go przedmiotów (chyba że jakimś cudem zyskała dodatkowe fundusze). 
 

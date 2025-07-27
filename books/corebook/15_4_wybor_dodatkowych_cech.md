@@ -1,4 +1,6 @@
-### Krok 4: Wybór dodatkowych cech
+### 15.4 Krok 4: Wybór dodatkowych cech
+
+TODO: przeniesienie cech dodatkowych do tej sekcji.
 
 Wady i zalety są normalną rzeczą. Gracz może wybrać dla swej postaci dodatkowe cechy, które będą modyfikowały jego statystyki lub wymagały odpowiedniego odgrywania. 
 
@@ -11,3 +13,5 @@ Jeżeli nie wskazano inaczej, to każda postać może mieć 3 cechy dodatkowe. C
 Nie trzeba dobierać dla postaci dodatkowych cech, jeżeli się ich nie chce, a poza tym można deklaratoryjnie ustalić, że dla budowy głębi postaci będzie się taką, czy inną cechę odgrywało (tylko odgrywało). Opisane poniżej cechy w pewien sposób zmieniają mechanikę rozgrywki lub wymagają od postaci ciągłego ich ogrywania. Nie oznacza to wcale, że postać nie może być zbudowana na wielu więcej cechach, niż zakłada to ograniczenie trzech cech dodatkowych, ale efektywnie tylko z tych trzech cech postać będzie czerpała korzyści mechaniki. 
 
 Każda niewykorzystana, a możliwa cecha dodatkowa może być zamieniona na poziom umiejętności gry na instrumentach, pracy, wiedzy lub znajomości, pod warunkiem, że postać spełnia warunki zdobywania poziomów w danych umiejętnościach. Wszystkie te umiejętności mają warianty, a co za tym idzie niewykorzystane cechy dodatkowe będą mogły być zamienione tylko na jeden z wariantów danej umiejętności. Poza tym postać może skorzystać tutaj z opcji zamiany wszystkich cech dodatkowych na poziomy tylko jeden umiejętności lub podzielić je na kilka różnych umiejętności. Pierwszy z wariantów jest korzystniejszy, gdyż postać dzięki temu może zaoszczędzić punkty doświadczenia (np. trzy umiejętności na 1 poziomie wymagają poświecenia 300 punktów doświadczenia, a jedna umiejętność na 3 poziomie wymaga poświęcenia 600 punktów doświadczenia), lecz ta druga opcja w pewnych warunkach może postaci gwarantować możliwość wykonywania testów, gdyż niektóre umiejętności wymagają przynajmniej 1 poziomu, aby można było wykonać ich test.  
+
+### LISTA DODATKOWYCH CECH

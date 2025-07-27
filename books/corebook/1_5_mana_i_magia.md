@@ -1,4 +1,4 @@
-### Mana i magia
+### 1.5 Mana i magia
 
 W świecie Tales and Legends magia jest tak rzeczywista jak chleb, dotyk bliskiej osoby, czy promienie słońca padające na twarz. Nie jest ona jednak tak powszechna, a przez to tajemnicza i dla niedoświadczonych bardzo niebezpieczna. Większość rządów reglamentuje magię, a czarodzieje najczęściej albo służą władzy, albo są paleni na stosach. Każda postać opisana jest dwiema statystykami, które dotyczą magii, a są nimi: mana i obrona magiczna.
 

@@ -1,4 +1,6 @@
-### Klejnoty
+### 12.1 Klejnoty
+
+TODO: sekcja nie została sprawdzona
 
 Pod tą nazwą kryją się rzadkie i drogocenne kamienie szlachetne, a dokładnie odmiany skał i minerałów. Przedstawione poniżej klejnoty mają masę na tyle małą, że postacie raczej nie powinny przejmować się ich wagą. Na wartość klejnotu ma wpływ jakość, która w tym przypadku oznacza czystość kamienia oraz ewentualnie fasetowanie (szlifowanie). 
 

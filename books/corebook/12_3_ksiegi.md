@@ -1,4 +1,6 @@
-### Księgi
+### 12.3 Księgi
+
+TODO: sekcja nie została sprawdzona
 
 W świecie, gdzie istnieje wysoki poziom analfabetyzmu książki nie są dość częstym zjawiskiem. Nie mniej jednak można czasami jakąś znaleźć. 
 

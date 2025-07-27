@@ -1,4 +1,4 @@
-### Krok 3: Rozdzielenie punktów atrybutów
+### 15.3 Krok 3: Rozdzielenie punktów atrybutów
 
 Każda postać posiada 8 atrybutów, których początkowa wartość mieści się w przedziale 1-20. Obowiązuje zasada, że im wyższa wartość danego atrybutu, tym postać jest lepsza. Po wybraniu wartości danego atrybutu należy zastosować ewentualne premie lub kary do danego atrybutu, które wynikają z rasy postaci i ewentualnie jej cech dodatkowych (patrz dalej). Jeżeli jakaś rasa ma karę do atrybutu, to postać musi wybrać wartość początkową tego atrybutu przynajmniej o 1 większą, niż wynosi kara, tak aby po jej zastosowaniu postać miała wartość danego atrybutu przynajmniej 1. 
 

@@ -1,4 +1,4 @@
-### Ruch, podróżowanie i dźwiganie
+### 1.4 Ruch, podróżowanie i dźwiganie
 
 To jak szybko się postać porusza zależy od jej współczynnika szybkości, a to ile jest w stanie udźwignąć zależy od jej współczynnika udźwigu.
 
