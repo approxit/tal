@@ -1,6 +1,6 @@
-### Zdolności rasowe {data-children-id-prefix=zdolnosc-rasowa}
+### 7.5 Zdolności rasowe {data-children-id-prefix=zdolnosc-rasowa}
 
-Przedstawiciele różnych ras  mogą wykształcić specyficzne zdolności, które zdeterminowane są ich biologią lub naturą. Zdolności te nazywane są rasowymi.
+Przedstawiciele różnych ras mogą wykształcić specyficzne zdolności, które zdeterminowane są ich biologią lub naturą. Zdolności te nazywane są rasowymi.
 
 [Zdolności rasowe i ich wymagania]
 | Nazwa | Wymagania^1^ |
@@ -31,7 +31,7 @@ Wymagania
 : Rasa: Krwawy elf.
 
 Korzyść
-: Ciernie niektórych czerwonych elfów są zatrute. Każde zranienie nimi lub broni z nich zbudowanej, przez godzinę od chwili stworzenia, powoduje zaaplikowanie trucizny do ciała ofiary. Każdy czerwony elf jest odporny na swoją własną truciznę. Moc trucizny = 1/2 kondycji cierniowego elfa. Efekt: Zranienie sprawia, że trucizna działa w organizmie ofiary przez minutę na każdy punkt jej mocy, zaczynając od mocy=1 po minucie do maksymalnej mocy przy ostatniej minucie, a następnie pozostając w ciele przez godzinę na każdy punkt mocy. Druga i więcej dawek trucizny powoduje zwiększenie mocy o +1.  Trucizna powoduje obniżenie percepcji ofiary o 1 na każdy punkt mocy ponad wytrwałość ofiary.
+: Ciernie niektórych czerwonych elfów są zatrute. Każde zranienie nimi lub broni z nich zbudowanej, przez godzinę od chwili stworzenia, powoduje zaaplikowanie trucizny do ciała ofiary. Każdy czerwony elf jest odporny na swoją własną truciznę. Moc trucizny = 1/2 kondycji cierniowego elfa. Efekt: Zranienie sprawia, że trucizna działa w organizmie ofiary przez minutę na każdy punkt jej mocy, zaczynając od mocy=1 po minucie do maksymalnej mocy przy ostatniej minucie, a następnie pozostając w ciele przez godzinę na każdy punkt mocy. Druga i więcej dawek trucizny powoduje zwiększenie mocy o +1. Trucizna powoduje obniżenie percepcji ofiary o 1 na każdy punkt mocy ponad wytrwałość ofiary.
 
 #### Zmysł złota
 

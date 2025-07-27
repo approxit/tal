@@ -1,3 +1,4 @@
+TODO: bronie do przejrzenia i zaktualizowania/zbalansowania.
 
 #### Broń drzewcowa
 

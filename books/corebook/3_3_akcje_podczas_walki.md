@@ -1,4 +1,4 @@
-### Akcje podczas walki
+### 3.3 Akcje podczas walki
 
 W podrozdziale opisano akcje, z których postać może skorzystać podczas walki. Istnieją zasadniczo dwie kategorie działań, które postać może podjąć: normalne i specjalne. Działania normalne są proste i nie wymagają od postaci czegoś nadzwyczajnego. Jeżeli postać nie informuje MG, że korzysta z akcji specjalnej, to należy przyjąć, że korzysta z akcji normalnej. 
 
@@ -99,7 +99,7 @@ Modyfikator obrony
 
 ##### Skakanie 
 
-Jeżeli postać się odpowiednio rozpędzi, to może skoczyć w dal na tyle metrów ile wynosi jej 1/2 szybkość. W wzwyż postać może skoczyć na tyle ile wynosi 1/5 jej szybkości. Dzięki akrobatyce można zwiększyć te długości i wysokości. Skakanie należy liczyć jako część ruchu w walce tj. poświęcić na niego tyle akcji ile poświęca się na ruch, którego skakanie jest częścią. Patrz również akrobatyka. 
+Jeżeli postać się odpowiednio rozpędzi, to może skoczyć w dal na tyle metrów ile wynosi jej 1/2 szybkości. W wzwyż postać może skoczyć na tyle ile wynosi 1/5 jej szybkości. Dzięki akrobatyce można zwiększyć te długości i wysokości. Skakanie należy liczyć jako część ruchu w walce tj. poświęcić na niego tyle akcji ile poświęca się na ruch, którego skakanie jest częścią. Patrz również akrobatyka. 
 
 ##### Rzucenie zaklęcia
 
@@ -131,13 +131,13 @@ Przewaga wysokości
 : Jeździec atakujący cele naziemne otrzymuje modyfikator z przewagi wysokości: +5 do testów ataków bezpośrednich. 
 
 Szarżowanie
-: Jeździec wykonujący specjalną akcję walki o nazwie szarża nie musi na nią poświęcać akcji dodatkowej, gdyż to wierzchowiec skupia sie na przemieszczaniu. 
+: Jeździec wykonujący specjalną akcję walki o nazwie szarża nie musi na nią poświęcać akcji dodatkowej, gdyż to wierzchowiec skupia się na przemieszczaniu. 
 
 Wsiadanie
 : Wymaga poświęcenia akcji cało-rundowej. Postać może jednak szybko wsiąść na wierzchowca zdając test jeździectwa o ST=30. Udany test sprawia, że postać usadowi się na wierzchowcu kosztem akcji zwykłej.
 
 Wypadnięcie z siodła
-: Postać, która zostaje wysadzona z siodła lub z niego po prostu upada ponosi obrażenia związane z upadkiem z wysokości, ale do wysokości w metrach wierzchowca (zwykle 2 metry) dolicza się jeszcze 1/2 szybkości z jaką porusza się w danej turze. Postać może obniżyć obrażenia otrzymane w ten sposób zdając test akrobatyki albo jeździectwa o takich samych ST jakie podano w tabelce "Zmniejszenie obrażeń wywołanych upadkiem z wysokości" przy opisie umiejętności akrobatyka, gdzie do wysokości odpowiednio doda się szybkość poruszania sie wierzchowca.
+: Postać, która zostaje wysadzona z siodła lub z niego po prostu upada ponosi obrażenia związane z upadkiem z wysokości, ale do wysokości w metrach wierzchowca (zwykle 2 metry) dolicza się jeszcze 1/2 szybkości z jaką porusza się w danej turze. Postać może obniżyć obrażenia otrzymane w ten sposób zdając test akrobatyki albo jeździectwa o takich samych ST jakie podano w tabelce "Zmniejszenie obrażeń wywołanych upadkiem z wysokości" przy opisie umiejętności akrobatyka, gdzie do wysokości odpowiednio doda się szybkość poruszania się wierzchowca.
 
 Zsiadanie
 : Wymaga poświęcenia akcji zwykłej. Postać może jednak szybko zeskoczyć z wierzchowca zdając test jeździectwa o ST=30. Udany test sprawia, że postać zeskoczyła z wierzchowca na równe nogi kosztem akcja dodatkowa.
@@ -150,13 +150,13 @@ Wdrapywanie się po stromych zboczach, wchodzenie po linie itp. Z zasady każda 
 
 Wypicie mikstury zajmuje postaci 1 akcję cało-rundową (przygotowanie do wypicia mikstury np. odkorkowanie, wstrząśnięcie, pozbycie się pustego pojemnika etc. zawiera się w tej akcji). Dobycie jej jednak z pasa bądź plecaka, wymaga poświęcenia na to odpowiedniej ilości akcji, tak jak opisane to zostało w działaniach na ekwipunku.
 
-#### Specjalne akcje podczas walki 
+#### 3.3.1 Specjalne akcje podczas walki 
 
 Poniżej zostały opisane specjalne techniki, którymi może się posługiwać postać podczas walki. Te specjalne techniki są manewrami, bądź specjalnymi atakami. Manewry są to techniki, które działają w całej rundzie, a specjalne ataki są z zasady chwilowe. Postać musi poświęcić ponadto dodatkowe akcje (zwykłe lub dodatkowe), aby konkretna specjalna akcja się powiodła. Trzeba również pamiętać, że wszystkie akcje dodatkowe można wykonać również w akcjach zwykłych. 
 
 Jeżeli jakieś specjalne ataki lub manewry modyfikują tylko konkretny rodzaj działań (np. ruch, atak bezpośredni, atak dystansowy etc.), to postać musi w swej turze zadeklarować ich wykonanie, aby się powiodły.
 
-Niektóre manewry są jednorazowe. Aby można było z nich skorzystać więcej razy w ciągu rundy, to należy "wykupić" je za dostępne akcje większą ilość razy. Niektórych manewrów nie można również łączyć, a to oznacza, że w swej turze postać będzie mogła skorzystać tylko z jednego ze wskazanych. Co do zasady nie można łączyć specjalnych ataków, a to znaczy, że jeden atak może korzystać tylko z efektów jednego specjalnego ataku. Poza tym jeżeli specjalny atak powoduje zmęczenie postaci, to należy je doliczyć dopiero po zakończeniu tej specjalnej akcji.
+Niektóre manewry są jednorazowe. Aby można było z nich skorzystać więcej razy w ciągu rundy, to należy "wykupić" je za dostępne akcje większą ilość razy. Pozostałe manewry wywołują efekt na postać od chwili wykupienia ich do początku jej następnej tury, ale postać może mieć aktywny tylko jeden taki manewr. Niektórych manewrów nie można również łączyć, a to oznacza, że w swej turze postać będzie mogła skorzystać tylko z jednego ze wskazanych. Co do zasady nie można łączyć specjalnych ataków, a to znaczy, że jeden atak może korzystać tylko z efektów jednego specjalnego ataku.
 
 ##### Atak dwiema broniami 
 
@@ -164,7 +164,7 @@ Specjalny atak - akcja zwykła albo taka jak przy wolniejszej broni. Jednoczesny
 
 ##### Atak wielokrotny
 
-Specjalny atak - 2x tyle akcji ile wymaga normalny atak. Postać wykonuje 3 ataki, miast dwóch. Wszystkie ataki obarczone są modyfikatorem -10 do trafienia i muszą być skierowane w jednego przeciwnika. Jeżeli postać ma do dyspozycji dwie akcje zwykłe i jedną akcję dodatkową, a ponadto korzysta z broni będącej "ciężką" (patrz Ciężka broń w rozdz. 5.1), to wykonanie wielokrotnego ataku wymaga poświecenia akcji cało-rundowej. Postać wykonując ten specjalny atak otrzymuje punkt zmęczenia.
+Specjalny atak - 2x tyle akcji ile wymaga normalny atak. Postać wykonuje 3 ataki, miast dwóch. Wszystkie ataki obarczone są modyfikatorem -10 do trafienia i muszą być skierowane w jednego przeciwnika. Jeżeli postać ma do dyspozycji dwie akcje zwykłe i jedną akcję dodatkową, a ponadto korzysta z broni będącej "ciężką" (patrz Ciężka broń w rozdz. 5.1), to wykonanie wielokrotnego ataku wymaga poświecenia akcji cało-rundowej.
 
 ##### Celowanie 
 
@@ -186,13 +186,13 @@ Jeżeli postać próbuje obalić oponenta, na którego przed chwilą zaszarżowa
 
 ##### Odepchnięcie
 
-Specjalny atak - akcje jak atak wręcz. Postać może odepchnąć wroga od siebie, miast zadawać mu obrażeń.  Aby odepchnięcie się udało postać musi wpierw trafić oponenta, a następnie przeprowadzić sporny test zwarcia. Jeżeli postać w nim wygra to przeciwnik przesunie się na pole, które było za nim (dystans 1 m). 
+Specjalny atak - akcje jak atak wręcz. Postać może odepchnąć wroga od siebie, miast zadawać mu obrażeń. Aby odepchnięcie się udało postać musi wpierw trafić oponenta, a następnie przeprowadzić sporny test zwarcia. Jeżeli postać w nim wygra to przeciwnik przesunie się na pole, które było za nim (dystans 1 m). 
 
 Odepchnięcie można łączyć z szarżą. Jeżeli postać dodatkowo szarżuje, to może zająć pole na którym był oponent, przed odepchnięciem, pod warunkiem, że pozostał postaci jakiś dystans (ruch), który jeszcze mogła pokonać dzięki szarżowaniu.
 
 ##### Ominięcie tarczy {#header-akcje-ominiecie-tarczy}
 
-Specjalny atak - akcje jak atak. Postać może przy ataku bezpośrednim wykonać atak, którego przeciwnik nie będzie mógł sparować jakąkolwiek bronią lub tarczą jak również skorzystać z osłaniania się. Test sporny inicjatywy atakujące z karą -20 z testem inicjatywy atakowanego przeciwnika. Wygrana sprawia, że atakowany nie może ataku sparować i osłonić się. Postać wykonując ten specjalny atak otrzymuje punkt zmęczenia.
+Specjalny atak - akcje jak atak oraz akcja dodatkowa. Postać może przy ataku bezpośrednim wykonać atak, którego przeciwnik nie będzie mógł sparować jakąkolwiek bronią lub tarczą jak również skorzystać z osłaniania się. Test sporny inicjatywy atakujące z karą -20 z testem inicjatywy atakowanego przeciwnika. Wygrana sprawia, że atakowany nie może ataku sparować i osłonić się.
 
 ##### Osłanianie się
 
@@ -202,7 +202,7 @@ Mając jedną tarczę nie można nią w tej samej turze osłaniać się i parowa
 
 ##### Ostrożny atak {#header-akcje-ostozny-atak}
 
-Manewr. Postać może skupić się nie na ataku, lecz na parowaniu i unikaniu ciosów wroga. Postać otrzymuje modyfikator -5 do testów ataku i modyfikator +5 do testów parowania i uników. Postać stosując ten manewr otrzymuje punkt zmęczenia.
+Specjalny atak - akcje jak atak. Postać może skupić się nie na ataku, lecz na parowaniu i unikaniu ciosów wroga. Postać otrzymuje modyfikator -5 do testów ataku i modyfikator +5 do testów parowania, uników oraz inicjatywy przy testach spornych. Modyfikatory działają na postać do początku jej następnej tury. Przy wykonaniu kilku ostrożnych ataków w turze, modyfikatory kolejnych kumulują się ze sobą.
 
 ##### Ostrzał pola
 
@@ -220,7 +220,7 @@ Mając jedną tarczę nie można nią w tej samej turze osłaniać się i parowa
 
 ##### Potężne uderzenie
 
-Specjalny atak - akcje jak atak. Postać może wziąć potężny zamach przy ataku bezpośrednim, a w przypadku trafienia spowodować większe obrażenia.  Postać otrzymuje modyfikator -10 do trafienia, ale siła obrażeń rośnie o jedną kategorię (patrz Siła obrażeń w tym rozdziale). Postać wykonując ten specjalny atak otrzymuje punkt zmęczenia.
+Specjalny atak - akcje jak atak oraz akcja dodatkowa. Postać może wziąć potężny zamach przy ataku bezpośrednim, a w przypadku trafienia spowodować większe obrażenia. Postać otrzymuje modyfikator -10 do trafienia, ale siła obrażeń rośnie o jedną kategorię (patrz Siła obrażeń w tym rozdziale).
 
 ##### Przewrócenie
 
@@ -228,7 +228,7 @@ Specjalny atak - akcje jak atak wręcz (lub broni, którą można przewracać). 
 
 ##### Przygotowany atak
 
-Manewr - akcja jak atak - wyczerpanie jednorazowe. Postać wyczekuje z atakiem do momentu, gdy wróg znajdzie się w zasięgu jej broni. Gdy oponent zbliży się na odległość wystarczającą do zaatakowania go, to postać wykona zaplanowany atak. Test ataku postaci i jego skutki następują przed ewentualnym testem ataku przeciwnika i jego skutkami. 
+Manewr - akcja jak atak oraz akcja dodatkowa - wyczerpanie jednorazowe. Postać wskazuje warunek, którego ziszczenie się spowoduje wywołanie przygotowanego ataku w cel. Warunek ten może być ogólny (np. pojawienie się przeciwnika w zasięgu), ale musi być przez postać dostrzeżony, aby manewr się udał. Przy spełnieniu się warunku postać wykonuje test sporny inicjatywy z inicjatywą celu (lub ST=30, jeżeli cel ataku nie może mieć inicjatywy). Sukces oznacza, że postać może zrealizować atak albo czekać do następnego ziszczenia się warunku. Porażka oznacza, że postać czeka do następnego ziszczenia się warunku i w tym momencie nie może wykorzystać przygotowanego ataku. Przygotowany atak uprawnia do przeprowadzenia test ataku, a w przypadku zadania obrażeń, cel otrzyma karę do wszystkich testów związanych z wykonywaniem przez siebie akcji opartych na umiejętnościach równą wysokości obrażeń (np. testu władania bronią, walki wręcz, zwarcia, rzucania zaklęć itp.). Jeżeli akcja wykonywana przez cel pociąga za sobą więcej testów, to kara dotyczy wszystkich z nich (np. test walki wręcz przy łapaniu i test zwarcia przy wejściu w zwarcie, jeżeli przygotowano atak na wchodzącego w zwarcie). 
 
 ##### Rozbrojenie {#header-akcje-rozbrojenie}
 
@@ -250,9 +250,9 @@ Postać może połączyć tratowanie z szarżą (będzie to wymagało poświęce
 
 ##### Trzymanie się
 
-Specjalne. Ta technika polega na tym, że postać trzyma się jakiejś bestii lub innego stworzenia mającego cechę "wielki". Aby skorzystać z tej techniki postać musi zajść przeciwnika o cesze "wielki" od strony, od której niemożliwe będzie, że sięgnie on postać i wciągnie do zwarcia (np. postać znajdzie się przy jego plecach, poza zasięgiem rąk lub na czubku głowy stwora, który nie ma rąk, etc.), a także przez cały czas trwania trzymania mieć przynajmniej jedną wolną rękę.  Postać deklaruje trzymanie się wielkiego przeciwnika, po czym następuje standardowy test walki wręcz o ST = obrona fizyczna. Sukces oznacza możliwość przeprowadzenia testu wysportowania o ST = obrona fizyczna, którego to z kolei sukces oznacza rozpoczęcie trzymania się. 
+Specjalne. Ta technika polega na tym, że postać trzyma się jakiejś bestii lub innego stworzenia mającego cechę "wielki". Aby skorzystać z tej techniki postać musi zajść przeciwnika o cesze "wielki" od strony, od której niemożliwe będzie, że sięgnie on postać i wciągnie do zwarcia (np. postać znajdzie się przy jego plecach, poza zasięgiem rąk lub na czubku głowy stwora, który nie ma rąk, etc.), a także przez cały czas trwania trzymania mieć przynajmniej jedną wolną rękę. Postać deklaruje trzymanie się wielkiego przeciwnika, po czym następuje standardowy test walki wręcz o ST = obrona fizyczna. Sukces oznacza możliwość przeprowadzenia testu wysportowania o ST = obrona fizyczna, którego to z kolei sukces oznacza rozpoczęcie trzymania się. 
 
-Postać trzymająca sie przeciwnika musi w każdej turze poświęcać na to akcję zwykłą i zdawać test wysportowania o ST = obronie fizycznej trzymanej bestii, a jeżeli ta się porusza, to do ST należy dodać również najwyższą szybkość z jaką porusza się w danej rundzie. Sukces oznacza, że postać będzie mogła dokonać kilku akcji związanych z trzymaniem się przeciwnika. Postać musi przez cały czas mieć jedną wolną rękę, którą będzie się trzymała bestii, ale jeżeli przeznacza na to dwie ręce, to otrzymuje modyfikator +5 do testów trzymania się (wysportowanie).
+Postać trzymająca się przeciwnika musi w każdej turze poświęcać na to akcję zwykłą i zdawać test wysportowania o ST = obronie fizycznej trzymanej bestii, a jeżeli ta się porusza, to do ST należy dodać również najwyższą szybkość z jaką porusza się w danej rundzie. Sukces oznacza, że postać będzie mogła dokonać kilku akcji związanych z trzymaniem się przeciwnika. Postać musi przez cały czas mieć jedną wolną rękę, którą będzie się trzymała bestii, ale jeżeli przeznacza na to dwie ręce, to otrzymuje modyfikator +5 do testów trzymania się (wysportowanie).
 
 Atak - akcja zwykła
 : Postać może zaatakować wręcz lub bronią posiadającą cechę: lekka. Wykonuje się dodatkowy test trafienia z modyfikatorem -5 do testu ataku.
@@ -283,7 +283,7 @@ Manewr - akcje jak atak. Postać może skupić się tylko na ataku i zrezygnowa�
 
 ##### Walka defensywna {#header-akcje-walka-defensywna}
 
-Manewr - akcja zwykła. Postać wybitnie skupia się na obronie. Na czas manewru (do następnej tury) postać otrzymuje modyfikator +5 współczynnika obrony fizycznej, testów parowania i uników. Nie można łączyć walki agresywnej i walki defensywnej.
+Manewr - akcja zwykła. Postać wybitnie skupia się na obronie. Postać otrzymuje modyfikator +5 współczynnika obrony fizycznej, testów parowania, uników i spornych testów inicjatywy. Nie można łączyć walki agresywnej i walki defensywnej.
 
 ##### Zabójstwo 
 
@@ -291,7 +291,7 @@ Specjalne. Atak wykonywany przeciw postaci będącej w stanie bezradności. Post
 
 ##### Zwarcie {#header-akcje-zwarcie}
 
-Specjalne. Zwarcie polega na wejściu w bezpośredni kontakt dwóch walczących i zajęciu przez nich dwóch sąsiadujących ze sobą pól. Postać deklaruje wejście w zwarcie z wrogiem, następuje standardowy test walki wręcz o ST = obrona fizyczna. Sukces oznacza rozpoczęcie zwarcia. W pierwszej rundzie zwarcia ofiara w dowolnym momencie, ale tylko raz, może zadeklarować wyrwanie się ze zwarcia i w tym momencie przeprowadzony zostanie test umiejętności, którego sukces dla postaci oznacza, że natychmiast wyrwała się napastnikowi. Ten test wymaga akcji darmowej, ale jest dostępny tylko raz w pierwszej rundzie.
+Specjalne. Zwarcie polega na wejściu w bezpośredni kontakt przynajmniej dwóch walczących i zajęciu przez nich dwóch sąsiadujących ze sobą pól. Postać deklaruje wejście w zwarcie z wrogiem, następuje standardowy test walki wręcz o ST = obrona fizyczna. Sukces oznacza rozpoczęcie zwarcia. W pierwszej rundzie zwarcia ofiara w dowolnym momencie, ale tylko raz, może zadeklarować wyrwanie się ze zwarcia i w tym momencie przeprowadzony zostanie test umiejętności, którego sukces dla postaci oznacza, że natychmiast wyrwała się napastnikowi. Ten test wymaga akcji darmowej, ale jest dostępny tylko raz w pierwszej rundzie. Jeżeli w zwarciu uczestniczą po jednej stronie więcej jak dwie postacie, to ich test zwarcia sumuje się, gdy wykonują te same akcje w zwarciu, a wykonanie tych łącznych akcji następuje w turze postaci o niższej inicjatywie. 
 
 Postacie w zwarciu, aby mogły wykonywać swe akcje, muszą wpierw wygrać z wrogiem test sporny zwarcia. Sporny test stosuje się za każdym razem, gdy któraś z postaci walczących w zwarciu zechce przeprowadzić jedną z poniższych działań. Obrona fizyczna walczących w zwarciu przyjmuje wariant nieprzygotowany względem postaci, które nie uczestniczą w zwarciu. Niektóre działania w zwarciu wymagają poświecenia większej ilości akcji. 
 

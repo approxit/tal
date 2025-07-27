@@ -1,9 +1,9 @@
-### Umiejętności walki {data-children-id-prefix=umiejetnosc-walki}
+### 6.2 Umiejętności walki {data-children-id-prefix=umiejetnosc-walki}
 
 Opisane w tym podrozdziale umiejętności należą do szeroko rozumianej grupy umiejętności walki. Dokładniejsze zastosowanie tych umiejętności zostało opisane w rozdziale poświęconym walce, a tu zamieszczone zostały informacje o tym jak te umiejętności współgrają z innymi i jakie można z nich czerpać dodatkowe korzyści.
  
 [Lista umiejętności walki]
-| Nazwa | Atrybut | Synergia do ... |
+| Nazwa | Atrybut | Synergia do... |
 | ----- | ------- | --------------- |
 {#tabela-umiejetnosci-walki .long-table}
 
@@ -56,7 +56,7 @@ Walka wręcz jest w zasadzie podobna do władania, gdyż wygrane testy tej umiej
 Atrybut
 : Zręczność.
 
-Umiejętność posługiwania się bronią i trafiania nią w przeciwnika. Władanie to w zasadzie kilka niezależnych umiejętności, które należy oddzielnie rozwijać. 
+Umiejętność posługiwania się bronią i trafiania nią w przeciwnika. Władanie to w zasadzie kilka niezależnych umiejętności, które należy oddzielnie rozwijać. Władanie bronią występuje w dziesięciu wariantach, które stanowią samodzielne umiejętności, a którymi są: broń drzewcowa, broń obuchowa, kusza, łuk, miecz, rzucanie, szabla, sztylet, tarcza oraz topór. Każdy wariant umiejętności władanie jest umiejętnością niezależną od pozostałych, z własnymi zdolnościami premiowymi, specjalizacjami, premiami itp.
 
 ##### Broń drzewcowa {#header-umiejetnosci-bron-drzewcowa}
 

@@ -1,4 +1,6 @@
-### Medykamenty
+### 11.4 Medykamenty
+
+TODO: sekcja nie została sprawdzona
 
 Nie wszystkie medykamenty są wykonane na tyle porządnie, aby działały bez zarzuty. Niektóre mają czas przydatności bardzo niewielki, po którym szansa ich zadziałania jest mniejsza, a niektóre wykonano tak niechlujnie, że szansa, że pomogą to połowa szansy (nawet aktywny węgiel może okazać się nieaktywną rudą). 
 

@@ -1,4 +1,4 @@
-### Świat przygód
+### 1.2 Świat przygód
 
 Bohaterowie w świecie przygód muszą liczyć się z tym, że jest to świat pełen zagrożeń i tylko najwytrwalsi będą mogli przeżyć spotkanie z przygodą.
 

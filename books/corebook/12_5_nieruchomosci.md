@@ -1,4 +1,6 @@
-### Nieruchomości i majątki ziemskie
+### 12.5 Nieruchomości i majątki ziemskie
+
+TODO: sekcja nie została sprawdzona
 
 Wśród bogactwa posiadanych przez osobę zwykle najszybciej w oczy wpada fakt posiadania przez nią warownego zamku lub pięknej rezydencji. W tym podrozdziale opisane zostały nieruchomości. Kategoria ta obejmuje również wartość ziemi i gruntów. 
 

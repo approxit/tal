@@ -1,4 +1,6 @@
-### Bomby i proszki
+### 11.1 Bomby i proszki
+
+TODO: sekcja nie została sprawdzona
 
 Podpałki mogą być lepsze i gorsze, co przekłada się na szansę zadziałania. Najlepsze podpałki działają prawie zawsze, a te gorsze tylko czasami. Każdego dnia istnieje szansa, że jakiś czynnik spowoduje niespodziewaną eksplozję. Co jakiś czas należy sprawdzać szansę wybuchów (1 na dzień).
 

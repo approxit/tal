@@ -1,4 +1,6 @@
-### Zdolności wzorca {data-children-id-prefix=zdolnosc-wzorca}
+### 7.4 Zdolności wzorca {data-children-id-prefix=zdolnosc-wzorca}
+
+TODO: przejrzeć tę sekcję.
 
 Zdolności opisane w tym podrozdziale skupiają się na wzorcu postaci. Zdolności te są dostępne tylko dla postaci, które na wcześniejszym etapie wybrały jakieś wrodzone zdolności, które pozwalają im rozwijać wzorzec. Zdolności wzorca należą do "lepszych" zdolności, lecz (prawie) wszystkie wymagają magicznego dostrojenia, a więc zużywają bezpowrotnie (zdolności nie można się samodzielnie pozbyć!) punkty many. Postać powinna dobrze przemyśleć wybór tych zdolności, gdyż w przypadku wzięcia ich zbyt wielu nie będzie zdolna do korzystania z many w ogóle, a nie tylko czarodzieje z niej korzystają. 
 

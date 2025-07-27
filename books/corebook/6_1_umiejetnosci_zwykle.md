@@ -1,4 +1,4 @@
-### Umiejętności zwykłe {data-children-id-prefix=umiejetnosc-zwykla}
+### 6.1 Umiejętności zwykłe {data-children-id-prefix=umiejetnosc-zwykla}
 
 Umiejętności zwykłe są najpowszechniejszymi umiejętnościami, których opanowanie i rozwój nie wymaga jakichś specjalnych predyspozycji. Umiejętności poniżej przedstawione mają zwykle po kilka specjalnych opisów, które informują o ich sposobie używania. Powinno to stanowić jedynie wskazówkę dla MG i Graczy jak z nich korzystać, gdyż inwencja twórca winna wygrywać nad opisem mechanicznym.
 
@@ -21,7 +21,7 @@ Synergię od
 Zdolności premiowe
 : Akrobatyczny atak, Akrobatyczna obrona, Bieganie, Błyskawiczne padanie, Krótki rozbieg, Pewnie na nogach, Powstań, Skok w dal, Skok wzwyż, Ucieczka, Wyślizgnięcie ze zwarcia, Zeskakiwanie z wysoka. 
 
-Robienie fikołków, przewrotów i podskoków może jest efektowne, ale prócz walorów cyrkowych przydaje się  w różnych sytuacjach życiowych. 
+Robienie fikołków, przewrotów i podskoków może jest efektowne, ale prócz walorów cyrkowych przydaje się w różnych sytuacjach życiowych. 
 
 Skakanie
 : Jeżeli postać się odpowiednio rozpędzi, to może skoczyć w dal na tyle metrów ile wynosi jej 1/2 szybkość. W wzwyż postać może skoczyć na tyle ile wynosi 1/5 jej szybkości. Dzięki akrobatyce można zwiększyć te długości i wysokości. Nie można używać szczęścia do tego testu, aby go zwiększyć.
@@ -49,10 +49,10 @@ Występ
 | 71-80        | Bardzo dobry | 200                               |
 | 81+          | Rewelacyjny  | 1000                              |
 
-^1^ Przy uzyskanej kwocie dóbr należy wziąć pod uwagę ilość i majętność osób, które będą oceniały występy. Powyższe kwoty dotyczą  średniego miasteczka ze średnio zamożnymi mieszkańcami, którzy w średnio ruchliwym miejscu poświęcają kilka chwil na oglądanie występu. {.table-footnotes}
+^1^ Przy uzyskanej kwocie dóbr należy wziąć pod uwagę ilość i majętność osób, które będą oceniały występy. Powyższe kwoty dotyczą średniego miasteczka ze średnio zamożnymi mieszkańcami, którzy w średnio ruchliwym miejscu poświęcają kilka chwil na oglądanie występu. {.table-footnotes}
 
 Zachowanie równowagi
-: Dzięki akrobatyce postać może wykonywać próby zachowania równowagi. Umiejętność ta może uratować życie, gdy podczas walki przeciwnik zechce obalić postać, ale w sytuacjach niewojennych umiejętność ta pozwala na balansowanie swym ciałem i przemieszczanie się po trudnym terenie. Zachowując równowagę w ruchu postać musi zmniejszyć swą szybkość o połowę (ostrożny ruch) lub będzie podlegała modyfikatorowi -10 do testów, a poza tym normalnie postać nie może poruszać się szybciej niż ze swoją szybkością, gdyż każda taka próba zakończy się porażką.  Porażka w teście oznacza przewrócenie się. 
+: Dzięki akrobatyce postać może wykonywać próby zachowania równowagi. Umiejętność ta może uratować życie, gdy podczas walki przeciwnik zechce obalić postać, ale w sytuacjach niewojennych umiejętność ta pozwala na balansowanie swym ciałem i przemieszczanie się po trudnym terenie. Zachowując równowagę w ruchu postać musi zmniejszyć swą szybkość o połowę (ostrożny ruch) lub będzie podlegała modyfikatorowi -10 do testów, a poza tym normalnie postać nie może poruszać się szybciej niż ze swoją szybkością, gdyż każda taka próba zakończy się porażką. Porażka w teście oznacza przewrócenie się. 
 
 [Poruszanie się po trudnym terenie]
 | Rodzaj terenu/powierzchni                           || ST           |
@@ -75,7 +75,7 @@ Zachowanie równowagi
 ^3^ Śliskość zwiększa trudność poruszania się. {.table-footnotes}
 
 Zeskakiwanie
-: Przy upadku postać otrzymuje obrażenia w zależności od wysokości z której spadła, które oblicza się w następujący sposób: wysokość (w metrach)  podziel przez dwa (w razie czego zaokrągli), by tak otrzymaną wartość podnieść do kwadratu: (m / 2)kw. Jeżeli nie napisano inaczej, to pancerz i noszona zbroja nie chroni przed tymi obrażeniami. Akrobatyka może pomóc zmniejszyć te obrażenia w zależności od wyniku testu przez to, że będą one liczone tak jakby postać spadła z relatywnie mniejszej wysokości.
+: Przy upadku postać otrzymuje obrażenia w zależności od wysokości z której spadła, które oblicza się w następujący sposób: wysokość (w metrach) podziel przez dwa (w razie czego zaokrągli), by tak otrzymaną wartość podnieść do kwadratu: (m / 2)kw. Jeżeli nie napisano inaczej, to pancerz i noszona zbroja nie chroni przed tymi obrażeniami. Akrobatyka może pomóc zmniejszyć te obrażenia w zależności od wyniku testu przez to, że będą one liczone tak jakby postać spadła z relatywnie mniejszej wysokości.
 
 [Zmniejszenie obrażeń wywołanych upadkiem z wysokości]
 | Wynik testu | Zmniejszenie liczonej wysokości upadku |
@@ -134,7 +134,7 @@ Zdolności premiowe
 Intuicja jest umiejętnością pozwalającą czytać emocje innych osób, wychwytywać drobne niuanse w zachowaniu i orientować się w zamiarach innych.
 
 Empatia
-: Dzięki intuicji można wykryć zestresowanie, wrogość, podniecenie, radość i inne emocje w osobach, które je chcą ukryć. Test sporny z opanowaniem osoby, której emocje chce się wyczytać. Sukces oznacza  przejrzenie emocji, a porażka błędne ich odczytanie, niepełne odczytania (przy niskiej różnicy do ST) lub brak jakichś wskazań.
+: Dzięki intuicji można wykryć zestresowanie, wrogość, podniecenie, radość i inne emocje w osobach, które je chcą ukryć. Test sporny z opanowaniem osoby, której emocje chce się wyczytać. Sukces oznacza przejrzenie emocji, a porażka błędne ich odczytanie, niepełne odczytania (przy niskiej różnicy do ST) lub brak jakichś wskazań.
 
 Oparcie się odwróceniu uwagi
 : Dzięki intuicji postać może zorientować się, że jej rozmówca chce odwrócić od czegoś jej uwagę. Wygrana w teście spornym z prowokacją zagadującego pozwoli na przejrzenie jego intencji.
@@ -351,7 +351,7 @@ Zdolności premiowe
 Prowokowanie to umiejętność rozwścieczenia przeciwnika, zmuszenia go do działania lub wciągnięcia w słowny utarg.
 
 Finta
-: Postać korzystająca w walce z broni z cechą lekka lub broni z cechą broń szermiercza może markować ciosy. Markowanie ciosu to akcja zwykła, którą należy połączyć z następującym po niej atakiem. Wykorzystanie tej techniki jest specjalną akcji walki, dlatego nie można finty łączyć z innymi specjalnymi akcjami walki (patrz Walka). Wykonuje się sporny test prowokacji z intuicją postaci, którą się atakuje. Sukces w teście atakującego sprawi, że atakowany będzie miał obronę fizyczną w wariancie nieprzygotowany na potrzeby tego właśnie ataku bezpośredniego. Z finty można korzystać tylko względem istot humanoidalny. 
+: Postać korzystająca w walce z broni z cechą lekka lub broni z cechą broń szermiercza może markować ciosy. Markowanie ciosu to akcja zwykła, którą należy połączyć z następującym po niej atakiem. Wykorzystanie tej techniki jest specjalną akcji walki, dlatego nie można finty łączyć z innymi specjalnymi akcjami walki (patrz Walka). Wykonuje się sporny test prowokacji z intuicją postaci, którą się atakuje. Sukces w teście atakującego sprawi, że atakowany będzie miał obronę fizyczną w wariancie nieprzygotowany na potrzeby tego właśnie ataku bezpośredniego. Z finty można korzystać tylko względem istot humanoidalnych. 
 
 Zaczepka
 : Postać dzięki prowokacji może sprawić, że oponent będzie zmuszony zareagować siłowo i postawić się w roli agresora. Wymaga to przynajmniej 10 minutowej utarczki słownej i wygrania testu spornego z opanowaniem prowokowanego.
@@ -409,7 +409,7 @@ Tropienie
 | Za każdą godzinę padania deszczu              ||  +5            |
 | Za każde trzy istoty w tropionej grupie       ||  -5            |
 
-^1^ Wybierz modyfikator najbardziej utrudniający tropienie {.table-footnotes}
+^1^ Wybierz modyfikator najbardziej utrudniający tropienie. {.table-footnotes}
 
 Postać tropiąc porusza się z połową swej szybkości (ostrożny ruch) lub normalną szybkością, lecz w tym drugim przypadku podlega modyfikatorowi -10 do testów.
 
@@ -709,7 +709,7 @@ Zdolności premiowe
 Umiejętność wykonywania sztuczek z monetami, operowania małymi obiektami, niepostrzeżonego sięgania do cudzych sakiewek etc. 
 
 Kradzież kieszonkowa
-: Postać może niepostrzeżenie zabrać drugiej jakiś mały obiekt np. sakiewkę. W tym celu przeprowadza się sporny test ze spostrzegawczością ofiary. Sukces oznacza, że ofiara nie zauważyła, że coś jej zostało zabrane. Jeżeli postać jest uważnie obserwowana przez ofiarę, to otrzymuje modyfikator -20 do testu.  Fakt, że ofiara nie zauważyła kradzieży nie oznacza, że inne postacie tego nie uczyniły.
+: Postać może niepostrzeżenie zabrać drugiej jakiś mały obiekt np. sakiewkę. W tym celu przeprowadza się sporny test ze spostrzegawczością ofiary. Sukces oznacza, że ofiara nie zauważyła, że coś jej zostało zabrane. Jeżeli postać jest uważnie obserwowana przez ofiarę, to otrzymuje modyfikator -20 do testu. Fakt, że ofiara nie zauważyła kradzieży nie oznacza, że inne postacie tego nie uczyniły.
 
 Pętanie
 : Postać może spętać inną postać. Wykonuje się test umiejętności, który będzie stanowił test sporny z kolejnymi testami, prób rozwiązania się, gdy ma się skrępowane ręce etc. Łatwiej jest kogoś związać, niż związanemu się rozwiązać dlatego pętający otrzymuje modyfikator +10 do tego testu. Pętanie wymaga trzech akcji cało-rundowych. Brak tego czasu skutkuje karą -10 do testu za każdą brakującą akcję cało-rundową. Postać może poświęcić jednak minutę, a wtedy otrzyma dodatkowo modyfikator +20 do testu pętania. 

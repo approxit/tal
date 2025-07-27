@@ -1,4 +1,6 @@
-## Języki
+## Rozdział 5 - Języki
+
+TODO - uspójnić z księgą podstaw. Obecnie języki nie są w niej zawarte.
 
 Na język składa się zbiór znaków i reguł gramatycznych, które użyte w odpowiednim kontekście wywołują określone efekty. W tym podrozdziale zostały wymienione i opisane najpopularniejsze języki używane na Świecie (Świecie Opowieści i Legend rzecz jasna). Wszystkie języki są wzajemnie przetłumaczalne i można dokonywać ich translacji (a przynajmniej z kierunku język prosty, na język złożony, gdyż niekiedy języka złożonego nie przetłumaczymy na język prosty). Poniżej opisano co oznaczają odpowiednie części opisu każdego z języków.
 

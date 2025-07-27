@@ -1,4 +1,6 @@
-### Zdolności kulturowe {data-children-id-prefix=zdolnosc-kulturowa}
+### 7.2 Zdolności kulturowe {data-children-id-prefix=zdolnosc-kulturowa}
+
+TODO: zmiana tablicy tabela-zdolnosci-kulturowe
 
 Poniżej opisano zdolności, które postać może wybrać na etapie tworzenia postaci. Oznacza to, że zdolności te można zakupić tylko za doświadczenie początkowe. Dodatkowym warunkiem wybrania zdolności z danej grupy jest odpowiednie pochodzenie kulturowe postaci tj. musi wychować się w danej krainie/państwie/społeczeństwie, aby móc zdobyć dane zdolności. Nazwy wspomnianych krain, społeczeństw, czy państw pojawiają się w wymaganiach danej zdolności. 
 
@@ -11,6 +13,45 @@ Ograniczenia
 {#tabela-zdolnosci-kulturowe .long-table}
 
 !!!include(_table_footnote_requirements.md)!!!
+
+
+[Enklawy]
+| ----- | ------ | :----------- |
+| Nazwa |	Wymagania |
+
+[Rimtal]
+| ----- | ------ | :----------- |
+| Nazwa |	Wymagania |
+| Wojenne rzemiosło |	- |
+| Zahartowanie chłodem |	- |
+
+[Siegvaard]
+| ----- | ------ | :----------- |
+| Nazwa |	Wymagania |
+| Biczownik Mymkrafta |	A: Wo 14, C: Fanatyzm. |
+| Bogactwo |	- |
+| Dobre wyekwipowanie |	- |
+| Dziecko dziczy |	A: Ko 14, U: Sztuka przetrwania 10 |
+| Dziecko salonów |	C: Dworskość lub Z: Szlacheckie pochodzenie, Z: Wyższa znajomość (etykieta Siegvaardu) | 
+| Dziecko ulicy |	A: Ch 15 lub C: Opryskliwość, A: Ko 12 i Zr 12 | 
+| Golibroda |	- |
+| Mistrz |	- |
+| Obywatelstwo miejskie |	- |
+| Protektor Siegvaardzkiej marchii |	- |
+| Rycerz Siegvaardu |	Z: Jazda (konna), Siegvaardzka szlachta |
+| Rzeź elfów |	- |
+| Siegvaardzka szlachta |	- |
+| Skarb rodzinny |	U: Wiedza (tajemna) 1, Z: Dobre wyekwipowanie |
+| Sława |	- |
+| Staranne wykształcenie |	A: In 14 |
+| Surowe wychowanie |	- |
+| Wojenne rzemiosło |	- |
+| Zabójca goblinów |	- |
+| Zahartowanie chłodem |	- |
+| Zdyscyplinowanie |	- |
+| Znajomości w Siegvaardzie |	- |
+
+### LISTA ZDOLNOŚCI KULTUROWYCH
 
 #### Biczownik Mymkrafta
 

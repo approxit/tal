@@ -1,4 +1,6 @@
-### Monety i metale szlachetne
+### 12.4 Monety i metale szlachetne
+
+TODO: sekcja nie została sprawdzona
 
 #### Siegvaardzkie monety
 

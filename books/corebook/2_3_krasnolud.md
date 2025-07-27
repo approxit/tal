@@ -1,8 +1,10 @@
-### Krasnolud (Krasnoludowie, Krasnoludy)
+### 2.3 Krasnolud (Krasnoludowie, Krasnoludy)
 
 Pierwsi krasnoludowie zostali wykuci w kamieni i odlani z metalu przez dawnych bogów i do dzisiaj są oni blisko związani zarówno z kamieniami, jak i metalami, chociaż rozmnażają się od dawien dawna w naturalny sposób. 
 
 Krasnoludowie doznali schizmy w dawnych czasach w wyniku której jeden rodzaj podzielił się na dwie rasy - pierwsza żyje na granicy Wiecznej Nocy i jej przedstawiciele nazywani są Ayyończykami, chociaż częściej mówi się o nich Krasnoludowie Lodowi albo Zimowi. Druga z ras mieszka na południe od Północnego Morza i na północ od Jaf'Ardu, a jest nazywana po prostu "Krasnoludami" (gdyż to ich pierwszych poznali ludzie). Obecnie ci "zwykli" krasnoludowie zwani są krasnoludami górskimi, kravgarami lub rzadziej krzatami. Część Kravgarów odeszła niegdyś od swych bogów skuszeni złem Myrkurytów i zamieszkała w podziemnych królestwach jako drowy. Obecnie ci krasnoludowie nazywani są podziemnymi lub jordisami. 
+
+<h5>STATYSTYKI KRASNOLUDÓW</h5>
 
 Doświadczenie początkowe
 : 2500 punktów. Poza tym wszyscy krasnoludowie posiadają poniższe cechy główne.

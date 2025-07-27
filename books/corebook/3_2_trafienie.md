@@ -1,4 +1,4 @@
-### Trafienie
+### 3.2 Trafienie
 
 W niniejszym podrozdziale opisane zostały zasady dotyczące trafienia atakiem i uniknięcia tego ataku. 
 
@@ -20,7 +20,7 @@ Jest to jeden z podstawowych testów podczas walki, którego wynik porównany z 
 
 #### Trafienie w tarczę i trafienie w zbroję
 
-Tarcza to przedmiot ochrony, którym może posługiwać się postać podczas walki. Działa ona w sposób czynny, gdy się wykonuje manewr "parowania"..
+Tarcza to przedmiot ochrony, którym może posługiwać się postać podczas walki. Działa ona w sposób czynny, gdy się wykonuje manewr "parowania".
 
 Zbroja to przedmiot ochronny, który pokrywa korpus z kończynami albo głowę postaci zapewniając jej pokrycie i związany z nim pancerz. Zbroja jest zawsze wykorzystywana w sposób bierny, gdyż nie trzeba deklarować specjalnych działań, aby zapewniała ona ochronę.  
 
@@ -52,7 +52,7 @@ Trafienie krytyczne
 
 W opisie zbroi pojawiają się informację o "pokryciu". Pokrycie stanowi wyrażenie za pomocą wartości jak dużą część głowy, korpusu, rąk etc. postać ma osłonięte. Im wyższa jest wartość pokrycia, tym trudniej jest trafić postać w miejsce, które nie jest chronione. 
 
-Dla zbroi pokrycie ma icharakter dość abstrakcyjny, gdyż w zasadzie każda zbroja zakrywa w całości ciało i rzecz jasna nie ma w nim dziur, przez które można go dotkliwie zranić. Niektóre zbroje mają jednak słabsze miejsca, szczególnie na łączeniach, które są naturalnym miejscem w które prowadzi się trafienie. Przyjmuje się, że te słabe miejsca są na tyle nieodporne na ciosy, że nie zapewniają postaci szansy zredukowania obrażeń. 
+Dla zbroi pokrycie ma charakter dość abstrakcyjny, gdyż w zasadzie każda zbroja zakrywa w całości ciało i rzecz jasna nie ma w nim dziur, przez które można go dotkliwie zranić. Niektóre zbroje mają jednak słabsze miejsca, szczególnie na łączeniach, które są naturalnym miejscem w które prowadzi się trafienie. Przyjmuje się, że te słabe miejsca są na tyle nieodporne na ciosy, że nie zapewniają postaci szansy zredukowania obrażeń. 
 
 Trzeba zauważyć, że posiadanie pokrycia zbroi jest dla postaci bardzo korzystne, gdyż nawet, gdy nie będzie ona przygotowana na atak (obrona fizyczna w wariancie nieprzygotowany), to i tak nie straci pokrycia.
 
@@ -64,13 +64,13 @@ Jeżeli postać nie deklaruje inaczej, to atak przez nią wykonywany zmierza w k
 
 Poza tym atakujący może zdecydować się na celowanie w część ciała (specjalny atak, patrz rozdz. 3.3.1), które tym różni się od normalnego ataku, że trafienie następuje zawsze w konkretną część ciała celu lub wcale. Efekt ten może okazać się korzystny dla atakującego, gdyż rany powodowane w pewnych miejscach ciała mają inne, często korzystniejsze dla atakującego i poważniejsze dla atakowanego efekty. Konsekwencją takiego trafienia przy zadaniu odpowiednich ran jest to, że nie będzie trzeba przeprowadzać szczegółowego testu efektu trafienia za pomocą k100. Przy uwzględnieniu takiego sposobu ataku należy jednak uwzględnić parametry fizyczne atakowanego i pozycji względem atakującego, gdyż nie zawsze da się spowodować jakiś konkretny efekt ataku. 
  
-Przedmiot ochrony korpusu i kończyn nazywa się w mechanice "zbroją", a przedmiot ochrony głowy "hełmem". W przypadku skutecznych ataków obszarowych  trafiają one w korpus postaci. 
+Przedmiot ochrony korpusu i kończyn nazywa się w mechanice "zbroją", a przedmiot ochrony głowy "hełmem". W przypadku skutecznych ataków obszarowych trafiają one w korpus postaci. 
 
 #### Zranienie części ciała
 
 Spowodowanie rany danej części ciała powoduje u atakowanego dodatkowe komplikacje. Podstawowymi efektami ran są efekt dwóch punktów wyczerpania oraz krwawienie. Dodatkowo w zależności od miejsca, gdzie postać otrzyma ranę zostanie wywołany wobec trafionego dodatkowy efekt w zależności od tego czy rana będzie pojedyncza, czy wielokrotna (w ramach jednego ataku). Wielokrotna rana, to ilość obrażeń, która kilkukrotnie przewyższy wartość rany (zwykle wytrwałości). Otrzymanie dwóch pojedynczych ran w tę samą część ciała sprawi, że dwukrotnie będzie na postać działał dany efekt, a nie że mnożnik rany zwiększy się na stopień drugi. 
 
-Mnożnik rany stopnia piątego jest ostatnim i ponad niego postać nie będzie miała większych dolegliwości związanych z raną, nawet jeżeli w wyniku otrzymanych obrażeń należałoby zwiększyć ten stopień.  Postać oczywiście może otrzymać ranę o mnożniku 6 lub większą (z powodu otrzymanych obrażeń lub efektów związanych z atakiem) i wtedy rana będzie powodowała odpowiednie wyczerpanie, krwawienie i zagrożenie życia, ale efekty trafienia w część ciała ponad stopień piąty nie występują.  
+Mnożnik rany stopnia piątego jest ostatnim i ponad niego postać nie będzie miała większych dolegliwości związanych z raną, nawet jeżeli w wyniku otrzymanych obrażeń należałoby zwiększyć ten stopień. Postać oczywiście może otrzymać ranę o mnożniku 6 lub większą (z powodu otrzymanych obrażeń lub efektów związanych z atakiem) i wtedy rana będzie powodowała odpowiednie wyczerpanie, krwawienie i zagrożenie życia, ale efekty trafienia w część ciała ponad stopień piąty nie występują.  
 
 [Spowodowanie rany po trafieniu w głowę]
 | Mnożnik rany | Efekt rany |

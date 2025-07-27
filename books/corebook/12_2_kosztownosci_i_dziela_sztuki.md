@@ -1,4 +1,6 @@
-### Kosztowności i dzieła sztuki
+### 12.2 Kosztowności i dzieła sztuki
+
+TODO: sekcja nie została sprawdzona
 
 Wśród posiadanych bogactw występują dobra, które mają swoje walory estetyczne lub praktyczne. Nie tylko stanowią one przedmioty wymiany, ale przede wszystkim jako elementy świadczące o zamożności lub dobrym smaku. Takimi rzeczami są przede wszystkim kosztowności i dzieła sztuki. W tym podrozdziale zostały one wskazane łącznie. Należy jednak pamiętać, że ilość kosztowności i dzieł sztuki jest w zasadzie nieograniczony, a tutaj wymieniono tylko typowe przedmioty, które są drogocenne i dość łatwe do znalezienia.
 

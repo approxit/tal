@@ -1,4 +1,6 @@
-### Zbroje
+### 9.2 Zbroje
+
+TODO: opis w podsekcji "Zwykłe zbroje"
 
 Przedmioty ochronne, zwane w mechanice po prostu zbrojami dzielą się na zbroje (właściwe) i hełmy, które są dopełnieniem ochrony ciała. Wszystkie zasady dotyczące zbroi dotyczą również hełmu, chyba że zostało wskazane inaczej.
 
@@ -19,7 +21,7 @@ Cena
 : wartość danej zbroi.
 
 Zwykłe zbroje
-: Zbroje wytwarza się z różnych materiałów, a nie tylko jednego. Jeden z materiałów jest jednak kluczowym i to od niego bierze się nazwa danej zbroi. W zależności od modelu i wykończenia dana zbroja może 
+: Zbroje wytwarza się z różnych materiałów, a nie tylko jednego. Jeden z materiałów jest jednak kluczowym i to od niego bierze się nazwa danej zbroi. W zależności od modelu i wykończenia dana zbroja może XXX
 
 Specjalne zbroje
 : Niektóre zbroje zostały wykonane w sposób, który zapewnia im specjalne właściwości - są wytrzymalsze, lżejsze, zapewniają lepsze pokrycie postaci. Jest to efekt połączenia pewnych materiałów ze swoistą wiedzą, a co za tym idzie takich zbrój nie można robić z każdego materiału.
@@ -78,15 +80,15 @@ Rodzaj zbroi
 Statystyka
 : to wskaźnik pancerza i pokrycia danej zbroi, a te dwie wartości oddzielone są ukośnikiem. Jeżeli zbroja nie jest zwykła, tylko innej jakości, to może się tu pojawić również o tym wzmianka w postaci odpowiedniej litery, a jeżeli zbroja jest uszkodzona, to ukośnikiem oddzielone zostaną dwie litery symbolizujące: pierwsza bazową jakość, a druga aktualną jakość. Jakości: Mistrzowska - M; Dobra - D; Zwykła - Z; Kiepska - K; Fatalna - F. Jeżeli nie pojawia się litera, to znaczy, że zbroja jest bazowo zwykłej jakości i aktualnie ma taką też jakość. 
 
-Przykładowe nazwy zbrój:  
-Kościany hełm (18/50, M);  
-Elficka zbroja (18/40, M/F);  
-Skórznia (16/50, K/F);  
-Stalowa kolczuga (32/30);  
-Żelazna kolczuga (24/40 D/K);  
-Żelazny hełm (30/40);  
-Żelazna płytowa (33/40 M/D)  
-Żelazna zbroja (30/40);  
+Przykładowe nazwy zbrój:
+Kościany hełm (18/50, M);
+Elficka zbroja (18/40, M/F);
+Skórznia (16/50, K/F);
+Stalowa kolczuga (32/30);
+Żelazna kolczuga (24/40 D/K);
+Żelazny hełm (30/40);
+Żelazna płytowa (33/40 M/D);
+Żelazna zbroja (30/40).
 
 ### Cechy zbrój i materiałów
 

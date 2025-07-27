@@ -1,8 +1,8 @@
-### Bronie
+### 9.1 Bronie
 
 W tym podrozdziale zostały zaprezentowane bronie dostępne w świecie gry. Podobnie jak to będzie w przypadku wszystkich innych tu rozdziału nie sposób opisać wszystkich możliwych broni. Jest ich w zasadzie nieskończenie wiele i to, aby coś uczynić bronią w zasadzie zależy od wyobraźni i inteligencji Graczy lub ich postaci.
 
-Kategorii broni jest bardzo wiele, gdyż bronie cechuje wysoka różnorodność. Jeżeli postać chce lepiej władać danym rodzajem oręża musi rozwijać władanie nim niezależnie od umiejętności władania innymi broniami. Przy poszczególnych rodzajach broni opisano jak nazywa się kategoria władania do której ją zaliczono.
+Kategorii broni jest bardzo wiele, gdyż bronie cechuje wysoka różnorodność. Jeżeli postać chce lepiej władać danym rodzajem oręża musi rozwijać władanie nim niezależnie od umiejętności władania innymi broniami. Przy poszczególnych rodzajach broni opisano, jak nazywa się kategoria władania do której ją zaliczono.
 
 Broń może być wykonana z różną dokładnością, co utrudnia lub ułatwia władanie nią. Lepsze egzemplarze broni są bardziej wytrzymałe od tych gorszych (np. miecze nie łamią się po uderzeniu w tarczę, a strzały nawet po wyjęciu z ciała wroga nadają się do ponownego użytku). Jeżeli dana broń nie posiada ceny, to nie posiada również kategorii jakości. 
 
@@ -58,7 +58,7 @@ SO
 : Siła Obrażeń - Wskazanie jaki stopień siły postaci ma przełożenie na zadane bronią obrażenia.
  
 Pan.
-: Pancerz - Informuje ile obrażeń jednorazowo musi otrzymać broń, aby  nastało ryzyko uszkodzenia jej. Wartość ta może być przedzielona ukośnikiem. Przed ukośnikiem znajduje się wartość maksymalnych obrażeń jakie można zadać bronią bez ryzyka uszkodzenia jej, a po ukośniku wskazano do jakich obrażeń broń jest niepodatna na uszkodzenia.
+: Pancerz - Informuje ile obrażeń jednorazowo musi otrzymać broń, aby nastało ryzyko uszkodzenia jej. Wartość ta może być przedzielona ukośnikiem. Przed ukośnikiem znajduje się wartość maksymalnych obrażeń jakie można zadać bronią bez ryzyka uszkodzenia jej, a po ukośniku wskazano do jakich obrażeń broń jest niepodatna na uszkodzenia.
 
 Waga
 : Wskazuje ile kilogramów waży broń. Jeżeli broń trzymana dwuręcznie przekracza wartość ciężkiej broni dwuręcznie postaci, to broń należy dla postaci traktować jak broń ciężką. Analogicznie jeżeli broń trzymana jest jednoręcznie dla ciężkiej broni jednoręcznie.
@@ -109,7 +109,7 @@ Używając broni można łatwiej rozbroić przeciwnika. Postać otrzymuje modyfi
 
 #### Rzut
 
-Broń nadaje się do miotania. Postać może zaatakować cele w zasięgu udźwig razy modyfikator podanym przy opisie konkretnej broni.  Test trafienia: władania - rzucanie. 
+Broń nadaje się do miotania. Postać może zaatakować cele w zasięgu udźwig razy modyfikator podanym przy opisie konkretnej broni. Test trafienia: władania - rzucanie. 
 
 #### Siła
 
@@ -117,7 +117,7 @@ Cecha dotyczy tylko broni dystansowej. Przy tej cesze wskazano jaka jest minimal
 
 #### Słabe
 
-Cecha sprawia, że broń zadaje tylko połowę obrażeń, które normalnie wynikałyby z wyniku testu obrażeń (kostki oraz stopień siły 
+Cecha sprawia, że broń zadaje tylko połowę obrażeń, które normalnie wynikałyby z wyniku testu obrażeń (kostki oraz stopień siły). 
 
 #### Specjalne
 

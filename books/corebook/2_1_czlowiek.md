@@ -1,6 +1,8 @@
-### Człowiek (Ludzie)
+### 2.1 Człowiek (Ludzie)
 
 Ludzie są najpowszechniejszą z rozumnych ras, które żyją w Sorii. Rasa ta powstała w zamierzchłych czasach na Sacterze - wyspie na południe od Sorii, północ od Nubii i zachód od Jaf'Ard. Stamtąd ludzie wyemigrowali z bliżej nieokreślonego powodu, ale najpewniej wynikłego z jakiejś katastrofy naturalnej i po wielu wiekach zdominowali najbliższe krainy, a osiedlając się w nich na stałe wzór miejsc sprawiał, że zmieniał się ich wygląd i zmieniała się ich natura. Dzisiaj żyją elidiończycy, gvarinowie, lantańczycy, nubowie, shounowie i wallosi, ale z uwagi na swe właściwości wśród ludzi żyją również mieszańcy dwóch lub większej ilości ludzkich ras, a jeżeli i tego byłoby mało to w zasadzie ludźmi są elflini i orklini - pierwsi są wynikiem miłości jakiegoś elfa i człowieka, a drudzy najczęściej zgwałcenia ludzkiej kobiety przez orka. Z jakiegoś powodu krew ludzi miesza się bowiem z krwią sidhe, a zarówno elfowie, jak i orkowie należą do tejże grupy. Ludzie mogą być również lykanami i wampirami, a poza tym żyją kambioni, którzy są półludźmi i półdemonami.  
+
+<h5>STATYSTYKI LUDZI</h5>
 
 Doświadczenie początkowe
 : 5000 punktów. Ludzie dzielą się na: Elidiończyków, Gvarinów, Kirmisów, Lantańczyków, Nubów, Shounów i Wallosów. Występują wśród nich także kreole (mieszańce przynajmniej dwóch typów ludzi).
@@ -22,7 +24,7 @@ Różnorodność
 #### Elidiończyk (Elidiończycy)
 
 Występowanie
-: Carphetia, Civitas (Imperium),  Elidion, Erxen, Rimtal, Siegvaard i Środkowe Królestwa.
+: Carphetia, Civitas (Imperium), Elidion, Erxen, Rimtal, Siegvaard i Środkowe Królestwa.
 
 Cechy elidiończyków
 : Chłodna ziemia, Dobra karma, Mieszana natura, Przystosowanie kulturowe, Rozwinięcie i Różnorodność.
@@ -79,7 +81,7 @@ Cechy nubów
 : Dobra karma, Doskonała fizyczność, Duch Nubii, , Ponadprzeciętna siła, Rozwinięcie i Różnorodność.
 
 Doskonała fizyczność
-: Bohaterowie Nubów mają imponujące możliwości fizyczne. Otrzymują oni premię +4 do umiejętności: akrobatyki, krzepy, wysiłku i wysportowania.  [Tylko dla Bohaterów]
+: Bohaterowie Nubów mają imponujące możliwości fizyczne. Otrzymują oni premię +4 do umiejętności: akrobatyki, krzepy, wysiłku i wysportowania. [Tylko dla Bohaterów]
 
 Duchy Nubii
 : Nubowie otrzymali swój wzór na zmiennych ziemiach Nubii. Otrzymują oni premię +2 do wytrwałości na potrzeby opierania się efektom chłodu i gorąca. 
@@ -115,7 +117,7 @@ Ponadprzeciętna percepcja
 Walloskie zróżnicowanie
 : Wallosi są często ludźmi o bardzo złożonej osobowości i łączą wiele przeciwstawnych sobie cech. Wallos może wybrać dodatkowe dwie dodatkowe cechy przy tworzeniu postaci (łącznie z cechą różnorodność będzie ich siedem). [Tylko dla Bohaterów]
 
-#### Kreole
+#### 2.1.1 Kreole
 
 Ludzie rozmnażają się biologicznie i mogą się między sobą krzyżować. Gdy członkowie dwóch ras się ze sobą skrzyżuje, to tak powstałe potomstwo dziedziczy wszystkie cechy podstawowe ludzi, a także jedną cechę z rasy swego ojca i jedną cechę z rasy swej matki - w obu przypadkach są to dowolne cechy, ale nie mogą być to cechy zastrzeżone dla Bohaterów. Wadą kreolów jest posiadanie bazowo pięciu cech miast sześciu, a zaletą swobodny wybór dwóch cech z dość bogatej listy. Poza tym kreole mają dostęp do wszystkich zdolności, które wymagają rasy ich rodziców. 
 
@@ -130,12 +132,12 @@ Cechy kreoli
 Oraz dwie z następujących (opisy powyżej)
 : Chłodna ziemia, Duch Nubii, Hart ciała i ducha, Łatwość wyszkolenia,  Ponadprzeciętna charyzma, Ponadprzeciętna percepcja, Ponadprzeciętna siła, Ponadprzeciętny refleks,  Przystosowanie kulturowe,  Pustynie Jaf'Ard, Synergiczność oraz Uzdolnienie.
 
-#### Elflinowie
+#### 2.1.2 Elflinowie
 
 Elflin, inaczej półelf, to potomek człowieka i elfa, który łączy cechy dwóch ras. W zasadzie jest to jednak człowiek i bazowo korzysta z cech swego ludzkiego przodka. W języku mechaniki elflin należy do ras wyższego rodzaju.
 
 Tworzenie elflina
-: Należy wybrać bazową ludzką rasę tj. elidiończyka, gvarina, lantańczyka, nuba, shouna, wallosa lub kreola (połączenie cech przynajmniej dwóch ludzkich ras), a następnie nabyć za doświadczenie początkowe zdolność: kropla krwi, a dalej zdolność elflin od jednego do trzech razy. W konsekwencji może powstać elflin pierwszego, drugiego lub trzeciego stopnia
+: Należy wybrać bazową ludzką rasę tj. elidiończyka, gvarina, lantańczyka, nuba, shouna, wallosa lub kreola (połączenie cech przynajmniej dwóch ludzkich ras), a następnie nabyć za doświadczenie początkowe zdolność: kropla krwi, a dalej zdolność elflin od jednego do trzech razy. W konsekwencji może powstać elflin pierwszego, drugiego lub trzeciego stopnia.
 
 ##### Elflin pierwszego stopnia
 

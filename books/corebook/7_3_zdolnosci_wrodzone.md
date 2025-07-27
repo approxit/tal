@@ -1,4 +1,4 @@
-### Zdolności wrodzone {data-children-id-prefix=zdolnosc-wrodzona}
+### 7.3 Zdolności wrodzone {data-children-id-prefix=zdolnosc-wrodzona}
 
 W niniejszym podrozdziale zostały wymienione dostępne dla postaci zdolności związane z jej najgłębszą strukturą wzorca, dane od bogów, przeznaczone albo inaczej te, które ma od urodzenia. Te zdolności w przeciwieństwie do kolejnych wymienionych można zdobyć tylko i wyłącznie na etapie tworzenia postaci.
 
@@ -86,7 +86,7 @@ Korzyść
 
 #### Dobry duch
 
-No nie da się... Po prostu się nie da Ciebie skrzywdzić. Każdy pijus da sobie spokój. Szukający zaczepki jakimś cudem ciebie omijają. Po prostu masz szczęście do ludzi  
+No nie da się... Po prostu się nie da Ciebie skrzywdzić. Każdy pijus da sobie spokój. Szukający zaczepki jakimś cudem ciebie omijają. Po prostu masz szczęście do ludzi.
 
 Wymagania
 : Cecha dodatkowa: brak jakichkolwiek cech dodatkowych powodujących zrażanie do siebie osób oraz szaleństw.
@@ -173,7 +173,6 @@ Wymagania
 
 Korzyść
 : Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca.
-
 #### Farciarz
 
 Masz fart. Masz fart jak mało kto. Jesteś przesądny i wierzysz w fatum... a co najdziwniejsze, zdajesz się mieć rację.
@@ -396,7 +395,7 @@ Korzyść
 Nie można powiedzieć, że jesteś słabeuszem. Tam, gdzie dziesięciu innych padnie na pysk od uderzeń, Ty pójdziesz dalej.
 
 Korzyść
-: Premia +10 do  życia.
+: Premia +10 do życia.
 
 #### Przeznaczony do wielkości
 

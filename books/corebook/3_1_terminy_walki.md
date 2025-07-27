@@ -1,4 +1,4 @@
-### Terminlogia walki
+### 3.1 Terminy walki
 
 W niniejszym podrozdziale opisane zostały wszystkie pojęcia, które trzeba znać, aby móc zapoznać się z zasadami walki. 
 
@@ -13,7 +13,7 @@ Dystansowy
 : Atak wykonywany przy użyciu broni strzeleckiej, miotanej lub magii. Atakujący podlega modyfikatorowi: -1 za każde 2 metrów oddalenia celu ataku. Nie można atakować celów dalszych niż wynosi maksimum zasięgu broni lub zasięgu czaru.
 
 Obszarowy
-: Jest to atak, którego celem nie jest postać, tylko pole na którym się ona znajduje. Efekt ataku dotyczy jednak tego co się na owym polu znajduje. ST trafienia w obszar zależy od jego wielkości i odległości w jakiej się znajduje od atakującej postaci (ponosi się karę jak za atak dystansowy, jeżeli dotyczy). ST trafienia w pole 1 na 1 metr wynosi 10 + kara za odległość.  Jeżeli celem ataku jest postać to w przypadku zadanych obrażeń należy uznać, że została trafiona ona w korpus.
+: Jest to atak, którego celem nie jest postać, tylko pole na którym się ona znajduje. Efekt ataku dotyczy jednak tego co się na owym polu znajduje. ST trafienia w obszar zależy od jego wielkości i odległości w jakiej się znajduje od atakującej postaci (ponosi się karę jak za atak dystansowy, jeżeli dotyczy). ST trafienia w pole 1 na 1 metr wynosi 10 + kara za odległość. Jeżeli celem ataku jest postać to w przypadku zadanych obrażeń należy uznać, że została trafiona ona w korpus.
 
 #### Atak z zaskoczenia {#header-terminologia-atak-z-zaskoczenia}
 
@@ -25,11 +25,35 @@ To, że wszystko może być bronią nie znaczy, że wszystko się nadaje na dobr
 
 #### Broń ciężka
 
-Każda postać może używać wielu broni, lecz niektóre z uwagi na jej udźwig będą posiadały cechę "ciężka". Postać może bez żadnych kar korzystać jedną ręką z broni, której waga w kg wynosi nie więcej niż 1 + 1/10 udźwigu postaci, a w przypadku przedmiotów trzymanych oburącz, waga nie może być dwa razy większa. Korzystając z cięższych broni, postać otrzymuje karę -1 do testów władania, za każde 0,1 kg ponad dopuszczalny limit. 
+Każda postać może używać wielu broni, lecz niektóre z uwagi na jej udźwig będą posiadały cechę "ciężka". Ciężka broń to taka, która trzymana dwuręcznie ma wagę przynajmniej równą 1/4 udźwigu postaci, a trzymana jednoręcznie ma połowę tej wagi (<ins>nie zaokrąglamy wyniku dzielenia</ins>).
 
-Postać mająca karę -1 z tytułu ciężkiej broni, nie może wykonywać daną bronią ataków kosztem akcji dodatkowej lub szybciej. Postać mająca karę -10 z tytułu ciężkiej broni musi poświęcić ponad normalny koszt w akcjach jedną akcję dodatkową, aby wykonać jeden atak. Jeżeli waga broni trzymanej jednoręcznie wynosi więcej, niż 1/2 udźwigu postaci, a trzymanej dwuręcznie wynosi więcej, niż udźwig postaci, to postać nie może korzystać z umiejętności władanie, w celu wykonania testu trafienia i należy ją traktować tak, jakby nie miała w ogóle biegłości w danej broni. 
+Ciężka broń, gdy jest używana przez postać powoduje karę -10 do testów władania nią, co przekłada na szansę trafienia przeciwnika, a poza tym ataki nią wykonywane wymagają poświęcenia prócz akcji zwykłej jeszcze akcję dodatkową.
 
-Postać może również wykorzystać więcej energii do ataku i zniwelować przy tym karę do testu władania, otrzymując w zamian punkty zmęczenia. Postać może w ten sposób obniżyć karę z ciężkiej broni o 5 na potrzeby przeprowadzenia jednego testu władania i otrzymując po nim punkt zmęczenia. 
+Postać może używać jednoręcznie broni, która waży maksymalnie tyle ile wynosi jej udźwig, a dwuręcznie broni, która waży dwukrotność jej udźwigu. Jednakże za każde 0,5 kg więcej niż wynosi waga "ciężkiej broni” postać otrzymuje dodatkowe -10 do testu trafienia. 
+
+[Udźwig postaci a ciężka broń]
+| Udźwig	| Ciężka broń jednoręcznie	| Ciężka broń dwuręcznie |
+| ----- | ------ | :------ |
+| 1	| 0,5 kg	| 1 kg |
+| 2	| 0,5 kg	| 1 kg |
+| 3	| 0,5 kg	| 1 kg |
+| 4	| 0,5 kg	| 1 kg |
+| 5	| 1 kg	| 2 kg |
+| 6	| 1 kg	| 2 kg |
+| 7	| 1 kg	| 2 kg |
+| 8	| 1 kg	| 2 kg |
+| 9	| 1,5 kg	| 3 kg |
+| 10	| 1,5 kg	| 3 kg |
+| 11	| 1,5 kg	| 3 kg |
+| 12	| 1,5 kg	| 3 kg |
+| 13	| 2 kg	| 4 kg |
+| 14	| 2 kg	| 4 kg |
+| 15	| 2 kg	| 4 kg |
+| 16	| 2 kg	| 4 kg |
+| 17	| 2,5 kg	| 5 kg |
+| 18	| 2,5 kg	| 5 kg |
+| 19	| 2,5 kg	| 5 kg |
+| 20	| 2,5 kg	| 5 kg |
 
 #### Cios w plecy
 

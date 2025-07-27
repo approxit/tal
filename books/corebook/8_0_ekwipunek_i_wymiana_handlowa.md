@@ -1,4 +1,4 @@
-## Ekwipunek i wymiana handlowa
+## Rozdział 8 -  Ekwipunek i wymiana handlowa
 
 Na poniższych stronach zamieszczone zostały informacje dotyczące ekwipunku, jakim posługują się w świecie przygód Bohaterowie, ale też zwykłe postacie. 
 

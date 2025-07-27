@@ -1,10 +1,12 @@
-### Elf (Elfowie, Elfy)
+### 2.2 Elf (Elfowie, Elfy)
 
 Elfowie to starożytna rasa istot, które zostały powołane przez bogów do opieki nad światem. W języku Staroelfickim elfowie nazywają siebie "Sidhe", co można przetłumaczyć dosłownie jako "kurhany", a znaczeniowo chodzi o lud broniący kurhanów w których to spoczywają bogowie.
 
 Elfowie dzielą się na kilka ras, ale podstawową i zarazem najstarszą rasą są Choile'sidhe'mor. Pozostałe rasy wzięły się z "Zielonych Elfów" poprzez pakty z różnymi bóstwami na przestrzeni ostatnich tysiącleci. Poza zielonymi elfami żyją jeszcze elfowie czarni (drowy, mroczni, dorchadu'sidhe), elfowie czerwoni (krwawi, cierniowi, ardaigh'sidhe) oraz srebrni (mgliści, księżycowi, biali, airgeadaich'sidhe). Blisko z elfami spokrewnieni są daimonesidhe - rasa, która powstała z wymieszania się krwi Maranamitów i Elfów przez stosunki z sukubami i inkubami. Kambiony te są jednak w oczach pozostałych elfów tylko demonami. Poza tym z elfami są spokrewnieni orkowie, lecz ci powstali przez wypaczenie krwi sidhe. Nie mniej jednak orkowie należą do sidhe tak samo jak daimonesidhe.
 
 Poniżej opisano statystyki Zielonego Elfa. Elfowie innych ras należą do istot "wyższego rodzaju" i mają statystyki zielonego elfa zmodyfikowane za pomocą podanych odpowiednich cech. Istotą wyższego rodzaju staje się postać, której zostaną wykupione za doświadczenie początkowe odpowiednie wrodzone zdolności.
+
+<h5>STATYSTYKI ELFÓW</h5>
 
 Doświadczenie początkowe
 : 2000 punktów.

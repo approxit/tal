@@ -1,4 +1,6 @@
-### Żywność i napitki
+### 10.4 Żywność i napitki
+
+TODO: sekcja nie została sprawdzona
 
 Aby zachować swe siły witalne wszystko co żyje musi konsumować (prócz nielicznych wyjątków). W tym podrozdziale zostały wymienione popularne posiłki i trunki dostępne w świecie. Oczywiście asortyment potraw zmienia się w zależności od regionu i pory roku, ale tutaj skupiono się na wymienieniu tych najoczywistszych rzeczy. 
 

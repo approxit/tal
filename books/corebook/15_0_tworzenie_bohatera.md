@@ -1,4 +1,4 @@
-## Tworzenie Bohatera
+## Rozdział 15 -  Tworzenie Bohatera
 
 W niniejszym rozdziale został opisany krok po kroku proces tworzenia Bohatera. Mianem Bohatera w grze nazywa się postać Gracza, ale zasady tu opisane można również stosować do tworzenia postaci niezależnych (Bohaterów Niezależnych - BN).  
 
