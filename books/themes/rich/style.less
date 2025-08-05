@@ -262,6 +262,9 @@
 
 		& > li > a {
 			font-family: @headers-font-family;
+			text-indent: -@medium-size;
+			margin-left: @medium-size;
+			display: inline-block;
 
 			&::before {
 				content: "Rozdział " target-counter(attr(href), chapter-number, upper-roman) ": ";

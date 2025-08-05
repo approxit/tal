@@ -73,17 +73,19 @@ Poniżej opisano szybkie zestawy przedmiotów podróżnych. Wybór danego komple
 
 Wskazane wyżej zestawy dotyczą postaci, która jest w trakcie podróży i nie jest piśmienna. Podróżnik podróżuje samotnie lub z karawaną przemieszczając się pieszo albo na wozie. Wszystkie wyżej opisane zestawy są jakości zwykłej. Jeżeli więc postać chce mieć takie same zestawy, ale lepszej lub gorszej jakości, to winna pomnożyć "koszt" danego zestawu przez modyfikator ceny za jakość. Dodatkowo takiej postaci przyda się prowiant. Płyny muszą być transportowane w naczyniach. Każdy odpowiedni zestaw takie naczynia posiada.
 
-##### Obieżyświat {#header-obiezyswiat-prowiant}
+#### Prowiant
+
+##### Obieżyświat {#header-prowiant-obiezyswiat}
 
 - Waga: 5 kg; Wartość: 3890.
 - Chleb elfów na 2 dni, Krasnoludzka racja na 5 dni, Racja podróżna (dobra) na 5 dni, Wino, Wódka.
 
-##### Podróżnik {#header-obiezyswiat-podroznik}
+##### Podróżnik {#header-prowiant-podroznik}
 
 - Waga: 3 kg; Wartość: 500.  
 - Racja podróżna (zwykła) na 5 dni, Wino.
 
-##### Wędrowiec {#header-obiezyswiat-wedrowie}
+##### Wędrowiec {#header-prowiant-wedrowiec}
 
 - Waga: 0,5 kg; Wartość: 88.  
 - Piwo jasne, Racja podróżna (zwykła).

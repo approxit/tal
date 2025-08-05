@@ -4,28 +4,28 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/ebgaramond/v14/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-2fRUAw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/ebgaramond/v15/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-2fRUAw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'EB Garamond';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/ebgaramond/v14/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNUAw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/ebgaramond/v15/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNUAw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Cinzel';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/cinzel/v10/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnTYo.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/cinzel/v11/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnTYo.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Eagle Lake';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/eaglelake/v8/ptRMTiqbbuNJDOiKj9wG5O4.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/eaglelake/v10/ptRMTiqbbuNJDOiKj9wG5O4.ttf) format('truetype');
 }
 /* Variables */
 /* Mixins */
@@ -224,6 +224,9 @@
 }
 .book-toc .book-toc-nav > ol > li > a {
   font-family: 'Eagle Lake', cursive;
+  text-indent: -1rem;
+  margin-left: 1rem;
+  display: inline-block;
 }
 .book-toc .book-toc-nav > ol > li > a::before {
   content: "Rozdział " target-counter(attr(href), chapter-number, upper-roman) ": ";
@@ -430,4 +433,3 @@ table tbody tr:nth-child(odd) {
 .wide-table + .table-footnotes {
   column-span: all;
 }
-/*# sourceMappingURL=style.css.map */

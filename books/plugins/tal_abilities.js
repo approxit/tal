@@ -18,6 +18,7 @@ module.exports = function (md) {
         iterHeaders(state.tokens, new RegExp('^zdolnosc-(' + Object.values(pluralAndSingularNames).join('|') + ')'), function (title, content, match) {
             var ability = abilities[title] = content;
             ability['Typ'] = match[1];
+            ability['id'] = match.input;
         });
 
         for (const typeKey in pluralAndSingularNames) {
@@ -25,9 +26,10 @@ module.exports = function (md) {
                 return abilities[key]['Typ'] === pluralAndSingularNames[typeKey];
             }, function(key, entry) {
                 if (typeKey === 'kulturowe') {
-                    return [key, entry['Region'], shortRequirementsDescription(entry['Wymagania'])];
+                    return [{href: '#' + entry['id'], text: key}, entry['Region'], shortRequirementsDescription(entry['Wymagania'])];
                 }
-                return [key, shortRequirementsDescription(entry['Wymagania'])];
+
+                return [{href: '#' + entry['id'], text: key}, shortRequirementsDescription(entry['Wymagania'])];
             });
         }
     });

@@ -1,4 +1,4 @@
-### Krok 5: Ustalenie posiadanego przez postać doświadczenia
+### Krok 5: Ustalenie posiadanego doświadczenia
 
 Na etapie "Tworzenia Bohatera" postać może mieć dwa rodzaje doświadczenia: doświadczenie początkowe i doświadczenie normalne. Wpierw należy ustalić ile postać będzie miała doświadczenia początkowego, a następnie ile będzie miała doświadczenia normalnego.
 

@@ -15,7 +15,7 @@ Atrybut
 : Inteligencja.
 
 Synergia do
-: Rozpoznanie fałszerstwa (spostrzegawczość). 
+: Spostrzegawczość (Rozpoznanie fałszerstwa). 
 
 Zdolności premiowe
 : Deszyfrowanie, Oko do fałszywek, Szybka praca, Wciskanie fałszywki. 
@@ -82,7 +82,7 @@ Atrybut
 : Zręczność.
 
 Synergia do
-: Trzymanie się (wysportowanie).
+: Wysportowanie (Trzymanie się).
 
 Synergia od
 : Tresura.
@@ -148,7 +148,7 @@ Atrybut
 : Inteligencja.
 
 Synergia do
-: Odnalezienie kierunku lub drogi (Sztuka przetrwania); Strategia (bitwy morskie itp.).
+: Sztuka przetrwania (Odnalezienie kierunku lub drogi), Wiedza (Strategia - bitwy morskie itp.).
 
 Synergia od
 : Wiedza: Światowa, Wiedza: Tajemna. 
@@ -370,7 +370,7 @@ Umiejętności będące wynikiem nauki. Wiedza ma charakter uniwersalny, tj. nie
 Wiedza dotycząca fizyki, chemii i biologii. Alchemią jest wiedza dotycząca medycyny, metali, minerałów, procesów chemicznych, procesów biologicznych.
 
 Synergia do
-: Leczenie, Pirotechnika (Praca), Warzenie mikstur (Praca).
+: Leczenie, Praca: Pirotechnika, Praca: Warzenie mikstur.
 
 Synergia od
 : Wiedza: Filozofia.

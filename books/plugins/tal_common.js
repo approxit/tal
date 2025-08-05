@@ -1,3 +1,5 @@
+const { link } = require("fs-extra");
+
 const localeComparator = module.exports.localeComparator = new Intl.Collator('pl').compare;
 
 module.exports.shortRequirementsDescription = function (description) {
@@ -149,7 +151,7 @@ function seekToTableEnd(tokens, index, table_id) {
 
 function createTableRowTokens(Token, level, styles, fields) {
     var rowTokens = [];
-    var token, text;
+    var token;
 
     token = new Token('table_row_open', 'tr', 1);
     token.level = level++;
@@ -164,14 +166,11 @@ function createTableRowTokens(Token, level, styles, fields) {
             token.attrPush(['style', styles[i]]);
         }
         rowTokens.push(token);
-
-        text = new Token('text', '', 0)
-        text.content = (fields[i] || '–') + '';
-
+        
         token = new Token('inline', '', 0);
         token.level = level;
         token.block = true;
-        token.children = [text];
+        token.children = createTableCellChildrenTokens(Token, fields[i]);
         rowTokens.push(token);
 
         token = new Token('table_column_close', 'td', -1);
@@ -186,6 +185,42 @@ function createTableRowTokens(Token, level, styles, fields) {
     rowTokens.push(token);
 
     return rowTokens;
+}
+
+function createTableCellChildrenTokens(Token, field) {
+    if (Array.isArray(field)) {
+        return field.reduce(function(array, value) {
+            return array.concat(createTableCellChildrenTokens(Token, value));
+        }, []);
+    }
+    else if (typeof field === 'object') {
+        var link_open = new Token('link_open', 'a', 1)
+        link_open.attrs = [
+            [
+                'href',
+                field['href']
+            ]
+        ]
+
+        text = new Token('text', '', 0)
+        text.content = (field['text'] || '–') + '';
+
+        var link_close = new Token('link_close', 'a', -1);
+
+        return [
+            link_open,
+            text,
+            link_close
+        ]
+    }
+    else {
+        text = new Token('text', '', 0)
+        text.content = (field || '–') + '';
+
+        return [
+            text
+        ]
+    }
 }
 
 function createTableBodyTokens(Token, level, row_tokens) {

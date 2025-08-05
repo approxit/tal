@@ -6,5 +6,6 @@
 	<hr>
 	<div class="book-version">wersja 
 !!!include(0_wersja.md)!!!
-	</div>
+
+</div>
 </div>

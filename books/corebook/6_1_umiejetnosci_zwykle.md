@@ -13,7 +13,7 @@ Atrybut
 : Refleks.
 
 Synergia do
-: Unik; Wysportowanie. 
+: Unik, Wysportowanie. 
 
 Synergię od
 : Sztuka: Taniec, Unik.
@@ -148,7 +148,7 @@ Atrybut
 : Siła.
 
 Synergia do
-: Wysportowanie; Wysiłek; Zwarcie.
+: Wysportowanie, Wysiłek, Zwarcie.
 
 Synergia od
 : Wysiłek, Zwarcie. 
@@ -240,7 +240,7 @@ Atrybut
 : Charyzma.
 
 Synergia do
-: Dowodzenie; Prowokowanie; Zastraszanie.
+: Dowodzenie, Prowokowanie, Zastraszanie.
 
 Synergia od
 : Dowodzenie, Intuicja, Sztuka: Aktorstwo (Blefowanie), Sztuka: Oratorstwo (Przekonywanie).  
@@ -290,7 +290,7 @@ Synergia do
 : Prowokowanie.
 
 Synergia od
-: Znajomość regionu (tylko względem ludu tegoż regionu.
+: Znajomość regionu (tylko względem ludu tegoż regionu).
 
 Zdolności premiowe
 : Bajdurzenie, Dyskrecja, Przyśpieszone pogaduchy, Skupienie na istotnych rzeczach, Zasłyszane informacje, Zorientowanie w cenach.
@@ -340,7 +340,7 @@ Atrybut
 : Charyzma.
 
 Synergia do
-: Zastraszanie; Kradzież kieszonkowa (Zręczna dłoń - tylko, gdy zagaduje się swoją ofiarę przed kradzieżą).
+: Zastraszanie, Zręczna dłoń (Kradzież kieszonkowa - tylko zagadując swoją ofiarę przed kradzieżą).
 
 Synergia od
 : Perswazja, Plotkowanie, Sztuka: Aktorstwo. 
@@ -502,7 +502,7 @@ Atrybut
 : Percepcja.
 
 Synergia do
-: Tropienie (Przeszukiwanie).
+: Przeszukiwanie (Tropienie).
 
 Synergia od
 : Nawigacja (Odnalezienie kierunku lub drogi), Przeszukiwanie, Ukrywanie się (Zdobycie pożywienia), Znajomość regionu (tylko w regionie, którego dotyczy).
@@ -561,7 +561,7 @@ Atrybut
 : Refleks.
 
 Synergia do
-: Zdobycie pożywienia (Sztuka przetrwania). 
+: Sztuka przetrwania (Zdobycie pożywienia). 
 
 Zdolności premiowe
 : Atak z zaskoczenia, Ostrożne kroki, Skrytość śledzenia, Szybkie przejście bez śladu, Szybko i cicho, Szybko i niezauważenie. 
@@ -660,12 +660,12 @@ Wspinaczka
 | ST  | Po czym postać się wspina                                        |
 | --- | :--------------------------------------------------------------- |
 | 10  | Lina z supłami                                                   | 
-| 15  | Lina; łagodne drzewo                                             |
+| 15  | Lina, łagodne drzewo                                             |
 | 20  | Zwykłe drzewo                                                    |
-| 25  | Olinowanie statków; strome zbocze                                |
+| 25  | Olinowanie statków, strome zbocze                                |
 | 30  | Ściana z otworami na dłonie i stopy                              |
-| 35  | Bal; osuwisko                                                    |
-| 40  | Górskie zbocze; strome osuwisko                                  |
+| 35  | Bal, osuwisko                                                    |
+| 40  | Górskie zbocze, strome osuwisko                                  |
 | 50+ | Ściana z małymi wystającymi elementami, których można się złapać |
 
 Po gładkich powierzchniach postać nie jest w stanie się wspinać i najlepiej wtedy zapewnić sobie alternatywny sposób poruszania się np. linowy. Inne postacie mogą pomagać we wspinaczce np. wciągając linę (krzepa) do której uwiązany jest towarzysz.

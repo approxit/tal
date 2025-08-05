@@ -134,7 +134,7 @@ Atrybut
 : Siła.
 
 Synergia do
-: Krzepa, Trzymanie się (wysportowanie).
+: Krzepa, Wysportowanie (Trzymanie się).
 
 Synergia od
 : Krzepa, Walka wręcz. 

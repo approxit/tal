@@ -14,6 +14,7 @@ module.exports = function (md) {
             var title = titleFull.replace(/\s*\([^)]*\)/, '');
             var language = languages[title] = content;
 
+            language['id'] = match.input;
             language['Typ'] = match[1];
             language['Natywnie'] = titleFull.match(/\(([^)]+)\)/)[1];
             language['Koszt podstawowy'] = language['Wymagania'].match(/^(\d+|brak)\s*\/\s*(?:\d+|brak)/)[1];
@@ -49,9 +50,17 @@ module.exports = function (md) {
 };
 
 function languageFields(key, entry) {
-    return [key, entry['Grupa językowa'], entry['Koszt podstawowy'], entry['Koszt zaawansowany']];
+    return [{href: '#' + entry['id'], text: key}, entry['Grupa językowa'], entry['Koszt podstawowy'], entry['Koszt zaawansowany']];
 }
 
 function groupFields(key, entry) {
-    return [key, entry.sort(localeComparator).join(', ')];
+    var requirements = entry.sort(localeComparator).map(function(title) {
+        return {href: '#' + languages[title]['id'], text: title};
+    }).reduce(function(array, value) {
+        return array.concat([value, ', ']);
+    }, []);
+    
+    requirements.pop();
+    
+    return [key, requirements];
 }
