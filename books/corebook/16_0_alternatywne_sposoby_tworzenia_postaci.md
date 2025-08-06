@@ -1,4 +1,4 @@
-## Alternatywne sposoby tworzenia postaci
+## Rozdział 16 -  Alternatywne sposoby tworzenia postaci
 
 ### Losowe tworzenie postaci
 

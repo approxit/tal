@@ -1,4 +1,4 @@
-### Języki powszechne {data-children-id-prefix=jezyk-powszechny}
+### 5.1 Języki powszechne {data-children-id-prefix=jezyk-powszechny}
 
 [Języki powszechne a trudność ich poznania]
 | Nazwa języka | Grupa językowa | Trudność poznania na poziomie ||

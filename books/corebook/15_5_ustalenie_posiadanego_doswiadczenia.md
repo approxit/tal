@@ -1,4 +1,4 @@
-### Krok 5: Ustalenie posiadanego przez postać doświadczenia
+### 15.5 Krok 5: Ustalenie posiadanego przez postać doświadczenia
 
 Na etapie "Tworzenia Bohatera" postać może mieć dwa rodzaje doświadczenia: doświadczenie początkowe i doświadczenie normalne. Wpierw należy ustalić ile postać będzie miała doświadczenia początkowego, a następnie ile będzie miała doświadczenia normalnego.
 
@@ -6,7 +6,7 @@ Doświadczenie początkowe to doświadczenie wynikające z głębokiej natury po
 
 Za doświadczenie początkowe postać może nabyć specjalne zdolności: kulturowe i wrodzone. Są to zdolności stosunkowo "lepsze" od pozostałych. Zdolności grupy wrodzony i pochodzenia postać może nabyć tylko i wyłącznie na etapie Tworzenia Bohatera, a później stają się one dla niej już na zawsze niedostępne (chyba, że stanie się jakiś niezwykły cud, ale takie nawet w światach fantasy nie powinny się zdarzać). Trzeba zwrócić tu uwagę, że niektóre z tych zdolności są "iście bohaterskie" tj. nie powinny być dostępne powszechnie i MG nie powinien tworzyć wielu BN-ów posiadających takie zdolności. Z zasady każda postać, która posiada zdolności bohaterskie jest kimś więcej niż tylko zwykłą postacią, chociaż nie każdy bohater musi mieć jakieś bohaterskie zdolności.
 
-Jeżeli postać nie wykorzysta wszystkich dostępnych jej punktów doświadczenia początkowego, to wszystkie niezużyte punkty stają się doświadczeniem normalnym.
+<ins>Jeżeli postać nie wykorzysta wszystkich dostępnych jej punktów doświadczenia początkowego, to wszystkie niezużyte punkty stają się doświadczeniem normalnym.</ins>
 
 Doświadczenie normalne to doświadczenie wynikające z życia jakie ma za sobą postać. Każda dorosła postać zdobywa 20 000 punktów doświadczenia za swe dotychczasowe życie, niezależnie od tego ile realnie lat przeżyła (elfy, czy krasnoludy uczą się wolniej od ludzi, gdyż nie muszą się tak śpieszyć z nauką). Postać otrzymuje również wszystkie punkty doświadczenia, które nie zostały wykorzystane z doświadczenia początkowego.
 

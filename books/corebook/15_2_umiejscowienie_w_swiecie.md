@@ -1,8 +1,10 @@
-### Krok 2: Umiejscowienie w świecie
+### 15.2 Krok 2: Umiejscowienie w świecie
 
 Każdy skądś pochodzi i wychował się w jakichś warunkach. Możliwe, że Twoja postać nie pamięta swego dzieciństwa lub straciła pamięć (amnestia jest popularna w światach fantasy i telenowelach brazylijskich), ale i tak musi skądś pochodzić, nawet jeżeli jej żywot jest efektem magicznego eksperymentu.
 
 Pierwszą korzyścią z wyboru regionu pochodzenia postaci jest otrzymanie "darmowego" języka, który jest charakterystyczny dla danego regionu. Drugą korzyścią jest możliwość przeprowadzania wszystkich testów znajomości związanych z regionem, a trzecią dostęp do specjalnej listy zdolności, którą postać będzie mogła zakupić za doświadczenie początkowe.
+
+### LISTA REGIONÓW POCHODZENIA
 
 #### Enklawa Leśnego Ludu
 
@@ -38,7 +40,7 @@ Pozycja społeczna
 
 #### Siegvaard
 
-Państwo federacyjne na północ od Gór Środka Świata i na południe od Morza Północnego. W Siegvaardzie żyją głównie ludzie, a z uwagi na wielkie wpływy religii Mymkrafta panuje tu powszechna ksenofobia, rasizm i seksizm. Codziennością są polowania na czarownice, ale  w tej nieprzyjaznej dla obcych krainie jest również miejsce na honor, wolę poświęcenia siebie dla dobra wspólnego, oddanie cesarzowi i nieustępliwość wobec zła.
+Państwo federacyjne na północ od Gór Środka Świata i na południe od Morza Północnego. W Siegvaardzie żyją głównie ludzie, a z uwagi na wielkie wpływy religii Mymkrafta panuje tu powszechna ksenofobia, rasizm i seksizm. Codziennością są polowania na czarownice, ale w tej nieprzyjaznej dla obcych krainie jest również miejsce na honor, wolę poświęcenia siebie dla dobra wspólnego, oddanie cesarzowi i nieustępliwość wobec zła.
 
 Rasy
 : Człowiek elidiończyk oraz kreol (elidiończyk-lantańczyk), elflin (elidiończyk oraz kreol elidiończyk-lantańczyk).

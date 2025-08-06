@@ -1,4 +1,4 @@
-### Umiejętności specjalne {data-children-id-prefix=umiejetnosc-specjalna}
+### 6.3 Umiejętności specjalne {data-children-id-prefix=umiejetnosc-specjalna}
 
 Specjalne umiejętności różnią od pozostałych umiejętności tym, że mają specjalne warunki początkowe ich rozwijania lub przeprowadzenia ich testów. 
 
@@ -45,7 +45,7 @@ Umiejętność gry na instrumentach dzieli się na trzy dyscypliny, które nale�
 | 71-80        | Bardzo dobry | 200                               |
 | 81+          | Rewelacyjny  | 1000                              |
 
-^1^ Przy uzyskanej kwocie dóbr należy wziąć pod uwagę ilość i majętność osób, które będą oceniały występy. Powyższe kwoty dotyczą  średniego miasteczka ze średnio zamożnymi mieszkańcami, którzy w średnio ruchliwym miejscu poświęcają kilka chwil na oglądanie występu. {.table-footnotes}
+^1^ Przy uzyskanej kwocie dóbr należy wziąć pod uwagę ilość i majętność osób, które będą oceniały występy. Powyższe kwoty dotyczą średniego miasteczka ze średnio zamożnymi mieszkańcami, którzy w średnio ruchliwym miejscu poświęcają kilka chwil na oglądanie występu. {.table-footnotes}
 
 ##### Bębny
 
@@ -124,7 +124,7 @@ Opatrywanie
 : Jeżeli postać ma bandaże, igły i nici do szycia ciała, etc. to może spróbować opatrzyć inną postać lub siebie samą. Opatrzenie draśnięć to ST = 20, a ran to 10 + 10 x rany. Czas potrzebny do opatrzenia obrażeń to ok. 10 minut, a do opatrzenia każdej rany to 20 minut. Każde draśnięcie i każdą ranę należy opatrywać oddzielnie.
 
 Regenerowanie punktów życia
-: Regenerować się mogą tylko opatrzone rany niezależnie od tego, czy są one draśnięciami, czy ranami poważnymi. Codziennie postaci regeneruje się wartość 1/4 wytrwałości straconych punktów życia lub 1/2 jeżeli postać cały dzień poświęca na odpoczynek i nie wykonuje żadnych męczących czynności, a poza tym jest dobrze odżywiona. Gdy już wszystkie punkty życia postaci, które straciła w wyniku obrażeń zostały zregenerowane, zaczynają się regenerować rany. Jeżeli postać cały  dzień odpoczywa, to regeneruje 1 ranę tzn. mija wyczerpanie z nią związane. Całodniowe leczenie postaci, która spełnia powyższe warunki pozwala na przeprowadzenie testu o ST = 25 + 10 x rany postaci. Sukces oznacza, że dodatkowo wyleczono postaci 1/2 wytrwałości utraconych punktów życia. 
+: Regenerować się mogą tylko opatrzone rany niezależnie od tego, czy są one draśnięciami, czy ranami poważnymi. Codziennie postaci regeneruje się wartość 1/4 wytrwałości straconych punktów życia lub 1/2 jeżeli postać cały dzień poświęca na odpoczynek i nie wykonuje żadnych męczących czynności, a poza tym jest dobrze odżywiona. Gdy już wszystkie punkty życia postaci, które straciła w wyniku obrażeń zostały zregenerowane, zaczynają się regenerować rany. Jeżeli postać cały dzień odpoczywa, to regeneruje 1 ranę tzn. mija wyczerpanie z nią związane. Całodniowe leczenie postaci, która spełnia powyższe warunki pozwala na przeprowadzenie testu o ST = 25 + 10 x rany postaci. Sukces oznacza, że dodatkowo wyleczono postaci 1/2 wytrwałości utraconych punktów życia. 
 
 Torturowanie
 : Ten kto umie uśmierzać ból potrafi go także zadawać. W przypadku torturowania kogoś postać musi zadać mu jakieś obrażenia posiadanymi przez siebie narzędziami (lub swym ciałem). Należy przeprowadzić test leczenia, a przy wyniku uwzględnić modyfikator -30. Wynik pomniejszy obrażenia zadane postaci, ale pozostawi ból, który jest równy zadanym obrażeniom, a które to będą teraz ST testu opanowania torturowanego. Kolejna runda zadawania bólu wygląda tak samo z tym, że torturowany otrzymuje do ST opanowania połowę sumy uprzednio zadanych obrażeń. Jeżeli w pewnym momencie nie zda testu to się złamie i będzie śpiewał. 
@@ -140,7 +140,58 @@ Atrybut
 Zdolności premiowe
 : Intuicyjna mana, Odnowa many, Skrócona medytacja
 
-Jest to umiejętność wyzwalania z siebie many w celu wykorzystania jakiegoś wzorca lub połączenia z jakimś wzorcem. Postać może rozwijać tę umiejętność tylko, gdy posiada zdolność Magia we krwi. Samo skorzystanie z tej umiejętności może w niektórych przypadkach nie wymagać posiadania wspomnianej zdolności, ale przypadki te są wyraźnie wskazane w swoich opisach.
+Jest to umiejętność panowania nad wzorcem, którą wykorzystuje się w celu wpłynięcia na dany określnik magii. Postać może rozwijać tę umiejętność tylko, gdy posiada zdolność Magia we krwi. Samo skorzystanie z tej umiejętności może w niektórych przypadkach nie wymagać posiadania wspomnianej zdolności, ale przypadki te są wyraźnie wskazane w swoich opisach.
+
+Moc magiczna występuje w siedmiu wariantach, które stanowią samodzielne umiejętności, a którymi są: eter, ogień, powietrze, umysł, woda, ziemia i życie. Każdy wariant umiejętności mocy magicznej jest umiejętnością niezależną od pozostałych, z własnymi zdolnościami premiowymi, specjalizacjami, premiami itp.
+
+#### Eter
+
+Splata wątki magiczne które zapewniają panowanie nad dźwiękami i cieniami, a także różnymi niematerialnymi oddziaływaniami. 
+
+Zdolności premiowe
+:
+
+#### Ogień
+
+Jeden z podstawowych klas określników żywiołów, który zapewnia panowanie nad płomieniami i światłem.
+
+Zdolności premiowe
+:
+
+#### Powietrze
+
+Żywioł powietrza to wiatr i błyskawice, a ogólnie wszelkie zdarzenia, które dzieją się na niebie i oddziałują na obszar pod niebem.
+
+Zdolności premiowe
+:
+
+#### Umysł
+
+Obejmuje magię dotyczącą myśli i ducha, a ogólnie zjawisk nie fizycznych, które oddziałują ze światem fizycznym w sposób emergentny lub metafizyczny.
+
+Zdolności premiowe
+:
+
+#### Woda
+
+Żywioł wody zawiera w sobie panowanie nad chłodem i cieczami, a także wywoływanie efektów w środowisku wodnym.
+
+Zdolności premiowe
+:
+
+#### Ziemia
+
+Jeden z podstawowych żywiołów zapewniający kontrolę nad ogólnie rozumianymi skałami i metalami. Obszar działania tej klasy określników zwykle dotyczy gruntu i tego co pod gruntem.
+
+Zdolności premiowe
+:
+
+#### Życie
+Panowanie nad organizmami żywymi, a także częściami składowymi organizmów oraz pozostałościami po nich.
+
+Zdolności premiowe
+:
+
 
 #### Nawigacja
 
@@ -198,7 +249,7 @@ Synergia do i od
 Zdolności premiowe
 : Oszczędna praca, Szybka praca, Zaawansowana naprawa. 
 
-Praca to nazwa zbiorcza na umiejętności związane z usługami i rzemiosłem. Każdą z poniższych dyscyplin postać winna rozwijać niezależnie. W istocie dziedziny pracy służą przede wszystkim zwykłym osobom do tego, aby zarabiać na swoje utrzymanie w zamian za rożne świadczenia. Bohaterzy będą prawdopodobnie potrzebowali innych umiejętności, niż te tu opisane, ale jeżeli w wolnym od przygód czasie będą chcieli zająć się czymś pożytecznym, to wymienione tu rodzaje prac na pewno im w tym pomogą  Nie zostały wskazane tu rodzaje synergii. MG winien pozwalać dokonywać synergii w sytuacjach, gdy jakieś umiejętności ze sobą współdziałają np. rymarstwo pomaga płatnerzowi zrobić zbroję dla konia, zaś garbarstwo pomoże introligatorowi wykonać księgę ze skóry. W nawiasach wpisano domyślne atrybuty dla danych rodzajów prac. 
+Praca to nazwa zbiorcza na umiejętności związane z usługami i rzemiosłem. Każdą z poniższych dyscyplin postać winna rozwijać niezależnie. W istocie dziedziny pracy służą przede wszystkim zwykłym osobom do tego, aby zarabiać na swoje utrzymanie w zamian za rożne świadczenia. Bohaterzy będą prawdopodobnie potrzebowali innych umiejętności, niż te tu opisane, ale jeżeli w wolnym od przygód czasie będą chcieli zająć się czymś pożytecznym, to wymienione tu rodzaje prac na pewno im w tym pomogą. Nie zostały wskazane tu rodzaje synergii. MG winien pozwalać dokonywać synergii w sytuacjach, gdy jakieś umiejętności ze sobą współdziałają np. rymarstwo pomaga płatnerzowi zrobić zbroję dla konia, zaś garbarstwo pomoże introligatorowi wykonać księgę ze skóry. W nawiasach wpisano domyślne atrybuty dla danych rodzajów prac. 
 
 Introligatorstwo (In), Garbarstwo (Zr), Gotowanie (Pe), Górnictwo (Si), Jubilerstwo (Pe), Hodowla zwierząt (Pe), Kamieniarstwo (Zr), Kartografia (Pe), Kowalstwo (Zr), Pirotechnika (In), Piwowarstwo (Pe), Płatnerstwo (Zr), Rymarstwo (In), Stolarstwo (Zr), Szkutnictwo (In), Tkactwo (Zr), Uprawa roli (Pe), Warzenie mikstur (In), Zbrojmistrzostwo (Zr), Żeglarstwo (Pe).
 
@@ -255,7 +306,53 @@ Atrybut
 Synergia od
 : Wiedza: Tajemna.
 
-Rzucanie czarów to umiejętność splatania ze sobą wzoru do postaci zaklęcia. Postać może skorzystać i rozwijać tę umiejętności tylko wtedy, gdy zna przynajmniej jeden język magii w stopniu całkowitym tj. posiada wszystkie możliwe punkty znajomości języka na poziomie zaawansowanym.
+Rzucanie czarów to umiejętność splatania ze sobą wzoru do postaci zaklęcia. Postać może skorzystać i rozwijać tę umiejętności tylko wtedy, gdy zna język tajemny w stopniu całkowitym tj. posiada wszystkie możliwe punkty znajomości języka na poziomie zaawansowanym. Każdy język tajemny to oddzielna umiejętność rzucania czarów, którą można rozwijać dopiero po opanowaniu nazywającego się w ten sam sposób języka magii.
+
+Rzucanie czarów występuje w wielu wariantach, które stanowią samodzielne umiejętności, a którymi mogą być dowolne języki tajemne, z których najpopularniejszymi językami są: Elementalik, Gyyz, Haetal, Język Chaosu, Mowa mroku, Runiczny, Smoczy, Staroelficki oraz Wiedźmiński. Każdy wariant umiejętności rzucania czarów jest umiejętnością niezależną od pozostałych, z własnymi zdolnościami premiowymi, specjalizacjami, premiami itp. Z każdym wariantem tej umiejętności wiążą się podstawowe premie +10 lub kary -10 do testu rzucania czarów, gdy dotyczą konkretnego rodzaju magii, a dla pozostałych niewymienionych rodzajów magii dany język jest neutralny, więc nie zapewnia kar lub premii.
+
+##### Elementalik
+
+Język Riah’ard Hariqma’an spisywany w alfabecie nabeth. Wykorzystywany przez magów i mistyków z Jaf’Ard i Tihar, chociaż i na Sacterze można spotkać wykonywane za jego pomocą rytuały. Zapewnia premię +10 do testów rzucania czarów operujących na rodzajach magii Ewokacyjnej i Inwokacyjnej oraz karę -10 rodzajów magii Kognicyjnej i Negacyjnej.
+Zdolności premiowe:
+
+##### Gyyz
+
+Język Geez spisywany jest w alfabecie heriff. Mawia się, że gyyz to język dwóch światów, gdyż z jednej strony w swojej podstawowej formie jest językiem codziennych rytuałów, a w swej zaawansowanej jest źródłem magii i czarów śmierci. Zapewnia premię +10 do testów rzucania czarów operujących na rodzajach magii Kognicyjnej i Zaklinania oraz karę -10 rodzajów magii Imperatywnej i Inwokacyjnej.
+Zdolności premiowe:
+
+##### Haetal
+
+Język spisany jest w alfabecie o tej samej nazwie. Jeden z najstarszych ludzkich języków, który został już niemal całkowicie zapomniany przez wszystkich, prócz magów. Zapewnia premię +10 do testów rzucania czarów operujących na rodzajach magii Kognicyjnej i Transmutacyjnej oraz karę -10 rodzajów magii Ewokacyjnej i Zaklinania.
+Zdolności premiowe:
+
+##### Język Chaosu
+
+Transmutacyjna	Kognicyjna
+
+##### Mowa Mroku
+
+Ewokacyjna, Imperatywna, Zaklinania 	
+Inwokacyjna, Kognicyjna, Transmutacyjna
+
+##### Runiczny
+
+Negacyjna, Zaklinanie	
+Ewokacyjna, Inwokacyjna
+
+##### Smoczy
+
+Ewokacyjna, Inwokacyjna, Transmutacyjna	
+Imperatywna Negacyjna, Zaklinanie
+
+##### Staroelficki
+
+Imperatywna, Kognicyjna, Negacyjna	
+Ewokacyjna, Inwokacyjna, Transmutacyjna
+
+##### Wiedźmiński
+
+Imperatywna	
+Negacyjna
 
 #### Sztuka
 
@@ -288,7 +385,7 @@ Zdolności premiowe
 
 ##### Oratorstwo
 
-Umiejętność snucia opowieści, wygłaszania laudacji i bluzgów, zabawiania w uroczysty sposób swoją mową etc..
+Umiejętność snucia opowieści, wygłaszania laudacji i bluzgów, zabawiania w uroczysty sposób swoją mową etc.
 
 Synergia
 : Dowodzenie, Przekonywanie (perswazja).
@@ -298,7 +395,7 @@ Zdolności premiowe
 
 ##### Pisarstwo
 
-Aby rozwijać tę umiejętność należy wpierw umieć czytać i pisać. Jest to umiejętność pisania poezji, powieści, sztuk teatralnych etc..
+Aby rozwijać tę umiejętność należy wpierw umieć czytać i pisać. Jest to umiejętność pisania poezji, powieści, sztuk teatralnych etc.
 
 Zdolności premiowe
 : Przyswajanie ciekawostek, Rozwinięta wyobraźnia, Spisanie argumentu. 
@@ -380,7 +477,7 @@ Zdolności premiowe
 
 ##### Filozofia
 
-Niegdyś nazwa dla całej wiedzy, a dziś wiedza dotycząca tylko światów różnych od pierwszej sfery. Filozofia dotyczy lub jest: aksjologia, angelologia, bóstwa, demonologia, epistemologia, kościoły, kulty, lingwistyka i logika, moce transcendentne, ontologia.  
+Niegdyś nazwa dla całej wiedzy, a dziś wiedza dotycząca tylko światów różnych od pierwszej sfery. Filozofia dotyczy lub filozofią są następujące dziedziny: aksjologia, angelologia, bóstwa, demonologia, epistemologia, kościoły, kulty, lingwistyka i logika, moce transcendentne, ontologia.  
 
 Synergia do
 : Wszystkie inne dziedziny wiedzy.
@@ -455,10 +552,10 @@ Zdolności premiowe
 
 Umiejętności wykorzystywania informacji pochodzących z danych regionów. W przeciwieństwie do wiedzy znajomość nie wymaga od postaci opanowania sztuki czytania i pisania. Postać ma prawo wykonywać bez kary testy tej umiejętności nawet jeżeli nie posiada 1 poziomu w danej dyscyplinie, ale tylko pod warunkiem, że dotyczą regionu z którego pochodzi i nie dotyczą wyższej znajomości. Wszystkie testy wyższej znajomości postać, która nie ma w nich biegłości wykonuje z karą -10 do testów. Poza tym ta kara kumuluje się z karą za brak 1 poziomu umiejętności, jeżeli chce mieć do nich dostęp postać spoza regionu (wynosi więc ona -30 do testu).
 
-Postać może rozwijać tylko znajomość dotyczącą regionu z którego pochodzi (patrz Umiejscowienie w świecie rozdz tworzenia postaci). Aby móc rozwijać inne znajomości regionów, postać musi uzyskać zdolność Poznanie regionu.
+Postać może rozwijać tylko znajomość dotyczącą regionu z którego pochodzi (patrz rozdz. 15.2 Umiejscowienie w świecie). Aby móc rozwijać inne znajomości regionów, postać musi uzyskać zdolność Poznanie regionu.
 
 W przypadku zdolności premiowych, które należy sprecyzować dla regionu należy wykorzystać opcję regionu dla którego rozwijana jest znajomość.
 
-Podstawowa znajomość dotyczy następujących zagadnień: ballady i pieśni, bohaterowie i legendy,  dzieła artystyczne, przysłowia i powiedzenia, tańce, wierzenia ludowe, wiedza o lokalnej przyrodzie, zabobony, zwyczaje.
+Podstawowa znajomość dotyczy następujących zagadnień: ballady i pieśni, bohaterowie i legendy, dzieła artystyczne, przysłowia i powiedzenia, tańce, wierzenia ludowe, wiedza o lokalnej przyrodzie, zabobony, zwyczaje.
 
 Wyższa znajomość dotyczy następujących zagadnień: administracja, etykieta, heraldyka, historia, literatura, państwo, polityka, prawo, sztuka.

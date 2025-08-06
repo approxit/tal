@@ -18,12 +18,12 @@
 </article>
 <article>
 
-!!!include(corebook/2_0_walka.md)!!!
+!!!include(corebook/2_0_rodzaje_i_rasy.md)!!!
 
 </article>
 <article>
 
-!!!include(corebook/3_0_rodzaje_i_rasy.md)!!!
+!!!include(corebook/3_0_walka.md)!!!
 
 </article>
 
@@ -54,7 +54,7 @@
 </article>
 <article>
 
-!!!include(corebook/9_0_ekwipunek_bojowy.md)!!!
+!!!include(corebook/9_0_orez_i_przedmioty_do_walki.md)!!!
 
 </article>
 <article>

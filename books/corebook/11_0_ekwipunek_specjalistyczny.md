@@ -1,4 +1,6 @@
-## Ekwipunek specjalistyczny
+## Rozdział 11 -  Ekwipunek specjalistyczny
+
+TODO: sekcja nie została sprawdzona
 
 Oprócz broni i ekwipunku powszechnego wyróżnić należy zestaw przedmiotów, który służy do "specjalnych rzeczy" albo jest na tyle zaawansowany, że jego użycie sprowadza się do jakichś konkretnych działań. W konsekwencji za ekwipunek specjalistyczny uważane są przedmioty, które nie są na tyle powszechne, aby wiedza o ich przeznaczeniu, a tym bardziej rozpoznaniu była uważana za powszechną albo są na tyle niecodzienne lub niebezpieczne, że w znakomitej większości miejsc Sorii nielegalne, albo na tyle wskazujące na zainteresowania lub umiejętności posiadacza, że budzące zainteresowanie jego lub jej osobą przez władzę.
 

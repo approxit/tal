@@ -1,4 +1,4 @@
-### Krok 8: Szczęście
+### 15.8 Krok 8: Szczęście
 
 W tym kroku należy ustalić posiadane przez postać punkty szczęścia. Bazowo postać ma maksymalnie dużo punktów szczęścia, czyli tyle ile wynosi wartość jej współczynnika o nazwie "szczęście". 
 

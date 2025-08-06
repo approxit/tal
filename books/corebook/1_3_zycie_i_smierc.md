@@ -1,4 +1,4 @@
-### Życie i śmierć
+### 1.3 Życie i śmierć
 
 Wszystko co żyje może umrzeć, co oznacza zakończenie procesów biologicznych dziejących się w swoistym układzie, który nazywa się organizmem. Za to jak postać jest zdrowa lub jak wiele wysiłku trzeba włożyć w to, aby ją zabić odpowiadają dwie statystyki: życie i wytrwałość.
 

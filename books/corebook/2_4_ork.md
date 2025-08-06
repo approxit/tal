@@ -1,6 +1,8 @@
-### Ork (Orkowie, Orki)
+### 2.4 Ork (Orkowie, Orki)
 
 Orkowie wywodzą się od Orcusa i jemu zawdzięczają swą nazwę. Orcus należał do sidhe (był dawnym elfem), lecz wiekową udręką i pohańbieniem jego istoty pobratymcy uczynili go Pierwszym Orkiem. Dzieci Orcusa podzieliły się z czasem i obecnie wyróżnić można: orogów i uruków. Pierwsi są drowami, a drudzy orkami, którzy nie oddali się w opiekę Myrkurytom. Poza nimi żyją również orklini, którzy są efektem współżycia ludzi i orków (najczęściej zgwałceń ludzkich kobiet, które w niewoli nie były zdolne dokonać dzieciobójstwa).  
+
+<h5>>STATYSTYKI ORKÓW</h5>
 
 Doświadczenie początkowe
 : 2000 punktów.

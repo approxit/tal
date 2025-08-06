@@ -1,4 +1,6 @@
-### Kryształy mocy
+### 11.3 Kryształy mocy
+
+TODO: sekcja nie została sprawdzona
 
 Rzadko można spotkać w świecie kryształy mocy, a jak już się je spotyka, to raczej się je zużywa, a nie sprzedaje. Wszystkie kryształy opisane poniżej ważą po 10 gramów i można je dość łatwo skruszyć w palcach. Osoba, która je skruszy w dłoni lub jakiejkolwiek części ciała (akcja zwykła) wyzwala efekt danego kryształu, a jeżeli dotyczy on osoby, to sama staje się jego podmiotem.
 

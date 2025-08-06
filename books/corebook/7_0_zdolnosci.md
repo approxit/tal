@@ -1,4 +1,6 @@
-## Zdolności
+## Rozdział 7 - Zdolności
+
+TODO: zmienić wszystkie zdolności.
 
 W mechanice gry zdolnościami nazywamy specjalne moce lub inaczej talenty, które posiada postać. Zdolności mogą być najróżniejszych rodzajów, od tych związanych z walką, przez te wynikających z wychowania, do tych będących efektem uprawiania magii lub rozwoju swego ducha. 
 

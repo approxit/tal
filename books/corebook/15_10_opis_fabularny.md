@@ -1,4 +1,4 @@
-### Krok 10: Opis fabularny postaci
+### 15.10 Krok 10: Opis fabularny postaci
 
 Ostatni krok wymaga największej dawki wyobraźni, gdyż na niego składają się wszystkie poprzednie kroki. Mechaniczne Tworzenie Bohatera w tym miejscu się kończy i trzeba teraz Śmiałka opisać w sposób fabularny. Ale cóż opisać? W zasadzie wszystko, a najlepiej opisać fabularnie poprzednie życie postaci, czyli w zasadzie to, co zawierały poprzednie kroki. Gdy ten etap się zakończy Bohater otrzyma "duszę" - swoją indywidualność.
 

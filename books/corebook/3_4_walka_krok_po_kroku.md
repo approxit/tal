@@ -1,4 +1,4 @@
-### Walka - krok po kroku
+### 3.4 Walka - krok po kroku
 
 W niniejszym podrozdziale została opisana sekwencja walki krok po kroku, czyli tak jak ona wygląda od rozpoczęcia do zakończenia. Walką nazywane jest starcie zbrojne przynajmniej dwóch postaci, które rozpoczyna się w momencie, gdy któraś strona zostanie zaatakowana. Mechanicznie można rozdzielić dwa rodzaje walk - pojedynek i bitwę. Różnica polega na tym, że w pojedynku uczestniczą dwie postacie, a w bitwie wiele postaci. Domyślnie każde starcie jest bitwą, a MG zasad pojedynku powinien używać tylko przy specjalnych okazjach, gdyż wymagają one większej ilości rzutów, co przekłada się na wydłużenie takiego starcia, a poza tym wymaga kontrolowania większej ilości rzeczy. Dla wygody i płynności rozgrywki poleca się stosowanie zasad bitwy.
 
