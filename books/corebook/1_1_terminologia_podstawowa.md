@@ -152,7 +152,11 @@ Rasami możliwymi do odgrywania przez Graczy są: elfowie, jorowie, krasnoludowi
 
 #### Runda i tura
 
-Runda jest to upływ 6 sekund czasu w świecie gry. Moment w rundzie, od kiedy postać zaczyna swe akcje do momentu kiedy je zakończy nazywa się turą.
+Runda
+: To upływ 6 sekund czasu w świecie gry.
+
+Tura
+: To moment w rundzie, od kiedy postać zaczyna swe akcje do momentu kiedy je zakończy.
 
 #### Stopień trudności
 
