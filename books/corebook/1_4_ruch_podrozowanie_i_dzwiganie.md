@@ -60,7 +60,7 @@ Pływanie
 Postać płynąca w sposób normalny pokonuje dystans równy swojej szybkości w ciągu 6 sekund. Dzięki umiejętności można przyśpieszyć ten sposób poruszania się.
 
 Skakanie
-: Jeżeli postać się odpowiednio rozpędzi, to może skoczyć w dal na tyle metrów ile wynosi jej 1/2 szybkość. W wzwyż postać może skoczyć na tyle ile wynosi 1/5 jej szybkości. Dzięki akrobatyce można zwiększyć te długości i wysokości. Skakanie należy liczyć jako część ruchu w walce tj. poświęcić na niego tyle akcji ile poświęca się na ruch, którego skakanie jest częścią. Patrz również akrobatyka.
+: Jeżeli postać się odpowiednio rozpędzi, to może skoczyć w dal na tyle metrów ile wynosi jej 1/2 szybkości. W wzwyż postać może skoczyć na tyle ile wynosi 1/5 jej szybkości. Dzięki akrobatyce można zwiększyć te długości i wysokości. Skakanie należy liczyć jako część ruchu w walce tj. poświęcić na niego tyle akcji ile poświęca się na ruch, którego skakanie jest częścią. Patrz również akrobatyka.
 
 Wspinaczka
 : Wdrapywanie się po stromych zboczach, wchodzenie po linie itp. Z zasady każda postać, która potrafi chodzić potrafi się również wspinać. Postać w ciągu 6 sekund wspina się na wysokość równą 1/4 szybkości (w metrach). W przypadku walki wspinanie się wymaga poświęcenia akcji cało-rundowych. Postać może jednak dzięki umiejętności wysportowania przyśpieszyć ten sposób poruszania się.
