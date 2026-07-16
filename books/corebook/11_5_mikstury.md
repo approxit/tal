@@ -1,5 +1,7 @@
 ### Mikstury
 
+TODO: sekcja nie została sprawdzona
+
 Wszystkie mikstury są sprzedawane w dawkach po 10 ml, a opisane efekty właśnie dotyczą tych dawek. W cenie każdej z mikstur zawarta jest cena fiolki (przy mistrzowskich miksturach są mistrzowskie fiolki, przy dobrych dobre fiolki itd.), w której się ją przechowuje. Wiele mikstur można jednak zlać do większych pojemników, co może okazać się niekiedy praktyczne. Większość mikstur robiona jest na bazie alkoholu etylowego.
 
 Nie wszystkie mikstury działają jednak bez zarzutów, gdyż po pewnym czasie mogą stracić swe pożądane właściwości, albo zostać wykonane w nieudolny sposób. Jeżeli nawet pożądane właściwości mikstury nie działają, to zawsze istnieje możliwość alchemicznego zatrucia się nimi. 

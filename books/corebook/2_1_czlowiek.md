@@ -22,7 +22,7 @@ Różnorodność
 #### Elidiończyk (Elidiończycy)
 
 Występowanie
-: Carphetia, Civitas (Imperium),  Elidion, Erxen, Rimtal, Siegvaard i Środkowe Królestwa.
+: Carphetia, Civitas (Imperium), Elidion, Erxen, Rimtal, Siegvaard i Środkowe Królestwa.
 
 Cechy elidiończyków
 : Chłodna ziemia, Dobra karma, Mieszana natura, Przystosowanie kulturowe, Rozwinięcie i Różnorodność.
@@ -79,7 +79,7 @@ Cechy nubów
 : Dobra karma, Doskonała fizyczność, Duch Nubii, , Ponadprzeciętna siła, Rozwinięcie i Różnorodność.
 
 Doskonała fizyczność
-: Bohaterowie Nubów mają imponujące możliwości fizyczne. Otrzymują oni premię +4 do umiejętności: akrobatyki, krzepy, wysiłku i wysportowania.  [Tylko dla Bohaterów]
+: Bohaterowie Nubów mają imponujące możliwości fizyczne. Otrzymują oni premię +4 do umiejętności: akrobatyki, krzepy, wysiłku i wysportowania. [Tylko dla Bohaterów]
 
 Duchy Nubii
 : Nubowie otrzymali swój wzór na zmiennych ziemiach Nubii. Otrzymują oni premię +2 do wytrwałości na potrzeby opierania się efektom chłodu i gorąca. 
@@ -135,7 +135,7 @@ Oraz dwie z następujących (opisy powyżej)
 Elflin, inaczej półelf, to potomek człowieka i elfa, który łączy cechy dwóch ras. W zasadzie jest to jednak człowiek i bazowo korzysta z cech swego ludzkiego przodka. W języku mechaniki elflin należy do ras wyższego rodzaju.
 
 Tworzenie elflina
-: Należy wybrać bazową ludzką rasę tj. elidiończyka, gvarina, lantańczyka, nuba, shouna, wallosa lub kreola (połączenie cech przynajmniej dwóch ludzkich ras), a następnie nabyć za doświadczenie początkowe zdolność: kropla krwi, a dalej zdolność elflin od jednego do trzech razy. W konsekwencji może powstać elflin pierwszego, drugiego lub trzeciego stopnia
+: Należy wybrać bazową ludzką rasę tj. elidiończyka, gvarina, lantańczyka, nuba, shouna, wallosa lub kreola (połączenie cech przynajmniej dwóch ludzkich ras), a następnie nabyć za doświadczenie początkowe zdolność: kropla krwi, a dalej zdolność elflin od jednego do trzech razy. W konsekwencji może powstać elflin pierwszego, drugiego lub trzeciego stopnia.
 
 ##### Elflin pierwszego stopnia
 

@@ -86,7 +86,7 @@ Korzyść
 
 #### Dobry duch
 
-No nie da się... Po prostu się nie da Ciebie skrzywdzić. Każdy pijus da sobie spokój. Szukający zaczepki jakimś cudem ciebie omijają. Po prostu masz szczęście do ludzi  
+No nie da się... Po prostu się nie da Ciebie skrzywdzić. Każdy pijus da sobie spokój. Szukający zaczepki jakimś cudem ciebie omijają. Po prostu masz szczęście do ludzi.
 
 Wymagania
 : Cecha dodatkowa: brak jakichkolwiek cech dodatkowych powodujących zrażanie do siebie osób oraz szaleństw.
@@ -173,7 +173,6 @@ Wymagania
 
 Korzyść
 : Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca.
-
 #### Farciarz
 
 Masz fart. Masz fart jak mało kto. Jesteś przesądny i wierzysz w fatum... a co najdziwniejsze, zdajesz się mieć rację.
@@ -396,7 +395,7 @@ Korzyść
 Nie można powiedzieć, że jesteś słabeuszem. Tam, gdzie dziesięciu innych padnie na pysk od uderzeń, Ty pójdziesz dalej.
 
 Korzyść
-: Premia +10 do  życia.
+: Premia +10 do życia.
 
 #### Przeznaczony do wielkości
 

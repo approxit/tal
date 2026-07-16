@@ -1,5 +1,7 @@
 ### Kryształy mocy
 
+TODO: sekcja nie została sprawdzona
+
 Rzadko można spotkać w świecie kryształy mocy, a jak już się je spotyka, to raczej się je zużywa, a nie sprzedaje. Wszystkie kryształy opisane poniżej ważą po 10 gramów i można je dość łatwo skruszyć w palcach. Osoba, która je skruszy w dłoni lub jakiejkolwiek części ciała (akcja zwykła) wyzwala efekt danego kryształu, a jeżeli dotyczy on osoby, to sama staje się jego podmiotem.
 
 Jakość kryształu przekłada się na szansę jego działania. Wiele kryształów, które wykuto ma niewiele mocy, która była im pierwotna. Świeżo wykuty kawałek kryształu ma zawsze cenę i jakość mistrzowskiego, a z każdym kolejnym rokiem jego moc spada o kategorię, gdyż wzorzec żyły mocy, o którą zostało oparte stworzenie kryształu szybko ulega zniszczeniu. Jakość kryształu nigdy nie spadnie poniżej poziomu fatalnego, więc zawsze pozostanie szansa, że zadziała.

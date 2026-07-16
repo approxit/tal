@@ -6,7 +6,7 @@ Zwykle ubogie osoby mają przez większość swego życia jedne odzienie, a maj�
 
 Ubrania służą nie tylko do tego, aby ukrywać swą nagość, ale również do tego, aby nie odczuwać skutków negatywnej pogody, a przede wszystkim zimna. W opisie danych strojów opisano jaki zapewniają modyfikator do odporności na chłód przez informację. Jeżeli nie ma informacji o odporności na chłód zapewnianej przez strój, to należy przyjąć, że jeżeli postać ma kompletne ubranie (buty, spodnie, okrycie torsu) to otrzymuje premię +4 do odporności na chłód lub +8, gdy większa cześć stroju jest z wełny, futer lub skóry, a gdy ubranie jest w większości zrobione z jedwabiu lub lnu to zapewnia premię +4 do odporności na gorąco.
 
-Jakość ubrań przekłada się na ich wygląd i solidność. Im ubranie jest lepszej jakości, tym  mniejsza jest szansa, że się popsuje, a poza tym zawsze jest wyznacznikiem statusu danej osoby. Lepszej jakości ubrania zawsze są lepiej ozdobione i staranniej wykonane. Większość osób nosi tkaniny w takich kolorach, w jakich występują naturalnie, gdyż barwniki mają swoje ceny. To zwykle kolor ubrania jest w pierwszej kolejności tym, co informuje postacie z kim mają do czynienia. Ubrania lepszej jakości mogą być w kolorystyce odpowiednio tańszych strojów.
+Jakość ubrań przekłada się na ich wygląd i solidność. Im ubranie jest lepszej jakości, tym mniejsza jest szansa, że się popsuje, a poza tym zawsze jest wyznacznikiem statusu danej osoby. Lepszej jakości ubrania zawsze są lepiej ozdobione i staranniej wykonane. Większość osób nosi tkaniny w takich kolorach, w jakich występują naturalnie, gdyż barwniki mają swoje ceny. To zwykle kolor ubrania jest w pierwszej kolejności tym, co informuje postacie z kim mają do czynienia. Ubrania lepszej jakości mogą być w kolorystyce odpowiednio tańszych strojów.
 
 [Stosunek jakości do ceny ubrań]
 | Jakość      | Wartość | Zwykle noszona przez...   | Kolory |
@@ -40,6 +40,9 @@ Materiały z których zrobione są ubrania zależą od regionu. Ogólnie krawcy 
 ^1^ Wartość sztuki średniej wielkości zwierzęcia {.table-footnotes}
 
 [Tkaniny]
+
+Poniżej przedstawiono wartość czystego i świeżego materiału jaki można nabyć.
+
 | Nazwa          | Wartość 1 m^2^ |
 | -------------- | -------------- | 
 | Aksamit        |  600           |
@@ -242,4 +245,4 @@ Kawałek materiału, który służy głównie do ozdoby, ale można nim utrzyma�
 ##### Sznurek paskowy
 
 Waga: n/d; Wartość: 15
-Zwykły sznurek służący do tego, aby przewiązać się w pasie. 
+Zwykły sznurek służący do tego, aby przewiązać się w pasie.

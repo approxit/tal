@@ -1,5 +1,7 @@
 ## Zwierzęta i słudzy
 
+TODO: sekcja nie została sprawdzona
+
 W tym rozdziale opisani zostali żywi towarzysze poszukiwaczy przygód i innych śmiertelników.
 
 ### Konie

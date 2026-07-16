@@ -4,7 +4,7 @@ W tym rozdziale zostaną zaprezentowane przedmioty, które często można spotka
 
 !!!include(10_1_szybkie_zakupy.md)!!!
 
-!!!include(10_2_przedmioty_ogolne.md)!!!
+!!!include(10_2_przedmioty_zwykle.md)!!!
 
 !!!include(10_3_ubrania_i_stroje.md)!!!
 

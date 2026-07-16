@@ -1,5 +1,7 @@
 ## Z wizytą w karczmie
 
+TODO: sekcja nie została sprawdzona
+
 Karczma to miejsce w którym często rozpoczynają się przygody i często także się kończą. Postacie będące ciągle w podróży i nie mogące zawitać do swego rodzinnego domu (jeżeli taki posiadają) zwykle najbardziej podstawowe potrzeby (jak jedzenie i spanie) załatwiają właśnie w karczmach. 
 
 W różnych zakątkach Sorii karczmy wyglądają inaczej, nie tylko z uwagi na swą architekturę, ale również z uwagi na oferowane usługi. Niektóre rasy nawet nie mają czegoś takiego jak karczma e ludzkim rozumieniu, ale w takich sytuacjach chata lub siedziba jednego z członków społeczności może przez podróżnych być zinterpretowaną jako karczma - czyli miejsce, gdzie będzie im dane zjeść i wyspać się lub gdzie będzie toczyło się to najbardziej podstawowe życie. 
@@ -122,4 +124,4 @@ Nocleg
 : Nocowanie w najlepszych przybytkach wiąże się z wynajęciem odpowiedniego apartamentu i służących, jeżeli takich się samemu nie posiada. W apartamentach można się umyć, ogolić, oddać rzeczy do prania i naprawy, a do karczmy zajść, aby skorzystać z sauny lub tym podobnych udogodnień. Cena: 600 + napiwki za każdy dzień wynajmowania apartamentu, który składa się przynajmniej z 3 pokoi, w tym jednego przeznaczonego dla służby. W ramach noclegu oferowane są także usługi oferowane przez stajnię, chociaż naprawa pojazdów i podkucie koni może być policzone oddzielnie, jeżeli jest wymagane.  
 
 Przedstawienia i artyści
-: Aby goście się nie nudzili, to w ciągu dnia jest realizowany cały program artystyczny. W ciągu pory obiadowej zwykle występują śpiewacy, by po południu móc przy napitku pooglądać tańce lub wysłuchać recytacji poetyckiej. Wieczorem zaś po kolacji można obejrzeć sztukę akrobatyczną lub teatralną, bądź też wysłuchać koncertu. Te usługi artystyczne zwykle są organizowane z okolicznymi teatrami i ewentualnie do nich zaprasza się gości. Cena: w zależności od repertuaru i własnych zainteresowań oglądania przedstawień lub innego spędzania czasu. Zwykle koszt uczestnictwa w sztukach wynosi powyżej 500. 
+: Aby goście się nie nudzili, to w ciągu dnia jest realizowany cały program artystyczny. W ciągu pory obiadowej zwykle występują śpiewacy, by po południu móc przy napitku pooglądać tańce lub wysłuchać recytacji poetyckiej. Wieczorem zaś po kolacji można obejrzeć sztukę akrobatyczną lub teatralną, bądź też wysłuchać koncertu. Te usługi artystyczne zwykle są organizowane z okolicznymi teatrami i ewentualnie do nich zaprasza się gości. Cena: w zależności od repertuaru i własnych zainteresowań oglądania przedstawień lub innego spędzania czasu. Zwykle koszt uczestnictwa w sztukach wynosi powyżej 500.

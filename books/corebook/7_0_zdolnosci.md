@@ -1,5 +1,7 @@
 ## Zdolności
 
+TODO: zmienić wszystkie zdolności.
+
 W mechanice gry zdolnościami nazywamy specjalne moce lub inaczej talenty, które posiada postać. Zdolności mogą być najróżniejszych rodzajów, od tych związanych z walką, przez te wynikających z wychowania, do tych będących efektem uprawiania magii lub rozwoju swego ducha. 
 
 Niektóre zdolności są lepsze od pozostałych, co widać na pierwszy rzut oka. Zasadnym jest więc, aby Gracz wybierał dla swej postaci tylko te zdolności, które w jej perspektywie okażą się przydane. Nie istnieje obowiązek posiadania zdolności innych od tego, który stwarzają realia gry i chęć dania swojemu ulubieńcowi (Bohaterowi Gracza) możliwości przetrwania kolejnej przygody. 

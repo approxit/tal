@@ -1,5 +1,7 @@
 ### Monety i metale szlachetne
 
+TODO: sekcja nie została sprawdzona
+
 #### Siegvaardzkie monety
 
 Na awersie korony znajduje się zwykle twarz księcia, który władał landem w czasie wybicia monety, a na rewersie znajduje się herb landu. Szylingi na rewersie mają herb landu, a na awersie herb miasta w którym zostały wybite lub herb rodu szlacheckiego, który monetę wybił. Korony zwykło się wybijać ze złota, szylingi ze srebra, a grosze z miedzi. 

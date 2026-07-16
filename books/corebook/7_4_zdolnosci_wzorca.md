@@ -1,5 +1,7 @@
 ### Zdolności wzorca {data-children-id-prefix=zdolnosc-wzorca}
 
+TODO: przejrzeć tę sekcję.
+
 Zdolności opisane w tym podrozdziale skupiają się na wzorcu postaci. Zdolności te są dostępne tylko dla postaci, które na wcześniejszym etapie wybrały jakieś wrodzone zdolności, które pozwalają im rozwijać wzorzec. Zdolności wzorca należą do "lepszych" zdolności, lecz (prawie) wszystkie wymagają magicznego dostrojenia, a więc zużywają bezpowrotnie (zdolności nie można się samodzielnie pozbyć!) punkty many. Postać powinna dobrze przemyśleć wybór tych zdolności, gdyż w przypadku wzięcia ich zbyt wielu nie będzie zdolna do korzystania z many w ogóle, a nie tylko czarodzieje z niej korzystają. 
 
 Poza tym, aby móc wziąć dowolną ze zdolności wzorca postać musi przynajmniej w małym stopniu mieć pojęcie o magii i tym jak magia na nią bezpośrednio działa. Oznacza to, że postać musi mieć przynajmniej tyle poziomów umiejętności wiedza tajemna ile ma wybranych zdolności wzorca. Aby więc móc wziąć pierwszą zdolność postać musi mieć przynajmniej pierwszy poziom tej umiejętności, a przy wzięciu piątej zdolności musi mieć przynajmniej piąty poziom umiejętności. Poza tym wzięcie dowolnej z umiejętności znajdującej się na liście zdolności wzorca wymaga spełnienia specjalnych wymagań z nią związanych.

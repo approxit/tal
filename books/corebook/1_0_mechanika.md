@@ -1,5 +1,7 @@
 ## Mechanika
 
+TODO: dodać automatyczne numerowanie podrozdziałów (np. by było "1.2 Świat przygód" zamiast "Świat przygód".
+
 W rozdziale tym pojawia się opis podstawowej terminologii stosowanej w grze i mechaniki, która jest bazą działania pozostałych zasad. W przypadku kolizji między zasadami należy skorzystać z tej, która wyłącza pozostałe lub, gdy nie ma na to wyraźnego wskazania, skorzystać z tej najbardziej szczegółowej.
 
 W razie wątpliwości przy interpretacji zasad należy przyjąć tę interpretację najbardziej korzystną dla Gracza. Ostateczne zdanie co do rozumienia zasad ma jednak MG. W przypadku zaś braku odpowiedniego potencjału inteligencji u MG należy go zmienić (działanie to jest oczywiście w dyspozycji graczy).

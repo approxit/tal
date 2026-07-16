@@ -1,5 +1,7 @@
 ### Przedmioty zwykłe
 
+TODO: sekcja nie została sprawdzona
+
 Przedmioty zwykłe, jak nazwa wskazuje są zwykłe. W różnych częściach Sorii nie powinny uchodzić one za zakazane i nietypowe (chociaż kształtami i zdobieniami mogą się różnić między sobą). Dla poszukiwaczy przygód mogą być one nieocenione, gdyż ułatwiają one znacząco życie podróżników i pozwalają przetrwać w najróżniejszych warunkach. Pomimo tego, że podrozdział ten został umieszczony tak daleko (z uwagi na alfabetyczną segregację materiału) sugeruje się, aby tworzący postacie Gracze rozpoczęli zakupy sprzętu od podrozdziału z ubraniami, a następnie zajrzeli tutaj. Posiadanie plecaka może okazać się tak samo przydatne jak posiadanie miecza.  
 
 Wszystkie opisane w tym rozdziale przedmioty można podzielić na pięć kategorii zgodnie z jakością ich wykonania, chyba że ich opis stanowi inaczej. Jakość przedmiotów wiąże się z materiałami użytymi do ich stworzenia, wykonaniem i ewentualnie zdobieniami, którymi je wzbogacono. Trzeba pamiętać, że im lepsza jest jakość przedmiotu, tym bardziej jest on niezawodny i tym bardziej można na niego liczyć w trudnych warunkach. Rwąca się lina dla postaci znajdującej się nad przepaścią może okazać się bardzo śmiertelna, więc niekiedy warto wydać trochę więcej, aby mieć pewność, że przedmiot nie zawiedzie swego posiadacza. 

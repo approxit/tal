@@ -1,5 +1,7 @@
 ### Trucizny 
 
+TODO: sekcja nie została sprawdzona
+
 Trucizny naturalnego mogą być lepsze i gorsze, a jakość ta oznacza ich większą lub mniejszą siłę. 
 
 [Jakość trucizn]

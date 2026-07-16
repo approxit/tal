@@ -1,5 +1,7 @@
 ## Bogactwa
 
+TODO: sekcja nie została sprawdzona
+
 W świecie pełnym przygód Bohaterowie nie zawsze będą znajdować wyłącznie monety, które od razu będzie można wymienić na dobra. Często bogactwa można spotkać pod postacią dzieł sztuki, klejnotów, biżuterii, ozdób, arrasów i tym podobnych rzeczy. Szczególnie interesujące dla postaci będą zapewne klejnoty i biżuteria, gdyż ta w zasadzie nie traci swej wartości w różnych częściach świata. O ile bowiem dzieła sztuki nie zawsze muszą być uważane za działa sztuki, o tyle klejnoty cieszące oczy i będące w niedoborze we wszystkich krainach będą miały wszędzie podobną wartość. Sprytni poszukiwacze przygód udając się w odległy świat miast dźwigać kilogramów monet pewnie wezmą jeden diament i dwa rubiny, które ważyć będą tyle co nic, a na miejscu będzie je można wymienić za pełnowartościową walutę.
 
 Z uwagi na liczne kategorie bogactw w pierwszych tabelach zostaną przedstawione najpowszechniejsze z dostępnych bogactw i jednoznacznie się z nimi kojarzące - monety.

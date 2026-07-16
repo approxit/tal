@@ -5,12 +5,53 @@ Poniżej opisano zdolności, które postać może wybrać na etapie tworzenia po
 Ograniczenia
 : Postać może mieć tylko jedną zdolność określoną jako "dzieciństwo", gdyż zdolność ta będzie determinowała cały przebieg początków życia postaci.
 
+TODO: zmiana tablicy tabela-zdolnosci-kulturowe
+
 [Zdolności kulturowe i ich wymagania]
 | Nazwa | Region | Wymagania^1^ |
 | ----- | ------ | :----------- |
 {#tabela-zdolnosci-kulturowe .long-table}
 
 !!!include(_table_footnote_requirements.md)!!!
+
+
+[Enklawy]
+| ----- | ------ | :----------- |
+| Nazwa |	Wymagania |
+
+[Rimtal]
+| ----- | ------ | :----------- |
+| Nazwa |	Wymagania |
+| Wojenne rzemiosło |	- |
+| Zahartowanie chłodem |	- |
+
+[Siegvaard]
+| ----- | ------ | :----------- |
+| Nazwa |	Wymagania |
+| Biczownik Mymkrafta |	A: Wo 14, C: Fanatyzm. |
+| Bogactwo |	- |
+| Dobre wyekwipowanie |	- |
+| Dziecko dziczy |	A: Ko 14, U: Sztuka przetrwania 10 |
+| Dziecko salonów |	C: Dworskość lub Z: Szlacheckie pochodzenie, Z: Wyższa znajomość (etykieta Siegvaardu) | 
+| Dziecko ulicy |	A: Ch 15 lub C: Opryskliwość, A: Ko 12 i Zr 12 | 
+| Golibroda |	- |
+| Mistrz |	- |
+| Obywatelstwo miejskie |	- |
+| Protektor Siegvaardzkiej marchii |	- |
+| Rycerz Siegvaardu |	Z: Jazda (konna), Siegvaardzka szlachta |
+| Rzeź elfów |	- |
+| Siegvaardzka szlachta |	- |
+| Skarb rodzinny |	U: Wiedza (tajemna) 1, Z: Dobre wyekwipowanie |
+| Sława |	- |
+| Staranne wykształcenie |	A: In 14 |
+| Surowe wychowanie |	- |
+| Wojenne rzemiosło |	- |
+| Zabójca goblinów |	- |
+| Zahartowanie chłodem |	- |
+| Zdyscyplinowanie |	- |
+| Znajomości w Siegvaardzie |	- |
+
+### LISTA ZDOLNOŚCI KULTUROWYCH
 
 #### Biczownik Mymkrafta
 

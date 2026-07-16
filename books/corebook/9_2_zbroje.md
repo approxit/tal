@@ -19,7 +19,7 @@ Cena
 : wartość danej zbroi.
 
 Zwykłe zbroje
-: Zbroje wytwarza się z różnych materiałów, a nie tylko jednego. Jeden z materiałów jest jednak kluczowym i to od niego bierze się nazwa danej zbroi. W zależności od modelu i wykończenia dana zbroja może 
+: Zbroje wytwarza się z różnych materiałów, a nie tylko jednego. Jeden z materiałów jest jednak kluczowym i to od niego bierze się nazwa danej zbroi. W zależności od modelu i wykończenia dana zbroja może TODO: brak dokończonego zdania przez Pythona
 
 Specjalne zbroje
 : Niektóre zbroje zostały wykonane w sposób, który zapewnia im specjalne właściwości - są wytrzymalsze, lżejsze, zapewniają lepsze pokrycie postaci. Jest to efekt połączenia pewnych materiałów ze swoistą wiedzą, a co za tym idzie takich zbrój nie można robić z każdego materiału.
@@ -85,8 +85,8 @@ Skórznia (16/50, K/F);
 Stalowa kolczuga (32/30);  
 Żelazna kolczuga (24/40 D/K);  
 Żelazny hełm (30/40);  
-Żelazna płytowa (33/40 M/D)  
-Żelazna zbroja (30/40);  
+Żelazna płytowa (33/40 M/D);  
+Żelazna zbroja (30/40).  
 
 ### Cechy zbrój i materiałów
 

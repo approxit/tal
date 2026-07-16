@@ -1,5 +1,7 @@
 ### Księgi
 
+TODO: sekcja nie została sprawdzona
+
 W świecie, gdzie istnieje wysoki poziom analfabetyzmu książki nie są dość częstym zjawiskiem. Nie mniej jednak można czasami jakąś znaleźć. 
 
 Wartość książek zależy od trzech czynników - ich objętości, zawartości oraz ozdobienia. Objętość książki wyrażana jest przede wszystkim w liczbie stron. 
@@ -47,4 +49,4 @@ Poniżej wymieniono popularne w Sorii pozycje tj. księgi, które cieszą się d
 #### Słownik  
 
 Waga: 0,5 kg; Cena: 10000.
-Dość niecodzienne znalezisko - słownik. Słownik zawiera słowa w dwóch językach. Posiadanie słownika nie pozwoli postaci na prowadzenie swobodnych rozmów w innym języku. Umożliwi wszelako artykułowanie własnych myśli na poziomie zdań prostych pozbawionych gramatycznej składni o treści zbliżonej do: "ja głodny", "ja jeść", "moje imię to...". Minimalna wartość intelektu pozwalająca na w miarę sprawne korzystanie ze słownika to 9. Im lepsza jakość słownika, tym więcej słów zawiera. Średnio w słowniku jest 1 słowo na 5 wartości (za cenę 10 000 jest 2 000 słów). 
+Dość niecodzienne znalezisko - słownik. Słownik zawiera słowa w dwóch językach. Posiadanie słownika nie pozwoli postaci na prowadzenie swobodnych rozmów w innym języku. Umożliwi wszelako artykułowanie własnych myśli na poziomie zdań prostych pozbawionych gramatycznej składni o treści zbliżonej do: "ja głodny", "ja jeść", "moje imię to...". Minimalna wartość intelektu pozwalająca na w miarę sprawne korzystanie ze słownika to 9. Im lepsza jakość słownika, tym więcej słów zawiera. Średnio w słowniku jest 1 słowo na 5 wartości (za cenę 10 000 jest 2 000 słów).
