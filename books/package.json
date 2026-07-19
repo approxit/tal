@@ -4,7 +4,10 @@
 	"scripts": {
 		"precorebook": "node md2html.js corebook/index.md build/corebook.html",
 		"corebook": "pagedjs-cli build/corebook.html -o build/corebook.pdf",
-		"corebook:debug": "pagedjs-cli build/corebook.html -o build/corebook.pdf --debug"
+		"precorebook:debug": "node md2html.js corebook/index.md build/corebook.html",
+		"corebook:debug": "pagedjs-cli build/corebook.html --debug",
+		"preweasyprint": "node md2html.js corebook/index.md build/corebook.html",
+		"weasyprint": "weasyprint.exe --verbose ./build/corebook.html ./build/corebook-weasyprint.pdf"
 	},
 	"dependencies": {
 		"fs-extra": "^9.0.1",
@@ -19,8 +22,8 @@
 		"markdown-it-multimd-table": "^4.0.1",
 		"markdown-it-sup": "^1.0.0",
 		"markdown-it-toc-done-right": "^4.1.0",
-		"pagedjs": "^0.1.43",
-		"pagedjs-cli": "^0.0.10",
+		"pagedjs": "^0.4.3",
+		"pagedjs-cli": "^0.3.4",
 		"slugify": "^1.4.0"
 	}
 }

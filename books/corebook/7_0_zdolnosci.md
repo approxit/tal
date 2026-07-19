@@ -8,7 +8,7 @@ Niektóre zdolności są lepsze od pozostałych, co widać na pierwszy rzut oka.
 
 Zdolności w przeciwieństwie do umiejętności nie zwiększają kosztu zdobywania ich. Każda zdolność kosztuje 1000 punktów doświadczenia, ale uwaga (!) - niektóre zdolności, aby je zdobyć muszą mieć uprzednio spełnione wymagania (i to w sposób permanentny przez postać) lub wymagają zdobycia ich na etapie tworzenia gry (wrodzone i kulturowe).
 
-<h5>Opis zdolności</h5>
+##### Opis zdolności
  
 W opisie każdej zdolności pojawiają się następujące informacje: "nazwa" oraz "korzyść". Wiele zdolności posiada jednak więcej jak te dwie rubryki, a to oznacza, że wiąże się z nimi trochę więcej zasad. Poniżej opisano co oznaczają dane rubryki w opisie zdolności. 
 
@@ -33,7 +33,7 @@ Specjalne
 Normalnie
 : W tej części pojawiają się informacje o tym jakie są zasady działania danej rzeczy dla postaci, które nie mają wskazanej zdolności.
 
-<h5>Premiowe zdolności</h5>
+##### Premiowe zdolności
 
 Zdolności można zdobywać również za darmo, gdyż niektóre zdolności można wybrać z uwagi na rozwijanie jakiejś umiejętności. W tym przypadku postać może wybrać 1 zdolność po zdobyciu 5 poziomu jakiejś umiejętności i kolejną zdolność co każde zdobyte 5 poziomów tejże umiejętności. Postać może jednak w ten sposób wybierać premiowe zdolności, tylko jeżeli są one w jakiś sposób związane z umiejętnością, którą rozwija, a dokładniej, gdy znajdują się one na premiowej liście zdolności danej umiejętności. Aby wybrać premiową zdolność postać musi spełniać jej wymagania w taki sam sposób jak przy innych zdolnościach - czyli w sposób permanentny. 
 

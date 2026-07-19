@@ -479,9 +479,9 @@ Korzyść
 : Poświęcając akcję cało-rundową i 6 punktów many postać może wytworzyć na swych dłoniach pazury. Pazurami tymi można walczyć za pomocą walki wręcz. Po godzinie od chwili wytworzenia pazurów palce postaci znów zamieniają się w swą naturalną postać. Na pazury działają wszelkie zdolności, które postać ma wybrane dla walki wręcz.
 
 [Uderzenie pazurami]
-| KO  | SO  | Waga | Cena |
-| --- | --- | ---- | ---- |
-| 1k8 | 1/4 | -    | -    |
+| KO  | SO  | Waga | Wartość |
+| --- | --- | ---- | ------- |
+| 1k8 | 1/4 | -    | -       |
 | Cechy: Lekkie ||||
 
 Zwierzę
@@ -848,7 +848,7 @@ Korzyść
 : Premia +4 do udźwigu oraz wytrwałości. 
 
 Koszt dostrojenia
-: 12
+: 12\.
 
 ##### Korzenie
 

@@ -4,7 +4,7 @@ W rozdziale tym znajdują się zasady prowadzenia walki i bitew, a także opisy 
 
 Rozdział ten składa się z czterech podrozdziałów. W pierwszym podrozdziale opisana została terminologia używana przy opisie bitew, w drugim zasady dotyczące trafień, w trzecim podrozdziale manewry i ruchy, które może wykonywać postać podczas starcia z wrogami, a w ostatnim zasady przeprowadzania walki krok po kroku.
 
-<h5>O co chodzi  w walce?</h5>
+##### O co chodzi  w walce?
 
 Walka, czyli starcie zbrojne przynajmniej dwóch stron to zasady dotyczące wykonywania przeciwko sobie ataków i innych działań, które mają doprowadzić do zwycięstwa. Podczas walki każdy z uczestników będzie miał swoją turę w każdej rundzie walki, a w tej turze do dyspozycji dwie akcje zwykłe i jedną akcję dodatkową. W zamian za akcje "kupuje" się odpowiednie działania związane z ruchem, wykonywaniem "manewrów", ataków lub rzucania zaklęć. 
 

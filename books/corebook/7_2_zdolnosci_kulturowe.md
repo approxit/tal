@@ -51,8 +51,6 @@ TODO: zmiana tablicy tabela-zdolnosci-kulturowe
 | Zdyscyplinowanie |	- |
 | Znajomości w Siegvaardzie |	- |
 
-### LISTA ZDOLNOŚCI KULTUROWYCH
-
 #### Biczownik Mymkrafta
 
 Nieczyste ciało winno cierpieć, aby dusza niecierpiącą była. Razy batem, raz za razem i krew. Diabeł mieszkać w tym ciele nie może, gdy szlachetna dusza ciało trzyma. 

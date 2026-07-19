@@ -16,9 +16,9 @@
 @text-font-size: 10pt;
 @text-line-height: 1.25;
 
-@small-size: 0.5rem;
-@medium-size: 1rem;
-@big-size: 2rem;
+@small-size: 0.6rem;
+@medium-size: 1.2rem;
+@big-size: 2.4rem;
 
 @small-space: 5%;
 @medium-space: 15%;
@@ -32,40 +32,41 @@
 
 /* Mixins */
 
-.page_number() {
+.page-number() {
 	content: counter(page);
 	text-align: center;
+
 	background-color: fade(@accent-color, 65%);
-	border-radius: 15pt;
-	width: 1.5rem;
-	height: 1.5rem;
-	margin-top: calc(70% - 0.75rem);
-	box-shadow: fade(@text-color, 50%) 0 @small-line;
+	border-radius: 50%;
+	width: 1.8rem;
+	height: 1.8rem;
+	margin-top: calc(70% - 1rem);
+	border-bottom: @small-line solid darken(@accent-color, 30%);
 }
 
 .page-number-left() {
-	@bottom-left-corner {
-		.page_number();
+	@bottom-left-corner:before {
+		.page-number();
 
-		margin-left: calc(30% - 0.75rem);
+		margin-right: calc(70% - 1rem);
 	}
 }
 
 .page-number-right() {
-	@bottom-right-corner {
-		.page_number();
+	@bottom-right-corner::before {
+		.page-number();
 
-		margin-left: calc(70% - 0.75rem);
+		margin-left: calc(70% - 1rem);
 	}
 }
 
 .no-page-numbers() {
-	@bottom-right-corner {
+	@bottom-right-corner::before {
 		content: none;
 		display: none;
 	}
 
-	@bottom-left-corner {
+	@bottom-left-corner::before {
 		content: none;
 		display: none;
 	}
@@ -73,32 +74,31 @@
 
 .chapter-ribbon() {
 	content: "Rozdział " counter(chapter-number, upper-roman) ": " string(chapter);
+	display: block;
 	white-space: pre;
 	height: @big-size;
-	width: fit-content;
 	padding: 0 @medium-size;
 	vertical-align: middle;
 	transform-origin: top left;
 	background-color: fade(@accent-color, 65%);
-	transform: rotate(90deg) translate(0, -2cm);
 	border-radius: 0 0 @medium-size @medium-size;
 	box-shadow: fade(@text-color, 50%) @small-line 0;
 }
 
 .chapter-ribbon-left() {
-	@left-top {
+	@left-top::before {
 		.chapter-ribbon();
 
-		transform: rotate(90deg) translate(0, -100%);
+		//transform: rotate(90deg) translate(0, -100%);
 		border-radius: @medium-size @medium-size 0 0;
 	}
 };
 
 .chapter-ribbon-right() {
-	@right-top {
+	@top-right::before {
 		.chapter-ribbon();
 
-		transform: rotate(90deg) translate(0, -@page-margin);
+		//transform: rotate(90deg) translate(0, calc(0 * @page-margin));
 		border-radius: 0 0 @medium-size @medium-size;
 	}
 };
@@ -131,15 +131,11 @@
 @page {
 	size: @page-size;
 	margin: @page-margin;
+	padding: 0;
 
-	background: url('bg.jpg') no-repeat;
+	background-image: url('bg.jpg');
+	background-attachment: fixed;
 	background-size: cover;
-
-	font-family: @text-font-family;
-	font-size: @text-font-size;
-	line-height: @text-line-height;
-
-	scroll-behavior: smooth;
 
 	orphans: 3;
 	widows: 3;
@@ -161,6 +157,7 @@
 
 @page book-cover-front {
 	background: url('cover.jpg') no-repeat right bottom;
+	background-attachment: fixed;
 	background-size: cover;
 
 	.no-page-numbers();
@@ -168,6 +165,7 @@
 
 @page book-cover-back {
 	background: url('cover.jpg') no-repeat left bottom;
+	background-attachment: fixed;
 	background-size: cover;
 
 	.no-page-numbers();
@@ -198,29 +196,27 @@
 .book-cover-front {
 	page: book-cover-front;
 
-	hr {
-		border-width: 0 0 @small-line 0;
-		border-color: @accent-color;
-		margin: @small-space;
-	}
-
 	.book-title {
-		font-size: 3rem;
+		font-size: 3.6rem;
 		margin-top: @medium-space;
 		margin-bottom: @small-space;
 	}
 
 	.book-subtitle {
-		font-size: 8rem;
+		font-size: 9.6rem;
 		margin-bottom: @big-space;
 	}
 
 	.book-author {
-		font-size: 2rem;
+		font-size: 2.4rem;
+		padding: @small-space 0;
+		margin: @small-space 0;
+		border-top: @small-line @accent-color solid;
+		border-bottom: $border-top;
 	}
 
 	.book-version {
-		font-size: 1rem;
+		font-size: 1.2rem;
 	}
 
 	.book-title,
@@ -258,34 +254,23 @@
 	}
 
 	.book-toc-nav > ol {
-		break-inside: avoid;
+		& > li {
+			break-inside: avoid;
 
-		& > li > a {
-			font-family: @headers-font-family;
+			& > a {
+				font-family: @headers-font-family;
 
-			&::before {
-				content: "Rozdział " target-counter(attr(href), chapter-number, upper-roman) ": ";
+				&::before {
+					content: "Rozdział " target-counter(attr(href), chapter-number, upper-roman) ": ";
+				}
 			}
 		}
 
-		& ol a {
+		& ol {
 			margin-left: @medium-size;
-			display: flex;
 
-			.book-toc-text {
-				flex: none;
-			}
-
-			.book-toc-dots {
-				border-bottom: @small-line dotted;
-				flex: auto;
-				height: 9pt;
-				margin: 0 3pt;
-			}
-
-			&::after {
-				flex: none;
-				content: target-counter(attr(href), page);
+			a::after {
+				content: leader('.') target-counter(attr(href), page);
 			}
 		}
 	}
@@ -302,23 +287,34 @@ article, .book-toc {
 }
 
 h3 {
-	break-before: page;
+	break-before: always;
 }
 
-//h3,
-//h4
-//	/*h4 + p*/ {
-//	break-after: avoid;
-//}
+h3, h4, caption {
+	break-after: avoid;
+}
 
-table:not(.wide-table):not(.long-table) {
+table {
 	break-inside: avoid;
+
+	&.long-table {
+		break-inside: auto;
+	}
 }
 
 /* General */
 
 * {
 	box-sizing: border-box;
+}
+
+html {
+	font-family: @text-font-family;
+	font-size: @text-font-size;
+}
+
+body {
+	line-height: @text-line-height;
 }
 
 strong {
@@ -341,9 +337,18 @@ a {
 }
 
 sup {
-	top: -0.25rem;
+	top: -0.3rem;
 	position: relative;
-	font-size: 0.8rem;
+	font-size: 0.96rem;
+}
+
+ul {
+	margin-left: @small-size;
+
+	li:before {
+		content: "•";
+		margin-right: @small-size;
+	}
 }
 
 /* Headers */
@@ -370,7 +375,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.4rem;
+	font-size: 1.68rem;
 	padding: @small-size 0;
 	margin-bottom: @medium-size;
 	border-bottom: @small-line @text-color solid;
@@ -379,36 +384,25 @@ h3 {
 }
 
 h4 {
-	font-size: 1.2rem;
+	font-size: 1.44rem;
 	border-bottom: @small-line @text-color solid;
+	margin-bottom: @small-size;
 }
 
 h5 {
-	text-transform: uppercase;
-}
-
-h6 {
-	font-weight: bold;
-}
-
-h4,
-h5,
-h6 {
-	margin-bottom: @small-size;
+	font-size: 1.2rem;
 }
 
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
 	font-family: @headers-font-family;
 }
 
 h3,
 h4,
-h5,
-h6 {
+h5 {
 	dl + &,
 	p + &,
 	table + &,
@@ -418,12 +412,12 @@ h6 {
 	}
 }
 
-h2 + p:first-letter {
-	float: left;
-	font-size: 3rem;
-	line-height: 1;
-	margin-right: @small-size;
-}
+//h2 + p:first-letter {
+//	//float: left;
+//	font-size: 3rem;
+//	line-height: 1;
+//	margin-right: @small-size;
+//}
 
 /* Definition list */
 
@@ -462,7 +456,9 @@ table {
 	width: 100%;
 	text-align: center;
 
-	counter-increment: table-number;
+	&:not(.not-counted-table) {
+		counter-increment: table-number;
+	}
 
 	&.wide-table {
 		column-span: all;

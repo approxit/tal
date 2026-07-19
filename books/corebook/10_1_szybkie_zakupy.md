@@ -8,85 +8,172 @@ Przedstawione poniżej zestawy są przeciętnej jakości. Jeżeli postać chce j
 
 ##### Bogaty damski strój wieczorowy
 
-Waga: 5 kg; Wartość: 74090.  
 Bielizna i stanik z jedwabiu, Buty balowe; Chustka jedwabna; Futrzany płaszcz z białych lisów; Gorset koronkowy; Hennin; Podwiązki, Pończochy, Rękawiczki jedwabne; Suknia balowa.
+
+Waga
+: 5 kg.
+
+Wartość
+: 74090\.  
 
 ##### Bogaty męski strój wieczorowy
 
-Waga: 2 kg; Wartość: 14440.  
 Bielizna z aksamitu, Buty balowe; Chustka jedwabna; Dublet aksamitny; Kapelusz z szerokim rondem; Koszula jedwabna; Pasek; Peleryna aksamitna (krótka); Rękawiczki aksamitne; Skarpety; Spodnie jedwabne. 
+
+Waga
+: 2 kg.
+
+Wartość
+: 14440\.  
 
 ##### Strój chłopski
 
-Waga: 0,5 kg; Wartość: 77.  
 Koszula z samodziału; Spodnie/spódnica z samodziału; Sznurek paskowy.
+
+Waga
+: 0,5 kg.
+
+Wartość
+: 77\.  
 
 ##### Strój jeździecki
 
-Waga: 1,5 kg; Wartość: 2860.  
-Bielizna lniana, Buty jeździeckie; Kaftan lniany; Koszula lniana; Pasek; Peleryna lniana (krótka);  Rękawiczki skórzane; Spodnie skórzane (bryczesy); Szal. 
+Bielizna lniana, Buty jeździeckie; Kaftan lniany; Koszula lniana; Pasek; Peleryna lniana (krótka);  Rękawiczki skórzane; Spodnie skórzane (bryczesy); Szal.
+
+Waga
+: 1,5 kg.
+
+Wartość
+: 2 860\.  
 
 ##### Strój mieszczanina
 
-Waga: 2,5 kg; Wartość: 1320.   
 Bielizna lniana, Buty niskie; Kaftan lniany; Koszula lniana; Peleryna lniana (krótka); Spodnie lniane; Szarfa.
+
+Waga
+: 2,5 kg.
+
+Wartość
+: 1 320\.   
 
 ##### Strój podróżnika
 
-Waga: 1,5 kg; Wartość: 734.   
 Buty niskie; Chustka lniana; Kaftan konopny; Koszula lniana; Onuce; Spodnie konopne; Szarfa.
+
+Waga
+: 1,5 kg.
+
+Wartość
+: 734\.   
 
 ##### Strój szlachecki
 
-Waga: 2,5 kg; Wartość: 7120.  
 Bielizna aksamitna, Buty jeździeckie; Chustka aksamitna; Kaftan aksamitny; Kapelusz z szerokim rondem; Koszula aksamitna; Peleryna aksamitna (długa); Rękawiczki aksamitne; Pasek; Skarpety; Spodnie aksamitne; Szal.
+
+Waga
+: 2,5 kg.
+
+Wartość
+: 7 120\.  
 
 ##### Strój wędrowca
 
-Waga: 0,5 kg; Wartość: 297.  
 Koszula konopna; Onuce; Sandały; Spodnie konopne; Sznurek paskowy.
+
+Waga
+: 0,5 kg.
+
+Wartość
+: 297\.  
 
 ##### Ubranie na chłody
 
-Waga: 7,5 kg; Wartość: 6220.  
-Modyfikator do odporność na chłód +20.  
 Bielizna lniana, Buty wysokie; Czapka wełniana; Kaftan zimowy; Koszula wełniana; Pasek; Płaszcz zimowy; Rękawiczki skórzane; Skarpety; Spodnie/spódnica wełniana; Szal.
+
+Waga
+: 7,5 kg.
+
+Wartość
+: 6 220\.
+
+Specjalne
+: Modyfikator do odporność na chłód +20.
 
 #### Zestawy podróżne
 
 Poniżej opisano szybkie zestawy przedmiotów podróżnych. Wybór danego kompletu to rzecz dość abstrakcyjna, a służy przede wszystkim zaoszczędzeniu czasu Graczy przy tworzeniu postaci.
 
+Zestawy dotyczą postaci, która jest w trakcie podróży i nie jest piśmienna. Podróżnik podróżuje samotnie lub z karawaną przemieszczając się pieszo albo na wozie. Wszystkie poniżej opisane zestawy są jakości zwykłej. Jeżeli więc postać chce mieć takie same zestawy, ale lepszej lub gorszej jakości, to winna pomnożyć wartość danego zestawu przez modyfikator wartości za jakość.
+
 ##### Obieżyświat
 
-- Waga: 55 kg; Wartość: 4400.  
-- Bukłak, duży; Fiolka; Flakon x2 1,5l; Garnek żeliwny; Hubka i krzesiwo; Imbryk; Kaganek; Koc futrzany; Koc zimowy; Kreda, Kubek; Kufel; Latarnia; Lina 6 m; Lina 9 m; Lusterko; Mieszek; Miska; Namiot, 2 osobowy; Olej x3; Osełka; Plecak, duży; Pochodnia x2; Sakiewka z żelaza, mała; Sztućce; Świeca; Worek mały x2; Zapałka x12; Zestaw opatrunkowy; Zwijane posłanie.
+Zawartość
+: Bukłak, duży; Fiolka; Flakon x2 1,5l; Garnek żeliwny; Hubka i krzesiwo; Imbryk; Kaganek; Koc futrzany; Koc zimowy; Kreda, Kubek; Kufel; Latarnia; Lina 6 m; Lina 9 m; Lusterko; Mieszek; Miska; Namiot, 2 osobowy; Olej x3; Osełka; Plecak, duży; Pochodnia x2; Sakiewka z żelaza, mała; Sztućce; Świeca; Worek mały x2; Zapałka x12; Zestaw opatrunkowy; Zwijane posłanie.
+
+Waga
+: 55 kg.
+
+Wartość
+: 4 400\.  
 
 ##### Podróżnik
 
-- Waga: 24,5 kg; Wartość: 1425.  
-- Bukłak, średni; Garnek żeliwny; Hubka i krzesiwo; Koc wełniany; Kubek; Lina 6 m; Mieszek; Miska; Namiot, 2 osobowy; Osełka; Plecak, średni; Pochodnia x2; Sakiewka, mała; Sztućce; Świeca x2; Worek mały; Zapałka x2; Zwijane posłanie.
+Zawartość
+: Bukłak, średni; Garnek żeliwny; Hubka i krzesiwo; Koc wełniany; Kubek; Lina 6 m; Mieszek; Miska; Namiot, 2 osobowy; Osełka; Plecak, średni; Pochodnia x2; Sakiewka, mała; Sztućce; Świeca x2; Worek mały; Zapałka x2; Zwijane posłanie.
+
+Waga
+: 24,5 kg.
+
+Wartość
+: 1 425\.
 
 ##### Wędrowiec
 
-- Waga: 7 kg; Wartość: 425.  
-- Bukłak, mały; Derka; Hubka i krzesiwo; Koc wełniany; Lina 2 m; Mieszek; Miska; Plecak, mały; Pochodnia.
+Zawartość
+: Bukłak, mały; Derka; Hubka i krzesiwo; Koc wełniany; Lina 2 m; Mieszek; Miska; Plecak, mały; Pochodnia.
 
-Wskazane wyżej zestawy dotyczą postaci, która jest w trakcie podróży i nie jest piśmienna. Podróżnik podróżuje samotnie lub z karawaną przemieszczając się pieszo albo na wozie. Wszystkie wyżej opisane zestawy są jakości zwykłej. Jeżeli więc postać chce mieć takie same zestawy, ale lepszej lub gorszej jakości, to winna pomnożyć "koszt" danego zestawu przez modyfikator ceny za jakość. Dodatkowo takiej postaci przyda się prowiant. Płyny muszą być transportowane w naczyniach. Każdy odpowiedni zestaw takie naczynia posiada.
+Waga
+: 7 kg.
+
+Wartość
+: 425\.
+
+#### Zestawy prowiantu
+
+Do zestawów podróżnych przyda się prowiant. Płyny muszą być transportowane w naczyniach. Każdy odpowiedni zestaw takie naczynia posiada.
 
 ##### Obieżyświat {#header-obiezyswiat-prowiant}
 
-- Waga: 5 kg; Wartość: 3890.
-- Chleb elfów na 2 dni, Krasnoludzka racja na 5 dni, Racja podróżna (dobra) na 5 dni, Wino, Wódka.
+Zawartość
+: Chleb elfów na 2 dni, Krasnoludzka racja na 5 dni, Racja podróżna (dobra) na 5 dni, Wino, Wódka.
 
-##### Podróżnik {#header-obiezyswiat-podroznik}
+Waga
+: 5 kg.
 
-- Waga: 3 kg; Wartość: 500.  
-- Racja podróżna (zwykła) na 5 dni, Wino.
+Wartość
+: 3 890\.
 
-##### Wędrowiec {#header-obiezyswiat-wedrowie}
+##### Podróżnik {#header-podroznik-prowiant}
 
-- Waga: 0,5 kg; Wartość: 88.  
-- Piwo jasne, Racja podróżna (zwykła).
+Zawartość
+: Racja podróżna (zwykła) na 5 dni, Wino.
+
+Waga
+: 3 kg.
+
+Wartość
+: 500\.
+
+##### Wędrowiec {#header-wedrowiec-prowiant}
+
+Zawartość
+: Piwo jasne, Racja podróżna (zwykła).
+
+Waga
+: 0,5 kg.
+
+Wartość
+: 88\.
 
 #### Przedmioty zwykłe
 
@@ -281,7 +368,7 @@ Poniżej rozpisano tabele z przedmiotami opisanymi w tym rozdziale. Wszystkie te
 | Racje, mistrzowskie | 400                    | 2000                   |
 {.long-table}
 
-Racje żywnościowe - elementy w tym zbiorze zostały wymienione zgodnie ze swą jakością, dlatego nie powinny one występować w wyższych cenach, niż najwyższej jakości i mniejszych, niż najniższej jakości. Dalej w tym rozdziale opisano z czego składa się konkretny zestaw racji podróżnych.
+Racje żywnościowe - elementy w tym zbiorze zostały wymienione zgodnie ze swą jakością, dlatego nie powinny one występować w wyższych wartościach, niż najwyższej jakości i mniejszych, niż najniższej jakości. Dalej w tym rozdziale opisano z czego składa się konkretny zestaw racji podróżnych.
 
 [Stroje]
 | Odzienie             | Materiał / Styl                      | Waga   | Wartość |

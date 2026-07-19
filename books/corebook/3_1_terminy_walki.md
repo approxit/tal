@@ -162,10 +162,10 @@ Przedmiot ochronny służący do parowania ataków. Wszystkie tarcze mają cech�
 Walka wręcz to w mechanice gry synonim walki bez oręża. Bronią staje się samo ciała postaci (uderzenie pięścią, nogą, etc.). Sukces trafienia przeciwnika zależy od testu umiejętności o takiej samej nazwie. ST testu jest obrona fizyczna atakowanego.
 
 [Uderzenie bez broni]
-| Kostki Obrażeń | Siła Obrażeń | Waga | Cena |
-| -------------- | ------------ | ---- | ---- |
-| 1k4            | 1/8          | -    | -    |
-| Cechy: Lekkie, Słabe, Walka wręcz. ||||
+| Kostki Obrażeń | Siła Obrażeń | Waga | Wartość |
+| -------------- | ------------ | ---- |---------|
+| 1k4            | 1/8          | -    | -       |
+| Cechy: Lekkie, Słabe, Walka wręcz. |||         |
 
 Cecha lekka sprawia, że postać nie będzie otrzymywała żadnych premii za połączenie różnych kończyn w ramach jednego uderzenia, ale będzie mogła za to korzystać z uderzeń bez broni podczas zwarcia i dokonywać nimi finty. Cecha słabe oznacza, że obrażenia zadawane w teście obrażeń należy podzielić przez 2. Oznacza to, że mimo wyniku testu obrażeń - kostek oraz stopnia siły, postać zada tylko połowę wskazanych obrażeń. 
 

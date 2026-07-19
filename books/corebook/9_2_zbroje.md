@@ -15,8 +15,8 @@ Pokrycie
 Waga
 : określa ile kilogramów waży dana zbroja. Niektóre zbroje i hełmy są wykonane w ten sposób, aby równomiernie obciążać ciało, a co za tym idzie - dla postaci, która je nosi efektywna waga zbroi maleje o połowę. 
 
-Cena
-: wartość danej zbroi.
+Wartość
+: koszt danej zbroi.
 
 Zwykłe zbroje
 : Zbroje wytwarza się z różnych materiałów, a nie tylko jednego. Jeden z materiałów jest jednak kluczowym i to od niego bierze się nazwa danej zbroi. W zależności od modelu i wykończenia dana zbroja może TODO: brak dokończonego zdania przez Pythona
@@ -40,14 +40,14 @@ Zakładanie zbroi na zbroję
 Lepsze i gorsze zbroje
 : Zaprezentowane ceny i statystyki dotyczą zbroi zwykłej. Każdą zbroję można mieć jednak lepszą lub gorszą, co ma wpływ na cenę i szansę jej uszkodzenia (patrz - Niszczenie przedmiotów). 
 
-[Jakość zbroi a jej cena]
-| Jakość      | Szansa uszkodzenia | Bazowe ST stworzenia | Cena  |
-| ----------- | ------------------ | -------------------- | ----- |
-| Mistrzowska | 10%                | +10                  | x2    |
-| Dobra       | 20%                |  +5                  | x1,5  |
-| Zwykła      | 30%                |  30                  |  -    |
-| Kiepska     | 40%                |  -5                  | x0,75 |
-| Fatalna     | 50%                | -10                  | x0,5  |
+[Jakość zbroi a jej wartość]
+| Jakość      | Szansa uszkodzenia | Bazowe ST stworzenia | Wartość  |
+| ----------- | ------------------ | -------------------- | -------- |
+| Mistrzowska | 10%                | +10                  | x2       |
+| Dobra       | 20%                |  +5                  | x1,5     |
+| Zwykła      | 30%                |  30                  |  -       |
+| Kiepska     | 40%                |  -5                  | x0,75    |
+| Fatalna     | 50%                | -10                  | x0,5     |
  
 [Jakość zbroi a efektywna waga]
 | Jakość      | Efektywna waga założonej zbroi |
@@ -58,7 +58,7 @@ Lepsze i gorsze zbroje
 | Kiepska     | x1 (bez zmian)                 |
 | Fatalna     | x1 (bez zmian)                 |
 
-<h5>Nazwa zbroi</h5>
+##### Nazwa zbroi
 
 Ogólnie w różnych kulturach/regionach podobne zbroje mogą mieć różne nazwy. Dla celów mechaniki zbroje mają dość liniowe nazewnictwo, ale w fabule gry zapewne będą one skonkretyzowane do odpowiednich typów zbrój odpowiadających historycznym nazwom.
 
@@ -79,14 +79,14 @@ Statystyka
 : to wskaźnik pancerza i pokrycia danej zbroi, a te dwie wartości oddzielone są ukośnikiem. Jeżeli zbroja nie jest zwykła, tylko innej jakości, to może się tu pojawić również o tym wzmianka w postaci odpowiedniej litery, a jeżeli zbroja jest uszkodzona, to ukośnikiem oddzielone zostaną dwie litery symbolizujące: pierwsza bazową jakość, a druga aktualną jakość. Jakości: Mistrzowska - M; Dobra - D; Zwykła - Z; Kiepska - K; Fatalna - F. Jeżeli nie pojawia się litera, to znaczy, że zbroja jest bazowo zwykłej jakości i aktualnie ma taką też jakość. 
 
 Przykładowe nazwy zbrój:  
-Kościany hełm (18/50, M);  
-Elficka zbroja (18/40, M/F);  
-Skórznia (16/50, K/F);  
-Stalowa kolczuga (32/30);  
-Żelazna kolczuga (24/40 D/K);  
-Żelazny hełm (30/40);  
-Żelazna płytowa (33/40 M/D);  
-Żelazna zbroja (30/40).  
+- Kościany hełm (18/50, M)  
+- Elficka zbroja (18/40, M/F)  
+- Skórznia (16/50, K/F)  
+- Stalowa kolczuga (32/30)  
+- Żelazna kolczuga (24/40 D/K)  
+- Żelazny hełm (30/40)  
+- Żelazna płytowa (33/40 M/D)  
+- Żelazna zbroja (30/40)  
 
 ### Cechy zbrój i materiałów
 
@@ -123,82 +123,82 @@ Specjalne
 : Materiał ten zwiększa swą wagę czterokrotnie, gdy jest namoczony. Oznacza to, że deszcz czy nagłe wpadnięcie do wody może sprawić, że postać będzie przeciążona. Z drugiej strony gruby materiał zapewnia ochronę przed chłodem taką samą jak ciepłe ubranie. 
 
 [Hełm]
-| Materiał          | Pancerz | Pok. | Waga   | Cena  |
-| ----------------- | ------- | ---- | ------ | ----- |
-| Dornieński        | 50      | 30   | 1 kg   |  4200 |
-| ^^                | ^^      | 40   | 2 kg   |  7800 |
-| ^^                | ^^      | 50   | 3 kg   | 11400 |
-| Kościany / Rogowy | 18      | 30   | 0,5 kg |   430 |
-| ^^                | ^^      | 40   | 1 kg   |   660 |
-| ^^                | ^^      | 50   | 1,5 kg |   890 |
-| Pikowany          | 20      | 30   | 0,5 kg |   340 |
-| ^^                | ^^      | 40   | 1 kg   |   580 |
-| ^^                | ^^      | 50   | 1,5 kg |   820 |
-| Skórzany          | 16      | 30   | 0,5 kg |   240 |
-| ^^                | ^^      | 40   | 0,5 kg |   380 |
-| ^^                | ^^      | 50   | 1 kg   |   520 |
-| Stalowy           | 40      | 30   | 1 kg   |  2100 |
-| ^^                | ^^      | 40   | 2 kg   |  3900 |
-| ^^                | ^^      | 50   | 3 kg   |  5700 |
-| Tkany             |  8      | 30   | 0,5 kg |    60 |
-| ^^                | ^^      | 40   | 0,5 kg |   100 |
-| ^^                | ^^      | 50   | 1 kg   |   140 |
-| Żelazny           | 30      | 30   | 1 kg   |  1400 |
-| ^^                | ^^      | 40   | 2 kg   |  2600 |
-| ^^                | ^^      | 50   | 3 kg   |  3800 |
+| Materiał          | Pancerz | Pok. | Waga   | Wartość  |
+| ----------------- | ------- | ---- | ------ | -------- |
+| Dornieński        | 50      | 30   | 1 kg   |  4200    |
+| ^^                | ^^      | 40   | 2 kg   |  7800    |
+| ^^                | ^^      | 50   | 3 kg   | 11400    |
+| Kościany / Rogowy | 18      | 30   | 0,5 kg |   430    |
+| ^^                | ^^      | 40   | 1 kg   |   660    |
+| ^^                | ^^      | 50   | 1,5 kg |   890    |
+| Pikowany          | 20      | 30   | 0,5 kg |   340    |
+| ^^                | ^^      | 40   | 1 kg   |   580    |
+| ^^                | ^^      | 50   | 1,5 kg |   820    |
+| Skórzany          | 16      | 30   | 0,5 kg |   240    |
+| ^^                | ^^      | 40   | 0,5 kg |   380    |
+| ^^                | ^^      | 50   | 1 kg   |   520    |
+| Stalowy           | 40      | 30   | 1 kg   |  2100    |
+| ^^                | ^^      | 40   | 2 kg   |  3900    |
+| ^^                | ^^      | 50   | 3 kg   |  5700    |
+| Tkany             |  8      | 30   | 0,5 kg |    60    |
+| ^^                | ^^      | 40   | 0,5 kg |   100    |
+| ^^                | ^^      | 50   | 1 kg   |   140    |
+| Żelazny           | 30      | 30   | 1 kg   |  1400    |
+| ^^                | ^^      | 40   | 2 kg   |  2600    |
+| ^^                | ^^      | 50   | 3 kg   |  3800    |
 
-[ZBROJA]
-| Materiał                 | Pancerz | Pok. | Waga    | Cena  |
-| ------------------------ | ------- | ---- | ------- | ----- |
-| Dornieńska               | 50      | 30   | 15 kg   | 33000 |
-| ^^                       | ^^      | 40   | 20 kg   | 41100 |
-| ^^                       | ^^      | 50   | 25 kg   | 49500 |
-| Kościana / Rogowa        | 18      | 30   |  7,5 kg |  1300 |
-| ^^                       | ^^      | 40   | 10 kg   |  1575 |
-| ^^                       | ^^      | 50   | 12,5 kg |  1950 |
-| Pikowana skórznia        | 20      | 30   |  7,5 kg |  1900 |
-| ^^                       | ^^      | 40   | 10 kg   |  2350 |
-| ^^                       | ^^      | 50   | 12,5 kg |  2850 |
-| Przeszywalnica (tkanina) |  8      | 30   |  4 kg   |   300 |
-| ^^                       | ^^      | 40   |  5 kg   |   370 |
-| ^^                       | ^^      | 50   |  6,5 kg |   450 |
-| Skórznia                 | 16      | 30   |  4 kg   |   900 |
-| ^^                       | ^^      | 40   |  5 kg   |  1100 |
-| ^^                       | ^^      | 50   |  6,5 kg |  1350 |
-| Stalowa                  | 40      | 30   | 15 kg   | 16500 |
-| ^^                       | ^^      | 40   | 20 kg   | 20550 |
-| ^^                       | ^^      | 50   | 25 kg   | 24750 |
-| Żelazna                  | 30      | 30   | 15 kg   | 11000 |
-| ^^                       | ^^      | 40   | 20 kg   | 13700 |
-| ^^                       | ^^      | 50   | 25 kg   | 16500 |
+[Zbroja]
+| Materiał                 | Pancerz | Pok. | Waga    | Wartość  |
+| ------------------------ | ------- | ---- | ------- | -------- |
+| Dornieńska               | 50      | 30   | 15 kg   | 33000    |
+| ^^                       | ^^      | 40   | 20 kg   | 41100    |
+| ^^                       | ^^      | 50   | 25 kg   | 49500    |
+| Kościana / Rogowa        | 18      | 30   |  7,5 kg |  1300    |
+| ^^                       | ^^      | 40   | 10 kg   |  1575    |
+| ^^                       | ^^      | 50   | 12,5 kg |  1950    |
+| Pikowana skórznia        | 20      | 30   |  7,5 kg |  1900    |
+| ^^                       | ^^      | 40   | 10 kg   |  2350    |
+| ^^                       | ^^      | 50   | 12,5 kg |  2850    |
+| Przeszywalnica (tkanina) |  8      | 30   |  4 kg   |   300    |
+| ^^                       | ^^      | 40   |  5 kg   |   370    |
+| ^^                       | ^^      | 50   |  6,5 kg |   450    |
+| Skórznia                 | 16      | 30   |  4 kg   |   900    |
+| ^^                       | ^^      | 40   |  5 kg   |  1100    |
+| ^^                       | ^^      | 50   |  6,5 kg |  1350    |
+| Stalowa                  | 40      | 30   | 15 kg   | 16500    |
+| ^^                       | ^^      | 40   | 20 kg   | 20550    |
+| ^^                       | ^^      | 50   | 25 kg   | 24750    |
+| Żelazna                  | 30      | 30   | 15 kg   | 11000    |
+| ^^                       | ^^      | 40   | 20 kg   | 13700    |
+| ^^                       | ^^      | 50   | 25 kg   | 16500    |
 
-[ZBROJE SPECJALNE]
-| Materiał             | Pancerz | Pok. | Waga    | Cena   |
-| -------------------- | ------- | ---- | ------- | ------ |
-| Dornieńska płytowa   | 55      | 30   | 20 kg   |  54000 |
-| ^^                   | ^^      | 40   | 25 kg   |  63000 |
-| ^^                   | ^^      | 50   | 30 kg   |  72000 |
-| Drowia skórznia      | 19      | 30   |  3 kg   |   2400 | 
-| ^^                   | ^^      | 40   |  4 kg   |   2750 |
-| ^^                   | ^^      | 50   |  5 kg   |   3100 |
-| Elficka skórznia     | 18      | 30   |  2,6 kg |   2500 | 
-| ^^                   | ^^      | 40   |  3 kg   |   2850 |
-| ^^                   | ^^      | 50   |  4 kg   |   3200 |
-| Srebrnikowa kolczuga | 26      | 30   | 15 kg   |  64750 |
-| ^^                   | ^^      | 40   | 20 kg   |  80900 |
-| ^^                   | ^^      | 50   | 25 kg   |  97200 |
-| Srebrnikowa płytowa  | 35      | 30   | 20 kg   | 124500 |
-| ^^                   | ^^      | 40   | 25 kg   | 145250 |
-| ^^                   | ^^      | 50   | 30 kg   | 166000 |
-| Stalowa kolczuga     | 32      | 30   | 15 kg   |  12750 |
-| ^^                   | ^^      | 40   | 20 kg   |  15900 |
-| ^^                   | ^^      | 50   | 25 kg   |  19200 |
-| Stalowa płytowa      | 44      | 30   | 20 kg   |  27000 |
-| ^^                   | ^^      | 40   | 25 kg   |  31500 |
-| ^^                   | ^^      | 50   | 30 kg   |  36000 |
-| Żelazna kolczuga     | 24      | 30   | 15 kg   |   8500 |
-| ^^                   | ^^      | 40   | 20 kg   |  10600 |
-| ^^                   | ^^      | 50   | 25 kg   |  12800 |
-| Żelazna płytowa      | 33      | 30   | 20 kg   |  18000 |
-| ^^                   | ^^      | 40   | 25 kg   |  21000 |
-| ^^                   | ^^      | 50   | 30 kg   |  24000 |
+[Zbroje specjalne]
+| Materiał             | Pancerz | Pok. | Waga    | Wartość   |
+| -------------------- | ------- | ---- | ------- | --------- |
+| Dornieńska płytowa   | 55      | 30   | 20 kg   |  54000    |
+| ^^                   | ^^      | 40   | 25 kg   |  63000    |
+| ^^                   | ^^      | 50   | 30 kg   |  72000    |
+| Drowia skórznia      | 19      | 30   |  3 kg   |   2400    | 
+| ^^                   | ^^      | 40   |  4 kg   |   2750    |
+| ^^                   | ^^      | 50   |  5 kg   |   3100    |
+| Elficka skórznia     | 18      | 30   |  2,6 kg |   2500    | 
+| ^^                   | ^^      | 40   |  3 kg   |   2850    |
+| ^^                   | ^^      | 50   |  4 kg   |   3200    |
+| Srebrnikowa kolczuga | 26      | 30   | 15 kg   |  64750    |
+| ^^                   | ^^      | 40   | 20 kg   |  80900    |
+| ^^                   | ^^      | 50   | 25 kg   |  97200    |
+| Srebrnikowa płytowa  | 35      | 30   | 20 kg   | 124500    |
+| ^^                   | ^^      | 40   | 25 kg   | 145250    |
+| ^^                   | ^^      | 50   | 30 kg   | 166000    |
+| Stalowa kolczuga     | 32      | 30   | 15 kg   |  12750    |
+| ^^                   | ^^      | 40   | 20 kg   |  15900    |
+| ^^                   | ^^      | 50   | 25 kg   |  19200    |
+| Stalowa płytowa      | 44      | 30   | 20 kg   |  27000    |
+| ^^                   | ^^      | 40   | 25 kg   |  31500    |
+| ^^                   | ^^      | 50   | 30 kg   |  36000    |
+| Żelazna kolczuga     | 24      | 30   | 15 kg   |   8500    |
+| ^^                   | ^^      | 40   | 20 kg   |  10600    |
+| ^^                   | ^^      | 50   | 25 kg   |  12800    |
+| Żelazna płytowa      | 33      | 30   | 20 kg   |  18000    |
+| ^^                   | ^^      | 40   | 25 kg   |  21000    |
+| ^^                   | ^^      | 50   | 30 kg   |  24000    |

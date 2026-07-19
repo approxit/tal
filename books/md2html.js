@@ -42,9 +42,6 @@ md.use(require('markdown-it-anchor'), {
 });
 md.use(require('markdown-it-toc-done-right'), {
     containerClass: 'book-toc-nav',
-    format: function(x, htmlencode) {
-        return `<span class="book-toc-text">${htmlencode(x)}</span><span class="book-toc-dots"></span>`;
-    },
     slugify: slugifyHeader,
     level: [
         2,
@@ -54,6 +51,7 @@ md.use(require('markdown-it-toc-done-right'), {
 md.use(require('markdown-it-multimd-table'), {
     rowspan: true,
     headerless: true,
+    autolabel: false,
 });
 md.use(require('./plugins/tal_headers'), {
     slugify: tal_slugify,

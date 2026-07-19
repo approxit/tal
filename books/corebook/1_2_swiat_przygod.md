@@ -88,7 +88,7 @@ W ciemnościach postacie, które nie mają zdolności przenikania wzrokiem mroku
 Postać w półmroku podlega modyfikatorowi -5 do testów trafień i wszystkich testów związanych ze wzrokiem. W mroku postać odnosi automatycznie porażki w testach bazujących na wzroku, a test trafienia bronią podlega karze -10. Przed wykonaniem trafienia postać musi być jednak dokładnie świadoma miejsca, gdzie znajduje się przeciwnik. Patrz także: niewidoczny przeciwnik (walka).
 
 [Zasięg światła]
-| Rodzaj oświetlenia              | Jasne światło | Półmrok |
+| Rodzaj oświetlenia              | Jasne&nbsp;światło | Półmrok |
 | :------------------------------ | ------------- | ------- |
 | Hubka i krzesiwo                | -             |  1 m    |
 | Kaganek                         |  3 m          |  6 m    |

@@ -7,18 +7,18 @@ W świecie, gdzie istnieje wysoki poziom analfabetyzmu książki nie są dość 
 Wartość książek zależy od trzech czynników - ich objętości, zawartości oraz ozdobienia. Objętość książki wyrażana jest przede wszystkim w liczbie stron. 
 
 [Objętość stron różnych książek]
-| Nośnik                    | Ojętość stron | Cena |
-| :------------------------ | ------------- | ---- |
-| Księga papierowa, mała    | 100           | 1000 | 
-| Księga papierowa, średnia | 200           | 1500 | 
-| Księga papierowa, duża    | 400           | 2500 | 
-| Papier (kartka)           |   2           |   10 |
-| Zwój skórzany             |   1           |  160 |
-| Zwój papirusowy           |   1           |   60 |
+| Nośnik                    | Ojętość stron | Wartość |
+| :------------------------ | ------------- | ------- |
+| Księga papierowa, mała    | 100           |    1000 | 
+| Księga papierowa, średnia | 200           |    1500 | 
+| Księga papierowa, duża    | 400           |    2500 | 
+| Papier (kartka)           |   2           |      10 |
+| Zwój skórzany             |   1           |     160 |
+| Zwój papirusowy           |   1           |      60 |
 
 Wartość książek zależy jednak przede wszystkim od ich zawartości. Zwykle książki są bardzo tematyczne tzn. cała pozycja ma jednolitą zawartość, co z kolei przekłada się na to, że księga ma wartość jednolitą i jej cenę łatwo obliczyć. Trudniej obliczyć ceny ksiąg wielo-tematycznych, gdyż trzeba wziąć pod uwagę wartość każdego z tematów. Zwrócić tu należy uwagę, że wartość tematyczna księgi jest dość subiektywna, a dalsze informacje są jedynie sugestią jak liczyć dane ceny.
 
-[Zawartość książek a cena]
+[Zawartość książek a wartość]
 | Jakość treści | Wartość za stronę | Przykład |
 | ------------- | ----------------- | :------- |
 | Mistrzowska   |   200+            | Wiedza tajemna dająca dostęp do mocy albo wiążąca się z wielkim ryzykiem. Np. zapiski zaklęć wielkiej mocy. |
@@ -31,7 +31,7 @@ Wartość książek zależy jednak przede wszystkim od ich zawartości. Zwykle k
 
 Z uwagi na swój charakter księgi dość często się "oczyszcza", a następnie zapełnia nową treścią (palimpsest). Dzieje się tak szczególnie wtedy, gdy księga nie przedstawia wartości większej, niż papier na którym ją zapisano.
 
-Ostatnim elementem wpływającym na wartość książki jest jej ozdobienie. Niektóre księgi nie zostają ozdobione, a wtedy ich cena zależy przede wszystkim od ich treści. Pozostałe księgi mogą być ozdobione szlachetnymi metalami, klejnotami lub będąc wykonane mistrzowskim pismem. 
+Ostatnim elementem wpływającym na wartość książki jest jej ozdobienie. Niektóre księgi nie zostają ozdobione, a wtedy ich wartość zależy przede wszystkim od ich treści. Pozostałe księgi mogą być ozdobione szlachetnymi metalami, klejnotami lub będąc wykonane mistrzowskim pismem. 
 
 [Przykłady zdobienia ksiąg]
 | Rodzaj zdobienia na podstawie jednej kart lub okładki | Wartość dodatkowo |
@@ -48,5 +48,10 @@ Poniżej wymieniono popularne w Sorii pozycje tj. księgi, które cieszą się d
 
 #### Słownik  
 
-Waga: 0,5 kg; Cena: 10000.
 Dość niecodzienne znalezisko - słownik. Słownik zawiera słowa w dwóch językach. Posiadanie słownika nie pozwoli postaci na prowadzenie swobodnych rozmów w innym języku. Umożliwi wszelako artykułowanie własnych myśli na poziomie zdań prostych pozbawionych gramatycznej składni o treści zbliżonej do: "ja głodny", "ja jeść", "moje imię to...". Minimalna wartość intelektu pozwalająca na w miarę sprawne korzystanie ze słownika to 9. Im lepsza jakość słownika, tym więcej słów zawiera. Średnio w słowniku jest 1 słowo na 5 wartości (za cenę 10 000 jest 2 000 słów).
+
+Waga
+: 0,5 kg.
+
+Wartość
+: 10000\.

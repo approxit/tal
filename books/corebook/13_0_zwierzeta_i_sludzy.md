@@ -21,7 +21,7 @@ Jakość konia zależy od tego czy jest gorącokrwisty, czy zimnokrwisty. Konie 
 | Kiepska     | x0,75   | Udźwig -1                  | Szybkość -1                |
 | Fatalna     | x0,5    | Udźwig -2, Wytrwałość -1   | Szybkość -2, Wytrwałość -1 |
 
-Poniżej opisano popularne rasy koni. Wpierw wskazana została nazwa konia, następnie jego rodzaj: gorącokrwisty - "G" albo zimnokrwisty - "Z", a następnie region popularnego występowania i na końcu cenę. Końmi się handluje dlatego poza miejscem pochodzenia cena konia może być o połowę wyższa. Szczegółowe statystyki koni znajdują się w Bestiariuszu (Księga Mistrza).
+Poniżej opisano popularne rasy koni. Wpierw wskazana została nazwa konia, następnie jego rodzaj: gorącokrwisty - "G" albo zimnokrwisty - "Z", a następnie region popularnego występowania i na końcu cenę. Końmi się handluje dlatego poza miejscem pochodzenia wartość konia może być o połowę wyższa. Szczegółowe statystyki koni znajdują się w Bestiariuszu (Księga Mistrza).
 
 [Konie]
 | Nazwa            | Rodzaj | Pochodzenie        | Wartość |
@@ -42,7 +42,7 @@ Poniżej opisano popularne rasy koni. Wpierw wskazana została nazwa konia, nast
 | Svirpferd        | Z      | Siegvaard          | 10000   |
 | Turmen           | Z      | Erg                |  7500   |
 
-Wyszkolenie wierzchowca modyfikuje jego cenę po zastosowaniu modyfikatora jakości. W zależności od rasy koń może poznać do czterech działań ale większość zna tylko jedną. Konie gorącokrwiste częściej uczy się bycia dosiadanym, a konie zimnokrwiste bycia końmi  pociągowymi.
+Wyszkolenie wierzchowca modyfikuje jego cenę po zastosowaniu modyfikatora jakości. W zależności od rasy koń może poznać do czterech działań ale większość zna tylko jedną. Konie gorącokrwiste częściej uczy się bycia dosiadanym, a konie zimnokrwiste bycia końmi pociągowymi.
 
 [Tresura konia]
 | Koń             | Działanie                      | Koszt tresury                     |

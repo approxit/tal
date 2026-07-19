@@ -31,6 +31,16 @@ module.exports = function (md, options) {
                     continue;
                 }
 
+                var sub_id_prefix = token.attrGet('data-subchildren-id-prefix');
+                if (sub_id_prefix) {
+                    last_children_id_prefix = sub_id_prefix;
+                    last_parent_header_level = level + 1;
+
+                    // console.log(log);
+
+                    continue;
+                }
+
                 if (level === last_parent_header_level + 1) {
                     var header_slug = token.attrGet('id') || options.slugify(last_children_id_prefix + ' ' + header);
 

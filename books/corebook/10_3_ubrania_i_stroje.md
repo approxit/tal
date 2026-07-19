@@ -39,10 +39,9 @@ Materiały z których zrobione są ubrania zależą od regionu. Ogólnie krawcy 
 
 ^1^ Wartość sztuki średniej wielkości zwierzęcia {.table-footnotes}
 
-[Tkaniny]
-
 Poniżej przedstawiono wartość czystego i świeżego materiału jaki można nabyć.
 
+[Tkaniny]
 | Nazwa          | Wartość 1 m^2^ |
 | -------------- | -------------- | 
 | Aksamit        |  600           |
@@ -59,19 +58,22 @@ Poniżej opisano poszczególne stroje. Poniższa lista nie wyczerpuje wszystkich
 
 ##### Bielizna
 
-Odzież noszona bezpośrednio na skórze w celu osłonięcia genitaliów. Może to być również stanik. Waga: n/d.
+Odzież noszona bezpośrednio na skórze w celu osłonięcia genitaliów. Może to być również stanik.
+
+Waga
+: n/d.
 
 - Aksamitna; Wartość: 300.
 - Jedwabna; Wartość: 700.
-- Koronkowa; Wartość:  500.
+- Koronkowa; Wartość: 500.
 - Lniana; Wartość: 70.
 
 ##### Buty 
 
-Para nieodłącznych przyjaciół nóg, gdy jest się w podróży. Buty robi się ze skóry, a podeszwy zwykle dodatkowo utwardza. Waga i cena dotyczą pary butów.
+Para nieodłącznych przyjaciół nóg, gdy jest się w podróży. Buty robi się ze skóry, a podeszwy zwykle dodatkowo utwardza. Waga i wartość dotyczą pary butów.
 
 - Balowe - bardzo eleganckie buty z przeznaczeniem na wystawne bankiety; Waga: n/d; Wartość: 5 000.
-- Jeździeckie - buty ze szpiczastym czubem, aby można je było łatwo włożyć w strzemiona. Poza tym na takie buty mogą być założone ostrogi, których cena wynosi 250, a które sprawiają, że postać otrzymuje modyfikator +2 do testów jeździectwa; Waga: 0,5 kg; Wartość: 500.
+- Jeździeckie - buty ze szpiczastym czubem, aby można je było łatwo włożyć w strzemiona. Poza tym na takie buty mogą być założone ostrogi, których wartość wynosi 250, a które sprawiają, że postać otrzymuje modyfikator +2 do testów jeździectwa; Waga: 0,5 kg; Wartość: 500.
 - Niskie - zwykłe buty; Waga: 0,5 kg; Wartość: 200.
 - Pantofelki - lekkie i eleganckie buty; Waga: n/d; Wartość: 300.
 - Sandały - otwarte i przewiewne buty; Waga: n/d; Wartość: 100.
@@ -79,7 +81,10 @@ Para nieodłącznych przyjaciół nóg, gdy jest się w podróży. Buty robi si�
 
 ##### Chustka
 
-Mała chustka do wytarcia nosa lub wykorzystania jako ozdoba kieszeni; Waga: n/d.
+Mała chustka do wytarcia nosa lub wykorzystania jako ozdoba kieszeni.
+
+Waga
+: n/d.
 
 - Aksamitna; Wartość: 120.
 - Jedwabna; Wartość: 340.
@@ -87,7 +92,10 @@ Mała chustka do wytarcia nosa lub wykorzystania jako ozdoba kieszeni; Waga: n/d
 
 ##### Dublet/Kamizelka
 
-Obcisły kaftan sięgający bioder z rękawami lub bez rękawów (kamizelka). Zwykle noszony pod ubraniem wierzchnim. Waga: 0,5 kg.
+Obcisły kaftan sięgający bioder z rękawami lub bez rękawów (kamizelka). Zwykle noszony pod ubraniem wierzchnim.
+
+Waga
+: 0,5 kg.
 
 - Aksamitny; Wartość: 900.
 - Skórzany; Wartość: 600.
@@ -95,7 +103,10 @@ Obcisły kaftan sięgający bioder z rękawami lub bez rękawów (kamizelka). Zw
 
 ##### Futrzany płaszcz
 
-Elegancki płaszcz uszyty z futer bardzo ładnych zwierzątek. Futer tych się już nie barwi, gdyż każda barwa zniszczyłaby ich naturalne piękno.  Odporność na chłód: +8; Waga: 3 kg.
+Elegancki płaszcz uszyty z futer bardzo ładnych zwierzątek. Futer tych się już nie barwi, gdyż każda barwa zniszczyłaby ich naturalne piękno. Odporność na chłód: +8;
+
+Waga
+: 3 kg.
 
 - Z białych lisów; Wartość: 45 000.
 - Z gronostajów; Wartość: 200 000.
@@ -105,7 +116,10 @@ Elegancki płaszcz uszyty z futer bardzo ładnych zwierzątek. Futer tych się j
 
 ##### Gorset
 
-Element bielizny służący wyszczupleniu sylwetki. Zaczyna się pod linią piersi, a kończy na udach. Waga: 2 kg
+Element bielizny służący wyszczupleniu sylwetki. Zaczyna się pod linią piersi, a kończy na udach.
+
+Waga
+: 2 kg.
 
 - Koronkowy; Wartość: 5 000.
 - Lniany; Wartość: 700.
@@ -122,7 +136,10 @@ Męski strój sięgający kolan lub krótszy z długimi rękawami. Może to być
 
 ##### Kapelusz/czapka
 
-Różne nakrycia głowy, które różnią się wielkością i kształtem. Waga: n/d.
+Różne nakrycia głowy, które różnią się wielkością i kształtem.
+
+Waga
+: n/d.
 
 - Czapka lniana/szlafmyca; Wartość: 200.
 - Czapka wełniana; Wartość: 450.
@@ -139,7 +156,10 @@ Różne nakrycia głowy, które różnią się wielkością i kształtem. Waga: 
 
 ##### Koszula
 
-Zwykła koszula, którą nosi się w ciepłe dni na wierzchu, a w chłodne pod ubraniem wierzchnim. Waga: n/d.
+Zwykła koszula, którą nosi się w ciepłe dni na wierzchu, a w chłodne pod ubraniem wierzchnim.
+
+Waga
+: n/d.
 
 - Aksamitna; Wartość: 900.
 - Jedwabna; Wartość: 2 100.
@@ -151,16 +171,22 @@ Zwykła koszula, którą nosi się w ciepłe dni na wierzchu, a w chłodne pod u
 
 ##### Na nogi
 
-Można założyć wiele dodatków. Waga: n/d; Wartość dotyczy pary.
+Można założyć wiele dodatków. Wartość dotyczy pary.
 
-- Onuce; Wartość: 56
-- Podwiązki; Wartość: 50
+Waga
+: n/d.
+
+- Onuce; Wartość: 56.
+- Podwiązki; Wartość: 50.
 - Pończochy; Wartość: 300.
 - Skarpety; Wartość: 200.
 
 ##### Peleryna długa
 
-Wierzchnie okrycie bez rękawów narzucone na plecy i zapięte pod szyją, które sięga przynajmniej za kolana. Niektóre peleryny mają kaptury. Waga: 1 kg.
+Wierzchnie okrycie bez rękawów narzucone na plecy i zapięte pod szyją, które sięga przynajmniej za kolana. Niektóre peleryny mają kaptury.
+
+Waga
+: 1 kg.
 
 - Aksamitna; Wartość: 1 800.
 - Lniana; Wartość: 430.
@@ -168,7 +194,10 @@ Wierzchnie okrycie bez rękawów narzucone na plecy i zapięte pod szyją, któr
 
 ##### Peleryna krótka
 
-Wierzchnie okrycie bez rękawów narzucone na plecy i zapięte pod szyją, które sięga najdalej do ud. Niektóre peleryny mają kaptury. Waga: 1 kg.
+Wierzchnie okrycie bez rękawów narzucone na plecy i zapięte pod szyją, które sięga najdalej do ud. Niektóre peleryny mają kaptury.
+
+Waga
+: 1 kg.
 
 - Aksamitna; Wartość: 1 200.
 - Lniana; Wartość: 280.
@@ -184,7 +213,10 @@ Wierzchnie okrycie, którego podstawową rolą jest okrycie przed zimnem. Płasz
 
 ##### Rękawiczki
 
-Odzienie noszone na dłoniach, które ma chronić je przed chłodem i podrażnieniami albo jako ozdoba. Waga: n/d.
+Odzienie noszone na dłoniach, które ma chronić je przed chłodem i podrażnieniami albo jako ozdoba.
+
+Waga
+: n/d.
 
 - Aksamitne; Wartość: 1 000.
 - Jedwabne; Wartość: 2 000.
@@ -193,7 +225,10 @@ Odzienie noszone na dłoniach, które ma chronić je przed chłodem i podrażnie
 
 ##### Spodnie/Spódnica
 
-Proste spodnie bez kieszeni albo prosta spódnica sięgająca do ziemi. Mogą to być również bryczesy.  Waga: 0,5 kg.
+Proste spodnie bez kieszeni albo prosta spódnica sięgająca do ziemi. Mogą to być również bryczesy.
+
+Waga
+: 0,5 kg.
 
 - Aksamitne; Wartość: 950.
 - Jedwabne; Wartość: 2 150.
@@ -206,7 +241,10 @@ Proste spodnie bez kieszeni albo prosta spódnica sięgająca do ziemi. Mogą to
 
 ##### Suknia balowa
 
-Elegancka i stylowa szata dla prawdziwej damy. Waga: 3 kg.
+Elegancka i stylowa szata dla prawdziwej damy.
+
+Waga
+: 3 kg.
 
 - Aksamitna: 6 000.
 - Jedwabna: 14 000.
@@ -229,20 +267,40 @@ Jednoczęściowa, luźna i obszerna szata jest odzieniem wierzchnim. Często jej
 
 ##### Pasek
 
-Waga: n/d; Wartość: 250.
 Zwykły skórzany pasek, który utrzymuje spodnie i można do niego przywiązać sakiewki i torebki. 
+
+Waga
+: n/d.
+
+Wartość
+: 250\.
 
 ##### Szal
 
-Waga: n/d; Wartość: 100.
 Wełniany szal, którym oplata się szyję, aby było cieplej.
+
+Waga
+: n/d.
+
+Wartość
+: 100\.
 
 ##### Szarfa
 
-Waga: n/d; Wartość: 100.
 Kawałek materiału, który służy głównie do ozdoby, ale można nim utrzymać spodnie lub inne części garderoby.
+
+Waga
+: n/d.
+
+Wartość
+: 100\.
 
 ##### Sznurek paskowy
 
-Waga: n/d; Wartość: 15
 Zwykły sznurek służący do tego, aby przewiązać się w pasie.
+
+Waga
+: n/d.
+
+Wartość
+: 15\.

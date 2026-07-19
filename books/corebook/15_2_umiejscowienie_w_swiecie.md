@@ -4,9 +4,6 @@ Każdy skądś pochodzi i wychował się w jakichś warunkach. Możliwe, że Two
 
 Pierwszą korzyścią z wyboru regionu pochodzenia postaci jest otrzymanie "darmowego" języka, który jest charakterystyczny dla danego regionu. Drugą korzyścią jest możliwość przeprowadzania wszystkich testów znajomości związanych z regionem, a trzecią dostęp do specjalnej listy zdolności, którą postać będzie mogła zakupić za doświadczenie początkowe.
 
-TODO: zredagować poniższy tytuł "LISTA REGIONÓW POCHODZENIA", czy nie powinno być czegoś innego zamiast trzech hashów
-### LISTA REGIONÓW POCHODZENIA
-
 #### Enklawa Leśnego Ludu
 
 Po całej Sorii w regionach, gdzie dominują ludzie, a ostały się jeszcze wielkie lasy może znajdować się enklawa zielonych elfów. Elfowie ci są żyją we własnych małych społecznościach, które są pozostałością po czasach, gdy w Sorii byli dominującą siłą. Elfowie mimo życia w enklawach niemal zawsze orientują się na swój świat zewnętrzny, więc naturalnym jest utrzymywanie przez nich kontaktów przynajmniej z ludźmi żyjącymi poza ich siedliskami. Enklawy występują w Carphetii, Espagrii, Lantynie, Rimtal, Scytrii, Siegvaardzie i Środkowych Królestwach. 

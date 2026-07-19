@@ -173,6 +173,7 @@ Wymagania
 
 Korzyść
 : Zdolność zapewnia dostęp do listy specjalnych zdolności wzorca.
+
 #### Farciarz
 
 Masz fart. Masz fart jak mało kto. Jesteś przesądny i wierzysz w fatum... a co najdziwniejsze, zdajesz się mieć rację.

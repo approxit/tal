@@ -4,7 +4,7 @@ Na poniższych stronach zamieszczone zostały informacje dotyczące ekwipunku, j
 
 Dla przejrzystości przeglądu każda kategoria ekwipunku stanowi oddzielny rozdział, a jej typy stanowią podrozdziały. Dopiero w tych ostatnich opisane zostały przykładowe przedmioty.
 
-Przy niemal wszystkich przedmiotach podana została "wartość" albo "cena". Te dwa pojęcia są używane poniżej zamiennie i wyrażają abstrakcyjną wartość wymiany danego przedmiotu na rynku. Im przedmiot ma wyższą wartość, tym więcej innych dóbr można za niego wymienić. Np. Przedmiot o wartości 10 000 można wymienić na dziesięć przedmiotów o wartości 1 000 w transakcji na której nikt nie traci. Wymiana jednak dobra o wartości 10 000 na dobra o wartości 10 001, to już zysk - i na tym też polega robienie interesów w Sorii.
+Przy niemal wszystkich przedmiotach podana została "wartość". Wartość to abstrakcyjna liczba, której równowartość trzeba zapłacić. Im przedmiot ma wyższą wartość, tym więcej innych dóbr można za niego wymienić. Np. Przedmiot o wartości 10 000 można wymienić na dziesięć przedmiotów o wartości 1 000 w transakcji na której nikt nie traci. Wymiana jednak dobra o wartości 10 000 na dobra o wartości 10 001, to już zysk - i na tym też polega robienie interesów w Sorii.
 
 Wartości te są jednak ogólno-poglądowe i za każdym razem, gdy coś zaburzy rynek (np. pojawienie się dużej ilości złota lub dóbr jakiegoś rodzaju) to również wartości zostaną zaburzone w myśl zasady - im coś jest powszechniejsze, tym mniej warte. 
 

@@ -4,28 +4,28 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/ebgaramond/v14/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-2fRUAw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/ebgaramond/v33/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-2fRUAw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'EB Garamond';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/ebgaramond/v14/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNUAw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/ebgaramond/v33/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNUAw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Cinzel';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/cinzel/v10/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnTYo.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/cinzel/v26/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnTYo.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Eagle Lake';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/eaglelake/v8/ptRMTiqbbuNJDOiKj9wG5O4.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/eaglelake/v26/ptRMTiqbbuNJDOiKj9wG5O4.ttf) format('truetype');
 }
 /* Variables */
 /* Mixins */
@@ -33,72 +33,72 @@
 @page {
   size: A4;
   margin: 2cm;
-  background: url('bg.jpg') no-repeat;
+  padding: 0;
+  background-image: url('bg.jpg');
+  background-attachment: fixed;
   background-size: cover;
-  font-family: 'EB Garamond', serif;
-  font-size: 10pt;
-  line-height: 1.25;
-  scroll-behavior: smooth;
   orphans: 3;
   widows: 3;
   counter-increment: page;
 }
 @page :blank {
-  @bottom-right-corner {
+  @bottom-right-corner ::before {
     content: none;
     display: none;
   }
-  @bottom-left-corner {
+  @bottom-left-corner ::before {
     content: none;
     display: none;
   }
 }
 @page :right {
-  @bottom-right-corner {
+  @bottom-right-corner ::before {
     content: counter(page);
     text-align: center;
     background-color: rgba(190, 150, 80, 0.65);
-    border-radius: 15pt;
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-top: calc(70% - 0.75rem);
-    box-shadow: rgba(0, 0, 0, 0.5) 0 1pt;
-    margin-left: calc(70% - 0.75rem);
+    border-radius: 50%;
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-top: calc(70% - 1rem);
+    border-bottom: 1pt solid #554220;
+    margin-left: calc(70% - 1rem);
   }
 }
 @page :left {
-  @bottom-left-corner {
+  @bottom-left-corner :before {
     content: counter(page);
     text-align: center;
     background-color: rgba(190, 150, 80, 0.65);
-    border-radius: 15pt;
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-top: calc(70% - 0.75rem);
-    box-shadow: rgba(0, 0, 0, 0.5) 0 1pt;
-    margin-left: calc(30% - 0.75rem);
+    border-radius: 50%;
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-top: calc(70% - 1rem);
+    border-bottom: 1pt solid #554220;
+    margin-right: calc(70% - 1rem);
   }
 }
 @page book-cover-front {
   background: url('cover.jpg') no-repeat right bottom;
+  background-attachment: fixed;
   background-size: cover;
-  @bottom-right-corner {
+  @bottom-right-corner ::before {
     content: none;
     display: none;
   }
-  @bottom-left-corner {
+  @bottom-left-corner ::before {
     content: none;
     display: none;
   }
 }
 @page book-cover-back {
   background: url('cover.jpg') no-repeat left bottom;
+  background-attachment: fixed;
   background-size: cover;
-  @bottom-right-corner {
+  @bottom-right-corner ::before {
     content: none;
     display: none;
   }
-  @bottom-left-corner {
+  @bottom-left-corner ::before {
     content: none;
     display: none;
   }
@@ -124,43 +124,40 @@
   }
 }
 @page chapter:left {
-  @left-top {
+  @left-top ::before {
     content: "Rozdział " counter(chapter-number, upper-roman) ": " string(chapter);
+    display: block;
     white-space: pre;
-    height: 2rem;
-    width: fit-content;
-    padding: 0 1rem;
+    height: 2.4rem;
+    padding: 0 1.2rem;
     vertical-align: middle;
     transform-origin: top left;
     background-color: rgba(190, 150, 80, 0.65);
-    transform: rotate(90deg) translate(0, -2cm);
-    border-radius: 0 0 1rem 1rem;
+    border-radius: 0 0 1.2rem 1.2rem;
     box-shadow: rgba(0, 0, 0, 0.5) 1pt 0;
-    transform: rotate(90deg) translate(0, -100%);
-    border-radius: 1rem 1rem 0 0;
+    border-radius: 1.2rem 1.2rem 0 0;
   }
 }
 @page chapter:right {
-  @right-top {
+  @top-right ::before {
     content: "Rozdział " counter(chapter-number, upper-roman) ": " string(chapter);
+    display: block;
     white-space: pre;
-    height: 2rem;
-    width: fit-content;
-    padding: 0 1rem;
+    height: 2.4rem;
+    padding: 0 1.2rem;
     vertical-align: middle;
     transform-origin: top left;
     background-color: rgba(190, 150, 80, 0.65);
     box-shadow: rgba(0, 0, 0, 0.5) 1pt 0;
-    transform: rotate(90deg) translate(0, -2cm);
-    border-radius: 0 0 1rem 1rem;
+    border-radius: 0 0 1.2rem 1.2rem;
   }
 }
 @page no-paging {
-  @bottom-right-corner {
+  @bottom-right-corner ::before {
     content: none;
     display: none;
   }
-  @bottom-left-corner {
+  @bottom-left-corner ::before {
     content: none;
     display: none;
   }
@@ -169,25 +166,24 @@
 .book-cover-front {
   page: book-cover-front;
 }
-.book-cover-front hr {
-  border-width: 0 0 1pt 0;
-  border-color: #be9650;
-  margin: 5%;
-}
 .book-cover-front .book-title {
-  font-size: 3rem;
+  font-size: 3.6rem;
   margin-top: 15%;
   margin-bottom: 5%;
 }
 .book-cover-front .book-subtitle {
-  font-size: 8rem;
+  font-size: 9.6rem;
   margin-bottom: 30%;
 }
 .book-cover-front .book-author {
-  font-size: 2rem;
+  font-size: 2.4rem;
+  padding: 5% 0;
+  margin: 5% 0;
+  border-top: 1pt #be9650 solid;
+  border-bottom: 1pt #be9650 solid;
 }
 .book-cover-front .book-version {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .book-cover-front .book-title,
 .book-cover-front .book-subtitle {
@@ -212,14 +208,14 @@
   height: 100%;
 }
 .book-toc .book-toc-title {
-  font-size: 2rem;
+  font-size: 2.4rem;
   margin-bottom: 5%;
   text-align: center;
   padding-bottom: 5%;
   border-bottom: 1pt #000000 solid;
   column-span: all;
 }
-.book-toc .book-toc-nav > ol {
+.book-toc .book-toc-nav > ol > li {
   break-inside: avoid;
 }
 .book-toc .book-toc-nav > ol > li > a {
@@ -228,22 +224,11 @@
 .book-toc .book-toc-nav > ol > li > a::before {
   content: "Rozdział " target-counter(attr(href), chapter-number, upper-roman) ": ";
 }
-.book-toc .book-toc-nav > ol ol a {
-  margin-left: 1rem;
-  display: flex;
-}
-.book-toc .book-toc-nav > ol ol a .book-toc-text {
-  flex: none;
-}
-.book-toc .book-toc-nav > ol ol a .book-toc-dots {
-  border-bottom: 1pt dotted;
-  flex: auto;
-  height: 9pt;
-  margin: 0 3pt;
+.book-toc .book-toc-nav > ol ol {
+  margin-left: 1.2rem;
 }
 .book-toc .book-toc-nav > ol ol a::after {
-  flex: none;
-  content: target-counter(attr(href), page);
+  content: leader('.') target-counter(attr(href), page);
 }
 /* Page breaking */
 article,
@@ -254,14 +239,29 @@ article,
   break-before: left;
 }
 h3 {
-  break-before: page;
+  break-before: always;
 }
-table:not(.wide-table):not(.long-table) {
+h3,
+h4,
+caption {
+  break-after: avoid;
+}
+table {
   break-inside: avoid;
+}
+table.long-table {
+  break-inside: auto;
 }
 /* General */
 * {
   box-sizing: border-box;
+}
+html {
+  font-family: 'EB Garamond', serif;
+  font-size: 10pt;
+}
+body {
+  line-height: 1.25;
 }
 strong {
   font-weight: bold;
@@ -281,13 +281,20 @@ a {
   text-decoration: none;
 }
 sup {
-  top: -0.25rem;
+  top: -0.3rem;
   position: relative;
-  font-size: 0.8rem;
+  font-size: 0.96rem;
+}
+ul {
+  margin-left: 0.6rem;
+}
+ul li:before {
+  content: "•";
+  margin-right: 0.6rem;
 }
 /* Headers */
 h2 {
-  font-size: 2rem;
+  font-size: 2.4rem;
   column-span: all;
   text-align: center;
   margin: 30% 0;
@@ -300,72 +307,53 @@ h2 {
 }
 h2::before {
   content: "Rozdział " counter(chapter-number, upper-roman);
-  font-size: 1rem;
-  line-height: 2rem;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
   display: block;
 }
 h3 {
-  font-size: 1.4rem;
-  padding: 0.5rem 0;
-  margin-bottom: 1rem;
+  font-size: 1.68rem;
+  padding: 0.6rem 0;
+  margin-bottom: 1.2rem;
   border-bottom: 1pt #000000 solid;
   border-top: 1pt #000000 solid;
   text-align: center;
 }
 h4 {
-  font-size: 1.2rem;
+  font-size: 1.44rem;
   border-bottom: 1pt #000000 solid;
+  margin-bottom: 0.6rem;
 }
 h5 {
-  text-transform: uppercase;
-}
-h6 {
-  font-weight: bold;
-}
-h4,
-h5,
-h6 {
-  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
 }
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
   font-family: 'Eagle Lake', cursive;
 }
 dl + h3,
 dl + h4,
 dl + h5,
-dl + h6,
 p + h3,
 p + h4,
 p + h5,
-p + h6,
 table + h3,
 table + h4,
 table + h5,
-table + h6,
 ol + h3,
 ol + h4,
 ol + h5,
-ol + h6,
 ul + h3,
 ul + h4,
-ul + h5,
-ul + h6 {
-  margin-top: 0.5rem;
-}
-h2 + p:first-letter {
-  float: left;
-  font-size: 3rem;
-  line-height: 1;
-  margin-right: 0.5rem;
+ul + h5 {
+  margin-top: 0.6rem;
 }
 /* Definition list */
 p + p,
 dl + p {
-  text-indent: 2rem;
+  text-indent: 2.4rem;
 }
 dl {
   text-align: justify;
@@ -388,16 +376,18 @@ dl dd > p {
 }
 /* Tables */
 table {
-  margin: 0.5rem 0;
+  margin: 0.6rem 0;
   width: 100%;
   text-align: center;
+}
+table:not(.not-counted-table) {
   counter-increment: table-number;
 }
 table.wide-table {
   column-span: all;
 }
 table caption {
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.6rem;
   font-weight: bold;
   text-align: left;
 }
@@ -425,7 +415,7 @@ table tbody tr:nth-child(odd) {
 }
 .table-footnotes {
   text-align: left;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
 }
 .wide-table + .table-footnotes {
   column-span: all;

@@ -26,9 +26,9 @@ Twarda piącha
 : Orkowie mają znacznie większe dłonie od przeciętnego człowieka, a poza tym znacznie lepiej nimi uderzają. Poniższa tabelka zastępuje tę podstawową dla uderzenia bez broni:
 
 [Uderzenie gołą pięścią orków]
-| KO  | SO  | Waga | Cena |
-| --- | --- | ---- | ---- |
-| 1k8 | 1/8 | n/d  | n/d  |
+| KO  | SO  | Waga | Wartość |
+| --- | --- | ---- | ------- |
+| 1k8 | 1/8 | n/d  | n/d     |
 | Cechy: Lekkie, Słabe, Walka Wręcz ||||
 
 Węch

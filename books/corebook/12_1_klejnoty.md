@@ -21,7 +21,7 @@ Masa klejnotu wyrażana jest w karatach. Karat to 0,2 grama, czyli tyle ile wyno
 
 Aby określić wartość danego klejnotu należy ustalić jego cenę, a następnie pomnożyć ją przez wagę w karatach. Tak uzyskana wartość będzie informacją jak cenna jest waga danego klejnotu. Następnie należy określić jakość danego klejnotu i odpowiednio zmodyfikować jego wartość (np. mnożąc ją przez odpowiedni mnożnik jakości). Ostatnim krokiem jest ustalenie, czy klejnot jest fasetowany, czy nie. W przypadku fasetowania wzrasta wartość klejnotu, ale zmniejsza się jego waga. Po uwzględnieniu tych czterech parametrów można określić cenę danego klejnotu. 
 
-**Cena x Waga x Jakość x Fasetowanie**
+**Wartość x Waga x Jakość x Fasetowanie**
 
 [Klejnoty]
 | Nazwa                          | Wartość |
