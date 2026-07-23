@@ -33,7 +33,7 @@
 /* Mixins */
 
 .page-number() {
-	content: counter(page);
+	content: counter(page-number);
 	text-align: center;
 
 	background-color: fade(@accent-color, 65%);
@@ -45,7 +45,7 @@
 }
 
 .page-number-left() {
-	@bottom-left-corner:before {
+	@bottom-left-corner {
 		.page-number();
 
 		margin-right: calc(70% - 1rem);
@@ -53,7 +53,7 @@
 }
 
 .page-number-right() {
-	@bottom-right-corner::before {
+	@bottom-right-corner {
 		.page-number();
 
 		margin-left: calc(70% - 1rem);
@@ -61,19 +61,19 @@
 }
 
 .no-page-numbers() {
-	@bottom-right-corner::before {
-		content: none;
+	@bottom-right-corner {
+		content: normal;
 		display: none;
 	}
 
-	@bottom-left-corner::before {
-		content: none;
+	@bottom-left-corner {
+		content: normal;
 		display: none;
 	}
 }
 
 .chapter-ribbon() {
-	content: "Rozdział " counter(chapter-number, upper-roman) ": " string(chapter);
+	content: "Rozdział " string(chapter-ribbon-number) ": " string(chapter-ribbon-name);
 	display: block;
 	white-space: pre;
 	height: @big-size;
@@ -82,35 +82,36 @@
 	transform-origin: top left;
 	background-color: fade(@accent-color, 65%);
 	border-radius: 0 0 @medium-size @medium-size;
-	box-shadow: fade(@text-color, 50%) @small-line 0;
+	border-right: @small-line solid darken(@accent-color, 30%);
+	z-index: 10;
 }
 
 .chapter-ribbon-left() {
-	@left-top::before {
+	@top-left {
 		.chapter-ribbon();
 
-		//transform: rotate(90deg) translate(0, -100%);
+		transform: translate(-@page-margin, 0) translate(@big-size, @big-size) rotate(90deg);
 		border-radius: @medium-size @medium-size 0 0;
 	}
-};
+}
 
 .chapter-ribbon-right() {
-	@top-right::before {
+	@top-right {
 		.chapter-ribbon();
 
-		//transform: rotate(90deg) translate(0, calc(0 * @page-margin));
+		transform: translate(@page-margin, 0) translate(100%, @big-size) rotate(90deg);
 		border-radius: 0 0 @medium-size @medium-size;
 	}
-};
+}
 
 .no-chapter-ribbons() {
-	@right-top {
-		content: none;
+	@top-left {
+		content: normal;
 		display: none;
 	}
 
-	@left-top {
-		content: none;
+	@top-right {
+		content: normal;
 		display: none;
 	}
 }
@@ -140,18 +141,21 @@
 	orphans: 3;
 	widows: 3;
 
-	counter-increment: page;
+	counter-increment: page-number;
 }
 
 @page:blank {
+	.no-chapter-ribbons();
 	.no-page-numbers();
 }
 
 @page:right {
+	.chapter-ribbon-right();
 	.page-number-right();
 }
 
 @page:left {
+	.chapter-ribbon-left();
 	.page-number-left();
 }
 
@@ -160,6 +164,7 @@
 	background-attachment: fixed;
 	background-size: cover;
 
+	.no-chapter-ribbons();
 	.no-page-numbers();
 }
 
@@ -168,26 +173,17 @@
 	background-attachment: fixed;
 	background-size: cover;
 
+	.no-chapter-ribbons();
 	.no-page-numbers();
 }
 
-@page chapter:first {
+@page :nth(1 of chapter) {
 	.no-chapter-ribbons();
+	.no-page-numbers();
 }
 
-@page chapter:blank {
+@page clean-margins {
 	.no-chapter-ribbons();
-}
-
-@page chapter:left {
-	.chapter-ribbon-left();
-}
-
-@page chapter:right {
-	.chapter-ribbon-right();
-}
-
-@page no-paging {
 	.no-page-numbers();
 }
 
@@ -221,7 +217,7 @@
 
 	.book-title,
 	.book-subtitle {
-		text-shadow: fade(@text-color, 50%) @big-line @big-line;
+		//text-shadow: fade(@text-color, 50%) @big-line @big-line;
 	}
 
 	.book-title,
@@ -241,7 +237,7 @@
 .book-toc {
 	.text-in-columns();
 
-	page: no-paging;
+	page: clean-margins;
 	height: 100%;
 
 	.book-toc-title {
@@ -270,7 +266,7 @@
 			margin-left: @medium-size;
 
 			a::after {
-				content: leader('.') target-counter(attr(href), page);
+				content: leader('.') target-counter(attr(href), page-number);
 			}
 		}
 	}
@@ -295,10 +291,10 @@ h3, h4, caption {
 }
 
 table {
-	break-inside: avoid;
+	//break-inside: avoid;
 
 	&.long-table {
-		break-inside: auto;
+		//break-inside: auto;
 	}
 }
 
@@ -311,6 +307,7 @@ table {
 html {
 	font-family: @text-font-family;
 	font-size: @text-font-size;
+	counter-reset: chapter-number;
 }
 
 body {
@@ -363,7 +360,7 @@ h2 {
 	border-bottom: $border-top;
 
 	counter-increment: chapter-number;
-	string-set: chapter content(text);
+	string-set: chapter-ribbon-number counter(chapter-number, upper-roman), chapter-ribbon-name content(text);
 	counter-reset: table-number;
 
 	&::before {

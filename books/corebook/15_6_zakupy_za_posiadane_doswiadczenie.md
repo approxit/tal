@@ -5,7 +5,7 @@ Za doświadczenie początkowe można wykupić niektóre zdolności, a za doświa
 [Koszt zakupu poziomów umiejętności w punkach doświadczenia]
 | Poziom | Koszt | Koszt łączny |
 | ------ | ----- | ------------ |
-{#tabela-zakup-poziomow-umiejetnosci-1 .long-table}
+{#tabela-zakup-poziomow-umiejetnosci-1}
 
 Kupowanie atrybutów za doświadczenie to najbardziej kosztowne przedsięwzięcie. Każdy z atrybutów należy rozwijać w sposób indywidualny. Pierwsze podwyższenie atrybutu kosztuje 2000 punktów doświadczenia, drugie 3000, trzecie 5000, a każde kolejne kosztuje tyle punktów doświadczenia ile wynosi suma dwóch poprzednich podwyższeń.
 

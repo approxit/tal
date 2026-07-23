@@ -39,21 +39,43 @@
   background-size: cover;
   orphans: 3;
   widows: 3;
-  counter-increment: page;
+  counter-increment: page-number;
 }
 @page :blank {
-  @bottom-right-corner ::before {
-    content: none;
+  @top-left {
+    content: normal;
     display: none;
   }
-  @bottom-left-corner ::before {
-    content: none;
+  @top-right {
+    content: normal;
+    display: none;
+  }
+  @bottom-right-corner {
+    content: normal;
+    display: none;
+  }
+  @bottom-left-corner {
+    content: normal;
     display: none;
   }
 }
 @page :right {
-  @bottom-right-corner ::before {
-    content: counter(page);
+  @top-right {
+    content: "Rozdział " string(chapter-ribbon-number) ": " string(chapter-ribbon-name);
+    display: block;
+    white-space: pre;
+    height: 2.4rem;
+    padding: 0 1.2rem;
+    vertical-align: middle;
+    transform-origin: top left;
+    background-color: rgba(190, 150, 80, 0.65);
+    border-right: 1pt solid #554220;
+    z-index: 10;
+    transform: translate(2cm, 0) translate(100%, 2.4rem) rotate(90deg);
+    border-radius: 0 0 1.2rem 1.2rem;
+  }
+  @bottom-right-corner {
+    content: counter(page-number);
     text-align: center;
     background-color: rgba(190, 150, 80, 0.65);
     border-radius: 50%;
@@ -65,8 +87,23 @@
   }
 }
 @page :left {
-  @bottom-left-corner :before {
-    content: counter(page);
+  @top-left {
+    content: "Rozdział " string(chapter-ribbon-number) ": " string(chapter-ribbon-name);
+    display: block;
+    white-space: pre;
+    height: 2.4rem;
+    padding: 0 1.2rem;
+    vertical-align: middle;
+    transform-origin: top left;
+    background-color: rgba(190, 150, 80, 0.65);
+    border-radius: 0 0 1.2rem 1.2rem;
+    border-right: 1pt solid #554220;
+    z-index: 10;
+    transform: translate(-2cm, 0) translate(2.4rem, 2.4rem) rotate(90deg);
+    border-radius: 1.2rem 1.2rem 0 0;
+  }
+  @bottom-left-corner {
+    content: counter(page-number);
     text-align: center;
     background-color: rgba(190, 150, 80, 0.65);
     border-radius: 50%;
@@ -81,12 +118,20 @@
   background: url('cover.jpg') no-repeat right bottom;
   background-attachment: fixed;
   background-size: cover;
-  @bottom-right-corner ::before {
-    content: none;
+  @top-left {
+    content: normal;
     display: none;
   }
-  @bottom-left-corner ::before {
-    content: none;
+  @top-right {
+    content: normal;
+    display: none;
+  }
+  @bottom-right-corner {
+    content: normal;
+    display: none;
+  }
+  @bottom-left-corner {
+    content: normal;
     display: none;
   }
 }
@@ -94,71 +139,56 @@
   background: url('cover.jpg') no-repeat left bottom;
   background-attachment: fixed;
   background-size: cover;
-  @bottom-right-corner ::before {
-    content: none;
+  @top-left {
+    content: normal;
     display: none;
   }
-  @bottom-left-corner ::before {
-    content: none;
+  @top-right {
+    content: normal;
     display: none;
   }
-}
-@page chapter:first {
-  @right-top {
-    content: none;
+  @bottom-right-corner {
+    content: normal;
     display: none;
   }
-  @left-top {
-    content: none;
-    display: none;
-  }
-}
-@page chapter:blank {
-  @right-top {
-    content: none;
-    display: none;
-  }
-  @left-top {
-    content: none;
+  @bottom-left-corner {
+    content: normal;
     display: none;
   }
 }
-@page chapter:left {
-  @left-top ::before {
-    content: "Rozdział " counter(chapter-number, upper-roman) ": " string(chapter);
-    display: block;
-    white-space: pre;
-    height: 2.4rem;
-    padding: 0 1.2rem;
-    vertical-align: middle;
-    transform-origin: top left;
-    background-color: rgba(190, 150, 80, 0.65);
-    border-radius: 0 0 1.2rem 1.2rem;
-    box-shadow: rgba(0, 0, 0, 0.5) 1pt 0;
-    border-radius: 1.2rem 1.2rem 0 0;
-  }
-}
-@page chapter:right {
-  @top-right ::before {
-    content: "Rozdział " counter(chapter-number, upper-roman) ": " string(chapter);
-    display: block;
-    white-space: pre;
-    height: 2.4rem;
-    padding: 0 1.2rem;
-    vertical-align: middle;
-    transform-origin: top left;
-    background-color: rgba(190, 150, 80, 0.65);
-    box-shadow: rgba(0, 0, 0, 0.5) 1pt 0;
-    border-radius: 0 0 1.2rem 1.2rem;
-  }
-}
-@page no-paging {
-  @bottom-right-corner ::before {
-    content: none;
+@page :nth(1 of chapter) {
+  @top-left {
+    content: normal;
     display: none;
   }
-  @bottom-left-corner ::before {
-    content: none;
+  @top-right {
+    content: normal;
+    display: none;
+  }
+  @bottom-right-corner {
+    content: normal;
+    display: none;
+  }
+  @bottom-left-corner {
+    content: normal;
+    display: none;
+  }
+}
+@page clean-margins {
+  @top-left {
+    content: normal;
+    display: none;
+  }
+  @top-right {
+    content: normal;
+    display: none;
+  }
+  @bottom-right-corner {
+    content: normal;
+    display: none;
+  }
+  @bottom-left-corner {
+    content: normal;
     display: none;
   }
 }
@@ -186,10 +216,6 @@
   font-size: 1.2rem;
 }
 .book-cover-front .book-title,
-.book-cover-front .book-subtitle {
-  text-shadow: rgba(0, 0, 0, 0.5) 2pt 2pt;
-}
-.book-cover-front .book-title,
 .book-cover-front .book-subtitle,
 .book-cover-front .book-author,
 .book-cover-front .book-version {
@@ -204,7 +230,7 @@
   columns: 2;
   column-fill: auto;
   column-gap: 5%;
-  page: no-paging;
+  page: clean-margins;
   height: 100%;
 }
 .book-toc .book-toc-title {
@@ -228,7 +254,7 @@
   margin-left: 1.2rem;
 }
 .book-toc .book-toc-nav > ol ol a::after {
-  content: leader('.') target-counter(attr(href), page);
+  content: leader('.') target-counter(attr(href), page-number);
 }
 /* Page breaking */
 article,
@@ -246,12 +272,6 @@ h4,
 caption {
   break-after: avoid;
 }
-table {
-  break-inside: avoid;
-}
-table.long-table {
-  break-inside: auto;
-}
 /* General */
 * {
   box-sizing: border-box;
@@ -259,6 +279,7 @@ table.long-table {
 html {
   font-family: 'EB Garamond', serif;
   font-size: 10pt;
+  counter-reset: chapter-number;
 }
 body {
   line-height: 1.25;
@@ -302,7 +323,7 @@ h2 {
   border-top: 1pt #000000 solid;
   border-bottom: 1pt #000000 solid;
   counter-increment: chapter-number;
-  string-set: chapter content(text);
+  string-set: chapter-ribbon-number counter(chapter-number, upper-roman), chapter-ribbon-name content(text);
   counter-reset: table-number;
 }
 h2::before {
